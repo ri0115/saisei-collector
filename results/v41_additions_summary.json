@@ -1,0 +1,50 @@
+{
+  "version": "v41-additions",
+  "updated_at": "2026-09-18T22:44:08.513493+00:00",
+  "total": 774,
+  "processed": 774,
+  "pending": 0,
+  "auto": 508,
+  "qc": 266,
+  "fail": 0,
+  "price_records": 1501,
+  "unique_facilities": 586,
+  "shards": {
+    "A": {
+      "total": 194,
+      "processed": 194,
+      "pending": 0,
+      "auto": 121,
+      "qc": 73,
+      "fail": 0,
+      "qc_refine_remaining": 0
+    },
+    "B": {
+      "total": 194,
+      "processed": 194,
+      "pending": 0,
+      "auto": 135,
+      "qc": 59,
+      "fail": 0,
+      "qc_refine_remaining": 0
+    },
+    "C": {
+      "total": 193,
+      "processed": 193,
+      "pending": 0,
+      "auto": 124,
+      "qc": 69,
+      "fail": 0,
+      "qc_refine_remaining": 0
+    },
+    "D": {
+      "total": 193,
+      "processed": 193,
+      "pending": 0,
+      "auto": 128,
+      "qc": 65,
+      "fail": 0,
+      "qc_refine_remaining": 0
+    }
+  }
+}
