@@ -1,15 +1,15 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T11:45:50.047229+00:00",
+  "updated_at": "2026-09-18T11:47:46.652909+00:00",
   "summary": {
     "total": 216,
     "processed": 216,
     "pending": 0,
-    "auto": 134,
-    "qc": 67,
-    "fail": 15,
-    "qc_refine_remaining": 39
+    "auto": 137,
+    "qc": 63,
+    "fail": 16,
+    "qc_refine_remaining": 35
   },
   "items": [
     {
@@ -9220,7 +9220,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:25:18.948278+00:00",
-      "status": "QC",
+      "status": "AUTO",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2104016/5/0",
       "document_type": "pdf",
@@ -9229,12 +9229,28 @@
           "amount": 70000,
           "tax": "税別",
           "unit": "1部位",
-          "score": 1,
+          "score": 13,
           "products": [],
-          "excerpt": "板血漿(PRP)を用いた変形性関節症治療」は、 すべて自費診療であり、健康保険を使用することはできません。 (2)「自己多血小板血漿(PRP)を用いた変形性関節症治療」は、 治療に伴う診査、自己PRP調製のための採血にかかる費用、自己 PRP調製費用、投与の総額となります。 治療費は、1部位につき、7万円(税抜)です。 投与部位、投与量によらず一律。 (採血量の目安) 約18mlの採血量で、約2mlのPRPができます。 (3)採血後は、PRP治療のための費用の返金は致しません。 11.試料等の保管及び廃棄につい て この治療のために採取した血液は、患者様ご"
+          "excerpt": "治療に伴う診査、自己PRP調製のための採血にかかる費用、自己 PRP調製費用、投与の総額となります。 治療費は、1部位につき、7万円(税抜)です。 投与部位、投与量によらず一律。 (採血量の目安)",
+          "page": 9,
+          "line": "治療費は、1部位につき、7万円(税抜)です。"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T11:47:24.603220+00:00",
+      "prices_refined": [
+        {
+          "amount": 70000,
+          "tax": "税別",
+          "unit": "1部位",
+          "score": 13,
+          "products": [],
+          "excerpt": "治療に伴う診査、自己PRP調製のための採血にかかる費用、自己 PRP調製費用、投与の総額となります。 治療費は、1部位につき、7万円(税抜)です。 投与部位、投与量によらず一律。 (採血量の目安)",
+          "page": 9,
+          "line": "治療費は、1部位につき、7万円(税抜)です。"
+        }
+      ],
+      "qc_reason": "line-level strong price context"
     },
     {
       "plan_id": "P00801",
@@ -9458,7 +9474,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:25:20.043713+00:00",
-      "status": "QC",
+      "status": "AUTO",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2411017/5/0",
       "document_type": "pdf",
@@ -9467,12 +9483,28 @@
           "amount": 55000,
           "tax": "税込",
           "unit": "",
-          "score": 6,
+          "score": 8,
           "products": [],
-          "excerpt": "、16:00〜19:00 (休診日:水曜午後、土曜午後、日曜祝日) 営業時間外の連絡先:kondo-seikei@eco.ocn.ne.jp 14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として55,000 円 (税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生している 場合は、発生した費用については患者様にご負担いただきますのでご了承ください。 15.他の治療法の有無、本治療法との比較につい"
+          "excerpt": "14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として55,000 円 (税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。",
+          "page": 3,
+          "line": "治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として55,000 円"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T11:47:25.499384+00:00",
+      "prices_refined": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "",
+          "score": 8,
+          "products": [],
+          "excerpt": "14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として55,000 円 (税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。",
+          "page": 3,
+          "line": "治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として55,000 円"
+        }
+      ],
+      "qc_reason": "line-level medium price context"
     },
     {
       "plan_id": "P00807",
@@ -9486,12 +9518,13 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:25:20.097865+00:00",
-      "status": "QC",
+      "status": "FAIL",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506027/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "RuntimeError: Tesseract process timeout",
+      "qc_reason": "document fetch/parse failed"
     },
     {
       "plan_id": "P00799",
@@ -9515,11 +9548,10 @@
           "tax": "不明",
           "unit": "",
           "score": 2,
-          "products": [
-            "APS",
-            "GPS"
-          ],
-          "excerpt": "す。 名前 値段 良いところ 悪いところ 1 APS法 330,000円 ひざでよく使われます。 痛みやはれを取る作用が強いといわれています。 値段が高いです。 2 GPS法 165,000円 ひざでよく使われています。 APSにくらべて、実績がすくなく、効果が弱い可能性があります。 3 PRP法 55,000円 皮膚科などでも使われており、よい効果がでています。 関節専用ではありませんが、最近ではよく使われています。 このちりょう治療のよいところ あなたのけつえき血液から作るので、アレルギーが起こりにくいで す 日帰りが可能です 普段の生活が可能です ちりょう治療が簡単で、あとが残りにくいです このちりょう治療のよくないところ 痛みをとること"
+          "products": [],
+          "excerpt": "3 PRP法 55,000円 皮膚科などでも使われており、よい効果がでています。",
+          "page": 3,
+          "line": "55,000円"
         },
         {
           "amount": 165000,
@@ -9530,7 +9562,9 @@
             "APS",
             "GPS"
           ],
-          "excerpt": "リニックには、3種類のPRP法があります。あなたやあなたのご 家族と相談しながら、3種類の方法からもっとも良い方法を選びま す。 名前 値段 良いところ 悪いところ 1 APS法 330,000円 ひざでよく使われます。 痛みやはれを取る作用が強いといわれています。 値段が高いです。 2 GPS法 165,000円 ひざでよく使われています。 APSにくらべて、実績がすくなく、効果が弱い可能性があります。 3 PRP法 55,000円 皮膚科などでも使われており、よい効果がでています。 関節専用ではありませんが、最近ではよく使われています。 このちりょう治療のよいところ あなたのけつえき血液から作るので、アレルギーが起こりにくいで す 日帰りが可"
+          "excerpt": "2 GPS法 165,000円 ひざでよく使われています。 APSにくらべて、実績がすくなく、効果が弱い可能性があります。",
+          "page": 3,
+          "line": "165,000円"
         },
         {
           "amount": 330000,
@@ -9538,13 +9572,53 @@
           "unit": "",
           "score": 2,
           "products": [
+            "APS"
+          ],
+          "excerpt": "1 APS法 330,000円 ひざでよく使われます。 痛みやはれを取る作用が強いといわれています。",
+          "page": 3,
+          "line": "330,000円"
+        }
+      ],
+      "error": "",
+      "qc_refined_at": "2026-09-18T11:47:25.835064+00:00",
+      "prices_refined": [
+        {
+          "amount": 55000,
+          "tax": "不明",
+          "unit": "",
+          "score": 2,
+          "products": [],
+          "excerpt": "3 PRP法 55,000円 皮膚科などでも使われており、よい効果がでています。",
+          "page": 3,
+          "line": "55,000円"
+        },
+        {
+          "amount": 165000,
+          "tax": "不明",
+          "unit": "",
+          "score": 2,
+          "products": [
             "APS",
             "GPS"
           ],
-          "excerpt": "道具を使い、 けつしょうばん血小板がたくさんはいった薬(PRP)をつくり痛み がある部分にちゅうしゃ注射します。 Nクリニックには、3種類のPRP法があります。あなたやあなたのご 家族と相談しながら、3種類の方法からもっとも良い方法を選びま す。 名前 値段 良いところ 悪いところ 1 APS法 330,000円 ひざでよく使われます。 痛みやはれを取る作用が強いといわれています。 値段が高いです。 2 GPS法 165,000円 ひざでよく使われています。 APSにくらべて、実績がすくなく、効果が弱い可能性があります。 3 PRP法 55,000円 皮膚科などでも使われており、よい効果がでています。 関節専用ではありませんが、最近ではよく使わ"
+          "excerpt": "2 GPS法 165,000円 ひざでよく使われています。 APSにくらべて、実績がすくなく、効果が弱い可能性があります。",
+          "page": 3,
+          "line": "165,000円"
+        },
+        {
+          "amount": 330000,
+          "tax": "不明",
+          "unit": "",
+          "score": 2,
+          "products": [
+            "APS"
+          ],
+          "excerpt": "1 APS法 330,000円 ひざでよく使われます。 痛みやはれを取る作用が強いといわれています。",
+          "page": 3,
+          "line": "330,000円"
         }
       ],
-      "error": ""
+      "qc_reason": "price candidates remain ambiguous"
     },
     {
       "plan_id": "P00862",
@@ -9558,12 +9632,37 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:25:28.692557+00:00",
-      "status": "QC",
+      "status": "AUTO",
       "match_score": 0.9718,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2105004/5/0",
-      "document_type": "pdf",
-      "prices": [],
-      "error": "Document fetched but no price candidate"
+      "document_type": "ocr",
+      "prices": [
+        {
+          "amount": 90000,
+          "tax": "税別",
+          "unit": "1回",
+          "score": 11,
+          "products": [],
+          "excerpt": "治療にかかる費用は下記の通りとなります。 ご不明な点は医師・スタッフにお尋 ねください。 部位を問わず税抜き価格 1回 90,000 円 医療法人いずみ会 阪堺病院 住所 〒590-0974 大阪府堺市堺区大浜北町1丁8-8",
+          "page": 1,
+          "line": "部位を問わず税抜き価格 1回 90,000 円"
+        }
+      ],
+      "error": "",
+      "qc_refined_at": "2026-09-18T11:47:46.651618+00:00",
+      "prices_refined": [
+        {
+          "amount": 90000,
+          "tax": "税別",
+          "unit": "1回",
+          "score": 11,
+          "products": [],
+          "excerpt": "治療にかかる費用は下記の通りとなります。 ご不明な点は医師・スタッフにお尋 ねください。 部位を問わず税抜き価格 1回 90,000 円 医療法人いずみ会 阪堺病院 住所 〒590-0974 大阪府堺市堺区大浜北町1丁8-8",
+          "page": 1,
+          "line": "部位を問わず税抜き価格 1回 90,000 円"
+        }
+      ],
+      "qc_reason": "line-level strong price context"
     },
     {
       "plan_id": "P00855",
