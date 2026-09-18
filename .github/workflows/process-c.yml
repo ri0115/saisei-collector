@@ -2,6 +2,10 @@ name: Process C-priority price queue
 
 on:
   workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/process-c.yml"
   workflow_run:
     workflows: ["Refine B QC with line-level parsing and OCR"]
     types: [completed]
@@ -15,7 +19,7 @@ concurrency:
 
 jobs:
   process:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 330
     steps:
@@ -50,7 +54,7 @@ jobs:
               --csv results/c_prices.csv \
               --index-cache results/index_cache.json \
               --max-items 24 \
-              --workers 8
+              --workers 4
 
             git add results/c_state.json results/c_latest.json results/c_prices.csv || true
             if ! git diff --cached --quiet; then
