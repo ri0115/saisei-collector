@@ -96,7 +96,10 @@ def extract_candidates(pages):
                     k=(amount,tax,unit,line)
                     if k in seen: continue
                     seen.add(k)
-                    out.append({"amount":amount,"tax":tax,"unit":unit,"score":score_line(line,near),"products":[],"excerpt":near,"page":page_no,"line":line})
+                    products=[]
+                    for token in ["ACP MAX","ACP","APS","GPS III","GPSⅢ","GPS","PEAK","Angel","TriCeLL","Mycells","Zimmer","Arthrex","Condensia","コンデンシア","PRGF","Endoret","MAGELLAN","マゼラン"]:
+                        if token.lower() in near.lower(): products.append(token)
+                    out.append({"amount":amount,"tax":tax,"unit":unit,"score":score_line(line,near),"products":products[:6],"excerpt":near,"page":page_no,"line":line})
     out.sort(key=lambda x:(-x["score"],x["amount"]))
     return out[:30]
 
@@ -147,7 +150,7 @@ def load(p): return json.loads(Path(p).read_text(encoding="utf-8"))
 def save(p,o): Path(p).write_text(json.dumps(o,ensure_ascii=False,indent=2),encoding="utf-8")
 
 def write_csv(path,items):
-    cols=["plan_id","facility_id","prefecture","facility","category","treatment","status","match_score","document_url","amount","tax","unit","score","page","excerpt","qc_reason","error"]
+    cols=["plan_id","facility_id","prefecture","facility","category","treatment","status","match_score","document_url","amount","tax","unit","products","score","page","excerpt","qc_reason","error"]
     with open(path,"w",encoding="utf-8-sig",newline="") as f:
         w=csv.DictWriter(f,fieldnames=cols); w.writeheader()
         for it in items:
@@ -157,7 +160,7 @@ def write_csv(path,items):
                     "facility":it.get("facility",""),"category":it.get("category",""),"treatment":it.get("treatment",""),
                     "status":it.get("status",""),"match_score":it.get("match_score",""),"document_url":it.get("document_url",""),
                     "amount":"" if not p else p.get("amount",""),"tax":"" if not p else p.get("tax",""),"unit":"" if not p else p.get("unit",""),
-                    "score":"" if not p else p.get("score",""),"page":"" if not p else p.get("page",""),"excerpt":"" if not p else p.get("excerpt",""),
+                    "products":"" if not p else "|".join(p.get("products",[])),"score":"" if not p else p.get("score",""),"page":"" if not p else p.get("page",""),"excerpt":"" if not p else p.get("excerpt",""),
                     "qc_reason":it.get("qc_reason",""),"error":it.get("error","")
                 })
 
