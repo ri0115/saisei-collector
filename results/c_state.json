@@ -1,15 +1,15 @@
 {
-  "version": "0.8",
+  "version": "0.5",
   "queue_version": "v40",
   "priority": "C",
   "total": 105,
   "processed": 105,
   "pending": 0,
-  "auto": 72,
-  "qc": 33,
+  "auto": 71,
+  "qc": 34,
   "fail": 0,
-  "phase": "qc_refine_complete",
-  "updated_at": "2026-09-18T13:26:56.803815+00:00",
+  "phase": "complete",
+  "updated_at": "2026-09-18T14:23:09.117842+00:00",
   "index_counts": {
     "2": 2502,
     "3": 4270

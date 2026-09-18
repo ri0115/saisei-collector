@@ -1,15 +1,14 @@
 {
-  "version": "0.8",
+  "version": "0.5",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T13:26:56.792562+00:00",
+  "updated_at": "2026-09-18T14:23:09.109011+00:00",
   "summary": {
     "total": 105,
     "processed": 105,
     "pending": 0,
-    "auto": 72,
-    "qc": 33,
-    "fail": 0,
-    "qc_refine_remaining": 0
+    "auto": 71,
+    "qc": 34,
+    "fail": 0
   },
   "items": [
     {
@@ -5478,7 +5477,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "東京全件監査で追加",
       "checked_at": "2026-09-18T12:33:39.294442+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1911144/5/0",
       "document_type": "pdf",
