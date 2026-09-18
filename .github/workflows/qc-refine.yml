@@ -45,10 +45,12 @@ jobs:
           set -e
           for chunk in $(seq 1 8); do
             echo "===== qc chunk $chunk ====="
+            git pull --rebase origin main
             python scripts/qc_refine.py --max-items 20 --workers 4
             git add results/state.json results/latest.json results/prices.csv || true
             if ! git diff --cached --quiet; then
               git commit -m "QC refine checkpoint $chunk [skip ci]"
+              git pull --rebase origin main
               git push
             fi
             REMAINING=$(python - <<'PY'
