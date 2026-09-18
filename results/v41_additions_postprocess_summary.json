@@ -1,0 +1,22 @@
+{
+  "version": "v41-postprocess-1.0",
+  "updated_at": "2026-09-18T23:00:54.162464+00:00",
+  "total": 774,
+  "source_auto": 508,
+  "source_qc": 266,
+  "source_fail": 0,
+  "promoted_qc_to_auto": 46,
+  "normalized_auto": 554,
+  "normalized_qc": 220,
+  "normalized_fail": 0,
+  "normalized_price_records": 1442,
+  "resolution_counts": {
+    "multiple_fee_components_needs_review": 31,
+    "source_status_retained": 669,
+    "structured_product_price_table": 33,
+    "still_ambiguous": 26,
+    "structured_cell_dose_price_table": 5,
+    "price_range_needs_review": 2,
+    "single_clear_treatment_price": 8
+  }
+}
