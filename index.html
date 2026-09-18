@@ -27,7 +27,7 @@ h2{font-size:12px;letter-spacing:.08em;margin:20px 2px 8px}.log{background:var(-
 <body>
 <main>
 <div class="eyebrow">ORTHOPEDIC REGENERATIVE MEDICINE</div>
-<h1>REGEN MED COLLECTOR <span style="font-size:11px;color:#9aa4af">v0.2</span></h1>
+<h1>REGEN MED COLLECTOR <span style="font-size:11px;color:#9aa4af">v0.3</span></h1>
 <p>山梨A 7計画を使った動作確認版です。ボタンを押すと5件をAUTO、2件をQCへ振り分け、v40の15価格レコードを再現します。</p>
 <div class="kpis">
 <div class="kpi"><b id="q">7</b><span>QUEUE</span></div>
@@ -61,17 +61,36 @@ var done=state.filter(function(x){return x.status==='auto'||x.status==='qc'||x.s
 var aa=state.filter(function(x){return x.status==='auto'}).length,cc=state.filter(function(x){return x.status==='qc'}).length,ff=state.filter(function(x){return x.status==='fail'}).length;
 el('q').textContent=state.length-done;el('a').textContent=aa;el('c').textContent=cc;el('f').textContent=ff;
 var pct=Math.round(done/state.length*100);el('fill').style.width=pct+'%';el('pp').textContent=pct+'%';el('pl').textContent=done?done+'/'+state.length+' 処理済み':'未処理';
-el('list').innerHTML=state.map(function(p){var label={pending:'WAIT',running:'RUN',auto:'AUTO',qc:'QC',fail:'FAIL'}[p.status];
-var extra=(p.status==='auto'||p.status==='qc'||p.status==='fail')?'<div class="sum">'+esc(p.sum)+'</div><div class="chips"><span class="chip">'+esc(p.src)+'</span><span class="chip">'+p.n+' price'+(p.n>1?'s':'')+'</span></div>'+(p.qc?'<div class="qc">QC: '+esc(p.qc)+'</div>'):'';
+el('list').innerHTML=state.map(function(p){
+var label={pending:'WAIT',running:'RUN',auto:'AUTO',qc:'QC',fail:'FAIL'}[p.status];
+var extra='';
+if(p.status==='auto'||p.status==='qc'||p.status==='fail'){
+  extra='<div class="sum">'+esc(p.sum)+'</div><div class="chips"><span class="chip">'+esc(p.src)+'</span><span class="chip">'+p.n+' price'+(p.n>1?'s':'')+'</span></div>';
+  if(p.qc){ extra+='<div class="qc">QC: '+esc(p.qc)+'</div>'; }
+}
 return '<div class="card"><div class="top"><div><div class="id">'+p.id+' · '+p.fid+'</div><div class="name">'+esc(p.name)+'</div></div><span class="status '+p.status+'">'+label+'</span></div><div class="tr">'+esc(p.type)+' · '+esc(p.tr)+'</div>'+extra+'</div>';
 }).join('');
 el('run').disabled=running;el('run2').disabled=running;
 }
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms)})}
 async function run(){
-if(running)return;running=true;state=plans.map(function(x){var y=Object.assign({},x);y.status='pending';return y});el('log').textContent='ready.\n開始';render();
-for(var i=0;i<state.length;i++){state[i].status='running';render();log(state[i].id+' source check');await sleep(300);state[i].status=state[i].st;log(state[i].id+' → '+state[i].status.toUpperCase()+' / '+state[i].n+' price record(s)');render()}
-running=false;log('complete: 5 AUTO / 2 QC / 0 FAIL / 15 price records');render();
+if(running)return;
+running=true;
+state=plans.map(function(x){var y=Object.assign({},x);y.status='pending';return y});
+el('log').textContent='ready.\n開始';
+render();
+for(var i=0;i<state.length;i++){
+  state[i].status='running';
+  render();
+  log(state[i].id+' source check');
+  await sleep(250);
+  state[i].status=state[i].st;
+  log(state[i].id+' → '+state[i].status.toUpperCase()+' / '+state[i].n+' price record(s)');
+  render();
+}
+running=false;
+log('complete: 5 AUTO / 2 QC / 0 FAIL / 15 price records');
+render();
 }
 function reset(){running=false;state=plans.map(function(x){var y=Object.assign({},x);y.status='pending';return y});el('log').textContent='ready.';render()}
 function rows(){var out=[];state.forEach(function(p){p.prices.forEach(function(v,i){out.push({plan_id:p.id,facility_id:p.fid,facility:p.name,type:p.type,status:p.status,source:p.src,price:v,price_index:i+1})})});return out}
