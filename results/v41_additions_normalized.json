@@ -1,26 +1,26 @@
 {
   "version": "v41-postprocess-1.3",
-  "updated_at": "2026-09-18T23:14:53.747918+00:00",
+  "updated_at": "2026-09-18T23:16:28.770270+00:00",
   "summary": {
     "version": "v41-postprocess-1.3",
-    "updated_at": "2026-09-18T23:14:53.747705+00:00",
+    "updated_at": "2026-09-18T23:16:28.769885+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 82,
+    "promoted_qc_to_auto": 86,
     "promoted_by_parser": 62,
-    "promoted_by_verified_override": 20,
-    "normalized_auto": 590,
-    "normalized_qc": 184,
+    "promoted_by_verified_override": 24,
+    "normalized_auto": 594,
+    "normalized_qc": 180,
     "normalized_fail": 0,
-    "normalized_price_records": 2095,
+    "normalized_price_records": 2139,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 649,
+      "source_status_retained": 645,
       "structured_treatment_price_table": 35,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 20,
+      "verified_official_site_override": 24,
       "still_ambiguous": 20,
       "structured_product_price_table": 8,
       "explicit_total_price_block": 2,
@@ -24427,9 +24427,312 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 19800,
+          "tax": "税別",
+          "unit": "院内PRP 1回",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "1回あたり19,800円",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 37620,
+          "tax": "税別",
+          "unit": "院内PRP 2回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 53460,
+          "tax": "税別",
+          "unit": "院内PRP 3回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 71280,
+          "tax": "税別",
+          "unit": "院内PRP 4回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 89100,
+          "tax": "税別",
+          "unit": "院内PRP 5回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 100980,
+          "tax": "税別",
+          "unit": "院内PRP 6回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 117810,
+          "tax": "税別",
+          "unit": "院内PRP 7回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 134640,
+          "tax": "税別",
+          "unit": "院内PRP 8回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 142560,
+          "tax": "税別",
+          "unit": "院内PRP 9回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 158400,
+          "tax": "税別",
+          "unit": "院内PRP 10回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 150000,
+          "tax": "税別",
+          "unit": "高濃度PRP 1回",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "1回あたり150,000円",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 285000,
+          "tax": "税別",
+          "unit": "高濃度PRP 2回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 405000,
+          "tax": "税別",
+          "unit": "高濃度PRP 3回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 540000,
+          "tax": "税別",
+          "unit": "高濃度PRP 4回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 675000,
+          "tax": "税別",
+          "unit": "高濃度PRP 5回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 765000,
+          "tax": "税別",
+          "unit": "高濃度PRP 6回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 892500,
+          "tax": "税別",
+          "unit": "高濃度PRP 7回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1020000,
+          "tax": "税別",
+          "unit": "高濃度PRP 8回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1080000,
+          "tax": "税別",
+          "unit": "高濃度PRP 9回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1200000,
+          "tax": "税別",
+          "unit": "高濃度PRP 10回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+      "verified_source_type": "official_mhlw_price_table"
     },
     {
       "plan_id": "V41_03E2602012",
@@ -24459,9 +24762,312 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 19800,
+          "tax": "税別",
+          "unit": "院内PRP 1回",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "1回あたり19,800円",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 37620,
+          "tax": "税別",
+          "unit": "院内PRP 2回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 53460,
+          "tax": "税別",
+          "unit": "院内PRP 3回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 71280,
+          "tax": "税別",
+          "unit": "院内PRP 4回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 89100,
+          "tax": "税別",
+          "unit": "院内PRP 5回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 100980,
+          "tax": "税別",
+          "unit": "院内PRP 6回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 117810,
+          "tax": "税別",
+          "unit": "院内PRP 7回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 134640,
+          "tax": "税別",
+          "unit": "院内PRP 8回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 142560,
+          "tax": "税別",
+          "unit": "院内PRP 9回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 158400,
+          "tax": "税別",
+          "unit": "院内PRP 10回コース総額",
+          "products": [
+            "院内PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 150000,
+          "tax": "税別",
+          "unit": "高濃度PRP 1回",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "1回あたり150,000円",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 285000,
+          "tax": "税別",
+          "unit": "高濃度PRP 2回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 405000,
+          "tax": "税別",
+          "unit": "高濃度PRP 3回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 540000,
+          "tax": "税別",
+          "unit": "高濃度PRP 4回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 675000,
+          "tax": "税別",
+          "unit": "高濃度PRP 5回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 765000,
+          "tax": "税別",
+          "unit": "高濃度PRP 6回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 892500,
+          "tax": "税別",
+          "unit": "高濃度PRP 7回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1020000,
+          "tax": "税別",
+          "unit": "高濃度PRP 8回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1080000,
+          "tax": "税別",
+          "unit": "高濃度PRP 9回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1200000,
+          "tax": "税別",
+          "unit": "高濃度PRP 10回コース総額",
+          "products": [
+            "高濃度PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+          "source_type": "official_mhlw_price_table",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+      "verified_source_type": "official_mhlw_price_table"
     },
     {
       "plan_id": "V41_02E2602004",
@@ -72718,9 +73324,42 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 50000,
+          "tax": "税別",
+          "unit": "PRP 1回・当院整形外科術後患者または学生",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://ymc.yuuai.or.jp/department/healthcare-professionals/regenerative-medicine/",
+          "source_type": "official_hospital_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 80000,
+          "tax": "税別",
+          "unit": "PRP 1回・その他",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://ymc.yuuai.or.jp/department/healthcare-professionals/regenerative-medicine/",
+          "source_type": "official_hospital_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://ymc.yuuai.or.jp/department/healthcare-professionals/regenerative-medicine/",
+      "verified_source_type": "official_hospital_site"
     },
     {
       "plan_id": "V41_01E2408020",
@@ -88811,9 +89450,46 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 30000,
+          "tax": "税別",
+          "unit": "PRP注射1回",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "note": "",
+          "source_url": "https://tsukuba-kinen.or.jp/services/167",
+          "source_type": "official_hospital_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 50000,
+          "tax": "税別",
+          "unit": "PRP注射2回・同時実施時の総額",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "note": "",
+          "source_url": "https://tsukuba-kinen.or.jp/services/167",
+          "source_type": "official_hospital_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://tsukuba-kinen.or.jp/services/167",
+      "verified_source_type": "official_hospital_site"
     },
     {
       "plan_id": "V41_02C2409071",

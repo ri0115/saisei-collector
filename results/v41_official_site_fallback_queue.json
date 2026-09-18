@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-18T23:14:53.814443+00:00",
-  "total": 141,
-  "unique_facilities": 123,
+  "updated_at": "2026-09-18T23:16:28.858886+00:00",
+  "total": 137,
+  "unique_facilities": 120,
   "items": [
     {
       "plan_id": "V41_03A2505002",
@@ -225,34 +225,6 @@
       "treatment": "自己脂肪由来幹細胞を用いた関節疾患の治療",
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603003/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_03E2602011",
-      "mhlw_plan_code": "03E2602011",
-      "facility_id": "V41F84A6CAD21A",
-      "prefecture": "大阪府",
-      "facility": "医療法人社団日生会　リバースセルクリニック",
-      "address": "大阪市北区曽根崎新地1-4-20 桜橋IMビル７F",
-      "category": "第三種",
-      "treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2602011/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_03E2602012",
-      "mhlw_plan_code": "03E2602012",
-      "facility_id": "V41F84A6CAD21A",
-      "prefecture": "大阪府",
-      "facility": "医療法人社団日生会　リバースセルクリニック",
-      "address": "大阪市北区曽根崎新地1-4-20 桜橋IMビル７F",
-      "category": "第二種",
-      "treatment": "変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2602012/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained"
     },
@@ -1545,20 +1517,6 @@
       "postprocess_resolution": "source_status_retained"
     },
     {
-      "plan_id": "V41_02G2602005",
-      "mhlw_plan_code": "02G2602005",
-      "facility_id": "V41FBD7C31F7A8",
-      "prefecture": "沖縄県",
-      "facility": "社会医療法人友愛会友愛医療センター",
-      "address": "沖縄県豊見城市字与根50番地212",
-      "category": "第三種",
-      "treatment": "靭帯・筋肉・腱・腱付着部に対する自家多血小板血漿（PRP）注入療法",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2602005/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
       "plan_id": "V41_01C2410005",
       "mhlw_plan_code": "01C2410005",
       "facility_id": "V41F6838454D45",
@@ -1933,20 +1891,6 @@
       "treatment": "四肢の靱帯、筋腱付着部およびスポーツ傷害（筋・腱・靭 帯）を対象とした自己多血小板血漿注入療法",
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2311002/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_02C2408099",
-      "mhlw_plan_code": "02C2408099",
-      "facility_id": "V41F61AB80B39E",
-      "prefecture": "茨城県",
-      "facility": "医療法人社団　筑波記念会　筑波記念病院",
-      "address": "茨城県つくば市要1187-299",
-      "category": "第三種",
-      "treatment": "自家多血小板血漿（PRP）を用いた腱付着部炎・腱障害・筋損傷・靭帯損傷（関節外に限る）治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2408099/5/0",
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained"
     },
