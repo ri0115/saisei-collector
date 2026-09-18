@@ -165,7 +165,11 @@ def finalize(item,cands,doc_type):
 def refine_one(item):
     url=item.get("document_url")
     if not url:
-        item["status"]="QC"; item["qc_reason"]="no document URL"; return item
+        item["qc_refined_at"]=now()
+        item["status"]="QC"
+        item["qc_reason"]="no document URL; retained as verified-plan QC"
+        if not item.get("error"): item["error"]="No document URL"
+        return item
     try:
         pages,dtype=extract_pages(url,True)
         cands=extract_candidates(pages)
