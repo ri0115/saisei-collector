@@ -1,26 +1,26 @@
 {
   "version": "v41-postprocess-1.3",
-  "updated_at": "2026-09-18T23:13:10.171007+00:00",
+  "updated_at": "2026-09-18T23:14:53.747918+00:00",
   "summary": {
     "version": "v41-postprocess-1.3",
-    "updated_at": "2026-09-18T23:13:10.170807+00:00",
+    "updated_at": "2026-09-18T23:14:53.747705+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 74,
+    "promoted_qc_to_auto": 82,
     "promoted_by_parser": 62,
-    "promoted_by_verified_override": 12,
-    "normalized_auto": 582,
-    "normalized_qc": 192,
+    "promoted_by_verified_override": 20,
+    "normalized_auto": 590,
+    "normalized_qc": 184,
     "normalized_fail": 0,
-    "normalized_price_records": 2084,
+    "normalized_price_records": 2095,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 657,
+      "source_status_retained": 649,
       "structured_treatment_price_table": 35,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 12,
+      "verified_official_site_override": 20,
       "still_ambiguous": 20,
       "structured_product_price_table": 8,
       "explicit_total_price_block": 2,
@@ -62854,99 +62854,40 @@
       "qc_reason_source": "no price found after text/OCR pass",
       "prices_normalized": [
         {
-          "amount": 22000,
+          "amount": 16500,
           "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": ",000 円 以降追加2cc 毎に +137,500 円 キャンセル料金 キャンセル申出 価格(税込) 採血前 0 円 採血後 0 円 PRP 調製後(2cc) 22,000 円 PRP 調製後(4cc) 33,000 円 PRP 調製後(以降追加2cc 毎に) +22,000 円",
-          "products_source": [],
+          "unit": "PRP初回注入・片膝",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
+          "note": "",
+          "source_url": "https://asc.rederm.com/regenerative-medicine/price/?id=prp",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
         },
         {
-          "amount": 33000,
+          "amount": 82500,
           "tax": "税込",
-          "unit": "1 部位",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 部位) 137,500 円 4cc(2 部位) 275,000 円 以降追加2cc 毎に +137,500 円 キャンセル料金 キャンセル申出 価格(税込) 採血前 0 円 採血後 0 円 PRP 調製後(2cc) 22,000 円 PRP 調製後(4cc) 33,000 円 PRP 調製後(以降追加2cc 毎に) +22,000 円",
-          "products_source": [],
+          "unit": "PRP 2回目以降・片膝",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
+          "note": "",
+          "source_url": "https://asc.rederm.com/regenerative-medicine/price/?id=prp",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 5500,
-          "tax": "税込",
-          "unit": "1 部位",
-          "score": -3,
-          "products": [],
-          "excerpt": "施術費用 メニュー 価格(税込) 初診料 5,500 円 血液検査料 11,000 円 2cc(1 部位) 137,500 円 4cc(2 部位) 275,000 円 以降追加2cc 毎に +137,500 円 キャンセル料金 キャンセル申出 価格(税込) 採血前 0 円 採血後 0 円 PRP 調製後(2cc) 22,000 円 PRP 調製後(4cc",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 11000,
-          "tax": "税込",
-          "unit": "1 部位",
-          "score": -3,
-          "products": [],
-          "excerpt": "施術費用 メニュー 価格(税込) 初診料 5,500 円 血液検査料 11,000 円 2cc(1 部位) 137,500 円 4cc(2 部位) 275,000 円 以降追加2cc 毎に +137,500 円 キャンセル料金 キャンセル申出 価格(税込) 採血前 0 円 採血後 0 円 PRP 調製後(2cc) 22,000 円 PRP 調製後(4cc) 33,000 円 PRP",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 22000,
-          "tax": "税込",
-          "unit": "1 部位",
-          "score": -3,
-          "products": [],
-          "excerpt": "円 血液検査料 11,000 円 2cc(1 部位) 137,500 円 4cc(2 部位) 275,000 円 以降追加2cc 毎に +137,500 円 キャンセル料金 キャンセル申出 価格(税込) 採血前 0 円 採血後 0 円 PRP 調製後(2cc) 22,000 円 PRP 調製後(4cc) 33,000 円 PRP 調製後(以降追加2cc 毎に) +22,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 137500,
-          "tax": "税込",
-          "unit": "1 部位",
-          "score": -3,
-          "products": [],
-          "excerpt": "施術費用 メニュー 価格(税込) 初診料 5,500 円 血液検査料 11,000 円 2cc(1 部位) 137,500 円 4cc(2 部位) 275,000 円 以降追加2cc 毎に +137,500 円 キャンセル料金 キャンセル申出 価格(税込) 採血前 0 円 採血後 0 円 PRP 調製後(2cc) 22,000 円 PRP 調製後(4cc) 33,000 円 PRP 調製後(以降追加2cc 毎に) +22,0",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 275000,
-          "tax": "税込",
-          "unit": "1 部位",
-          "score": -3,
-          "products": [],
-          "excerpt": "施術費用 メニュー 価格(税込) 初診料 5,500 円 血液検査料 11,000 円 2cc(1 部位) 137,500 円 4cc(2 部位) 275,000 円 以降追加2cc 毎に +137,500 円 キャンセル料金 キャンセル申出 価格(税込) 採血前 0 円 採血後 0 円 PRP 調製後(2cc) 22,000 円 PRP 調製後(4cc) 33,000 円 PRP 調製後(以降追加2cc 毎に) +22,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://asc.rederm.com/regenerative-medicine/price/?id=prp",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_02C2512006",
@@ -62976,9 +62917,42 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 1336500,
+          "tax": "税込",
+          "unit": "片膝・初回モデル総額（初診+検査+6億セル培養+1回移植+年保管）",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "公式料金プラン例 ケースA",
+          "source_url": "https://asc.rederm.com/regenerative-medicine/price/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 715000,
+          "tax": "税込",
+          "unit": "片膝・追加1回移植",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "細胞保管済みの場合の追加投与",
+          "source_url": "https://asc.rederm.com/regenerative-medicine/price/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://asc.rederm.com/regenerative-medicine/price/",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C2507054",
@@ -63167,9 +63141,29 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "ACP-PRP・1回",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "note": "",
+          "source_url": "https://gotokuji-seikeigeka.com/about_prp/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://gotokuji-seikeigeka.com/about_prp/",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C2409070",
@@ -63198,9 +63192,29 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "ACP-PRP・1回",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "note": "",
+          "source_url": "https://gotokuji-seikeigeka.com/about_prp/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://gotokuji-seikeigeka.com/about_prp/",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_02C2101009",
@@ -69084,9 +69098,102 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 1980000,
+          "tax": "税込",
+          "unit": "5,000万個・1椎間・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.omotesando-amc.jp/sast/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2310000,
+          "tax": "税込",
+          "unit": "5,000万個・2椎間・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.omotesando-amc.jp/sast/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2640000,
+          "tax": "税込",
+          "unit": "5,000万個・3椎間・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.omotesando-amc.jp/sast/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2530000,
+          "tax": "税込",
+          "unit": "1億個・1椎間・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.omotesando-amc.jp/sast/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2860000,
+          "tax": "税込",
+          "unit": "1億個・2椎間・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.omotesando-amc.jp/sast/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 3190000,
+          "tax": "税込",
+          "unit": "1億個・3椎間・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.omotesando-amc.jp/sast/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://www.omotesando-amc.jp/sast/",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C2504035",
@@ -69179,9 +69286,42 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 1650000,
+          "tax": "税込",
+          "unit": "自己脂肪由来間葉系幹細胞1億個・1部位（片側）",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.omotesando-amc.jp/prp/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2200000,
+          "tax": "税込",
+          "unit": "膝・肩・手関節 2部位（両側）",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.omotesando-amc.jp/prp/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://www.omotesando-amc.jp/prp/",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_03C2410026",
@@ -84710,9 +84850,46 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 110000,
+          "tax": "税込",
+          "unit": "PRGF-Endoret・1回",
+          "products": [
+            "PRGF-Endoret"
+          ],
+          "makers": [
+            "BTI"
+          ],
+          "note": "関節腔内・腔外。3回（7〜10日間隔）を記載",
+          "source_url": "https://tenjin-tc.com/stemcelltherapy/flow-and-price/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 330000,
+          "tax": "税込",
+          "unit": "Angel HD-PRP・1回",
+          "products": [
+            "Angel"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "note": "関節腔内・腔外",
+          "source_url": "https://tenjin-tc.com/stemcelltherapy/flow-and-price/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://tenjin-tc.com/stemcelltherapy/flow-and-price/",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01G2508002",
@@ -84741,9 +84918,46 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "terminal rescue fetch/parse failure",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 110000,
+          "tax": "税込",
+          "unit": "PRGF-Endoret・1回",
+          "products": [
+            "PRGF-Endoret"
+          ],
+          "makers": [
+            "BTI"
+          ],
+          "note": "関節腔内・腔外。3回（7〜10日間隔）を記載",
+          "source_url": "https://tenjin-tc.com/stemcelltherapy/flow-and-price/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 330000,
+          "tax": "税込",
+          "unit": "Angel HD-PRP・1回",
+          "products": [
+            "Angel"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "note": "関節腔内・腔外",
+          "source_url": "https://tenjin-tc.com/stemcelltherapy/flow-and-price/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://tenjin-tc.com/stemcelltherapy/flow-and-price/",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01G2508005",

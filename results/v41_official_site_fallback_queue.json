@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-18T23:13:10.255973+00:00",
-  "total": 149,
-  "unique_facilities": 127,
+  "updated_at": "2026-09-18T23:14:53.814443+00:00",
+  "total": 141,
+  "unique_facilities": 123,
   "items": [
     {
       "plan_id": "V41_03A2505002",
@@ -1209,62 +1209,6 @@
       "postprocess_resolution": "source_status_retained"
     },
     {
-      "plan_id": "V41_02C2501001",
-      "mhlw_plan_code": "02C2501001",
-      "facility_id": "V41F48B8D28D45",
-      "prefecture": "東京都",
-      "facility": "医療法人社団豊饒会\r\nRDクリニック東京銀座",
-      "address": "中央区銀座7-9-17\r\n銀座ヤマトビル7F",
-      "category": "第二種",
-      "treatment": "多血小板血漿を用いた変形性関節症治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2501001/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_02C2512006",
-      "mhlw_plan_code": "02C2512006",
-      "facility_id": "V41F48B8D28D45",
-      "prefecture": "東京都",
-      "facility": "医療法人社団豊饒会RDクリニック東京銀座",
-      "address": "中央区銀座7-9-17　銀座ヤマトビル7F",
-      "category": "第二種",
-      "treatment": "自家脂肪由来幹細胞を用いた変形性関節症治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512006/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_01C2409068",
-      "mhlw_plan_code": "01C2409068",
-      "facility_id": "V41F4EB1AFF117",
-      "prefecture": "東京都",
-      "facility": "医療法人社団進誠会\r\n豪徳寺整形外科クリニック",
-      "address": "世田谷区豪徳寺2丁目31-8ハイム和泉102",
-      "category": "第二種",
-      "treatment": "自家多血小板血漿(Platelet-rich plasma:PRP)を用いた\r\n慢性関節炎の治療(関節内組織)",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409068/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_01C2409070",
-      "mhlw_plan_code": "01C2409070",
-      "facility_id": "V41F4EB1AFF117",
-      "prefecture": "東京都",
-      "facility": "医療法人社団進誠会\r\n豪徳寺整形外科クリニック",
-      "address": "世田谷区豪徳寺2丁目31-8ハイム和泉102",
-      "category": "第三種",
-      "treatment": "自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療(関節腔外に限る)",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409070/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
       "plan_id": "V41_01C1907070",
       "mhlw_plan_code": "01C1907070",
       "facility_id": "V41F2B45736B34",
@@ -1475,20 +1419,6 @@
       "postprocess_resolution": "source_status_retained"
     },
     {
-      "plan_id": "V41_01C2407094",
-      "mhlw_plan_code": "01C2407094",
-      "facility_id": "V41F625D929027",
-      "prefecture": "東京都",
-      "facility": "表参道総合医療クリニック",
-      "address": "渋谷区神宮前5丁目46-16 イル・チェントロ・セレーノ1階",
-      "category": "第二種",
-      "treatment": "自己脂肪由来幹細胞を用いた頚椎症・腰椎症の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407094/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
       "plan_id": "V41_01C2504035",
       "mhlw_plan_code": "01C2504035",
       "facility_id": "V41FB6FEEF9F1C",
@@ -1513,20 +1443,6 @@
       "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）",
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506021/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_01C2506023",
-      "mhlw_plan_code": "01C2506023",
-      "facility_id": "V41F625D929027",
-      "prefecture": "東京都",
-      "facility": "表参道総合医療クリニック",
-      "address": "渋谷区神宮前5丁目46-16 イル・チェントロ・セレーノ1階",
-      "category": "第二種",
-      "treatment": "自己脂肪由来幹細胞を用いた関節疾患の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506023/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained"
     },
@@ -1906,34 +1822,6 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305022/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_01G2508001",
-      "mhlw_plan_code": "01G2508001",
-      "facility_id": "V41F4643476442",
-      "prefecture": "福岡県",
-      "facility": "Tenjin Toya Clinic",
-      "address": "福岡市中央区渡辺通五丁目24番32号　FPG links TENJIN MINAMI 5階",
-      "category": "第二種",
-      "treatment": "多血小板血漿（PRP）を用いた変形性関節症・関節炎治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2508001/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_01G2508002",
-      "mhlw_plan_code": "01G2508002",
-      "facility_id": "V41F4643476442",
-      "prefecture": "福岡県",
-      "facility": "Tenjin Toya Clinic",
-      "address": "福岡市中央区渡辺通五丁目24番32号　FPG links TENJIN MINAMI 5階",
-      "category": "第三種",
-      "treatment": "多血小板血漿（PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2508002/5/0",
-      "qc_reason": "terminal rescue fetch/parse failure",
       "postprocess_resolution": "source_status_retained"
     },
     {
