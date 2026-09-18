@@ -1,27 +1,27 @@
 {
-  "version": "v41-postprocess-1.1",
-  "updated_at": "2026-09-18T23:03:55.100907+00:00",
+  "version": "v41-postprocess-1.2",
+  "updated_at": "2026-09-18T23:05:08.595574+00:00",
   "summary": {
-    "version": "v41-postprocess-1.1",
-    "updated_at": "2026-09-18T23:03:55.100578+00:00",
+    "version": "v41-postprocess-1.2",
+    "updated_at": "2026-09-18T23:05:08.595237+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 49,
-    "normalized_auto": 557,
-    "normalized_qc": 217,
+    "promoted_qc_to_auto": 62,
+    "normalized_auto": 570,
+    "normalized_qc": 204,
     "normalized_fail": 0,
-    "normalized_price_records": 2156,
+    "normalized_price_records": 2062,
     "resolution_counts": {
-      "multiple_fee_components_needs_review": 34,
+      "treatment_prices_separated_from_ancillary_fees": 13,
       "source_status_retained": 669,
-      "treatment_prices_separated_from_ancillary_fees": 2,
-      "structured_treatment_price_table": 34,
-      "single_clear_treatment_price": 3,
-      "still_ambiguous": 22,
+      "structured_treatment_price_table": 35,
+      "single_clear_treatment_price": 4,
+      "still_ambiguous": 20,
       "structured_product_price_table": 8,
-      "explicit_total_price_block": 2
+      "explicit_total_price_block": 2,
+      "multiple_fee_components_needs_review": 23
     }
   },
   "items": [
@@ -218,102 +218,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 3300,
-          "tax": "税込",
-          "unit": "1部位",
-          "score": -5,
-          "products": [],
-          "excerpt": "【診察料+血液検査(税込)】 診察料 : 3,300 円(診察のみの場合) 血液検査:14,300 円(注:3,300 円の初診料も込みの金額です) 【施術料(税込)】 1部位 : 1,430,000 円",
-          "page": 10,
-          "line": "血液検査:14,300 円(注:3,300 円の初診料も込みの金額です)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 14300,
-          "tax": "税込",
-          "unit": "1部位",
-          "score": -5,
-          "products": [],
-          "excerpt": "【診察料+血液検査(税込)】 診察料 : 3,300 円(診察のみの場合) 血液検査:14,300 円(注:3,300 円の初診料も込みの金額です) 【施術料(税込)】 1部位 : 1,430,000 円",
-          "page": 10,
-          "line": "血液検査:14,300 円(注:3,300 円の初診料も込みの金額です)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 3300,
-          "tax": "税込",
-          "unit": "",
-          "score": -6,
-          "products": [],
-          "excerpt": "す。 【診察料+血液検査(税込)】 診察料 : 3,300 円(診察のみの場合) 血液検査:14,300 円(注:3,300 円の初診料も込みの金額です) 【施術料(税込)】",
-          "page": 10,
-          "line": "診察料 : 3,300 円(診察のみの場合)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 110000,
-          "tax": "税込",
-          "unit": "",
-          "score": -9,
-          "products": [],
-          "excerpt": "2部位 : 2,090,000 円 【細胞保管料(税込)】 年間保管料:110,000 円(1 年毎更新)",
-          "page": 10,
-          "line": "年間保管料:110,000 円(1 年毎更新)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 14300,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "血液検査:14,300 円(注:3,300 円の初診料も込みの金額です) 【施術料(税込)】 1部位 : 1,430,000 円 2部位 : 2,090,000 円 【細胞保管料(税込)】",
-          "page": 10,
-          "line": "血液検査:14,300 円(注:3,300 円の初診料も込みの金額です) 【施術料(税込)】 1部位 : 1,430,000 円 2部位 : 2,090,000 円 【細胞保管料(税込)】",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 3300,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "血液検査:14,300 円(注:3,300 円の初診料も込みの金額です) 【施術料(税込)】 1部位 : 1,430,000 円 2部位 : 2,090,000 円 【細胞保管料(税込)】",
-          "page": 10,
-          "line": "血液検査:14,300 円(注:3,300 円の初診料も込みの金額です) 【施術料(税込)】 1部位 : 1,430,000 円 2部位 : 2,090,000 円 【細胞保管料(税込)】",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 2090000,
           "tax": "税込",
           "unit": "",
@@ -348,24 +252,6 @@
           "tax_inferred": true,
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 110000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "【施術料(税込)】 1部位 : 1,430,000 円 2部位 : 2,090,000 円 【細胞保管料(税込)】 年間保管料:110,000 円(1 年毎更新)",
-          "page": 10,
-          "line": "【施術料(税込)】 1部位 : 1,430,000 円 2部位 : 2,090,000 円 【細胞保管料(税込)】 年間保管料:110,000 円(1 年毎更新)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
         },
         {
           "amount": 1430000,
@@ -384,46 +270,10 @@
           "tax_inferred": true,
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 14300,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "す。 【診察料+血液検査(税込)】 診察料 : 3,300 円(診察のみの場合) 血液検査:14,300 円(注:3,300 円の初診料も込みの金額です) 【施術料(税込)】",
-          "page": 10,
-          "line": "す。 【診察料+血液検査(税込)】 診察料 : 3,300 円(診察のみの場合) 血液検査:14,300 円(注:3,300 円の初診料も込みの金額です) 【施術料(税込)】",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 2090000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2部位 : 2,090,000 円 【細胞保管料(税込)】 年間保管料:110,000 円(1 年毎更新)",
-          "page": 10,
-          "line": "2部位 : 2,090,000 円 【細胞保管料(税込)】 年間保管料:110,000 円(1 年毎更新)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "treatment_prices_separated_from_ancillary_fees"
     },
     {
       "plan_id": "V41_01E2605017",
@@ -15096,66 +14946,6 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 11000,
-          "tax": "不明",
-          "unit": "1 回",
-          "score": 6,
-          "products": [],
-          "excerpt": "2,200,000 円 細胞保管費用(1 か月あたり) 11,000 円 ※ 投与回数にかかわらず、1 回投与あたりの費用です。 (4) 治療をキャンセルされた場合は、キャンセル費用をいただきます。",
-          "page": 6,
-          "line": "11,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 2200000,
-          "tax": "不明",
-          "unit": "両側",
-          "score": 6,
-          "products": [],
-          "excerpt": "1,320,000 円 【両側】 自家脂肪由来間葉系幹細胞・2 億cells(片側1 億cells) 2,200,000 円 細胞保管費用(1 か月あたり) 11,000 円",
-          "page": 6,
-          "line": "2,200,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 11000,
-          "tax": "税込",
-          "unit": "",
-          "score": 4,
-          "products": [],
-          "excerpt": "費用(税込) 初診料 11,000 円 血液検査 22,000 円",
-          "page": 6,
-          "line": "11,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 22000,
-          "tax": "不明",
-          "unit": "片側",
-          "score": 3,
-          "products": [],
-          "excerpt": "11,000 円 血液検査 22,000 円 【片側】 自家脂肪由来間葉系幹細胞・5,000 万cells 770,000 円",
-          "page": 6,
-          "line": "22,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 770000,
           "tax": "不明",
           "unit": "片側",
@@ -15184,135 +14974,6 @@
           "product_pair_method": "context_token",
           "postprocess_keep": true,
           "postprocess_reason": "cell_dose_table"
-        },
-        {
-          "amount": 1320000,
-          "tax": "不明",
-          "unit": "両側",
-          "score": 3,
-          "products": [],
-          "excerpt": "1,320,000 円 【両側】 自家脂肪由来間葉系幹細胞・1 億cells(片側5,000 万cells) 1,320,000 円 【両側】 自家脂肪由来間葉系幹細胞・2 億cells(片側1 億cells) 2,200,000 円",
-          "page": 6,
-          "line": "1,320,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
-        },
-        {
-          "amount": 2200000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2,200,000 円 細胞保管費用(1 か月あたり) 11,000 円 ※ 投与回数にかかわらず、1 回投与あたりの費用です。 (4) 治療をキャンセルされた場合は、キャンセル費用をいただきます。",
-          "page": 6,
-          "line": "2,200,000 円 細胞保管費用(1 か月あたり) 11,000 円 ※ 投与回数にかかわらず、1 回投与あたりの費用です。 (4) 治療をキャンセルされた場合は、キャンセル費用をいただきます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 1320000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,320,000 円 【両側】 自家脂肪由来間葉系幹細胞・2 億cells(片側1 億cells) 2,200,000 円 細胞保管費用(1 か月あたり) 11,000 円",
-          "page": 6,
-          "line": "1,320,000 円 【両側】 自家脂肪由来間葉系幹細胞・2 億cells(片側1 億cells) 2,200,000 円 細胞保管費用(1 か月あたり) 11,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 11000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,320,000 円 【両側】 自家脂肪由来間葉系幹細胞・2 億cells(片側1 億cells) 2,200,000 円 細胞保管費用(1 か月あたり) 11,000 円",
-          "page": 6,
-          "line": "1,320,000 円 【両側】 自家脂肪由来間葉系幹細胞・2 億cells(片側1 億cells) 2,200,000 円 細胞保管費用(1 か月あたり) 11,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 22000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "費用(税込) 初診料 11,000 円 血液検査 22,000 円",
-          "page": 6,
-          "line": "費用(税込) 初診料 11,000 円 血液検査 22,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 11000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "11,000 円 血液検査 22,000 円 【片側】 自家脂肪由来間葉系幹細胞・5,000 万cells 770,000 円",
-          "page": 6,
-          "line": "11,000 円 血液検査 22,000 円 【片側】 自家脂肪由来間葉系幹細胞・5,000 万cells 770,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 770000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "11,000 円 血液検査 22,000 円 【片側】 自家脂肪由来間葉系幹細胞・5,000 万cells 770,000 円",
-          "page": 6,
-          "line": "11,000 円 血液検査 22,000 円 【片側】 自家脂肪由来間葉系幹細胞・5,000 万cells 770,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 22000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "22,000 円 【片側】 自家脂肪由来間葉系幹細胞・5,000 万cells 770,000 円 【片側】 自家脂肪由来間葉系幹細胞・1 億cells 1,320,000 円",
-          "page": 6,
-          "line": "22,000 円 【片側】 自家脂肪由来間葉系幹細胞・5,000 万cells 770,000 円 【片側】 自家脂肪由来間葉系幹細胞・1 億cells 1,320,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
         },
         {
           "amount": 1320000,
@@ -15363,8 +15024,8 @@
           "postprocess_reason": "cell_dose_table"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "treatment_prices_separated_from_ancillary_fees"
     },
     {
       "plan_id": "V41_03C2405006",
@@ -16000,8 +15661,8 @@
           "products_source": [],
           "makers": [],
           "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
         },
         {
           "amount": 2000,
@@ -20240,21 +19901,6 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 3300,
-          "tax": "税込",
-          "unit": "",
-          "score": 4,
-          "products": [],
-          "excerpt": "一般的な治療費用は下記のとおりです。(税込表記) 診察料(診察のみの場合) 3,300 円 血液検査(初診料込) 14,300円",
-          "page": 9,
-          "line": "3,300 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 1100000,
           "tax": "不明",
           "unit": "1部位",
@@ -20283,106 +19929,10 @@
           "product_pair_method": "context_token",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 14300,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "3,300 円 血液検査(初診料込) 14,300円",
-          "page": 9,
-          "line": "14,300円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,650,000 円 細胞保管料(1年毎更新) 110,000 円 その他、治療についての注意事 項",
-          "page": 10,
-          "line": "110,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 14300,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般的な治療費用は下記のとおりです。(税込表記) 診察料(診察のみの場合) 3,300 円 血液検査(初診料込) 14,300円",
-          "page": 9,
-          "line": "一般的な治療費用は下記のとおりです。(税込表記) 診察料(診察のみの場合) 3,300 円 血液検査(初診料込) 14,300円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1x10^8細胞(1回分)を3分割し、複数箇所、あるいは複数部位に投 与した場合 1,650,000 円 細胞保管料(1年毎更新) 110,000 円",
-          "page": 10,
-          "line": "1x10^8細胞(1回分)を3分割し、複数箇所、あるいは複数部位に投 与した場合 1,650,000 円 細胞保管料(1年毎更新) 110,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 3300,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "3,300 円 血液検査(初診料込) 14,300円",
-          "page": 9,
-          "line": "3,300 円 血液検査(初診料込) 14,300円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 1650000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,650,000 円 細胞保管料(1年毎更新) 110,000 円 その他、治療についての注意事 項",
-          "page": 10,
-          "line": "1,650,000 円 細胞保管料(1年毎更新) 110,000 円 その他、治療についての注意事 項",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "treatment_prices_separated_from_ancillary_fees"
     },
     {
       "plan_id": "V41_02E2308012",
@@ -20647,57 +20197,12 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 3300,
-          "tax": "税込",
-          "unit": "",
-          "score": 4,
-          "products": [],
-          "excerpt": "一般的な治療費用は下記のとおりです。(税込表記) 診察料(診察のみの場合) 3,300 円 血液検査(初診料込) 14,300円",
-          "page": 11,
-          "line": "3,300 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 14300,
-          "tax": "不明",
-          "unit": "1部位",
-          "score": 3,
-          "products": [],
-          "excerpt": "3,300 円 血液検査(初診料込) 14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円",
-          "page": 11,
-          "line": "14,300円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 1650000,
           "tax": "不明",
           "unit": "1部位",
           "score": 3,
           "products": [],
           "excerpt": "14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円 骨髄内幹細胞投与(1部位、1回) 1,650,000 円",
-          "page": 11,
-          "line": "1,650,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 1650000,
-          "tax": "不明",
-          "unit": "1回",
-          "score": 3,
-          "products": [],
-          "excerpt": "1x10^8細胞(1回分)を2分割し、関節内幹細胞投与+骨髄内幹細 胞投与した場合(1部位、1回) 1,650,000 円 細胞保管料(1 年毎更新) 110,000 円",
           "page": 11,
           "line": "1,650,000 円",
           "products_source": [],
@@ -20722,55 +20227,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,650,000 円 細胞保管料(1 年毎更新) 110,000 円",
-          "page": 11,
-          "line": "110,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 14300,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般的な治療費用は下記のとおりです。(税込表記) 診察料(診察のみの場合) 3,300 円 血液検査(初診料込) 14,300円",
-          "page": 11,
-          "line": "一般的な治療費用は下記のとおりです。(税込表記) 診察料(診察のみの場合) 3,300 円 血液検査(初診料込) 14,300円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 3300,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "3,300 円 血液検査(初診料込) 14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円",
-          "page": 11,
-          "line": "3,300 円 血液検査(初診料込) 14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 1650000,
           "tax": "不明",
           "unit": "",
@@ -20787,38 +20243,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 14300,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円 骨髄内幹細胞投与(1部位、1回) 1,650,000 円",
-          "page": 11,
-          "line": "14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円 骨髄内幹細胞投与(1部位、1回) 1,650,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1x10^8細胞(1回分)を2分割し、関節内幹細胞投与+骨髄内幹細 胞投与した場合(1部位、1回) 1,650,000 円 細胞保管料(1 年毎更新) 110,000 円",
-          "page": 11,
-          "line": "1x10^8細胞(1回分)を2分割し、関節内幹細胞投与+骨髄内幹細 胞投与した場合(1部位、1回) 1,650,000 円 細胞保管料(1 年毎更新) 110,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
           "amount": 1650000,
           "tax": "不明",
           "unit": "",
@@ -20833,26 +20257,10 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "cell_dose_table"
-        },
-        {
-          "amount": 1650000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,650,000 円 細胞保管料(1 年毎更新) 110,000 円",
-          "page": 11,
-          "line": "1,650,000 円 細胞保管料(1 年毎更新) 110,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "treatment_prices_separated_from_ancillary_fees"
     },
     {
       "plan_id": "V41_01E2510012",
@@ -20995,21 +20403,6 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 14300,
-          "tax": "不明",
-          "unit": "1部位",
-          "score": 3,
-          "products": [],
-          "excerpt": "3,300 円 血液検査(初診料込) 14,300円 細胞投与(1部位、1回) 1,100,000 円",
-          "page": 10,
-          "line": "14,300円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 1100000,
           "tax": "不明",
           "unit": "1部位",
@@ -21040,52 +20433,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 3300,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "診察料(診察のみの場合) 3,300 円 血液検査(初診料込) 14,300円",
-          "page": 10,
-          "line": "3,300 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,650,000 円 細胞保管料(1年毎更新) 110,000 円 その他、治療についての注意事 項",
-          "page": 10,
-          "line": "110,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 3300,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "3,300 円 血液検査(初診料込) 14,300円 細胞投与(1部位、1回) 1,100,000 円",
-          "page": 10,
-          "line": "3,300 円 血液検査(初診料込) 14,300円 細胞投与(1部位、1回) 1,100,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 1100000,
           "tax": "不明",
           "unit": "",
@@ -21100,74 +20447,10 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 14300,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "14,300円 細胞投与(1部位、1回) 1,100,000 円 1x10^8細胞(1回分)を3分割し、複数箇所、あるいは複数部位に投 与した場合",
-          "page": 10,
-          "line": "14,300円 細胞投与(1部位、1回) 1,100,000 円 1x10^8細胞(1回分)を3分割し、複数箇所、あるいは複数部位に投 与した場合",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1x10^8細胞(1回分)を3分割し、複数箇所、あるいは複数部位に投 与した場合 1,650,000 円 細胞保管料(1年毎更新) 110,000 円",
-          "page": 10,
-          "line": "1x10^8細胞(1回分)を3分割し、複数箇所、あるいは複数部位に投 与した場合 1,650,000 円 細胞保管料(1年毎更新) 110,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 14300,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "診察料(診察のみの場合) 3,300 円 血液検査(初診料込) 14,300円",
-          "page": 10,
-          "line": "診察料(診察のみの場合) 3,300 円 血液検査(初診料込) 14,300円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 1650000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,650,000 円 細胞保管料(1年毎更新) 110,000 円 その他、治療についての注意事 項",
-          "page": 10,
-          "line": "1,650,000 円 細胞保管料(1年毎更新) 110,000 円 その他、治療についての注意事 項",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "treatment_prices_separated_from_ancillary_fees"
     },
     {
       "plan_id": "V41_02E2508013",
@@ -21332,51 +20615,6 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "3回",
-          "score": 6,
-          "products": [],
-          "excerpt": "1,650,000 円 細胞保管料(1 年毎更新) 110,000 円 *患部の状態から、複数回(3回程度)の投与が望ましい場合があ ります。その場合は別途注意点、料金をご説明いたします。",
-          "page": 12,
-          "line": "110,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 3300,
-          "tax": "税込",
-          "unit": "",
-          "score": 4,
-          "products": [],
-          "excerpt": "一般的な治療費用は下記のとおりです。(税込表記) 診察料(診察のみの場合) 3,300 円 血液検査(初診料込) 14,300円",
-          "page": 11,
-          "line": "3,300 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 14300,
-          "tax": "不明",
-          "unit": "1部位",
-          "score": 3,
-          "products": [],
-          "excerpt": "3,300 円 血液検査(初診料込) 14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円",
-          "page": 11,
-          "line": "14,300円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 1650000,
           "tax": "不明",
           "unit": "1部位",
@@ -21412,71 +20650,6 @@
           "unit": "",
           "score": 0,
           "products": [],
-          "excerpt": "1,650,000 円 細胞保管料(1 年毎更新) 110,000 円",
-          "page": 12,
-          "line": "1,650,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 1650000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,650,000 円 細胞保管料(1 年毎更新) 110,000 円 *患部の状態から、複数回(3回程度)の投与が望ましい場合があ ります。その場合は別途注意点、料金をご説明いたします。",
-          "page": 12,
-          "line": "1,650,000 円 細胞保管料(1 年毎更新) 110,000 円 *患部の状態から、複数回(3回程度)の投与が望ましい場合があ ります。その場合は別途注意点、料金をご説明いたします。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 14300,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般的な治療費用は下記のとおりです。(税込表記) 診察料(診察のみの場合) 3,300 円 血液検査(初診料込) 14,300円",
-          "page": 11,
-          "line": "一般的な治療費用は下記のとおりです。(税込表記) 診察料(診察のみの場合) 3,300 円 血液検査(初診料込) 14,300円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 3300,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "3,300 円 血液検査(初診料込) 14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円",
-          "page": 11,
-          "line": "3,300 円 血液検査(初診料込) 14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 1650000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
           "excerpt": "3,300 円 血液検査(初診料込) 14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円",
           "page": 11,
           "line": "3,300 円 血液検査(初診料込) 14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円",
@@ -21486,22 +20659,6 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 14300,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円 骨髄内幹細胞投与(1部位、1回) 1,650,000 円",
-          "page": 11,
-          "line": "14,300円 関節内幹細胞投与(1部位、1回) 1,650,000 円 骨髄内幹細胞投与(1部位、1回) 1,650,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
         },
         {
           "amount": 1650000,
@@ -21518,26 +20675,10 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "cell_dose_table"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,650,000 円 細胞保管料(1 年毎更新) 110,000 円",
-          "page": 12,
-          "line": "1,650,000 円 細胞保管料(1 年毎更新) 110,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "treatment_prices_separated_from_ancillary_fees"
     },
     {
       "plan_id": "V41_02E2508014",
@@ -24221,21 +23362,6 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 8800,
-          "tax": "税込",
-          "unit": "1 回",
-          "score": 4,
-          "products": [],
-          "excerpt": "かかります(税込)。 初診料 8,800 円 治療費用 1 回 片膝注射 110,000 円",
-          "page": 4,
-          "line": "8,800 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 110000,
           "tax": "不明",
           "unit": "1 回",
@@ -24299,22 +23425,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 8800,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "8,800 円 治療費用 1 回 片膝注射 110,000 円 両膝ハーフ 165,000 円",
-          "page": 4,
-          "line": "8,800 円 治療費用 1 回 片膝注射 110,000 円 両膝ハーフ 165,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 165000,
           "tax": "不明",
           "unit": "",
@@ -24329,38 +23439,6 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 165000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "165,000 円 両膝注射 220,000 円 15)いつでも相談できること 治療の内容、スケジュール、費用等につきましては、いつでもご相談頂くこ",
-          "page": 4,
-          "line": "165,000 円 両膝注射 220,000 円 15)いつでも相談できること 治療の内容、スケジュール、費用等につきましては、いつでもご相談頂くこ",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "110,000 円 両膝ハーフ 165,000 円 両膝注射 220,000 円",
-          "page": 4,
-          "line": "110,000 円 両膝ハーフ 165,000 円 両膝注射 220,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
         },
         {
           "amount": 220000,
@@ -24379,8 +23457,8 @@
           "postprocess_reason": "treatment_label_nearest"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "treatment_prices_separated_from_ancillary_fees"
     },
     {
       "plan_id": "V41_02E2508006",
@@ -32986,81 +32064,6 @@
         },
         {
           "amount": 1320000,
-          "tax": "不明",
-          "unit": "2 回",
-          "score": 3,
-          "products": [],
-          "excerpt": "2 回目:990,000 円 (※同時に5ml 以上作製する場合、5ml ごとに 990,000 円 別の日に作製する場合は1,320,000 円) *施術予定日を含む3 週間前までのキャンセルの場合、 施術料金の60%を返金させていただきます。",
-          "page": 11,
-          "line": "別の日に作製する場合は1,320,000 円)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 990000,
-          "tax": "不明",
-          "unit": "2 回",
-          "score": 0,
-          "products": [],
-          "excerpt": "初回 :1,320,000 円 2 回目:990,000 円 (※同時に5ml 以上作製する場合、5ml ごとに 990,000 円 別の日に作製する場合は1,320,000 円) *施術予定日を含む3 週間前までのキャンセルの場合、",
-          "page": 11,
-          "line": "(※同時に5ml 以上作製する場合、5ml ごとに 990,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 3300,
-          "tax": "税込",
-          "unit": "",
-          "score": -6,
-          "products": [],
-          "excerpt": "ます。 【診察料+血液検査料金(税込)】 診察料 :3,300 円(診察のみの場合) 血液検査:11,000 円(診察料込) 【施術料金(税込)】",
-          "page": 11,
-          "line": "診察料 :3,300 円(診察のみの場合)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 11000,
-          "tax": "税込",
-          "unit": "",
-          "score": -6,
-          "products": [],
-          "excerpt": "【診察料+血液検査料金(税込)】 診察料 :3,300 円(診察のみの場合) 血液検査:11,000 円(診察料込) 【施術料金(税込)】 初回 :1,320,000 円",
-          "page": 11,
-          "line": "血液検査:11,000 円(診察料込)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 110000,
-          "tax": "税込",
-          "unit": "",
-          "score": -9,
-          "products": [],
-          "excerpt": "処置料:0 円/回 【細胞保管料(税込)】 年間保管料:110,000 円(1 年更新)",
-          "page": 11,
-          "line": "年間保管料:110,000 円(1 年更新)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 1320000,
           "tax": "税込",
           "unit": "",
           "score": 0,
@@ -33078,24 +32081,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 11000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "血液検査:11,000 円(診察料込) 【施術料金(税込)】 初回 :1,320,000 円 2 回目:990,000 円 (※同時に5ml 以上作製する場合、5ml ごとに 990,000 円",
-          "page": 11,
-          "line": "血液検査:11,000 円(診察料込) 【施術料金(税込)】 初回 :1,320,000 円 2 回目:990,000 円 (※同時に5ml 以上作製する場合、5ml ごとに 990,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 990000,
           "tax": "税込",
           "unit": "",
@@ -33112,74 +32097,6 @@
           "tax_inferred": true,
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 990000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2 回目:990,000 円 (※同時に5ml 以上作製する場合、5ml ごとに 990,000 円 別の日に作製する場合は1,320,000 円) *施術予定日を含む3 週間前までのキャンセルの場合、 施術料金の60%を返金させていただきます。",
-          "page": 11,
-          "line": "2 回目:990,000 円 (※同時に5ml 以上作製する場合、5ml ごとに 990,000 円 別の日に作製する場合は1,320,000 円) *施術予定日を含む3 週間前までのキャンセルの場合、 施術",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 1320000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "初回 :1,320,000 円 2 回目:990,000 円 (※同時に5ml 以上作製する場合、5ml ごとに 990,000 円 別の日に作製する場合は1,320,000 円) *施術予定日を含む3 週間前までのキャンセルの場合、",
-          "page": 11,
-          "line": "初回 :1,320,000 円 2 回目:990,000 円 (※同時に5ml 以上作製する場合、5ml ごとに 990,000 円 別の日に作製する場合は1,320,000 円) *施術予定日を含む3 週間前",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 11000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "ます。 【診察料+血液検査料金(税込)】 診察料 :3,300 円(診察のみの場合) 血液検査:11,000 円(診察料込) 【施術料金(税込)】",
-          "page": 11,
-          "line": "ます。 【診察料+血液検査料金(税込)】 診察料 :3,300 円(診察のみの場合) 血液検査:11,000 円(診察料込) 【施術料金(税込)】",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 3300,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "【診察料+血液検査料金(税込)】 診察料 :3,300 円(診察のみの場合) 血液検査:11,000 円(診察料込) 【施術料金(税込)】 初回 :1,320,000 円",
-          "page": 11,
-          "line": "【診察料+血液検査料金(税込)】 診察料 :3,300 円(診察のみの場合) 血液検査:11,000 円(診察料込) 【施術料金(税込)】 初回 :1,320,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
         },
         {
           "amount": 1320000,
@@ -33200,8 +32117,8 @@
           "postprocess_reason": "treatment_label_nearest"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "treatment_prices_separated_from_ancillary_fees"
     },
     {
       "plan_id": "V41_01C2305018",
@@ -35420,21 +34337,6 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 50000,
-          "tax": "税別",
-          "unit": "",
-          "score": 6,
-          "products": [],
-          "excerpt": "金額(税抜) 脂肪採取前キャンセル 50,000 円 脂肪採取後キャンセル 治療費の50%",
-          "page": 4,
-          "line": "50,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 2000000,
           "tax": "不明",
           "unit": "",
@@ -35448,21 +34350,6 @@
           "product_pair_method": "context_token",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 15000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": "5,000 円 検査料 15,000 円 片膝投与 1,500,000 円",
-          "page": 4,
-          "line": "15,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
         },
         {
           "amount": 1500000,
@@ -35480,53 +34367,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 5000,
-          "tax": "税別",
-          "unit": "",
-          "score": 1,
-          "products": [],
-          "excerpt": "金額(税抜) 初回診察料 5,000 円 検査料 15,000 円",
-          "page": 4,
-          "line": "5,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 1500000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,500,000 円 両膝投与 2,000,000 円 【キャンセル費用】 項目",
-          "page": 4,
-          "line": "1,500,000 円 両膝投与 2,000,000 円 【キャンセル費用】 項目",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 5000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "5,000 円 検査料 15,000 円 片膝投与 1,500,000 円",
-          "page": 4,
-          "line": "5,000 円 検査料 15,000 円 片膝投与 1,500,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 1500000,
           "tax": "不明",
           "unit": "",
@@ -35541,22 +34381,6 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 15000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "15,000 円 片膝投与 1,500,000 円 両膝投与 2,000,000 円",
-          "page": 4,
-          "line": "15,000 円 片膝投与 1,500,000 円 両膝投与 2,000,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
         },
         {
           "amount": 2000000,
@@ -35573,28 +34397,10 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 15000,
-          "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "金額(税抜) 初回診察料 5,000 円 検査料 15,000 円",
-          "page": 4,
-          "line": "金額(税抜) 初回診察料 5,000 円 検査料 15,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "treatment_prices_separated_from_ancillary_fees"
     },
     {
       "plan_id": "V41_01C2503004",
@@ -36045,51 +34851,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 11000,
-          "tax": "税込",
-          "unit": "",
-          "score": 4,
-          "products": [],
-          "excerpt": "費用(税込) カウンセリング 11,000 円 血液検査 22,000 円",
-          "page": 6,
-          "line": "11,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 11000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": "6,600,000 円 細胞保管費用(1 か月あたり) 11,000 円 (4) 本治療をキャンセルされた場合は、キャンセル費用をいただきます。 項目",
-          "page": 6,
-          "line": "11,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 22000,
-          "tax": "不明",
-          "unit": "1 回",
-          "score": 3,
-          "products": [],
-          "excerpt": "11,000 円 血液検査 22,000 円 自家培養脂肪由来幹細胞投与(5,000 万個/1 関節・1 回) 1,650,000 円",
-          "page": 6,
-          "line": "22,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 1650000,
           "tax": "不明",
           "unit": "1 回",
@@ -36120,88 +34881,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 3300000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "3,300,000 円 自家培養脂肪由来幹細胞投与(2 億個/2 関節・1 回) 6,600,000 円 細胞保管費用(1 か月あたり) 11,000 円",
-          "page": 6,
-          "line": "3,300,000 円 自家培養脂肪由来幹細胞投与(2 億個/2 関節・1 回) 6,600,000 円 細胞保管費用(1 か月あたり) 11,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 11000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "3,300,000 円 自家培養脂肪由来幹細胞投与(2 億個/2 関節・1 回) 6,600,000 円 細胞保管費用(1 か月あたり) 11,000 円",
-          "page": 6,
-          "line": "3,300,000 円 自家培養脂肪由来幹細胞投与(2 億個/2 関節・1 回) 6,600,000 円 細胞保管費用(1 か月あたり) 11,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 22000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "費用(税込) カウンセリング 11,000 円 血液検査 22,000 円",
-          "page": 6,
-          "line": "費用(税込) カウンセリング 11,000 円 血液検査 22,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 6600000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "6,600,000 円 細胞保管費用(1 か月あたり) 11,000 円 (4) 本治療をキャンセルされた場合は、キャンセル費用をいただきます。 項目",
-          "page": 6,
-          "line": "6,600,000 円 細胞保管費用(1 か月あたり) 11,000 円 (4) 本治療をキャンセルされた場合は、キャンセル費用をいただきます。 項目",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 11000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "11,000 円 血液検査 22,000 円 自家培養脂肪由来幹細胞投与(5,000 万個/1 関節・1 回) 1,650,000 円",
-          "page": 6,
-          "line": "11,000 円 血液検査 22,000 円 自家培養脂肪由来幹細胞投与(5,000 万個/1 関節・1 回) 1,650,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 1650000,
           "tax": "不明",
           "unit": "",
@@ -36216,22 +34895,6 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 22000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "22,000 円 自家培養脂肪由来幹細胞投与(5,000 万個/1 関節・1 回) 1,650,000 円 自家培養脂肪由来幹細胞投与(1億個/1 関節・1 回) 3,300,000 円",
-          "page": 6,
-          "line": "22,000 円 自家培養脂肪由来幹細胞投与(5,000 万個/1 関節・1 回) 1,650,000 円 自家培養脂肪由来幹細胞投与(1億個/1 関節・1 回) 3,300,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
         },
         {
           "amount": 3300000,
@@ -36282,8 +34945,8 @@
           "postprocess_reason": "treatment_label_nearest"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "treatment_prices_separated_from_ancillary_fees"
     },
     {
       "plan_id": "V41_01C2604033",
@@ -40832,7 +39495,7 @@
           "makers": [],
           "product_pair_method": "context_token",
           "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
+          "postprocess_reason": "treatment_label_nearest"
         },
         {
           "amount": 50000,
@@ -55609,21 +54272,6 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 33000,
-          "tax": "税込",
-          "unit": "",
-          "score": 7,
-          "products": [],
-          "excerpt": "費用(税込) 脂肪採取前まで(初診料、血液検査費用として) 33,000 円 脂肪採取後、培養を開始するまで 投与費用の50%",
-          "page": 6,
-          "line": "33,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 4158000,
           "tax": "不明",
           "unit": "1 部位",
@@ -55637,36 +54285,6 @@
           "product_pair_method": "context_token",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 5500,
-          "tax": "税込",
-          "unit": "",
-          "score": 4,
-          "products": [],
-          "excerpt": "費用(税込) 初診料 5,500 円 血液検査 27,500 円",
-          "page": 6,
-          "line": "5,500 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 27500,
-          "tax": "不明",
-          "unit": "1 部位",
-          "score": 3,
-          "products": [],
-          "excerpt": "5,500 円 血液検査 27,500 円 自己脂肪由来間葉系幹細胞投与(1 部位・1 回) 1,540,000 円",
-          "page": 6,
-          "line": "27,500 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
         },
         {
           "amount": 1540000,
@@ -55699,56 +54317,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 2926000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2,926,000 円 自己脂肪由来間葉系幹細胞投与(1 部位・3 回) 4,158,000 円 (3) 本治療をキャンセルされた場合は、キャンセル費用をいただきます。 項目",
-          "page": 6,
-          "line": "2,926,000 円 自己脂肪由来間葉系幹細胞投与(1 部位・3 回) 4,158,000 円 (3) 本治療をキャンセルされた場合は、キャンセル費用をいただきます。 項目",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 27500,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "費用(税込) 初診料 5,500 円 血液検査 27,500 円",
-          "page": 6,
-          "line": "費用(税込) 初診料 5,500 円 血液検査 27,500 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 5500,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "5,500 円 血液検査 27,500 円 自己脂肪由来間葉系幹細胞投与(1 部位・1 回) 1,540,000 円",
-          "page": 6,
-          "line": "5,500 円 血液検査 27,500 円 自己脂肪由来間葉系幹細胞投与(1 部位・1 回) 1,540,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 1540000,
           "tax": "不明",
           "unit": "",
@@ -55763,22 +54331,6 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 27500,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "27,500 円 自己脂肪由来間葉系幹細胞投与(1 部位・1 回) 1,540,000 円 自己脂肪由来間葉系幹細胞投与(1 部位・2 回) 2,926,000 円",
-          "page": 6,
-          "line": "27,500 円 自己脂肪由来間葉系幹細胞投与(1 部位・1 回) 1,540,000 円 自己脂肪由来間葉系幹細胞投与(1 部位・2 回) 2,926,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
         },
         {
           "amount": 2926000,
@@ -55829,8 +54381,8 @@
           "postprocess_reason": "treatment_label_nearest"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "treatment_prices_separated_from_ancillary_fees"
     },
     {
       "plan_id": "V41_03C2604054",
@@ -60552,8 +59104,8 @@
           "products_source": [],
           "makers": [],
           "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
         },
         {
           "amount": 9680000,
@@ -63731,7 +62283,7 @@
           "makers": [],
           "product_pair_method": "context_token",
           "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
+          "postprocess_reason": "treatment_label_nearest"
         },
         {
           "amount": 2640000,
@@ -63744,7 +62296,7 @@
           "makers": [],
           "product_pair_method": "context_token",
           "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
+          "postprocess_reason": "treatment_label_nearest"
         }
       ],
       "status_normalized": "AUTO",
@@ -63853,7 +62405,7 @@
           "makers": [],
           "product_pair_method": "context_token",
           "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
+          "postprocess_reason": "treatment_label_nearest"
         },
         {
           "amount": 2640000,
@@ -63866,7 +62418,7 @@
           "makers": [],
           "product_pair_method": "context_token",
           "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
+          "postprocess_reason": "treatment_label_nearest"
         }
       ],
       "status_normalized": "AUTO",
@@ -73571,7 +72123,7 @@
           "makers": [],
           "product_pair_method": "context_token",
           "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
+          "postprocess_reason": "treatment_label_nearest"
         },
         {
           "amount": 3000000,
@@ -73584,7 +72136,7 @@
           "makers": [],
           "product_pair_method": "context_token",
           "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
+          "postprocess_reason": "treatment_label_nearest"
         },
         {
           "amount": 4200000,
@@ -73636,7 +72188,7 @@
           "makers": [],
           "product_pair_method": "context_token",
           "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "postprocess_reason": "ancillary_label_nearest"
         }
       ],
       "status_normalized": "AUTO",
@@ -85924,21 +84476,6 @@
       "qc_reason_source": "rescue price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 990000,
-          "tax": "税込",
-          "unit": "",
-          "score": 5,
-          "products": [],
-          "excerpt": "600,000円(税込) 2部位 990,000円(税込) 文書による同意を頂いたのち、同意を撤回された場合には、そこまでにかかった費用を請求 させて頂きます。",
-          "page": 10,
-          "line": "990,000円(税込)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 600000,
           "tax": "税込",
           "unit": "1部位",
@@ -85952,24 +84489,6 @@
           "product_pair_method": "context_token",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 600000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "600,000円(税込) 2部位 990,000円(税込) 文書による同意を頂いたのち、同意を撤回された場合には、そこまでにかかった費用を請求 させて頂きます。",
-          "page": 10,
-          "line": "600,000円(税込) 2部位 990,000円(税込) 文書による同意を頂いたのち、同意を撤回された場合には、そこまでにかかった費用を請求 させて頂きます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
         },
         {
           "amount": 990000,
@@ -85990,8 +84509,8 @@
           "postprocess_reason": "treatment_label_nearest"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "structured_treatment_price_table"
     },
     {
       "plan_id": "V41_01G1906001",
@@ -86452,8 +84971,8 @@
           "products_source": [],
           "makers": [],
           "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
         },
         {
           "amount": 1500000,
@@ -86784,7 +85303,7 @@
           "makers": [],
           "product_pair_method": "context_token",
           "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
+          "postprocess_reason": "treatment_label_nearest"
         },
         {
           "amount": 7350000,
@@ -88568,25 +87087,10 @@
           "product_pair_method": "nearest_preceding_product_in_excerpt",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 30000,
-          "tax": "税込",
-          "unit": "",
-          "score": 5,
-          "products": [],
-          "excerpt": "き、30,000 円(税込)となります。 今回の療法での具体的な費用は、 キット × 30,000 円(税込) = 円(税込) ご負担いただきます。ご不明な点は医師・スタッフにお尋ねください。 9.健康被害が発生した際の処置と補償等について",
-          "page": 4,
-          "line": "キット × 30,000 円(税込) = 円(税込)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "single_clear_treatment_price"
     },
     {
       "plan_id": "V41_01C2206015",
