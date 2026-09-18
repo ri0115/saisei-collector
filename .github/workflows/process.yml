@@ -45,7 +45,7 @@ jobs:
           for chunk in $(seq 1 12); do
             echo "===== chunk $chunk ====="
             python scripts/processor.py --max-items 24 --workers 8
-            git add results/state.json results/latest.json results/prices.csv || true
+            git add results/state.json results/latest.json results/prices.csv results/index_cache.json || true
             if ! git diff --cached --quiet; then
               git commit -m "Collector checkpoint $chunk [skip ci]"
               git push
