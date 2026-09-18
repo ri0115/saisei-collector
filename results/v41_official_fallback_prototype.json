@@ -1,0 +1,105 @@
+{
+  "version": "v41-official-fallback-prototype-1.0",
+  "updated_at": "2026-09-18T23:08:09.807643+00:00",
+  "facilities": 5,
+  "results": [
+    {
+      "facility_id": "V41FE5F303E2B0",
+      "facility": "医療法人財団康生会 たけだ膠原病リウマチクリニック",
+      "prefecture": "京都府",
+      "query": "\"医療法人財団康生会 たけだ膠原病リウマチクリニック\" 再生医療 幹細胞 PRP 料金",
+      "search_results": [],
+      "pages": [],
+      "plans": [
+        {
+          "plan_id": "V41_03E2507006",
+          "treatment": "自家脂肪組織由来の培養間葉系幹細胞を用いた変形性膝関節症の治療",
+          "treatment_class": "脂肪由来幹細胞",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F862857859B",
+      "facility": "札幌ひざのセルクリニック",
+      "prefecture": "北海道",
+      "query": "\"札幌ひざのセルクリニック\" 再生医療 幹細胞 PRP 料金",
+      "search_results": [],
+      "pages": [],
+      "plans": [
+        {
+          "plan_id": "V41_01A2312001",
+          "treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療",
+          "treatment_class": "脂肪由来幹細胞",
+          "candidates": []
+        },
+        {
+          "plan_id": "V41_01A2312002",
+          "treatment": "自己脂肪由来幹細胞を用いた慢性疼痛の治療",
+          "treatment_class": "脂肪由来幹細胞",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F36AC21EE08",
+      "facility": "社会医療法人　孝仁会　\r\n釧路孝仁会記念病院",
+      "prefecture": "北海道",
+      "query": "\"社会医療法人　孝仁会　  釧路孝仁会記念病院\" PRP 再生医療 料金",
+      "search_results": [],
+      "pages": [],
+      "plans": [
+        {
+          "plan_id": "V41_03A2505002",
+          "treatment": "自己脂肪（組織）由来再生（幹）細胞を用いた変形性膝関節症の治療",
+          "treatment_class": "その他MSK",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F5C961B1A36",
+      "facility": "医療法人社団　順徳会　下総中山整形外科クリニック",
+      "prefecture": "千葉県",
+      "query": "\"医療法人社団　順徳会　下総中山整形外科クリニック\" 再生医療 幹細胞 PRP 料金",
+      "search_results": [],
+      "pages": [],
+      "plans": [
+        {
+          "plan_id": "V41_02C2601085",
+          "treatment": "自己脂肪組織由来幹細胞（ASCs）を用いた変形性関節症の治療",
+          "treatment_class": "脂肪由来幹細胞",
+          "candidates": []
+        },
+        {
+          "plan_id": "V41_02C2601086",
+          "treatment": "自己多血小板血漿(PRP)療法（治療対象：関節炎・変形性関節症）",
+          "treatment_class": "PRP",
+          "candidates": []
+        },
+        {
+          "plan_id": "V41_02C2601087",
+          "treatment": "自己多血小板血漿(PRP)療法（治療対象：筋・腱・靭帯損傷）",
+          "treatment_class": "PRP",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F9372FF520F",
+      "facility": "日本医科大学千葉北総病院",
+      "prefecture": "千葉県",
+      "query": "\"日本医科大学千葉北総病院\" PRP 再生医療 料金",
+      "search_results": [],
+      "pages": [],
+      "plans": [
+        {
+          "plan_id": "V41_01C2310044",
+          "treatment": "変形性関節症に対する多血小板血漿抽出液（ＡＰＳ）関節内投与療法",
+          "treatment_class": "APS/PRP",
+          "candidates": []
+        }
+      ]
+    }
+  ]
+}
