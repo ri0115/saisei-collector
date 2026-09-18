@@ -1,13 +1,17 @@
 {
-  "version": "0.1",
+  "version": "0.5",
   "queue_version": "v40",
   "priority": "C",
   "total": 105,
-  "processed": 0,
-  "pending": 105,
-  "auto": 0,
-  "qc": 0,
+  "processed": 24,
+  "pending": 81,
+  "auto": 12,
+  "qc": 12,
   "fail": 0,
-  "phase": "waiting_for_B",
-  "updated_at": "2026-09-18T10:50:00Z"
+  "phase": "checkpoint",
+  "updated_at": "2026-09-18T12:14:28.380872+00:00",
+  "index_counts": {
+    "2": 2502,
+    "3": 4270
+  }
 }
