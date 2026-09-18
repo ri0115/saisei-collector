@@ -1,18 +1,18 @@
 {
-  "version": "0.5",
+  "version": "0.7",
   "queue_version": "v40",
   "priority": "B",
   "total": 335,
   "processed": 335,
   "pending": 0,
   "auto": 232,
-  "qc": 98,
-  "fail": 5,
-  "phase": "complete",
-  "updated_at": "2026-09-18T14:09:23.762807+00:00",
+  "qc": 99,
+  "fail": 4,
+  "phase": "qc_refine",
+  "updated_at": "2026-09-18T14:11:07.197755+00:00",
   "index_counts": {
     "2": 2502,
     "3": 4270
   },
-  "qc_refine_remaining": 6
+  "qc_refine_remaining": 5
 }
