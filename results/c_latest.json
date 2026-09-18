@@ -1,15 +1,15 @@
 {
-  "version": "0.7",
+  "version": "0.8",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T13:04:35.812111+00:00",
+  "updated_at": "2026-09-18T13:26:56.792562+00:00",
   "summary": {
     "total": 105,
     "processed": 105,
     "pending": 0,
     "auto": 72,
-    "qc": 31,
-    "fail": 2,
-    "qc_refine_remaining": 2
+    "qc": 33,
+    "fail": 0,
+    "qc_refine_remaining": 0
   },
   "items": [
     {
@@ -347,13 +347,16 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "東京全件監査で追加",
       "checked_at": "2026-09-18T12:14:22.498035+00:00",
-      "status": "FAIL",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2503010/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "RuntimeError: Tesseract process timeout",
-      "qc_reason": "document fetch/parse failed"
+      "error": "Rescue completed; OCR page timeouts=0",
+      "qc_reason": "no price found after rescue text/OCR pass",
+      "qc_refined_at": "2026-09-18T13:26:53.562796+00:00",
+      "rescue_refined_at": "2026-09-18T13:26:53.562813+00:00",
+      "prices_refined": []
     },
     {
       "plan_id": "P00324",
@@ -1973,13 +1976,16 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "東京第二種最終監査で追加",
       "checked_at": "2026-09-18T12:33:06.513747+00:00",
-      "status": "FAIL",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2301038/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "RuntimeError: Tesseract process timeout",
-      "qc_reason": "document fetch/parse failed"
+      "error": "Rescue completed; OCR page timeouts=0",
+      "qc_reason": "no price found after rescue text/OCR pass",
+      "qc_refined_at": "2026-09-18T13:26:56.792358+00:00",
+      "rescue_refined_at": "2026-09-18T13:26:56.792371+00:00",
+      "prices_refined": []
     },
     {
       "plan_id": "P00321",
