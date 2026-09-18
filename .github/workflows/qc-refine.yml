@@ -1,0 +1,65 @@
+name: Refine QC with line-level parsing and OCR
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "scripts/qc_refine.py"
+      - ".github/workflows/qc-refine.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "regen-qc-refine"
+  cancel-in-progress: false
+
+jobs:
+  refine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install OCR and Python dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-jpn
+          pip install -r requirements.txt
+
+      - name: Configure checkpoint commits
+        run: |
+          git config user.name "regen-med-collector"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Refine QC in checkpointed batches
+        shell: bash
+        run: |
+          set -e
+          for chunk in $(seq 1 8); do
+            echo "===== qc chunk $chunk ====="
+            python scripts/qc_refine.py --max-items 20 --workers 4
+            git add results/state.json results/latest.json results/prices.csv || true
+            if ! git diff --cached --quiet; then
+              git commit -m "QC refine checkpoint $chunk [skip ci]"
+              git push
+            fi
+            REMAINING=$(python - <<'PY'
+          import json
+          with open("results/state.json",encoding="utf-8") as f:
+              print(json.load(f).get("qc_refine_remaining",0))
+          PY
+            )
+            echo "qc_refine_remaining=$REMAINING"
+            if [ "$REMAINING" = "0" ]; then
+              break
+            fi
+            sleep 5
+          done
