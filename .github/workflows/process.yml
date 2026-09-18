@@ -1,0 +1,64 @@
+name: Process A-priority price queue
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "data/queue_a_v40.json"
+      - "scripts/processor.py"
+      - "requirements.txt"
+      - ".github/workflows/process.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "regen-a-price-scan"
+  cancel-in-progress: false
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure checkpoint commits
+        run: |
+          git config user.name "regen-med-collector"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Process queue with checkpoints
+        shell: bash
+        run: |
+          set -e
+          for chunk in $(seq 1 12); do
+            echo "===== chunk $chunk ====="
+            python scripts/processor.py --max-items 24 --workers 8
+            git add results/state.json results/latest.json results/prices.csv || true
+            if ! git diff --cached --quiet; then
+              git commit -m "Collector checkpoint $chunk [skip ci]"
+              git push
+            fi
+            PENDING=$(python - <<'PY'
+          import json
+          with open("results/state.json",encoding="utf-8") as f:
+              print(json.load(f).get("pending",0))
+          PY
+            )
+            echo "pending=$PENDING"
+            if [ "$PENDING" = "0" ]; then
+              break
+            fi
+            sleep 3
+          done
