@@ -18,12 +18,12 @@ except Exception:
 
 BASE="https://saiseiiryo.mhlw.go.jp"
 UA="Mozilla/5.0 (compatible; RegenMedCollector-QC/0.6; +https://github.com/ri0115/saisei-collector)"
-TIMEOUT=45
+TIMEOUT=30
 
 def now():
     return datetime.now(timezone.utc).isoformat()
 
-def get(url,retries=5):
+def get(url,retries=3):
     headers={"User-Agent":UA,"Accept":"application/pdf,text/html,*/*","Referer":BASE+"/"}
     last=None
     for n in range(retries):
@@ -47,7 +47,7 @@ def pdf_pages(data):
         pages.append(p.get_text("text") or "")
     return pages,doc
 
-def ocr_doc(doc,max_pages=8):
+def ocr_doc(doc,max_pages=6):
     if not OCR_OK:
         return []
     out=[]
@@ -55,7 +55,7 @@ def ocr_doc(doc,max_pages=8):
         if i>=max_pages: break
         pix=p.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)
         img=Image.open(BytesIO(pix.tobytes("png")))
-        txt=pytesseract.image_to_string(img,lang="jpn+eng",config="--psm 6")
+        txt=pytesseract.image_to_string(img,lang="jpn+eng",config="--psm 6",timeout=20)
         out.append(txt or "")
     return out
 
@@ -203,8 +203,8 @@ def main():
     ap.add_argument("--results",default="results/latest.json")
     ap.add_argument("--state",default="results/state.json")
     ap.add_argument("--csv",default="results/prices.csv")
-    ap.add_argument("--max-items",type=int,default=20)
-    ap.add_argument("--workers",type=int,default=4)
+    ap.add_argument("--max-items",type=int,default=5)
+    ap.add_argument("--workers",type=int,default=2)
     args=ap.parse_args()
     data=load(args.results)
     items=data.get("items",[])
@@ -220,11 +220,11 @@ def main():
     counts={"AUTO":0,"QC":0,"FAIL":0}
     for x in items: counts[x.get("status","QC")]=counts.get(x.get("status","QC"),0)+1
     remaining=sum(1 for x in items if x.get("status") in ("QC","FAIL") and not x.get("qc_refined_at"))
-    data["version"]="0.6";data["updated_at"]=now();data["items"]=items
+    data["version"]="0.7";data["updated_at"]=now();data["items"]=items
     data["summary"]={"total":len(items),"processed":len(items),"pending":0,"auto":counts["AUTO"],"qc":counts["QC"],"fail":counts["FAIL"],"qc_refine_remaining":remaining}
     save(args.results,data);write_csv(args.csv,items)
     st=load(args.state)
-    st.update(data["summary"]);st["version"]="0.6";st["phase"]="qc_refine_complete" if remaining==0 else "qc_refine";st["updated_at"]=now()
+    st.update(data["summary"]);st["version"]="0.7";st["phase"]="qc_refine_complete" if remaining==0 else "qc_refine";st["updated_at"]=now()
     save(args.state,st)
     print(json.dumps(data["summary"],ensure_ascii=False))
 
