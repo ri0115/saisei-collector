@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - "scripts/postprocess_v41_prices.py"
+      - "data/v41_verified_price_overrides.json"
       - ".github/workflows/postprocess-v41.yml"
 
 permissions:
