@@ -1,14 +1,14 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T12:19:05.294880+00:00",
+  "updated_at": "2026-09-18T12:21:25.732936+00:00",
   "summary": {
     "total": 335,
     "processed": 335,
     "pending": 0,
     "auto": 198,
-    "qc": 117,
-    "fail": 20,
+    "qc": 116,
+    "fail": 21,
     "qc_refine_remaining": 104
   },
   "items": [
@@ -7988,12 +7988,13 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行厚労省一覧確認済",
       "checked_at": "2026-09-18T11:50:45.006096+00:00",
-      "status": "QC",
+      "status": "FAIL",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2502020/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "RuntimeError: Tesseract process timeout",
+      "qc_reason": "document fetch/parse failed"
     },
     {
       "plan_id": "P00370",
