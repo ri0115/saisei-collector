@@ -157,7 +157,7 @@ def amount_candidates(text):
             if um:
                 unit=um.group(1)
             products=[]
-            for token in ["ACP MAX","ACP","APS","GPS III","GPSⅢ","GPS","PEAK","Angel","TriCeLL","Mycells","Zimmer","Arthrex"]:
+            for token in ["ACP MAX","ACP","APS","GPS III","GPSⅢ","GPS","PEAK","Angel","TriCeLL","Mycells","Zimmer","Arthrex","Condensia","コンデンシア","PRGF","Endoret","MAGELLAN","マゼラン"]:
                 if token.lower() in ctx.lower():
                     products.append(token)
             out.append({"amount":amount,"tax":tax,"unit":unit,"score":score,"products":products[:4],"excerpt":ctx})
