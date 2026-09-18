@@ -1,15 +1,15 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T12:16:06.591152+00:00",
+  "updated_at": "2026-09-18T12:17:15.339432+00:00",
   "summary": {
     "total": 216,
     "processed": 216,
     "pending": 0,
-    "auto": 138,
-    "qc": 75,
+    "auto": 139,
+    "qc": 74,
     "fail": 3,
-    "qc_refine_remaining": 18
+    "qc_refine_remaining": 16
   },
   "items": [
     {
@@ -9726,13 +9726,15 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:25:28.709355+00:00",
-      "status": "FAIL",
+      "status": "QC",
       "match_score": 0.994,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2305033/5/0",
-      "document_type": "pdf",
+      "document_type": "ocr",
       "prices": [],
       "error": "RuntimeError: Tesseract process timeout",
-      "qc_reason": "document fetch/parse failed"
+      "qc_reason": "no price found after text/OCR pass",
+      "qc_refined_at": "2026-09-18T12:17:15.339029+00:00",
+      "prices_refined": []
     },
     {
       "plan_id": "P00856",
@@ -10170,7 +10172,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:26:46.340049+00:00",
-      "status": "QC",
+      "status": "AUTO",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2409030/5/0",
       "document_type": "pdf",
@@ -10179,12 +10181,28 @@
           "amount": 495000,
           "tax": "税込",
           "unit": "",
-          "score": 6,
+          "score": 14,
           "products": [],
-          "excerpt": "取による皮下出血や 血腫塊が確認されましたが、いずれも命にかかわるような重篤なも のではありませんでした。また、関節内への脂肪組織由来細胞群注 入による副作用は現在のところ報告されていません。 【治療にかかる費用】 本治療は保険適用となっていないため、患者さまご本人の負担とな ります。治療費の総額は495,000円(税込)です。脂肪を採取する 量によって費用が変わることはありません。詳細につきましては事 前に医師、看護師から説明がございます。また、治療の途中で同意 を撤回される場合はその時点までの費用がかかります。 治療の開始後、患者様の個人的な事情及び金銭等に関する問題に関 しては、一切責任を負いかねますのでご了承ください。 【治療の拒否並びに"
+          "excerpt": "【治療にかかる費用】 本治療は保険適用となっていないため、患者さまご本人の負担とな ります。治療費の総額は495,000円(税込)です。脂肪を採取する 量によって費用が変わることはありません。詳細につきましては事 前に医師、看護師から説明がございます。また、治療の途中で同意",
+          "page": 6,
+          "line": "ります。治療費の総額は495,000円(税込)です。脂肪を採取する"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T12:16:46.910889+00:00",
+      "prices_refined": [
+        {
+          "amount": 495000,
+          "tax": "税込",
+          "unit": "",
+          "score": 14,
+          "products": [],
+          "excerpt": "【治療にかかる費用】 本治療は保険適用となっていないため、患者さまご本人の負担とな ります。治療費の総額は495,000円(税込)です。脂肪を採取する 量によって費用が変わることはありません。詳細につきましては事 前に医師、看護師から説明がございます。また、治療の途中で同意",
+          "page": 6,
+          "line": "ります。治療費の総額は495,000円(税込)です。脂肪を採取する"
+        }
+      ],
+      "qc_reason": "line-level strong price context"
     },
     {
       "plan_id": "P00818",
@@ -10198,12 +10216,13 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:26:46.457427+00:00",
-      "status": "QC",
+      "status": "FAIL",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2201007/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "RuntimeError: Tesseract process timeout",
+      "qc_reason": "document fetch/parse failed"
     },
     {
       "plan_id": "P00819",
