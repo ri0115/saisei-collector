@@ -1,5 +1,5 @@
 {
-  "version": "0.8",
+  "version": "0.7",
   "queue_version": "v40",
   "total": 216,
   "processed": 216,
@@ -8,7 +8,7 @@
   "qc": 74,
   "fail": 0,
   "phase": "qc_refine_complete",
-  "updated_at": "2026-09-18T13:02:11.505370+00:00",
+  "updated_at": "2026-09-18T14:09:05.389323+00:00",
   "index_counts": {
     "2": 2502,
     "3": 4270
