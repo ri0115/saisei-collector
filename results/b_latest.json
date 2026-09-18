@@ -1,15 +1,15 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T12:28:59.037444+00:00",
+  "updated_at": "2026-09-18T12:31:28.509952+00:00",
   "summary": {
     "total": 335,
     "processed": 335,
     "pending": 0,
     "auto": 199,
-    "qc": 116,
-    "fail": 20,
-    "qc_refine_remaining": 102
+    "qc": 117,
+    "fail": 19,
+    "qc_refine_remaining": 100
   },
   "items": [
     {
@@ -7948,13 +7948,37 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
       "plan_status": "現行一覧確認済",
       "checked_at": "2026-09-18T11:50:44.903792+00:00",
-      "status": "FAIL",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2308047/5/0",
-      "document_type": "pdf",
-      "prices": [],
-      "error": "RuntimeError: Tesseract process timeout",
-      "qc_reason": "document fetch/parse failed"
+      "document_type": "ocr",
+      "prices": [
+        {
+          "amount": 38000,
+          "tax": "不明",
+          "unit": "",
+          "score": -10,
+          "products": [],
+          "excerpt": "つでも取りやめることができます。この場合でも、一切不利益を受けません。 (採血等にかかる実費等はご負担いただきます。 : 採血後のキャンセル料 5.OOO円 加工後のキャンセル料 38,000 円) もしこの治療を受けることに同意しない場合も、最適と考えられる治療を実施できる ように患者様の治療に最善を尽くします。",
+          "page": 6,
+          "line": ": 採血後のキャンセル料 5.OOO円 加工後のキャンセル料 38,000 円)"
+        }
+      ],
+      "error": "",
+      "qc_reason": "price candidates remain ambiguous",
+      "qc_refined_at": "2026-09-18T12:31:28.509306+00:00",
+      "prices_refined": [
+        {
+          "amount": 38000,
+          "tax": "不明",
+          "unit": "",
+          "score": -10,
+          "products": [],
+          "excerpt": "つでも取りやめることができます。この場合でも、一切不利益を受けません。 (採血等にかかる実費等はご負担いただきます。 : 採血後のキャンセル料 5.OOO円 加工後のキャンセル料 38,000 円) もしこの治療を受けることに同意しない場合も、最適と考えられる治療を実施できる ように患者様の治療に最善を尽くします。",
+          "page": 6,
+          "line": ": 採血後のキャンセル料 5.OOO円 加工後のキャンセル料 38,000 円)"
+        }
+      ]
     },
     {
       "plan_id": "P00368",
@@ -8122,65 +8146,137 @@
       "document_type": "pdf",
       "prices": [
         {
-          "amount": 55000,
-          "tax": "税込",
-          "unit": "",
-          "score": 8,
-          "products": [
-            "ACP MAX",
-            "ACP",
-            "Angel"
-          ],
-          "excerpt": "さま氏名 代諾者氏名: (続柄: ) 12 (別紙) 本再生医療等の費用は以下のとおりです。 治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP 20 億個 55,000 円 HD-PRP(ACP MAX の場合) 90 億個 209,000 円 HD-PRP(Angel の場合) 150 億個 330,000 円 ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。その場合の 費用は以下の通りです。 治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP ダ"
-        },
-        {
           "amount": 99000,
-          "tax": "税込",
+          "tax": "不明",
           "unit": "",
-          "score": 8,
+          "score": 6,
           "products": [
             "ACP",
             "Angel"
           ],
-          "excerpt": "0 円 HD-PRP(Angel の場合) 150 億個 330,000 円 ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。その場合の 費用は以下の通りです。 治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP ダブルショット 40 億個 99,000 円 HD-PRP(Angel の場合)を両ひざなど2 部位に投与する場合の費用は 治療の種類 平均的な血小板注入量 費用(税込み) HD-PRP(2 部位) 150 億個 385,000 円 治療終了後も定期的な受診をお願いしております。 本治療は医療費控除の対象となる可能性があります。詳細は国税庁や税理士にご確"
-        },
-        {
-          "amount": 209000,
-          "tax": "税込",
-          "unit": "",
-          "score": 8,
-          "products": [
-            "ACP MAX",
-            "ACP",
-            "Angel"
-          ],
-          "excerpt": "者氏名: (続柄: ) 12 (別紙) 本再生医療等の費用は以下のとおりです。 治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP 20 億個 55,000 円 HD-PRP(ACP MAX の場合) 90 億個 209,000 円 HD-PRP(Angel の場合) 150 億個 330,000 円 ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。その場合の 費用は以下の通りです。 治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP ダブルショット 40 億個 99,000 円 HD-PRP(Ang"
+          "excerpt": "ACP-PRP ダブルショット 40 億個 99,000 円 HD-PRP(Angel の場合)を両ひざなど2 部位に投与する場合の費用は 治療の種類",
+          "page": 12,
+          "line": "99,000 円"
         },
         {
           "amount": 330000,
-          "tax": "税込",
+          "tax": "不明",
           "unit": "",
-          "score": 8,
+          "score": 6,
+          "products": [
+            "ACP",
+            "Angel"
+          ],
+          "excerpt": "HD-PRP(Angel の場合) 150 億個 330,000 円 ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。その場合の 費用は以下の通りです。",
+          "page": 12,
+          "line": "330,000 円"
+        },
+        {
+          "amount": 55000,
+          "tax": "不明",
+          "unit": "",
+          "score": 2,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "ACP-PRP 20 億個 55,000 円 HD-PRP(ACP MAX の場合) 90 億個",
+          "page": 12,
+          "line": "55,000 円"
+        },
+        {
+          "amount": 209000,
+          "tax": "不明",
+          "unit": "",
+          "score": 2,
           "products": [
             "ACP MAX",
             "ACP",
             "Angel"
           ],
-          "excerpt": "12 (別紙) 本再生医療等の費用は以下のとおりです。 治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP 20 億個 55,000 円 HD-PRP(ACP MAX の場合) 90 億個 209,000 円 HD-PRP(Angel の場合) 150 億個 330,000 円 ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。その場合の 費用は以下の通りです。 治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP ダブルショット 40 億個 99,000 円 HD-PRP(Angel の場合)を両ひざなど2 部位に投与する場合の費用は 治療の種類"
+          "excerpt": "HD-PRP(ACP MAX の場合) 90 億個 209,000 円 HD-PRP(Angel の場合) 150 億個",
+          "page": 12,
+          "line": "209,000 円"
         },
         {
           "amount": 385000,
-          "tax": "税込",
+          "tax": "不明",
           "unit": "",
-          "score": 8,
+          "score": 2,
+          "products": [],
+          "excerpt": "HD-PRP(2 部位) 150 億個 385,000 円 治療終了後も定期的な受診をお願いしております。 本治療は医療費控除の対象となる可能性があります。詳細は国税庁や税理士にご確",
+          "page": 12,
+          "line": "385,000 円"
+        }
+      ],
+      "error": "",
+      "qc_refined_at": "2026-09-18T12:30:57.623630+00:00",
+      "prices_refined": [
+        {
+          "amount": 99000,
+          "tax": "不明",
+          "unit": "",
+          "score": 6,
           "products": [
             "ACP",
             "Angel"
           ],
-          "excerpt": "治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP ダブルショット 40 億個 99,000 円 HD-PRP(Angel の場合)を両ひざなど2 部位に投与する場合の費用は 治療の種類 平均的な血小板注入量 費用(税込み) HD-PRP(2 部位) 150 億個 385,000 円 治療終了後も定期的な受診をお願いしております。 本治療は医療費控除の対象となる可能性があります。詳細は国税庁や税理士にご確 認ください。 以上"
+          "excerpt": "ACP-PRP ダブルショット 40 億個 99,000 円 HD-PRP(Angel の場合)を両ひざなど2 部位に投与する場合の費用は 治療の種類",
+          "page": 12,
+          "line": "99,000 円"
+        },
+        {
+          "amount": 330000,
+          "tax": "不明",
+          "unit": "",
+          "score": 6,
+          "products": [
+            "ACP",
+            "Angel"
+          ],
+          "excerpt": "HD-PRP(Angel の場合) 150 億個 330,000 円 ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。その場合の 費用は以下の通りです。",
+          "page": 12,
+          "line": "330,000 円"
+        },
+        {
+          "amount": 55000,
+          "tax": "不明",
+          "unit": "",
+          "score": 2,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "ACP-PRP 20 億個 55,000 円 HD-PRP(ACP MAX の場合) 90 億個",
+          "page": 12,
+          "line": "55,000 円"
+        },
+        {
+          "amount": 209000,
+          "tax": "不明",
+          "unit": "",
+          "score": 2,
+          "products": [
+            "ACP MAX",
+            "ACP",
+            "Angel"
+          ],
+          "excerpt": "HD-PRP(ACP MAX の場合) 90 億個 209,000 円 HD-PRP(Angel の場合) 150 億個",
+          "page": 12,
+          "line": "209,000 円"
+        },
+        {
+          "amount": 385000,
+          "tax": "不明",
+          "unit": "",
+          "score": 2,
+          "products": [],
+          "excerpt": "HD-PRP(2 部位) 150 億個 385,000 円 治療終了後も定期的な受診をお願いしております。 本治療は医療費控除の対象となる可能性があります。詳細は国税庁や税理士にご確",
+          "page": 12,
+          "line": "385,000 円"
         }
       ],
-      "error": ""
+      "qc_reason": "price candidates remain ambiguous"
     },
     {
       "plan_id": "P00373",
