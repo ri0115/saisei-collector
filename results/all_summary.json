@@ -1,0 +1,40 @@
+{
+  "queue_total": 656,
+  "processed": 656,
+  "pending": 0,
+  "auto": 446,
+  "qc": 210,
+  "fail": 0,
+  "price_records": 1350,
+  "v40_completeness_audit": {
+    "baseline": 656,
+    "result": 656,
+    "missing": 0,
+    "extra": 0,
+    "duplicates": 0,
+    "identity_mismatches": 0
+  },
+  "lanes": {
+    "A": {
+      "total": 216,
+      "processed": 216,
+      "auto": 142,
+      "qc": 74,
+      "fail": 0
+    },
+    "B": {
+      "total": 335,
+      "processed": 335,
+      "auto": 232,
+      "qc": 103,
+      "fail": 0
+    },
+    "C": {
+      "total": 105,
+      "processed": 105,
+      "auto": 72,
+      "qc": 33,
+      "fail": 0
+    }
+  }
+}
