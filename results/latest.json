@@ -1,7 +1,7 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T12:19:26.243569+00:00",
+  "updated_at": "2026-09-18T12:20:42.278399+00:00",
   "summary": {
     "total": 216,
     "processed": 216,
@@ -9,7 +9,7 @@
     "auto": 139,
     "qc": 73,
     "fail": 4,
-    "qc_refine_remaining": 14
+    "qc_refine_remaining": 13
   },
   "items": [
     {
@@ -10752,7 +10752,7 @@
       "status": "QC",
       "match_score": 0.9838,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2506021/5/0",
-      "document_type": "pdf",
+      "document_type": "ocr",
       "prices": [
         {
           "amount": 10000,
@@ -10771,7 +10771,10 @@
           "excerpt": "(別紙:治療費用に関して) 関節内注射(PRP) 再生医療 治療費用 初診料・カウンセリング 10,000 円 (税抜) 血液検査 10,000 円 (税抜) 関節内注射(1 回) 150,000 円 (税抜) ※本治療を医師の判断等で中止・中断される場合、発生した費用の返金はできません。"
         }
       ],
-      "error": ""
+      "error": "No price found after refined text/OCR pass",
+      "qc_refined_at": "2026-09-18T12:20:42.277919+00:00",
+      "prices_refined": [],
+      "qc_reason": "no price found after text/OCR pass"
     },
     {
       "plan_id": "P00828",
