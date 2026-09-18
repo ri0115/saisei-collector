@@ -1,15 +1,14 @@
 {
-  "version": "0.7",
+  "version": "0.5",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T14:23:18.499981+00:00",
+  "updated_at": "2026-09-18T21:59:06.128693+00:00",
   "summary": {
     "total": 216,
     "processed": 216,
     "pending": 0,
     "auto": 142,
     "qc": 74,
-    "fail": 0,
-    "qc_refine_remaining": 0
+    "fail": 0
   },
   "items": [
     {
