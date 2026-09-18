@@ -34,13 +34,14 @@ h2{font-size:12px;letter-spacing:.08em;margin:21px 2px 8px}.card{padding:12px;ma
 <script>
 (function(){
 const RAW='https://raw.githubusercontent.com/ri0115/saisei-collector/main/';
+const CRAW='https://raw.githubusercontent.com/ri0115/saisei-collector/collector-c/';
 let lane='A';
 const e=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const files=()=>{
- if(lane==='A') return {state:'results/state.json',latest:'results/latest.json',csv:'results/prices.csv',total:216,wait:'A優先の結果待ちです。'};
- if(lane==='B') return {state:'results/b_state.json',latest:'results/b_latest.json',csv:'results/b_prices.csv',total:335,wait:'B優先はAのQC完了後に自動開始します。'};
- return {state:'results/c_state.json',latest:'results/c_latest.json',csv:'results/c_prices.csv',total:105,wait:'C優先はB完了後に自動開始します。'};
+ if(lane==='A') return {base:RAW,state:'results/state.json',latest:'results/latest.json',csv:'results/prices.csv',total:216,wait:'A優先の結果待ちです。'};
+ if(lane==='B') return {base:RAW,state:'results/b_state.json',latest:'results/b_latest.json',csv:'results/b_prices.csv',total:335,wait:'B優先はAのQC完了後に自動開始します。'};
+ return {base:CRAW,state:'results/c_state.json',latest:'results/c_latest.json',csv:'results/c_prices.csv',total:105,wait:'C優先を専用ブランチで処理中です。'};
 };
 function amounts(x){const p=x.prices||[];if(!p.length)return '価格候補なし';return p.slice(0,4).map(v=>Number(v.amount).toLocaleString('ja-JP')+'円'+(v.tax&&v.tax!=='不明'?' / '+v.tax:'')).join(' ・ ')+(p.length>4?' ほか'+(p.length-4)+'件':'')}
 function setLane(x){
@@ -51,14 +52,14 @@ function setLane(x){
 async function load(){
  try{
   const f=files(),t=Date.now();
-  const [sr,lr]=await Promise.all([fetch(RAW+f.state+'?t='+t,{cache:'no-store'}),fetch(RAW+f.latest+'?t='+t,{cache:'no-store'})]);
+  const [sr,lr]=await Promise.all([fetch(f.base+f.state+'?t='+t,{cache:'no-store'}),fetch(f.base+f.latest+'?t='+t,{cache:'no-store'})]);
   if(!sr.ok||!lr.ok)throw new Error('fetch failed');
   const s=await sr.json(),l=await lr.json(),total=s.total||f.total,done=s.processed||0,pct=Math.round(done/total*100);
   e('processed').textContent=done;e('processedLabel').textContent='PROCESSED / '+total;e('pending').textContent=s.pending??(total-done);e('auto').textContent=s.auto||0;e('qc').textContent=s.qc||0;e('fail').textContent=s.fail||0;e('pct').textContent=pct+'%';e('fill').style.width=pct+'%';
   e('phase').textContent=String(s.phase||'queued').replaceAll('_',' ').toUpperCase();e('updated').textContent=s.updated_at?new Date(s.updated_at).toLocaleString('ja-JP'):'-';
   const items=(l.items||[]).slice(-30).reverse();
   e('list').innerHTML=items.length?items.map(x=>'<div class="card"><div class="r"><div><div class="id">'+esc(x.plan_id)+' · '+esc(x.prefecture)+'</div><div class="name">'+esc(x.facility)+'</div></div><span class="badge '+esc(x.status)+'">'+esc(x.status)+'</span></div><div class="tr">'+esc(x.category)+' · '+esc(x.treatment)+'</div><div class="price">'+esc(amounts(x))+'</div>'+(x.error?'<div class="err">'+esc(x.error)+'</div>':'')+'</div>').join(''):'<div class="card small">'+f.wait+'</div>';
-  e('csv').href=RAW+f.csv;e('json').href=RAW+f.latest;
+  e('csv').href=f.base+f.csv;e('json').href=f.base+f.latest;
  }catch(err){e('phase').textContent='WAIT / RETRY'}
 }
 e('tabA').onclick=()=>setLane('A');e('tabB').onclick=()=>setLane('B');e('tabC').onclick=()=>setLane('C');e('refresh').onclick=load;load();setInterval(load,15000);
