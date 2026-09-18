@@ -2,13 +2,13 @@
   "version": "0.5",
   "queue_version": "v40",
   "total": 216,
-  "processed": 168,
-  "pending": 48,
-  "auto": 76,
-  "qc": 91,
+  "processed": 192,
+  "pending": 24,
+  "auto": 90,
+  "qc": 101,
   "fail": 1,
   "phase": "checkpoint",
-  "updated_at": "2026-09-18T09:25:23.951943+00:00",
+  "updated_at": "2026-09-18T09:26:48.636762+00:00",
   "index_counts": {
     "2": 2502,
     "3": 4270
