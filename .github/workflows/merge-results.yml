@@ -1,0 +1,35 @@
+name: Merge A B C collector results
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Refine C QC with line-level parsing and OCR"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Merge collector results
+        run: python scripts/merge_results.py
+      - name: Commit merged outputs
+        run: |
+          git config user.name "regen-med-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add results/all_latest.json results/all_summary.json results/all_prices.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Merge A B C collector results [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
