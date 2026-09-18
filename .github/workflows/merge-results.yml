@@ -3,7 +3,7 @@ name: Merge A B C collector results
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Publish C results to main"]
+    workflows: ["Publish A rescued results", "Rescue B exception PDFs", "Publish C results to main"]
     types: [completed]
 
 permissions:
@@ -21,9 +21,32 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - name: Check all lanes are finalized
+        id: ready
+        shell: bash
+        run: |
+          READY=$(python - <<'PY'
+          import json
+          files=["results/state.json","results/b_state.json","results/c_state.json"]
+          vals=[]
+          for p in files:
+              try:
+                  with open(p,encoding="utf-8") as f:
+                      vals.append(int(json.load(f).get("qc_refine_remaining",999)))
+              except Exception:
+                  vals.append(999)
+          print("yes" if vals==[0,0,0] else "no")
+          print("remaining="+",".join(map(str,vals)),file=open("/tmp/remaining","w"))
+          PY
+          )
+          echo "ready=$READY" >> "$GITHUB_OUTPUT"
+          cat /tmp/remaining
+
       - name: Merge collector results
+        if: steps.ready.outputs.ready == 'yes'
         run: python scripts/merge_results.py
       - name: Commit merged outputs
+        if: steps.ready.outputs.ready == 'yes'
         run: |
           git config user.name "regen-med-collector"
           git config user.email "actions@users.noreply.github.com"
