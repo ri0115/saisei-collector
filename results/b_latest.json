@@ -1,15 +1,15 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T12:58:07.873192+00:00",
+  "updated_at": "2026-09-18T13:00:33.423533+00:00",
   "summary": {
     "total": 335,
     "processed": 335,
     "pending": 0,
-    "auto": 219,
+    "auto": 220,
     "qc": 97,
-    "fail": 19,
-    "qc_refine_remaining": 55
+    "fail": 18,
+    "qc_refine_remaining": 52
   },
   "items": [
     {
@@ -12720,13 +12720,15 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
       "plan_status": "現行厚労省一覧確認済",
       "checked_at": "2026-09-18T11:52:51.727504+00:00",
-      "status": "FAIL",
+      "status": "QC",
       "match_score": 0.9988,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2407016/5/0",
-      "document_type": "pdf",
+      "document_type": "ocr",
       "prices": [],
       "error": "RuntimeError: Tesseract process timeout",
-      "qc_reason": "document fetch/parse failed"
+      "qc_reason": "no price found after text/OCR pass",
+      "qc_refined_at": "2026-09-18T13:00:33.422902+00:00",
+      "prices_refined": []
     },
     {
       "plan_id": "P00450",
@@ -13184,7 +13186,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行厚労省一覧確認済",
       "checked_at": "2026-09-18T11:52:53.151826+00:00",
-      "status": "QC",
+      "status": "AUTO",
       "match_score": 0.9838,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2412010/5/0",
       "document_type": "pdf",
@@ -13192,13 +13194,29 @@
         {
           "amount": 55000,
           "tax": "税込",
-          "unit": "2 回分",
-          "score": 1,
+          "unit": "両側",
+          "score": 11,
           "products": [],
-          "excerpt": "とはできませ ん。 7/10 (2) 本治療にかかる費用は以下のとおりです。なお、費用は治療に伴う診査、 PRP 調製のための採血にかかる費用、PRP 調製費用、注入にかかる費用の 総額となります。左右両側に投与する場合は、2 回分です。 PRP 1 回(1 部位) 55,000 円(税込) (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と調製したPRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液やPRP の測定を行い、データを取得することがあります。 血"
+          "excerpt": "PRP 調製のための採血にかかる費用、PRP 調製費用、注入にかかる費用の 総額となります。左右両側に投与する場合は、2 回分です。 PRP 1 回(1 部位) 55,000 円(税込) (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
+          "page": 7,
+          "line": "PRP 1 回(1 部位) 55,000 円(税込)"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T13:00:04.086140+00:00",
+      "prices_refined": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "両側",
+          "score": 11,
+          "products": [],
+          "excerpt": "PRP 調製のための採血にかかる費用、PRP 調製費用、注入にかかる費用の 総額となります。左右両側に投与する場合は、2 回分です。 PRP 1 回(1 部位) 55,000 円(税込) (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
+          "page": 7,
+          "line": "PRP 1 回(1 部位) 55,000 円(税込)"
+        }
+      ],
+      "qc_reason": "line-level strong price context"
     },
     {
       "plan_id": "P00367",
@@ -13217,7 +13235,10 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2402012/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "Document fetched but no price candidate",
+      "qc_refined_at": "2026-09-18T13:00:04.900840+00:00",
+      "prices_refined": [],
+      "qc_reason": "no price found after text/OCR pass"
     },
     {
       "plan_id": "P00503",
