@@ -1,0 +1,237 @@
+{
+  "version": "v41-verified-overrides-1.0",
+  "generated_at": "2026-09-19",
+  "notes": "Verified from clinic/hospital official webpages via web search. Amounts are treatment prices only; ancillary fees excluded.",
+  "plans": {
+    "V41_01A2312001": {
+      "facility": "札幌ひざのセルクリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://knee-cell.com/menu/stem-cells/",
+      "prices": [
+        {
+          "amount": 990000,
+          "tax": "税込",
+          "unit": "幹細胞2,500万個・1関節",
+          "product": "脂肪由来幹細胞",
+          "note": "900,000円+税"
+        },
+        {
+          "amount": 1430000,
+          "tax": "税込",
+          "unit": "幹細胞5,000万個・1関節",
+          "product": "脂肪由来幹細胞",
+          "note": "1,300,000円+税"
+        },
+        {
+          "amount": 1980000,
+          "tax": "税込",
+          "unit": "幹細胞1億個・1関節",
+          "product": "脂肪由来幹細胞",
+          "note": "1,800,000円+税"
+        }
+      ]
+    },
+    "V41_01A2312002": {
+      "facility": "札幌ひざのセルクリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://knee-cell.com/menu/chronic-pain/",
+      "prices": [
+        {
+          "amount": 2200000,
+          "tax": "税込",
+          "unit": "慢性疼痛・幹細胞点滴",
+          "product": "脂肪由来幹細胞",
+          "note": "2,000,000円+税"
+        }
+      ]
+    },
+    "V41_03E2507006": {
+      "facility": "医療法人財団康生会 たけだ膠原病リウマチクリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.takedahp.or.jp/group/clinic/meneki/saisei.html",
+      "prices": [
+        {
+          "amount": 1195000,
+          "tax": "税込",
+          "unit": "片膝・培養脂肪幹細胞 約3,000万個",
+          "product": "培養脂肪由来幹細胞"
+        },
+        {
+          "amount": 1587500,
+          "tax": "税込",
+          "unit": "片膝・培養脂肪幹細胞 約1億個",
+          "product": "培養脂肪由来幹細胞"
+        },
+        {
+          "amount": 1735000,
+          "tax": "税込",
+          "unit": "両膝同時・約5,000万個ずつ",
+          "product": "培養脂肪由来幹細胞"
+        }
+      ]
+    },
+    "V41_02C2602047": {
+      "facility": "一般社団法人東京リライフ　東京リライフクリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://tokyo-relife.com/menu/osteoarthritis/",
+      "prices": [
+        {
+          "amount": 2200000,
+          "tax": "税込",
+          "unit": "変形性関節症・片膝・幹細胞1回",
+          "product": "脂肪由来幹細胞"
+        }
+      ]
+    },
+    "V41_03C2603001": {
+      "facility": "一般社団法人東京リライフ　東京リライフクリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://tokyo-relife.com/menu/osteoarthritis/",
+      "prices": [
+        {
+          "amount": 242000,
+          "tax": "税込",
+          "unit": "PRP 1cc",
+          "product": "PRP"
+        },
+        {
+          "amount": 435600,
+          "tax": "税込",
+          "unit": "PRP 2cc",
+          "product": "PRP"
+        },
+        {
+          "amount": 580800,
+          "tax": "税込",
+          "unit": "PRP 3cc",
+          "product": "PRP"
+        },
+        {
+          "amount": 677600,
+          "tax": "税込",
+          "unit": "PRP 4cc",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_01C2512039": {
+      "facility": "ふくむら整形外科",
+      "source_type": "official_clinic_site",
+      "source_url": "https://fukumura-seikeigeka.jp/prp.html",
+      "prices": [
+        {
+          "amount": 45000,
+          "tax": "税込",
+          "unit": "1回・1部位",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_01C2512043": {
+      "facility": "ふくむら整形外科",
+      "source_type": "official_clinic_site",
+      "source_url": "https://fukumura-seikeigeka.jp/prp.html",
+      "prices": [
+        {
+          "amount": 45000,
+          "tax": "税込",
+          "unit": "1回・1部位",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_01C2303041": {
+      "facility": "医療法人 よこはまTSC 横浜たまプラーザ運動器スポーツクリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://yokohama-tsc.com/menu/item204",
+      "prices": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "ACP・1回あたり",
+          "product": "ACP",
+          "maker": "Arthrex",
+          "note": "関節内は2回実施"
+        },
+        {
+          "amount": 330000,
+          "tax": "税込",
+          "unit": "APS・1回",
+          "product": "APS",
+          "maker": "Zimmer Biomet"
+        }
+      ]
+    },
+    "V41_01C2303050": {
+      "facility": "医療法人 よこはまTSC 横浜たまプラーザ運動器スポーツクリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://yokohama-tsc.com/menu/item204",
+      "prices": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "ACP・1回",
+          "product": "ACP",
+          "maker": "Arthrex",
+          "note": "筋・腱・靭帯等は1回"
+        },
+        {
+          "amount": 330000,
+          "tax": "税込",
+          "unit": "APS・1回",
+          "product": "APS",
+          "maker": "Zimmer Biomet"
+        }
+      ]
+    },
+    "V41_01C2207022": {
+      "facility": "医療法人秀躍会　もぎ整形外科クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://mogiseikei.com/medical/medical05.html",
+      "prices": [
+        {
+          "amount": 70000,
+          "tax": "税込",
+          "unit": "1回",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_01C2207023": {
+      "facility": "医療法人秀躍会　もぎ整形外科クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://mogiseikei.com/medical/medical05.html",
+      "prices": [
+        {
+          "amount": 70000,
+          "tax": "税込",
+          "unit": "1回",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_02C2311048": {
+      "facility": "社会医療法人社団蛍水会 名戸ヶ谷病院",
+      "source_type": "official_hospital_site",
+      "source_url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
+      "prices": [
+        {
+          "amount": 30000,
+          "tax": "税別",
+          "unit": "ACP・片膝1回・1部位",
+          "product": "ACP",
+          "maker": "Arthrex",
+          "note": "別途予約料"
+        },
+        {
+          "amount": 300000,
+          "tax": "税別",
+          "unit": "APS・1回・1部位",
+          "product": "APS",
+          "maker": "Zimmer Biomet",
+          "note": "別途予約料"
+        }
+      ]
+    }
+  }
+}
