@@ -120,7 +120,7 @@ def extract_candidates(pages):
                     um=re.search(r"((?:1|一)\s*回(?:\s*[（(][^）)]{0,20}[）)])?|(?:1|一)\s*部位|片側|両側|[0-9]+\s*回(?:分|コース)?|[0-9]+\s*クール)",near)
                     if um: unit=um.group(1)
                     products=[]
-                    for token in ["ACP MAX","ACP","APS","GPS III","GPSⅢ","GPS","PEAK","Angel","TriCeLL","Mycells","Zimmer","Arthrex"]:
+                    for token in ["ACP MAX","ACP","APS","GPS III","GPSⅢ","GPS","PEAK","Angel","TriCeLL","Mycells","Zimmer","Arthrex","Condensia","コンデンシア","PRGF","Endoret","MAGELLAN","マゼラン"]:
                         if token.lower() in near.lower(): products.append(token)
                     score=classify_line(line,near)
                     key=(amount,tax,unit,line)
