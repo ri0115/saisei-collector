@@ -1,15 +1,15 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T13:00:33.423533+00:00",
+  "updated_at": "2026-09-18T13:02:42.723922+00:00",
   "summary": {
     "total": 335,
     "processed": 335,
     "pending": 0,
-    "auto": 220,
-    "qc": 97,
+    "auto": 222,
+    "qc": 95,
     "fail": 18,
-    "qc_refine_remaining": 52
+    "qc_refine_remaining": 49
   },
   "items": [
     {
@@ -13363,9 +13363,12 @@
       "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2305001/5/0",
-      "document_type": "pdf",
+      "document_type": "ocr",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "Document fetched but no price candidate",
+      "qc_refined_at": "2026-09-18T13:02:42.723296+00:00",
+      "prices_refined": [],
+      "qc_reason": "no price found after text/OCR pass"
     },
     {
       "plan_id": "P00477",
@@ -13541,7 +13544,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
       "plan_status": "現行一覧確認済",
       "checked_at": "2026-09-18T11:52:54.458088+00:00",
-      "status": "QC",
+      "status": "AUTO",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2508001/5/0",
       "document_type": "pdf",
@@ -13550,12 +13553,28 @@
           "amount": 38500,
           "tax": "税込",
           "unit": "",
-          "score": 6,
+          "score": 8,
           "products": [],
-          "excerpt": "-7790 担当:多々納 営業時間:10:00~19:00、月〜火曜/金〜日曜 営業時間外の連絡先:info@kazuki-pc.com 14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として38,500 円 (税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生している 場合は、発生した費用については患者様にご負担いただきますのでご了承ください。 15.他の治療法の有無、本治療法との比較につい"
+          "excerpt": "14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として38,500 円 (税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。",
+          "page": 3,
+          "line": "治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として38,500 円"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T13:02:30.389345+00:00",
+      "prices_refined": [
+        {
+          "amount": 38500,
+          "tax": "税込",
+          "unit": "",
+          "score": 8,
+          "products": [],
+          "excerpt": "14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として38,500 円 (税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。",
+          "page": 3,
+          "line": "治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として38,500 円"
+        }
+      ],
+      "qc_reason": "line-level medium price context"
     },
     {
       "plan_id": "P00481",
@@ -13569,7 +13588,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済",
       "checked_at": "2026-09-18T11:54:19.335517+00:00",
-      "status": "QC",
+      "status": "AUTO",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2604001/5/0",
       "document_type": "pdf",
@@ -13578,12 +13597,28 @@
           "amount": 1650000,
           "tax": "税込",
           "unit": "",
-          "score": 6,
+          "score": 7,
           "products": [],
-          "excerpt": "療を行う医師、管理者(院長)へと報告して対応させていただきます。 窓口:シンセルクリニック広島院 電話番号:082-909-4037 14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として 1,650,000 円(税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、脂肪の採取後や、細胞加工物の製造後に同意を撤回された場合など、同意を撤回される時 点までに費用が発生している場合は、発生した費用についてはあなたにご負担いただきますので ご了承ください。 また、本治療は必ず効果が得られる"
+          "excerpt": "細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として 1,650,000 円(税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、脂肪の採取後や、細胞加工物の製造後に同意を撤回された場合など、同意を撤回される時",
+          "page": 3,
+          "line": "1,650,000 円(税込)をお支払いいただきます。"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T13:02:31.559868+00:00",
+      "prices_refined": [
+        {
+          "amount": 1650000,
+          "tax": "税込",
+          "unit": "",
+          "score": 7,
+          "products": [],
+          "excerpt": "細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として 1,650,000 円(税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、脂肪の採取後や、細胞加工物の製造後に同意を撤回された場合など、同意を撤回される時",
+          "page": 3,
+          "line": "1,650,000 円(税込)をお支払いいただきます。"
+        }
+      ],
+      "qc_reason": "line-level medium price context"
     },
     {
       "plan_id": "P00482",
