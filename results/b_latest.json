@@ -1,15 +1,15 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T14:04:29.277456+00:00",
+  "updated_at": "2026-09-18T14:05:31.341878+00:00",
   "summary": {
     "total": 335,
     "processed": 335,
     "pending": 0,
     "auto": 232,
-    "qc": 97,
-    "fail": 6,
-    "qc_refine_remaining": 7
+    "qc": 98,
+    "fail": 5,
+    "qc_refine_remaining": 6
   },
   "items": [
     {
@@ -1946,13 +1946,15 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
       "plan_status": "候補抽出済",
       "checked_at": "2026-09-18T11:48:27.304032+00:00",
-      "status": "FAIL",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2607019/5/0",
-      "document_type": "pdf",
+      "document_type": "ocr",
       "prices": [],
       "error": "RuntimeError: Tesseract process timeout",
-      "qc_reason": "document fetch/parse failed"
+      "qc_reason": "no price found after text/OCR pass",
+      "qc_refined_at": "2026-09-18T14:05:31.341184+00:00",
+      "prices_refined": []
     },
     {
       "plan_id": "P00124",
