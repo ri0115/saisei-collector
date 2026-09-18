@@ -1,0 +1,51 @@
+name: Postprocess v41 price QC
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/postprocess_v41_prices.py"
+      - ".github/workflows/postprocess-v41.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "regen-v41-postprocess"
+  cancel-in-progress: false
+
+jobs:
+  postprocess:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Normalize price candidates and resolve safe QC
+        run: python scripts/postprocess_v41_prices.py
+      - name: Verify postprocess integrity
+        run: |
+          python - <<'PY'
+          import json
+          s=json.load(open("results/v41_additions_postprocess_summary.json",encoding="utf-8"))
+          assert s["total"]==774
+          assert s["normalized_fail"]==0
+          assert s["normalized_auto"]+s["normalized_qc"]==774
+          print(s)
+          PY
+      - name: Commit normalized outputs
+        run: |
+          git config user.name "regen-med-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git pull --rebase origin main
+          git add results/v41_additions_normalized.json results/v41_additions_postprocess_summary.json results/v41_additions_prices_normalized.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Postprocess v41 price QC [skip ci]"
+            git push
+          fi
