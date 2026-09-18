@@ -1,0 +1,210 @@
+name: Process v41 audited additions
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/v41_addition_codes.txt"
+      - "scripts/build_v41_queue.py"
+      - "scripts/processor.py"
+      - "scripts/qc_refine.py"
+      - "scripts/rescue_exceptions.py"
+      - "scripts/merge_v41_additions.py"
+      - ".github/workflows/process-v41-additions.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "regen-v41-additions"
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install queue dependencies
+        run: pip install requests beautifulsoup4
+      - name: Build exact v41 queue
+        run: |
+          python scripts/build_v41_queue.py \
+            --codes data/v41_addition_codes.txt \
+            --output data/queue_v41_additions.json
+          python - <<'PY'
+          import json
+          q=json.load(open("data/queue_v41_additions.json",encoding="utf-8"))
+          assert q["total"]==774
+          assert len(q["plans"])==774
+          assert len({x["plan_id"] for x in q["plans"]})==774
+          assert all(x.get("document_url_source") for x in q["plans"])
+          print("v41 queue verified:",len(q["plans"]))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v41-queue
+          path: data/queue_v41_additions.json
+          retention-days: 3
+
+  collect:
+    needs: prepare
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - shard: 0
+            lane: A
+          - shard: 1
+            lane: B
+          - shard: 2
+            lane: C
+          - shard: 3
+            lane: D
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install OCR and Python dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-jpn
+          pip install -r requirements.txt
+      - uses: actions/download-artifact@v5
+        with:
+          name: v41-queue
+          path: v41-input
+      - name: Create shard queue
+        env:
+          SHARD: ${{ matrix.shard }}
+          LANE: ${{ matrix.lane }}
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          src=next(Path("v41-input").rglob("queue_v41_additions.json"))
+          q=json.loads(src.read_text(encoding="utf-8"))
+          shard=int(os.environ["SHARD"]);lane=os.environ["LANE"]
+          plans=[p for i,p in enumerate(q["plans"]) if i%4==shard]
+          out={**{k:v for k,v in q.items() if k!="plans"},"priority":"V41-"+lane,"total":len(plans),"plans":plans}
+          path=Path(f"data/queue_v41_{lane.lower()}.json")
+          path.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
+          print(lane,len(plans))
+          assert len(plans) in (193,194)
+          PY
+      - name: Initial direct-document collection
+        env:
+          LANE: ${{ matrix.lane }}
+        shell: bash
+        run: |
+          set -e
+          lane=$(echo "$LANE" | tr '[:upper:]' '[:lower:]')
+          for chunk in $(seq 1 12); do
+            python scripts/processor.py \
+              --queue "data/queue_v41_${lane}.json" \
+              --results "v41_${lane}_latest.json" \
+              --state "v41_${lane}_state.json" \
+              --csv "v41_${lane}_prices.csv" \
+              --index-cache "v41_${lane}_index_cache.json" \
+              --max-items 25 \
+              --workers 8
+            PENDING=$(python - <<PY
+          import json
+          print(json.load(open("v41_${lane}_state.json",encoding="utf-8")).get("pending",999))
+          PY
+            )
+            if [ "$PENDING" = "0" ]; then break; fi
+          done
+      - name: Refine QC in parallel batches
+        env:
+          LANE: ${{ matrix.lane }}
+        shell: bash
+        run: |
+          set -e
+          lane=$(echo "$LANE" | tr '[:upper:]' '[:lower:]')
+          for chunk in $(seq 1 30); do
+            python scripts/qc_refine.py \
+              --results "v41_${lane}_latest.json" \
+              --state "v41_${lane}_state.json" \
+              --csv "v41_${lane}_prices.csv" \
+              --max-items 12 \
+              --workers 4
+            REMAINING=$(python - <<PY
+          import json
+          print(json.load(open("v41_${lane}_state.json",encoding="utf-8")).get("qc_refine_remaining",0))
+          PY
+            )
+            if [ "$REMAINING" = "0" ]; then break; fi
+          done
+      - name: Terminal rescue for persistent exceptions
+        env:
+          LANE: ${{ matrix.lane }}
+        run: |
+          lane=$(echo "$LANE" | tr '[:upper:]' '[:lower:]')
+          python scripts/rescue_exceptions.py \
+            --results "v41_${lane}_latest.json" \
+            --state "v41_${lane}_state.json" \
+            --csv "v41_${lane}_prices.csv"
+      - name: Verify shard complete
+        env:
+          LANE: ${{ matrix.lane }}
+        run: |
+          lane=$(echo "$LANE" | tr '[:upper:]' '[:lower:]')
+          python - <<PY
+          import json
+          d=json.load(open("v41_${lane}_latest.json",encoding="utf-8"))
+          s=json.load(open("v41_${lane}_state.json",encoding="utf-8"))
+          assert d["summary"]["pending"]==0
+          assert s.get("qc_refine_remaining",0)==0
+          assert len(d["items"]) in (193,194)
+          assert len({x["plan_id"] for x in d["items"]})==len(d["items"])
+          print(d["summary"])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v41-shard-${{ matrix.lane }}
+          path: |
+            v41_${{ matrix.lane == 'A' && 'a' || matrix.lane == 'B' && 'b' || matrix.lane == 'C' && 'c' || 'd' }}_latest.json
+            v41_${{ matrix.lane == 'A' && 'a' || matrix.lane == 'B' && 'b' || matrix.lane == 'C' && 'c' || 'd' }}_state.json
+            v41_${{ matrix.lane == 'A' && 'a' || matrix.lane == 'B' && 'b' || matrix.lane == 'C' && 'c' || 'd' }}_prices.csv
+          retention-days: 3
+
+  merge:
+    needs: collect
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - uses: actions/download-artifact@v5
+        with:
+          pattern: v41-shard-*
+          path: v41-shards
+      - name: Merge and integrity-check 774 additions
+        run: python scripts/merge_v41_additions.py --root v41-shards --outdir results
+      - name: Commit v41 addition results
+        run: |
+          git config user.name "regen-med-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git pull --rebase origin main
+          git add results/v41_additions_latest.json results/v41_additions_summary.json results/v41_additions_prices.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Collect v41 audited additions [skip ci]"
+            git push
+          fi
