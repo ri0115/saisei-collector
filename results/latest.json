@@ -1,13 +1,13 @@
 {
-  "version": "0.4",
+  "version": "0.5",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T09:21:11.833266+00:00",
+  "updated_at": "2026-09-18T09:24:49.723960+00:00",
   "summary": {
     "total": 216,
-    "processed": 72,
-    "pending": 144,
-    "auto": 46,
-    "qc": 25,
+    "processed": 96,
+    "pending": 120,
+    "auto": 42,
+    "qc": 53,
     "fail": 1
   },
   "items": [
@@ -206,7 +206,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:20:20.037967+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2006004/5/0",
       "document_type": "pdf",
@@ -262,7 +262,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:20:20.062389+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 0.98,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2311005/5/0",
       "document_type": "pdf",
@@ -549,7 +549,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:20:22.188514+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02D1912027/5/0",
       "document_type": "pdf",
@@ -652,7 +652,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:20:22.667006+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2211013/5/0",
       "document_type": "pdf",
@@ -755,7 +755,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:20:23.083182+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2404004/5/0",
       "document_type": "pdf",
@@ -815,7 +815,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:20:23.147164+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 0.9838,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2404005/5/0",
       "document_type": "pdf",
@@ -1415,7 +1415,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:20:44.479922+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2606015/5/0",
       "document_type": "pdf",
@@ -1715,7 +1715,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:20:45.049040+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 0.98,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2505006/5/0",
       "document_type": "pdf",
@@ -1843,7 +1843,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:20:45.330562+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2401003/5/0",
       "document_type": "pdf",
@@ -2131,7 +2131,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:21:06.483075+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2507002/5/0",
       "document_type": "pdf",
@@ -2201,7 +2201,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:21:06.506900+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411011/5/0",
       "document_type": "pdf",
@@ -2229,7 +2229,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:21:06.518206+00:00",
-      "status": "AUTO",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411010/5/0",
       "document_type": "pdf",
@@ -2839,6 +2839,991 @@
         }
       ],
       "error": ""
+    },
+    {
+      "plan_id": "P00654",
+      "facility_id": "F0462",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "一般社団法人MOSC 百瀬整形外科スポーツクリニック",
+      "category": "第二種",
+      "treatment": "自家脂肪組織由来幹細胞（ASC）の投与による関節治療",
+      "treatment_class": "脂肪由来ASC",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:43.408738+00:00",
+      "status": "QC",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2412077/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 59400,
+          "tax": "税込",
+          "unit": "",
+          "score": 6,
+          "products": [],
+          "excerpt": "肪組織の採取は、通常の倍の量 (ブロック法と吸引法のいずれも)を採取いたします。 製造した自家ASC は細胞培養加工施設で保管され、本治療に使用する際に当院へ輸送され ます。脂肪組織を採取してから1 年以上を経過した後に自家ASC の投与を希望される場合、 自家ASC の保管にかかる費用を別途59,400 円(税込)ご負担いただきます。詳しくは、 スタッフまでお尋ねください。 12. 治療を受けることを拒否することについて この治療を受けるか拒否するかは、ご自身の自由な意思でお決めください。説明を受けた後 に同意されない場合でも、不利益を受けることは一切ありません。また同様に、治療を受け ることに同意した場合であっても、投与ま"
+        },
+        {
+          "amount": 990000,
+          "tax": "税込",
+          "unit": "1 回",
+          "score": 6,
+          "products": [],
+          "excerpt": "にかかる費用につきましては以下の表をご参照ください(治療 部位による費用の違いはございません)。ご不明な点は医師・スタッフにお尋ねください。な お1 回の施術あたりの費用は、患部の状態を確認した医師の判断等により変更となる場合が ございます。 1 関節(片膝など)投与の施術費用 単回投与 990,000 円(税込) 2 回投与 1,320,000 円(税込) 2 関節(両膝など)投与の施術費用 単回投与 1,320,000 円(税込) 2 回投与※ 1,980,000 円(税込) ※ 2 関節へ2 回投与する場合、自家ASC 培養のための脂肪組織の採取は、通常の倍の量 (ブロック法と吸引法のいずれも)を採取いたします"
+        },
+        {
+          "amount": 1320000,
+          "tax": "税込",
+          "unit": "1 回",
+          "score": 6,
+          "products": [],
+          "excerpt": "ださい(治療 部位による費用の違いはございません)。ご不明な点は医師・スタッフにお尋ねください。な お1 回の施術あたりの費用は、患部の状態を確認した医師の判断等により変更となる場合が ございます。 1 関節(片膝など)投与の施術費用 単回投与 990,000 円(税込) 2 回投与 1,320,000 円(税込) 2 関節(両膝など)投与の施術費用 単回投与 1,320,000 円(税込) 2 回投与※ 1,980,000 円(税込) ※ 2 関節へ2 回投与する場合、自家ASC 培養のための脂肪組織の採取は、通常の倍の量 (ブロック法と吸引法のいずれも)を採取いたします。 製造した自家ASC は細胞培養加工施設"
+        },
+        {
+          "amount": 1980000,
+          "tax": "税込",
+          "unit": "2 回",
+          "score": 6,
+          "products": [],
+          "excerpt": "態を確認した医師の判断等により変更となる場合が ございます。 1 関節(片膝など)投与の施術費用 単回投与 990,000 円(税込) 2 回投与 1,320,000 円(税込) 2 関節(両膝など)投与の施術費用 単回投与 1,320,000 円(税込) 2 回投与※ 1,980,000 円(税込) ※ 2 関節へ2 回投与する場合、自家ASC 培養のための脂肪組織の採取は、通常の倍の量 (ブロック法と吸引法のいずれも)を採取いたします。 製造した自家ASC は細胞培養加工施設で保管され、本治療に使用する際に当院へ輸送され ます。脂肪組織を採取してから1 年以上を経過した後に自家ASC の投与を希望される場合、"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00655",
+      "facility_id": "F0463",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "佐久市立国保浅間総合病院",
+      "category": "第二種",
+      "treatment": "多血小板血漿（PRP）を用いた変形性関節症治療",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:43.415959+00:00",
+      "status": "AUTO",
+      "match_score": 0.952,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2504072/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 150000,
+          "tax": "税別",
+          "unit": "",
+          "score": 8,
+          "products": [],
+          "excerpt": "定性 PRP は患者様自身の血液から製造するため、品質が ばらつく可能性がある。 医薬品として承認されて おり、品質は安定している アレルギーの 可能性 自家移植のため、極めて低い。 品質管理された安全性の 高いものだが、アレルギー 反応などの可能性を完全 には否定できない。 費用 150,000 円(税抜) 300,000 円(税抜) 保険適用:2000 円前後/回 (膝関節内投与の場合) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。 施術後、患者様の個人的な事情及び金銭等に関する問題に関しては一切の責を負いかねますのでご 了承ください。 その他治療についての注意事項"
+        },
+        {
+          "amount": 2000,
+          "tax": "税別",
+          "unit": "",
+          "score": 6,
+          "products": [],
+          "excerpt": "能性がある。 医薬品として承認されて おり、品質は安定している アレルギーの 可能性 自家移植のため、極めて低い。 品質管理された安全性の 高いものだが、アレルギー 反応などの可能性を完全 には否定できない。 費用 150,000 円(税抜) 300,000 円(税抜) 保険適用:2000 円前後/回 (膝関節内投与の場合) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。 施術後、患者様の個人的な事情及び金銭等に関する問題に関しては一切の責を負いかねますのでご 了承ください。 その他治療についての注意事項 患者様の体調が良くない場合や、採取した血液"
+        },
+        {
+          "amount": 300000,
+          "tax": "税別",
+          "unit": "",
+          "score": 6,
+          "products": [],
+          "excerpt": "血液から製造するため、品質が ばらつく可能性がある。 医薬品として承認されて おり、品質は安定している アレルギーの 可能性 自家移植のため、極めて低い。 品質管理された安全性の 高いものだが、アレルギー 反応などの可能性を完全 には否定できない。 費用 150,000 円(税抜) 300,000 円(税抜) 保険適用:2000 円前後/回 (膝関節内投与の場合) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。 施術後、患者様の個人的な事情及び金銭等に関する問題に関しては一切の責を負いかねますのでご 了承ください。 その他治療についての注意事項 患者様の"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00746",
+      "facility_id": "F0464",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "佐久平整形外科クリニック",
+      "category": "第三種",
+      "treatment": "自家多血小板血漿（PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:43.422190+00:00",
+      "status": "QC",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503068/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 35000,
+          "tax": "税別",
+          "unit": "1 回(1 部位)",
+          "score": 0,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "、義務教育就学児、および有効な学生証を提示いただける方に限 られます。 学割プランの詳細につきましては、当院よりご案内いたしますので、 ご希望の方はお気軽にお申し出ください。 キット 費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみ に使"
+        },
+        {
+          "amount": 50000,
+          "tax": "税別",
+          "unit": "1 回(1 部位)",
+          "score": 0,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "方を対象とした学割プランもご用意して おります。 対象は、義務教育就学児、および有効な学生証を提示いただける方に限 られます。 学割プランの詳細につきましては、当院よりご案内いたしますので、 ご希望の方はお気軽にお申し出ください。 キット 費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。 11. 試料等の保存及び廃棄の方法 患者様から採"
+        },
+        {
+          "amount": 95000,
+          "tax": "税別",
+          "unit": "1 回(1 部位)",
+          "score": 0,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "。 学割プランの詳細につきましては、当院よりご案内いたしますので、 ご希望の方はお気軽にお申し出ください。 キット 費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液やPRP の測"
+        },
+        {
+          "amount": 150000,
+          "tax": "税別",
+          "unit": "1 回(1 部位)",
+          "score": 0,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "すので、 ご希望の方はお気軽にお申し出ください。 キット 費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液やPRP の測定を行い、データを取得することがあります。 血液およびPRP"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00656",
+      "facility_id": "F0464",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "佐久平整形外科クリニック",
+      "category": "第二種",
+      "treatment": "自家多血小板血漿（PRP）を用いた慢性関節炎ならびに関節内軟骨・靭帯損傷の治療（関節内組織）",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:43.432789+00:00",
+      "status": "QC",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503067/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 35000,
+          "tax": "税別",
+          "unit": "1 回(1 部位)",
+          "score": 0,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "義務教育就学児、および有効な学生証を提示いただける方に 限られます。 学割プランの詳細につきましては、当院よりご案内いたしますので、 ご希望の方はお気軽にお申し出ください。 キット 費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみ"
+        },
+        {
+          "amount": 50000,
+          "tax": "税別",
+          "unit": "1 回(1 部位)",
+          "score": 0,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "を対象とした学割プランもご用意して おります。 対象は、義務教育就学児、および有効な学生証を提示いただける方に 限られます。 学割プランの詳細につきましては、当院よりご案内いたしますので、 ご希望の方はお気軽にお申し出ください。 キット 費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。 11. 試料等の保存及び廃棄の方法 患者様か"
+        },
+        {
+          "amount": 95000,
+          "tax": "税別",
+          "unit": "1 回(1 部位)",
+          "score": 0,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "。 学割プランの詳細につきましては、当院よりご案内いたしますので、 ご希望の方はお気軽にお申し出ください。 キット 費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液やPRP"
+        },
+        {
+          "amount": 150000,
+          "tax": "税別",
+          "unit": "1 回(1 部位)",
+          "score": 0,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "すので、 ご希望の方はお気軽にお申し出ください。 キット 費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液やPRP の測定を行い、データを取得することがあります。 血液およびP"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00657",
+      "facility_id": "F0402",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "医療法人仁雄会 穂高病院",
+      "category": "第二種",
+      "treatment": "自家多血小板血漿（PRP）を用いた変形性関節症および関節腔内の治療",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:43.441616+00:00",
+      "status": "QC",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507002/5/0",
+      "document_type": "pdf",
+      "prices": [],
+      "error": "Document fetched but no price candidate"
+    },
+    {
+      "plan_id": "P00658",
+      "facility_id": "F0403",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "医療法人弘仁会 かもいクリニック",
+      "category": "第二種",
+      "treatment": "自家多血小板血漿（PRP）を用いた慢性関節炎の治療（関節内組織）",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:43.449405+00:00",
+      "status": "QC",
+      "match_score": 0.9838,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2210029/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 15000,
+          "tax": "税込",
+          "unit": "2 回分",
+          "score": 9,
+          "products": [],
+          "excerpt": "することはできませ ん。 (2) 本治療にかかる費用は、以下のとおりです。なお、PRP 費用は、治療に伴 う診査、PRP 調製のための採血にかかる費用、PRP 調製費用、注入にかか る費用の総額となります。左右両側に投与する場合は、2 回分です。 ■血液検査(実施する場合) 15,000 円(税込) ■PRP 1 回(1 部位) 50,000 円(税込) 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液やPRP の測定を行い、データを取得することがあります。 血液およびPRP"
+        },
+        {
+          "amount": 50000,
+          "tax": "税込",
+          "unit": "2 回分",
+          "score": 9,
+          "products": [],
+          "excerpt": "。なお、PRP 費用は、治療に伴 う診査、PRP 調製のための採血にかかる費用、PRP 調製費用、注入にかか る費用の総額となります。左右両側に投与する場合は、2 回分です。 ■血液検査(実施する場合) 15,000 円(税込) ■PRP 1 回(1 部位) 50,000 円(税込) 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液やPRP の測定を行い、データを取得することがあります。 血液およびPRP は微量で全量を使用するため、保管はしません。治療 に用いない血液またはPRP"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00659",
+      "facility_id": "F0404",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "医療法人直佳会 森ロコモクリニック",
+      "category": "第二種",
+      "treatment": "多血小板血漿抽出液による関節症治療",
+      "treatment_class": "PRP/APS",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:43.459260+00:00",
+      "status": "AUTO",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2306045/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 100000,
+          "tax": "不明",
+          "unit": "",
+          "score": 7,
+          "products": [
+            "APS",
+            "GPS",
+            "Zimmer"
+          ],
+          "excerpt": "者(院長)へと報告して対応させていただきます。 窓口部署:院長 連絡先:0268-38-1313 12.費用について この治療は公的保険の対象ではありませんので、当院所定の施術料をお支払いいただきます。 ・ZIMMER BIOMET 製 GPS®IIIシステム使用 100,000円 (APSキットを使用せず、作製したPRPをそのまま使用する場合) GPS®IIIシステム、APSキット使用 350,000円 (APSキットを使用してさらに抽出を行い純度を高めて使用する場合) ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後"
+        },
+        {
+          "amount": 350000,
+          "tax": "不明",
+          "unit": "",
+          "score": 7,
+          "products": [
+            "APS",
+            "GPS",
+            "Zimmer"
+          ],
+          "excerpt": "んので、当院所定の施術料をお支払いいただきます。 ・ZIMMER BIOMET 製 GPS®IIIシステム使用 100,000円 (APSキットを使用せず、作製したPRPをそのまま使用する場合) GPS®IIIシステム、APSキット使用 350,000円 (APSキットを使用してさらに抽出を行い純度を高めて使用する場合) ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生し ている場合は、発生した費用については患者様にご負担いただきますのでご了承ください。 13."
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00660",
+      "facility_id": "F0405",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "医療法人笠間整形外科医院",
+      "category": "第二種",
+      "treatment": "多血小板血漿抽出液による関節症治療",
+      "treatment_class": "PRP/APS",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:43.465547+00:00",
+      "status": "AUTO",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1908017/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 150000,
+          "tax": "不明",
+          "unit": "",
+          "score": 7,
+          "products": [
+            "APS",
+            "GPS",
+            "Zimmer"
+          ],
+          "excerpt": "者(院長)へと報告して対応させていただきます。 窓口部署:事務 連絡先:026-283-1033 12.費用について この治療は公的保険の対象ではありませんので、当院所定の施術料をお支払いいただきます。 ・ZIMMER BIOMET 製 GPS®IIIシステム使用 150,000円 (APSキットを使用せず、作製したPRPをそのまま使用する場合) GPS®IIIシステム、APSキット使用 300,000円 (APSキットを使用してさらに抽出を行い純度を高めて使用する場合) ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後"
+        },
+        {
+          "amount": 300000,
+          "tax": "不明",
+          "unit": "",
+          "score": 7,
+          "products": [
+            "APS",
+            "GPS",
+            "Zimmer"
+          ],
+          "excerpt": "んので、当院所定の施術料をお支払いいただきます。 ・ZIMMER BIOMET 製 GPS®IIIシステム使用 150,000円 (APSキットを使用せず、作製したPRPをそのまま使用する場合) GPS®IIIシステム、APSキット使用 300,000円 (APSキットを使用してさらに抽出を行い純度を高めて使用する場合) ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生し ている場合は、発生した費用については患者様にご負担いただきますのでご了承ください。 13."
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00661",
+      "facility_id": "F0406",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "医療法人都甲クリニック",
+      "category": "第二種",
+      "treatment": "変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:44.865102+00:00",
+      "status": "QC",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2308046/5/0",
+      "document_type": "pdf",
+      "prices": [],
+      "error": "Document fetched but no price candidate"
+    },
+    {
+      "plan_id": "P00747",
+      "facility_id": "F0465",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "医療法人雨宮病院",
+      "category": "第三種",
+      "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:45.169301+00:00",
+      "status": "QC",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206052/5/0",
+      "document_type": "pdf",
+      "prices": [],
+      "error": "Document fetched but no price candidate"
+    },
+    {
+      "plan_id": "P00662",
+      "facility_id": "F0465",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "医療法人雨宮病院",
+      "category": "第二種",
+      "treatment": "変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:45.424175+00:00",
+      "status": "QC",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206051/5/0",
+      "document_type": "pdf",
+      "prices": [],
+      "error": "Document fetched but no price candidate"
+    },
+    {
+      "plan_id": "P00748",
+      "facility_id": "F0466",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "社会医療法人恵仁会 くろさわ病院",
+      "category": "第三種",
+      "treatment": "自家多血小板血漿（PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:45.448554+00:00",
+      "status": "QC",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408006/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 77000,
+          "tax": "税込",
+          "unit": "1 回",
+          "score": 0,
+          "products": [],
+          "excerpt": "できません。 (2) 本治療にかかる費用は、以下のとおりです。なお、費用は、治療に伴う診査、自家PRP 調製のための採血にかかる費用、自家PRP 調製費用、注入にかかる費用の総額となりま す。 (関節)PRP1 回・1 部位: ¥ 55,000-(税込) 2 箇所同時:¥77,000 円-(税込) (筋腱)PRP1 回・1 部位: ¥ 55,000-(税込) 2 箇所同時:¥77,000 円-(税込) キャンセル料:採血後5,000 円・加工後 38,000 円 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみに使用します"
+        },
+        {
+          "amount": 5000,
+          "tax": "税込",
+          "unit": "1 回",
+          "score": -5,
+          "products": [],
+          "excerpt": "なりま す。 (関節)PRP1 回・1 部位: ¥ 55,000-(税込) 2 箇所同時:¥77,000 円-(税込) (筋腱)PRP1 回・1 部位: ¥ 55,000-(税込) 2 箇所同時:¥77,000 円-(税込) キャンセル料:採血後5,000 円・加工後 38,000 円 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみに使用します。 ただし、症例検討や学会発表を目的として、血液やPRP の測定を行い、データを取得 することがあります。 血液およびPRP は微量で全量を使用するため、保管はしません。治療に用"
+        },
+        {
+          "amount": 38000,
+          "tax": "税込",
+          "unit": "1 回",
+          "score": -5,
+          "products": [],
+          "excerpt": "PRP1 回・1 部位: ¥ 55,000-(税込) 2 箇所同時:¥77,000 円-(税込) (筋腱)PRP1 回・1 部位: ¥ 55,000-(税込) 2 箇所同時:¥77,000 円-(税込) キャンセル料:採血後5,000 円・加工後 38,000 円 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみに使用します。 ただし、症例検討や学会発表を目的として、血液やPRP の測定を行い、データを取得 することがあります。 血液およびPRP は微量で全量を使用するため、保管はしません。治療に用いない血 液またはPRP"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00663",
+      "facility_id": "F0466",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "社会医療法人恵仁会 くろさわ病院",
+      "category": "第二種",
+      "treatment": "自家多血小板血漿（PRP）を用いた慢性関節炎の治療（関節内組織）",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:45.465550+00:00",
+      "status": "QC",
+      "match_score": 0.9838,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408007/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 77000,
+          "tax": "税込",
+          "unit": "2 回分",
+          "score": 1,
+          "products": [],
+          "excerpt": "費用は、以下のとおりです。なお、費用は、治療に伴う診査、PRP 調 製のための採血にかかる費用、PRP 調製費用、注入にかかる費用の総額となります。 左右両側に投与する場合は、2 回分です。 (関節)PRP1 回・1 部位: ¥ 55,000-(税込) 2 箇所同時:¥77,000 円-(税込) (筋腱)PRP1 回・1 部位: ¥ 55,000-(税込) 2 箇所同時:¥77,000 円-(税込) キャンセル料:採血後5,000 円・加工後 38,000 円 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみに使用しま す。"
+        },
+        {
+          "amount": 5000,
+          "tax": "税込",
+          "unit": "1 回",
+          "score": -5,
+          "products": [],
+          "excerpt": "分です。 (関節)PRP1 回・1 部位: ¥ 55,000-(税込) 2 箇所同時:¥77,000 円-(税込) (筋腱)PRP1 回・1 部位: ¥ 55,000-(税込) 2 箇所同時:¥77,000 円-(税込) キャンセル料:採血後5,000 円・加工後 38,000 円 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみに使用しま す。ただし、症例検討や学会発表を目的として、血液やPRP の測定を行い、データ を取得することがあります。 血液およびPRP は微量で全量を使用するため、保管はしません。治療に用いな"
+        },
+        {
+          "amount": 38000,
+          "tax": "税込",
+          "unit": "1 回",
+          "score": -5,
+          "products": [],
+          "excerpt": "PRP1 回・1 部位: ¥ 55,000-(税込) 2 箇所同時:¥77,000 円-(税込) (筋腱)PRP1 回・1 部位: ¥ 55,000-(税込) 2 箇所同時:¥77,000 円-(税込) キャンセル料:採血後5,000 円・加工後 38,000 円 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみに使用しま す。ただし、症例検討や学会発表を目的として、血液やPRP の測定を行い、データ を取得することがあります。 血液およびPRP は微量で全量を使用するため、保管はしません。治療に用いない 血液またはPRP が生"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00664",
+      "facility_id": "F0467",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "社会医療法人栗山会飯田病院",
+      "category": "第二種",
+      "treatment": "多血小板血漿（PRP）を用いた変形性関節症治療",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:45.496651+00:00",
+      "status": "QC",
+      "match_score": 0.952,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2104001/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 2000,
+          "tax": "税別",
+          "unit": "",
+          "score": 8,
+          "products": [],
+          "excerpt": "。 医薬品として承認されており、品質は安 定している アレルギーの 可能性 自家移植のため、極めて低い。 品質管理された安全性の高いものだが、 アレルギー反応などの可能性を完全には 否定できない。 【PRP】1_07_説明文書同意書_飯田病院 費用 30 万円(税抜) 保険適用:2000 円前後/回 (膝関節内投与の場合) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。 施術後、患者様の個人的な事情及び金銭等に関する問題に関しては一切の責を負いかねますのでご 了承ください。 その他治療についての注意事項 患者様の体調が良くない場合や、採取した血液"
+        },
+        {
+          "amount": 300000,
+          "tax": "税別",
+          "unit": "",
+          "score": 8,
+          "products": [],
+          "excerpt": "め、品質がばらつく可能性があ る。 医薬品として承認されており、品質は安 定している アレルギーの 可能性 自家移植のため、極めて低い。 品質管理された安全性の高いものだが、 アレルギー反応などの可能性を完全には 否定できない。 【PRP】1_07_説明文書同意書_飯田病院 費用 30 万円(税抜) 保険適用:2000 円前後/回 (膝関節内投与の場合) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。 施術後、患者様の個人的な事情及び金銭等に関する問題に関しては一切の責を負いかねますのでご 了承ください。 その他治療についての注意事項 患者様の"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00749",
+      "facility_id": "F0408",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "長野県厚生農業協同組合連合会 長野松代総合病院",
+      "category": "第三種",
+      "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:45.591243+00:00",
+      "status": "QC",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310037/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 5500,
+          "tax": "不明",
+          "unit": "",
+          "score": -8,
+          "products": [],
+          "excerpt": "明を受けた後に同意されない場合でも、一切不利益を受けることはありません。 また同様に、治療を受けることに同意した場合であっても、投与までの間でしたらい つでも取りやめることができます。この場合でも、一切不利益を受けません。 (採血等にかかる実費等はご負担いただきます。 :採血後のキャンセル料 5,500 円 加工後のキャンセル料 38,500 円) もしこの治療を受けることに同意しない場合も、最適と考えられる治療を実施できる ように患者様の治療に最善を尽くします。 ただし、治療を行った後は、健康管理のために必要に応じて適切な検査を受けていた だき、医学的に問題がないかを確認させていただきます。 11. 試料等の保管及び廃棄の方法に"
+        },
+        {
+          "amount": 38500,
+          "tax": "不明",
+          "unit": "",
+          "score": -8,
+          "products": [],
+          "excerpt": "切不利益を受けることはありません。 また同様に、治療を受けることに同意した場合であっても、投与までの間でしたらい つでも取りやめることができます。この場合でも、一切不利益を受けません。 (採血等にかかる実費等はご負担いただきます。 :採血後のキャンセル料 5,500 円 加工後のキャンセル料 38,500 円) もしこの治療を受けることに同意しない場合も、最適と考えられる治療を実施できる ように患者様の治療に最善を尽くします。 ただし、治療を行った後は、健康管理のために必要に応じて適切な検査を受けていた だき、医学的に問題がないかを確認させていただきます。 11. 試料等の保管及び廃棄の方法について この治療にて患者様より採取"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00750",
+      "facility_id": "F0409",
+      "region": "中部",
+      "prefecture": "長野県",
+      "facility": "長野県立信州医療センター",
+      "category": "第三種",
+      "treatment": "自家多血小板血漿（PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:45.630567+00:00",
+      "status": "QC",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2606030/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "2 回分",
+          "score": 1,
+          "products": [],
+          "excerpt": "することはできませ ん。 (2) 本治療にかかる費用は、以下のとおりです。なお、費用は、治療に伴う診 査、PRP 調製のための採血にかかる費用、PRP 調製費用、注入にかかる費 用の総額となります。左右両側に投与する場合は、2 回分です。 PRP 1 回(1 部位) 55,000 円(税込) (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と調製したPRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液やPRP の測定を行い、データを取得することがあります。 血"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00759",
+      "facility_id": "F0523",
+      "region": "中部",
+      "prefecture": "静岡県",
+      "facility": "かわぐち整形外科",
+      "category": "第三種",
+      "treatment": "多血小板血漿（PRP）を用いた筋・腱・靭帯損傷の治療",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:45.680278+00:00",
+      "status": "QC",
+      "match_score": 0.7592,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2102006/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 30000,
+          "tax": "税別",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "l・ラージスピッツ:約 20ml(各 1 本あたり)の採血を行い、採血した静脈血について遠心分 離機を使用して遠心し血小板を濃縮、PRPを作製します。 □ 血小板活性を促すためにアドレナリン含有リドカインを少量加え る場合があります。 □ 治療費は スモールスピッツ:約10mlの場合 1 本あたり 30,000円 (税抜価格) ラージスピッツ :約 20mlの場合 1 本あたり 60,000円 (税抜 価格) です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者 の選択は行いません。 ただし、 既往症や診察結果で PRP 療法を施行しない場合がありま す。 □ 細胞提供者と再生医療等を受ける者が同一であるため、補償は日 本医"
+        },
+        {
+          "amount": 60000,
+          "tax": "税別",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "いて遠心分 離機を使用して遠心し血小板を濃縮、PRPを作製します。 □ 血小板活性を促すためにアドレナリン含有リドカインを少量加え る場合があります。 □ 治療費は スモールスピッツ:約10mlの場合 1 本あたり 30,000円 (税抜価格) ラージスピッツ :約 20mlの場合 1 本あたり 60,000円 (税抜 価格) です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者 の選択は行いません。 ただし、 既往症や診察結果で PRP 療法を施行しない場合がありま す。 □ 細胞提供者と再生医療等を受ける者が同一であるため、補償は日 本医師会医師賠償責任保険で対応します。本治療が原因であると思 われる健康被害が発生した場"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00755",
+      "facility_id": "F0475",
+      "region": "中部",
+      "prefecture": "静岡県",
+      "facility": "しずおか整形外科病院",
+      "category": "第三種",
+      "treatment": "多血小板血漿（PRP）の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:45.698973+00:00",
+      "status": "AUTO",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2609003/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 25000,
+          "tax": "税別",
+          "unit": "",
+          "score": 8,
+          "products": [
+            "Mycells"
+          ],
+          "excerpt": "生(学生証の提示がある方) 125,000 円(税別) PRP を用いた治療(Mycells PRP キット1本使用)における料金 ●通常 30,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 25,000 円(税別) ●学生(学生証の提示がある方) 25,000 円(税別) ご不明な点は外来看護師にお尋ねください。 PRP ステロイド剤注入 概要 損傷部位に投与することで、 損傷した患部の疼痛を和らげる 効果と、組織を修復する効果が 期待できる。 損傷部位に投与することで、 即効性"
+        },
+        {
+          "amount": 30000,
+          "tax": "税別",
+          "unit": "",
+          "score": 8,
+          "products": [
+            "Mycells"
+          ],
+          "excerpt": "に以前より通院されている方、紹介状持参の方 125,000 円(税別) ●学生(学生証の提示がある方) 125,000 円(税別) PRP を用いた治療(Mycells PRP キット1本使用)における料金 ●通常 30,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 25,000 円(税別) ●学生(学生証の提示がある方) 25,000 円(税別) ご不明な点は外来看護師にお尋ねください。 PRP ステロイド剤注入 概要 損傷部位に投与することで、 損傷した患部の疼痛を和らげる 効"
+        },
+        {
+          "amount": 125000,
+          "tax": "税別",
+          "unit": "",
+          "score": 8,
+          "products": [
+            "GPS",
+            "Mycells"
+          ],
+          "excerpt": "この治療は医療保険の対象ではありませんので、当病院所定の治療費をお支払い いただきます。 PRP を用いた治療(GPSIIIキット使用)における料金 ●通常 150,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 125,000 円(税別) ●学生(学生証の提示がある方) 125,000 円(税別) PRP を用いた治療(Mycells PRP キット1本使用)における料金 ●通常 30,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 25,000 円(税別)"
+        },
+        {
+          "amount": 150000,
+          "tax": "税別",
+          "unit": "",
+          "score": 8,
+          "products": [
+            "GPS",
+            "Mycells"
+          ],
+          "excerpt": "以上も踏まえ、PRP 治療をお受けになるか否かをご検討ください。 この治療は医療保険の対象ではありませんので、当病院所定の治療費をお支払い いただきます。 PRP を用いた治療(GPSIIIキット使用)における料金 ●通常 150,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 125,000 円(税別) ●学生(学生証の提示がある方) 125,000 円(税別) PRP を用いた治療(Mycells PRP キット1本使用)における料金 ●通常 30,000 円(税別"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00673",
+      "facility_id": "F0475",
+      "region": "中部",
+      "prefecture": "静岡県",
+      "facility": "しずおか整形外科病院",
+      "category": "第二種",
+      "treatment": "多血小板血漿（PRP）の投与による変形性関節症治療",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:45.721527+00:00",
+      "status": "AUTO",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2609002/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 25000,
+          "tax": "税別",
+          "unit": "",
+          "score": 8,
+          "products": [
+            "Mycells"
+          ],
+          "excerpt": "300,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 250,000 円(税別) PRP を用いた治療(Mycells PRP キット1 本使用)における料金 ●通常 30,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 25,000 円(税別) ご不明な点は外来看護師にお尋ねください。 PRP ヒアルロン酸注入 概要 関節腔内に投与することで、 損傷した患部の疼痛を和らげる 効果がある。 また、変形の進行抑制、疼痛軽減 が期待できる。 関節腔内に注入されると クッションのような働きをし、 痛みを和らげる効果がある。 実施回数"
+        },
+        {
+          "amount": 30000,
+          "tax": "税別",
+          "unit": "",
+          "score": 8,
+          "products": [
+            "APS",
+            "Mycells"
+          ],
+          "excerpt": "す。 濃縮PRP を用いた治療(APS キット使用)における料金 ●通常 300,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 250,000 円(税別) PRP を用いた治療(Mycells PRP キット1 本使用)における料金 ●通常 30,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 25,000 円(税別) ご不明な点は外来看護師にお尋ねください。 PRP ヒアルロン酸注入 概要 関節腔内に投与することで、 損傷した患部の疼痛を和らげる 効果がある。 また、変形の進行抑制、疼痛軽減 が期待できる。 関節腔内に注入されると"
+        },
+        {
+          "amount": 250000,
+          "tax": "税別",
+          "unit": "",
+          "score": 8,
+          "products": [
+            "APS",
+            "Mycells"
+          ],
+          "excerpt": "否かをご検討ください。 この治療は医療保険の対象ではありませんので、当病院所定の治療費をお支払い いただきます。 濃縮PRP を用いた治療(APS キット使用)における料金 ●通常 300,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 250,000 円(税別) PRP を用いた治療(Mycells PRP キット1 本使用)における料金 ●通常 30,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 25,000 円(税別) ご不明な点は外来看護師にお尋ねください。 PRP ヒアルロン酸注入 概要 関節腔内に投与することで"
+        },
+        {
+          "amount": 300000,
+          "tax": "税別",
+          "unit": "",
+          "score": 8,
+          "products": [
+            "APS",
+            "Mycells"
+          ],
+          "excerpt": "※アルツ関節注25mg 添付文書より 以上も踏まえ、PRP 治療をお受けになるか否かをご検討ください。 この治療は医療保険の対象ではありませんので、当病院所定の治療費をお支払い いただきます。 濃縮PRP を用いた治療(APS キット使用)における料金 ●通常 300,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 250,000 円(税別) PRP を用いた治療(Mycells PRP キット1 本使用)における料金 ●通常 30,000 円(税別) ●当院に以前より通院されている方、紹介状持参の方 25,000 円(税別) ご不明な点は外来看護師にお"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00674",
+      "facility_id": "F0476",
+      "region": "中部",
+      "prefecture": "静岡県",
+      "facility": "ばんどう整形外科・ファミリークリニック",
+      "category": "第二種",
+      "treatment": "自家脂肪組織由来の培養間葉系間質細胞を用いた関節疾患の治療",
+      "treatment_class": "脂肪由来MSC",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:45.997543+00:00",
+      "status": "AUTO",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2507003/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 1000000,
+          "tax": "税別",
+          "unit": "1 回",
+          "score": 9,
+          "products": [],
+          "excerpt": "(署名または記名押印) 代諾者: (続柄: ) 10 (別紙) 本再生医療等の費用は以下のとおりです。 投与細胞数 治療費用(税別) 1 約3,000 万個×1 回分 100 万円 2 約5,000 万個×1 回分 115 万円 3 約1 億個×1 回分 140 万円 4 約3,000 万個×3 回分 170 万円 なお、脂肪組織の採取の施術開始後や細胞加工の開始後、あるいは3 回投与の場合に1 回目投 与の後や2 回目投与の後に同意を撤回された場合"
+        },
+        {
+          "amount": 1150000,
+          "tax": "税別",
+          "unit": "1 回",
+          "score": 9,
+          "products": [],
+          "excerpt": "(続柄: ) 10 (別紙) 本再生医療等の費用は以下のとおりです。 投与細胞数 治療費用(税別) 1 約3,000 万個×1 回分 100 万円 2 約5,000 万個×1 回分 115 万円 3 約1 億個×1 回分 140 万円 4 約3,000 万個×3 回分 170 万円 なお、脂肪組織の採取の施術開始後や細胞加工の開始後、あるいは3 回投与の場合に1 回目投 与の後や2 回目投与の後に同意を撤回された場合など、それまでに費用が発生している場合は、 以下の通り、患者様ご自"
+        },
+        {
+          "amount": 1400000,
+          "tax": "税別",
+          "unit": "1 回",
+          "score": 9,
+          "products": [],
+          "excerpt": "10 (別紙) 本再生医療等の費用は以下のとおりです。 投与細胞数 治療費用(税別) 1 約3,000 万個×1 回分 100 万円 2 約5,000 万個×1 回分 115 万円 3 約1 億個×1 回分 140 万円 4 約3,000 万個×3 回分 170 万円 なお、脂肪組織の採取の施術開始後や細胞加工の開始後、あるいは3 回投与の場合に1 回目投 与の後や2 回目投与の後に同意を撤回された場合など、それまでに費用が発生している場合は、 以下の通り、患者様ご自身にご負担いただきますのでご了承ください。 同意撤回の時期"
+        },
+        {
+          "amount": 1700000,
+          "tax": "税別",
+          "unit": "1 回",
+          "score": -1,
+          "products": [],
+          "excerpt": "す。 投与細胞数 治療費用(税別) 1 約3,000 万個×1 回分 100 万円 2 約5,000 万個×1 回分 115 万円 3 約1 億個×1 回分 140 万円 4 約3,000 万個×3 回分 170 万円 なお、脂肪組織の採取の施術開始後や細胞加工の開始後、あるいは3 回投与の場合に1 回目投 与の後や2 回目投与の後に同意を撤回された場合など、それまでに費用が発生している場合は、 以下の通り、患者様ご自身にご負担いただきますのでご了承ください。 同意撤回の時期 キャンセル費用(税別) 1 2 3 4 同意日~"
+        },
+        {
+          "amount": 100000,
+          "tax": "税別",
+          "unit": "",
+          "score": -2,
+          "products": [],
+          "excerpt": "場合は、 以下の通り、患者様ご自身にご負担いただきますのでご了承ください。 同意撤回の時期 キャンセル費用(税別) 1 2 3 4 同意日~脂肪採取予定日の3 日前 キャンセル費用のお支払いはありません 脂肪採取予定日の2 日前 ~脂肪採取当日の脂肪組織採取前 一律 10 万円をお支払いいただきます 脂肪組織採取後~細胞加工開始前 治療費の60%をお支払いいただきます 細胞加工開始後~細胞投与前 治療費の80%をお支払いいただきます 細胞投与後 治療費用全額をお支払いいただきます 以上"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00675",
+      "facility_id": "F0476",
+      "region": "中部",
+      "prefecture": "静岡県",
+      "facility": "ばんどう整形外科・ファミリークリニック",
+      "category": "第二種",
+      "treatment": "自家多血小板血漿（PRP）を用いた慢性関節炎の治療（関節内組織）",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:46.218231+00:00",
+      "status": "AUTO",
+      "match_score": 0.9838,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2507004/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 50000,
+          "tax": "税込",
+          "unit": "",
+          "score": 8,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "さま氏名 代諾者氏名: (続柄: ) 12 (別紙) 本再生医療等の費用は以下のとおりです。 治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP 20 億個 50,000 円 HD-PRP(ACP MAX の場合) 90 億個 209,000 円 ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。その場合の 費用は以下の通りです。 治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP ダブルショット 40 億個 99,000 円 治療終了後も定期的"
+        },
+        {
+          "amount": 99000,
+          "tax": "税込",
+          "unit": "",
+          "score": 8,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "円 HD-PRP(ACP MAX の場合) 90 億個 209,000 円 ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。その場合の 費用は以下の通りです。 治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP ダブルショット 40 億個 99,000 円 治療終了後も定期的な受診をお願いしております。 本治療は医療費控除の対象となる可能性があります。詳細は国税庁や税理士にご確 認ください。 以上"
+        },
+        {
+          "amount": 209000,
+          "tax": "税込",
+          "unit": "",
+          "score": 8,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "者氏名: (続柄: ) 12 (別紙) 本再生医療等の費用は以下のとおりです。 治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP 20 億個 50,000 円 HD-PRP(ACP MAX の場合) 90 億個 209,000 円 ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。その場合の 費用は以下の通りです。 治療の種類 平均的な血小板注入量 費用(税込み) ACP-PRP ダブルショット 40 億個 99,000 円 治療終了後も定期的な受診をお願いしております。 本治療は医療費控除の対象となる可能性が"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00676",
+      "facility_id": "F0477",
+      "region": "中部",
+      "prefecture": "静岡県",
+      "facility": "みしま痛み＆リハビリクリニック",
+      "category": "第二種",
+      "treatment": "自己多血小板血漿（PRP）を用いた変形性関節症に対する疼痛緩和治療（関節内組織）",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:46.261017+00:00",
+      "status": "AUTO",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2511006/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "1 回",
+          "score": 8,
+          "products": [
+            "Mycells"
+          ],
+          "excerpt": "8. 治療にかかる費用について この治療は、健康保険が適用されない自由診療です。そのため、患者様の費用負担が他の治 療よりも高額になることがあります。当院において実施される本治療および本治療に必要な検査 などの費用は全額自己負担となります。 ・1 回1 部位(採血量約20ml)=55,000 円(税込) Mycells PRP キット (スモールスピッツ/1 本あたりの採血量約10ml)の場合=2 本使用 MyCellsR22 (ラージスピッツ/1 本あたりの採血量=約20ml)の場合=1 本使用 ※患者様の症状によっては、治療を数回行うことがあります。治療前、または治療後の状態から 担当医師が判断し、"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00677",
+      "facility_id": "F0478",
+      "region": "中部",
+      "prefecture": "静岡県",
+      "facility": "伊豆高原メディカル たかやなぎ整形外科",
+      "category": "第二種",
+      "treatment": "自家多血小板血漿（PRP）を用いた慢性関節炎の治療（関節内組織）",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:46.294466+00:00",
+      "status": "QC",
+      "match_score": 0.9838,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02D2403001/5/0",
+      "document_type": "pdf",
+      "prices": [
+        {
+          "amount": 15000,
+          "tax": "税込",
+          "unit": "2 回分",
+          "score": 1,
+          "products": [
+            "ACP"
+          ],
+          "excerpt": "は、検査を受け る方にのみ申し受けます(検査項目により費用が異なります)。なお、PRP 費用には、治療に伴う診査、PRP 作製のための採血にかかる費用、PRP 作 製費用、注入にかかる費用が含まれます。左右両側に投与する場合は、2 回分です。 項目 費用(税込) 血液検査 10,000~15,000 円 ACP(1 回・1 部位) 55,000 円 Condensia(1 回・1 部位) 44,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみ に使用します。た"
+        },
+        {
+          "amount": 44000,
+          "tax": "税込",
+          "unit": "2 回分",
+          "score": 1,
+          "products": [
+            "ACP"
+          ],
+          "excerpt": "、PRP 作製のための採血にかかる費用、PRP 作 製費用、注入にかかる費用が含まれます。左右両側に投与する場合は、2 回分です。 項目 費用(税込) 血液検査 10,000~15,000 円 ACP(1 回・1 部位) 55,000 円 Condensia(1 回・1 部位) 44,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液やPRP の測定を行い、データを取得することがあります。 血液および"
+        },
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "2 回分",
+          "score": 1,
+          "products": [
+            "ACP"
+          ],
+          "excerpt": "より費用が異なります)。なお、PRP 費用には、治療に伴う診査、PRP 作製のための採血にかかる費用、PRP 作 製費用、注入にかかる費用が含まれます。左右両側に投与する場合は、2 回分です。 項目 費用(税込) 血液検査 10,000~15,000 円 ACP(1 回・1 部位) 55,000 円 Condensia(1 回・1 部位) 44,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液やPRP"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "plan_id": "P00757",
+      "facility_id": "F0483",
+      "region": "中部",
+      "prefecture": "静岡県",
+      "facility": "医療法人社団オステオケア ないとう整形外科クリニック",
+      "category": "第三種",
+      "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
+      "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
+      "checked_at": "2026-09-18T09:24:46.395126+00:00",
+      "status": "QC",
+      "match_score": 1.0,
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2303009/5/0",
+      "document_type": "pdf",
+      "prices": [],
+      "error": "Document fetched but no price candidate"
     }
   ]
 }
