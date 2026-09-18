@@ -193,19 +193,25 @@ def process_one(plan,indexes):
     kind="2" if "第二" in plan.get("category","") else "3"
     result={**plan,"checked_at":now(),"status":"QC","match_score":0,"document_url":"","document_type":"","prices":[],"error":""}
     try:
-        row,score=find_row(plan,indexes[kind])
-        result["match_score"]=round(score,4)
-        if not row or score<0.62:
-            result["error"]="MHLW index row not matched"
-            result["status"]="FAIL"
-            return result
-        links=row.get("links") or []
-        doc=next((u for label,u in links if "資料1" in label), links[0][1] if links else None)
-        if not doc:
-            result["error"]="No explanation/consent document link"
-            result["status"]="FAIL"
-            return result
-        result["document_url"]=doc
+        direct_doc=plan.get("document_url_source") or plan.get("document_url")
+        if direct_doc:
+            result["match_score"]=1.0
+            result["document_url"]=direct_doc
+            doc=direct_doc
+        else:
+            row,score=find_row(plan,indexes[kind])
+            result["match_score"]=round(score,4)
+            if not row or score<0.62:
+                result["error"]="MHLW index row not matched"
+                result["status"]="FAIL"
+                return result
+            links=row.get("links") or []
+            doc=next((u for label,u in links if "資料1" in label), links[0][1] if links else None)
+            if not doc:
+                result["error"]="No explanation/consent document link"
+                result["status"]="FAIL"
+                return result
+            result["document_url"]=doc
         text,dtype=extract_document(doc)
         result["document_type"]=dtype
         result["prices"]=amount_candidates(text)
@@ -271,7 +277,10 @@ def main():
     save_json(args.state,state)
 
     if pending:
-        indexes=load_indexes(args.index_cache)
+        if all(p.get("document_url_source") or p.get("document_url") for p in pending):
+            indexes={"2":[],"3":[]}
+        else:
+            indexes=load_indexes(args.index_cache)
         state["phase"]="processing"
         state["index_counts"]={"2":len(indexes["2"]),"3":len(indexes["3"])}
         save_json(args.state,state)
