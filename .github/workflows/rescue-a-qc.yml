@@ -1,0 +1,22 @@
+name: Rescue stalled A QC run
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/rescue-a-qc.yml"
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  rescue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel stalled A QC run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api -X POST repos/ri0115/saisei-collector/actions/runs/35331022887/cancel || true
+          echo "Requested cancellation of stalled run 35331022887"
