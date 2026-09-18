@@ -1,15 +1,15 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T12:10:03.548556+00:00",
+  "updated_at": "2026-09-18T12:12:20.493271+00:00",
   "summary": {
     "total": 335,
     "processed": 335,
     "pending": 0,
     "auto": 196,
-    "qc": 121,
-    "fail": 18,
-    "qc_refine_remaining": 111
+    "qc": 119,
+    "fail": 20,
+    "qc_refine_remaining": 110
   },
   "items": [
     {
@@ -7142,47 +7142,111 @@
       "document_type": "pdf",
       "prices": [
         {
+          "amount": 150000,
+          "tax": "不明",
+          "unit": "",
+          "score": 5,
+          "products": [],
+          "excerpt": "80ml 8ml 150,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支",
+          "page": 7,
+          "line": "150,000 円"
+        },
+        {
           "amount": 60000,
           "tax": "不明",
           "unit": "",
-          "score": 7,
+          "score": 0,
           "products": [],
-          "excerpt": "自費診療であり、健康保険を使用することはできません。 (2)「自己多血小板血漿(PRP)を用いた変形性関節症治療」は、治療 に伴う診査、自己PRP 調製のための採血にかかる費用、自己PRP 調 製費用、投与の総額となります。 採血量 PRP 投与量 治療費用 20ml 2ml 60,000 円 40ml 4ml 90,000 円 60ml 6ml 120,000 円 80ml 8ml 150,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支 払いいただきます。 (4)採血後は、PRP 治療のため"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": -1,
-          "products": [],
-          "excerpt": "調 製費用、投与の総額となります。 採血量 PRP 投与量 治療費用 20ml 2ml 60,000 円 40ml 4ml 90,000 円 60ml 6ml 120,000 円 80ml 8ml 150,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支 払いいただきます。 (4)採血後は、PRP 治療のための費用の返金は致しません。 11.試料等の保管及び廃棄について この治療のために採取した血液は基本的に全てPRP の作製に"
+          "excerpt": "20ml 2ml 60,000 円 40ml 4ml",
+          "page": 7,
+          "line": "60,000 円"
         },
         {
           "amount": 90000,
           "tax": "不明",
           "unit": "",
-          "score": -1,
+          "score": 0,
           "products": [],
-          "excerpt": "きません。 (2)「自己多血小板血漿(PRP)を用いた変形性関節症治療」は、治療 に伴う診査、自己PRP 調製のための採血にかかる費用、自己PRP 調 製費用、投与の総額となります。 採血量 PRP 投与量 治療費用 20ml 2ml 60,000 円 40ml 4ml 90,000 円 60ml 6ml 120,000 円 80ml 8ml 150,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支 払いいただきます。 (4)採血後は、PRP 治療のための費用の返金は致しません。 11.試料"
+          "excerpt": "40ml 4ml 90,000 円 60ml 6ml",
+          "page": 7,
+          "line": "90,000 円"
         },
         {
           "amount": 120000,
           "tax": "不明",
           "unit": "",
-          "score": -1,
+          "score": 0,
           "products": [],
-          "excerpt": "RP)を用いた変形性関節症治療」は、治療 に伴う診査、自己PRP 調製のための採血にかかる費用、自己PRP 調 製費用、投与の総額となります。 採血量 PRP 投与量 治療費用 20ml 2ml 60,000 円 40ml 4ml 90,000 円 60ml 6ml 120,000 円 80ml 8ml 150,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支 払いいただきます。 (4)採血後は、PRP 治療のための費用の返金は致しません。 11.試料等の保管及び廃棄について"
+          "excerpt": "60ml 6ml 120,000 円 80ml 8ml",
+          "page": 7,
+          "line": "120,000 円"
         },
+        {
+          "amount": 10000,
+          "tax": "不明",
+          "unit": "",
+          "score": -5,
+          "products": [],
+          "excerpt": "8ml 150,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支 払いいただきます。",
+          "page": 7,
+          "line": "※初診時には、初診料として10,000 円がかかります。"
+        }
+      ],
+      "error": "",
+      "qc_refined_at": "2026-09-18T12:12:01.373061+00:00",
+      "prices_refined": [
         {
           "amount": 150000,
           "tax": "不明",
           "unit": "",
-          "score": -1,
+          "score": 5,
           "products": [],
-          "excerpt": "伴う診査、自己PRP 調製のための採血にかかる費用、自己PRP 調 製費用、投与の総額となります。 採血量 PRP 投与量 治療費用 20ml 2ml 60,000 円 40ml 4ml 90,000 円 60ml 6ml 120,000 円 80ml 8ml 150,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支 払いいただきます。 (4)採血後は、PRP 治療のための費用の返金は致しません。 11.試料等の保管及び廃棄について"
+          "excerpt": "80ml 8ml 150,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支",
+          "page": 7,
+          "line": "150,000 円"
+        },
+        {
+          "amount": 60000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "20ml 2ml 60,000 円 40ml 4ml",
+          "page": 7,
+          "line": "60,000 円"
+        },
+        {
+          "amount": 90000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "40ml 4ml 90,000 円 60ml 6ml",
+          "page": 7,
+          "line": "90,000 円"
+        },
+        {
+          "amount": 120000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "60ml 6ml 120,000 円 80ml 8ml",
+          "page": 7,
+          "line": "120,000 円"
+        },
+        {
+          "amount": 10000,
+          "tax": "不明",
+          "unit": "",
+          "score": -5,
+          "products": [],
+          "excerpt": "8ml 150,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支 払いいただきます。",
+          "page": 7,
+          "line": "※初診時には、初診料として10,000 円がかかります。"
         }
       ],
-      "error": ""
+      "qc_reason": "price candidates remain ambiguous"
     },
     {
       "plan_id": "P00636",
@@ -7309,12 +7373,13 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
       "plan_status": "現行一覧確認済",
       "checked_at": "2026-09-18T11:50:33.931965+00:00",
-      "status": "QC",
+      "status": "FAIL",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2407009/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "RuntimeError: Tesseract process timeout",
+      "qc_reason": "document fetch/parse failed"
     },
     {
       "plan_id": "P00626",
@@ -7328,12 +7393,13 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済",
       "checked_at": "2026-09-18T11:50:34.037158+00:00",
-      "status": "QC",
+      "status": "FAIL",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2407008/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "RuntimeError: Tesseract process timeout",
+      "qc_reason": "document fetch/parse failed"
     },
     {
       "plan_id": "P00618",
