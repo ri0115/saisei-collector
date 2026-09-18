@@ -1,7 +1,7 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T13:06:55.068869+00:00",
+  "updated_at": "2026-09-18T13:08:53.850293+00:00",
   "summary": {
     "total": 335,
     "processed": 335,
@@ -9,7 +9,7 @@
     "auto": 225,
     "qc": 92,
     "fail": 18,
-    "qc_refine_remaining": 43
+    "qc_refine_remaining": 40
   },
   "items": [
     {
@@ -14708,50 +14708,114 @@
       "prices": [
         {
           "amount": 44000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
+          "tax": "不明",
+          "unit": "片側",
+          "score": 3,
           "products": [
             "ACP MAX",
             "ACP"
           ],
-          "excerpt": "「自家多血小板血漿(Platelet-Rich Plasma:PRP)を用いた慢性炎症の治療(関節 外の軟部組織)」は、すべて自費診療であり、健康保険を使用することはできません。 本治療にかかる費用は、以下の通りです。 治療内容 使用機器 費用(税込) PRP 片側 ACP 44,000 円 ACP MAX 220,000 円 PRP 両側 ACP 99,000 円 ACP MAX 385,000 円 治療終了後も定期的な受診が必要です。 11.健康被害が発生した際の処置と補償等について すべての医療行為にはリスクがあり、ある一定の確率で合併症が起こりえます。 本治療においても『5.予想される"
+          "excerpt": "PRP 片側 ACP 44,000 円 ACP MAX 220,000 円",
+          "page": 8,
+          "line": "44,000 円"
         },
         {
           "amount": 99000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
+          "tax": "不明",
+          "unit": "両側",
+          "score": 3,
           "products": [
             "ACP MAX",
             "ACP"
           ],
-          "excerpt": "炎症の治療(関節 外の軟部組織)」は、すべて自費診療であり、健康保険を使用することはできません。 本治療にかかる費用は、以下の通りです。 治療内容 使用機器 費用(税込) PRP 片側 ACP 44,000 円 ACP MAX 220,000 円 PRP 両側 ACP 99,000 円 ACP MAX 385,000 円 治療終了後も定期的な受診が必要です。 11.健康被害が発生した際の処置と補償等について すべての医療行為にはリスクがあり、ある一定の確率で合併症が起こりえます。 本治療においても『5.予想される効果と起こるかもしれない副作用』でお示しした 合併症については起こらないように細心"
+          "excerpt": "PRP 両側 ACP 99,000 円 ACP MAX 385,000 円",
+          "page": 8,
+          "line": "99,000 円"
         },
         {
           "amount": 220000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
+          "tax": "不明",
+          "unit": "両側",
+          "score": 3,
           "products": [
             "ACP MAX",
             "ACP"
           ],
-          "excerpt": "t-Rich Plasma:PRP)を用いた慢性炎症の治療(関節 外の軟部組織)」は、すべて自費診療であり、健康保険を使用することはできません。 本治療にかかる費用は、以下の通りです。 治療内容 使用機器 費用(税込) PRP 片側 ACP 44,000 円 ACP MAX 220,000 円 PRP 両側 ACP 99,000 円 ACP MAX 385,000 円 治療終了後も定期的な受診が必要です。 11.健康被害が発生した際の処置と補償等について すべての医療行為にはリスクがあり、ある一定の確率で合併症が起こりえます。 本治療においても『5.予想される効果と起こるかもしれない副作用』でお示"
+          "excerpt": "44,000 円 ACP MAX 220,000 円 PRP 両側 ACP",
+          "page": 8,
+          "line": "220,000 円"
         },
         {
           "amount": 385000,
-          "tax": "税込",
+          "tax": "不明",
           "unit": "",
-          "score": 0,
+          "score": 2,
           "products": [
             "ACP MAX",
             "ACP"
           ],
-          "excerpt": "、すべて自費診療であり、健康保険を使用することはできません。 本治療にかかる費用は、以下の通りです。 治療内容 使用機器 費用(税込) PRP 片側 ACP 44,000 円 ACP MAX 220,000 円 PRP 両側 ACP 99,000 円 ACP MAX 385,000 円 治療終了後も定期的な受診が必要です。 11.健康被害が発生した際の処置と補償等について すべての医療行為にはリスクがあり、ある一定の確率で合併症が起こりえます。 本治療においても『5.予想される効果と起こるかもしれない副作用』でお示しした 合併症については起こらないように細心の注意を払っていますが、万が一の合併症"
+          "excerpt": "99,000 円 ACP MAX 385,000 円 治療終了後も定期的な受診が必要です。 11.健康被害が発生した際の処置と補償等について",
+          "page": 8,
+          "line": "385,000 円"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T13:08:32.766638+00:00",
+      "prices_refined": [
+        {
+          "amount": 44000,
+          "tax": "不明",
+          "unit": "片側",
+          "score": 3,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "PRP 片側 ACP 44,000 円 ACP MAX 220,000 円",
+          "page": 8,
+          "line": "44,000 円"
+        },
+        {
+          "amount": 99000,
+          "tax": "不明",
+          "unit": "両側",
+          "score": 3,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "PRP 両側 ACP 99,000 円 ACP MAX 385,000 円",
+          "page": 8,
+          "line": "99,000 円"
+        },
+        {
+          "amount": 220000,
+          "tax": "不明",
+          "unit": "両側",
+          "score": 3,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "44,000 円 ACP MAX 220,000 円 PRP 両側 ACP",
+          "page": 8,
+          "line": "220,000 円"
+        },
+        {
+          "amount": 385000,
+          "tax": "不明",
+          "unit": "",
+          "score": 2,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "99,000 円 ACP MAX 385,000 円 治療終了後も定期的な受診が必要です。 11.健康被害が発生した際の処置と補償等について",
+          "page": 8,
+          "line": "385,000 円"
+        }
+      ],
+      "qc_reason": "price candidates remain ambiguous"
     },
     {
       "plan_id": "P00525",
@@ -14772,50 +14836,114 @@
       "prices": [
         {
           "amount": 55000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
+          "tax": "不明",
+          "unit": "片側",
+          "score": 3,
           "products": [
             "ACP MAX",
             "ACP"
           ],
-          "excerpt": "「自家多血小板血漿(Platelet-Rich Plasma:PRP)を用いた慢性関節炎の治療(関 節内組織)」は、すべて自費診療であり、健康保険を使用することはできません。 本治療にかかる費用は、以下の通りです。 治療内容 使用機器 費用(税込) PRP 片側 ACP 55,000 円 ACP MAX 220,000 円 PRP 両側 ACP 99,000 円 ACP MAX 385,000 円 治療終了後も定期的な受診が必要です。 11.健康被害が発生した際の処置と補償等について すべての医療行為にはリスクがあり、ある一定の確率で合併症が起こりえます。 本治療においても『5.予想される"
+          "excerpt": "PRP 片側 ACP 55,000 円 ACP MAX 220,000 円",
+          "page": 8,
+          "line": "55,000 円"
         },
         {
           "amount": 99000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
+          "tax": "不明",
+          "unit": "両側",
+          "score": 3,
           "products": [
             "ACP MAX",
             "ACP"
           ],
-          "excerpt": "慢性関節炎の治療(関 節内組織)」は、すべて自費診療であり、健康保険を使用することはできません。 本治療にかかる費用は、以下の通りです。 治療内容 使用機器 費用(税込) PRP 片側 ACP 55,000 円 ACP MAX 220,000 円 PRP 両側 ACP 99,000 円 ACP MAX 385,000 円 治療終了後も定期的な受診が必要です。 11.健康被害が発生した際の処置と補償等について すべての医療行為にはリスクがあり、ある一定の確率で合併症が起こりえます。 本治療においても『5.予想される効果と起こるかもしれない副作用』でお示しした 合併症については起こらないように細心"
+          "excerpt": "PRP 両側 ACP 99,000 円 ACP MAX 385,000 円",
+          "page": 8,
+          "line": "99,000 円"
         },
         {
           "amount": 220000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
+          "tax": "不明",
+          "unit": "両側",
+          "score": 3,
           "products": [
             "ACP MAX",
             "ACP"
           ],
-          "excerpt": "let-Rich Plasma:PRP)を用いた慢性関節炎の治療(関 節内組織)」は、すべて自費診療であり、健康保険を使用することはできません。 本治療にかかる費用は、以下の通りです。 治療内容 使用機器 費用(税込) PRP 片側 ACP 55,000 円 ACP MAX 220,000 円 PRP 両側 ACP 99,000 円 ACP MAX 385,000 円 治療終了後も定期的な受診が必要です。 11.健康被害が発生した際の処置と補償等について すべての医療行為にはリスクがあり、ある一定の確率で合併症が起こりえます。 本治療においても『5.予想される効果と起こるかもしれない副作用』でお示"
+          "excerpt": "55,000 円 ACP MAX 220,000 円 PRP 両側 ACP",
+          "page": 8,
+          "line": "220,000 円"
         },
         {
           "amount": 385000,
-          "tax": "税込",
+          "tax": "不明",
           "unit": "",
-          "score": 0,
+          "score": 2,
           "products": [
             "ACP MAX",
             "ACP"
           ],
-          "excerpt": "、すべて自費診療であり、健康保険を使用することはできません。 本治療にかかる費用は、以下の通りです。 治療内容 使用機器 費用(税込) PRP 片側 ACP 55,000 円 ACP MAX 220,000 円 PRP 両側 ACP 99,000 円 ACP MAX 385,000 円 治療終了後も定期的な受診が必要です。 11.健康被害が発生した際の処置と補償等について すべての医療行為にはリスクがあり、ある一定の確率で合併症が起こりえます。 本治療においても『5.予想される効果と起こるかもしれない副作用』でお示しした 合併症については起こらないように細心の注意を払っていますが、万が一の合併症"
+          "excerpt": "99,000 円 ACP MAX 385,000 円 治療終了後も定期的な受診が必要です。 11.健康被害が発生した際の処置と補償等について",
+          "page": 8,
+          "line": "385,000 円"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T13:08:34.677156+00:00",
+      "prices_refined": [
+        {
+          "amount": 55000,
+          "tax": "不明",
+          "unit": "片側",
+          "score": 3,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "PRP 片側 ACP 55,000 円 ACP MAX 220,000 円",
+          "page": 8,
+          "line": "55,000 円"
+        },
+        {
+          "amount": 99000,
+          "tax": "不明",
+          "unit": "両側",
+          "score": 3,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "PRP 両側 ACP 99,000 円 ACP MAX 385,000 円",
+          "page": 8,
+          "line": "99,000 円"
+        },
+        {
+          "amount": 220000,
+          "tax": "不明",
+          "unit": "両側",
+          "score": 3,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "55,000 円 ACP MAX 220,000 円 PRP 両側 ACP",
+          "page": 8,
+          "line": "220,000 円"
+        },
+        {
+          "amount": 385000,
+          "tax": "不明",
+          "unit": "",
+          "score": 2,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "99,000 円 ACP MAX 385,000 円 治療終了後も定期的な受診が必要です。 11.健康被害が発生した際の処置と補償等について",
+          "page": 8,
+          "line": "385,000 円"
+        }
+      ],
+      "qc_reason": "price candidates remain ambiguous"
     },
     {
       "plan_id": "P00533",
@@ -14832,9 +14960,12 @@
       "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2501003/5/0",
-      "document_type": "pdf",
+      "document_type": "ocr",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "Document fetched but no price candidate",
+      "qc_refined_at": "2026-09-18T13:08:53.849567+00:00",
+      "prices_refined": [],
+      "qc_reason": "no price found after text/OCR pass"
     },
     {
       "plan_id": "P00526",
