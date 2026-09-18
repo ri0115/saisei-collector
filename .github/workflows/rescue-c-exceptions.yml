@@ -1,0 +1,48 @@
+name: Rescue C exception PDFs
+
+on:
+  workflow_run:
+    workflows: ["Refine C QC with line-level parsing and OCR"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "regen-c-exception-rescue"
+  cancel-in-progress: false
+
+jobs:
+  rescue:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: collector-c
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install OCR and Python dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-jpn
+          pip install -r requirements.txt
+      - name: Rescue remaining C exceptions
+        run: |
+          python scripts/rescue_exceptions.py \
+            --results results/c_latest.json \
+            --state results/c_state.json \
+            --csv results/c_prices.csv
+      - name: Commit C rescue results
+        run: |
+          git config user.name "regen-med-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add results/c_state.json results/c_latest.json results/c_prices.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Rescue C exception PDFs [skip ci]"
+            git push origin HEAD:collector-c
+          fi
