@@ -1,0 +1,64 @@
+name: Refine C QC with line-level parsing and OCR
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Process C-priority price queue"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "regen-c-qc-refine"
+  cancel-in-progress: false
+
+jobs:
+  refine:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install OCR and Python dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-jpn
+          pip install -r requirements.txt
+      - name: Configure checkpoint commits
+        run: |
+          git config user.name "regen-med-collector"
+          git config user.email "actions@users.noreply.github.com"
+      - name: Refine C QC in checkpointed batches
+        shell: bash
+        run: |
+          set -e
+          for chunk in $(seq 1 10); do
+            git pull --rebase origin main
+            python scripts/qc_refine.py \
+              --results results/c_latest.json \
+              --state results/c_state.json \
+              --csv results/c_prices.csv \
+              --max-items 20 \
+              --workers 4
+            git add results/c_state.json results/c_latest.json results/c_prices.csv || true
+            if ! git diff --cached --quiet; then
+              git commit -m "C QC refine checkpoint $chunk [skip ci]"
+              git pull --rebase origin main
+              git push
+            fi
+            REMAINING=$(python - <<'PY'
+          import json
+          with open("results/c_state.json",encoding="utf-8") as f:
+              print(json.load(f).get("qc_refine_remaining",0))
+          PY
+            )
+            if [ "$REMAINING" = "0" ]; then break; fi
+            sleep 5
+          done
