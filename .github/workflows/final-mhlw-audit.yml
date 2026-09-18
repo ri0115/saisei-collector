@@ -30,6 +30,16 @@ jobs:
         run: python scripts/final_mhlw_audit.py
       - name: Refine high-confidence candidates
         run: python scripts/refine_mhlw_audit.py
+      - name: Upload raw reconciliation artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mhlw-final-reconciliation
+          path: |
+            results/mhlw_current_rows.json.gz
+            results/mhlw_final_audit.json
+            results/mhlw_final_audit_refined.json
+            results/mhlw_high_confidence_missing.csv
+          retention-days: 3
       - name: Commit audit outputs
         run: |
           git config user.name "regen-med-collector"
