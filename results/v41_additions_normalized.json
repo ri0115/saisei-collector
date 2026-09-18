@@ -1,23 +1,26 @@
 {
-  "version": "v41-postprocess-1.2",
-  "updated_at": "2026-09-18T23:06:27.985789+00:00",
+  "version": "v41-postprocess-1.3",
+  "updated_at": "2026-09-18T23:13:10.171007+00:00",
   "summary": {
-    "version": "v41-postprocess-1.2",
-    "updated_at": "2026-09-18T23:06:27.985265+00:00",
+    "version": "v41-postprocess-1.3",
+    "updated_at": "2026-09-18T23:13:10.170807+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 62,
-    "normalized_auto": 570,
-    "normalized_qc": 204,
+    "promoted_qc_to_auto": 74,
+    "promoted_by_parser": 62,
+    "promoted_by_verified_override": 12,
+    "normalized_auto": 582,
+    "normalized_qc": 192,
     "normalized_fail": 0,
-    "normalized_price_records": 2062,
+    "normalized_price_records": 2084,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 669,
+      "source_status_retained": 657,
       "structured_treatment_price_table": 35,
       "single_clear_treatment_price": 4,
+      "verified_official_site_override": 12,
       "still_ambiguous": 20,
       "structured_product_price_table": 8,
       "explicit_total_price_block": 2,
@@ -2111,9 +2114,57 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 1195000,
+          "tax": "税込",
+          "unit": "片膝・培養脂肪幹細胞 約3,000万個",
+          "products": [
+            "培養脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.takedahp.or.jp/group/clinic/meneki/saisei.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1587500,
+          "tax": "税込",
+          "unit": "片膝・培養脂肪幹細胞 約1億個",
+          "products": [
+            "培養脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.takedahp.or.jp/group/clinic/meneki/saisei.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1735000,
+          "tax": "税込",
+          "unit": "両膝同時・約5,000万個ずつ",
+          "products": [
+            "培養脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.takedahp.or.jp/group/clinic/meneki/saisei.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://www.takedahp.or.jp/group/clinic/meneki/saisei.html",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_03E2507007",
@@ -7683,9 +7734,57 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 990000,
+          "tax": "税込",
+          "unit": "幹細胞2,500万個・1関節",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "900,000円+税",
+          "source_url": "https://knee-cell.com/menu/stem-cells/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1430000,
+          "tax": "税込",
+          "unit": "幹細胞5,000万個・1関節",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "1,300,000円+税",
+          "source_url": "https://knee-cell.com/menu/stem-cells/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1980000,
+          "tax": "税込",
+          "unit": "幹細胞1億個・1関節",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "1,800,000円+税",
+          "source_url": "https://knee-cell.com/menu/stem-cells/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://knee-cell.com/menu/stem-cells/",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01A2312002",
@@ -7714,9 +7813,27 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 2200000,
+          "tax": "税込",
+          "unit": "慢性疼痛・幹細胞点滴",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "2,000,000円+税",
+          "source_url": "https://knee-cell.com/menu/chronic-pain/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://knee-cell.com/menu/chronic-pain/",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01A2312003",
@@ -11245,9 +11362,46 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 30000,
+          "tax": "税別",
+          "unit": "ACP・片膝1回・1部位",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "note": "別途予約料",
+          "source_url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
+          "source_type": "official_hospital_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 300000,
+          "tax": "税別",
+          "unit": "APS・1回・1部位",
+          "products": [
+            "APS"
+          ],
+          "makers": [
+            "Zimmer Biomet"
+          ],
+          "note": "別途予約料",
+          "source_url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
+          "source_type": "official_hospital_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
+      "verified_source_type": "official_hospital_site"
     },
     {
       "plan_id": "V41_02C2402051",
@@ -37482,9 +37636,27 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 2200000,
+          "tax": "税込",
+          "unit": "変形性関節症・片膝・幹細胞1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://tokyo-relife.com/menu/osteoarthritis/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://tokyo-relife.com/menu/osteoarthritis/",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_03C2603001",
@@ -37513,9 +37685,72 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 242000,
+          "tax": "税込",
+          "unit": "PRP 1cc",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://tokyo-relife.com/menu/osteoarthritis/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 435600,
+          "tax": "税込",
+          "unit": "PRP 2cc",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://tokyo-relife.com/menu/osteoarthritis/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 580800,
+          "tax": "税込",
+          "unit": "PRP 3cc",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://tokyo-relife.com/menu/osteoarthritis/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 677600,
+          "tax": "税込",
+          "unit": "PRP 4cc",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://tokyo-relife.com/menu/osteoarthritis/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://tokyo-relife.com/menu/osteoarthritis/",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C2510019",
@@ -74586,9 +74821,27 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 45000,
+          "tax": "税込",
+          "unit": "1回・1部位",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://fukumura-seikeigeka.jp/prp.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://fukumura-seikeigeka.jp/prp.html",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C2512043",
@@ -74618,9 +74871,27 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 45000,
+          "tax": "税込",
+          "unit": "1回・1部位",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://fukumura-seikeigeka.jp/prp.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://fukumura-seikeigeka.jp/prp.html",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C2105005",
@@ -75869,9 +76140,46 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "ACP・1回あたり",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "note": "関節内は2回実施",
+          "source_url": "https://yokohama-tsc.com/menu/item204",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 330000,
+          "tax": "税込",
+          "unit": "APS・1回",
+          "products": [
+            "APS"
+          ],
+          "makers": [
+            "Zimmer Biomet"
+          ],
+          "note": "",
+          "source_url": "https://yokohama-tsc.com/menu/item204",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://yokohama-tsc.com/menu/item204",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C2303050",
@@ -75901,9 +76209,46 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "ACP・1回",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "note": "筋・腱・靭帯等は1回",
+          "source_url": "https://yokohama-tsc.com/menu/item204",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 330000,
+          "tax": "税込",
+          "unit": "APS・1回",
+          "products": [
+            "APS"
+          ],
+          "makers": [
+            "Zimmer Biomet"
+          ],
+          "note": "",
+          "source_url": "https://yokohama-tsc.com/menu/item204",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://yokohama-tsc.com/menu/item204",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C2305022",
@@ -87223,9 +87568,27 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 70000,
+          "tax": "税込",
+          "unit": "1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://mogiseikei.com/medical/medical05.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://mogiseikei.com/medical/medical05.html",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C2207023",
@@ -87255,9 +87618,27 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 70000,
+          "tax": "税込",
+          "unit": "1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://mogiseikei.com/medical/medical05.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://mogiseikei.com/medical/medical05.html",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C1906015",
