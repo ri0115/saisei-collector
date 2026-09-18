@@ -14,6 +14,7 @@ except Exception:
 
 UA="Mozilla/5.0 (compatible; RegenMedOfficialFallback/1.0; +https://github.com/ri0115/saisei-collector)"
 SEARCH="https://html.duckduckgo.com/html/?q="
+BING="https://www.bing.com/search?q="
 EXCLUDE_DOMAINS=(
     "saiseiiryo.mhlw.go.jp","mhlw.go.jp","caloo.jp","medicaldoc.jp","byoinnavi.jp","hospitalnavi.jp",
     "mapion.co.jp","google.com","yahoo.co.jp","instagram.com","facebook.com","x.com","twitter.com",
@@ -49,18 +50,34 @@ def clean_result_url(href):
     return href if href.startswith("http") else ""
 
 def search(query):
-    r=get(SEARCH+quote_plus(query),30)
-    soup=BeautifulSoup(r.text,"html.parser")
     out=[]
-    for div in soup.select(".result"):
-        a=div.select_one("a.result__a")
+    try:
+        r=get(SEARCH+quote_plus(query),30)
+        soup=BeautifulSoup(r.text,"html.parser")
+        for div in soup.select(".result"):
+            a=div.select_one("a.result__a")
+            if not a: continue
+            url=clean_result_url(a.get("href",""))
+            if not url: continue
+            sn=div.select_one(".result__snippet")
+            title=a.get_text(" ",strip=True)
+            snippet=sn.get_text(" ",strip=True) if sn else ""
+            out.append({"url":url,"title":title,"snippet":snippet,"engine":"duckduckgo"})
+    except Exception:
+        pass
+    if out:
+        return out
+    r=get(BING+quote_plus(query),30)
+    soup=BeautifulSoup(r.text,"html.parser")
+    for li in soup.select("li.b_algo"):
+        a=li.select_one("h2 a")
         if not a: continue
-        url=clean_result_url(a.get("href",""))
-        if not url: continue
-        sn=div.select_one(".result__snippet")
+        url=a.get("href","")
+        if not url.startswith("http"): continue
+        sn=li.select_one(".b_caption p")
         title=a.get_text(" ",strip=True)
         snippet=sn.get_text(" ",strip=True) if sn else ""
-        out.append({"url":url,"title":title,"snippet":snippet})
+        out.append({"url":url,"title":title,"snippet":snippet,"engine":"bing"})
     return out
 
 def result_score(res,facility):
@@ -119,6 +136,8 @@ def extract_prices(text,tclass,treatment):
 
 def query_for(group):
     fac=group[0]["facility"].replace("\r"," ").replace("\n"," ").strip()
+    fac=re.sub(r"医療法人社団|医療法人財団|医療法人|社会医療法人社団|社会医療法人|一般社団法人|公益財団法人|学校法人|国立大学法人|独立行政法人|社会福祉法人","",fac)
+    fac=re.sub(r"\s+"," ",fac).strip()
     classes=" ".join(sorted({x.get("treatment_class","") for x in group}))
     if "脂肪" in classes or "幹細胞" in classes:
         kw="再生医療 幹細胞 PRP 料金"
