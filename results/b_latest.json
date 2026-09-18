@@ -1,15 +1,15 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T13:14:56.802570+00:00",
+  "updated_at": "2026-09-18T13:16:41.500146+00:00",
   "summary": {
     "total": 335,
     "processed": 335,
     "pending": 0,
-    "auto": 230,
+    "auto": 231,
     "qc": 87,
-    "fail": 18,
-    "qc_refine_remaining": 33
+    "fail": 17,
+    "qc_refine_remaining": 29
   },
   "items": [
     {
@@ -12554,13 +12554,15 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行厚労省一覧確認済",
       "checked_at": "2026-09-18T11:52:51.708072+00:00",
-      "status": "FAIL",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2407012/5/0",
-      "document_type": "pdf",
+      "document_type": "ocr",
       "prices": [],
       "error": "RuntimeError: Tesseract process timeout",
-      "qc_reason": "document fetch/parse failed"
+      "qc_reason": "no price found after text/OCR pass",
+      "qc_refined_at": "2026-09-18T13:16:41.499477+00:00",
+      "prices_refined": []
     },
     {
       "plan_id": "P00448",
@@ -15817,97 +15819,183 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済",
       "checked_at": "2026-09-18T11:54:32.936958+00:00",
-      "status": "QC",
+      "status": "AUTO",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2604003/5/0",
       "document_type": "pdf",
       "prices": [
         {
-          "amount": 10000,
-          "tax": "税込",
-          "unit": "",
-          "score": 8,
-          "products": [
-            "ACP MAX",
-            "ACP",
-            "Angel"
-          ],
-          "excerpt": "た め、以下の発生した費用については患者様にご負担いただきますのでご了承ください。 Angel cPRP システム:200,000 円(税込) ACP MAX PRP システム:90,000 円(税込) ACPダブルシリンジシステム:15,000 円(税込) Condensiaシステム:10,000 円(税込) 15.他の治療法の有無、本治療法との比較について 変形性関節症をはじめとする関節痛の治療法には保存療法と手術療法の2つの方法があります。薬物投与(ヒ アルロン酸注射、非ステロイド系抗炎症剤、非麻薬性鎮痛剤、副腎皮質ステロイドホルモンの内服など)、装具 装着、リハビリテーションなどの保存療法で効果がない場合は、手術療法が選"
-        },
-        {
-          "amount": 15000,
-          "tax": "税込",
-          "unit": "",
-          "score": 8,
-          "products": [
-            "ACP MAX",
-            "ACP",
-            "Angel"
-          ],
-          "excerpt": "場合、同意を撤回される時点でキット代が費用が発生しているた め、以下の発生した費用については患者様にご負担いただきますのでご了承ください。 Angel cPRP システム:200,000 円(税込) ACP MAX PRP システム:90,000 円(税込) ACPダブルシリンジシステム:15,000 円(税込) Condensiaシステム:10,000 円(税込) 15.他の治療法の有無、本治療法との比較について 変形性関節症をはじめとする関節痛の治療法には保存療法と手術療法の2つの方法があります。薬物投与(ヒ アルロン酸注射、非ステロイド系抗炎症剤、非麻薬性鎮痛剤、副腎皮質ステロイドホルモンの内服など)、装具 装着、リハビリ"
-        },
-        {
           "amount": 50000,
           "tax": "税込",
           "unit": "",
-          "score": 8,
+          "score": 10,
           "products": [
             "ACP MAX",
             "ACP",
             "Angel"
           ],
-          "excerpt": "しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として以下の金額 をお支払いいただきます。 Angel cPRP システム:300,000 円(税込) ACP MAX PRP システム:180,000 円(税込) ACPダブルシリンジシステム:50,000 円(税込) Condensiaシステム:50,000 円(税込) ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の加工開始後に同意を撤回された場合、同意を撤回される時点でキット代が費用が発生しているた め、以下の発生した費用については患者様にご負担いただきますのでご了承ください。 Angel"
+          "excerpt": "Angel cPRP システム:300,000 円(税込) ACP MAX PRP システム:180,000 円(税込) ACPダブルシリンジシステム:50,000 円(税込) Condensiaシステム:50,000 円(税込) ※患者様の症状、その他の事情等により治療費が変動する場合があります。",
+          "page": 4,
+          "line": "ACPダブルシリンジシステム:50,000 円(税込)"
         },
         {
           "amount": 90000,
           "tax": "税込",
           "unit": "",
-          "score": 8,
+          "score": 10,
           "products": [
             "ACP MAX",
             "ACP",
             "Angel"
           ],
-          "excerpt": "合があります。 なお、細胞の加工開始後に同意を撤回された場合、同意を撤回される時点でキット代が費用が発生しているた め、以下の発生した費用については患者様にご負担いただきますのでご了承ください。 Angel cPRP システム:200,000 円(税込) ACP MAX PRP システム:90,000 円(税込) ACPダブルシリンジシステム:15,000 円(税込) Condensiaシステム:10,000 円(税込) 15.他の治療法の有無、本治療法との比較について 変形性関節症をはじめとする関節痛の治療法には保存療法と手術療法の2つの方法があります。薬物投与(ヒ アルロン酸注射、非ステロイド系抗炎症剤、非麻薬性鎮痛剤、副"
-        },
-        {
-          "amount": 180000,
-          "tax": "税込",
-          "unit": "",
-          "score": 8,
-          "products": [
-            "ACP MAX",
-            "ACP",
-            "Angel"
-          ],
-          "excerpt": "9 14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として以下の金額 をお支払いいただきます。 Angel cPRP システム:300,000 円(税込) ACP MAX PRP システム:180,000 円(税込) ACPダブルシリンジシステム:50,000 円(税込) Condensiaシステム:50,000 円(税込) ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の加工開始後に同意を撤回された場合、同意を撤回される時点でキット代が費用が発生しているた め、以下の発生した費用については患者様"
+          "excerpt": "め、以下の発生した費用については患者様にご負担いただきますのでご了承ください。 Angel cPRP システム:200,000 円(税込) ACP MAX PRP システム:90,000 円(税込) ACPダブルシリンジシステム:15,000 円(税込) Condensiaシステム:10,000 円(税込)",
+          "page": 4,
+          "line": "ACP MAX PRP システム:90,000 円(税込)"
         },
         {
           "amount": 200000,
           "tax": "税込",
           "unit": "",
-          "score": 8,
+          "score": 10,
           "products": [
             "ACP MAX",
             "ACP",
             "Angel"
           ],
-          "excerpt": ") ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の加工開始後に同意を撤回された場合、同意を撤回される時点でキット代が費用が発生しているた め、以下の発生した費用については患者様にご負担いただきますのでご了承ください。 Angel cPRP システム:200,000 円(税込) ACP MAX PRP システム:90,000 円(税込) ACPダブルシリンジシステム:15,000 円(税込) Condensiaシステム:10,000 円(税込) 15.他の治療法の有無、本治療法との比較について 変形性関節症をはじめとする関節痛の治療法には保存療法と手術療法の2つの方法があります。薬物投与("
+          "excerpt": "なお、細胞の加工開始後に同意を撤回された場合、同意を撤回される時点でキット代が費用が発生しているた め、以下の発生した費用については患者様にご負担いただきますのでご了承ください。 Angel cPRP システム:200,000 円(税込) ACP MAX PRP システム:90,000 円(税込) ACPダブルシリンジシステム:15,000 円(税込)",
+          "page": 4,
+          "line": "Angel cPRP システム:200,000 円(税込)"
         },
         {
           "amount": 300000,
           "tax": "税込",
           "unit": "",
-          "score": 8,
+          "score": 10,
           "products": [
             "ACP MAX",
             "ACP",
             "Angel"
           ],
-          "excerpt": "・日曜日・祝日) 営業時間外の連絡先:090-9507-3259 14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として以下の金額 をお支払いいただきます。 Angel cPRP システム:300,000 円(税込) ACP MAX PRP システム:180,000 円(税込) ACPダブルシリンジシステム:50,000 円(税込) Condensiaシステム:50,000 円(税込) ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の加工開始後に同意を撤回された場合、同意を撤回される時点でキット"
+          "excerpt": "治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として以下の金額 をお支払いいただきます。 Angel cPRP システム:300,000 円(税込) ACP MAX PRP システム:180,000 円(税込) ACPダブルシリンジシステム:50,000 円(税込)",
+          "page": 4,
+          "line": "Angel cPRP システム:300,000 円(税込)"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T13:16:34.818725+00:00",
+      "prices_refined": [
+        {
+          "amount": 50000,
+          "tax": "税込",
+          "unit": "",
+          "score": 10,
+          "products": [
+            "ACP MAX",
+            "ACP",
+            "Angel"
+          ],
+          "excerpt": "Angel cPRP システム:300,000 円(税込) ACP MAX PRP システム:180,000 円(税込) ACPダブルシリンジシステム:50,000 円(税込) Condensiaシステム:50,000 円(税込) ※患者様の症状、その他の事情等により治療費が変動する場合があります。",
+          "page": 4,
+          "line": "ACPダブルシリンジシステム:50,000 円(税込)"
+        },
+        {
+          "amount": 90000,
+          "tax": "税込",
+          "unit": "",
+          "score": 10,
+          "products": [
+            "ACP MAX",
+            "ACP",
+            "Angel"
+          ],
+          "excerpt": "め、以下の発生した費用については患者様にご負担いただきますのでご了承ください。 Angel cPRP システム:200,000 円(税込) ACP MAX PRP システム:90,000 円(税込) ACPダブルシリンジシステム:15,000 円(税込) Condensiaシステム:10,000 円(税込)",
+          "page": 4,
+          "line": "ACP MAX PRP システム:90,000 円(税込)"
+        },
+        {
+          "amount": 200000,
+          "tax": "税込",
+          "unit": "",
+          "score": 10,
+          "products": [
+            "ACP MAX",
+            "ACP",
+            "Angel"
+          ],
+          "excerpt": "なお、細胞の加工開始後に同意を撤回された場合、同意を撤回される時点でキット代が費用が発生しているた め、以下の発生した費用については患者様にご負担いただきますのでご了承ください。 Angel cPRP システム:200,000 円(税込) ACP MAX PRP システム:90,000 円(税込) ACPダブルシリンジシステム:15,000 円(税込)",
+          "page": 4,
+          "line": "Angel cPRP システム:200,000 円(税込)"
+        },
+        {
+          "amount": 300000,
+          "tax": "税込",
+          "unit": "",
+          "score": 10,
+          "products": [
+            "ACP MAX",
+            "ACP",
+            "Angel"
+          ],
+          "excerpt": "治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として以下の金額 をお支払いいただきます。 Angel cPRP システム:300,000 円(税込) ACP MAX PRP システム:180,000 円(税込) ACPダブルシリンジシステム:50,000 円(税込)",
+          "page": 4,
+          "line": "Angel cPRP システム:300,000 円(税込)"
+        },
+        {
+          "amount": 15000,
+          "tax": "税込",
+          "unit": "",
+          "score": 7,
+          "products": [
+            "ACP MAX",
+            "ACP",
+            "Angel"
+          ],
+          "excerpt": "Angel cPRP システム:200,000 円(税込) ACP MAX PRP システム:90,000 円(税込) ACPダブルシリンジシステム:15,000 円(税込) Condensiaシステム:10,000 円(税込) 15.他の治療法の有無、本治療法との比較について",
+          "page": 4,
+          "line": "ACPダブルシリンジシステム:15,000 円(税込)"
+        },
+        {
+          "amount": 50000,
+          "tax": "税込",
+          "unit": "",
+          "score": 7,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "ACP MAX PRP システム:180,000 円(税込) ACPダブルシリンジシステム:50,000 円(税込) Condensiaシステム:50,000 円(税込) ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の加工開始後に同意を撤回された場合、同意を撤回される時点でキット代が費用が発生しているた",
+          "page": 4,
+          "line": "Condensiaシステム:50,000 円(税込)"
+        },
+        {
+          "amount": 180000,
+          "tax": "税込",
+          "unit": "",
+          "score": 7,
+          "products": [
+            "ACP MAX",
+            "ACP",
+            "Angel"
+          ],
+          "excerpt": "をお支払いいただきます。 Angel cPRP システム:300,000 円(税込) ACP MAX PRP システム:180,000 円(税込) ACPダブルシリンジシステム:50,000 円(税込) Condensiaシステム:50,000 円(税込)",
+          "page": 4,
+          "line": "ACP MAX PRP システム:180,000 円(税込)"
+        },
+        {
+          "amount": 10000,
+          "tax": "税込",
+          "unit": "",
+          "score": 5,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "ACP MAX PRP システム:90,000 円(税込) ACPダブルシリンジシステム:15,000 円(税込) Condensiaシステム:10,000 円(税込) 15.他の治療法の有無、本治療法との比較について 変形性関節症をはじめとする関節痛の治療法には保存療法と手術療法の2つの方法があります。薬物投与(ヒ",
+          "page": 4,
+          "line": "Condensiaシステム:10,000 円(税込)"
+        }
+      ],
+      "qc_reason": "line-level strong price context"
     },
     {
       "plan_id": "P00468",
@@ -15982,7 +16070,10 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2202005/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "Document fetched but no price candidate",
+      "qc_refined_at": "2026-09-18T13:16:35.658195+00:00",
+      "prices_refined": [],
+      "qc_reason": "no price found after text/OCR pass"
     },
     {
       "plan_id": "P00469",
@@ -16010,7 +16101,10 @@
           "excerpt": "。窓口での 受付後、治療を行う医師、管理者(院長)へと報告して対応させていただきます。 窓口部署:事務 連絡先:0859-32-7711 14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として33,000 円(税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生してい る場合は、発生した費用については患者様にご負担いただきますのでご了承ください。 15.他の治療法の有無、本治療法との比較につい"
         }
       ],
-      "error": ""
+      "error": "No price found after refined text/OCR pass",
+      "qc_refined_at": "2026-09-18T13:16:36.188009+00:00",
+      "prices_refined": [],
+      "qc_reason": "no price found after text/OCR pass"
     },
     {
       "plan_id": "P00470",
