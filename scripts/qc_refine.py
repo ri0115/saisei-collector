@@ -176,7 +176,8 @@ def refine_one(item):
         return finalize(item,cands,dtype)
     except Exception as e:
         item["status"]="FAIL"
-        item["qc_reason"]="document fetch/parse failed"
+        item["qc_refine_failed_at"]=now()
+        item["qc_reason"]="document fetch/parse failed; deferred to terminal rescue"
         item["error"]=f"{type(e).__name__}: {e}"[:400]
         return item
 
@@ -212,7 +213,7 @@ def main():
     args=ap.parse_args()
     data=load(args.results)
     items=data.get("items",[])
-    targets=[x for x in items if x.get("status") in ("QC","FAIL") and not x.get("qc_refined_at")][:args.max_items]
+    targets=[x for x in items if x.get("status") in ("QC","FAIL") and not x.get("qc_refined_at") and not x.get("qc_refine_failed_at")][:args.max_items]
     if targets:
         by={x["plan_id"]:x for x in items}
         with ThreadPoolExecutor(max_workers=max(1,args.workers)) as ex:
@@ -223,7 +224,7 @@ def main():
         items=[by[x["plan_id"]] for x in items]
     counts={"AUTO":0,"QC":0,"FAIL":0}
     for x in items: counts[x.get("status","QC")]=counts.get(x.get("status","QC"),0)+1
-    remaining=sum(1 for x in items if x.get("status") in ("QC","FAIL") and not x.get("qc_refined_at"))
+    remaining=sum(1 for x in items if x.get("status") in ("QC","FAIL") and not x.get("qc_refined_at") and not x.get("qc_refine_failed_at"))
     data["version"]="0.7";data["updated_at"]=now();data["items"]=items
     data["summary"]={"total":len(items),"processed":len(items),"pending":0,"auto":counts["AUTO"],"qc":counts["QC"],"fail":counts["FAIL"],"qc_refine_remaining":remaining}
     save(args.results,data);write_csv(args.csv,items)
