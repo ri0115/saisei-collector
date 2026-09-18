@@ -1,5 +1,5 @@
 {
-  "version": "v41-verified-overrides-1.1",
+  "version": "v41-verified-overrides-1.2",
   "generated_at": "2026-09-19",
   "notes": "Verified from clinic/hospital official webpages via web search. Amounts are treatment prices only; ancillary fees excluded.",
   "plans": {
@@ -406,6 +406,340 @@
           "unit": "片膝・追加1回移植",
           "product": "脂肪由来幹細胞",
           "note": "細胞保管済みの場合の追加投与"
+        }
+      ]
+    },
+    "V41_02G2602005": {
+      "facility": "社会医療法人友愛会友愛医療センター",
+      "source_type": "official_hospital_site",
+      "source_url": "https://ymc.yuuai.or.jp/department/healthcare-professionals/regenerative-medicine/",
+      "prices": [
+        {
+          "amount": 50000,
+          "tax": "税別",
+          "unit": "PRP 1回・当院整形外科術後患者または学生",
+          "product": "PRP"
+        },
+        {
+          "amount": 80000,
+          "tax": "税別",
+          "unit": "PRP 1回・その他",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_02C2408099": {
+      "facility": "医療法人社団 筑波記念会 筑波記念病院",
+      "source_type": "official_hospital_site",
+      "source_url": "https://tsukuba-kinen.or.jp/services/167",
+      "prices": [
+        {
+          "amount": 30000,
+          "tax": "税別",
+          "unit": "PRP注射1回",
+          "product": "ACP",
+          "maker": "Arthrex"
+        },
+        {
+          "amount": 50000,
+          "tax": "税別",
+          "unit": "PRP注射2回・同時実施時の総額",
+          "product": "ACP",
+          "maker": "Arthrex"
+        }
+      ]
+    },
+    "V41_03E2602011": {
+      "facility": "医療法人社団日生会 リバースセルクリニック",
+      "source_type": "official_mhlw_price_table",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+      "prices": [
+        {
+          "amount": 19800,
+          "tax": "税別",
+          "unit": "院内PRP 1回",
+          "product": "院内PRP",
+          "note": "1回あたり19,800円"
+        },
+        {
+          "amount": 37620,
+          "tax": "税別",
+          "unit": "院内PRP 2回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 53460,
+          "tax": "税別",
+          "unit": "院内PRP 3回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 71280,
+          "tax": "税別",
+          "unit": "院内PRP 4回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 89100,
+          "tax": "税別",
+          "unit": "院内PRP 5回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 100980,
+          "tax": "税別",
+          "unit": "院内PRP 6回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 117810,
+          "tax": "税別",
+          "unit": "院内PRP 7回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 134640,
+          "tax": "税別",
+          "unit": "院内PRP 8回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 142560,
+          "tax": "税別",
+          "unit": "院内PRP 9回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 158400,
+          "tax": "税別",
+          "unit": "院内PRP 10回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 150000,
+          "tax": "税別",
+          "unit": "高濃度PRP 1回",
+          "product": "高濃度PRP",
+          "note": "1回あたり150,000円"
+        },
+        {
+          "amount": 285000,
+          "tax": "税別",
+          "unit": "高濃度PRP 2回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 405000,
+          "tax": "税別",
+          "unit": "高濃度PRP 3回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 540000,
+          "tax": "税別",
+          "unit": "高濃度PRP 4回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 675000,
+          "tax": "税別",
+          "unit": "高濃度PRP 5回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 765000,
+          "tax": "税別",
+          "unit": "高濃度PRP 6回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 892500,
+          "tax": "税別",
+          "unit": "高濃度PRP 7回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 1020000,
+          "tax": "税別",
+          "unit": "高濃度PRP 8回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 1080000,
+          "tax": "税別",
+          "unit": "高濃度PRP 9回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 1200000,
+          "tax": "税別",
+          "unit": "高濃度PRP 10回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        }
+      ]
+    },
+    "V41_03E2602012": {
+      "facility": "医療法人社団日生会 リバースセルクリニック",
+      "source_type": "official_mhlw_price_table",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505005/5/1",
+      "prices": [
+        {
+          "amount": 19800,
+          "tax": "税別",
+          "unit": "院内PRP 1回",
+          "product": "院内PRP",
+          "note": "1回あたり19,800円"
+        },
+        {
+          "amount": 37620,
+          "tax": "税別",
+          "unit": "院内PRP 2回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 53460,
+          "tax": "税別",
+          "unit": "院内PRP 3回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 71280,
+          "tax": "税別",
+          "unit": "院内PRP 4回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 89100,
+          "tax": "税別",
+          "unit": "院内PRP 5回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 100980,
+          "tax": "税別",
+          "unit": "院内PRP 6回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 117810,
+          "tax": "税別",
+          "unit": "院内PRP 7回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 134640,
+          "tax": "税別",
+          "unit": "院内PRP 8回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 142560,
+          "tax": "税別",
+          "unit": "院内PRP 9回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 158400,
+          "tax": "税別",
+          "unit": "院内PRP 10回コース総額",
+          "product": "院内PRP",
+          "note": ""
+        },
+        {
+          "amount": 150000,
+          "tax": "税別",
+          "unit": "高濃度PRP 1回",
+          "product": "高濃度PRP",
+          "note": "1回あたり150,000円"
+        },
+        {
+          "amount": 285000,
+          "tax": "税別",
+          "unit": "高濃度PRP 2回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 405000,
+          "tax": "税別",
+          "unit": "高濃度PRP 3回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 540000,
+          "tax": "税別",
+          "unit": "高濃度PRP 4回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 675000,
+          "tax": "税別",
+          "unit": "高濃度PRP 5回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 765000,
+          "tax": "税別",
+          "unit": "高濃度PRP 6回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 892500,
+          "tax": "税別",
+          "unit": "高濃度PRP 7回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 1020000,
+          "tax": "税別",
+          "unit": "高濃度PRP 8回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 1080000,
+          "tax": "税別",
+          "unit": "高濃度PRP 9回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
+        },
+        {
+          "amount": 1200000,
+          "tax": "税別",
+          "unit": "高濃度PRP 10回コース総額",
+          "product": "高濃度PRP",
+          "note": ""
         }
       ]
     }
