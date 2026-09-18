@@ -3,13 +3,13 @@
   "queue_version": "v40",
   "priority": "B",
   "total": 335,
-  "processed": 168,
-  "pending": 167,
-  "auto": 73,
-  "qc": 95,
+  "processed": 192,
+  "pending": 143,
+  "auto": 89,
+  "qc": 103,
   "fail": 0,
   "phase": "checkpoint",
-  "updated_at": "2026-09-18T11:50:48.954890+00:00",
+  "updated_at": "2026-09-18T11:52:16.271498+00:00",
   "index_counts": {
     "2": 2502,
     "3": 4270
