@@ -1,14 +1,43 @@
 {
   "version": "v41-official-fallback-prototype-1.0",
-  "updated_at": "2026-09-18T23:08:09.807643+00:00",
+  "updated_at": "2026-09-18T23:09:59.612227+00:00",
   "facilities": 5,
   "results": [
     {
       "facility_id": "V41FE5F303E2B0",
       "facility": "医療法人財団康生会 たけだ膠原病リウマチクリニック",
       "prefecture": "京都府",
-      "query": "\"医療法人財団康生会 たけだ膠原病リウマチクリニック\" 再生医療 幹細胞 PRP 料金",
-      "search_results": [],
+      "query": "\"康生会 たけだ膠原病リウマチクリニック\" 再生医療 幹細胞 PRP 料金",
+      "search_results": [
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=5ab6395ec386378cfb8d54559a0bffddebed9fa9934d7ba462556949dd98006eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=1f6b7879-f9c6-64bf-2656-6fa1f8de6563&u=a1aHR0cDovL2tlbnNoaW4udW10aC5vci5qcC93cC93cC1jb250ZW50L3VwbG9hZHMvMjAyNC8wMy8yMDI0bW91c2hpa29taS5wZGY&ntb=1",
+          "title": "Microsoft Word - ä t¦ 2024t¦ e·:­31⁄4ø Æãe: .docx",
+          "snippet": "公益財団法人 宇都宮市医療保健事業団 健診センター TEL 028-625-2213 FAX 028-625-2215",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=a8ece3fb40b9cf4bf8dd6dd429261e2061f8dfb664972e0badf06ed9e4ba9077JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=1f6b7879-f9c6-64bf-2656-6fa1f8de6563&u=a1aHR0cDovL2tlbnNoaW4udW10aC5vci5qcC93cC93cC1jb250ZW50L3VwbG9hZHMvMjAyMy8xMi9nZW5raTIwMTctdm9sLjM0LTEucGRm&ntb=1",
+          "title": "検診でわかる - 公益財団法人 宇都宮市医療保健事業団",
+          "snippet": "日時:平成29 年10 月16 日(月)午後2 時から3時場所:宇都宮市医療保健事業団健診センター講堂または4階会議室宇都宮市竹林町968 …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=c25b906a59dd20374166b7e1485ae9d61b687b41941a0747acebe14cc29441d8JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=1f6b7879-f9c6-64bf-2656-6fa1f8de6563&u=a1aHR0cDovL2tlbnNoaW4udW10aC5vci5qcC93cC93cC1jb250ZW50L3VwbG9hZHMvMjAyNS8wMi8yMDI1bW91c2hpa29taS54bHM&ntb=1",
+          "title": "kenshin.umth.or.jp",
+          "snippet": "項 目 検 査 内 容 ―【ご希望する受診日】― 公益財団法人 宇都宮市医療保健事業団 健診センター TEL 028-625-2213 FAX 028-625 …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=9de035a64c52c30ed57ab8ade3dba0d659acad76d46d2efa63d971604efe3951JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=1f6b7879-f9c6-64bf-2656-6fa1f8de6563&u=a1aHR0cDovL2tlbnNoaW4udW10aC5vci5qcC93cC93cC1jb250ZW50L3VwbG9hZHMvMjAyNS8wMi8yMDI1bW91c2hpa29taS5wZGY&ntb=1",
+          "title": "ä 7t¦ 2025t¦ Æãe:31⁄4ø",
+          "snippet": "令和 年 月 日 令和 年 月 日 午後名午後名 公益財団法人 宇都宮市医療保健事業団 健診センター TEL 028-625-2213 FAX 028-625-2215",
+          "engine": "bing"
+        }
+      ],
       "pages": [],
       "plans": [
         {
@@ -24,7 +53,43 @@
       "facility": "札幌ひざのセルクリニック",
       "prefecture": "北海道",
       "query": "\"札幌ひざのセルクリニック\" 再生医療 幹細胞 PRP 料金",
-      "search_results": [],
+      "search_results": [
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=5be1a33d6fcffbf85495bcd32688cab11133df28feb6f607dba8943bcd45d7a7JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=0da1ad94-9bd2-690e-1b2f-ba4c9a316845&u=a1aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hbWF6b25wcmltZQ&ntb=1",
+          "title": "Amazon .com: Amazon Prime",
+          "snippet": "Unlimited streaming Prime Video brings you new releases, award-winning Originals, and live sports.",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=71cbc56399201e2645a87668909de14a1c13bdb2550cca1565567593d6f8fd4dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=0da1ad94-9bd2-690e-1b2f-ba4c9a316845&u=a1aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hbWF6b25wcmltZT9wcmltZUNhbXBhaWduSWQ9YWNjZXNzV2xwUHJpbWVSZWRpcg&ntb=1",
+          "title": "Amazon .com: Amazon Prime",
+          "snippet": "Prime Access is a discounted version of the Prime membership, available to eligible government assistance recipients or income …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=08335bdc645c0e61e1638641b298e828b11173fef24ab98fafba5067164f8277JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=0da1ad94-9bd2-690e-1b2f-ba4c9a316845&u=a1aHR0cHM6Ly93d3cucHJpbWV2aWRlby5jb20vY29sbGVjdGlvbi9JbmNsdWRlZHdpdGhQcmltZQ&ntb=1",
+          "title": "Amazon .com: Prime Video: Prime Video",
+          "snippet": "Store Filled Watch with a free Prime trial Dark Matter Trending #4 in suspense TV shows",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=17ea7b4002fd706b4c2230c4849792da0ef5831fefba0bc361ded9615273331cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=0da1ad94-9bd2-690e-1b2f-ba4c9a316845&u=a1aHR0cHM6Ly93d3cucHJpbWV2aWRlby5jb20v&ntb=1",
+          "title": "The Grand Tour - Welcome to Prime Video",
+          "snippet": "Enjoy exclusive Amazon Originals as well as popular movies and TV shows. Watch anytime, anywhere. Start your free trial.",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=aeaf5fc41fc8566edf142bf6a6612bea4b394d19f4bb8bd10067fe1c9817efe0JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=0da1ad94-9bd2-690e-1b2f-ba4c9a316845&u=a1aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tL3doYXQtd2UtZG8vcHJpbWU&ntb=1",
+          "title": "Amazon Prime Membership",
+          "snippet": "An Amazon Prime membership comes with much more than fast, free delivery. Check out the shopping, entertainment, health care, …",
+          "engine": "bing"
+        }
+      ],
       "pages": [],
       "plans": [
         {
@@ -45,8 +110,44 @@
       "facility_id": "V41F36AC21EE08",
       "facility": "社会医療法人　孝仁会　\r\n釧路孝仁会記念病院",
       "prefecture": "北海道",
-      "query": "\"社会医療法人　孝仁会　  釧路孝仁会記念病院\" PRP 再生医療 料金",
-      "search_results": [],
+      "query": "\"孝仁会 釧路孝仁会記念病院\" PRP 再生医療 料金",
+      "search_results": [
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=1d13c3d4eb67dc88c9a691fb9c7326d33ead3948766b876bdaf785d36d007571JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=23b90117-9248-6756-2285-16cf93a266f5&u=a1aHR0cHM6Ly93d3cuaG9tZWRlcG90LmNvbS9iL0JhdGgtQmlkZXRzLUJpZGV0LVRvaWxldHMvTi01eWMxdlpiemFj&ntb=1",
+          "title": "Bidet Toilets - The Home Depot",
+          "snippet": "Get free shipping on qualified Bidet Toilets products or Buy Online Pick Up in Store today in the Bath Department.",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=f6dcb440a2e0f665bd8596638864a8b986e7d84b0c7ac7716b251b273b6f6e02JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=23b90117-9248-6756-2285-16cf93a266f5&u=a1aHR0cHM6Ly93d3cuZm9yYmVzLmNvbS9zaXRlcy9mb3JiZXMtcGVyc29uYWwtc2hvcHBlci9hcnRpY2xlL2Jlc3QtYmlkZXQv&ntb=1",
+          "title": "Best Bidets 2026 - Forbes Vetted",
+          "snippet": "Mar 30, 2026 · We tested 10 bidets to find the 6 best bidet toilet seats and attachments of 2026. Our picks range from beginner …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=ef96bfb851daf14c6cddce03528c87581d0d2bec8fb1553cc8e1a70e36a7f079JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=23b90117-9248-6756-2285-16cf93a266f5&u=a1aHR0cHM6Ly93d3cuZ29vZGhvdXNla2VlcGluZy5jb20vd2hhdC10by1idXkvZzMyMTQ1NDE0L2Jlc3QtYmlkZXRzLw&ntb=1",
+          "title": "The Best Bidets of 2026, According to Testing",
+          "snippet": "Jul 23, 2026 · Over the last five years, our experts have tested more than 20 bidets. Evaluations start in the Lab, where we assess …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=934b5949ccabd720ec1e03c87a2251d62272cb5555da531a35afc053eefbc1a9JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=23b90117-9248-6756-2285-16cf93a266f5&u=a1aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9iaWRldC10b2lsZXQvcz9rPWJpZGV0K3RvaWxldA&ntb=1",
+          "title": "Amazon.com: Bidet Toilet",
+          "snippet": "Elevate your bathroom with a bidet toilet or attachment. Find options with heated seats, dual nozzles, and automated functions for a …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=3b81a9efb310f7ec6f375ab48d144154309b2cf262feaff2067ffa0763960770JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=23b90117-9248-6756-2285-16cf93a266f5&u=a1aHR0cHM6Ly93d3cubG93ZXMuY29tL3BsL3RvaWxldHMtdG9pbGV0LXNlYXRzL3RvaWxldHMvYmlkZXQtZnVuY3Rpb24vNDI5NDczNzIxMy0xMTQxNjY1NjQ_bXNvY2tpZD0yM2I5MDExNzkyNDg2NzU2MjI4NTE2Y2Y5M2EyNjZmNQ&ntb=1",
+          "title": "Bidet Function Toilets for Modern Bathrooms | Lowe's",
+          "snippet": "Bidet function toilets help improve everyday hygiene with built-in rinsing features for primary bathrooms and guest baths. Shop toilet …",
+          "engine": "bing"
+        }
+      ],
       "pages": [],
       "plans": [
         {
@@ -61,8 +162,44 @@
       "facility_id": "V41F5C961B1A36",
       "facility": "医療法人社団　順徳会　下総中山整形外科クリニック",
       "prefecture": "千葉県",
-      "query": "\"医療法人社団　順徳会　下総中山整形外科クリニック\" 再生医療 幹細胞 PRP 料金",
-      "search_results": [],
+      "query": "\"順徳会 下総中山整形外科クリニック\" 再生医療 幹細胞 PRP 料金",
+      "search_results": [
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=f124ad2c4e9e9c4c444afb43e8f830a1c74ad6068f045eef29d35803d514cbbbJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=10e27808-f34c-69e2-1ed1-6fd0f22b6877&u=a1aHR0cHM6Ly93d3cuZHJ1Z3MuY29tL21lZGljYWwtYW5zd2Vycy9kaWZmZXJlbmNlLWJldHdlZW4tbHlyaWNhLWdhYmFwZW50aW4tMzUwODg2MC8&ntb=1",
+          "title": "Lyrica vs Gabapentin: What's the difference? - Drugs.com",
+          "snippet": "Apr 23, 2026 · Both Lyrica (pregabalin) and gabapentin (Neurontin) are both anticonvulsants and gabapentinoids used to treat nerve …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=562549bdd3ab598cf1703b8b8a2e69433b7487c34d5c6e880ab1d04a9fc1d6d4JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=10e27808-f34c-69e2-1ed1-6fd0f22b6877&u=a1aHR0cHM6Ly93d3cuZHJ1Z3MuY29tL3ByZWdhYmFsaW4uaHRtbA&ntb=1",
+          "title": "Pregabalin: Uses, Dosage, Side Effects & Warnings - Drugs.com.",
+          "snippet": "Aug 27, 2026 · Pregabalin is used to treat fibromyalgia pain; nerve pain from diabetes, shingles or spinal cord injury; and partial …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=0dc6c3ab31456cad770745d8cb26bd51976c4e2bfe9c074eec08ace325c8da0fJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=10e27808-f34c-69e2-1ed1-6fd0f22b6877&u=a1aHR0cHM6Ly93d3cuYmx1ZWxpZ2h0Lm9yZy9jb21tdW5pdHkvdGhyZWFkcy9seXJpY2EtdnMtZ2FiYXBlbnRpbi1vbmUtcXVlc3Rpb24uODI5NDA4Lw&ntb=1",
+          "title": "Misc - Lyrica VS gabapentin one question | Bluelight.org",
+          "snippet": "Mar 19, 2005 · I read that Lyrica is 2.4x the strength of gabapentin. Wikipedia says Lyrica/pregabalin is 2-4x more potent as an …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=fddfb0f68dfc56583f25964784b7d1125d2e4d01fd45f2ef31d49ebc60db3506JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=10e27808-f34c-69e2-1ed1-6fd0f22b6877&u=a1aHR0cHM6Ly93d3cuYmx1ZWxpZ2h0Lm9yZy9jb21tdW5pdHkvdGhyZWFkcy9wcmVnYWJhbGluLWdhYmFwZW50aW4uOTQzMTA0Lw&ntb=1",
+          "title": "Pregabalin/Gabapentin - bluelight.org",
+          "snippet": "Oct 9, 2024 · Hello all, I'm just wondering any tips or advice/words of encouragement for the issues in the title? For reference, over …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=8df85c56e0b66ccd48aff8073c060de5dcff6308eebde9c724a1a42ffd348aa9JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=10e27808-f34c-69e2-1ed1-6fd0f22b6877&u=a1aHR0cHM6Ly93d3cud2FscnVzLmNvbS9xdWVzdGlvbnMvY29udmVydGluZy1seXJpY2EtdG8tbHlyaWNhLWNyLWV4dGVuZGVkLXJlbGVhc2U&ntb=1",
+          "title": "Converting Lyrica To Lyrica CR (Extended Release) - Walrus Health",
+          "snippet": "Jan 11, 2019 · In our latest question and answer, the pharmacist discusses how to convert from immediate release Lyrica to Lyrica CR.",
+          "engine": "bing"
+        }
+      ],
       "pages": [],
       "plans": [
         {
@@ -90,7 +227,43 @@
       "facility": "日本医科大学千葉北総病院",
       "prefecture": "千葉県",
       "query": "\"日本医科大学千葉北総病院\" PRP 再生医療 料金",
-      "search_results": [],
+      "search_results": [
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=6e59f8ec4ce55c7169ae83df9958ac61ce99e65b4a5bdfc808af2ff8a6adb7a0JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=29277d4c-635f-669f-26a2-6a94625b67f6&u=a1aHR0cHM6Ly9tYXB5LmNvbS9wbC8_c291cmNlPW9zbSZpZD0xMTUwNzg&ntb=1",
+          "title": "Śródmieście (Dzielnica) • Mapy .com",
+          "snippet": "Śródmieście to dzielnica Warszawy, leżąca w lewobrzeżnej części miasta i jedna z 18 jednostek pomocniczych m.st. Warszawy. Jej …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=21a3ceef8b44d0350096da54193a97679e5c9c2cad0db25203f7dc4178573fecJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=29277d4c-635f-669f-26a2-6a94625b67f6&u=a1aHR0cHM6Ly9tYXB5LmUtdHVyeXN0YS5wbC9tYXpvd2llY2tpZS93YXJzemF3YS9zcm9kbWllc2NpZS8&ntb=1",
+          "title": "Śródmieście - Mapa Warszawa, plan miasta, dzielnice w Warszawie - E …",
+          "snippet": "Mapa miejscowości Warszawa Śródmieście w serwisie e-turysta. Na naszych mapach możesz sprawdzić mapę interesującej Cię …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=e5f37f8424f519af89b792e78050f510872ce3a7c0a4c1b7aeb544894f79059bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=29277d4c-635f-669f-26a2-6a94625b67f6&u=a1aHR0cHM6Ly9zcm9kbWllc2NpZS51bS53YXJzemF3YS5wbC8tL21hcGth&ntb=1",
+          "title": "mapka - Śródmieście",
+          "snippet": "2 days ago · Urząd Dzielnicy Śródmieście m.st. Warszawy. Aktualności, kalendarz wydarzeń. Załatw sprawę i dowiedz się więcej o …",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=375ec679c81eaa814f16780681902d859a2ad6a03a2a4598fab4eb738af4718cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=29277d4c-635f-669f-26a2-6a94625b67f6&u=a1aHR0cHM6Ly93d3cuZ2RhbnNrLnBsL3R1cnlzdHlrYS13LWdkYW5za3UvcG9iaWVyei1tYXBrZSxhLDU2NDQ&ntb=1",
+          "title": "Pobierz mapkę - Oficjalny portal miasta Gdańska",
+          "snippet": "Z rozwagą i spokojem. Gdańsk.",
+          "engine": "bing"
+        },
+        {
+          "score": 1,
+          "url": "https://www.bing.com/ck/a?!&&p=b94f34d0bb7f130bb7d0cf44b3a927534ea0307ee028955d9185d98168f9c93cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=29277d4c-635f-669f-26a2-6a94625b67f6&u=a1aHR0cHM6Ly93d3cuZmFqbmV3Y3phc3kucGwvbWFwYS93YXJzemF3YV9zcm9kbWllc2NpZQ&ntb=1",
+          "title": "Śródmieście ( Śródmieście ) - mapa Śródmieście .",
+          "snippet": "Śródmieście - część miasta położone w województwie mazowieckie, w powiecie Warszawa, w gminie Śródmieście.",
+          "engine": "bing"
+        }
+      ],
       "pages": [],
       "plans": [
         {
