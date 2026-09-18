@@ -1,22 +1,23 @@
 {
-  "version": "v41-postprocess-1.0",
-  "updated_at": "2026-09-18T23:00:54.162464+00:00",
+  "version": "v41-postprocess-1.1",
+  "updated_at": "2026-09-18T23:03:55.100578+00:00",
   "total": 774,
   "source_auto": 508,
   "source_qc": 266,
   "source_fail": 0,
-  "promoted_qc_to_auto": 46,
-  "normalized_auto": 554,
-  "normalized_qc": 220,
+  "promoted_qc_to_auto": 49,
+  "normalized_auto": 557,
+  "normalized_qc": 217,
   "normalized_fail": 0,
-  "normalized_price_records": 1442,
+  "normalized_price_records": 2156,
   "resolution_counts": {
-    "multiple_fee_components_needs_review": 31,
+    "multiple_fee_components_needs_review": 34,
     "source_status_retained": 669,
-    "structured_product_price_table": 33,
-    "still_ambiguous": 26,
-    "structured_cell_dose_price_table": 5,
-    "price_range_needs_review": 2,
-    "single_clear_treatment_price": 8
+    "treatment_prices_separated_from_ancillary_fees": 2,
+    "structured_treatment_price_table": 34,
+    "single_clear_treatment_price": 3,
+    "still_ambiguous": 22,
+    "structured_product_price_table": 8,
+    "explicit_total_price_block": 2
   }
 }
