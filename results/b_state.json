@@ -1,0 +1,13 @@
+{
+  "version": "0.1",
+  "queue_version": "v40",
+  "priority": "B",
+  "total": 335,
+  "processed": 0,
+  "pending": 335,
+  "auto": 0,
+  "qc": 0,
+  "fail": 0,
+  "phase": "waiting_for_A_qc",
+  "updated_at": "2026-09-18T10:45:00Z"
+}
