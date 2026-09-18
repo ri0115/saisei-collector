@@ -7,6 +7,8 @@ SRC=Path("results/v41_additions_latest.json")
 OUT_JSON=Path("results/v41_additions_normalized.json")
 OUT_SUM=Path("results/v41_additions_postprocess_summary.json")
 OUT_CSV=Path("results/v41_additions_prices_normalized.csv")
+OUT_WEB=Path("results/v41_official_site_fallback_queue.json")
+OUT_REVIEW=Path("results/v41_complex_price_review_queue.json")
 
 PRODUCT_CANON={
     "GPS III":"GPS","GPSⅢ":"GPS","GPS":"GPS","APS":"APS",
@@ -352,6 +354,40 @@ def main():
 
     OUT_JSON.write_text(json.dumps({"version":"v41-postprocess-1.2","updated_at":now(),"summary":summary,"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
     OUT_SUM.write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding="utf-8")
+
+    web_fallback=[]
+    complex_review=[]
+    for it in items:
+        if it.get("status_normalized")!="QC":
+            continue
+        reason=it.get("postprocess_resolution","")
+        qreason=it.get("qc_reason_source","")
+        rec={
+            "plan_id":it.get("plan_id"),"mhlw_plan_code":it.get("mhlw_plan_code"),
+            "facility_id":it.get("facility_id"),"prefecture":it.get("prefecture"),
+            "facility":it.get("facility"),"address":it.get("address"),
+            "category":it.get("category"),"treatment":it.get("treatment"),
+            "treatment_class":it.get("treatment_class"),"document_url":it.get("document_url"),
+            "qc_reason":qreason,"postprocess_resolution":reason,
+        }
+        if reason in ("multiple_fee_components_needs_review","still_ambiguous","price_range_needs_review","stem_cell_component_needs_review"):
+            rec["price_candidates"]=it.get("prices_normalized") or []
+            complex_review.append(rec)
+        else:
+            web_fallback.append(rec)
+
+    OUT_WEB.write_text(json.dumps({
+        "version":"v41-official-fallback-1.0","updated_at":now(),
+        "total":len(web_fallback),
+        "unique_facilities":len({x.get("facility_id") for x in web_fallback}),
+        "items":web_fallback
+    },ensure_ascii=False,indent=2),encoding="utf-8")
+    OUT_REVIEW.write_text(json.dumps({
+        "version":"v41-complex-review-1.0","updated_at":now(),
+        "total":len(complex_review),
+        "unique_facilities":len({x.get("facility_id") for x in complex_review}),
+        "items":complex_review
+    },ensure_ascii=False,indent=2),encoding="utf-8")
 
     cols=["plan_id","mhlw_plan_code","v41_lane","facility_id","prefecture","facility","category","treatment","treatment_class","status_source","status_normalized","postprocess_resolution","document_url","price_type","amount","amount_min","amount_max","tax","unit","products","makers","product_pair_method","postprocess_reason","score","page","excerpt","synthetic_postprocess"]
     with OUT_CSV.open("w",encoding="utf-8-sig",newline="") as f:
