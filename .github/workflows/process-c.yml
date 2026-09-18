@@ -3,7 +3,7 @@ name: Process C-priority price queue
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Process B-priority price queue"]
+    workflows: ["Refine B QC with line-level parsing and OCR"]
     types: [completed]
 
 permissions:
