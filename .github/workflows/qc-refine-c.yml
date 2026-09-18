@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          ref: main
+          ref: collector-c
           fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
@@ -40,7 +40,7 @@ jobs:
         run: |
           set -e
           for chunk in $(seq 1 30); do
-            git pull --rebase origin main
+            git pull --rebase origin collector-c
             python scripts/qc_refine.py \
               --results results/c_latest.json \
               --state results/c_state.json \
@@ -50,8 +50,8 @@ jobs:
             git add results/c_state.json results/c_latest.json results/c_prices.csv || true
             if ! git diff --cached --quiet; then
               git commit -m "C QC refine checkpoint $chunk [skip ci]"
-              git pull --rebase origin main
-              git push
+              git pull --rebase origin collector-c
+              git push origin HEAD:collector-c
             fi
             REMAINING=$(python - <<'PY'
           import json
