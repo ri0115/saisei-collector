@@ -1,0 +1,14 @@
+{
+  "version": "0.4",
+  "queue_version": "v40",
+  "updated_at": "2026-09-18T09:10:00Z",
+  "summary": {
+    "total": 216,
+    "processed": 0,
+    "pending": 216,
+    "auto": 0,
+    "qc": 0,
+    "fail": 0
+  },
+  "items": []
+}
