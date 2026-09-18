@@ -1,5 +1,5 @@
 {
-  "version": "v41-verified-overrides-1.0",
+  "version": "v41-verified-overrides-1.1",
   "generated_at": "2026-09-19",
   "notes": "Verified from clinic/hospital official webpages via web search. Amounts are treatment prices only; ancillary fees excluded.",
   "plans": {
@@ -232,6 +232,183 @@
           "note": "別途予約料"
         }
       ]
+    },
+    "V41_01G2508001": {
+      "facility": "Tenjin Toya Clinic",
+      "source_type": "official_clinic_site",
+      "source_url": "https://tenjin-tc.com/stemcelltherapy/flow-and-price/",
+      "prices": [
+        {
+          "amount": 110000,
+          "tax": "税込",
+          "unit": "PRGF-Endoret・1回",
+          "product": "PRGF-Endoret",
+          "maker": "BTI",
+          "note": "関節腔内・腔外。3回（7〜10日間隔）を記載"
+        },
+        {
+          "amount": 330000,
+          "tax": "税込",
+          "unit": "Angel HD-PRP・1回",
+          "product": "Angel",
+          "maker": "Arthrex",
+          "note": "関節腔内・腔外"
+        }
+      ]
+    },
+    "V41_01G2508002": {
+      "facility": "Tenjin Toya Clinic",
+      "source_type": "official_clinic_site",
+      "source_url": "https://tenjin-tc.com/stemcelltherapy/flow-and-price/",
+      "prices": [
+        {
+          "amount": 110000,
+          "tax": "税込",
+          "unit": "PRGF-Endoret・1回",
+          "product": "PRGF-Endoret",
+          "maker": "BTI",
+          "note": "関節腔内・腔外。3回（7〜10日間隔）を記載"
+        },
+        {
+          "amount": 330000,
+          "tax": "税込",
+          "unit": "Angel HD-PRP・1回",
+          "product": "Angel",
+          "maker": "Arthrex",
+          "note": "関節腔内・腔外"
+        }
+      ]
+    },
+    "V41_01C2409068": {
+      "facility": "医療法人社団進誠会 豪徳寺整形外科クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://gotokuji-seikeigeka.com/about_prp/",
+      "prices": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "ACP-PRP・1回",
+          "product": "ACP",
+          "maker": "Arthrex"
+        }
+      ]
+    },
+    "V41_01C2409070": {
+      "facility": "医療法人社団進誠会 豪徳寺整形外科クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://gotokuji-seikeigeka.com/about_prp/",
+      "prices": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "ACP-PRP・1回",
+          "product": "ACP",
+          "maker": "Arthrex"
+        }
+      ]
+    },
+    "V41_01C2407094": {
+      "facility": "表参道総合医療クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.omotesando-amc.jp/sast/",
+      "prices": [
+        {
+          "amount": 1980000,
+          "tax": "税込",
+          "unit": "5,000万個・1椎間・1回",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2310000,
+          "tax": "税込",
+          "unit": "5,000万個・2椎間・1回",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2640000,
+          "tax": "税込",
+          "unit": "5,000万個・3椎間・1回",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2530000,
+          "tax": "税込",
+          "unit": "1億個・1椎間・1回",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2860000,
+          "tax": "税込",
+          "unit": "1億個・2椎間・1回",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 3190000,
+          "tax": "税込",
+          "unit": "1億個・3椎間・1回",
+          "product": "脂肪由来幹細胞"
+        }
+      ]
+    },
+    "V41_01C2506023": {
+      "facility": "表参道総合医療クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.omotesando-amc.jp/prp/",
+      "prices": [
+        {
+          "amount": 1650000,
+          "tax": "税込",
+          "unit": "自己脂肪由来間葉系幹細胞1億個・1部位（片側）",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2200000,
+          "tax": "税込",
+          "unit": "膝・肩・手関節 2部位（両側）",
+          "product": "脂肪由来幹細胞"
+        }
+      ]
+    },
+    "V41_02C2501001": {
+      "facility": "医療法人社団豊饒会 RDクリニック東京銀座",
+      "source_type": "official_clinic_site",
+      "source_url": "https://asc.rederm.com/regenerative-medicine/price/?id=prp",
+      "prices": [
+        {
+          "amount": 16500,
+          "tax": "税込",
+          "unit": "PRP初回注入・片膝",
+          "product": "PRP"
+        },
+        {
+          "amount": 82500,
+          "tax": "税込",
+          "unit": "PRP 2回目以降・片膝",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_02C2512006": {
+      "facility": "医療法人社団豊饒会RDクリニック東京銀座",
+      "source_type": "official_clinic_site",
+      "source_url": "https://asc.rederm.com/regenerative-medicine/price/",
+      "prices": [
+        {
+          "amount": 1336500,
+          "tax": "税込",
+          "unit": "片膝・初回モデル総額（初診+検査+6億セル培養+1回移植+年保管）",
+          "product": "脂肪由来幹細胞",
+          "note": "公式料金プラン例 ケースA"
+        },
+        {
+          "amount": 715000,
+          "tax": "税込",
+          "unit": "片膝・追加1回移植",
+          "product": "脂肪由来幹細胞",
+          "note": "細胞保管済みの場合の追加投与"
+        }
+      ]
     }
-  }
+  },
+  "updated_at": "2026-09-19"
 }
