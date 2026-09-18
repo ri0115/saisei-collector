@@ -1,0 +1,1086 @@
+﻿candidate_type,kind,prefecture,facility,address,treatment,treatment_class,existing_facility_name,existing_address,same_address_plan_id,same_address_facility,facility_name_similarity,duplicate_current_rows,document_urls
+new_facility,2,三重県,"医療法人KSOC
+四日市膝肩スポーツの整形外科クリニック",四日市市生桑584-4,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2504005/5/0
+new_facility,3,三重県,"医療法人KSOC
+四日市膝肩スポーツの整形外科クリニック",四日市市生桑584-4,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2504006/5/0
+new_facility,3,三重県,岩崎病院,津市一身田町333番地,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02D2306003/5/0
+new_facility,2,三重県,岩崎病院,津市一身田町333番地,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2207002/5/0
+new_facility,3,三重県,浅野整形外科内科,伊賀市比土字上ノ代３１５８番地１,自己多血小板血漿(PRP)を用いた筋肉、腱、靱帯（関節外の軟部組織）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2510002/5/0
+new_facility,2,三重県,浅野整形外科内科,伊賀市比土字上ノ代３１５８番地１,自己多血小板血漿（PRP）の投与による変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2602001/5/0
+new_facility,3,三重県,社会福祉法人恩賜財団済生会松阪市民病院,松阪市殿町１５５０番地,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2606016/5/0
+new_facility,2,三重県,社会福祉法人恩賜財団済生会松阪市民病院,松阪市殿町１５５０番地,多血小板血漿（PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2606017/5/0
+new_facility,2,三重県,花の道　こてら整形外科クリニック,津市高野尾町1897-74,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2503001/5/0
+new_facility,3,三重県,花の道　こてら整形外科クリニック,津市高野尾町1897-74,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2411002/5/0
+new_facility,2,京都府,Clinique Haru Kyoto,京都市下京区烏丸通塩小路下る東塩小路町901番地 京都駅ビル内ホテルグランヴィア京都6階,変形性関節症に対する自己脂肪組織由来間葉系間質細胞投与療法,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605013/5/0
+new_facility,2,京都府,Clinique Haru Kyoto,京都市下京区烏丸通塩小路下る東塩小路町901番地 京都駅ビル内 ホテルグランヴィア京都6階,変形性関節症・関節炎に対する多血小板血漿(PRP)投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605018/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605018/5/1
+new_facility,2,京都府,Clinique Haru Kyoto,京都市下京区烏丸通塩小路下る東塩小路町901番地  京都駅ビル内 ホテルグランヴィア京都6階,整形外科領域における外傷性疾患又は変性疾患による慢性疼痛緩和を目的とした自己脂肪組織由来間葉系間質細胞の静脈点滴治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605017/5/0
+new_facility,3,京都府,S clinic Kyoto,京都市下京区高辻大宮町103大宮高辻ビル4階,関節周囲炎に対する自家多血小板血漿(PRP)を利用した軟組織の再生医療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2210008/5/0
+new_facility,3,京都府,京都整形外科　肩スポーツクリニック,京都市南区西九条蔵王町13-5　TMSビル1F・2F,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2506008/5/0
+existing_facility_new_plan,3,京都府,医療法人いちまる整形外科クリニック,長岡京市長岡2丁目1番32 グランジェ長岡京1F,多血小板血漿を用いた整形外科疾患に対する組織修復治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2307004/5/0
+existing_facility_new_plan,3,京都府,医療法人京都翔医会 西京都病院,京都市西京区桂畑ヶ田町175番地,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2506011/5/0
+existing_facility_new_plan,3,京都府,"医療法人社団千春会
+千春会ハイパーサーミアクリニック",長岡京市神足2丁目3-1 バンビオ1番館7階,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2601002/5/0
+new_facility,3,京都府,医療法人社団蒼樹会　山本整形外科,京都市伏見区竹田七瀬川町86-8,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2403019/5/0
+existing_facility_new_plan,3,京都府,医療法人社団親和会 京都木原病院,京都市南区西九条春日町5-1,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605002/5/1
+existing_facility_new_plan,3,京都府,医療法人社団貴順会吉川病院,京都市左京区聖護院山王町1番地,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2306012/5/0
+existing_facility_new_plan,3,京都府,医療法人社団順和会　京都下鴨病院,京都市左京区下鴨東森ヶ前町17,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2407035/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2407035/5/1
+new_facility,2,京都府,医療法人藍整会　なか整形外科　京都西院リハビリテーションクリニック,京都市右京区西院高山寺町13　西院阪急ビル3F,多血小板血漿による関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2603014/5/0
+new_facility,3,京都府,医療法人藍整会　なか整形外科　京都西院リハビリテーションクリニック,京都市右京区西院高山寺町13　西院阪急ビル3F,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2603015/5/0
+new_facility,3,京都府,医療法人財団康生会 たけだ膠原病リウマチクリニック,京都市下京区東洞院通七条下る二丁目東塩小路町606-3 三旺京都駅前ビル1階,自家多血小板血漿(Platelet-rich plasma：PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2507008/5/0
+new_facility,2,京都府,医療法人財団康生会 たけだ膠原病リウマチクリニック,京都市下京区東洞院通七条下る二丁目東塩小路町606-3 三旺京都駅前ビル1階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2507007/5/0
+new_facility,2,京都府,医療法人財団康生会 たけだ膠原病リウマチクリニック,"京都市下京区東洞院通七条下る二丁目東塩小路町606-3 
+三旺京都駅前ビル1階",自家脂肪組織由来の培養間葉系幹細胞を用いた変形性膝関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2507006/5/0
+new_facility,3,佐賀県,医療法人仁栄会　さかえまち整形外科,佐賀市駅前中央1-4-17コムボックス佐賀駅前2F,自己多血小板血漿(PRP)を用いた、筋・腱・靭帯の軟部組織再生療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2108005/5/0
+new_facility,3,佐賀県,医療法人尽心会 百武整形外科・スポーツクリニック,佐賀市水ヶ江4丁目2番15号,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2406003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2406003/5/1
+new_facility,2,佐賀県,医療法人尽心会 百武整形外科・スポーツクリニック,佐賀市水ヶ江4丁目2番15号,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2406002/5/0
+new_facility,3,佐賀県,地方独立行政法人佐賀県医療センター好生館,佐賀市嘉瀬町大字中原４００番地,自己多血小板血漿(PRP)を用いた筋肉、腱、靭帯、筋膜（関節外の軟部組織）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2403006/5/0
+new_facility,2,兵庫県,SAクリニック,神戸市中央区元町通1丁目4番12号403号室,自家培養脂肪由来幹細胞を用いた関節系疾患に対する治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603017/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603017/5/1
+existing_facility_new_plan,2,兵庫県,「夢」整形外科スポーツクリニック,姫路市大津区平松131,変形性関節症に対する自己滑膜由来培養間葉系幹細胞の関節内投与療法,滑膜幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2602008/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2602008/5/1
+new_facility,3,兵庫県,きぬがさクリニック,姫路市駅前町241フェスタビル5F,多血小板血漿を用いた再生医療(先天性、外傷、老化などによる明らかな組織の変形、萎縮の治療),PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2010028/5/0
+new_facility,2,兵庫県,ささき整形外科リハビリクリニック,芦屋市海洋町6-1,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603009/5/0
+new_facility,3,兵庫県,ささき整形外科リハビリクリニック,芦屋市海洋町6-1,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603010/5/0
+new_facility,2,兵庫県,ささき整形外科リハビリクリニック,芦屋市海洋町6-1,自己脂肪由来幹細胞を用いた関節疾患の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603008/5/0
+new_facility,3,兵庫県,たちはら整形外科・肩とスポーツのクリニック,明石市大蔵天神町5-16,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2402021/5/0
+new_facility,2,兵庫県,たちはら整形外科・肩とスポーツのクリニック,明石市大蔵天神町5-16,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2402024/5/0
+existing_facility_new_plan,3,兵庫県,三輪整形外科クリニック,"神戸市垂水区舞多聞西五丁目１番３号　
+ノアすこやかプラザ舞多聞クリニックモール１０２号室",自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療(関節腔外に限る),PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2101022/5/0
+existing_facility_new_plan,3,兵庫県,兵庫県立リハビリテーション中央病院,神戸市西区曙町1070,自家多血小板血漿(Platelet-rich plasma：PRP)を用いた筋・腱・靭帯損傷に対する治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2509015/5/0
+existing_facility_new_plan,3,兵庫県,医療法人　研樹会　神戸ルミヴィアクリニック,"兵庫県兵庫県神戸市中央区北長狭通4-6-15
+リンズエムディ神戸元町5F",多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2607007/5/0
+existing_facility_new_plan,3,兵庫県,医療法人社団さいとう整形外科,神戸市西区桜が丘中町４丁目９−７,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2404005/5/0
+existing_facility_new_plan,3,兵庫県,医療法人社団大室整形外科　脊椎・関節クリニック,姫路市中地371,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2503026/5/0
+existing_facility_new_plan,3,兵庫県,医療法人社団慶愛会　森口整形外科,伊丹市鈴原町１丁目９号３番,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E1909025/5/0
+new_facility,3,兵庫県,医療法人社団成道会　ひろクリニック,神戸市中央区京町70番　松岡ビルディング２F・３F,多血小板血漿（Platelet-rich plasma：PRP）を用いた筋、筋腱付着部、靭帯修復,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2302006/5/0
+existing_facility_new_plan,3,兵庫県,医療法人社団武部整形外科リハビリテーション,尼崎市浜田町五丁目28番地,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2109006/5/0
+new_facility,3,兵庫県,医療法人財団　神戸海星病院,神戸市灘区篠原北町3丁目11番15号,多血小板血漿（PRP）の投与によるスポーツ外傷を含む筋、腱、靭帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2504009/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2504009/5/1
+new_facility,2,兵庫県,医療法人財団　神戸海星病院,神戸市灘区篠原北町3丁目11番15号,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2504008/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2504008/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2504008/5/2|https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2504008/5/3
+existing_facility_new_plan,3,兵庫県,増本整形外科クリニック,兵庫県西宮市学文殿町１丁目８番２０号,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605011/5/0
+new_facility,3,兵庫県,特定医療法人誠仁会　大久保病院,明石市大久保町大窪2095番の１,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E1906017/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02E1906017/5/1
+existing_facility_new_plan,3,兵庫県,芦屋整形外科スポーツクリニック,芦屋市大原町28番1号 パルティ芦屋1階,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療(関節腔外に限る),PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2005009/5/0
+existing_facility_new_plan,3,兵庫県,芦屋整形外科スポーツクリニック,芦屋市大原町28番1号 パルティ芦屋1階,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2508016/5/0
+existing_facility_new_plan,3,兵庫県,藤田整形外科 スポーツクリニック,神戸市須磨区磯馴町3丁目2番20号,多血小板血漿（PRP）を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2506024/5/0
+new_facility,2,北海道,NTT東日本札幌病院,札幌市中央区南1条西15丁目,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2606001/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2606001/5/1
+new_facility,3,北海道,NTT東日本札幌病院,札幌市中央区南1条西15丁目,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2403004/5/0
+new_facility,2,北海道,Revo. Clinic,札幌市中央区南4条西2丁目8-9 リディアビル7階,変形性関節症に対する自家脂肪由来幹細胞による治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2512001/5/0
+new_facility,3,北海道,五稜郭大村美容形成クリニック,函館市本町8-18,自己多血小板血漿を用いた先天性、外傷、老化などによる組織の変形、萎縮性疾患のための再生医療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A1910002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02A1910002/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02A1910002/5/2|https://saiseiiryo.mhlw.go.jp/published_plan/download/02A1910002/5/3
+new_facility,2,北海道,"医療法人hokule'a 
+fクリニックさっぽろ",札幌市南区中ノ沢1丁目12番20号,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2408002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2408002/5/1
+new_facility,3,北海道,医療法人hokule'a fクリニックさっぽろ,札幌市南区中ノ沢1丁目12番20号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2408003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2408003/5/1
+new_facility,2,北海道,医療法人　五輪橋整形外科病院,札幌市南区川沿2条1丁目2番56号,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2110001/5/0
+new_facility,3,北海道,医療法人　新札幌整形外科病院,札幌市厚別区厚別中央1条6丁目2-8,靱帯・筋・腱の組織修復を目的とした多血小板血漿（ＰＲＰ）治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2501001/5/0
+new_facility,2,北海道,医療法人そえるて　奥山整形外科,旭川市緑が丘東3条1丁目12番33号,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2604001/5/0
+new_facility,3,北海道,医療法人そえるて　奥山整形外科,旭川市緑が丘東3条1丁目12番33号,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2604002/5/0
+new_facility,3,北海道,医療法人スポキチ スポキチクリニック,札幌市北区新琴似1条12丁目6-3,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2106002/5/0
+new_facility,2,北海道,医療法人スポキチ　スポキチクリニック,札幌市北区新琴似1条12丁目6-3,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2106001/5/0
+new_facility,2,北海道,医療法人リアルエイジ静哉会　Dクリニック札幌,札幌市中央区北4条西2-1-2　キタコートレードビル7F,慢性関節炎に対する自己脂肪由来間葉系幹細胞を用いた治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2605010/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2605010/5/1
+new_facility,3,北海道,医療法人悠康会　函館整形外科クリニック,函館市石川町2-115,"多血小板血漿（PRP, platelet rich plasma）の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療",PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2210003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2210003/5/1
+new_facility,2,北海道,医療法人悠康会　函館整形外科クリニック,函館市石川町2-115,"多血小板血漿（PRP, platelet rich plasma）の投与による変形性関節症治療",PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2210002/5/0
+new_facility,2,北海道,医療法人社団 福亀会 札幌中央整形外科クリニック,札幌市中央区北1条西4丁目2-2札幌ノースプラザ3F,変形性関節症に対する自家多血小板血漿関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2402003/5/0
+new_facility,3,北海道,医療法人社団 福亀会 札幌中央整形外科クリニック,札幌市中央区北1条西4丁目2-2札幌ノースプラザ3F,自家多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2402004/5/0
+new_facility,3,北海道,医療法人社団GOZEN ごうだ整形外科,岩見沢市大和三条九丁目16番,自家多血小板血漿(Platelet Rich Plasma　PRP)を用いた腱付着部炎・腱障害・筋損傷・靭帯損傷(関節外に限る)に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2109003/5/0
+new_facility,3,北海道,医療法人社団GOZEN 北7条ごうだ整形外科,札幌市中央区北七条西二十四丁目1番24号,自家多血小板血漿( Platelet Rich Plasma  PRP )を用いた 筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療(関節外の軟部組織),PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2107002/5/0
+new_facility,2,北海道,医療法人社団くわのみ会　桑園整形外科,札幌市中央区北8条西16丁目２８－３０,自家多血小板血漿による関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A1911015/5/0
+new_facility,2,北海道,医療法人社団みつわ整形外科クリニック,札幌市豊平区平岸３条６丁目６番３０号,自家多血小板血漿(PRP)抽出液による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2403002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2403002/5/1
+new_facility,3,北海道,医療法人社団みつわ整形外科クリニック,札幌市豊平区平岸３条６丁目６番３０号,自家多血小板血漿（PRP:Platelet-Rich Plasma）を用いた靭帯・腱および腱付着部治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A1908001/5/0
+new_facility,3,北海道,医療法人社団三慈会　釧路三慈会病院,釧路市幣舞町4-30,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2507002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2507002/5/1
+new_facility,2,北海道,医療法人社団三慈会　釧路三慈会病院,釧路市幣舞町4-30,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2507001/5/0
+new_facility,2,北海道,医療法人社団再星会　ひざのセルクリニック札幌院,札幌市中央区南1条西１６丁目１番２４５　レーベンビル４F,変形性関節症に対する自家多血小板血漿関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2603003/5/0
+new_facility,2,北海道,医療法人社団悠仁会羊ヶ丘病院,札幌市厚別区青葉町三丁目1番10号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2604002/5/0
+new_facility,3,北海道,医療法人社団悠仁会羊ヶ丘病院,札幌市厚別区青葉町三丁目1番10号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2604001/5/0
+new_facility,2,北海道,医療法人社団松陽会 だい整形外科クリニック,札幌市西区二十四軒三条1丁目1番18号 メディカルスクエア二十四軒　1階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2409003/5/0
+new_facility,3,北海道,医療法人社団松陽会 だい整形外科クリニック,札幌市西区二十四軒三条1丁目1番18号 メディカルスクエア二十四軒　1階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2409004/5/0
+new_facility,2,北海道,"医療法人社団活寿会
+札幌ひざ関節症クリニック","札幌市中央区北一条西三丁目3番11
+桂和北1条ビル6階",自家脂肪組織由来幹細胞（ASC）の投与による関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2601003/5/0
+new_facility,2,北海道,医療法人社団福亀会　札幌中央整形外科クリニック,"札幌市中央区北１条西４丁目２－２
+札幌ノースプラザ３階",自己脂肪由来間葉系幹細胞を用いた関節痛、変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2405004/5/0
+new_facility,2,北海道,医療法人社団福亀会　福住整形外科クリニック,札幌市豊平区福住２条１丁目２−５イトーヨーカドー福住店　福住メディカル６Ｆ,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2402001/5/0
+new_facility,3,北海道,医療法人社団福亀会　福住整形外科クリニック,札幌市豊平区福住２条１丁目２−５　イトーヨーカドー福住店　福住メディカル６Ｆ,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2402002/5/0
+new_facility,2,北海道,"医療法人美喜有会
+リペアセルクリニック札幌院","札幌市中央区大通西5丁目10番
+ザイマックス札幌大通ビルB1",自己脂肪由来幹細胞と自己前骨分化誘導培養上清液を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2605003/5/0
+new_facility,2,北海道,医療法人美喜有会　リペアセルクリニック札幌院,札幌市中央区大通西5丁目10番ザイマックス札幌大通ビルB1,自家多血小板血漿を用いた変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2605010/5/0
+new_facility,3,北海道,医療法人美喜有会　リペアセルクリニック札幌院,札幌市中央区大通西5丁目10番ザイマックス札幌大通ビルB1,自家多血小板血漿を用いた筋腱炎・靭帯炎の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2605014/5/0
+new_facility,2,北海道,医療法人美喜有会　リペアセルクリニック札幌院,札幌市中央区大通西5丁目10番ザイマックス札幌大通ビルB1,自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02A2605001/5/0
+new_facility,2,北海道,小樽市立病院,小樽市若松1丁目1番1号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2508004/5/0
+new_facility,3,北海道,小樽市立病院,小樽市若松1丁目1番1号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2508005/5/0
+new_facility,2,北海道,整形外科進藤病院,旭川市4条通19丁目右6号,多血小板血漿の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2409003/5/0
+new_facility,2,北海道,札幌ひざのセルクリニック,札幌市中央区南1条西１６丁目１番２４５　レーベンビル４F,変形性関節症に対する自家多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2312003/5/0
+new_facility,2,北海道,札幌ひざのセルクリニック,札幌市中央区南1条西１６丁目１番２４５　レーベンビル４F,自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,1,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2312001/5/0
+new_facility,2,北海道,札幌ひざのセルクリニック,札幌市中央区南1条西１６丁目１番２４５　レーベンビル４F,自己脂肪由来幹細胞を用いた慢性疼痛の治療,脂肪由来幹細胞,False,False,,,,1,https://saiseiiryo.mhlw.go.jp/published_plan/download/01A2312002/5/0
+new_facility,2,北海道,"社会医療法人　孝仁会
+釧路孝仁会記念病院",釧路市愛国191番212,自己脂肪（組織）由来間葉系幹細胞を用いた変形性膝関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2505003/5/0
+new_facility,2,北海道,"社会医療法人　孝仁会　
+釧路孝仁会記念病院",釧路市愛国191番212,自己脂肪（組織）由来再生（幹）細胞を用いた変形性膝関節症の治療,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2505002/5/0
+new_facility,3,北海道,社会医療法人　朋仁会　整形外科　北新病院,札幌市東区北8条東4丁目1番5号,自家多血小板血漿（PRP：Platelet-Rich Plasma)を用いた靭帯・腱および腱付着部治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2503002/5/0
+new_facility,3,北海道,社会医療法人北斗　北斗病院,帯広市稲田町基線7番地5,多血小板血漿（Platelet Rich Plasma：PRP）の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2601002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2601002/5/1
+new_facility,2,北海道,社会医療法人北斗　北斗病院,帯広市稲田町基線7番地5,多血小板血漿（Platelet Rich Plasma：PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2601001/5/0
+new_facility,2,北海道,"社会医療法人孝仁会
+釧路孝仁会記念病院",釧路市愛国191番212,膝関節における軟骨欠損（外傷性軟骨損傷・離断性骨軟骨炎・早期変形性膝関節症）を対象とした自家滑膜間葉系幹細胞由来三次元人工組織（自家gMSC®1-A）移植,滑膜幹細胞/人工組織,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2505012/5/0
+new_facility,2,北海道,社会医療法人松田整形外科記念病院,札幌市北区北18条西4丁目1番35号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2503005/5/0
+new_facility,3,北海道,社会医療法人松田整形外科記念病院,札幌市北区北18条西4丁目1番35号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2503006/5/0
+new_facility,2,北海道,社会医療法人社団　朋仁会　整形外科　北新病院,札幌市東区北8条東4丁目1番5号,自家多血小板血漿抽出液(APS)による変形性膝関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2503001/5/0
+new_facility,3,千葉県,しろやまいたみのクリニック,館山市長須賀字新工309-1,自己多血小板血漿(PRP)を用いた筋・腱・靭帯の損傷及び慢性炎症に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2502010/5/0
+new_facility,3,千葉県,ジェフユナイテッド株式会社　診療所,千葉県千葉市中央区川崎町1-38,自己多血小板血漿(PRP)を用いた整形外科的治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2201001/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2201001/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2201001/5/2|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2201001/5/3
+existing_facility_new_plan,3,千葉県,医療法人平成博愛会　印西総合病院,印西市牧の台1-1-1,自家多血小板血漿(Platelet-rich plasma: PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2307046/5/0
+new_facility,3,千葉県,医療法人社団　順徳会　下総中山整形外科クリニック,船橋市本中山2-10-1 ミレニティ中山4階,自己多血小板血漿(PRP)療法（治療対象：筋・腱・靭帯損傷）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601087/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601087/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601087/5/2
+new_facility,2,千葉県,医療法人社団　順徳会　下総中山整形外科クリニック,船橋市本中山2-10-1 ミレニティ中山4階,自己多血小板血漿(PRP)療法（治療対象：関節炎・変形性関節症）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601086/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601086/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601086/5/2
+new_facility,2,千葉県,医療法人社団　順徳会　下総中山整形外科クリニック,船橋市本中山2-10-1 ミレニティ中山4階,自己脂肪組織由来幹細胞（ASCs）を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601085/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601085/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601085/5/2
+existing_facility_new_plan,2,千葉県,"医療法人社団オルソプラス
+むらた整形外科",八千代市大和田新田99,"自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療
+（関節内組織）",PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409051/5/0
+new_facility,2,千葉県,医療法人社団仁敬会　そがセントラルクリニック,千葉市中央区宮崎町561－1,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2202017/5/0
+new_facility,3,千葉県,医療法人社団仁敬会　そがセントラルクリニック,千葉市中央区宮崎町561－1,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2202018/5/0
+new_facility,2,千葉県,"医療法人社団千美会
+ガーデンクリニック船橋院","船橋市本町4-40-23
+サドヤサザンテラス702",自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2110055/5/0
+new_facility,3,千葉県,"医療法人社団千聡会
+北原整形外科",習志野市本大久保３丁目９−２４,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2501012/5/0
+new_facility,2,千葉県,"医療法人社団千聡会
+北原整形外科",習志野市本大久保３丁目９−２４,変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2501013/5/0
+new_facility,2,千葉県,医療法人社団協友会　柏厚生総合病院,柏市篠籠田617番地,多血小板血漿（Platelet-rich plasma：PRP）を用いた関節痛治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512058/5/0
+new_facility,3,千葉県,医療法人社団協友会　柏厚生総合病院,柏市篠籠田617番地,自己多血小板血漿（Platelet-rich plasma : PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601001/5/0
+new_facility,3,千葉県,医療法人社団南洲会 南洲会勝浦クリニック,勝浦市墨名485番地252,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410046/5/0
+new_facility,2,千葉県,医療法人社団南洲会 南洲会勝浦クリニック,勝浦市墨名485番地252,変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410045/5/0
+new_facility,2,千葉県,医療法人社団南洲会　南洲会勝浦クリニック,勝浦市墨名485番地252,自家滑膜幹細胞注射による変形性膝関節症治療,滑膜幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2412045/5/0
+existing_facility_new_plan,3,千葉県,医療法人社団曙会 流山中央病院,流山市東初石二丁目１３２番地の２,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療(関節外の軟部組織),PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2106043/5/0
+new_facility,3,千葉県,医療法人社団淳英会　おゆみの中央病院,千葉市緑区おゆみ野南六丁目49番地9,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2206012/5/0
+new_facility,2,千葉県,医療法人社団淳英会　おゆみの中央病院,千葉市緑区おゆみ野南六丁目４９番地９,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2205006/5/0
+new_facility,2,千葉県,医療法人社団淳英会　おゆみの中央病院,千葉市緑区おゆみ野南六丁目 49 番地 9,自己脂肪由来間葉系幹細胞を用いた関節痛、変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2306039/5/0
+existing_facility_new_plan,3,千葉県,医療法人社団淳英会　Ｊメディカルおゆみの,"千葉市緑区おゆみ野三丁目16番地1
+ゆみ～る鎌取ショッピングセンター５階",多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2301026/5/0
+existing_facility_new_plan,2,千葉県,医療法人社団淳英会　Ｊメディカルおゆみの,"千葉市緑区おゆみ野三丁目16番地1
+ゆみ～る鎌取ショッピングセンター５階",多血小板血漿抽出液による関節症治療,APS/PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2301025/5/0
+new_facility,3,千葉県,医療法人社団煌和会 國分クリニック,千葉市中央区宮崎町235-8,自己多血小板血漿(PRP)を用いた筋・腱・靱帯損傷部の治癒促進を目的とした整形外科治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2202006/5/0
+new_facility,2,千葉県,医療法人社団誠富会 成田整形外科,成田市橋賀台 1-15-2,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2503029/5/0
+new_facility,3,千葉県,医療法人社団誠富会　成田整形外科,成田市橋賀台1-15-2,多血小板血漿（Platelet-rich plasma : PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2503026/5/0
+new_facility,3,千葉県,医療法人社団誠馨会 千葉メディカルセンター,千葉市中央区南町1丁目7番1号,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療(関節外軟部組織),PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2506051/5/0
+new_facility,2,千葉県,医療法人社団誠馨会 千葉メディカルセンター,千葉市中央区南町1丁目7番1号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2506050/5/0
+new_facility,3,千葉県,医療法人社団錦昌会 みどりのは 葉記念病院,千葉市緑区古市場町２０９番４,自家多血小板血漿(Platelet-rich plasma：PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408008/5/0
+new_facility,2,千葉県,医療法人社団錦昌会 みどりのは 葉記念病院,千葉市緑区古市場町２０９番４,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408009/5/0
+existing_facility_new_plan,2,千葉県,医療法人鉄蕉会　亀田クリニック,鴨川市東町 1344 番地,APS（Autologous Protein Solution）を用いた変形性関節症を起因とする慢性痛治療,APS,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603018/5/0
+existing_facility_new_plan,2,千葉県,医療法人鉄蕉会　亀田クリニック,鴨川市東町１３４４,多血小板血漿（ＰＲＰ）の関節内投与による半月板・関節軟骨の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605007/5/0
+new_facility,3,千葉県,千葉ニュータウン整形外科リハビリテーションクリニック,印西市中央北1丁目1 APOLLO PLANT MALL 2階,自家多血小板血漿(Platelet-rich plasma：PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407085/5/0
+new_facility,2,千葉県,千葉ニュータウン整形外科リハビリテーションクリニック,印西市中央北1丁目1 APOLLO PLANT MALL 2階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407086/5/0
+new_facility,2,千葉県,日本医科大学千葉北総病院,印西市鎌苅１７１５,変形性関節症に対する多血小板血漿抽出液（ＡＰＳ）関節内投与療法,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310044/5/0
+new_facility,2,千葉県,柏の葉キャンパス整形外科,柏市中十余二397-1 中央182街区3,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2410007/5/0
+new_facility,3,千葉県,柏の葉キャンパス整形外科,柏市中十余二397-1 中央182街区3,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2410034/5/0
+new_facility,3,千葉県,柏はせがわ整形外科,柏市根戸４６７−１０３ メディカルプラザ北柏 2Ｆ,自己多血小板血漿（PRP)を用いた、筋・腱・靱帯への軟部組織再生療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206026/5/0
+new_facility,2,千葉県,社会医療法人社団蛍水会 名戸ヶ谷病院,柏市新柏二丁目1番1,自家多血小板血漿(Platelet rich plasma:PRP)を用いた関節機能改善治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2311048/5/0
+new_facility,3,千葉県,社会医療法人社団蛍水会 名戸ヶ谷病院,柏市新柏二丁目1番1,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた関節機能治療(関節腔外に限る),PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2402051/5/0
+new_facility,2,千葉県,長浜クリニック,市川市若宮2-13-6,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2407017/5/0
+new_facility,3,千葉県,順天堂大学医学部附属浦安病院,浦安市富岡2-1-1,自己多血小板血漿（PRP）療法（筋・腱・靭帯の損傷に対する）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2109024/5/0
+new_facility,2,千葉県,順天堂大学医学部附属浦安病院,浦安市富岡2-1-1,自己多血小板血漿（PRP）療法（関節炎・変形性関節症に対する）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2109023/5/0
+existing_facility_new_plan,3,和歌山県,伏虎リハビリテーション病院,和歌山市畑屋敷東ノ丁１番,自己多血小板血漿(PRP)を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2405011/5/0
+existing_facility_new_plan,3,和歌山県,医療法人優真会 やなせ整形外科,和歌山市次郎丸167番地の2,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2503008/5/0
+existing_facility_new_plan,3,和歌山県,医療法人琉憲会　ナカイマ整形外科クリニック,岩出市金池389-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2407030/5/0
+new_facility,2,和歌山県,社会医療法人黎明会　北出病院,御坊市湯川町財部728‐4,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507042/5/0
+new_facility,2,和歌山県,社会医療法人黎明会　北出病院,御坊市湯川町財部728-4,自家培養脂肪由来幹細胞を用いた変形性膝関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/1
+new_facility,3,和歌山県,社会医療法人黎明会　北出病院,御坊市湯川町財部728‐4,自己多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507043/5/0
+new_facility,2,和歌山県,社会医療法人黎明会　和歌山 健診クリニック・キタデ,和歌山市七番丁２６－１　モンティグレ ダイワロイネットホテル和歌山　２F,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2509005/5/0
+new_facility,3,和歌山県,社会医療法人黎明会　和歌山 健診クリニック・キタデ,和歌山市七番丁２６－１　モンティグレ ダイワロイネットホテル和歌山　２F,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2509006/5/0
+new_facility,2,和歌山県,社会医療法人黎明会　和歌山 健診クリニック・キタデ,和歌山市七番丁26-1　モンティグレ（ダイワロイネットホテル和歌山）2階,自己脂肪由来間葉系幹細胞を用いた変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2511014/5/0
+new_facility,2,和歌山県,社会医療法人黎明会　和歌山 健診クリニック・キタデ,和歌山市七番丁26-1　モンティグレ（ダイワロイネットホテル和歌山）2階,自己脂肪由来間葉系幹細胞を用いた靭帯・腱損傷治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2511020/5/0
+new_facility,3,和歌山県,"社会福祉法人琴の浦リハビリテイションセンター　　
+琴の浦リハビリテーションセンター附属病院",和歌山市毛見字馬瀬1451番地,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2402019/5/0
+new_facility,2,和歌山県,"社会福祉法人琴の浦リハビリテイションセンター　　
+琴の浦リハビリテーションセンター附属病院",和歌山市毛見字馬瀬1451番地,変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2402018/5/0
+new_facility,3,埼玉県,UT整形外科　武蔵浦和,さいたま市南区白幡５丁目１８－１９　MID KUDOS TERRACE　3F,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2510041/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2510041/5/1
+new_facility,2,埼玉県,UT整形外科　武蔵浦和,さいたま市南区白幡５丁目１８－１９　MID KUDOS TERRACE　3F,変形性関節症に対する自家培養脂肪由来幹細胞を用いた治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2501014/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2501014/5/1
+new_facility,2,埼玉県,UT整形外科　武蔵浦和,さいたま市南区白幡５丁目１８－１９　MID KUDOS TERRACE　3F,変形性関節症を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2510040/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2510040/5/1
+existing_facility_new_plan,3,埼玉県,さいたま整形外科クリニック,さいたま市大宮区仲町1-35 大塚ビル3階,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509053/5/0
+existing_facility_new_plan,3,埼玉県,ミューズシティクリニック,さいたま市南区別所7-2-1-204,自己多血小板血漿(PRP)を用いた筋・腱・靭帯の軟部組織再生療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508068/5/0
+new_facility,3,埼玉県,"一般社団法人ARMS
+ライオンズ整形外科クリニック",所沢市大字上山口2178番6,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604009/5/0
+new_facility,2,埼玉県,"一般社団法人ARMS
+ライオンズ整形外科クリニック",所沢市大字上山口2178番6,変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604008/5/0
+existing_facility_new_plan,3,埼玉県,伊奈整形外科・せぼねクリニック,北足立郡伊奈町中央1-107,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2606058/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2606058/5/1
+new_facility,3,埼玉県,医療法人　川久保病院,さいたま市浦和区東高砂町29-18,自己多血小板血漿（PRP)を用いた整形外科治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2001042/5/0
+new_facility,3,埼玉県,医療法人くろや整形外科医院,深谷市田中2643－8,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2309048/5/0
+new_facility,2,埼玉県,"医療法人元志会
+川越TACA川越下肢静脈瘤膝関節クリニック","川越市脇田本町8-1
+U_PLACE　MEDICITY　６階",多血小板血漿を用いた整形外科疾患に対する関節内治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2607036/5/0
+new_facility,2,埼玉県,医療法人元気会　わかさクリニック,所沢市若狭4-2468-31,自家脂肪由来間葉系幹細胞を用いた変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2411029/5/0
+existing_facility_new_plan,3,埼玉県,医療法人本庄福島病院 本庄総合病院,本庄市大字北堀1780番地,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2405006/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2405006/5/1
+existing_facility_new_plan,2,埼玉県,医療法人社団 鴻愛会 with Life クリニック 大宮駅前,さいたま市大宮区桜木町1丁目133番地2　メインKビル 2階3階4階,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506018/5/0
+existing_facility_new_plan,2,埼玉県,"医療法人社団nagomi会
+健康スポーツクリニック",熊谷市弥藤吾122-1,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2408003/5/0
+new_facility,3,埼玉県,医療法人社団スマイル＆ファイン いしがみ整形外科クリニック,川越市豊田町３丁目１１－２,多血小板血漿（PLATELET-RICH PLASMA：PRP）を用いた筋肉、腱、靭帯等の損傷及び慢性炎症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2402038/5/0
+new_facility,2,埼玉県,医療法人社団南越谷病院,越谷市南越谷一丁目4番63号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2102011/5/0
+new_facility,3,埼玉県,医療法人社団南越谷病院,越谷市南越谷一丁目4番63号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2102010/5/0
+new_facility,2,埼玉県,医療法人社団幸祥会 東整形外科,さいたま市見沼区東大宮５丁目３４−２５,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2607073/5/0
+existing_facility_new_plan,3,埼玉県,医療法人社団春陽会　大宮リビータ整形外科,さいたま市大宮区桜木町２丁目902番304,自己多血小板血漿（Platelet-rich plasma : PRP)を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2509048/5/0
+new_facility,2,埼玉県,"医療法人社団活寿会
+大宮ひざ関節症クリニック","さいたま市大宮区桜木町4-209
+第3バーディートライビル4階",多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512057/5/0
+new_facility,2,埼玉県,"医療法人社団活寿会
+大宮ひざ関節症クリニック","さいたま市大宮区桜木町4-209
+第3バーディートライビル4F",脂肪組織由来幹細胞（adipose-derived mesenchymal stem cell）の投与による関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2507037/5/0
+new_facility,2,埼玉県,医療法人社団祐慈会　井上整形外科クリニック,さいたま市南区太田窪2丁目11-22,多血小板血漿（PRP）による変形性膝関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305016/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305016/5/1
+existing_facility_new_plan,2,埼玉県,医療法人社団順生会　はにゅう整形外科,越谷市相模町3-139-1,多血小板血漿（PRP）を用いた変形性関節症に対する疼痛緩和,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1903025/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1903025/5/1
+existing_facility_new_plan,2,埼玉県,医療法人社団順生会　はにゅう整形外科,越谷市相模町３－１３９－１,自己脂肪組織由来幹細胞（ASCs）を用いた変形性膝関節症の治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2411082/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2411082/5/1
+new_facility,2,埼玉県,医療法人社団髙志会　レイクタウン整形外科病院,越谷市レイクタウン5-13-6,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2605029/5/0
+new_facility,2,埼玉県,医療法人社団鴻愛会こうのす共生病院,鴻巣市上谷2073-1,自家脂肪組織由来の間質血管細胞群（Stromal Vascular Fraction：SVF）による変形性膝関節症の治療,脂肪由来幹細胞/SVF,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2509028/5/0
+new_facility,2,埼玉県,医療法人社団鴻愛会こうのす共生病院,鴻巣市上谷2073-1,自家脂肪組織由来微小細断脂肪組織片（Micro-Fragmented Adipose Tissue:MFAT）による変形性膝関節症の治療,MFAT,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2509029/5/0
+new_facility,2,埼玉県,医療法人社団鴻愛会こうのす共生病院,鴻巣市上谷2073-1,自己多血小板血漿（Platelet Rich Plasma : PRP）を用いた膝関節内組織修復（膝関節内投与）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2609022/5/0
+new_facility,2,埼玉県,大宮はしもと整形外科,"さいたま市中央区上落合8-3-32 
+島忠ホームズさいたま中央店2階",多血小板血漿を用いた変形性関節治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2112019/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2112019/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2112019/5/2
+new_facility,2,埼玉県,大宮はしもと整形外科,"さいたま市中央区上落合8-3-32
+島忠ホームズさいたま中央店2階",慢性疼痛に対する自家脂肪由来幹細胞による治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2204013/5/0
+new_facility,3,埼玉県,大宮はしもと整形外科,さいたま市中央区上落合8-3-32 島忠ホームズさいたま中央店　２階,整形外科領域の軟部組織に対する自家多血小板血漿療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1905028/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1905028/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1905028/5/2
+new_facility,2,埼玉県,大宮はしもと整形外科,さいたま市中央区上落合8-3-32　島忠ホームズさいたま中央店2階,自家多血小板血漿（PRP）を用いた頚椎症・腰椎症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2212041/5/0
+new_facility,2,埼玉県,大宮はしもと整形外科,さいたま市中央区上落合8-3-32　島忠ホームズさいたま中央店2階,自家脂肪由来幹細胞による関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2404052/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2404052/5/1
+new_facility,2,埼玉県,大宮はしもと整形外科,さいたま市中央区上落合8-3-32　島忠ホームズさいたま中央店2階,自家脂肪由来幹細胞を用いた頚椎症・腰椎症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302055/5/0
+new_facility,2,埼玉県,学校法人　獨協学園　獨協医科大学埼玉医療センター,越谷市南越谷2-1-50,自家滑膜幹細胞注射による変形性膝関節症治療,滑膜幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2412031/5/0
+new_facility,2,埼玉県,東松山市立市民病院,東松山市大字松山2392番地,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2509030/5/0
+new_facility,3,埼玉県,東松山市立市民病院,東松山市大字松山2392番地,自己多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2509039/5/0
+existing_facility_new_plan,2,埼玉県,根本外科整形外科,富士見市鶴馬３４７７－１,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303014/5/0
+new_facility,2,埼玉県,獨協医科大学埼玉医療センター,越谷市南越谷２−１−５０,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603013/5/0
+new_facility,3,埼玉県,社会医療法人新青会 川口工業総合病院,川口市青木1-18-15,自家多血小板血漿（PRP)を用いた腱付着部炎・腱障害・筋損傷・靭帯損傷（関節外に限る）治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604044/5/0
+new_facility,2,埼玉県,社会医療法人新青会 川口工業総合病院,川口市青木1-18-15,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2603060/5/0
+new_facility,3,大分県,医療法人恵愛会 中村病院,別府市秋葉町8番24号,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G1911002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02G1911002/5/1
+new_facility,3,大分県,医療法人社団唱和会　明野中央病院,大分市明野東２丁目７番３３号,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2212005/5/0
+new_facility,2,大分県,医療法人社団唱和会　明野中央病院,大分市明野東２丁目７番３３号,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2212004/5/0
+new_facility,2,大分県,医療法人聡明会　児玉病院,別府市亀川四の湯町５番19号,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2608006/5/0
+new_facility,3,大分県,医療法人聡明会　児玉病院,別府市亀川四の湯町５番19号,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2608005/5/0
+new_facility,3,大分県,猿渡整形外科スポーツリハクリニック,大分市竹下2丁目126番地,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿(自家PRP)注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2010001/5/0
+new_facility,2,大分県,猿渡整形外科スポーツリハクリニック,大分市竹下2丁目126番地,変形性関節症及び関節腔を対象とした自家多血小板血漿(自家PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2010008/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2010008/5/1
+new_facility,2,大阪府,AC PLUS CLINIC,"大阪市中央区北久宝寺町2丁目1番3号
+日本細胞ビル3, 4, 5, 7階",自家脂肪組織由来幹細胞（ASC）の局所投与による関節治療,脂肪由来幹細胞,False,False,,,,1,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505021/5/0
+new_facility,2,大阪府,AC PLUS CLINIC,"大阪市中央区北久宝寺町2丁目1番3号
+日本細胞ビル3, 4, 5, 7階",自家脂肪組織由来幹細胞（ASC）の静脈内投与による慢性筋骨格系疼痛治療,脂肪由来幹細胞,False,False,,,,1,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505022/5/0
+new_facility,2,大阪府,CELL GRAND CLINIC,大阪市中央区西心斎橋２丁目3-2 御堂筋ミナミビル４階,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2502004/5/0
+new_facility,2,大阪府,CELL GRAND CLINIC,大阪市中央区西心斎橋２丁目3-2 御堂筋ミナミビル４階,膝関節症に対する自己脂肪由来幹細胞による治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2602015/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2602015/5/1
+new_facility,3,大阪府,ONE CLINIC 梅田,大阪市北区堂山町18-2　若杉東梅田ビル5F,関節周囲炎に対する自家多血小板血漿(PRP)を利用した軟組織の再生医療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2112013/5/0
+new_facility,3,大阪府,しらい痛みのクリニック,八尾市安中町4-3-17ウエルシア八尾安中店2F,自己多血小板血漿(PRP)を用いた筋・腱・靭帯の損傷および慢性炎症に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2511022/5/0
+new_facility,3,大阪府,つねとう痛みのクリニック,"大阪市住吉区長居西2丁目11番18号
+WELKAMTY長居西Bldg 2階",自己多血小板血漿(PRP)を用いた用いた筋・腱・靭帯の損傷及び慢性炎症に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505003/5/0
+existing_facility_new_plan,3,大阪府,はせがわ整形外科運動器エコークリニック,大阪市平野区長吉出戸5丁目2-13,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2511002/5/0
+existing_facility_new_plan,3,大阪府,まつうら整形・肩肘スポーツクリニック,堺市西区鳳東町6丁 637-1 2F,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2512005/5/0
+new_facility,3,大阪府,ルナペインクリニック,東大阪市長堂1丁目5-6 布施駅前セントラルビル2階,自己多血小板血漿（PRP)を用いた、運動器組織再生療法（主に筋・腱・靱帯）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2403004/5/0
+existing_facility_new_plan,3,大阪府,一般社団法人澄佳会 松山淳記念クリニック,大阪市北区芝田2-7-18 ルーシッドスクエア梅田2F,多血小板血漿を用いた整形外科疾患に対する組織修復治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2508030/5/0
+existing_facility_new_plan,3,大阪府,一般社団法人隆起会　おおたき整形外科,大阪市都島区毛馬町二丁目10番33号,自己多血小板血漿(PRP)療法（治療対象：筋・腱・靭帯損傷）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2604018/5/0
+existing_facility_new_plan,3,大阪府,医療法人 きど整形外科クリニック,吹田市桃山台二丁目２番２号,自己多血小板血漿（PRP）を用いた筋肉、腱、靭帯、筋膜（関節外の軟部組織）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2506022/5/0
+existing_facility_new_plan,3,大阪府,医療法人 凉庵会 整形外科 吉田クリニック,大阪市阿倍野区阪南町2-20-16,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2603007/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2603007/5/1
+existing_facility_new_plan,3,大阪府,医療法人Nクリニック,岸和田市別所町3-10-10,多血小板血漿（PRP）の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2308012/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2308012/5/1
+existing_facility_new_plan,2,大阪府,医療法人Nクリニック,岸和田市別所町3-10-10,脂肪幹細胞を用いた変形性関節症に対する再生医療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2401006/5/0
+existing_facility_new_plan,2,大阪府,医療法人Nクリニック,岸和田市別所町3-10-10,脂肪由来間葉系間質細胞を用いた腱板、腱、靭帯、筋および周辺組織の治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2510014/5/0
+new_facility,2,大阪府,医療法人Nクリニック　本町Nクリニック,大阪市西区西本町一丁目４番１号オリックス本町ビル２階,変形性関節症に対する多血小板血漿を用いた再生医療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2508014/5/0
+new_facility,3,大阪府,医療法人Nクリニック　本町Nクリニック,大阪市西区西本町一丁目４番１号オリックス本町ビル２階,多血小板血漿を用いた腱板、筋、腱および周辺組織の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2508015/5/0
+new_facility,2,大阪府,医療法人Nクリニック　本町Nクリニック,大阪市西区西本町一丁目４番１号オリックス本町ビル２階,脂肪幹細胞を用いた変形性関節症に対する再生医療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2508013/5/0
+new_facility,2,大阪府,医療法人Nクリニック　本町Nクリニック,大阪市西区西本町一丁目４番１号オリックス 本町ビル２階,脂肪由来間葉系間質細胞を用いた腱板、腱、靭帯、筋および周辺組織の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2510012/5/0
+existing_facility_new_plan,3,大阪府,医療法人一幸会 いっしん整形外科,大阪市平野区喜連東五丁目16番22号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2104018/5/0
+new_facility,2,大阪府,医療法人信生会 Rクリニック,"大阪市中央区南船場4丁目5番8号　
+ラスターオン心斎橋ビル4階",膝関節症に対する自己脂肪由来幹細胞による治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2606017/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2606017/5/1
+new_facility,3,大阪府,医療法人光明会　もりあきクリニック,箕面市船場西3-8-11ＣＯＭプラザ１Ｆ,自己多血小板血漿（PRP)を用いた、筋・腱・靱帯の軟部組織再生療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2307007/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2307007/5/1
+existing_facility_new_plan,2,大阪府,医療法人再生会　そばじまクリニック,"東大阪市荒本北2-2-6　クリニックコート東野1F,2F,3F",腱損傷に対する自家脂肪組織由来細胞群による疼痛緩和治療,その他MSK,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2304028/5/0
+existing_facility_new_plan,3,大阪府,医療法人医誠会　医誠会国際総合病院,大阪市北区南扇町4−14,自己多血小板血漿(Platelet-rich plasma：PRP)を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2508010/5/0
+existing_facility_new_plan,3,大阪府,医療法人医進会　高石加茂病院,高石市西取石3丁目23番17号,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603014/5/0
+existing_facility_new_plan,3,大阪府,医療法人恒晴会　心斎橋ペインクリニック,大阪市中央区西心斎橋一丁目４番５号御堂筋ビル8階,筋・腱・靭帯の損傷および慢性炎症に対する自家多血小板血漿注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2302002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2302002/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2302002/5/2
+new_facility,2,大阪府,医療法人想千あわ整形外科クリニック,大阪市西区新町4-6-23　OASISクリニックモール2F,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2404012/5/0
+new_facility,2,大阪府,医療法人新和会　朝田整形外科,河内長野市西之山町10-29,変形性関節症に対する多血小板血漿を用いた再生医療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2302007/5/0
+new_facility,3,大阪府,医療法人桂礼会 小阪医院,東大阪市小阪本町一丁目9番13号,自家多血小板血漿(Platelet-rich plasma：PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2408018/5/0
+new_facility,2,大阪府,医療法人桂礼会 小阪医院,東大阪市小阪本町一丁目9番13号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2408019/5/0
+new_facility,2,大阪府,医療法人桜希会 東朋八尾健診クリニック,八尾市光町1丁目26番地 メルベーユ光町 101,変形性膝関節症に対する多血小板血漿関節内注射治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2405011/5/0
+new_facility,2,大阪府,"医療法人槻陽会
+高槻整形外科・再生医療クリニック",⾼槻市城北町2丁⽬2-3 リュドール⾼槻4階,自己脂肪由来幹細胞を用いたフレイルおよびプレフレイルの治療（アンチエイジング療法）,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603001/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603001/5/1
+new_facility,2,大阪府,"医療法人槻陽会
+高槻整形外科・再生医療クリニック",⾼槻市城北町2丁⽬2-3 リュドール⾼槻4階,自己脂肪由来幹細胞を用いた関節疾患の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603003/5/1
+new_facility,3,大阪府,医療法人槻陽会　高槻整形外科・再生医療クリニック,⾼槻市城北町2-2-3 リュドール⾼槻４階,自己多血小板血漿（PRP）を用いた筋肉、腱、靭帯、筋膜など関節外の軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2604023/5/0
+new_facility,2,大阪府,医療法人永仁会　千里ペインクリニック,豊中市少路1丁目7番18号 アマニカス1階,慢性疼痛症に対する自己脂肪由来幹細胞の関節腔内投与による治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2501002/5/0
+new_facility,2,大阪府,医療法人生樹会　渡辺病院,大阪市西成区天下茶屋１丁目１５−１,変形性関節症を対象とした多血小板血漿Platelet Rich Plasma（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2412014/5/0
+existing_facility_new_plan,2,大阪府,医療法人社団　彦星会　大阪中之島整形外科,大阪市北区中之島四丁目3番51号　NakanoshimaQross４階,自家培養軟骨細胞（ACC）を用いた移植による低侵襲膝関節軟骨再生治療,その他MSK,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2408024/5/0
+existing_facility_new_plan,2,大阪府,医療法人社団　彦星会　大阪中之島整形外科,大阪市北区中之島四丁目3番51号　NakanoshimaQross４階,自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2312020/5/0
+new_facility,3,大阪府,医療法人社団彦星会　岩橋クリニック,吹田市山手町２丁目6-6,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2005003/5/0
+new_facility,2,大阪府,医療法人社団活寿会 活寿会記念クリニック中之島,"大阪市北区中之島4丁目3-51
+Nakanoshima Qross 未来医療MEDセンター2階",自家脂肪組織由来幹細胞（ASC）の投与による関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2602004/5/0
+new_facility,3,大阪府,医療法人社団美咲会 えびえ記念病院,大阪市福島区海老江二丁目１番３６号,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2603004/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2603004/5/1
+new_facility,2,大阪府,医療法人社団美咲会 えびえ記念病院,大阪市福島区海老江二丁目１番３６号,変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2508017/5/0
+new_facility,3,大阪府,医療法人神明会　印どうメディカルクリニック,箕面市白島1-15-5,四肢の靭帯、筋腱付着部、体幹、腰部およびスポーツ傷害（筋・腱・靭帯）を対象とした自己多血小板血漿注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2111002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2111002/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2111002/5/2
+existing_facility_new_plan,3,大阪府,"医療法人美喜有会
+リペアセルクリニック","大阪市福島区福島1-1-51
+堂島クロスウォーク404C",自家多血小板血漿を用いた筋腱炎・靭帯炎の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2603029/5/0
+new_facility,2,大阪府,"医療法人良耕会
+村尾診療所",岸和田市土生町2丁目15-51,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2503001/5/0
+new_facility,3,大阪府,"医療法人良耕会
+村尾診療所",岸和田市土生町2丁目15-51,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2503002/5/0
+existing_facility_new_plan,2,大阪府,医療法人良花会 整形外科とくはらクリニック,大阪市鶴見区横堤三丁目6番40号 道端ビル,自家多血小板血漿(Platelet rich plasma:PRP)を用いた関節機能改善治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2004008/5/0
+existing_facility_new_plan,3,大阪府,医療法人誠幸会　わだ整形外科クリニック,枚方市長尾元町二丁目１番２１号,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿(自家PRP)注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2111019/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2111019/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2111019/5/2
+existing_facility_new_plan,3,大阪府,医療法人酒井会　さかいペインクリニック,柏原市上市1-2-2　アゼリア柏原416,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2403006/5/0
+new_facility,2,大阪府,吹田くわた内科・ペインクリニック,吹田市新芦屋下6-7吹田新芦屋クリニックビル3F,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505012/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505012/5/1
+new_facility,3,大阪府,吹田くわた内科・ペインクリニック,吹田市新芦屋下6-7吹田新芦屋クリニックビル3F,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505013/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505013/5/1
+new_facility,2,大阪府,堂島ライフケアクリニック,"大阪市北区曽根崎新地１丁目3-16
+京富ビル４04号室",自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2409003/5/0
+new_facility,3,大阪府,大阪市立総合医療センター,大阪市都島区都島本通二丁目13番22号,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた関節機能治療(関節腔外に限る),PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2604002/5/0
+new_facility,2,大阪府,大阪市立総合医療センター,大阪市都島区都島本通二丁目13番22号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2604001/5/0
+new_facility,2,大阪府,大阪梅田セルクリニック,"大阪市北区梅田1丁目11-4大阪駅前
+第4ビル2F 34-2号室",多血小板血漿を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2309002/5/0
+new_facility,2,大阪府,大阪梅田セルクリニック,"大阪市北区梅田1丁目11-4
+大阪駅前第4ビル2F 34-2号室",自家培養脂肪由来幹細胞を用いた変形性膝関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2310001/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2310001/5/1
+new_facility,2,大阪府,大阪梅田セルクリニック,大阪市北区梅田1-11-4大阪駅前第4ビル2階34-2号室,自家脂肪組織由来幹細胞（ASC）の投与による関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2602002/5/0
+existing_facility_new_plan,3,大阪府,市立岸和田市民病院,岸和田市額原町1001番地,多血小板血漿（Platelet-rich plasma : PRP)を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2508002/5/0
+existing_facility_new_plan,3,大阪府,枚方市駅前やました整形外科リハビリテーションクリニック,枚方市新町1-1-8　HIRAKATA　WOVEN301,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2508022/5/0
+existing_facility_new_plan,3,大阪府,森ノ宮医療大学附属　大阪ベイクリニック,大阪市住之江区南港北1-26-16,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509009/5/0
+existing_facility_new_plan,3,大阪府,運動器ケア しまだ病院,羽曳野市樫山100-1,自己多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2411002/5/0
+new_facility,2,大阪府,高槻整形外科・再生医療クリニック,⾼槻市城北町2-2-3 リュドール⾼槻４階,自己多血小板血漿(PRP)の投与による変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2604026/5/0
+new_facility,2,大阪府,ＣＡＳＡクリニック,大阪市中央区西心斎橋一丁目5番5号アーバンＢＬＤ心斎橋7階,変形性関節症に対する自己脂肪組織由来幹細胞を用いた治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2508012/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2508012/5/1
+new_facility,3,奈良県,医療法人ポイントワン　ならやまと整形外科スポーツクリニック,北葛城郡上牧町上牧3413-1,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/1
+existing_facility_new_plan,3,奈良県,社会福祉法人　恩賜財団済生会奈良病院,奈良市八条4丁目643番地,多血小板血漿(Platelet-rich plasma：PRP)を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2102010/5/0
+existing_facility_new_plan,3,奈良県,近畿大学奈良病院,生駒市乙田町１２４８-１,多血小板血漿（PRP）を用いた腱板、筋、腱および周辺組織の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2203003/5/0
+new_facility,3,宮城県,JR仙台病院,仙台市青葉区五橋1丁目1-5,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2607018/5/0
+new_facility,2,宮城県,JR仙台病院,仙台市青葉区五橋1-1-5,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2607017/5/0
+new_facility,3,宮城県,よだ形成外科クリニック,仙台市青葉区花京院1-1-6　Ever-i仙台駅前2F,自己多血小板血漿を用いた先天性、外傷、老化などによる組織の変形、萎縮性疾患のための再生医療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2604007/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2604007/5/1
+new_facility,3,宮城県,医療法人小池クリニック整形外科,仙台市青葉区台原一丁目7番24号,自家多血小板血漿(Platelet Rich Plasma(PRP))を用いた関節外・関節周囲傷害（筋・腱・靭帯損傷等）に対する整形外科治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02B2012001/5/0
+new_facility,3,宮城県,医療法人社団佐藤整形外科医院,石巻市中央1 丁目13-17,多血小板血漿(PLATELET-RICH PLASMA：PRP)を用いた筋肉、腱、靭帯等の損傷及び慢性炎症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2409002/5/0
+new_facility,2,宮城県,"医療法人社団活寿会
+仙台ひざ関節症クリニック","仙台市青葉区一番町2-4-19
+シリウス・一番町1F",自家脂肪組織由来幹細胞（ASC）の投与による関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02B2506001/5/0
+new_facility,2,宮城県,宮城整形外科　スポーツ・ウェルネスクリニック,黒川郡大和町しあわせの杜8-11,変形性関節症に対する自家多血小板血漿、自家多血小板血漿抽出液関節内投与療法,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2411004/5/0
+new_facility,3,宮城県,宮城整形外科　スポーツ・ウェルネスクリニック,黒川郡大和町しあわせの杜8-11,自家多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2411005/5/0
+new_facility,3,宮城県,独立行政法人地域医療機能推進機構仙台病院,仙台市泉区紫山2-1-1,多血小板血漿（Platelet-rich plasma : PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2507002/5/0
+new_facility,2,宮城県,独立行政法人地域医療機能推進機構仙台病院,仙台市泉区紫山 2-1-1,多血小板血漿（Platelet-rich plasma：PRP）を用いた関節痛、変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2509002/5/0
+new_facility,2,宮城県,関節外科スポーツクリニック石巻,石巻市あゆみ野5丁目2-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2306001/5/0
+new_facility,3,宮崎県,Mスポーツ整形外科クリニック,宮崎市太田４丁目２-１６,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G1906013/5/0
+new_facility,2,宮崎県,くもん整形外科 スポーツ・骨関節クリニック,延岡市緑ヶ丘二丁目8番11号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2311002/5/0
+new_facility,3,宮崎県,くもん整形外科 スポーツ・骨関節クリニック,延岡市緑ヶ丘二丁目8番11号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2404003/5/0
+new_facility,3,宮崎県,医療法人社団光学堂　あたご整形外科,延岡市愛宕町3丁目161番地,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2509017/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2509017/5/1
+new_facility,2,宮崎県,医療法人社団光学堂　あたご整形外科,延岡市愛宕町3丁目161番地,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2509016/5/0
+new_facility,3,宮崎県,医療法人社団明和会　かい外科整形外科スポーツ・リハビリテーションクリニック,日向市財光寺160,自己多血小板血漿（PRP)を用いた、筋・腱・靱帯の軟部組織再生治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2301002/5/0
+new_facility,2,宮崎県,医療法人社団橘会　橘病院,都城市中町15街区24号,多血小板血漿療法（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2512001/5/0
+new_facility,3,宮崎県,医療法人社団橘会　橘病院,都城市中町15街区24号,多血小板血漿療法（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2512003/5/0
+new_facility,3,宮崎県,坂田整形外科クリニック,宮崎市大塚町樋ノ口1981-1,自家多血小板血漿(Platelet-rich plasma：PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2408006/5/0
+new_facility,2,宮崎県,坂田整形外科クリニック,宮崎市大塚町樋ノ口1981-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2408007/5/0
+new_facility,3,宮崎県,整形外科　押領司病院,小林市細野１６２番地１,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2301006/5/0
+new_facility,2,宮崎県,整形外科　押領司病院,小林市細野１６２番地１,多血小板血漿抽出液による関節内治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2301005/5/0
+new_facility,3,富山県,整形外科センター西能クリニック,富山市高田71番地1,自家多血小板血漿(Platelet-rich plasma: PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2206003/5/0
+new_facility,2,富山県,整形外科センター西能クリニック,富山市高田71番地1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02D2510001/5/0
+existing_facility_new_plan,2,山口県,医療法人社団季朋会 王司病院,下関市王司本町一丁目18番27号,自家多血小板血漿（PRP）の投与による変形性関節症治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2410006/5/0
+existing_facility_new_plan,2,山口県,医療法人社団季朋会 王司病院,下関市王司本町一丁目18番27号,自家脂肪組織由来幹細胞（ASC）の投与による関節治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2410003/5/0
+existing_facility_new_plan,3,山口県,森山整形クリニック,下関市幡生本町２−２,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2305003/5/0
+new_facility,3,山形県,医療法人徳洲会　山形徳洲会病院,山形市清住町二丁目三番51号,自家多血小板血漿（PRP:Platelet Rich Plasma）を用いた靭帯、腱及び腱付着部の炎症、軟部組織損傷（肉離れ、靭帯損傷など）に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02B2505003/5/0
+new_facility,2,山形県,医療法人徳洲会　山形徳洲会病院,山形市清住町二丁目三番51号,自家多血小板血漿（PRP：Platelet Rich Plasma）の投与による変形性膝関節症に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02B2504001/5/0
+new_facility,2,山形県,国立大学法人山形大学医学部附属病院,山形市飯田西二丁目2番2号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2508001/5/0
+new_facility,3,山形県,国立大学法人山形大学医学部附属病院,山形市飯田西二丁目２番２号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2510001/5/0
+new_facility,3,山形県,志田整形外科医院,鶴岡市みどり町１８－５,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2403005/5/0
+new_facility,2,山形県,志田整形外科医院,鶴岡市みどり町18-5,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた脊椎由来疼痛の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2408002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2408002/5/1
+new_facility,2,山形県,志田整形外科医院,鶴岡市みどり町１８－５,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2403006/5/0
+new_facility,2,山梨県,みわペイン痛みのクリニック,甲州市塩山下塩後８９０番地１,多血小板血漿（PRP）による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305024/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305024/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305024/5/2
+new_facility,3,山梨県,地方独立行政法人山梨県立病院機構　山梨県立中央病院,甲府市富士見1丁目1番1号,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織再生治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2304027/5/0
+new_facility,3,山梨県,市立甲府病院,甲府市増坪町３６６番地,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2509003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2509003/5/1
+new_facility,2,山梨県,市立甲府病院,甲府市増坪町３６６番地,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2509002/5/0
+existing_facility_new_plan,2,山梨県,東甲府医院,甲府市桜井町299,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411012/5/0
+existing_facility_new_plan,2,山梨県,独立行政法人地域医療機能推進機構　山梨病院,甲府市朝日三丁目１１-１６,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605092/5/0
+existing_facility_new_plan,2,山梨県,社会医療法人加納岩　加納岩総合病院,山梨市上神内川１３０９番地,変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2405028/5/0
+existing_facility_new_plan,2,岐阜県,公立学校共済組合 東海中央病院,各務原市蘇原東島町４丁目６番地２,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2510002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2510002/5/1
+existing_facility_new_plan,2,岐阜県,医療法人ごとう整形外科,岐阜市福光南町２２−１,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2006003/5/0
+existing_facility_new_plan,3,岐阜県,医療法人社団 豊正会 大垣中央病院,大垣市見取町4丁目2番地,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2605006/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2605006/5/1
+existing_facility_new_plan,2,岐阜県,岐阜大学医学部附属病院,岐阜市柳戸 1 番 1,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02D2503010/5/0
+new_facility,3,岡山県,医療法人社団きびじ整形外科・内科・リハビリクリニック,総社市岡谷337番1,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2601002/5/0
+new_facility,2,岡山県,医療法人社団きびじ整形外科・内科・リハビリクリニック,総社市岡谷337番1,変形性関節症を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2601001/5/0
+new_facility,3,岡山県,医療法人社団河合会 新倉敷メディカルスクエア,倉敷市玉島1719,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02F1907018/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02F1907018/5/1
+new_facility,2,岡山県,医療法人社団河合会 新倉敷メディカルスクエア,倉敷市玉島1719,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02F1910016/5/0
+new_facility,3,岩手県,いわてスポーツ・整形外科クリニック,盛岡市向中野字細谷地114番地,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2403004/5/0
+new_facility,2,岩手県,いわてスポーツ・整形外科クリニック,盛岡市向中野字細谷地114番地,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2403003/5/0
+new_facility,3,岩手県,医療法人日新堂　八角医院,盛岡市好摩字夏間木101番地2,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした多血小板血漿Platelet Rich Plasma（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2604003/5/0
+new_facility,2,岩手県,医療法人日新堂　八角医院,盛岡市好摩字夏間木101番地2,変形性関節症および関節腔の傷害を対象とした多血小板血漿Platelet Rich Plasma（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2604002/5/0
+new_facility,2,岩手県,盛岡ふじさわ整形外科クリニック,盛岡市本宮三丁目９番１３号,変形性関節症に対する自家多血小板血漿（ＰＲＰ）、自家多血小板血漿抽出液（APS）関節内投与療法,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2407001/5/0
+new_facility,3,岩手県,盛岡ふじさわ整形外科クリニック,盛岡市本宮三丁目９番１３号,自家多血小板血漿（PRP）を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2407002/5/0
+new_facility,2,岩手県,菅原整形外科クリニック,一関市銅谷町9番18号,自己多血小板血漿（PRP）を用いた変形性膝関節症への治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2405002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2405002/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2405002/5/2
+existing_facility_new_plan,3,広島県,医療法人かたひざこしのクリニック 福山かた・ひざ・こしのクリニック,福山市神辺町大字新湯野74-18,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0
+existing_facility_new_plan,3,広島県,医療法人エム・エム会　マッターホルンリハビリテーション病院,呉市中通一丁目５番２５号,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2304004/5/0
+existing_facility_new_plan,3,広島県,医療法人龍樹会　池田整形外科リハビリテーションクリニック,広島市東区戸坂大上４丁目29番13号,"自己多血小板血漿（Platelet-rich plasma：PRP）を用いた
+整形外科領域における軟部組織治療",PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2310002/5/0
+existing_facility_new_plan,3,広島県,大田クリニック整形外科,広島市中区富士見町4-27,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2505004/5/0
+existing_facility_new_plan,3,広島県,寛田クリニック,広島市南区稲荷町3-20 トーレ稲荷町,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた関節機能改善治療(関節腔外に限る),PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2502002/5/0
+existing_facility_new_plan,3,広島県,広島大学病院,広島市南区霞一丁目２番３号,自家多血小板血漿（PRP）を用いた腱付着部炎、腱炎、靭帯損傷（関節外に限る）治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2604002/5/0
+existing_facility_new_plan,3,広島県,社会医療法人里仁会　興生総合病院,三原市円一町2丁目5番1号,自己多血小板血漿(PRP)を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2511004/5/0
+new_facility,2,愛媛県,住友別子病院,新居浜市王子町3番1号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2212003/5/0
+new_facility,3,愛媛県,住友別子病院,新居浜市王子町3番1号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2212004/5/0
+new_facility,2,愛媛県,愛媛大学医学部附属病院,東温市志津川,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2604001/5/0
+new_facility,3,愛媛県,愛媛大学医学部附属病院,東温市志津川,自己多血小板血漿(PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2604002/5/0
+new_facility,3,愛知県,HIME CLINIC,名古屋市千種区仲田2丁目305-1　COULEURS GRAND 202,多血小板血漿（PRP）を用いた筋肉、腱、靭帯治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2603004/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2603004/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2603004/5/2
+existing_facility_new_plan,3,愛知県,ふくだ整形外科骨粗しょう症スポーツクリニック,刈谷市小垣江町北高根213-1,多血小板血漿（Platelet-rich plasma：PRP）を用いた育毛を目的とした再生医療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2603003/5/0
+existing_facility_new_plan,3,愛知県,医療法人財団 檜扇会 クリニック 名古屋ちくさヒルズ,名古屋市千種区千種二丁目24番2号 千種タワーヒルズ1階,自己多血小板血漿（PRP)による捻挫、骨折治癒促進、靭帯損傷、腱鞘炎、アキレス腱炎の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2505020/5/0
+new_facility,3,愛知県,名古屋麻酔科クリニック,名古屋市千種区丘上町2-49-4,自己多血小板血漿(PRP)を用いた筋・腱・靭帯の損傷、慢性炎症へのペイン治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2511003/5/0
+new_facility,3,愛知県,名鉄病院,名古屋市西区栄生2-26-11,自己多血小板血漿（PRP）を用いた筋・腱・靱帯の損傷および慢性障害の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2205001/5/0
+new_facility,3,愛知県,春日井整形あさひ病院,春日井市下原町字村東2090番地,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2506004/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2506004/5/1
+existing_facility_new_plan,3,愛知県,蒲郡市民病院,蒲郡市平田町向田１番地１,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2601004/5/0
+existing_facility_new_plan,3,愛知県,藤田医科大学病院,豊明市沓掛町田楽ケ窪1番地98,多血小板血漿（PRP）を用いた整形外科軟部組織疾患の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02D2512003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02D2512003/5/1
+existing_facility_new_plan,2,東京都,AR-Ex尾山台整形外科,世田谷区等々力四丁目13番1号,⾃家多⾎⼩板⾎漿（Platelet-rich plasma：PRP）を⽤いた慢性関節炎ならびに関節内軟⾻・靭帯損傷の治療（関節内組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503073/5/0
+existing_facility_new_plan,2,東京都,AR-Ex尾山台整形外科,世田谷区等々力四丁目13番1号,⾃家多⾎⼩板⾎漿（Platelet-rich plasma：PRP）を⽤いた慢性関節障害に対する治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512025/5/0
+existing_facility_new_plan,2,東京都,AR-Ex尾山台整形外科,世田谷区等々力四丁目13番1号,脂肪幹細胞を用いた慢性関節障害に対する治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512027/5/0
+new_facility,2,東京都,GINZA NOA CLINIC,中央区銀座5-4-6 ロイヤルクリスタル銀座3階,変形性関節症に対する自己脂肪由来幹細胞を用いた治療,脂肪由来幹細胞,False,False,,,,1,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2505023/5/0
+new_facility,2,東京都,GINZA中央クリニック,中央区銀座7-8-8 6階,変形性関節症に対する自己脂肪由来幹細胞を用いた治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506062/5/0
+new_facility,2,東京都,GINZA中央クリニック,中央区銀座7-8-8 6階,自己脂肪由来間葉系幹細胞を用いた変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2501048/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2501048/5/1
+new_facility,2,東京都,MediLotus clinic,港区麻布十番1丁目7－1　ヨーロッパハウス９階,自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2210035/5/0
+new_facility,2,東京都,N2クリニック四谷,新宿区左門町2-6 ワコービル5階,ヒト自己脂肪組織由来間葉系幹細胞の関節内投与による関節傷害の症状改善の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2504115/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2504115/5/1
+new_facility,3,東京都,NAG整形外科,港区白金台5-6-9 Wind Base白金５階,多血小板血漿を用いた関節炎治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2305018/5/0
+new_facility,2,東京都,NAG整形外科,港区白金台5-6-9 Wind Base白金５階,多血小板血漿を用いた関節炎治療（第2種再生医療）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2305019/5/0
+new_facility,2,東京都,NAG整形外科,港区白金台5-6-9 Wind Base白金５階,自己脂肪組織間葉系幹細胞（ADSC）を用いた関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2304054/5/0
+existing_facility_new_plan,2,東京都,SBC整形外科クリニック 西新宿本院,新宿区西新宿 7-21-3　西新宿大京ビル7階,自己脂肪組織由来幹細胞（ASCs）を用いた変形性関節症の治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2508035/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2508035/5/1
+existing_facility_new_plan,2,東京都,TAO Clinic,調布市富士見町1丁目6-2 TAOビル2階,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602017/5/0
+new_facility,2,東京都,TCB 東京中央美容外科・TCB スキンクリニック BSクリニック REGENE CLINIC 新宿三丁目院,新宿区新宿3-1-20　メットライフ新宿スクエア7F,自家脂肪由来幹細胞を用いた関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603063/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603063/5/1
+new_facility,2,東京都,THE HUNDRED,中央区銀座4 丁⽬ 4-2 銀座松屋通り安⽥ビル 5-7 階,ヒト⾃⼰脂肪組織由来間葉系幹細胞を⽤いた関節疾患の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509020/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509020/5/1
+new_facility,2,東京都,THE HUNDRED,中央区銀座4丁目4番2号 銀座松屋通り安田ビル 5F,自己脂肪由来間葉系幹細胞を用いた腰痛治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511020/5/0
+new_facility,2,東京都,いたばし整形外科関節クリニック,板橋区板橋1丁目54-4 メディカルステーション板橋102,自己多血小板血漿(PRP)療法（治療対象：変形性関節症・外傷性関節炎）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605016/5/0
+new_facility,2,東京都,おかのクリニック,足立区西新井1-11-4,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた疼痛治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2205034/5/0
+new_facility,3,東京都,おかのクリニック,足立区西新井1-11-4,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯の損傷及び炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2205035/5/0
+existing_facility_new_plan,3,東京都,お茶の水セルクリニック,千代田区神田駿河台4-1-1 ウエルトンビル2階,自己多血小板血漿(PRP)を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502084/5/0
+new_facility,2,東京都,すみだ運動器リハビリテーションクリニック,墨田区横川1-1-10　SUMIDA PARK PLACEⅡ　1階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302048/5/0
+new_facility,2,東京都,つくる整形外科　祐天寺駅前スポーツクリニック,目黒区祐天寺2-14-20　祐天寺駅前ビル3階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2211047/5/0
+new_facility,3,東京都,つくる整形外科　祐天寺駅前スポーツクリニック,目黒区祐天寺2-14-20　祐天寺駅前ビル3階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2211048/5/0
+new_facility,2,東京都,アットホーム表参道クリニック,港区北青山2-12-31 第3イノセビル2階及び地下1階,多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する組織修復,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2009011/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2009011/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2009011/5/2
+new_facility,2,東京都,アレックス脊椎クリニック,世田谷区等々力四丁目13番1号,"自家多血小板血漿（Platelet-rich plasma：PRP）を用いた
+脊椎由来疼痛の治療",PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503082/5/0
+existing_facility_new_plan,2,東京都,ガーデンクリニック ザ・ホワイトデンタルクリニック 品川院,港区高輪4丁目24番58号 サマセット品川東京2階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2408009/5/0
+new_facility,2,東京都,コレージュクリニック　ザ・ペニンシュラ東京,千代田区有楽町1--8-1　ザ・ペニンシュラ東京　B1,自家脂肪由来間葉系幹細胞を用いた変形性膝関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2309047/5/0
+new_facility,2,東京都,プルミエールクリニック,千代田区九段南3-2-12 エルミタージュタワー,自己脂肪由来間葉系幹細胞を用いた変形性関節症に対する治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503004/5/0
+existing_facility_new_plan,3,東京都,モティーフ銀座クリニック,中央区銀座１丁目７－６　銀座河合ビル４階、９階,自己多血小板血漿（PRP）を用いた筋肉・腱・靱帯・筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2608022/5/0
+new_facility,2,東京都,一般社団法人 未来医療センター　SENSHIN CLINIC,港区南青山3-1-30　PASONA SQUARE　3階,自家培養脂肪由来幹細胞を用いた変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602055/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602055/5/1
+new_facility,2,東京都,一般社団法人 未来医療センター　SENSHIN CLINIC,港区南青山3-1-30　PASONA SQUARE　3階,自家多血小板血漿（Platelet Rich Plasma）を用いた変形性関節症および関節炎治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601039/5/0
+new_facility,3,東京都,一般社団法人Garden　KAI CLINIC T OKYO,中央区八重洲1丁目3-18 VORT東京八重洲maxim3階,自家多血小板フィブリンを用いた軟骨移植外鼻形成術,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511006/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511006/5/1
+new_facility,3,東京都,一般社団法人MAY　武蔵野アトラスターズ整形外科スポーツクリニック,武蔵野市中町二丁目8番11号,自家多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506042/5/0
+new_facility,2,東京都,一般社団法人N2 Cell Act N2クリニック本院,中央区銀座六丁目6番5号　HULIC& NewGINZANAMIKI6　11階,ヒト自己脂肪組織由来間葉系幹細胞の関節内投与による関節傷害の症状改善の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604009/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604009/5/1
+new_facility,2,東京都,一般社団法人Orthofemme ゆりクリニック,港区芝5-31-15センチュリー三田ビル 6F,自家脂肪組織由来の培養間葉系幹細胞を用いた関節疾患の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2307019/5/0
+new_facility,2,東京都,一般社団法人ReM medical ReM CLINIC Ginza,中央区銀座5丁目10番2号　GINZA MISS PARIS 2階,膝関節症に対する自己脂肪由来幹細胞による治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605046/5/0
+existing_facility_new_plan,2,東京都,一般社団法人SOL　SOL整形外科世田谷スポーツクリニック,世田谷区中町４丁目１４-１１,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2207036/5/0
+existing_facility_new_plan,2,東京都,一般社団法人エンパシア　IIT CLINIC,新宿区西新宿6-6-2 新宿国際ビルディング1F,自家培養脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504026/5/0
+new_facility,2,東京都,一般社団法人再健会 シン・整形外科 代々木上原,渋谷区西原３丁目７−８,多血小板血漿（PRP）による変形性関節症・関節炎・滑膜炎および半月板損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603035/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603035/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603035/5/2
+new_facility,2,東京都,一般社団法人再生医療皮膚科研究会　Tokyo Beauty Master Clinic.,港区六本木7-8-8 ミクニ六本木ビル4階,変形性関節症に対するPRP（自家多血小板血漿）療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601051/5/0
+new_facility,2,東京都,一般社団法人天美会Tenvi Clinic Ginza,中央区銀座四丁目2番2号　地下一階　第1弥生ビルディング,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602050/5/0
+new_facility,3,東京都,一般社団法人天美会Tenvi Clinic Ginza,中央区銀座四丁目2番2号　地下一階　第1弥生ビルディング,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602051/5/0
+new_facility,2,東京都,一般社団法人循整会　世田谷人工関節・脊椎クリニック,世田谷区南烏山6-36-6,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2108001/5/0
+new_facility,2,東京都,一般社団法人志鴻会　Ginza Phoenix Clinic,中央区京橋2-4-12第一生命キノテラス3F,変形性関節症に対する自己脂肪由来間葉系幹細胞による治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602002/5/0
+new_facility,2,東京都,一般社団法人志鴻会　銀座鳳凰クリニック,"千代田区外神田4-14-1　秋葉原UDXビル
+北ウィング6階",自己脂肪由来間葉系幹細胞を用いた変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512087/5/0
+new_facility,2,東京都,"一般社団法人日本オーラルヘルス協会
+ミライズクリニック南青山","港区南青山6-10-18
+Tri-Angle南青山1階",自家脂肪組織由来幹細胞（ASC）の投与による関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2503061/5/0
+new_facility,2,東京都,"一般社団法人日本オーラルヘルス協会
+ミライズクリニック南青山","港区南青山6-10-18
+Tri-Angle南青山1階",自家脂肪組織由来幹細胞（ASC）の投与による顎関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2504013/5/0
+new_facility,2,東京都,一般社団法人日本オーラルヘルス協会ミライズクリニック南青山,港区南青山6-10-18　Tri-Angle南青山1階,自家培養軟骨細胞（ACC）を用いた移植による低侵襲膝関節軟骨再生治療,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2310061/5/0
+new_facility,2,東京都,"一般社団法人智萊会
+NU CLINIC",港区麻布台1-5-9-3階,自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509025/5/0
+new_facility,2,東京都,"一般社団法人未来医療センター
+SENSHIN CLINIC","港区南青山3丁目1番30号
+PASONA SQUARE 3階",自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506006/5/0
+existing_facility_new_plan,2,東京都,一般社団法人東京LAB 高輪ゲートウェイ駅前整形外科クリニック,港区高輪2丁目22番1号 THE LINKPILLAR2 5階,多血小板血漿（Platelet-rich plasma：PRP）を用いた関節痛治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603033/5/0
+existing_facility_new_plan,2,東京都,一般社団法人東京リライフ　東京リライフクリニック,中央区銀座７丁目８番6号  TORAYA・Ginza・Building6～8階,変形性関節症および関節腔の傷害を対象とした多血小板血漿Platelet Rich Plasma（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2603001/5/0
+existing_facility_new_plan,2,東京都,一般社団法人東京リライフ　東京リライフクリニック,中央区銀座７丁目８番6号  TORAYA・Ginza・Building6～8階,自己脂肪由来幹細胞を用いた変形性関節症に対する治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2602047/5/0
+new_facility,2,東京都,一般社団法人桃郷会 ライフケアクリニック東京銀座,中央区八重洲2-11-3 Line View 京橋2F,自家脂肪組織由来幹細胞（ASC）の投与による関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2510019/5/0
+existing_facility_new_plan,2,東京都,"一般社団法人雲動会 
+あおぞらクリニック整形外科",板橋区板橋2丁目67-5　アクロスキューブ板橋3F,変形性関節症を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503018/5/0
+existing_facility_new_plan,2,東京都,一般社団法人雲動会 あおぞらクリニック整形外科,板橋区板橋2丁目67-5アクロスキューブ板橋3F,変形性関節症に対する自家培養脂肪由来幹細胞を用いた治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508095/5/0
+new_facility,2,東京都,一般社団法人ＲＫミライ　Rejoint Clinic Dr.K,港区新橋3丁目1番9号 301新橋 BUILDING 7階,自己脂肪由来間葉系幹細胞を用いた変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601047/5/0
+existing_facility_new_plan,2,東京都,三宿通り整形外科クリニック,世田谷区池尻1-7-5　三井ビル1階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2308049/5/0
+existing_facility_new_plan,3,東京都,世田谷かくた整形外科　成城学園前院,世田谷区成城２－４０－９　成城サウスサイド１階,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303029/5/0
+new_facility,3,東京都,中尾形成外科,港区虎ノ門5-12-1 ワイコービル1階,自家PRFと超細分化肋軟骨 を用いた外鼻形成術,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406025/5/0
+existing_facility_new_plan,3,東京都,予防からはじめる整形外科 T CLINIC Ichigaya,新宿区市谷仲之町3-45,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504058/5/0
+new_facility,2,東京都,元浅草いけだクリニック,台東区元浅草４丁目７−２２,多血小板血漿（Platelet-rich plasma：PRP）を用いた関節内疾患に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1905038/5/0
+existing_facility_new_plan,2,東京都,公益財団法人日産厚生会玉川病院,世田谷区瀬田四丁目８番１号,自己多血小板血漿(PRP)の投与による変形性関節症の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2301064/5/0
+existing_facility_new_plan,2,東京都,北里大学北里研究所病院,港区白金五丁目９番１号,自己多血小板血漿（PRP）を用いた変形性関節症の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2409010/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2409010/5/1
+new_facility,2,東京都,医療法人 全医会 東京腰痛クリニック,中央区銀座5-1-15 第一御幸ビル2階,自家脂肪組織由来の培養間葉系間質細胞を用いた椎間関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509046/5/0
+new_facility,2,東京都,医療法人 全医会 東京腰痛クリニック,中央区銀座5-1-15 第一御幸ビル2階,自家脂肪組織由来の培養間葉系間質細胞を用いた関節疾患の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601038/5/0
+new_facility,2,東京都,医療法人　保仁会　神谷整形外科・眼科,世田谷区弦巻1-35-20,多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する組織修復,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1907031/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1907031/5/1
+new_facility,2,東京都,医療法人　笑顔会　NexWel銀座ひざ関節症クリニック,中央区銀座7-8-13 Brown Place 5F,自己脂肪由来間葉系幹細胞を用いた脊髄損傷治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2012019/5/0
+new_facility,2,東京都,医療法人　笑顔会　NexWel銀座ひざ関節症クリニック,中央区銀座7-8-13 Brown Place 5F,自己骨髄由来間葉系幹細胞を用いた脊髄損傷治療,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2011027/5/0
+new_facility,2,東京都,医療法人アレックス AR-Ex尾山台整形外科,世田谷区等々力4丁目13−1,自家脂肪組織由来の培養間葉系幹細胞を用いた関節疾患の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2309066/5/0
+new_facility,2,東京都,医療法人ネオポリス診療所 新宿皮フ科,新宿区新宿3-24-1 NEWNO・GS新宿10F,自家脂肪由来間葉系幹細胞を用いたアトピー性皮膚炎および関節リウマチの治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408014/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408014/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408014/5/2
+new_facility,2,東京都,医療法人ネオポリス診療所 新宿皮フ科,新宿区新宿3-24-1 NEWNO・GS新宿10F,自家脂肪由来間葉系幹細胞を用いた肩(回旋筋)腱板損傷の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2404043/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2404043/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2404043/5/2
+new_facility,2,東京都,医療法人ネオポリス診療所 新宿皮フ科,新宿区新宿3-24-1 NEWNO・GS新宿10F,自家脂肪由来間葉系幹細胞を用いた腰痛の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2404039/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2404039/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2404039/5/2
+new_facility,2,東京都,医療法人ネオポリス診療所　新宿皮フ科,新宿区新宿3-24-1 NEWNO・GS新宿10F,自家脂肪由来間葉系幹細胞を用いた変形性膝関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2311013/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2311013/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2311013/5/2|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2311013/5/3|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2311013/5/4
+new_facility,2,東京都,医療法人ネオポリス診療所銀座クリニック,中央区銀座１丁目13番１号ヒューリック銀座一丁目ビル４階５階,自家脂肪由来間葉系幹細胞を用いたアトピー性皮膚炎および関節リウマチの治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505012/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505012/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505012/5/2
+new_facility,2,東京都,医療法人ネオポリス診療所銀座クリニック,中央区銀座１丁目13番１号ヒューリック銀座一丁目ビル４階５階,自家脂肪由来間葉系幹細胞を用いた変形性膝関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505006/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505006/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505006/5/2
+new_facility,2,東京都,医療法人ネオポリス診療所銀座クリニック,中央区銀座１丁目13番１号ヒューリック銀座一丁目ビル４階５階,自家脂肪由来間葉系幹細胞を用いた肩(回旋筋)腱板損傷の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505010/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505010/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505010/5/2
+new_facility,2,東京都,医療法人ネオポリス診療所銀座クリニック,中央区銀座１丁目13番１号ヒューリック銀座一丁目ビル４階５階,自家脂肪由来間葉系幹細胞を用いた腰痛の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505009/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505009/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505009/5/2
+new_facility,2,東京都,"医療法人京華会
+CLINICA BellaForma","港区赤坂2丁目3-5
+赤坂スターゲートプラザ16階",多血小板血漿を用いた変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2409026/5/0
+new_facility,2,東京都,医療法人京華会　CLINICA BellaForma,港区赤坂2丁目3-5　赤坂スターゲートプラザ16階,凍結保存された自己脂肪由来幹細胞を用いた変形性膝関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2604016/5/0
+new_facility,2,東京都,医療法人京華会　CLINICA BellaForma,港区赤坂2丁目3-5　赤坂スターゲートプラザ16階,自己脂肪由来幹細胞を用いた変形性膝関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2607072/5/0
+new_facility,2,東京都,医療法人京華会　CLINICA BellaForma,"港区赤坂2丁目3-5
+赤坂スターゲートプラザ16階",自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2409025/5/0
+new_facility,2,東京都,"医療法人元気会わかさクリニック
+WA CLINIC GINZA",中央区銀座五丁目6-12,自家脂肪由来間葉系幹細胞を用いた変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507016/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507016/5/1
+existing_facility_new_plan,2,東京都,医療法人慶春会　脳梗塞・脊髄損傷クリニック銀座院,東京都中央区銀座7-8-13　BrownPlace5F,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2506078/5/0
+new_facility,3,東京都,"医療法人社団 Health and Human Performance
+MTXスポーツ・関節クリニック",千代田区麹町6-4-16 ESCALIER麹町2階,自家多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2401005/5/0
+new_facility,2,東京都,医療法人社団 ICVS Tokyo Clinic V2,"千代田区紀尾井町4番１号　
+新紀尾井町ビル2Ｆ",慢性筋骨格系疼痛の緩和を目的とした自己脂肪由来間葉系幹細胞治療（局所投与）,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605032/5/0
+new_facility,2,東京都,医療法人社団 ICVS Tokyo Clinic V2,"千代田区紀尾井町4番１号
+新紀尾井町ビル2Ｆ",慢性筋骨格系疼痛緩和を目的とした自己骨髄由来間葉系幹細胞治療（動脈投与）,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508027/5/0
+new_facility,2,東京都,医療法人社団 ICVS Tokyo Clinic V2,"千代田区紀尾井町4番１号
+新紀尾井町ビル2Ｆ",慢性筋骨格系疼痛緩和を目的とした自己骨髄由来間葉系幹細胞治療（局所投与）,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508046/5/0
+new_facility,2,東京都,医療法人社団 三二会 番町診療所 表参道,渋谷区神宮前４丁目１１−６ 表参道千代田ビル地下1階,自己脂肪由来間葉系幹細胞を用いた整形外科疾患に対する組織修復,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909168/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909168/5/1
+existing_facility_new_plan,2,東京都,医療法人社団 医生会　わせだ整形外科,狛江市東野川2-20-5-102,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511027/5/0
+new_facility,2,東京都,医療法人社団 大山整形外科診療所,八王子市大和田町３丁目８番７号,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1911022/5/0
+new_facility,2,東京都,医療法人社団 山手クリニック,世田谷区代沢2-28-11,多血小板血漿（PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310059/5/0
+new_facility,2,東京都,医療法人社団 熊谷整形外科,墨田区業平2-14-9,ヒト自己脂肪組織由来間葉系幹細胞の関節内投与による関節傷害の症状改善の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608034/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608034/5/1
+new_facility,2,東京都,医療法人社団 熊谷整形外科,墨田区業平2-14-9,ヒト自己脂肪組織由来間葉系幹細胞を用いた慢性疼痛緩和治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608035/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608035/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608035/5/2|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608035/5/3
+new_facility,2,東京都,医療法人社団 秀慈会 リバーシティすずき整形外科,"中央区佃1-11-8 
+ピアウエストスクエア2階264号",多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する組織修復,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909204/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909204/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909204/5/2
+new_facility,3,東京都,医療法人社団 秀慈会 リバーシティすずき整形外科,"中央区佃1-11-8 
+ピアウエストスクエア2階264号",自己多血小板血漿(PRP)を用いた筋・腱・靱帯損傷部の治癒促進をはかる整形外科治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2001038/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2001038/5/1
+new_facility,2,東京都,医療法人社団 紀品会 クリニック宇津木流,東京都千代田区紀尾井町4-1　ホテルニューオータニ・ガーデンタワー9階　ビジネスコート2929号室,自家培養軟骨細胞を用いた皮膚陥凹変形の治療,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2404006/5/0
+new_facility,2,東京都,医療法人社団 苑田会 苑田会人工関節センター病院,足立区保木間1-21-10,変形性関節症に対する自己脂肪由来幹細胞を用いた治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2510078/5/0
+new_facility,2,東京都,医療法人社団 苑田会 苑田会人工関節センター病院,足立区保木間1-21-10,多血小板血漿（Platelet-rich plasma：PRP）を用いた関節痛治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411071/5/0
+existing_facility_new_plan,2,東京都,"医療法人社団 ＴＳＯＣ
+東京スポーツ＆整形外科クリニック北参道","渋谷区千駄ヶ谷2丁目１番11号　
+TSOC北参道ビル2階",多血小板血漿（Platelet-rich plasma：PRP）を用いた関節痛治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511020/5/0
+existing_facility_new_plan,3,東京都,医療法人社団 ＴＳＯＣ 東京スポーツ＆整形外科クリニック北参道,"渋谷区千駄ヶ谷2丁目１番11号　
+TSOC北参道ビル2階",自己多血小板血漿（Platelet-rich plasma : PRP)を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511038/5/0
+new_facility,2,東京都,医療法人社団EXTUM MEDI-UM CLINIC,江東区高橋1-2メディカルスクエア清澄白河2・3階,自家脂肪組織由来幹細胞（ASC）の局所投与による関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601015/5/0
+new_facility,2,東京都,医療法人社団EXTUM　MEDI-UM CLINIC,江東区高橋1-2メディカルスクエア清澄白河2・3階,自家脂肪組織由来幹細胞（ASC）の静脈内投与による慢性筋骨格性疼痛治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2510034/5/0
+new_facility,2,東京都,医療法人社団GRACE　チームメディカルクリニック,港区西新橋1丁目5-14 内幸町1ビル 1階・2階,整形外科領域における外傷性疾患又は変性疾患による慢性疼痛緩和を目的とした自己脂肪組織由来間葉系幹細胞の静脈点滴治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509060/5/0
+new_facility,2,東京都,医療法人社団GRACE　チームメディカルクリニック,港区西新橋1丁目5-14 内幸町1ビル 1階・2階,自己脂肪組織由来間葉系幹細胞を用いた変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509059/5/0
+new_facility,2,東京都,医療法人社団HELENE ヘレネAOビルクリニック,港区北青山3-11-7 AOビル8F,変形性関節症の治療を対象とした自己脂肪由来間葉系幹細胞の関節内投与,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604055/5/0
+new_facility,2,東京都,医療法人社団HELENE 表参道ヘレネクリニック,港区南青山5-9-15 青山OHMOTOビル3F,変形性関節症に対する自家間葉系幹細胞移植による治療,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608014/5/0
+new_facility,2,東京都,医療法人社団HELENE 表参道ヘレネクリニック,東京都港区南青山5-9-15 青山OHMOTOビル3F,変形性関節症に対する自己血PRPの関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601051/5/0
+existing_facility_new_plan,3,東京都,"医療法人社団IHOC 
+稲城平尾整形外科クリニック","稲城市平尾4丁目24-1
+メディカルヴィレッジ",自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503012/5/0
+new_facility,2,東京都,"医療法人社団T.O.P.ドクターズ
+東京国際クリニック","千代田区丸の内一丁目11番1号
+パシフィックセンチュリープレイス丸の内9階",自己脂肪組織由来幹細胞（ASCs）を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509014/5/0
+existing_facility_new_plan,3,東京都,医療法人社団TSOC 東京スポーツ&整形外科クリニック,"豊島区上池袋4 丁目29-9 ＫITAIKE TERRACE（北池テラス）
+2 階・地下1 階",多血小板血漿（Platelet-rich plasma : PRP)を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511037/5/0
+new_facility,2,東京都,"医療法人社団TaaK
+Akira International Clinic",港区西麻布3-17-22 モダンフォルム1階,自家脂肪組織由来幹細胞（ASC）の静脈内投与による慢性筋骨格系疼痛治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2510080/5/0
+new_facility,3,東京都,医療法人社団VITA　池尻大橋せらクリニック,目黒区大橋2-22-42 No.R池尻大橋4F,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511030/5/0
+new_facility,3,東京都,医療法人社団　山手クリニック,世田谷区代沢2-28-11,創傷治療における多血小板血漿療法（PRP）による治療（筋、腱、皮膚への投与）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2001131/5/0
+new_facility,2,東京都,医療法人社団　桜伸会　さくらクリニック,渋谷区渋谷1-16-9　渋谷ＫＩビル3階,慢性疼痛緩和を目的とした自家培養脂肪由来間葉系幹細胞の関節内投与による治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606078/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606078/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606078/5/2
+new_facility,2,東京都,医療法人社団　正貴会　いくこ皮フ科クリニック,練馬区上石神井１丁目１４−４ エソール2F B,多血小板血漿（PRP）を用いた変形性関節症に対する疼痛緩和,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601014/5/0
+new_facility,2,東京都,医療法人社団　熊谷整形外科,墨田区業平2丁目14－9　平ビル業平1階,自己脂肪由来間葉系幹細胞を用いた慢性疼痛に対する治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2606021/5/0
+existing_facility_new_plan,3,東京都,医療法人社団　白鳳会　大角医院,練馬区上石神井４－３－２３,自己多血小板血漿(PRP)を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2001010/5/0
+new_facility,2,東京都,医療法人社団　育楽会　あやせ駅前整形外科・内科,足立区綾瀬1-32-13 ハイネスアヤセ1階 A・B,多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する組織修復,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1912017/5/0
+new_facility,3,東京都,"医療法人社団　苑田会
+苑田会人工関節センター病院",足立区保木間1‐21‐10,多血小板血漿（Platelet-rich　plasma：PRP）を用いた組織修復,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1905098/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1905098/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1905098/5/2|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1905098/5/3
+new_facility,2,東京都,医療法人社団　顕伊会　さい整形外科クリニック,葛飾区堀切3丁目35-10　ｙビル101,多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1907048/5/0
+new_facility,3,東京都,医療法人社団ことのは　両国きたむら整形外科,墨田区両国3-19-5　シュタム両国ビル2階,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等、損傷した運動器組織再生治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606060/5/0
+new_facility,3,東京都,医療法人社団しぜん会　まつだ整形外科・リウマチ科,練馬区中村北1-10-12メディカルポート2階,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1912131/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1912131/5/1
+new_facility,3,東京都,"医療法人社団スポーツメディカル
+八王子スポーツ整形外科",八王子市中町5-1 八王子中町ビル3・4・6階,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2307023/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2307023/5/1
+new_facility,2,東京都,"医療法人社団スポーツメディカル
+八王子スポーツ整形外科","八王子市中町5-1
+八王子中町ビル3・4・6階",多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601092/5/0
+new_facility,2,東京都,"医療法人社団ナチュラルハーモニー
+ナチュラルハーモニークリニック表参道",渋谷区神宮前6－25－14 神宮前メディアスクエアビル5 階,膝変形性関節症に対する自己脂肪由来幹細胞を用いた治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502063/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502063/5/1
+new_facility,2,東京都,"医療法人社団ナチュラルハーモニー
+ナチュラルハーモニークリニック表参道",渋谷区神宮前6-25-14　神宮前メディアスクエアビル5階,自己脂肪由来間葉系幹細胞を用いた関節周囲炎、変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601056/5/0
+new_facility,2,東京都,医療法人社団ルネ ルネクリニック東京院,千代田区大手町一丁目1番3号大手センタービル14階,自己脂肪由来間葉系幹細胞を用いた腱、靭帯、筋肉などの軟部組織損傷に対する治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604056/5/0
+existing_facility_new_plan,3,東京都,医療法人社団下田緑眞会 世田谷北部病院,世田谷区南烏山2丁目9-17,腱、筋、靭帯等、関節腔外の筋骨格支持組織に対するPRP治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512023/5/0
+existing_facility_new_plan,3,東京都,医療法人社団中川整形外科,世田谷区用賀４－１３－８プリモメゾン用賀１Ｆ,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504014/5/0
+new_facility,3,東京都,医療法人社団健翔会　豊島長崎クリニック,豊島区長崎4-25-15,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織ペイン治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1912115/5/0
+new_facility,2,東京都,医療法人社団充幸会　髙見澤整形外科クリニック,小金井市梶野町五丁目11番5号パピスプラザ205号室,多血小板血漿（PRP）を用いた変形性関節症の疼痛緩和、変性修復,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2211043/5/0
+new_facility,3,東京都,医療法人社団充幸会　髙見澤整形外科クリニック,小金井市梶野町五丁目11番5号パピスプラザ205号室,多血小板血漿（PRP）を用いた筋、腱損傷の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2211044/5/0
+existing_facility_new_plan,3,東京都,"医療法人社団全心会
+ぜんしん整形外科　立川スポーツリハビリクリニック",立川市曙町2-11-2 フロム中武7階,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409054/5/0
+existing_facility_new_plan,3,東京都,"医療法人社団円徳
+慶友整形外科脊椎関節病院",足立区足立1-12-12　足立メディカルモール4F～8F,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2309059/5/0
+new_facility,2,東京都,医療法人社団博栄会　赤羽中央総合病院,北区志茂一丁目19番14号,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2202019/5/0
+new_facility,3,東京都,医療法人社団博栄会　赤羽中央総合病院,北区志茂一丁目19番14号,自己多血小板血漿(PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2203019/5/0
+new_facility,2,東京都,医療法人社団同仁会診療所　Clinic Le GINZA,中央区銀座4丁目1番先 北数寄屋ビルB1F,整形外科疾患に伴う炎症の緩和を目的とした自己脂肪組織由来間葉系幹細胞の静脈点滴治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503053/5/0
+new_facility,2,東京都,医療法人社団同仁会診療所　Clinic Le GINZA,中央区銀座4丁目1番先　北数寄屋ビルB1F,自己末梢血由来単核細胞の関節内投与による整形外科疾患の治療,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506055/5/0
+new_facility,2,東京都,医療法人社団善用会　講道館ビルクリニック,文京区春日1-16-30　講道館本館6階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603012/5/0
+new_facility,2,東京都,医療法人社団喜美会　自由が丘クリニック,目黒区八雲3-12-10 パークヴィラ2F,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508073/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508073/5/1
+new_facility,3,東京都,医療法人社団喜美会　自由が丘クリニック,目黒区八雲3-12-10 パークヴィラ2F,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508074/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508074/5/1
+new_facility,2,東京都,医療法人社団小﨑会　常盤台らいおん整形外科,板橋区常盤台１－４４－１－１０３,多血小板血漿（PRP）による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305004/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305004/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305004/5/2
+new_facility,3,東京都,医療法人社団山本・前田記念会　前田病院,東久留米市中央町五丁目１３番３４号,自己多血小板血漿(PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2206037/5/0
+existing_facility_new_plan,3,東京都,医療法人社団平成会　たいら整形外科クリニック,練馬区土支田2-29-19　1F,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2210028/5/0
+existing_facility_new_plan,3,東京都,医療法人社団幸神会　下北沢DOクリニック,世田谷区北沢2-14-14,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407032/5/0
+new_facility,3,東京都,"医療法人社団幹葉会
+南青山外苑前整形外科リハビリテーション科クリニック","港区南青山2丁目27-27
+丸八青山ビル5F",自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503066/5/0
+new_facility,3,東京都,医療法人社団康静会　赤羽ウェルネスクリニック,北区赤羽2丁目15-10,多血小板血漿(Platelet-rich plasma：PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606097/5/0
+new_facility,2,東京都,医療法人社団康静会　赤羽ウェルネスクリニック,北区赤羽2丁目15-10,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305035/5/0
+existing_facility_new_plan,3,東京都,医療法人社団彩康会　十条整形外科リハビリクリニック,北区十条仲原1-28-13　ラファエーラ十条２F,自家多血小板血漿（PRP）を用いた筋腱付着部およびスポーツ傷害（筋・腱・靭帯）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2604065/5/0
+existing_facility_new_plan,3,東京都,"医療法人社団心愛会
+麻布台ビューティセルクリニック",港区麻布台1-11-5 Village Azabudai 2F,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507025/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507025/5/1
+existing_facility_new_plan,3,東京都,"医療法人社団快晴会
+すがも北口整形外科クリニック",豊島区巣鴨2-3-10 森川第1ビル3階,自家多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2207011/5/0
+new_facility,3,東京都,医療法人社団慶光会 大城クリニック,新宿区信濃町34 JR信濃町駅ビル2F,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織再生治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1911015/5/0
+existing_facility_new_plan,3,東京都,医療法人社団慶晃会 世田谷玉川 整形外科内科クリニック,世田谷区上野毛1-9-11玉川ビル,多血小板血漿(Platelet-rich plasma :PRP)を用いた整形外科領域における軟部組織修復治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2510020/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2510020/5/1
+existing_facility_new_plan,3,東京都,医療法人社団慶永会　徳永整形外科,東京都世田谷区喜多見８丁目１８−１０　２F,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206031/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206031/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206031/5/2
+new_facility,3,東京都,医療法人社団成煌会　瑞江整形外科,江戸川区瑞江4-45-1,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等、損傷した運動器組織再生治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1908039/5/0
+new_facility,3,東京都,医療法人社団敬和慶友会 自由が丘くびと腰の整形外科関節のクリニック,"世田谷区奥沢5-20-22 フレア3.6.9  2F,3F",自己多血小板血漿（Platelet-rich plasma : PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2410056/5/0
+new_facility,2,東京都,医療法人社団敬和慶友会 自由が丘くびと腰の整形外科関節のクリニック,"世田谷区奥沢5-20-22フレア3.6.9  2F,3F",自己多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2410054/5/0
+existing_facility_new_plan,3,東京都,医療法人社団晴美会　麹町リバース今井整形外科クリニック,千代田区麹町4-2-12-1F,自己多血小板血漿（PRP)を用いた、運動器組織再生療法（主に筋・腱・靱帯）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2309002/5/0
+new_facility,3,東京都,医療法人社団最匠会　光伸メディカルクリニック,新宿区北新宿二丁目21番1号新宿フロントタワー3階301区I・J・K室,自己多血小板血漿（PRP)を活用した、運動器周辺組織再生療法（主に筋・腱・靱帯）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2401012/5/0
+existing_facility_new_plan,2,東京都,医療法人社団東京Dタワーホスピタル,東京都江東区豊洲６丁目４番２０号Dタワー豊洲 １階・3階～5階,変形性関節症に対する脂肪組織由来幹細胞移植治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511011/5/0
+new_facility,2,東京都,"医療法人社団松和会
+池上総合病院",東京都大田区池上6-1-19,膝関節軟骨損傷に対する自己軟骨細胞シート移植,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2406003/5/0
+new_facility,3,東京都,医療法人社団松和会 池上総合病院,大田区池上六丁目１番１９号,「自己多血小板血漿（PRP）を用いた筋肉、腱、靭帯、筋膜（関節外の軟部組織）の治療」,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511037/5/0
+new_facility,2,東京都,医療法人社団松和会　池上総合病院,大田区池上六丁目１番１９号,自己多血小板血漿(PRP)の投与による変形性関節症の疼痛緩和を目的とした治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2512021/5/0
+new_facility,2,東京都,"医療法人社団桜伸会
+サンテクリニック","中央区銀座8-12-15
+全国燃料会館ビル2F",自家培養脂肪由来幹細胞の関節内投与による治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406018/5/0
+new_facility,2,東京都,医療法人社団桜伸会　サンテクリニック,中央区銀座8-12-15　全国燃料会館2階,慢性疼痛緩和を目的とした自家培養脂肪由来間葉系幹細胞の関節内投与による治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605071/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605071/5/1
+new_facility,2,東京都,医療法人社団森羅　北砂2丁目だい整形外科,江東区北砂２丁目8-5　ルナパレス1F,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2608003/5/0
+new_facility,3,東京都,医療法人社団森羅　北砂2丁目だい整形外科,江東区北砂２丁目8-5　ルナパレス1F,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2608004/5/0
+new_facility,2,東京都,医療法人社団正貴会　いくこ皮フ科クリニック,練馬区上石神井1丁目14番4号 エソール2階B号室,自己脂肪組織由来幹細胞（ASCs）を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602025/5/0
+new_facility,3,東京都,医療法人社団洪泳会 東京洪誠病院,足立区西新井栄町1-17-25,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2507008/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2507008/5/1
+existing_facility_new_plan,2,東京都,"医療法人社団活寿会
+東京ひざ関節症クリニック銀座院","中央区銀座5-3-12
+壹番館ビル 7F",脂肪組織由来幹細胞（adipose-derived mesenchymal stem cell）の投与による関節治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2510027/5/0
+new_facility,2,東京都,医療法人社団活寿会　東京ひざ関節症クリニック新宿院,新宿区西新宿1-4-11　宝ビル9F,脂肪組織由来幹細胞（adipose-derived mesenchymal stem cell）の投与による関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2602018/5/0
+existing_facility_new_plan,3,東京都,医療法人社団熊野前医院　たいら整形外科,荒川区東尾久4-3-9,自家多血小板血漿（PRP）を用いた筋腱付着部およびスポーツ障害（筋・腱・靭帯）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503056/5/0
+new_facility,2,東京都,医療法人社団癒合会　高輪和合クリニック,東京都港区高輪4丁目22番10号 小川商事ビル2階201号,自己多血小板血漿（PRP）による変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407028/5/0
+existing_facility_new_plan,2,東京都,医療法人社団研裕会 紀尾井町プラザクリニック歯科・美容外科,千代田区紀尾井町3番12号紀尾井町ビル 2階,変形性膝関節症に対する自己脂肪由来間葉系幹細胞治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509061/5/0
+existing_facility_new_plan,3,東京都,医療法人社団研裕会　紀尾井町プラザクリニック歯科・美容外科,千代田区紀尾井町3番12号　紀尾井町ビル　2階,多増殖因子血漿（PRGF）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRGF,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2505053/5/0
+new_facility,2,東京都,医療法人社団福至会　SPES CLINIC TOKYO BAY 晴海中央医院,中央区晴海2-1-40 晴海プライムスクエア11F,自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608020/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608020/5/1
+new_facility,2,東京都,医療法人社団秀博会BTRアーツ銀座クリニック,港区新橋2-20-15 新橋駅前ビル1号館201,自己脂肪由来間葉系幹細胞を用いた変形性膝関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2002036/5/0
+new_facility,2,東京都,"医療法人社団紘朗会
+麻布皮フ科クリニック","港区南麻布4丁目14-6 
+プレシャス18 6階","自家培養脂肪由来幹細胞を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療
+（関節外の軟部組織）",脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503047/5/0
+new_facility,2,東京都,"医療法人社団紘朗会
+麻布皮フ科クリニック","港区南麻布4丁目14-6 
+プレシャス18 6階",自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2505049/5/0
+new_facility,2,東京都,医療法人社団紘朗会　麻布皮フ科クリニック,"港区南麻布4丁目14-6 
+プレシャス18 6階",自家培養脂肪由来幹細胞を用いた変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2402046/5/0
+new_facility,3,東京都,医療法人社団育生会　私のクリニック目白,豊島区目白1-4-1 ホテルメッツ目白1F,自己多血小板血漿（PRP)を用いた、関節周囲の痛みの治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2005002/5/0
+new_facility,3,東京都,"医療法人社団舜成会　
+西国立整形外科クリニック",立川市羽衣町 2-49-7,自己多血小板血漿（PRP）を用いた筋・腱・靭帯の損傷組織修復療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2207058/5/0
+new_facility,2,東京都,医療法人社団菫会　目黒病院,目黒区中央町2-12-6,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1906008/5/0
+new_facility,3,東京都,医療法人社団菫会　目黒病院,目黒区中央町２-１２-６,自己多血小板血漿(PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1902050/5/0
+new_facility,2,東京都,"医療法人社団誠心会
+Re:Born Clinic 銀座院",中央区銀座1-15-4　銀座一丁目ビル10F,多血小板血漿を用いた変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509040/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509040/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509040/5/2
+new_facility,2,東京都,"医療法人社団誠心会
+Re:Born Clinic 銀座院",中央区銀座1-15-4　銀座一丁目ビル10F,自己脂肪由来幹細胞を用いた変形性関節症の治療（骨芽前駆細胞誘導Ver.）,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509048/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509048/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509048/5/2
+new_facility,2,東京都,"医療法人社団豊饒会
+RDクリニック東京銀座","中央区銀座7-9-17
+銀座ヤマトビル7F",多血小板血漿を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2501001/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2501001/5/1
+new_facility,2,東京都,医療法人社団豊饒会RDクリニック東京銀座,中央区銀座7-9-17　銀座ヤマトビル7F,自家脂肪由来幹細胞を用いた変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512006/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512006/5/1
+new_facility,2,東京都,"医療法人社団貴陽会
+ラカンクリニック東京 麻布台","港区麻布台1丁目3番1号
+麻布台ヒルズ森JPタワー4階",自己多血小板血漿(Platelet-Rich Plasma：PRP)を用いた変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507054/5/0
+new_facility,3,東京都,"医療法人社団貴陽会
+ラカンクリニック東京 麻布台","港区麻布台1丁目3番1号
+麻布台ヒルズ森JPタワー4階",自己多血小板血漿(Platelet-Rich Plasma：PRP)を用いた筋損傷・腱障害・靭帯損傷(関節外に限る)の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507055/5/0
+new_facility,3,東京都,"医療法人社団進誠会
+豪徳寺整形外科クリニック",世田谷区豪徳寺2丁目31-8ハイム和泉102,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療(関節腔外に限る),PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409070/5/0
+new_facility,3,東京都,医療法人社団青和会　井上整形外科,台東区浅草四丁目41番6号,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2101010/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2101010/5/1
+new_facility,2,東京都,医療法人社団青和会　井上整形外科,台東区浅草四丁目41番6号,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2101009/5/0
+new_facility,3,東京都,医療法人社団顕伊会　さい整形外科クリニック,葛飾区堀切3丁目35-10 ｙビル101,多血小板血漿（Platelet-rich plasma：PRP）を用いた筋、腱、靭帯損傷、肩腱板損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1907070/5/0
+existing_facility_new_plan,3,東京都,"医療法人美喜有会
+リペアセルクリニック 東京院","港区海岸一丁目16番1号 
+ニューピア竹芝サウスタワー 3階",自家多血小板血漿を用いた筋腱炎・靭帯炎の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604069/5/0
+new_facility,3,東京都,医療法人財団　健貢会　東京クリニック,千代田区大手町二丁目2番1号　新大手町ビル1階,筋肉・腱・靭帯・筋膜の損傷及び慢性炎症に対する多血小板血漿（PRP）投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407053/5/0
+existing_facility_new_plan,3,東京都,医療法人財団檜扇会 クリニック 東京虎ノ門ＣＯＲ,港区虎ノ門四丁目１番１７号　神谷町プライムプレイス２階,自己多血小板血漿（PRP)による捻挫、骨折治癒促進、靭帯損傷、腱鞘炎、アキレス腱炎の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2404036/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2404036/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2404036/5/2
+new_facility,2,東京都,医療法人鉄蕉会　亀田京橋クリニック,中央区京橋3丁目1番1号東京スクエアガーデン4階・6階,多血小板血漿（Platelet-rich plasma：PRP）を用いた関節内組織損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1904038/5/0
+new_facility,3,東京都,十条整形外科リハビリクリニック,北区十条仲原1－28－13ラファエーラ十条2階,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2209017/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2209017/5/1
+new_facility,2,東京都,十条整形外科リハビリクリニック,北区十条仲原1-28-13 ラファエーラ十条 2階,多血小板血漿（PRP）による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305006/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305006/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305006/5/2
+new_facility,2,東京都,千歳船橋整形外科スポーツ・リハビリクリニック,世田谷区船橋1-9-21 マルエツ千歳船橋店3階,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504021/5/0
+new_facility,3,東京都,千歳船橋整形外科スポーツ・リハビリクリニック,東京都世田谷区船橋1-9-21 マルエツ千歳船橋店3階,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504022/5/0
+new_facility,2,東京都,南新宿整形外科 リハビリテーションクリニック,東京都渋谷区代々木二丁目１６番７号　山葉ビルメディカルセンター４階,SVF（Stromal Vascular Fraction）を用いた関節痛、変形性関節症に対する疼痛改善を目的とした治療,SVF,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1906024/5/0
+new_facility,3,東京都,南新宿整形外科リハビリテーションクリニック,"渋谷区代々木二丁目１６番７号　
+山葉ビルメディカルセンター４階",自己多血小板血漿（Platelet-rich plasma : PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2011007/5/0
+new_facility,2,東京都,南新宿整形外科リハビリテーションクリニック,"渋谷区代々木二丁目１６番７号
+山葉ビルメディカルセンター４階",自己脂肪由来間葉系幹細胞を用いた関節痛、変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1906016/5/0
+new_facility,2,東京都,南青山外苑前整形外科・リハビリテーション科クリニック,"港区南青山2丁目27-27
+丸八青山ビル5F",自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,1,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503065/5/0
+new_facility,2,東京都,"地方独立行政法人東京都立病院機構
+東京都立大久保病院",新宿区歌舞伎町2-44-1,変形性関節症を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601084/5/0
+new_facility,2,東京都,女性のための整形外科 かおるこHappyクリニック,千代田区内幸町1丁目1-1 帝国ホテル本館4階,変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302066/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302066/5/1
+new_facility,3,東京都,女性のための整形外科かおるこHappyクリニック,東京都千代⽥区内幸町１丁⽬１−１ 本館4F 帝国ホテル,自己多血小板血漿(PRP)を用いた筋・腱・靱帯損傷部の治癒促進を目的とした整形外科治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2106016/5/0
+new_facility,3,東京都,女性のための整形外科かおるこHappyクリニック,千代⽥区内幸町１丁⽬１−１本館4F 帝国ホテル,自己多血小板血漿(PRP)を用いた薄毛治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2112025/5/0
+new_facility,2,東京都,学校法人藤田学園　藤田医科大学　羽田クリニック,大田区羽田空港1-1-4,多血小板血漿（PRP）による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2603036/5/0
+new_facility,2,東京都,学校法人藤田学園　藤田医科大学　羽田クリニック,大田区羽田空港1-1-4,自家培養軟骨細胞（ACC）を用いた移植による低侵襲膝関節軟骨再生治療,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2603038/5/0
+new_facility,2,東京都,学校法人藤田学園　藤田医科大学　羽田クリニック,大田区羽田空港1-1-4,自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2603037/5/0
+existing_facility_new_plan,3,東京都,新柴又駅前広場クリニック,葛飾区柴又5丁目8-3 グランコート1階,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2510040/5/0
+new_facility,2,東京都,新橋DAYクリニック,港区新橋1-15-7 新橋NFビル6階,変形性関節症に対する自己脂肪由来間葉系幹細胞を用いた治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602040/5/0
+new_facility,2,東京都,日本医科大学付属病院,文京区千駄木1-1-5,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2510006/5/0
+new_facility,2,東京都,日本大学医学部附属板橋病院,板橋区大谷口上町３０－１,自己多血小板血漿（Platelet rich plasma：PRP）を用いた変形性膝・肩関節、腰椎症に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2203013/5/0
+new_facility,2,東京都,日本大学病院,千代田区神田駿河台１丁目６,自己多血小板血漿（PRP）による整形外科疾患に対する関節内治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409023/5/0
+new_facility,3,東京都,日本大学病院,千代田区神田駿河台１丁目６,自己多血小板血漿（PRP）による靭帯、腱、筋肉、筋膜の損傷及び炎症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409024/5/0
+new_facility,3,東京都,日本橋えがわクリニック,中央区八重洲1－4－10 八重洲仲通りビル8階,自己多血小板血漿(PRP)を用いた筋・腱・靭帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2503038/5/0
+new_facility,2,東京都,日本橋えがわクリニック,中央区八重洲１－４－１０八重洲仲通りビル８F,自己脂肪組織由来幹細胞（ASCs）を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506017/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506017/5/1
+new_facility,2,東京都,日本橋人形町整形外科,東京都中央区日本橋人形町1−6−8 人形町大内ビル2階,自己多血小板血漿(PRP)療法（治療対象：外傷性関節炎・変形性関節症）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512068/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512068/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512068/5/2
+new_facility,2,東京都,明大前整形外科クリニック,世田谷区松原1丁目38-25,⾃家多⾎⼩板⾎漿（Platelet-rich plasma：PRP）を⽤いた慢性関節炎ならびに関節内軟⾻・靭帯損傷の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503078/5/0
+new_facility,3,東京都,明大前整形外科クリニック,世田谷区松原1丁目38-25,⾃家多⾎⼩板⾎漿（Platelet-rich plasma：PRP）を⽤いた筋⾁、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503079/5/0
+new_facility,2,東京都,昭和医科大学江東豊洲病院,江東区豊洲5-1-38,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601034/5/0
+existing_facility_new_plan,3,東京都,東京医科大学病院,新宿区西新宿6-7-1,スポーツ傷害（筋・腱・靭帯）を対象とした自己多血小板血漿注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2208002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2208002/5/1
+existing_facility_new_plan,3,東京都,東京整形外科,調布市富士見町1-6-2 TAOビル3F,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2309037/5/0
+existing_facility_new_plan,3,東京都,東京科学大学病院,文京区湯島一丁目5番45号,筋・腱・靭帯損傷・障害部へのPRP注射,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604023/5/0
+new_facility,2,東京都,東急株式会社東急病院,大田区北千束3丁目27番2号,自家多血小板血漿（Platelet-Rich-Plasma：PRP）による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2302016/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2302016/5/1
+new_facility,2,東京都,東邦大学医療センター大森病院,大田区大森西6-11-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2412023/5/0
+new_facility,3,東京都,東邦大学医療センター大森病院,大田区大森西6-11-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2412027/5/0
+new_facility,2,東京都,東邦大学医療センター大橋病院,目黒区大橋二丁目２２番３６号,自己多血小板血漿（Platelet-rich plasma: PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2412024/5/0
+new_facility,3,東京都,東邦大学医療センター大橋病院,目黒区大橋二丁目２２番３６号,自己多血小板血漿（Platelet-rich plasma:PRP）を用いた整形外科領域における筋肉、腱、靭帯などの軟部組織損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2412025/5/0
+new_facility,2,東京都,横浜町田関節脊椎病院,町田市南つくし野３丁目１－２,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2002036/5/0
+new_facility,3,東京都,江戸川区まつもと整形外科,江戸川区松本1-34-7 3F,自家多血小板血漿（PRP）の投与によるスポーツ外傷を含む筋・腱・靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603071/5/0
+new_facility,2,東京都,江戸川区まつもと整形外科,江戸川区松本1-34-7 3F,自家多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603069/5/0
+new_facility,3,東京都,池尻大橋せらクリニック,東京都目黒区大橋2-22-42 No.R池尻大橋4F,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2403007/5/0
+new_facility,3,東京都,独立行政法人労働者健康安全機構　東京労災病院,大田区大森南４－１３－２１,多血小板血漿を用いた靭帯・筋・腱及び腱付着部の機能障害・疾患の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2003033/5/0
+new_facility,2,東京都,独立行政法人労働者健康安全機構　東京労災病院,大田区大森南４－１３－２１,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2203008/5/0
+new_facility,2,東京都,独立行政法人国立病院機構村山医療センター,武蔵村山市学園２－３７－１,変形性関節症に対する多血小板血漿抽出液（APS）関節内投与療法,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604028/5/0
+existing_facility_new_plan,3,東京都,白山リハビリ整形外科,文京区白山１丁目３３－１８　白山NTビル4階,自家多血小板血漿（PRP）を用いた筋腱付着部およびスポーツ傷害（筋・腱・靭帯）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509004/5/0
+new_facility,2,東京都,白金高輪やまと整形外科,港区三田5-12-7 プラウドフラット白金高輪 1階,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508064/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508064/5/1
+new_facility,3,東京都,白金高輪やまと整形外科,港区三田5-12-7 プラウドフラット白金高輪 1階,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508067/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508067/5/1
+new_facility,2,東京都,目黒ひざ＆形成外科クリニック,品川区上大崎二丁目13番26号 メイプルトップビル6F,自己多血小板血漿（PRP）の投与による変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603059/5/0
+new_facility,3,東京都,目黒ひざ＆形成外科クリニック,品川区上大崎二丁目13番26号 メイプルトップビル6F,自己多血小板血漿（PRP）を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603053/5/0
+existing_facility_new_plan,3,東京都,社会医療法人財団　仁医会　牧田総合病院,大田区西蒲田8丁目20番1号,多血小板血漿(Platelet-rich plasma :PRP)を用いた整形外科領域における軟部組織修復治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2602063/5/0
+existing_facility_new_plan,3,東京都,"社会福祉法人　みどり福祉会
+B&Jクリニック　お茶の水","千代田区神田駿河台2-1-47
+廣瀬お茶の水ビル5F",自家多血小板血漿（PRP）を用いた筋腱付着部炎、筋腱炎、靭帯損傷（関節外に限る）治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909198/5/0
+existing_facility_new_plan,3,東京都,社会福祉法人同愛記念病院財団 同愛記念病院,墨田区横網二丁目1番11号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2502007/5/0
+existing_facility_new_plan,3,東京都,社会福祉法人賛育会　賛育会病院,墨田区太平3-20-2,自己多血小板血漿（PRP)を用いた、運動器組織再生療法（主に筋・腱・靱帯）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2506013/5/0
+new_facility,3,東京都,神谷整形外科・眼科,世田谷区弦巻1-35-20,自己多血小板血漿(PRP)を用いた整形療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1910144/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1910144/5/1
+existing_facility_new_plan,3,東京都,羽田内科医院,世田谷区豪徳寺1-46-20　鈴和ビル１F,自己多血小板血漿(PRP)を用いた筋・腱・靭帯損傷などに対するPRPの経皮的投与,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2111033/5/0
+existing_facility_new_plan,3,東京都,葛西駅前あおぞら整形外科クリニック,江戸川区中葛西5-42-8 須三ビル4,多血小板血漿を用いた関節炎治療（第３種再生医療）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507072/5/0
+new_facility,2,東京都,表参道総合医療クリニック,"渋谷区神宮前前5丁目46-16 
+イル・チェントロ・セレーノ1階",自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506021/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506021/5/1
+new_facility,2,東京都,表参道総合医療クリニック,渋谷区神宮前前5丁目46-16 イル・チェントロ・セレーノ1階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた脊椎由来疼痛の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504035/5/0
+new_facility,2,東京都,表参道総合医療クリニック,渋谷区神宮前5丁目46-16 イル・チェントロ・セレーノ1階,自己脂肪由来幹細胞を用いた関節疾患の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506023/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506023/5/1
+new_facility,2,東京都,表参道総合医療クリニック,渋谷区神宮前5丁目46-16 イル・チェントロ・セレーノ1階,自己脂肪由来幹細胞を用いた頚椎症・腰椎症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407094/5/0
+new_facility,2,東京都,豪徳寺整形外科クリニック,世田谷区豪徳寺2丁目31-8ハイム和泉102,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,1,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406033/5/0
+new_facility,2,東京都,運動器クリニック市ヶ谷,千代田区五番町2番地9 ESCALIER五番町 1階,自己多血小板血漿(PRP)の投与による変形性関節症の疼痛緩和を目的とした治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601001/5/0
+new_facility,3,東京都,運動器クリニック市ヶ谷,千代田区五番町2番地9 ESCALIER五番町 １階,自己多血小板血漿（PRP）を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2512048/5/0
+new_facility,2,東京都,都立大整形外科クリニック,"目黒区平町1丁目26-3
+スミール都立大2F",⾃家多⾎⼩板⾎漿（Platelet-rich plasma：PRP）を⽤いた慢性関節炎ならびに関節内軟⾻・靭帯損傷の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503076/5/0
+new_facility,3,東京都,都立大整形外科クリニック,"目黒区平町1丁目26-3
+スミール都立大2F",⾃家多⾎⼩板⾎漿（Platelet-rich plasma：PRP）を⽤いた筋⾁、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503077/5/0
+new_facility,2,東京都,銀座ALIVIO clinic,"中央区銀座5-5-18 
+銀座藤小西ビル4F",自家脂肪由来幹細胞を用いた変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411046/5/0
+existing_facility_new_plan,2,東京都,銀座YRクリニック,中央区銀座六丁目５番-１３号Ｃｓｓ Ｂｕｉｌｄｉｎｇ Ⅲ 7F,自家多血小板血漿(PRP)を用いた慢性関節炎治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2606016/5/0
+new_facility,2,東京都,銀座よしえクリニック都立大院,目黒区平町1-23-14EMON,自己脂肪組織由来間葉系幹細胞（ADSC）を用いた関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2601047/5/0
+new_facility,2,東京都,銀座聖愛わクリニック,中央区銀座五丁目10番2号　GINZA MISS PARIS 10階,膝関節症に対する自己脂肪由来幹細胞による治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602054/5/0
+new_facility,2,東京都,阿部整形外科クリニック,三鷹市野崎3-3-4-101,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2503035/5/0
+new_facility,3,東京都,陽だまりクリニック 六本木院,"港区六本木6丁目1-26
+六本木天城ビル 3F",PRP(多血小板血漿Platelet Rich Plasma)を用いて筋、腱、靭帯および筋-腱付着部損傷による疾患の治療を目的とした再生医療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302046/5/0
+new_facility,2,東京都,青海100クリニック,東京都江東区青海2-4-32　タイム24ビル1階,関節周囲炎の緩和を目的とした自己脂肪由来間葉系間質細胞治療(局所投与),脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508039/5/0
+new_facility,2,東京都,順天堂大学医学部附属練馬病院,練馬区高野台3−1−10,自家多血小板血漿(Platelet-rich plasma : PRP)を用いた関節内損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2308020/5/0
+new_facility,3,東京都,順天堂大学医学部附属練馬病院,東京都練馬区高野台3−1−10,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた腱付着部炎・腱障害・筋損傷・靭帯損傷(関節外に限る)治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2308021/5/0
+new_facility,2,東京都,順天堂大学医学部附属順天堂医院,文京区本郷3-1-3,自家脂肪組織由来幹細胞（ASC）の投与による変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609013/5/0
+new_facility,3,東京都,順天堂大学医学部附属順天堂医院,文京区本郷3-1-3,自己多血小板血漿(PRP)療法（治療対象：筋・腱・靭帯・椎体周囲軟部組織の損傷）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609016/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609016/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609016/5/2
+new_facility,2,東京都,順天堂大学医学部附属順天堂医院,文京区本郷3-1-3,自己多血小板血漿(PRP)療法（治療対象：関節炎・変形性関節症）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609017/5/0
+new_facility,2,東京都,順天堂大学医学部附属順天堂東京江東高齢者医療センター,江東区新砂3-3-20,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2502002/5/0
+new_facility,3,東京都,順天堂大学医学部附属順天堂東京江東高齢者医療センター,江東区新砂3-3-20,自己多血小板血漿(PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604007/5/0
+new_facility,2,栃木県,医療法人　英心会　倉持整形外科・皮膚科美容皮膚科,宇都宮市屋板町405-1,自家多血小板血漿（PRP）を用いた変形性関節症および関節腔内の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504017/5/0
+new_facility,3,栃木県,医療法人　英心会　倉持整形外科・皮膚科美容皮膚科,宇都宮市屋板町405-1,自家多血小板血漿（PRP）を用いた筋腱付着部およびスポーツ傷害（筋・腱・靭帯）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504047/5/0
+existing_facility_new_plan,3,栃木県,医療法人恭友会　はせがわ整形外科クリニック,宇都宮市一条4-5-13,自己多血小板血漿（ＰＲＰ）を用いた整形外科治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502053/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502053/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502053/5/2
+existing_facility_new_plan,3,栃木県,医療法人親仁会　佐藤病院,宇都宮市西3-1-11,多血小板血漿（PRP）を用いた筋、腱、靭帯への治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2307023/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2307023/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2307023/5/2
+existing_facility_new_plan,3,栃木県,"学校法人　獨協学園
+獨協医科大学病院",下都賀郡壬生町大字北小林880,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604078/5/0
+new_facility,2,沖縄県,てだこ整形外科,浦添市前田3丁目13番28号　メディカルスクエアてだこ浦西 3F,自家脂肪組織由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2512002/5/0
+new_facility,2,沖縄県,てだこ整形外科,浦添市前田3丁目13番28号　メディカルスクエアてだこ浦西 3F,自家脂肪組織由来幹細胞を用いた慢性疼痛の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2512005/5/0
+new_facility,3,沖縄県,ロクト整形Az,那覇市奥武山町46番地5階,自己多血小板血漿（PRP)を用いた、筋・腱・靭帯の軟部組織再生療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2605001/5/0
+new_facility,2,沖縄県,ロクト整形Az,那覇市奥武山町46番地5階,自己多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性膝関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2012010/5/0
+new_facility,2,沖縄県,一般社団法人国際和合医療学会　高輪アイランドクリニック,宮古島市平良下里535-5 　セレブラム 2F,自己多血小板血漿（PRP）による変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2409009/5/0
+new_facility,3,沖縄県,医療法人八重瀬会　同仁病院,浦添市城間１－３７－１２,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2503013/5/0
+new_facility,2,沖縄県,医療法人八重瀬会　同仁病院,浦添市城間１－３７－１２,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2503012/5/0
+new_facility,3,沖縄県,医療法人形成会 当山美容形成外科,那覇市久茂地2-11-18 当山久茂地川医邸　4・5階,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の整形外科的軟部組織再生治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2001025/5/0
+new_facility,2,沖縄県,医療法人徳洲会　南部徳洲会病院,島尻郡八重瀬町字外間171番地1,自己皮下脂肪由来再生（幹）細胞（ADRCs）を用いた変形性関節症治療,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2603005/5/0
+new_facility,2,沖縄県,当山美容形成外科,那覇市久茂地2-11-18　当山久茂地川医邸　4・5階,自己脂肪由来間葉系幹細胞を用いた関節痛、変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G1911035/5/0
+new_facility,2,沖縄県,社会医療法人友愛会友愛医療センター,豊見城市与根50-212,関節内組織損傷に対する自家多血小板血漿注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2512009/5/0
+new_facility,3,沖縄県,社会医療法人友愛会友愛医療センター,沖縄県豊見城市字与根50番地212,靭帯・筋肉・腱・腱付着部に対する自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2602005/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2602005/5/1
+new_facility,2,滋賀県,"一般社団法人スピナレピオス
+淡海せぼねクリニック",近江八幡市出町233-2,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2408020/5/0
+new_facility,3,滋賀県,"一般社団法人スピナレピオス
+淡海せぼねクリニック",近江八幡市出町233-2,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2408021/5/0
+existing_facility_new_plan,3,滋賀県,公立甲賀病院,甲賀市水口町松尾1256番地,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2307012/5/0
+existing_facility_new_plan,3,滋賀県,医療法人はたスポーツ整形クリニック,守山市下之郷１－１５－８,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2512024/5/0
+existing_facility_new_plan,2,滋賀県,東近江市立能登川病院,東近江市猪子町191,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2405012/5/0
+new_facility,3,滋賀県,田原整形外科,近江八幡市白鳥町48番地２,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2404003/5/0
+new_facility,2,滋賀県,長浜赤十字病院,長浜市宮前町14番7号,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2607012/5/0
+new_facility,2,熊本県,リハビリテーションセンター熊本回生会病院,上益城郡嘉島町鯰１８８０,自己多血小板血漿（Platelet-Rich Plasma : PRP）を用いた変形性関節症および関節腔内の傷害治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2303013/5/0
+new_facility,2,熊本県,一般社団法人天草郡市医師会立天草地域医療センター,天草市亀場町食場８５４番地１,APS（濃縮PRP：自家多血小板血漿)を用いた変形性関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2411014/5/0
+new_facility,3,熊本県,医療法人　回生会 リハビリテーションセンター　熊本回生会病院,上益城郡嘉島町鯰1880,自己多血小板血漿（PRP）を用いた整形外科治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2308003/5/0
+new_facility,2,熊本県,医療法人保田窪会　保田窪整形外科病院,熊本市東区保田窪５丁目７－２７,自己多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科領域における関節内治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2506013/5/0
+new_facility,2,熊本県,医療法人相生会 にしくまもと病院,熊本市南区富合町古閑１０１２番地,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506005/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506005/5/1
+new_facility,3,熊本県,医療法人相生会 にしくまもと病院,熊本市南区富合町古閑１０１２番地,自己多血小板血漿(Platelet-rich plasma：PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506006/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506006/5/1
+new_facility,2,熊本県,熊本整形外科病院,熊本市中央区新屋敷1丁目17-1,多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2511006/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2511006/5/1
+new_facility,3,熊本県,熊本整形外科病院,熊本市中央区新屋敷1丁目17-1,多血小板血漿（Platelet-rich plasma：PRP）を用いた筋、腱、靭帯損傷、肩腱板損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2511005/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2511005/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2511005/5/2
+new_facility,2,熊本県,"社会医療法人 令和会
+熊本リハビリテーション病院",菊池郡菊陽町曲手760,変形性膝関節症に対する脂肪組織由来再生幹細胞(ADRCs)を用いた細胞治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506011/5/0
+new_facility,2,熊本県,社会医療法人 令和会　熊本リハビリテーション病院,菊池郡菊陽町曲手760,慢性疼痛に対する脂肪組織由来再生幹細胞(ADRCs)を用いた細胞治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506012/5/0
+existing_facility_new_plan,3,石川県,医療法人社団まえだクリニック　まえだ整形外科 骨・関節クリニック,金沢市直江東１丁目６０番地,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2601003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2601003/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2601003/5/2
+new_facility,2,石川県,医療法人社団浅ノ川　浅ノ川総合病院,金沢市小坂町中83番地,変形性関節症に対する多血小板血漿抽出液（ＡＰＳ）関節内投与療法,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02D2409020/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02D2409020/5/1
+new_facility,3,石川県,医療法人社団浅ノ川　浅ノ川総合病院,金沢市小坂町中83番地,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02D2409021/5/0
+existing_facility_new_plan,2,石川県,特定医療法人社団勝木会　やわたメディカルセンター,小松市八幡イ１２番地７,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2408001/5/0
+existing_facility_new_plan,2,石川県,金沢泉が丘わたなべクリニック,金沢市泉野出町４丁目１－１１,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2512001/5/0
+new_facility,2,神奈川県,Okuno Clinic.横浜 センター南,横浜市都筑区茅ヶ崎中央36-6　チサンイン横浜都筑2F,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2607012/5/0
+new_facility,2,神奈川県,SBC整形外科クリニック横浜駅前院,"横浜市西区北幸1-4-1
+横浜天理ビル11階",多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604033/5/0
+new_facility,2,神奈川県,YSA スポーツと医科学のクリニック 横浜関内,横浜市中区港町1-1-1BASEGATE横浜関内タワー8階,自家多血小板血漿（PRP）を用いた関節内組織損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602018/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602018/5/1
+new_facility,3,神奈川県,YSA スポーツと医科学のクリニック横浜関内,横浜市中区港町1丁目1番地 BASEGATE横浜関内 8F,四肢の筋・腱・靱帯及びその付着部の外傷・障害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602021/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602021/5/1
+new_facility,2,神奈川県,いしずえ整形外科,"横浜市戸塚区戸塚町99
+ポルテさくら2F",多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1910113/5/0
+new_facility,2,神奈川県,さこ整形外科・リハビリテーション科,秦野市大秦町2-16クリエイトエス・ディー秦野大秦町店2F,自家多血小板血漿（PRP）を用いた関節内組織損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605011/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605011/5/1
+new_facility,3,神奈川県,のぼりと整形外科診療所,川崎市多摩区登戸1854クリエイトS・D 川崎向ヶ丘遊園店 2階,"自己多血小板血漿(PRP)を用いた筋・腱・靱帯損傷部の
+治癒促進を目的とした整形外科治療",PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310010/5/0
+new_facility,2,神奈川県,ふくむら整形外科,"横浜市戸塚区下倉田町１８６９－１　
+横浜戸塚メディカルビル　3階",多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2512039/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2512039/5/1
+new_facility,3,神奈川県,ふくむら整形外科,"横浜市戸塚区下倉田町１８６９－１　
+横浜戸塚メディカルビル　3階","多血小板血漿（PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組
+織）",PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2512043/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2512043/5/1
+new_facility,2,神奈川県,ほんだ整形外科クリニック,平塚市明石町1番23号 平塚明石ビル2・3階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2105005/5/0
+new_facility,3,神奈川県,エムズクリニック,横浜市鶴見区鶴見中央1丁目9−21 ニッコービルマーク2　1F,自己多血小板血漿（ＰＲＰ）を用いた筋・腱・靭帯の損傷組織修復療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2108035/5/0
+new_facility,3,神奈川県,シン・整形外科 網島,横浜市港北区網島東１丁目７－１０　リンコー網島ビル,多血小板血漿（PRP）を用いた筋、腱、靭帯への治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2409003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2409003/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2409003/5/2
+new_facility,3,神奈川県,センター南ＧＯＴＯクリニック,浜市都筑区茅ヶ崎中央１－２　センター南光ビル　４階,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1909034/5/0
+new_facility,2,神奈川県,センター南ＧＯＴＯクリニック,横浜市都筑区茅ヶ崎中央１－２　センター南光ビル　４階,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1909033/5/0
+new_facility,2,神奈川県,ヴェルディクリニック,川崎市多摩区菅仙谷4-1-1　東京ヴェルディクラブハウス内,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302050/5/0
+new_facility,3,神奈川県,ヴェルディクリニック,川崎市多摩区菅仙谷4-1-1　東京ヴェルディクラブハウス内,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302051/5/0
+existing_facility_new_plan,2,神奈川県,一般社団法人SOL  SOL整形外科鷺沼スポーツクリニック,川崎市宮前区東有馬5-1-2メディカルプラザD2F 3F,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2207035/5/0
+new_facility,3,神奈川県,三ツ沢SORA整形外科,横浜市神奈川区三ツ沢上町5-14グランシャリオ三ッ沢 1階,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602012/5/0
+new_facility,2,神奈川県,三ツ沢SORA整形外科,横浜市神奈川区三ツ沢上町5-14グランシャリオ三ッ沢 1階,変形性関節症を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602011/5/0
+new_facility,3,神奈川県,二階堂整形外科クリニック,茅ヶ崎市浜見平３番１号BRANCH茅ヶ崎２－１階,自家多血小板血漿（PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310016/5/0
+new_facility,2,神奈川県,二階堂整形外科クリニック,茅ヶ崎市浜見平３番１号BRANCH茅ヶ崎２ー１階,自家多血小板血漿（PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2506011/5/0
+new_facility,2,神奈川県,井土ヶ谷整形外科リハビリクリニック,横浜市南区井土ケ谷中町158　アクロスキューブ3F,多血小板血漿（PRP）による変形性関節症および半月板損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410005/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410005/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410005/5/2
+new_facility,2,神奈川県,公立大学法人横浜市立大学附属病院,横浜市金沢区福浦3−9,自家多血小板血漿(Platelet-rich plasma:PRP)を用 いた関節内組織損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2411022/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2411022/5/1
+new_facility,2,神奈川県,内田宙司整形外科,横須賀市湘南国際村1-3-10,多増殖因子血漿（PRGF）を用いた変形性関節症・関節炎治療,PRGF,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508047/5/0
+new_facility,3,神奈川県,"医療法人 よこはまTSC
+横浜たまプラーザ運動器スポーツクリニック","横浜市青葉区美しが丘二丁目14番地９
+MMPたまプラーザ１０１号室",四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303050/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303050/5/1
+new_facility,2,神奈川県,"医療法人 よこはまTSC
+横浜たまプラーザ運動器スポーツクリニック","横浜市青葉区美しが丘二丁目14番地９
+MMPたまプラーザ１０１号室",変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303041/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303041/5/1
+new_facility,3,神奈川県,医療法人　健進会　井上整形外科,座間市入谷西四丁目2番6号,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2305023/5/0
+new_facility,2,神奈川県,医療法人　健進会　井上整形外科,座間市入谷西四丁目2番6号,変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2305022/5/0
+new_facility,3,神奈川県,医療法人光耀会　菊地眼科クリニック,川崎市幸区下平間152-3,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織再生治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2409021/5/0
+new_facility,2,神奈川県,医療法人博桜会　たなべ整形外科　せぼね・骨粗しょう症クリニック,横浜市緑区十日市場町819-13,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410058/5/0
+new_facility,2,神奈川県,医療法人博桜会　たなべ整形外科　せぼね・骨粗しょう症クリニック,横浜市緑区十日市場町819-13,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた腰痛症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410057/5/0
+new_facility,3,神奈川県,医療法人宝円会　湘南つつじ整形外科,茅ヶ崎市萩園２３９３番地３　２F,自己多血小板血漿(PRP)を用いた筋肉、腱、靱帯、筋膜（関節外の軟部組織）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406054/5/0
+new_facility,2,神奈川県,医療法人徳洲会　湘南鎌倉人工関節センター,鎌倉市台5-4-17,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604006/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604006/5/1
+new_facility,3,神奈川県,医療法人徳洲会　湘南鎌倉総合病院,鎌倉市岡本1370番1,自家多血小板血漿（PRP:Platelet Rich Plasma）を用いた靭帯、腱及び腱付着部の炎症、筋挫傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2607029/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2607029/5/1
+new_facility,2,神奈川県,医療法人愛仁会　太田総合病院,川崎市川崎区日進町1-50,多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1912019/5/0
+new_facility,3,神奈川県,医療法人愛仁会　太田総合病院,川崎市川崎区日進町1-50,自己多血小板血漿(PRP)を用いた整形外科領域における軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1910206/5/0
+new_facility,2,神奈川県,医療法人柿生会 渡辺クリニック,川崎市麻生区上麻生7-22-11,多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608038/5/0
+new_facility,2,神奈川県,医療法人横浜未来ヘルスケアシステム　戸塚共立第２病院,横浜市戸塚区吉田町579-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508002/5/1
+new_facility,3,神奈川県,医療法人横浜未来ヘルスケアシステム　戸塚共立第２病院,横浜市戸塚区吉田町579-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508001/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508001/5/1
+new_facility,2,神奈川県,医療法人湘美会 SBC横浜駅前整形外科クリニック,横浜市西区北幸1丁目4－1横浜天理ビル11階,自己脂肪組織由来幹細胞（ASCs）を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508038/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508038/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508038/5/2|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508038/5/3
+new_facility,3,神奈川県,医療法人社団 快晴会　田奈整形外科・外科,横浜市青葉区田奈町15-7　第二東ビル2階,自己多血小板血漿(PRP)を用いた薄毛治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2010033/5/0
+new_facility,3,神奈川県,医療法人社団　嘉徳会　かんクリニック　リウマチ・整形外科,逗子市久木4−2−5 ZEROビル1階・2階・3階,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1912052/5/0
+new_facility,2,神奈川県,医療法人社団　総生会 麻生リハビリ総合病院,川崎市麻生区上麻生6-23-50,多血小板血漿（PRP）による変形性膝関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305018/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305018/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305018/5/2
+new_facility,3,神奈川県,医療法人社団　葵会　AOI国際病院,川崎市川崎区田町2-9-1,整形外科領域におけるPRP（多血小板血漿）療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2104005/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2104005/5/1
+new_facility,2,神奈川県,"医療法人社団アスクレピオス
+ランドマーク横浜国際クリニック","横浜市西区みなとみらい2-2-1
+ランドマークプラザ1階",変形性関節症に対する自己脂肪由来幹細胞を用いた治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2107014/5/0
+new_facility,2,神奈川県,医療法人社団三成会　新百合ヶ丘総合病院,川崎市麻生区古沢都古255,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408062/5/0
+new_facility,3,神奈川県,医療法人社団三成会　新百合ヶ丘総合病院,川崎市麻生区古沢都古255,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408063/5/0
+new_facility,2,神奈川県,医療法人社団三穂会　三宅整形外科小児科クリニック,横須賀市浦賀5-2-3,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411084/5/0
+new_facility,3,神奈川県,医療法人社団三穂会　三宅整形外科小児科クリニック,横須賀市浦賀5-2-3,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411085/5/0
+new_facility,2,神奈川県,"医療法人社団優洸会
+相模大野整形・形成外科","相模原市南区相模大野3-11-5
+KAJIYA第2ビル4F、5F",多血小板血漿を用いた変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303044/5/0
+new_facility,2,神奈川県,"医療法人社団優洸会
+相模大野整形・形成外科","相模原市南区相模大野3-11-5
+KAJIYA第2ビル4F、5F",自家培養脂肪由来幹細胞を用いた変形性膝関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303043/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303043/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303043/5/2
+new_facility,3,神奈川県,医療法人社団快晴会　田奈整形外科・外科,横浜市青葉区田奈町15-7 第二東ビル2階,自家多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2008023/5/0
+new_facility,2,神奈川県,医療法人社団快晴会　田奈整形外科・外科,横浜市青葉区田奈町15-7 第二東ビル2階,自家多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2009074/5/0
+new_facility,2,神奈川県,医療法人社団快晴会　田奈整形外科・外科,横浜市青葉区田奈町15-7 第二東ビル2階,自家脂肪組織由来幹細胞（ASC）の投与による関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2504042/5/0
+new_facility,2,神奈川県,医療法人社団慈誠会　神人整形外科クリニック,"横浜市中区伊勢佐木町６－１４６
+ストーク伊勢佐木六番館１Ｆ",多血小板血漿（PRP）による変形性膝関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305019/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305019/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305019/5/2
+new_facility,3,神奈川県,医療法人社団明和会　亀田病院,横浜市西区御所山町77番地,自己多血小板血漿（PRP)を用いた、筋・腱・靭帯への軟部組織再生療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604080/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604080/5/1
+new_facility,2,神奈川県,医療法人社団明和会　亀田病院,横浜市西区御所山町77番地,関節炎・変形性関節症の自己多血小板血漿（PRP）治療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2103001/5/0
+new_facility,3,神奈川県,医療法人社団栄親会　横浜整形外科クリニック,横浜市西区岡野二丁目5番18号2F,自己多血小板血漿（PRP)を用いた、筋・腱・靭帯の軟部組織再生療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2111004/5/0
+existing_facility_new_plan,3,神奈川県,医療法人社団梅沢医院　梅沢整形外科,横浜市旭区東希望が丘77-2,多血小板血漿を用いた再生医療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1906040/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1906040/5/1
+existing_facility_new_plan,3,神奈川県,医療法人社団梅沢医院　梅沢整形外科,横浜市旭区東希望が丘77-2,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2209020/5/0
+new_facility,2,神奈川県,医療法人社団活寿会 横浜ひざ関節症クリニック,横浜市西区北幸1-1-8 エキニア横浜8F 802A,脂肪組織由来幹細胞（ASC）の投与による関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603036/5/0
+new_facility,3,神奈川県,医療法人社団皆吉会プライムコーストみなとみらいクリニック,横浜市西区みなとみらい６丁目３−４　プライムコーストみなとみらい　２Ｆ,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2504061/5/0
+new_facility,3,神奈川県,医療法人社団総生会 麻生総合病院,川崎市麻生区上麻生６－２５－１,自己多血小板血漿（Platelet-rich plasma：PRP）を用いた、筋腱付着部炎・筋損傷・靭帯損傷の治癒促進,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2001097/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2001097/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2001097/5/2
+new_facility,2,神奈川県,"医療法人社団耀風会
+仲野整形外科スポーツ・ウェルネスクリニック",藤沢市鵠沼神明5丁目14-15,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411083/5/0
+new_facility,3,神奈川県,"医療法人社団耀風会
+仲野整形外科スポーツ・ウェルネスクリニック",藤沢市鵠沼神明5丁目14-15,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410043/5/0
+new_facility,2,神奈川県,医療法人社団豊葉会　ザ・ヨコハマフロント・ベイサイドクリニック,横浜市神奈川区鶴屋町1丁目41 ザ・ヨコハマフロント3階,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0
+new_facility,3,神奈川県,医療法人社団豊葉会　ザ・ヨコハマフロント・ベイサイドクリニック,横浜市神奈川区鶴屋町1丁目41 ザ・ヨコハマフロント3階,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0
+existing_facility_new_plan,3,神奈川県,医療法人緑樹会　あおば整形外科,横浜市青葉区しらとり台１番地１２　グリーングラスビル,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2310079/5/0
+new_facility,3,神奈川県,医療法人誠仁会　誠友クリニック,横浜市中区山下町224-2　パークポイント山下町　1F,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2405046/5/0
+existing_facility_new_plan,3,神奈川県,医療法人野球医学ベースボール＆スポーツクリニック,川崎市中原区小杉町2丁目228番地1パークシティ武蔵小杉ザガーデンタワーズウエスト１階W４,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2412055/5/0
+new_facility,2,神奈川県,医療法人順正会　横浜鶴ヶ峰病院付属予防医療クリニック,横浜市旭区鶴ヶ峰2-82-1 ココロットつるがみね5階,変形性膝関節症（OA）に対する多血小板血漿（自家PRP）治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2006014/5/0
+new_facility,2,神奈川県,医療法人颯成会　さいとう整形クリニック,横須賀市吉井2丁目3番3号,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605035/5/0
+new_facility,2,神奈川県,原整形外科医院,横浜市南区弘明寺町268,多血小板血漿（PRP）による変形性膝関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2412021/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2412021/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2412021/5/2
+new_facility,3,神奈川県,吉野整形外科,横浜市神奈川区大口通56-5 大口メディカルセンター1F,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2606029/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2606029/5/1
+new_facility,2,神奈川県,吉野整形外科,横浜市神奈川区大口通56-5 大口メディカルセンター1F,自家多血小板血漿（PRP）を用いた関節内組織損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2606028/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2606028/5/1
+new_facility,3,神奈川県,国家公務員共済組合連合会　横浜南共済病院,神奈川県横浜市金沢区六浦東1-21-1,自家多血小板血漿（PRP）を用いた腱付着部炎・腱障害・筋損傷・靭帯損傷（関節外に限る）治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2411039/5/0
+new_facility,3,神奈川県,小田原市立病院,小田原市久野46番地,多血小板血漿を用いた筋腱炎の治療（Arthrex社製）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502024/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502024/5/1
+new_facility,2,神奈川県,山下公園スパインクリニック,横浜市中区山下町30-1　パークコート山下公園２階,自家多血小板血漿（PRP）を用いた変形性関節症及び関節腔内の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2602044/5/0
+new_facility,3,神奈川県,山下公園スパインクリニック,横浜市中区山下町30-1　パークコート山下公園２階,自家多血小板血漿（PRP）を用いた筋腱付着部およびスポーツ傷害（筋・腱・靭帯）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603016/5/0
+existing_facility_new_plan,2,神奈川県,弘明寺整形外科リハビリテーションクリニック,横浜市南区六ツ川1-81 FHCビル3階,"自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた
+慢性関節炎の治療（関節内組織）",PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2502023/5/0
+new_facility,3,神奈川県,横浜市立大学附属病院,横浜市金沢区福浦3−９,自家多血小板血漿(PRP)を用いた腱付着部炎・腱障害・筋損傷・靭帯損傷(関節外に限る)治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2411019/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2411019/5/1
+new_facility,2,神奈川県,横浜市立市民病院,横浜市神奈川区三ツ沢西町１番１号,自家多血小板血漿（Platelet-rich plasma :PRP）を用いた変形性関節症に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606088/5/0
+existing_facility_new_plan,3,神奈川県,横浜駅前さいとう整形外科・スポーツクリニック,横浜市神奈川区鶴屋町2-11-8 第8安田ビル（メディカルスクエア鶴屋町）2F,自己多血小板血漿（PRP）を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2604046/5/0
+new_facility,3,神奈川県,横浜鶴ヶ峰病院付属予防医療クリニック,神奈川県横浜市旭区鶴ヶ峰2-82-1ココロットつるがみね5階,自家多血小板血漿（PRP）投与によるスポーツ外傷を含む筋肉、腱、靭帯損傷及び慢性炎症の治療(関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206044/5/0
+existing_facility_new_plan,3,神奈川県,横濱松宮整形外科リハビリテーションクリニック,横浜市中区曙町2-19-1　曙町新井ビル1F,多血小板血漿（PRP）を用いた筋腱付着部炎、筋腱炎、靭帯損傷（関節外に限る）治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1911221/5/0
+existing_facility_new_plan,2,神奈川県,横濱松宮整形外科リハビリテーションクリニック,横浜市中区曙町2-19-1　曙町新井ビル1F,脊髄損傷、および難治性脊髄症に対する自己脂肪由来間葉系幹細胞の静脈投与治療,脂肪由来幹細胞,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603072/5/0
+new_facility,2,神奈川県,横須賀市立市民病院,横須賀市長坂1-3-2,多血小板血漿（PRP）を用いた変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2508002/5/0
+new_facility,3,神奈川県,武蔵小杉整形外科,川崎市中原区小杉町1－403　武蔵小杉タワープレイス2階,自己多血小板血漿（Platelet Rich Plasma: PRP)を用いた結合組織修復療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1905075/5/0
+new_facility,3,神奈川県,池田整形外科 形成外科・美容外科,横浜市旭区本村町101番地第7パレス桜咲2階,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2512016/5/0
+new_facility,2,神奈川県,池田整形外科 形成外科・美容外科,横浜市旭区本村町101番地第7パレス桜咲2階,変形性関節症を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2512015/5/0
+existing_facility_new_plan,3,神奈川県,湘南台まつえ整形外科・内科・リハビリテーションクリニック,神奈川県藤沢市湘南台一丁目４番地２ピノスビル２F,PRP(多血小板血漿Platelet Rich Plasma)を用いた育毛を目的とした再生医療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509009/5/0
+new_facility,3,神奈川県,特定医療法人 社団育成社 佐々木病院,横浜市鶴見区下末吉1-13-8,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織整形外科的治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1911192/5/0
+existing_facility_new_plan,3,神奈川県,相模原協同病院,相模原市緑区橋本台4-3-1,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2412016/5/0
+new_facility,3,神奈川県,社会福祉法人恩賜財団済生会　横浜市東部病院,横浜市鶴見区下末吉三丁目６番１号,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2607021/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2607021/5/1
+new_facility,2,神奈川県,社会福祉法人聖隷福祉事業団　聖隷横浜病院,横浜市保土ケ谷区岩井町２１５,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2210001/5/0
+new_facility,2,神奈川県,羽沢よこはま国大整形外科リウマチ科・関節鏡クリニック,横浜市神奈川区羽沢南2-44-7 HAZAAR 4階,自家多血小板血漿（PRP）を用いた変形性関節症及び関節腔内の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503019/5/0
+new_facility,3,神奈川県,羽沢よこはま国大整形外科リウマチ科・関節鏡クリニック,神奈川県横浜市神奈川区羽沢南2-44-7 HAZAAR 4階,自家多血小板血漿（PRP）を用いた筋腱付着部およびスポーツ障害（筋・腱・靭帯）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504013/5/0
+new_facility,3,神奈川県,金沢八景整形外科,"横浜市金沢区六浦1-14-12
+金沢八景国際コミュニティプラザ1階104号",自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2403005/5/0
+new_facility,2,神奈川県,金沢八景整形外科,"横浜市金沢区六浦1-14-12
+金沢八景国際コミュニティプラザ1階104号",自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2403006/5/0
+new_facility,2,神奈川県,開成くさやま整形外科リハビリクリニック,足柄上郡開成町みなみ4-5-7,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504023/5/0
+new_facility,3,神奈川県,開成くさやま整形外科リハビリクリニック,神奈川県足柄上郡開成町みなみ4-5-7,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504024/5/0
+new_facility,3,神奈川県,黒河内整形外科プラウドタワー相模大野クロスクリニック,相模原市南区相模大野4丁目4番3号201,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2604032/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2604032/5/1
+new_facility,2,神奈川県,黒河内整形外科プラウドタワー相模大野クロスクリニック,相模原市南区相模大野4丁目4番3号201,変形性関節症を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603054/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603054/5/1
+new_facility,2,福岡県,Tenjin Toya Clinic,福岡市中央区渡辺通五丁目24番32号 FPG links TENJIN MINAMI 5階,変形性関節症に対する微小細断脂肪組織片を用いた疼痛緩和治療,MFAT,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2508005/5/0
+new_facility,2,福岡県,Tenjin Toya Clinic,福岡市中央区渡辺通五丁目24番32号　FPG links TENJIN MINAMI 5階,変形性関節症に対する脂肪組織由来幹細胞移植治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2506020/5/0
+new_facility,2,福岡県,Tenjin Toya Clinic,福岡市中央区渡辺通五丁目24番32号　FPG links TENJIN MINAMI 5階,多血小板血漿（PRP）を用いた変形性関節症・関節炎治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2508001/5/0
+new_facility,3,福岡県,Tenjin Toya Clinic,福岡市中央区渡辺通五丁目24番32号　FPG links TENJIN MINAMI 5階,多血小板血漿（PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2508002/5/0
+new_facility,3,福岡県,とも整形外科スポーツクリニック,福岡市博多区豊1丁目4番32号,自家多血小板血漿(PRP)を用いた腱付着部炎・腱障害・筋 損傷・靭帯損傷(関節腔外に限る)治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G1906001/5/0
+new_facility,2,福岡県,ガーデンクリニック 福岡院,福岡市中央区大名一丁目15番35号 247ビル5階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2408001/5/0
+new_facility,3,福岡県,ガーデンクリニック 福岡院,福岡市中央区大名一丁目15番35号 247ビル5階,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2105006/5/0
+new_facility,2,福岡県,シンセルクリニック福岡院,福岡市博多区博多駅前２丁目５−９ 歯臓ビル 3F,自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2604009/5/0
+new_facility,2,福岡県,セルメディカルチームジャパン,"福岡市博多区博多駅前3丁目30-15
+ライオンズマンション博多1階",脂肪組織由来再生（幹）細胞（ADRC)を用いた変形性関節症に対する治療,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2411009/5/0
+new_facility,2,福岡県,ヴィヴィアン美容クリニック,福岡市中央区大名2-6-39 ジラソーレビル8F,自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2310004/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2310004/5/1
+new_facility,2,福岡県,"一般社団法人センチュリー再生医療機構
+ザ センチュリークリニック",朝倉市板屋2番地1,脂肪組織由来再生(幹)細胞を含む間質血管細胞群(SVF)を用いた変形性関節症に対する治療(LipoCube版),SVF,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2604007/5/0
+new_facility,2,福岡県,"一般社団法人センチュリー再生医療機構 
+ザ センチュリークリニック",朝倉市板屋2番地1,自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2603007/5/0
+new_facility,2,福岡県,医療法人 おおしま整形外科,朝倉市甘木2072-1,自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2201001/5/0
+new_facility,2,福岡県,医療法人 おおしま整形外科,朝倉市甘木2072-1,自己脂肪由来幹細胞を用いた慢性疼痛の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2201004/5/0
+new_facility,3,福岡県,医療法人 同信会 福岡整形外科病院,福岡市南区柳河内2-10-50,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2504004/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2504004/5/1
+new_facility,2,福岡県,医療法人 同信会 福岡整形外科病院,福岡市南区柳河内2-10-50,多血小板血漿（PRP）の投与による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2503005/5/0
+new_facility,2,福岡県,医療法人 桜康会 三宮整形外科医院,久留米市諏訪野町１７７５－２,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2302003/5/0
+new_facility,3,福岡県,医療法人 桜康会 三宮整形外科医院,久留米市諏訪野町１７７５－２,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2302004/5/0
+new_facility,3,福岡県,医療法人NEO まなべ整形外科クリニック,福岡市西区愛宕4丁目14-22,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2505004/5/0
+new_facility,2,福岡県,医療法人Yanaga CLinic,"福岡市中央区天神1-2-12
+メットライフ天神ビル3F",軟骨、骨の組織欠損、変形、又は低形成に対する自家培養軟骨細胞移植,その他MSK,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2002005/5/0
+new_facility,2,福岡県,医療法人　南川整形外科病院,福岡市西区姪の浜4丁目14-17,自家培養脂肪由来幹細胞を用いた変形性膝関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2211003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2211003/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2211003/5/2
+new_facility,2,福岡県,医療法人　同信会　福岡整形外科病院,福岡市南区柳河内2-10-50,自家滑膜幹細胞注射による変形性膝関節症治療,滑膜幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2412004/5/0
+new_facility,2,福岡県,医療法人おおしま整形外科,朝倉市甘木2072-1,多血小板血漿を用いた変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2103003/5/0
+new_facility,2,福岡県,医療法人かつの整形外科リハビリテーション科,福岡市西区福重4丁目7-6　2F,多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2101003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2101003/5/1
+new_facility,3,福岡県,医療法人かつの整形外科・リハビリテーション科,福岡市西区福重4丁目7-6　2F,多血小板血漿（Platelet-rich plasma：PRP）を用いた筋、腱、靭帯損傷、肩腱板損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2101004/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2101004/5/1
+new_facility,3,福岡県,医療法人オアシス　福岡志恩病院,小郡市美鈴が丘一丁目５番３,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G1909002/5/0
+new_facility,2,福岡県,医療法人オアシス　福岡志恩病院,小郡市美鈴が丘一丁目５番３,多血小板血漿（PRP）を用いた変形性関節症の疼痛緩和,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G1909003/5/0
+new_facility,2,福岡県,医療法人一寿会西尾病院,直方市津田町9番38号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2202004/5/0
+new_facility,3,福岡県,医療法人一寿会西尾病院,直方市津田町9番38号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2011006/5/0
+new_facility,3,福岡県,医療法人前川整形外科医院,北九州市八幡西区浅川学園台3-10-8,多血小板血漿(platelet rich plasma)治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G1904001/5/0
+new_facility,3,福岡県,"医療法人博仁会
+福岡リハ西都クリニック スポーツ・整形外科",福岡市西区北原2-8-13,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2404011/5/0
+new_facility,2,福岡県,"医療法人博仁会
+福岡リハ西都クリニック スポーツ・整形外科",福岡市西区北原2-8-13,変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2404010/5/0
+new_facility,2,福岡県,医療法人大獅会畠山整形外科スポーツクリニック,北九州市小倉北区上到津4-24-24,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2604001/5/0
+new_facility,2,福岡県,"医療法人斉良会
+うらはし整形外科クリニック",北九州市八幡西区下上津役4-13-10,多血小板血漿を用いた変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2401010/5/0
+new_facility,3,福岡県,医療法人松口整形外科クリニック,福岡市早良区西新4丁目9-35　真栄ビル3F,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2605022/5/0
+new_facility,3,福岡県,"医療法人社団　天翠会
+きよみず整形外科クリニック",北九州市小倉北区清水３−６−１６,多血小板血漿を用いた整形外科疾患に対する組織修復治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2508013/5/0
+new_facility,2,福岡県,"医療法人社団　天翠会
+きよみず整形外科クリニック",北九州市小倉北区清水３−６−１６,多血小板血漿を用いた整形外科疾患に対する関節内治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2412004/5/0
+new_facility,2,福岡県,医療法人社団ウェルエイジング　Dクリニック福岡,福岡市中央区天神1-12-7　福岡ダイヤモンドビル9F,慢性関節炎に対する自己脂肪由来幹細胞を用いた治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2605015/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2605015/5/1
+new_facility,2,福岡県,医療法人社団サンセール会　SCクリニック福岡,福岡市東区松島6丁目14番12号,自家脂肪由来間葉系幹細胞を用いた変形性膝関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2002004/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2002004/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2002004/5/2|https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2002004/5/3|https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2002004/5/4
+new_facility,2,福岡県,"医療法人社団千美会
+ガーデンクリニック 福岡院","福岡市中央区大名1-15-35
+大名247ビル5F",自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2110013/5/0
+new_facility,2,福岡県,"医療法人社団活寿会
+福岡ひざ関節症クリニック",福岡市中央区天神三丁目16番24号 ハーツ天神7階,自家脂肪組織由来幹細胞（ASC）の投与による関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2601006/5/0
+new_facility,2,福岡県,医療法人社団活寿会　福岡ひざ関節症クリニック,福岡市中央区天神三丁目16番24号 ハーツ天神7階,自家脂肪組織由来幹細胞（ASC）の局所投与による変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2606004/5/0
+new_facility,2,福岡県,医療法人福岡聖友会福岡セントフレンズクリニック,福岡市中央区地行浜2-2-3ヒルトン福岡シーホーク4F,自己脂肪組織由来間葉系幹細胞による変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2606005/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2606005/5/1
+new_facility,3,福岡県,医療法人秀英会　新庄整形外科医院,北九州市若松区東二島4-4-1,PRP（自家多血小板血漿抽出液)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2502011/5/0
+new_facility,2,福岡県,医療法人秀英会　新庄整形外科医院,北九州市若松区東二島4-4-1,PRP（自家多血小板血漿抽出液）を用いた慢性関節炎の治療（関節内組織）,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2502010/5/0
+new_facility,2,福岡県,医療法人笑運舎　戸畑駅Fプラス整形外科,北九州市戸畑区汐井町1-1 戸畑駅2F,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2506018/5/0
+new_facility,3,福岡県,医療法人笑運舎　戸畑駅Fプラス整形外科,北九州市戸畑区汐井町1-1 戸畑駅2F,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2506019/5/0
+new_facility,2,福岡県,医療法人聖慈会福岡MSC医療クリニック,福岡市中央区天神2丁目4番11号 パシフィーク天神6階,自己脂肪組織由来間葉系幹細胞を用いた膝関節治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2606003/5/0
+new_facility,3,福岡県,医療法人鷹ノ羽会　村上外科病院,田川市魚町１２番５号,自己血由来多血小板血漿を用いた靱帯付着部炎および腱炎の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G1907028/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02G1907028/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/02G1907028/5/2
+new_facility,2,福岡県,学校法人 国際志学園　ZERO100クリニック,北九州市小倉北区馬借1-1-2,変形性関節症に対する多血小板血漿（PRP）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2603002/5/0
+new_facility,2,福岡県,後藤整形外科医院,福岡市中央区鳥飼１丁目５−４５鳥飼中央ビル１Ｆ,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G1908006/5/0
+new_facility,3,福岡県,松股会OZUMIクリニック,北九州市小倉南区長行東2-14-11,先天性、外傷、老化などによる組織の変形、萎縮性疾患に対する多血小板血漿を用いた再生医療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2503002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2503002/5/1
+existing_facility_new_plan,3,福岡県,櫛田学整形外科クリニック,糸島市波多江268番4,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2108002/5/0
+new_facility,2,福岡県,産業医科大学若松病院,北九州市若松区浜町1-17-1,整形外科領域における多血小板血漿(PRP)療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2403003/5/0
+new_facility,3,福岡県,産業医科大学若松病院,北九州市若松区浜町1-17-1,整形外科領域における多血小板血漿(PRP)療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2403004/5/0
+new_facility,2,福岡県,産業医科大学若松病院,北九州市若松区浜町1-17-1,自家滑膜幹細胞注射による変形性膝関節症治療,滑膜幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2503002/5/0
+new_facility,3,福岡県,社会医療法人北九州病院　北九州総合病院,北九州市小倉北区東城野町１番１号,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2509011/5/0
+new_facility,2,福岡県,社会医療法人北九州病院　北九州総合病院,北九州市小倉北区東城野町１番１号,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2509010/5/0
+new_facility,2,福岡県,社会医療法人財団池友会　新小文字病院,北九州市門司区大里新町２－５,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2401007/5/0
+new_facility,3,福岡県,社会医療法人財団池友会　新小文字病院,北九州市門司区大里新町２－５,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2401006/5/0
+new_facility,2,福島県,公益財団法人ときわ会 常磐病院,いわき市常磐上湯長谷町上ノ台57,自己多血小板血漿（Platelet-rich plasma : PRP）療法を用いた関節炎・変形性関節症の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2505001/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2505001/5/1
+new_facility,2,福島県,公立藤田総合病院,伊達郡国見町大字塚野目字三本木14,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2502002/5/0
+new_facility,3,福島県,公立藤田総合病院,伊達郡国見町大字塚野目字三本木14,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2502003/5/0
+new_facility,3,福島県,医療法人なこそ整形外科クリニック,いわき市勿来町窪田町通２－５７－１,自家多血小板血漿（PRP）を用いた筋、腱、靭帯損傷、肩腱板損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2103002/5/0
+new_facility,2,福島県,医療法人なこそ整形外科クリニック,いわき市勿来町窪田町通２－５７－１,自家多血小板血漿（PRP）を用いた関節内疾患に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2103001/5/0
+new_facility,3,群馬県,あさくらスポーツリハビリテーションクリニック,前橋市朝倉町２４９－１,下肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿(自家PRP)注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2104018/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2104018/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2104018/5/2
+existing_facility_new_plan,2,群馬県,ぐんまスポーツ整形外科,前橋市宮地町57-2,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2203026/5/0
+new_facility,2,群馬県,医療法人KOSSMOS会 剣持整形外科,太田市東本町42-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2503032/5/0
+new_facility,2,群馬県,医療法人KOSSMOS会 剣持整形外科,太田市東本町42-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科手術（骨・関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2108030/5/0
+new_facility,3,群馬県,医療法人KOSSMOS会剣持整形外科,太田市東本町42-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2503028/5/0
+new_facility,3,群馬県,医療法人山本整形外科医院,前橋市西片貝町1-200,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206015/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206015/5/1
+new_facility,2,群馬県,医療法人山本整形外科医院,前橋市西片貝町1-200,変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206014/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206014/5/1
+new_facility,2,群馬県,医療法人石井会　石井病院,伊勢崎市波志江１１５２,変形性関節症に対する自己脂肪組織由来間葉系前駆細胞移植による治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1910156/5/0
+existing_facility_new_plan,3,群馬県,医療法人社団善衆会　善衆会病院,前橋市笂井町54番地１,多血小板血漿（PRP）を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2407023/5/0
+new_facility,3,群馬県,医療法人秀躍会　もぎ整形外科クリニック,高崎市井野町800－11,四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2207023/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2207023/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2207023/5/2
+new_facility,2,群馬県,医療法人秀躍会　もぎ整形外科クリニック,高崎市井野町800－11,変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2207022/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2207022/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2207022/5/2
+new_facility,3,群馬県,慶友整形外科クリニック,館林市羽附町1741,小白血球多血小板血漿（leukocyte poor PRP：LP-PRP）を用いた膝蓋腱炎、上腕骨外側顆炎、腱板炎、足底筋膜炎、靭帯損傷、腱鞘炎の修復,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1910017/5/0
+new_facility,2,群馬県,慶友整形外科クリニック,館林市羽附町1741,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた関節内組織損傷に対する治療,PRP,False,False,,,,1,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1906015/5/0
+new_facility,3,群馬県,慶友整形外科クリニック,館林市羽附町1741,高白血球多血小板血漿（leukocyte rich PRP：LR-PRP）を用いた膝蓋腱炎、上腕骨外側顆炎、腱板炎、足底筋膜炎、靭帯損傷、腱鞘炎の修復,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2304008/5/0
+new_facility,2,群馬県,石井病院,伊勢崎市波志江町１１５２,変形性関節症に対する自己脂肪・滑膜由来培養間葉系幹細胞の関節内投与療法,滑膜幹細胞/脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2412022/5/0
+new_facility,3,群馬県,社会医療法人慶友会　慶友整形外科クリニック,館林市羽附町1741,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605018/5/0
+existing_facility_new_plan,3,茨城県,すずらん整形＆ラボ,つくば市東平塚７２７－１,自家多血小板血漿(Platelet-rich plasma：PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407019/5/0
+new_facility,3,茨城県,アントラーズスポーツクリニック,鹿嶋市神向寺後山26-2,四肢の靱帯、筋腱付着部およびスポーツ傷害（筋・腱・靭 帯）を対象とした自己多血小板血漿注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2311002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2311002/5/1
+new_facility,2,茨城県,アントラーズスポーツクリニック,鹿嶋市神向寺後山26-2,変形性関節症及び関節腔を対象とした自家多血小板血漿注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2311001/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2311001/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2311001/5/2
+new_facility,2,茨城県,"医療法人ここの実会
+嶋崎病院",日立市会瀬町３丁目２３番１号,多血小板血漿（PRP）による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305020/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305020/5/1|https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305020/5/2
+existing_facility_new_plan,3,茨城県,医療法人健佑会いちはら病院,つくば市大曽根3681,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603010/5/0
+existing_facility_new_plan,3,茨城県,医療法人社団　筑波記念会　筑波記念病院,茨城県つくば市要1187-299,自家多血小板血漿（PRP）を用いた腱付着部炎・腱障害・筋損傷・靭帯損傷（関節外に限る）治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2408099/5/0
+existing_facility_new_plan,2,茨城県,医療法人社団　筑波記念会　筑波記念病院,茨城県つくば市要1187-299,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた関節内組織損傷に対する治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2409071/5/0
+new_facility,3,長崎県,チカラ整形外科スポーツリウマチクリニック,諫早市新道町68-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2311007/5/0
+existing_facility_new_plan,3,長崎県,医療法人増田整形外科,佐世保市高砂町４－２１,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G1906006/5/0
+new_facility,2,長崎県,医療法人山口整形外科医院,長崎市中川1-8-3,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2204002/5/0
+new_facility,3,長崎県,医療法人愛健会　愛健医院,佐世保市上本山町1059番地,関節周囲炎に対する自家多血小板血漿(PRP)を利用した軟組織の再生医療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2201008/5/0
+new_facility,2,長崎県,社会医療法人財団白十字会　佐世保中央病院,佐世保市大和町１５番地,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2305005/5/0
+existing_facility_new_plan,3,長野県,医療法人仁雄会　穂高病院,安曇野市穂高4634,自家多血小板血漿（PRP）を用いた筋腱付着部およびスポーツ傷害（筋・腱・靭帯）の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507003/5/0
+existing_facility_new_plan,3,長野県,長野整形外科クリニック,長野市吉田5丁目26-23,⾃家多⾎⼩板⾎漿（Platelet-rich plasma：PRP）を⽤いた筋⾁、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503072/5/0
+existing_facility_new_plan,2,長野県,長野県立信州医療センター,須坂市大字須坂1332,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2606029/5/0
+new_facility,2,青森県,八戸平和病院,八戸市湊高台二丁目4-6,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02B2511001/5/0
+new_facility,2,青森県,医療法人なかざわ整形外科　なかざわスポーツクリニック,八戸市新井田字館下1番地,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2601001/5/0
+new_facility,3,青森県,医療法人なかざわ整形外科　なかざわスポーツクリニック,八戸市新井田字館下1番地,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2601002/5/0
+new_facility,2,青森県,"医療法人健章会
+あおもりベイクリニック","青森市長島1丁目6-6
+CROSS TOWER A-BAY3F",自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2411002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2411002/5/1
+new_facility,3,青森県,"医療法人健章会
+あおもりベイクリニック","青森市長島1丁目6-6
+CROSS TOWER A-BAY3F",自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2411001/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2411001/5/1
+new_facility,2,青森県,"医療法人健章会
+あおもりベイクリニック","青森市長島1丁目6-6
+CROSS TOWER A-BAY3F",自家脂肪由来幹細胞を用いた変形性関節症治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2411003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2411003/5/1
+new_facility,3,青森県,弘前大学医学部附属病院,弘前市本町５３,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた腱付着部炎・腱障害・筋損傷・関節外靭帯損傷治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2607016/5/0
+new_facility,2,青森県,弘前大学医学部附属病院,弘前市本町５３,自家多血小板血漿（Arthrex ACP Double Syringe Systemにより作製）、自家多血小板血漿（ACP MAX PRPシステムにより作製）、または自家多血小板血漿（Angel cPRPシステムにより作製）＋ヒアルロン酸併用療法を用いた関節内組織損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2607015/5/0
+new_facility,2,青森県,弘前大学医学部附属病院,弘前市本町５３,自家多血小板血漿（Platelet-rich plasma:PRP）を用いた関節内組織損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03B2606001/5/0
+existing_facility_new_plan,3,静岡県,ばんどう整形外科・ファミリークリニック,掛川市成滝480-5,自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2507005/5/0
+existing_facility_new_plan,3,静岡県,みしま痛み＆リハビリクリニック,三島市広小路町9番16号クボタビル1階,自己多血小板血漿(PRP)を用いた筋・腱・靭帯の損傷及び慢性炎症に対する治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2511004/5/0
+existing_facility_new_plan,3,静岡県,伊豆高原メディカル　たかやなぎ整形外科,伊東市八幡野1191-6,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02D2403002/5/0
+new_facility,3,静岡県,医療法人社団志隆　ふくだ整形外科リウマチ科,静岡市葵区昭府2丁目18-38,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2504008/5/0
+existing_facility_new_plan,3,静岡県,医療法人社団明徳会 十全記念病院,浜松市浜名区小松1700,多血小板血漿(PRP)の投与によるスポーツ外傷を含む筋、腱、靱帯損傷治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2510005/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2510005/5/1
+new_facility,3,静岡県,医療法人社団薫風会　かわぐち整形外科,富士市水戸島120-3,自己多血小板血漿(PRP)を用いた筋・腱・靭帯等、損傷した運動器組織再生治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2102006/5/0
+existing_facility_new_plan,3,香川県,医療法人弘仁会　三条整形外科スポーツクリニック,高松市三条町482番地1,自己多血小板血漿（ＰＲＰ）を用いた整形外科療法,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2505004/5/0
+existing_facility_new_plan,3,香川県,香川県厚生農業協同組合連合会　屋島総合病院,高松市屋島西町2105番17,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2309003/5/0
+existing_facility_new_plan,3,香川県,高松南整形外科スポーツクリニック,高松市三名町65番,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2203002/5/0
+new_facility,2,高知県,医療法人 高尚会 川田整形外科,土佐市高岡町甲920番地1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2106008/5/0
+new_facility,3,高知県,医療法人 高尚会 川田整形外科,土佐市高岡町甲920番地1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2106009/5/0
+existing_facility_new_plan,3,高知県,医療法人緑風会　海里マリン病院,高知市仁井田１６１７－５,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2505002/5/0
+new_facility,3,高知県,芸西オルソクリニック,安芸郡芸西村和食甲1495-1,自家多血小板血漿(Platelet-rich  plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2106011/5/0
+new_facility,2,高知県,芸西オルソクリニック,安芸郡芸西村和食甲1495-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2106010/5/0
+existing_facility_new_plan,3,鳥取県,鳥取大学医学部附属病院,米子市西町36番地1,自己多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科領域における軟部組織治療,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2509001/5/0
+new_facility,2,鹿児島県,公益社団法人鹿児島共済会南風病院,鹿児島市長田町14-3,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2509002/5/0
+new_facility,3,鹿児島県,公益社団法人鹿児島共済会南風病院,鹿児島市長田町14-3,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2502001/5/0
+new_facility,3,鹿児島県,医療法人　慈圭会　八反丸リハビリテーション病院,鹿児島市下竜尾町3番28号,"自己多血小板血漿(PRP)を用いた筋・腱・靱帯等の軟部組織
+再生治療",PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2405005/5/0
+new_facility,2,鹿児島県,医療法人くすのき会　新門整形外科,薩摩川内市中郷１丁目８番１６号,変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2505018/5/0
+new_facility,3,鹿児島県,医療法人くすのき会　新門整形外科,薩摩川内市中郷１丁目８番１６号,多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2505019/5/0
+new_facility,3,鹿児島県,医療法人クオラ　クオラリハビリテーション病院あいら,姶良市西餅田２３００番地１,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2504002/5/0
+new_facility,2,鹿児島県,医療法人クオラ　クオラリハビリテーション病院あいら,姶良市西餅田２３００番地１,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2504003/5/0
+new_facility,3,鹿児島県,医療法人七徳会 大井病院,姶良市加治木町本町141番地,四肢の筋・腱・靱帯及びその付着部の傷害を対象とした自家多血小板血漿（PRP）注入療法,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2607002/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2607002/5/1
+new_facility,2,鹿児島県,医療法人七徳会 大井病院,姶良市加治木町本町141番地,自家多血小板血漿（PRP）を用いた関節内組織損傷に対する治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2607001/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2607001/5/1
+new_facility,2,鹿児島県,医療法人吉祥会 吉井整形外科内科中央病院,出水市平和町336番地,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2406010/5/0
+new_facility,3,鹿児島県,医療法人吉祥会　吉井整形外科内科中央病院,出水市平和町336番地,自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋 肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療(関節腔外に 限る),PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2404012/5/0
+new_facility,2,鹿児島県,医療法人明正会　今林整形外科病院,指宿市十町352-2,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2412002/5/0
+new_facility,3,鹿児島県,医療法人明正会　今林整形外科病院,指宿市十町352-2,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2412003/5/0|https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2412003/5/1
+new_facility,2,鹿児島県,医療法人術徳会　霧島整形外科クリニック,霧島市国分野口東８－３１,多血小板血漿による変形性関節症治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2106002/5/0
+new_facility,3,鹿児島県,医療法人術徳会　霧島整形外科クリニック,霧島市国分野口東８－３１,多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2106003/5/0
+existing_facility_new_plan,2,鹿児島県,天陽会中央クリニック,鹿児島市泉町16-1,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,True,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2110005/5/0
+new_facility,2,鹿児島県,恒心会おぐら病院,鹿屋市笠之原町２７番２２号,多血小板血漿抽出液による関節症治療,APS/PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2506001/5/0
+new_facility,2,鹿児島県,霧島整形外科クリニック,霧島市国分野口東８－３１,自己脂肪由来幹細胞を用いた変形性関節症の治療,脂肪由来幹細胞,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2107002/5/0
+new_facility,2,鹿児島県,鹿児島中央整形外科スポーツクリニック,鹿児島市中央町24番12号,自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）,PRP,False,False,,,,0,https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2308004/5/0
