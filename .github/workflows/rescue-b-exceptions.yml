@@ -1,0 +1,52 @@
+name: Rescue B exception PDFs
+
+on:
+  workflow_run:
+    workflows: ["Refine B QC with line-level parsing and OCR"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "regen-b-exception-rescue"
+  cancel-in-progress: false
+
+jobs:
+  rescue:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install OCR and Python dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-jpn
+          pip install -r requirements.txt
+      - name: Rescue remaining B exceptions
+        run: |
+          python scripts/rescue_exceptions.py \
+            --results results/b_latest.json \
+            --state results/b_state.json \
+            --csv results/b_prices.csv
+      - name: Commit B rescue results
+        run: |
+          git config user.name "regen-med-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add results/b_state.json results/b_latest.json results/b_prices.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Rescue B exception PDFs [skip ci]"
+            for try in 1 2 3 4 5; do
+              git pull --rebase origin main && git push && exit 0
+              sleep $((try*3))
+            done
+            exit 1
+          fi
