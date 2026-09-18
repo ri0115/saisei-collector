@@ -1,7 +1,7 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T14:22:40.910602+00:00",
+  "updated_at": "2026-09-18T14:22:48.988062+00:00",
   "summary": {
     "total": 335,
     "processed": 335,
@@ -9,7 +9,7 @@
     "auto": 232,
     "qc": 103,
     "fail": 0,
-    "qc_refine_remaining": 1
+    "qc_refine_remaining": 0
   },
   "items": [
     {
@@ -17086,7 +17086,8 @@
       "document_type": "",
       "prices": [],
       "error": "MHLW index row not matched",
-      "qc_reason": "no document URL"
+      "qc_reason": "no document URL; retained as verified-plan QC",
+      "qc_refined_at": "2026-09-18T14:22:48.987662+00:00"
     },
     {
       "plan_id": "P00901",
