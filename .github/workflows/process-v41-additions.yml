@@ -24,16 +24,36 @@ jobs:
   prepare:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    outputs:
+      already_complete: ${{ steps.precheck.outputs.complete }}
     steps:
       - uses: actions/checkout@v6
         with:
           ref: main
+      - name: Check whether v41 collection is already complete
+        id: precheck
+        run: |
+          python - <<'PY'
+          import json,os
+          ok=False
+          try:
+              s=json.load(open("results/v41_additions_summary.json",encoding="utf-8"))
+              ok=(s.get("total")==774 and s.get("processed")==774 and s.get("pending")==0)
+          except Exception:
+              pass
+          with open(os.environ["GITHUB_OUTPUT"],"a") as f:
+              f.write("complete="+("yes" if ok else "no")+"\n")
+          print("already_complete",ok)
+          PY
       - uses: actions/setup-python@v6
+        if: steps.precheck.outputs.complete != 'yes'
         with:
           python-version: "3.12"
       - name: Install queue dependencies
+        if: steps.precheck.outputs.complete != 'yes'
         run: pip install requests beautifulsoup4
       - name: Build exact v41 queue
+        if: steps.precheck.outputs.complete != 'yes'
         run: |
           python scripts/build_v41_queue.py \
             --codes data/v41_addition_codes.txt \
@@ -48,6 +68,7 @@ jobs:
           print("v41 queue verified:",len(q["plans"]))
           PY
       - uses: actions/upload-artifact@v4
+        if: steps.precheck.outputs.complete != 'yes'
         with:
           name: v41-queue
           path: data/queue_v41_additions.json
@@ -55,6 +76,7 @@ jobs:
 
   collect:
     needs: prepare
+    if: needs.prepare.outputs.already_complete != 'yes'
     strategy:
       fail-fast: false
       matrix:
@@ -181,7 +203,8 @@ jobs:
           retention-days: 3
 
   merge:
-    needs: collect
+    needs: [prepare, collect]
+    if: always() && needs.prepare.outputs.already_complete != 'yes' && needs.collect.result == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
