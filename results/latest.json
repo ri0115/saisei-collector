@@ -1,15 +1,15 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T12:21:43.769498+00:00",
+  "updated_at": "2026-09-18T12:22:47.403158+00:00",
   "summary": {
     "total": 216,
     "processed": 216,
     "pending": 0,
-    "auto": 139,
-    "qc": 74,
-    "fail": 3,
-    "qc_refine_remaining": 11
+    "auto": 140,
+    "qc": 72,
+    "fail": 4,
+    "qc_refine_remaining": 10
   },
   "items": [
     {
@@ -10914,12 +10914,13 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:26:53.327468+00:00",
-      "status": "QC",
+      "status": "FAIL",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2402016/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "RuntimeError: Tesseract process timeout",
+      "qc_reason": "document fetch/parse failed"
     },
     {
       "plan_id": "P00832",
@@ -11129,7 +11130,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
       "plan_status": "現行一覧確認済 / MHLW価格文書再監査待ち",
       "checked_at": "2026-09-18T09:26:54.615626+00:00",
-      "status": "QC",
+      "status": "AUTO",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2506026/5/0",
       "document_type": "pdf",
@@ -11138,20 +11139,48 @@
           "amount": 33000,
           "tax": "税込",
           "unit": "",
-          "score": 0,
+          "score": 7,
           "products": [],
-          "excerpt": "療法」は、すべ て自費診療であり、健康保険を使用することはできません。 「自己多血小板血漿(PRP) を用いた運動器組織再生療法」は、治療 に伴う診察、PRP調製のための採血にかかる費用、PRP調製費用、 注射費用の総額となります。 PRPを用いた治療における施術料: 33,000円(税込・10mL採血の場 合) 44,000円(税込・20mL採血 の場合) 治療終了後も定期的な受診が必要です。 期間は注射後1年間を目安に3か月間隔とし、費用は(3)の施術料 に含まれます。 ※治療にかかる費用についてご不明な点は医師・スタッフにお尋ね ください。 健康被害が発生した際の処置と補償等につい"
+          "excerpt": "注射費用の総額となります。 PRPを用いた治療における施術料: 33,000円(税込・10mL採血の場 合) 44,000円(税込・20mL採血 の場合)",
+          "page": 14,
+          "line": "33,000円(税込・10mL採血の場"
         },
         {
           "amount": 44000,
           "tax": "税込",
           "unit": "",
-          "score": 0,
+          "score": 7,
           "products": [],
-          "excerpt": "己多血小板血漿(PRP) を用いた運動器組織再生療法」は、治療 に伴う診察、PRP調製のための採血にかかる費用、PRP調製費用、 注射費用の総額となります。 PRPを用いた治療における施術料: 33,000円(税込・10mL採血の場 合) 44,000円(税込・20mL採血 の場合) 治療終了後も定期的な受診が必要です。 期間は注射後1年間を目安に3か月間隔とし、費用は(3)の施術料 に含まれます。 ※治療にかかる費用についてご不明な点は医師・スタッフにお尋ね ください。 健康被害が発生した際の処置と補償等について この治療に使用する血漿と血小板はあなた本人から採取し、それを 濃縮し、"
+          "excerpt": "PRPを用いた治療における施術料: 33,000円(税込・10mL採血の場 合) 44,000円(税込・20mL採血 の場合) 治療終了後も定期的な受診が必要です。",
+          "page": 14,
+          "line": "合) 44,000円(税込・20mL採血"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T12:22:47.402686+00:00",
+      "prices_refined": [
+        {
+          "amount": 33000,
+          "tax": "税込",
+          "unit": "",
+          "score": 7,
+          "products": [],
+          "excerpt": "注射費用の総額となります。 PRPを用いた治療における施術料: 33,000円(税込・10mL採血の場 合) 44,000円(税込・20mL採血 の場合)",
+          "page": 14,
+          "line": "33,000円(税込・10mL採血の場"
+        },
+        {
+          "amount": 44000,
+          "tax": "税込",
+          "unit": "",
+          "score": 7,
+          "products": [],
+          "excerpt": "PRPを用いた治療における施術料: 33,000円(税込・10mL採血の場 合) 44,000円(税込・20mL採血 の場合) 治療終了後も定期的な受診が必要です。",
+          "page": 14,
+          "line": "合) 44,000円(税込・20mL採血"
+        }
+      ],
+      "qc_reason": "line-level medium price context"
     },
     {
       "plan_id": "P00868",
