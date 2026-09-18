@@ -3,7 +3,7 @@ name: Merge A B C collector results
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Refine C QC with line-level parsing and OCR"]
+    workflows: ["Publish C results to main"]
     types: [completed]
 
 permissions:
