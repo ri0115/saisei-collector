@@ -2,7 +2,7 @@ name: Publish C results to main
 
 on:
   workflow_run:
-    workflows: ["Refine C QC with line-level parsing and OCR"]
+    workflows: ["Rescue C exception PDFs"]
     types: [completed]
   workflow_dispatch:
 
