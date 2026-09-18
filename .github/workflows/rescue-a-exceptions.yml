@@ -1,0 +1,48 @@
+name: Rescue A exception PDFs
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/rescue-a-exceptions.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "regen-a-exception-rescue"
+  cancel-in-progress: false
+
+jobs:
+  rescue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: collector-a-rescue
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install OCR and Python dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-jpn
+          pip install -r requirements.txt
+      - name: Rescue remaining A exceptions
+        run: |
+          python scripts/rescue_exceptions.py \
+            --results results/latest.json \
+            --state results/state.json \
+            --csv results/prices.csv
+      - name: Commit rescue results
+        run: |
+          git config user.name "regen-med-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add results/state.json results/latest.json results/prices.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Rescue A exception PDFs [skip ci]"
+            git push origin HEAD:collector-a-rescue
+          fi
