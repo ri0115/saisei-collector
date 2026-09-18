@@ -5,13 +5,13 @@
   "processed": 216,
   "pending": 0,
   "auto": 137,
-  "qc": 71,
-  "fail": 8,
+  "qc": 73,
+  "fail": 6,
   "phase": "qc_refine",
-  "updated_at": "2026-09-18T12:04:16.083189+00:00",
+  "updated_at": "2026-09-18T12:05:59.520878+00:00",
   "index_counts": {
     "2": 2502,
     "3": 4270
   },
-  "qc_refine_remaining": 27
+  "qc_refine_remaining": 25
 }
