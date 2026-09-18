@@ -1,15 +1,15 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T12:53:20.130508+00:00",
+  "updated_at": "2026-09-18T12:56:09.001673+00:00",
   "summary": {
     "total": 335,
     "processed": 335,
     "pending": 0,
-    "auto": 216,
+    "auto": 217,
     "qc": 99,
-    "fail": 20,
-    "qc_refine_remaining": 59
+    "fail": 19,
+    "qc_refine_remaining": 57
   },
   "items": [
     {
@@ -12740,13 +12740,15 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行厚労省一覧確認済",
       "checked_at": "2026-09-18T11:52:51.736373+00:00",
-      "status": "FAIL",
+      "status": "QC",
       "match_score": 0.9838,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2407015/5/0",
-      "document_type": "pdf",
+      "document_type": "ocr",
       "prices": [],
       "error": "RuntimeError: Tesseract process timeout",
-      "qc_reason": "document fetch/parse failed"
+      "qc_reason": "no price found after text/OCR pass",
+      "qc_refined_at": "2026-09-18T12:56:09.000941+00:00",
+      "prices_refined": []
     },
     {
       "plan_id": "P00456",
@@ -12926,37 +12928,67 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行厚労省一覧確認済",
       "checked_at": "2026-09-18T11:52:52.876051+00:00",
-      "status": "QC",
+      "status": "AUTO",
       "match_score": 0.952,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2104001/5/0",
       "document_type": "pdf",
       "prices": [
-        {
-          "amount": 2000,
-          "tax": "税別",
-          "unit": "",
-          "score": 8,
-          "products": [],
-          "excerpt": "している アレルギーの 可能性 自家移植のため、極めて低い。 品質管理された安全性の 高いものだが、アレルギー 反応などの可能性を完全 には否定できない。 【PRP】1_07_説明文書同意書_済生会奈良病院 費用 100,000 円(税抜) 300,000 円(税抜) 保険適用:2000 円前後/回 (膝関節内投与の場合) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。 施術後、患者様の個人的な事情及び金銭等に関する問題に関しては一切の責を負いかねますのでご 了承ください。 その他治療についての注意事項 患者様の体調が良くない場合や、採取した血液"
-        },
-        {
-          "amount": 100000,
-          "tax": "税別",
-          "unit": "",
-          "score": 8,
-          "products": [],
-          "excerpt": "が ばらつく可能性がある。 医薬品として承認されて おり、品質は安定している アレルギーの 可能性 自家移植のため、極めて低い。 品質管理された安全性の 高いものだが、アレルギー 反応などの可能性を完全 には否定できない。 【PRP】1_07_説明文書同意書_済生会奈良病院 費用 100,000 円(税抜) 300,000 円(税抜) 保険適用:2000 円前後/回 (膝関節内投与の場合) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。 施術後、患者様の個人的な事情及び金銭等に関する問題に関しては一切の責を負いかねますのでご 了承ください。 その他治療についての注意事項"
-        },
         {
           "amount": 300000,
           "tax": "税別",
           "unit": "",
           "score": 8,
           "products": [],
-          "excerpt": "医薬品として承認されて おり、品質は安定している アレルギーの 可能性 自家移植のため、極めて低い。 品質管理された安全性の 高いものだが、アレルギー 反応などの可能性を完全 には否定できない。 【PRP】1_07_説明文書同意書_済生会奈良病院 費用 100,000 円(税抜) 300,000 円(税抜) 保険適用:2000 円前後/回 (膝関節内投与の場合) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。 施術後、患者様の個人的な事情及び金銭等に関する問題に関しては一切の責を負いかねますのでご 了承ください。 その他治療についての注意事項 患者様の"
+          "excerpt": "費用 100,000 円(税抜) 300,000 円(税抜) 保険適用:2000 円前後/回 (膝関節内投与の場合)",
+          "page": 5,
+          "line": "300,000 円(税抜)"
+        },
+        {
+          "amount": 100000,
+          "tax": "税別",
+          "unit": "",
+          "score": 7,
+          "products": [],
+          "excerpt": "【PRP】1_07_説明文書同意書_済生会奈良病院 費用 100,000 円(税抜) 300,000 円(税抜) 保険適用:2000 円前後/回",
+          "page": 5,
+          "line": "100,000 円(税抜)"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T12:55:39.662473+00:00",
+      "prices_refined": [
+        {
+          "amount": 300000,
+          "tax": "税別",
+          "unit": "",
+          "score": 8,
+          "products": [],
+          "excerpt": "費用 100,000 円(税抜) 300,000 円(税抜) 保険適用:2000 円前後/回 (膝関節内投与の場合)",
+          "page": 5,
+          "line": "300,000 円(税抜)"
+        },
+        {
+          "amount": 100000,
+          "tax": "税別",
+          "unit": "",
+          "score": 7,
+          "products": [],
+          "excerpt": "【PRP】1_07_説明文書同意書_済生会奈良病院 費用 100,000 円(税抜) 300,000 円(税抜) 保険適用:2000 円前後/回",
+          "page": 5,
+          "line": "100,000 円(税抜)"
+        },
+        {
+          "amount": 2000,
+          "tax": "税別",
+          "unit": "",
+          "score": 4,
+          "products": [],
+          "excerpt": "100,000 円(税抜) 300,000 円(税抜) 保険適用:2000 円前後/回 (膝関節内投与の場合) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。",
+          "page": 5,
+          "line": "保険適用:2000 円前後/回"
+        }
+      ],
+      "qc_reason": "line-level medium price context"
     },
     {
       "plan_id": "P00454",
