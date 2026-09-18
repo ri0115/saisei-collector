@@ -35,7 +35,7 @@ ALIASES=sorted(ALIASES,key=lambda x:len(x[1]),reverse=True)
 PRODUCT_RE=re.compile("|".join(re.escape(a) for _,a in ALIASES),re.I)
 AMOUNT_RE=re.compile(r"(?<!\d)(\d[\d,\s]*(?:\.\d+)?)\s*(万円|円)")
 ANC_RE=re.compile(r"キャンセル料|キャンセル料金|初診料|再診料|診察料|検査料|血液検査|感染症検査|採血料|保管料|保存料|文書料|証明書|処置費用|装置.*費用|手数料",re.I)
-TREAT_RE=re.compile(r"治療費(?:用)?|施術料|施術料金|治療料金|投与費用|培養費用|総額|単回|片膝|両膝|1本あたり|再移植|軟骨組織採取.*移植|PRP骨髄内注入治療|PRP|APS|ACP|GPS|Angel|Condensia|コンデンシア|PRGF|Endoret|幹細胞培養|細胞投与|1部位|1回",re.I)
+TREAT_RE=re.compile(r"治療費(?:用)?|施術料|施術料金|治療料金|投与費用|培養費用|総額|単回|片膝|両膝|1\\s*本あたり|再移植|軟骨組織採取.*移植|PRP骨髄内注入治療|PRP|APS|ACP|GPS|Angel|Condensia|コンデンシア|PRGF|Endoret|幹細胞培養|細胞投与|1部位|1回",re.I)
 COMPLEX_FEE_RE=re.compile(r"治療費とは別|別途|初診料|再診料|診察料|検査料|検査費用|キャンセル料|キャンセル料金|保管料|保管費用|採取料|処置費用|手数料",re.I)
 RANGE_RE=re.compile(r"[~〜～]")
 
@@ -102,7 +102,7 @@ def nearest_label_before(text,amount):
     for typ,rgx in [("ancillary",ANC_RE),("treatment",TREAT_RE)]:
         for m in rgx.finditer(text[:st]):
             dist=st-m.end()
-            if dist<=90 and (best is None or dist<best[0]):
+            if dist<=140 and (best is None or dist<best[0]):
                 best=(dist,typ,m.group(0))
     return best[1:] if best else None
 
@@ -206,7 +206,7 @@ def normalize_candidate(p,tclass):
             keep=True;why="treatment_label_nearest"
         elif paired:
             keep=True;why="paired_product_price"
-        elif re.search(r"治療費|治療料金|投与費用|培養費用",line,re.I):
+        elif re.search(r"治療費|治療料金|投与費用|培養費用|施術料|施術料金|総額",line,re.I):
             if not stem or amount>=500000:
                 keep=True;why="explicit_treatment_price"
         elif stem and amount>=500000:
@@ -252,9 +252,11 @@ def resolve_qc_item(item,normed):
     if totals:
         return True,totals,"explicit_total_price_block"
 
+    kept_amounts={p.get("amount") for p in kept if p.get("amount") is not None}
     unresolved_high=[
         p for p in scalar
         if (p.get("amount") or 0)>=min_amt
+        and p.get("amount") not in kept_amounts
         and not p.get("postprocess_keep")
         and p.get("postprocess_reason") not in ("ancillary_label_nearest","below_minimum_treatment_price")
     ]
@@ -270,7 +272,8 @@ def resolve_qc_item(item,normed):
     # Mixed fee pages can still be resolved if every high-value amount is classified
     # as either a treatment price or an ancillary fee.
     if complex_fee and kept and not unresolved_high:
-        return True,kept,"treatment_prices_separated_from_ancillary_fees"
+        if not stem or all((p.get("amount") or 0)>=500000 for p in kept):
+            return True,kept,"treatment_prices_separated_from_ancillary_fees"
 
     if complex_fee:
         return False,kept,"multiple_fee_components_needs_review"
@@ -280,7 +283,7 @@ def resolve_qc_item(item,normed):
         labelled_table=all(p.get("postprocess_reason") in ("paired_product_price","treatment_label_nearest","explicit_treatment_price","explicit_prp_product_line","cell_dose_table") for p in kept)
         if product_table:
             return True,kept,"structured_product_price_table"
-        if labelled_table:
+        if labelled_table and (not stem or all((p.get("amount") or 0)>=500000 for p in kept)):
             return True,kept,"structured_treatment_price_table"
 
     if stem and 2<=len(kept)<=12 and not unresolved_high and all((p.get("amount") or 0)>=500000 for p in kept):
@@ -333,7 +336,7 @@ def main():
         reason_counts[item["postprocess_resolution"]]=reason_counts.get(item["postprocess_resolution"],0)+1
 
     summary={
-        "version":"v41-postprocess-1.1",
+        "version":"v41-postprocess-1.2",
         "updated_at":now(),
         "total":len(items),
         "source_auto":sum(1 for x in items if x.get("status_source")=="AUTO"),
@@ -347,7 +350,7 @@ def main():
         "resolution_counts":reason_counts,
     }
 
-    OUT_JSON.write_text(json.dumps({"version":"v41-postprocess-1.1","updated_at":now(),"summary":summary,"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
+    OUT_JSON.write_text(json.dumps({"version":"v41-postprocess-1.2","updated_at":now(),"summary":summary,"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
     OUT_SUM.write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding="utf-8")
 
     cols=["plan_id","mhlw_plan_code","v41_lane","facility_id","prefecture","facility","category","treatment","treatment_class","status_source","status_normalized","postprocess_resolution","document_url","price_type","amount","amount_min","amount_max","tax","unit","products","makers","product_pair_method","postprocess_reason","score","page","excerpt","synthetic_postprocess"]
