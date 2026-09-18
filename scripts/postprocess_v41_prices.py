@@ -9,6 +9,7 @@ OUT_SUM=Path("results/v41_additions_postprocess_summary.json")
 OUT_CSV=Path("results/v41_additions_prices_normalized.csv")
 OUT_WEB=Path("results/v41_official_site_fallback_queue.json")
 OUT_REVIEW=Path("results/v41_complex_price_review_queue.json")
+OVERRIDE_PATH=Path("data/v41_verified_price_overrides.json")
 
 PRODUCT_CANON={
     "GPS III":"GPS","GPSⅢ":"GPS","GPS":"GPS","APS":"APS",
@@ -296,7 +297,11 @@ def resolve_qc_item(item,normed):
 def main():
     data=json.loads(SRC.read_text(encoding="utf-8"))
     items=data.get("items",[])
+    overrides={}
+    if OVERRIDE_PATH.exists():
+        overrides=(json.loads(OVERRIDE_PATH.read_text(encoding="utf-8")).get("plans") or {})
     promoted=0
+    override_promoted=0
     normalized_auto=0
     normalized_qc=0
     normalized_fail=0
@@ -330,6 +335,30 @@ def main():
                 item["status_normalized"]="AUTO"
                 promoted+=1
 
+        ov=overrides.get(item.get("plan_id"))
+        if ov:
+            verified=[]
+            for p in ov.get("prices") or []:
+                product=p.get("product")
+                products=[product] if product else []
+                maker=p.get("maker")
+                makers=[maker] if maker else ([MAKER[product]] if product in MAKER else [])
+                verified.append({
+                    "amount":p.get("amount"),"tax":p.get("tax","不明"),"unit":p.get("unit",""),
+                    "products":products,"makers":makers,"note":p.get("note",""),
+                    "source_url":ov.get("source_url"),"source_type":ov.get("source_type","official_site"),
+                    "verification":"web_verified_official_source","postprocess_keep":True,
+                    "postprocess_reason":"verified_official_override"
+                })
+            if verified:
+                if item.get("status_normalized")!="AUTO":
+                    override_promoted+=1
+                item["prices_normalized"]=verified
+                item["status_normalized"]="AUTO"
+                item["postprocess_resolution"]="verified_official_site_override"
+                item["verified_source_url"]=ov.get("source_url")
+                item["verified_source_type"]=ov.get("source_type")
+
         status=item["status_normalized"]
         if status=="AUTO": normalized_auto+=1
         elif status=="QC": normalized_qc+=1
@@ -338,13 +367,15 @@ def main():
         reason_counts[item["postprocess_resolution"]]=reason_counts.get(item["postprocess_resolution"],0)+1
 
     summary={
-        "version":"v41-postprocess-1.2",
+        "version":"v41-postprocess-1.3",
         "updated_at":now(),
         "total":len(items),
         "source_auto":sum(1 for x in items if x.get("status_source")=="AUTO"),
         "source_qc":sum(1 for x in items if x.get("status_source")=="QC"),
         "source_fail":sum(1 for x in items if x.get("status_source")=="FAIL"),
-        "promoted_qc_to_auto":promoted,
+        "promoted_qc_to_auto":promoted+override_promoted,
+        "promoted_by_parser":promoted,
+        "promoted_by_verified_override":override_promoted,
         "normalized_auto":normalized_auto,
         "normalized_qc":normalized_qc,
         "normalized_fail":normalized_fail,
@@ -352,7 +383,7 @@ def main():
         "resolution_counts":reason_counts,
     }
 
-    OUT_JSON.write_text(json.dumps({"version":"v41-postprocess-1.2","updated_at":now(),"summary":summary,"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
+    OUT_JSON.write_text(json.dumps({"version":"v41-postprocess-1.3","updated_at":now(),"summary":summary,"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
     OUT_SUM.write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding="utf-8")
 
     web_fallback=[]
