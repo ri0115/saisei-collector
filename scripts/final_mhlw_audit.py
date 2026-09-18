@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import csv, json, re, unicodedata
+import csv, json, re, unicodedata, gzip
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -93,6 +93,8 @@ def scope_class(row):
 
 v40=load_v40()
 current=parse_index(2)+parse_index(3)
+with gzip.open("results/mhlw_current_rows.json.gz","wt",encoding="utf-8") as gz:
+    json.dump(current,gz,ensure_ascii=False,separators=(",",":"))
 
 current_by_kind_pref={}
 for x in current:
