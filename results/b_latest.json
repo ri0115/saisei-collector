@@ -1,15 +1,15 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T12:31:28.509952+00:00",
+  "updated_at": "2026-09-18T12:33:39.818919+00:00",
   "summary": {
     "total": 335,
     "processed": 335,
     "pending": 0,
-    "auto": 199,
-    "qc": 117,
-    "fail": 19,
-    "qc_refine_remaining": 100
+    "auto": 201,
+    "qc": 116,
+    "fail": 18,
+    "qc_refine_remaining": 97
   },
   "items": [
     {
@@ -7992,13 +7992,15 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行厚労省一覧確認済",
       "checked_at": "2026-09-18T11:50:44.968160+00:00",
-      "status": "FAIL",
+      "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2502021/5/0",
-      "document_type": "pdf",
+      "document_type": "ocr",
       "prices": [],
       "error": "RuntimeError: Tesseract process timeout",
-      "qc_reason": "document fetch/parse failed"
+      "qc_reason": "no price found after text/OCR pass",
+      "qc_refined_at": "2026-09-18T12:33:39.818183+00:00",
+      "prices_refined": []
     },
     {
       "plan_id": "P00369",
@@ -8366,7 +8368,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行厚労省一覧確認済",
       "checked_at": "2026-09-18T11:50:45.660712+00:00",
-      "status": "QC",
+      "status": "AUTO",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2510010/5/0",
       "document_type": "pdf",
@@ -8375,12 +8377,28 @@
           "amount": 1000000,
           "tax": "税込",
           "unit": "",
-          "score": 6,
+          "score": 9,
           "products": [],
-          "excerpt": ":15 / 17:00〜19:30、土 8:45〜12:15 営業時間外の連絡先:075-381-3106(当番に電話転送) 14.費用について 細胞の提供に際して費用は発生しません。 本治療は保険適用外であるため、治療にかかる費用全額をご自分でご負担いただきます。本治 療にかかる費用は1,000,000円(税込)となっております。 ※患者様の症状その他の理由により費用は変動する可能性がありますので、その際は別途ご説 明いたします。 なお、脂肪の採取後や、細胞加工物の製造後に同意を撤回された場合など、同意を撤回される 時点までに費用が発生している場合は、発生した費用についてはあなたにご負担いただきますの でご了承ください。 また、本治"
+          "excerpt": "細胞の提供に際して費用は発生しません。 本治療は保険適用外であるため、治療にかかる費用全額をご自分でご負担いただきます。本治 療にかかる費用は1,000,000円(税込)となっております。 ※患者様の症状その他の理由により費用は変動する可能性がありますので、その際は別途ご説 明いたします。",
+          "page": 4,
+          "line": "療にかかる費用は1,000,000円(税込)となっております。"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T12:33:26.630644+00:00",
+      "prices_refined": [
+        {
+          "amount": 1000000,
+          "tax": "税込",
+          "unit": "",
+          "score": 9,
+          "products": [],
+          "excerpt": "細胞の提供に際して費用は発生しません。 本治療は保険適用外であるため、治療にかかる費用全額をご自分でご負担いただきます。本治 療にかかる費用は1,000,000円(税込)となっております。 ※患者様の症状その他の理由により費用は変動する可能性がありますので、その際は別途ご説 明いたします。",
+          "page": 4,
+          "line": "療にかかる費用は1,000,000円(税込)となっております。"
+        }
+      ],
+      "qc_reason": "line-level strong price context"
     },
     {
       "plan_id": "P00375",
@@ -8394,7 +8412,7 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行厚労省一覧確認済",
       "checked_at": "2026-09-18T11:50:45.770746+00:00",
-      "status": "QC",
+      "status": "AUTO",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2510011/5/0",
       "document_type": "pdf",
@@ -8403,12 +8421,28 @@
           "amount": 1000000,
           "tax": "税込",
           "unit": "",
-          "score": 6,
+          "score": 9,
           "products": [],
-          "excerpt": ":15 / 17:00〜19:30、土 8:45〜12:15 営業時間外の連絡先:075-381-3106(当番に電話転送) 14.費用について 細胞の提供に際して費用は発生しません。 本治療は保険適用外であるため、治療にかかる費用全額をご自分でご負担いただきます。本治 療にかかる費用は1,000,000円(税込)となっております。 ※患者様の症状その他の理由により費用は変動する可能性がありますので、その際は別途ご説 明いたします。 なお、脂肪の採取後や、細胞加工物の製造後に同意を撤回された場合など、同意を撤回される 時点までに費用が発生している場合は、発生した費用についてはあなたにご負担いただきますの でご了承ください。 また、本治"
+          "excerpt": "細胞の提供に際して費用は発生しません。 本治療は保険適用外であるため、治療にかかる費用全額をご自分でご負担いただきます。本治 療にかかる費用は1,000,000円(税込)となっております。 ※患者様の症状その他の理由により費用は変動する可能性がありますので、その際は別途ご説 明いたします。",
+          "page": 4,
+          "line": "療にかかる費用は1,000,000円(税込)となっております。"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T12:33:26.609100+00:00",
+      "prices_refined": [
+        {
+          "amount": 1000000,
+          "tax": "税込",
+          "unit": "",
+          "score": 9,
+          "products": [],
+          "excerpt": "細胞の提供に際して費用は発生しません。 本治療は保険適用外であるため、治療にかかる費用全額をご自分でご負担いただきます。本治 療にかかる費用は1,000,000円(税込)となっております。 ※患者様の症状その他の理由により費用は変動する可能性がありますので、その際は別途ご説 明いたします。",
+          "page": 4,
+          "line": "療にかかる費用は1,000,000円(税込)となっております。"
+        }
+      ],
+      "qc_reason": "line-level strong price context"
     },
     {
       "plan_id": "P00376",
