@@ -1,15 +1,15 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T12:50:47.852196+00:00",
+  "updated_at": "2026-09-18T12:53:20.130508+00:00",
   "summary": {
     "total": 335,
     "processed": 335,
     "pending": 0,
     "auto": 216,
-    "qc": 102,
-    "fail": 17,
-    "qc_refine_remaining": 60
+    "qc": 99,
+    "fail": 20,
+    "qc_refine_remaining": 59
   },
   "items": [
     {
@@ -12554,12 +12554,13 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行厚労省一覧確認済",
       "checked_at": "2026-09-18T11:52:51.708072+00:00",
-      "status": "QC",
+      "status": "FAIL",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2407012/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "RuntimeError: Tesseract process timeout",
+      "qc_reason": "document fetch/parse failed"
     },
     {
       "plan_id": "P00448",
@@ -12622,43 +12623,90 @@
           "amount": 66000,
           "tax": "税込",
           "unit": "",
-          "score": 0,
+          "score": 6,
           "products": [
             "ACP MAX",
-            "ACP",
-            "APS",
-            "GPS"
+            "ACP"
           ],
-          "excerpt": "了承ください。 本治療にかかる費用は以下のとおりです。 なお、費用については次の内容が含まれます。 l 自家PRP調整のための採血にかかる費用 l 自家PRPの調整にかかる費用 l PRP注入にかかる費用 治療の種類(使用するPRPキット) 費用(税込) ACP-PRP 66,000円 ACP MAX 220,000円 GPSIII・APS 330,000円 ※上記費用は、PRPキット1本使用時の費用として算定しております。 ※複数本数を使用する場合には、使用したPRPキット本数分の費用がかかります。 ※採血開始後のキャンセルは、材料等が既に使用されているため、費用全額を申し受けます。 11."
-        },
-        {
-          "amount": 220000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX",
-            "ACP",
-            "APS",
-            "GPS"
-          ],
-          "excerpt": "は以下のとおりです。 なお、費用については次の内容が含まれます。 l 自家PRP調整のための採血にかかる費用 l 自家PRPの調整にかかる費用 l PRP注入にかかる費用 治療の種類(使用するPRPキット) 費用(税込) ACP-PRP 66,000円 ACP MAX 220,000円 GPSIII・APS 330,000円 ※上記費用は、PRPキット1本使用時の費用として算定しております。 ※複数本数を使用する場合には、使用したPRPキット本数分の費用がかかります。 ※採血開始後のキャンセルは、材料等が既に使用されているため、費用全額を申し受けます。 11.試料等の保存及び廃棄の方法 患者様か"
+          "excerpt": "費用(税込) ACP-PRP 66,000円 ACP MAX 220,000円",
+          "page": 9,
+          "line": "66,000円"
         },
         {
           "amount": 330000,
-          "tax": "税込",
+          "tax": "不明",
           "unit": "",
-          "score": 0,
+          "score": 5,
+          "products": [
+            "APS",
+            "GPS"
+          ],
+          "excerpt": "220,000円 GPSIII・APS 330,000円 ※上記費用は、PRPキット1本使用時の費用として算定しております。 ※複数本数を使用する場合には、使用したPRPキット本数分の費用がかかります。",
+          "page": 9,
+          "line": "330,000円"
+        },
+        {
+          "amount": 220000,
+          "tax": "不明",
+          "unit": "",
+          "score": 2,
           "products": [
             "ACP MAX",
             "ACP",
             "APS",
             "GPS"
           ],
-          "excerpt": "次の内容が含まれます。 l 自家PRP調整のための採血にかかる費用 l 自家PRPの調整にかかる費用 l PRP注入にかかる費用 治療の種類(使用するPRPキット) 費用(税込) ACP-PRP 66,000円 ACP MAX 220,000円 GPSIII・APS 330,000円 ※上記費用は、PRPキット1本使用時の費用として算定しております。 ※複数本数を使用する場合には、使用したPRPキット本数分の費用がかかります。 ※採血開始後のキャンセルは、材料等が既に使用されているため、費用全額を申し受けます。 11.試料等の保存及び廃棄の方法 患者様から採取した血液と作製したPRPは、患者様ご自"
+          "excerpt": "66,000円 ACP MAX 220,000円 GPSIII・APS 330,000円",
+          "page": 9,
+          "line": "220,000円"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T12:52:44.352721+00:00",
+      "prices_refined": [
+        {
+          "amount": 66000,
+          "tax": "税込",
+          "unit": "",
+          "score": 6,
+          "products": [
+            "ACP MAX",
+            "ACP"
+          ],
+          "excerpt": "費用(税込) ACP-PRP 66,000円 ACP MAX 220,000円",
+          "page": 9,
+          "line": "66,000円"
+        },
+        {
+          "amount": 330000,
+          "tax": "不明",
+          "unit": "",
+          "score": 5,
+          "products": [
+            "APS",
+            "GPS"
+          ],
+          "excerpt": "220,000円 GPSIII・APS 330,000円 ※上記費用は、PRPキット1本使用時の費用として算定しております。 ※複数本数を使用する場合には、使用したPRPキット本数分の費用がかかります。",
+          "page": 9,
+          "line": "330,000円"
+        },
+        {
+          "amount": 220000,
+          "tax": "不明",
+          "unit": "",
+          "score": 2,
+          "products": [
+            "ACP MAX",
+            "ACP",
+            "APS",
+            "GPS"
+          ],
+          "excerpt": "66,000円 ACP MAX 220,000円 GPSIII・APS 330,000円",
+          "page": 9,
+          "line": "220,000円"
+        }
+      ],
+      "qc_reason": "price candidates remain ambiguous"
     },
     {
       "plan_id": "P00455",
@@ -12672,12 +12720,13 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
       "plan_status": "現行厚労省一覧確認済",
       "checked_at": "2026-09-18T11:52:51.727504+00:00",
-      "status": "QC",
+      "status": "FAIL",
       "match_score": 0.9988,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2407016/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "RuntimeError: Tesseract process timeout",
+      "qc_reason": "document fetch/parse failed"
     },
     {
       "plan_id": "P00450",
@@ -12691,12 +12740,13 @@
       "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/index/2",
       "plan_status": "現行厚労省一覧確認済",
       "checked_at": "2026-09-18T11:52:51.736373+00:00",
-      "status": "QC",
+      "status": "FAIL",
       "match_score": 0.9838,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2407015/5/0",
       "document_type": "pdf",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "RuntimeError: Tesseract process timeout",
+      "qc_reason": "document fetch/parse failed"
     },
     {
       "plan_id": "P00456",
