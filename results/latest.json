@@ -1,7 +1,7 @@
 {
   "version": "0.7",
   "queue_version": "v40",
-  "updated_at": "2026-09-18T12:14:50.980497+00:00",
+  "updated_at": "2026-09-18T12:16:06.591152+00:00",
   "summary": {
     "total": 216,
     "processed": 216,
@@ -9,7 +9,7 @@
     "auto": 138,
     "qc": 75,
     "fail": 3,
-    "qc_refine_remaining": 20
+    "qc_refine_remaining": 18
   },
   "items": [
     {
@@ -9945,9 +9945,12 @@
       "status": "QC",
       "match_score": 1.0,
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2206013/5/0",
-      "document_type": "pdf",
+      "document_type": "ocr",
       "prices": [],
-      "error": "Document fetched but no price candidate"
+      "error": "Document fetched but no price candidate",
+      "qc_refined_at": "2026-09-18T12:16:06.590703+00:00",
+      "prices_refined": [],
+      "qc_reason": "no price found after text/OCR pass"
     },
     {
       "plan_id": "P00812",
@@ -9998,12 +10001,28 @@
           "amount": 55000,
           "tax": "税込",
           "unit": "",
-          "score": 6,
+          "score": 5,
           "products": [],
-          "excerpt": "応させていただきます。 窓口 連絡先:06-6850-4511 14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として以下の金額 をお支払いいただきます。 Condensiaシステム:55,000円(税込) ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生している 場合は、発生した費用については患者様にご負担いただきますのでご了承ください。 15.他の治療法の有無、本治療法との比較について 靭帯・腱及び腱付"
+          "excerpt": "治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として以下の金額 をお支払いいただきます。 Condensiaシステム:55,000円(税込) ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生している",
+          "page": 3,
+          "line": "Condensiaシステム:55,000円(税込)"
         }
       ],
-      "error": ""
+      "error": "",
+      "qc_refined_at": "2026-09-18T12:15:58.977908+00:00",
+      "prices_refined": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "",
+          "score": 5,
+          "products": [],
+          "excerpt": "治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として以下の金額 をお支払いいただきます。 Condensiaシステム:55,000円(税込) ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生している",
+          "page": 3,
+          "line": "Condensiaシステム:55,000円(税込)"
+        }
+      ],
+      "qc_reason": "price candidates remain ambiguous"
     },
     {
       "plan_id": "P00813",

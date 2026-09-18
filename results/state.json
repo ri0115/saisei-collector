@@ -8,10 +8,10 @@
   "qc": 75,
   "fail": 3,
   "phase": "qc_refine",
-  "updated_at": "2026-09-18T12:14:50.993931+00:00",
+  "updated_at": "2026-09-18T12:16:06.604524+00:00",
   "index_counts": {
     "2": 2502,
     "3": 4270
   },
-  "qc_refine_remaining": 20
+  "qc_refine_remaining": 18
 }
