@@ -39,7 +39,7 @@ jobs:
         shell: bash
         run: |
           set -e
-          for chunk in $(seq 1 20); do
+          for chunk in $(seq 1 70); do
             git pull --rebase origin main
             python scripts/qc_refine.py \
               --results results/b_latest.json \
