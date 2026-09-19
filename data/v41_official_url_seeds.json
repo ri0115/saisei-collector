@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-seeds-1.6",
+  "version": "v41-official-seeds-1.7",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -192,6 +192,54 @@
       "facility_id": "V41F78006E7C02",
       "facility": "医療法人社団 苑田会 苑田会人工関節センター病院",
       "url": "https://sonodakai.jp/sjrc/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F7EBA676DC3",
+      "facility": "医療法人社団 盛心会 タカラクリニック",
+      "url": "https://takaracancerclinic.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F865E2F2615",
+      "facility": "医療法人社団医進会 銀座小田クリニック",
+      "url": "https://ishinkai-goc.net/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F444EEF2E57",
+      "facility": "医療法人社団同仁会診療所 Clinic Le GINZA",
+      "url": "https://clinic-le-ginza.jp/stem-cell/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F641A5944C0",
+      "facility": "医療法人社団円徳 慶友整形外科脊椎関節病院",
+      "url": "https://hospital.adachikeiyu.com/visitation",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F1F45EE20D2",
+      "facility": "医療法人社団円徳 慶友整形外科脊椎関節病院",
+      "url": "https://hospital.adachikeiyu.com/visitation",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FFD2B139326",
+      "facility": "医療法人社団円徳 慶友整形外科脊椎関節病院",
+      "url": "https://hospital.adachikeiyu.com/visitation",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F15EAFC3246",
+      "facility": "医療法人社団喜美会 自由が丘クリニック",
+      "url": "https://jiyugaokaclinic.com/medical/paintreatment/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F123B0843D8",
+      "facility": "医療法人社団喜美会 自由が丘クリニック",
+      "url": "https://jiyugaokaclinic.com/medical/paintreatment/",
       "source": "web_verified"
     }
   ],
