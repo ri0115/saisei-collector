@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-seeds-1.0",
+  "version": "v41-official-seeds-1.1",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -73,6 +73,43 @@
       "facility": "医療法人ポイントワン ならやまと整形外科スポーツクリニック",
       "url": "https://narayamato.net/",
       "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F2D8FF4122C",
+      "facility": "GINZA NOA CLINIC",
+      "url": "https://www.ginza-noa-cl.jp/stemcell",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F9252C99E29",
+      "facility": "一般社団法人創生会 GINZA NOA CLINIC",
+      "url": "https://www.ginza-noa-cl.jp/stemcell",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FA2867A003D",
+      "facility": "THE HUNDRED",
+      "url": "https://www.thehundred.jp/clinic/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FA1B35167B4",
+      "facility": "一般社団法人エンパシア IIT CLINIC",
+      "url": "https://iit-clinic.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F72BC51763F",
+      "facility": "一般社団法人再健会 シン・整形外科 代々木上原",
+      "url": "https://shin-yoyogiuehara.com/self-pay/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F1D3991E09E",
+      "facility": "一般社団法人天美会 Tenvi Clinic Ginza",
+      "url": "https://tenviclinic.com/",
+      "source": "web_verified"
     }
-  ]
+  ],
+  "updated_at": "2026-09-19"
 }
