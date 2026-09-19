@@ -1,0 +1,22 @@
+{
+  "version": "v42-maker-manual-audit-batch-17",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 454,
+  "audited_facilities": 22,
+  "confirmed_new_facilities": 6,
+  "confirmed_new_manufacturer_placements": 6,
+  "already_canonical": 11,
+  "outside_locked_core_review": 4,
+  "hold_group_branch_ambiguous": 1,
+  "confirmed_by_manufacturer": {
+    "Arthrex": 6
+  },
+  "expected_canonical_after_rebuild": {
+    "manufacturer_known_facilities": 460,
+    "manufacturer_known_rate_pct": 48.47,
+    "manufacturer_placements": 545,
+    "Zimmer Biomet": 241,
+    "Arthrex": 209
+  },
+  "processing_outsourcing_rule": "PRP-FD/PFC-FD/PDF-FD remain excluded from canonical counts and are recorded only in data/processing_outsourcing_watchlist.tsv."
+}
