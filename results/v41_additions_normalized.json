@@ -1,27 +1,27 @@
 {
   "version": "v41-postprocess-1.3",
-  "updated_at": "2026-09-19T01:13:45.327649+00:00",
+  "updated_at": "2026-09-19T01:15:13.189385+00:00",
   "summary": {
     "version": "v41-postprocess-1.3",
-    "updated_at": "2026-09-19T01:13:45.327439+00:00",
+    "updated_at": "2026-09-19T01:15:13.189043+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 101,
+    "promoted_qc_to_auto": 102,
     "promoted_by_parser": 62,
-    "promoted_by_verified_override": 39,
-    "normalized_auto": 617,
-    "normalized_qc": 157,
+    "promoted_by_verified_override": 40,
+    "normalized_auto": 618,
+    "normalized_qc": 156,
     "normalized_fail": 0,
-    "normalized_price_records": 2136,
+    "normalized_price_records": 2127,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
       "source_status_retained": 637,
       "structured_treatment_price_table": 35,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 39,
-      "still_ambiguous": 10,
+      "verified_official_site_override": 40,
+      "still_ambiguous": 9,
       "structured_product_price_table": 8,
       "explicit_total_price_block": 2,
       "verified_official_override": 8,
@@ -46014,279 +46014,95 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 5500,
-          "tax": "税込",
-          "unit": "1 部位",
-          "score": 4,
-          "products": [],
-          "excerpt": "分です。 ■血液検査 : 5,500 円(税込・実施した場合) ■ PRP・1 キット(1 部位) キット名",
-          "page": 7,
-          "line": ": 5,500 円(税込・実施した場合)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 44000,
           "tax": "税込",
-          "unit": "",
-          "score": 3,
+          "unit": "ACP",
           "products": [
-            "ACP"
-          ],
-          "excerpt": "金額 (税込) ACP 44,000 円 ACP MAX 165,000円",
-          "page": 7,
-          "line": "44,000 円",
-          "products_source": [
-            "ACP MAX",
             "ACP"
           ],
           "makers": [
             "Arthrex"
           ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511027/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [
-            "PRGF-Endoret"
-          ],
-          "excerpt": "44,000 円 PRGF 110,000円 患者様から採取した血液と作製した PRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液や PRP",
-          "page": 7,
-          "line": "110,000円",
-          "products_source": [
-            "PRGF-Endoret"
-          ],
-          "makers": [
-            "BTI"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 165000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "44,000 円 ACP MAX 165,000円 Angel 250,000円",
-          "page": 7,
-          "line": "165,000円",
-          "products_source": [
-            "ACP MAX",
-            "ACP",
-            "Angel"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 44000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "Condensia"
-          ],
-          "excerpt": "250,000円 Condensia 44,000 円 PRGF 110,000円",
-          "page": 7,
-          "line": "44,000 円",
-          "products_source": [
-            "Condensia",
-            "PRGF-Endoret"
-          ],
-          "makers": [
-            "京セラ"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 250000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "Angel"
-          ],
-          "excerpt": "165,000円 Angel 250,000円 Condensia 44,000 円",
-          "page": 7,
-          "line": "250,000円",
-          "products_source": [
-            "Angel",
-            "Condensia"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 165000,
           "tax": "税込",
-          "unit": "",
-          "score": 0,
+          "unit": "ACP MAX",
           "products": [
             "ACP MAX"
           ],
-          "excerpt": "金額 (税込) ACP 44,000 円 ACP MAX 165,000円",
-          "page": 7,
-          "line": "金額 (税込) ACP 44,000 円 ACP MAX 165,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
           "makers": [
             "Arthrex"
           ],
-          "tax_source": "不明",
-          "tax_inferred": true,
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511027/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 44000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "44,000 円 PRGF 110,000円 患者様から採取した血液と作製した PRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液や PRP",
-          "page": 7,
-          "line": "44,000 円 PRGF 110,000円 患者様から採取した血液と作製した PRP は、患者様ご自身の治療のみ に使用します。ただし、症例検討や学会発表を目的として、血液や PRP",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 44000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "44,000 円 ACP MAX 165,000円 Angel 250,000円",
-          "page": 7,
-          "line": "44,000 円 ACP MAX 165,000円 Angel 250,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 250000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
+          "tax": "税込",
+          "unit": "Angel",
           "products": [
             "Angel"
           ],
-          "excerpt": "44,000 円 ACP MAX 165,000円 Angel 250,000円",
-          "page": 7,
-          "line": "44,000 円 ACP MAX 165,000円 Angel 250,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
           "makers": [
             "Arthrex"
           ],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511027/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 250000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "250,000円 Condensia 44,000 円 PRGF 110,000円",
-          "page": 7,
-          "line": "250,000円 Condensia 44,000 円 PRGF 110,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "PRGF-Endoret"
-          ],
-          "excerpt": "250,000円 Condensia 44,000 円 PRGF 110,000円",
-          "page": 7,
-          "line": "250,000円 Condensia 44,000 円 PRGF 110,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "BTI"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 165000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "165,000円 Angel 250,000円 Condensia 44,000 円",
-          "page": 7,
-          "line": "165,000円 Angel 250,000円 Condensia 44,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 44000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
+          "tax": "税込",
+          "unit": "Condensia",
           "products": [
             "Condensia"
           ],
-          "excerpt": "165,000円 Angel 250,000円 Condensia 44,000 円",
-          "page": 7,
-          "line": "165,000円 Angel 250,000円 Condensia 44,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
           "makers": [
             "京セラ"
           ],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511027/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 110000,
+          "tax": "税込",
+          "unit": "PRGF",
+          "products": [
+            "PRGF-Endoret"
+          ],
+          "makers": [
+            "BTI"
+          ],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511027/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511027/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_01C2110051",
