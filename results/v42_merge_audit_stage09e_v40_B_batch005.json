@@ -1,0 +1,17 @@
+{
+  "version": "v42-merge-audit-stage09e-v40-B-batch005",
+  "created_date_jst": "2026-09-19",
+  "source": "results/b_latest.json",
+  "plan_range": "B queue 201-250",
+  "plan_rows": 50,
+  "status_counts": {
+    "AUTO": 33,
+    "QC": 17
+  },
+  "exported_price_rows": 109,
+  "no_price_counts": {
+    "AUTO": 0,
+    "QC": 11
+  },
+  "next_step": "Process B queue 251-300 separately."
+}
