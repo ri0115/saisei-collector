@@ -1,0 +1,151 @@
+plan_id	mhlw_plan_code	prefecture	facility	category	treatment_class	price_status	amount	amount_min	amount_max	tax	unit	product	maker	plan_evidence_url	price_source	merge_status
+V41_01C2602054	01C2602054	東京都	銀座聖愛わクリニック	第二種	脂肪由来幹細胞	価格確定	3650000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602054/5/0	AUTO	READY
+V41_01C2602054	01C2602054	東京都	銀座聖愛わクリニック	第二種	脂肪由来幹細胞	価格確定	6200000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602054/5/0	AUTO	READY
+V41_01C2602054	01C2602054	東京都	銀座聖愛わクリニック	第二種	脂肪由来幹細胞	価格確定	11300000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602054/5/0	AUTO	READY
+V41_02C2503035	02C2503035	東京都	阿部整形外科クリニック	第二種	PRP	価格確定	77000			税込	1 回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2503035/5/0	AUTO	READY
+V41_02C2503035	02C2503035	東京都	阿部整形外科クリニック	第二種	PRP	価格確定	440000			税込		ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2503035/5/0	AUTO	READY
+V41_03C2308020	03C2308020	東京都	順天堂大学医学部附属練馬病院	第二種	PRP	価格確定	50000			税別	関節内・1回	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2308020/5/0	AUTO	READY
+V41_03C2308021	03C2308021	東京都	順天堂大学医学部附属練馬病院	第三種	PRP	価格確定	30000			不明	一部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2308021/5/0	AUTO	READY
+V41_03C2609013	03C2609013	東京都	順天堂大学医学部附属順天堂医院	第二種	脂肪由来幹細胞	価格確定	200000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609013/5/0	AUTO	READY
+V41_03C2609013	03C2609013	東京都	順天堂大学医学部附属順天堂医院	第二種	脂肪由来幹細胞	価格確定	400000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609013/5/0	AUTO	READY
+V41_03C2609016	03C2609016	東京都	順天堂大学医学部附属順天堂医院	第三種	PRP	価格確定	26400			不明	PRP注射・1回	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609016/5/0	AUTO	READY
+V41_03C2609016	03C2609016	東京都	順天堂大学医学部附属順天堂医院	第三種	PRP	価格確定	52800			不明	PRP注射・両膝	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609016/5/0	AUTO	READY
+V41_03C2609017	03C2609017	東京都	順天堂大学医学部附属順天堂医院	第二種	PRP	価格確定	300000			不明		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609017/5/0	AUTO	READY
+V41_02C2604007	02C2604007	東京都	順天堂大学医学部附属順天堂東京江東高齢者医療センター	第三種	PRP	価格確定	35000			税別		MyCells	MyCells系	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604007/5/0	AUTO	READY
+V41_02C2604007	02C2604007	東京都	順天堂大学医学部附属順天堂東京江東高齢者医療センター	第三種	PRP	価格確定	75000			税別		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604007/5/0	AUTO	READY
+V41_02C2502053	02C2502053	栃木県	医療法人恭友会　はせがわ整形外科クリニック	第三種	PRP	価格確定	55000			税込	PRP療法・1回	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502053/5/0	AUTO	READY
+V41_01C2307023	01C2307023	栃木県	医療法人親仁会　佐藤病院	第三種	PRP	価格確定	165000			税込	1治療・2回投与	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2307023/5/0	AUTO	READY
+V41_02C2604078	02C2604078	栃木県	学校法人　獨協学園  獨協医科大学病院	第三種	PRP	価格確定	77000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604078/5/0	AUTO	READY
+V41_02C2604078	02C2604078	栃木県	学校法人　獨協学園  獨協医科大学病院	第三種	PRP	価格確定	138000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604078/5/0	AUTO	READY
+V41_02C2604078	02C2604078	栃木県	学校法人　獨協学園  獨協医科大学病院	第三種	PRP	価格確定	198000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604078/5/0	AUTO	READY
+V41_01G2512005	01G2512005	沖縄県	てだこ整形外科	第二種	脂肪由来幹細胞	価格確定	1800000			税別	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2512005/5/0	AUTO	READY
+V41_01G2512005	01G2512005	沖縄県	てだこ整形外科	第二種	脂肪由来幹細胞	価格確定	3000000			税別	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2512005/5/0	AUTO	READY
+V41_01G2512005	01G2512005	沖縄県	てだこ整形外科	第二種	脂肪由来幹細胞	価格確定	4200000			税別	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2512005/5/0	AUTO	READY
+V41_02G2503013	02G2503013	沖縄県	医療法人八重瀬会　同仁病院	第三種	PRP	価格確定	100000			不明		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2503013/5/0	AUTO	READY
+V41_02G2001025	02G2001025	沖縄県	医療法人形成会 当山美容形成外科	第三種	PRP	価格確定	200000			税別	1部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2001025/5/0	AUTO	READY
+V41_02G2602005	02G2602005	沖縄県	社会医療法人友愛会友愛医療センター	第三種	PRP	価格確定	50000			税別	PRP 1回・当院整形外科術後患者または学生	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2602005/5/0	AUTO	READY
+V41_02G2602005	02G2602005	沖縄県	社会医療法人友愛会友愛医療センター	第三種	PRP	価格確定	80000			税別	PRP 1回・その他	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2602005/5/0	AUTO	READY
+V41_01E2408020	01E2408020	滋賀県	一般社団法人スピナレピオス  淡海せぼねクリニック	第二種	PRP	価格確定	44000			税込	1 回(1 部位)			https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2408020/5/0	AUTO	READY
+V41_01E2408021	01E2408021	滋賀県	一般社団法人スピナレピオス  淡海せぼねクリニック	第三種	PRP	価格確定	33000			税込	両側			https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2408021/5/0	AUTO	READY
+V41_01E2307012	01E2307012	滋賀県	公立甲賀病院	第三種	PRP	価格確定	35000			税込	両側			https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2307012/5/0	AUTO	READY
+V41_02E2512024	02E2512024	滋賀県	医療法人はたスポーツ整形クリニック	第三種	PRP	価格確定	55000			税込		ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2512024/5/0	AUTO	READY
+V41_02E2512024	02E2512024	滋賀県	医療法人はたスポーツ整形クリニック	第三種	PRP	価格確定	132000			税込		ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2512024/5/0	AUTO	READY
+V41_01E2405012	01E2405012	滋賀県	東近江市立能登川病院	第二種	PRP	価格確定	55000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2405012/5/0	AUTO	READY
+V41_01E2404003	01E2404003	滋賀県	田原整形外科	第三種	PRP	価格確定	50000			税別	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2404003/5/0	AUTO	READY
+V41_02G2511005	02G2511005	熊本県	熊本整形外科病院	第三種	PRP	価格確定	90000			税別	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2511005/5/0	AUTO	READY
+V41_03G2506012	03G2506012	熊本県	社会医療法人 令和会　熊本リハビリテーション病院	第二種	脂肪由来幹細胞	価格確定	1750000			税別	ADRCs細胞治療	ADRCs		https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506012/5/0	AUTO	READY
+V41_01D2408001	01D2408001	石川県	特定医療法人社団勝木会　やわたメディカルセンター	第二種	PRP	価格確定	40000			税別	2回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2408001/5/0	AUTO	READY
+V41_01D2408001	01D2408001	石川県	特定医療法人社団勝木会　やわたメディカルセンター	第二種	PRP	価格確定	50000			税別	2回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2408001/5/0	AUTO	READY
+V41_03D2512001	03D2512001	石川県	金沢泉が丘わたなべクリニック	第二種	PRP	価格確定	45000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2512001/5/0	AUTO	READY
+V41_03C2607012	03C2607012	神奈川県	Okuno Clinic.横浜 センター南	第二種	PRP	価格確定	33000			税込	2 回分	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2607012/5/0	AUTO	READY
+V41_03C2607012	03C2607012	神奈川県	Okuno Clinic.横浜 センター南	第二種	PRP	価格確定	198000			税込	2 回分	PEAK	PEAK系	https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2607012/5/0	AUTO	READY
+V41_03C2604033	03C2604033	神奈川県	SBC整形外科クリニック横浜駅前院	第二種	PRP	価格確定	50000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604033/5/0	AUTO	READY
+V41_03C2604033	03C2604033	神奈川県	SBC整形外科クリニック横浜駅前院	第二種	PRP	価格確定	400000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604033/5/0	AUTO	READY
+V41_01C2602018	01C2602018	神奈川県	YSA スポーツと医科学のクリニック 横浜関内	第二種	PRP	価格確定	36000			税込	1 回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602018/5/0	AUTO	READY
+V41_01C2602018	01C2602018	神奈川県	YSA スポーツと医科学のクリニック 横浜関内	第二種	PRP	価格確定	39600			税込	1 回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602018/5/0	AUTO	READY
+V41_01C2602018	01C2602018	神奈川県	YSA スポーツと医科学のクリニック 横浜関内	第二種	PRP	価格確定	180000			税込	1 回	ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602018/5/0	AUTO	READY
+V41_01C2602018	01C2602018	神奈川県	YSA スポーツと医科学のクリニック 横浜関内	第二種	PRP	価格確定	198000			税込	1 回	ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602018/5/0	AUTO	READY
+V41_01C2602018	01C2602018	神奈川県	YSA スポーツと医科学のクリニック 横浜関内	第二種	PRP	価格確定	150000			税込	1 回	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602018/5/0	AUTO	READY
+V41_01C2602018	01C2602018	神奈川県	YSA スポーツと医科学のクリニック 横浜関内	第二種	PRP	価格確定	165000			税込	1 回	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602018/5/0	AUTO	READY
+V41_01C2602018	01C2602018	神奈川県	YSA スポーツと医科学のクリニック 横浜関内	第二種	PRP	価格確定	350000			税込	1 回	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602018/5/0	AUTO	READY
+V41_01C2602018	01C2602018	神奈川県	YSA スポーツと医科学のクリニック 横浜関内	第二種	PRP	価格確定	385000			税込	1 回	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602018/5/0	AUTO	READY
+V41_01C2602021	01C2602021	神奈川県	YSA スポーツと医科学のクリニック横浜関内	第三種	PRP	価格確定	36000			税込	1 回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602021/5/0	AUTO	READY
+V41_01C2602021	01C2602021	神奈川県	YSA スポーツと医科学のクリニック横浜関内	第三種	PRP	価格確定	39600			税込	1 回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602021/5/0	AUTO	READY
+V41_01C2602021	01C2602021	神奈川県	YSA スポーツと医科学のクリニック横浜関内	第三種	PRP	価格確定	150000			税込	1 回	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602021/5/0	AUTO	READY
+V41_01C2602021	01C2602021	神奈川県	YSA スポーツと医科学のクリニック横浜関内	第三種	PRP	価格確定	165000			税込	1 回	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602021/5/0	AUTO	READY
+V41_01C2602021	01C2602021	神奈川県	YSA スポーツと医科学のクリニック横浜関内	第三種	PRP	価格確定	180000			税込	1 回	ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602021/5/0	AUTO	READY
+V41_01C2602021	01C2602021	神奈川県	YSA スポーツと医科学のクリニック横浜関内	第三種	PRP	価格確定	198000			税込	1 回	ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602021/5/0	AUTO	READY
+V41_02C1910113	02C1910113	神奈川県	いしずえ整形外科	第二種	PRP	価格確定	295000			不明		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1910113/5/0	AUTO	READY
+V41_01C2605011	01C2605011	神奈川県	さこ整形外科・リハビリテーション科	第二種	PRP	価格確定	80000			税別	1 回	MyCells	MyCells系	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605011/5/0	AUTO	READY
+V41_01C2605012	01C2605012	神奈川県	さこ整形外科・リハビリテーション科	第三種	PRP	価格確定	80000			税別	1 回	MyCells	MyCells系	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605012/5/0	AUTO	READY
+V41_01C2310010	01C2310010	神奈川県	のぼりと整形外科診療所	第三種	PRP	価格確定	33000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310010/5/0	AUTO	READY
+V41_01C2310010	01C2310010	神奈川県	のぼりと整形外科診療所	第三種	PRP	価格確定	66000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310010/5/0	AUTO	READY
+V41_01C2512039	01C2512039	神奈川県	ふくむら整形外科	第二種	PRP	価格確定	45000			税込	1回・1部位	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2512039/5/0	AUTO	READY
+V41_01C2512043	01C2512043	神奈川県	ふくむら整形外科	第三種	PRP	価格確定	45000			税込	1回・1部位	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2512043/5/0	AUTO	READY
+V41_01C2105005	01C2105005	神奈川県	ほんだ整形外科クリニック	第二種	PRP	価格確定	40000			税別	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2105005/5/0	AUTO	READY
+V41_01C2108035	01C2108035	神奈川県	エムズクリニック	第三種	PRP	価格確定	30000			税込	一部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2108035/5/0	AUTO	READY
+V41_02C2409002	02C2409002	神奈川県	シン・整形外科 網島	第二種	PRP	価格確定	165000			税込	1部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2409002/5/0	AUTO	READY
+V41_02C2409002	02C2409002	神奈川県	シン・整形外科 網島	第二種	PRP	価格確定	286000			税込	1部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2409002/5/0	AUTO	READY
+V41_02C2409003	02C2409003	神奈川県	シン・整形外科 網島	第三種	PRP	価格確定	165000			税込	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2409003/5/0	AUTO	READY
+V41_02C2409003	02C2409003	神奈川県	シン・整形外科 網島	第三種	PRP	価格確定	286000			税込	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2409003/5/0	AUTO	READY
+V41_01C1909033	01C1909033	神奈川県	センター南ＧＯＴＯクリニック	第二種	APS/PRP	価格確定	150000			不明		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1909033/5/0	AUTO	READY
+V41_01C1909033	01C1909033	神奈川県	センター南ＧＯＴＯクリニック	第二種	APS/PRP	価格確定	300000			不明		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1909033/5/0	AUTO	READY
+V41_01C1909034	01C1909034	神奈川県	センター南ＧＯＴＯクリニック	第三種	PRP	価格確定	80000			不明		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1909034/5/0	AUTO	READY
+V41_01C2302050	01C2302050	神奈川県	ヴェルディクリニック	第二種	PRP	価格確定	50000			税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302050/5/0	AUTO	READY
+V41_01C2302051	01C2302051	神奈川県	ヴェルディクリニック	第三種	PRP	価格確定	50000			税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302051/5/0	AUTO	READY
+V41_01C2602011	01C2602011	神奈川県	三ツ沢SORA整形外科	第二種	PRP	価格確定	80000			税込	1 回	Condensia	京セラ	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602011/5/0	AUTO	READY
+V41_01C2602012	01C2602012	神奈川県	三ツ沢SORA整形外科	第三種	PRP	価格確定	80000			税込	1 回	Condensia	京セラ	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602012/5/0	AUTO	READY
+V41_01C2310016	01C2310016	神奈川県	二階堂整形外科クリニック	第三種	PRP	価格確定	30000			税別	1 回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310016/5/0	AUTO	READY
+V41_01C2310016	01C2310016	神奈川県	二階堂整形外科クリニック	第三種	PRP	価格確定	150000			税別	1 回	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310016/5/0	AUTO	READY
+V41_02C2506011	02C2506011	神奈川県	二階堂整形外科クリニック	第二種	PRP	価格確定	40000			税別	1回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2506011/5/0	AUTO	READY
+V41_02C2506011	02C2506011	神奈川県	二階堂整形外科クリニック	第二種	PRP	価格確定	150000			税別	1回	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2506011/5/0	AUTO	READY
+V41_02C2506011	02C2506011	神奈川県	二階堂整形外科クリニック	第二種	PRP	価格確定	200000			税別	1回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2506011/5/0	AUTO	READY
+V41_02C2506011	02C2506011	神奈川県	二階堂整形外科クリニック	第二種	PRP	価格確定	300000			税別	1回	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2506011/5/0	AUTO	READY
+V41_01C2410005	01C2410005	神奈川県	井土ヶ谷整形外科リハビリクリニック	第二種	PRP	価格確定	165000			税別	1クール・採血＋2回注射	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410005/5/0	AUTO	READY
+V41_02C2411022	02C2411022	神奈川県	公立大学法人横浜市立大学附属病院	第二種	PRP	価格確定	40000			税別	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2411022/5/0	AUTO	READY
+V41_01C2508047	01C2508047	神奈川県	内田宙司整形外科	第二種	PRGF	価格確定	110000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508047/5/0	AUTO	READY
+V41_01C2303041	01C2303041	神奈川県	医療法人 よこはまTSC  横浜たまプラーザ運動器スポーツクリニック	第二種	PRP	価格確定	55000			税込	ACP・1回あたり	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303041/5/0	AUTO	READY
+V41_01C2303041	01C2303041	神奈川県	医療法人 よこはまTSC  横浜たまプラーザ運動器スポーツクリニック	第二種	PRP	価格確定	330000			税込	APS・1回	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303041/5/0	AUTO	READY
+V41_01C2303050	01C2303050	神奈川県	医療法人 よこはまTSC  横浜たまプラーザ運動器スポーツクリニック	第三種	PRP	価格確定	55000			税込	ACP・1回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303050/5/0	AUTO	READY
+V41_01C2303050	01C2303050	神奈川県	医療法人 よこはまTSC  横浜たまプラーザ運動器スポーツクリニック	第三種	PRP	価格確定	330000			税込	APS・1回	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303050/5/0	AUTO	READY
+V41_01C2305022	01C2305022	神奈川県	医療法人　健進会　井上整形外科	第二種	PRP	価格確定	88000			税込	1関節	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2305022/5/0	AUTO	READY
+V41_01C2305023	01C2305023	神奈川県	医療法人　健進会　井上整形外科	第三種	PRP	価格確定	44000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2305023/5/0	AUTO	READY
+V41_03C2409021	03C2409021	神奈川県	医療法人光耀会　菊地眼科クリニック	第三種	PRP	価格確定	40000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2409021/5/0	AUTO	READY
+V41_01C2410057	01C2410057	神奈川県	医療法人博桜会　たなべ整形外科　せぼね・骨粗しょう症クリニック	第二種	PRP	価格確定	110000			税込	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410057/5/0	AUTO	READY
+V41_01C2410058	01C2410058	神奈川県	医療法人博桜会　たなべ整形外科　せぼね・骨粗しょう症クリニック	第二種	PRP	価格確定	55000			税込	両側			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410058/5/0	AUTO	READY
+V41_01C2410058	01C2410058	神奈川県	医療法人博桜会　たなべ整形外科　せぼね・骨粗しょう症クリニック	第二種	PRP	価格確定	99000			税込	両側			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410058/5/0	AUTO	READY
+V41_01C2406054	01C2406054	神奈川県	医療法人宝円会　湘南つつじ整形外科	第三種	PRP	価格確定	65000			税別	1 回	TriCeLL	TriCeLL系	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406054/5/0	AUTO	READY
+V41_03C2604006	03C2604006	神奈川県	医療法人徳洲会　湘南鎌倉人工関節センター	第二種	PRP	価格確定	300000			税込		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604006/5/0	AUTO	READY
+V41_03C2607029	03C2607029	神奈川県	医療法人徳洲会　湘南鎌倉総合病院	第三種	PRP	価格確定	55000			税込	1 回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2607029/5/0	AUTO	READY
+V41_02C1910206	02C1910206	神奈川県	医療法人愛仁会　太田総合病院	第三種	PRP	価格確定	100000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1910206/5/0	AUTO	READY
+V41_02C1912019	02C1912019	神奈川県	医療法人愛仁会　太田総合病院	第二種	PRP	価格確定	300000			税別		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1912019/5/0	AUTO	READY
+V41_02C2508001	02C2508001	神奈川県	医療法人横浜未来ヘルスケアシステム　戸塚共立第２病院	第三種	PRP	価格確定	33000			税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508001/5/0	AUTO	READY
+V41_02C2508002	02C2508002	神奈川県	医療法人横浜未来ヘルスケアシステム　戸塚共立第２病院	第二種	PRP	価格確定	44000			税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508002/5/0	AUTO	READY
+V41_01C1912052	01C1912052	神奈川県	医療法人社団　嘉徳会　かんクリニック　リウマチ・整形外科	第三種	PRP	価格確定	30000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1912052/5/0	AUTO	READY
+V41_01C1912052	01C1912052	神奈川県	医療法人社団　嘉徳会　かんクリニック　リウマチ・整形外科	第三種	PRP	価格確定	50000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1912052/5/0	AUTO	READY
+V41_03C2305018	03C2305018	神奈川県	医療法人社団　総生会 麻生リハビリ総合病院	第二種	PRP	価格確定	250000			不明	3 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305018/5/0	AUTO	READY
+V41_01C2107014	01C2107014	神奈川県	医療法人社団アスクレピオス  ランドマーク横浜国際クリニック	第二種	脂肪由来幹細胞	価格確定	2200000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2107014/5/0	AUTO	READY
+V41_01C2408062	01C2408062	神奈川県	医療法人社団三成会　新百合ヶ丘総合病院	第二種	PRP	価格確定	50000			税別	1 回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408062/5/0	AUTO	READY
+V41_01C2408062	01C2408062	神奈川県	医療法人社団三成会　新百合ヶ丘総合病院	第二種	PRP	価格確定	250000			税別		Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408062/5/0	AUTO	READY
+V41_01C2408063	01C2408063	神奈川県	医療法人社団三成会　新百合ヶ丘総合病院	第三種	PRP	価格確定	50000			税別	1 回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408063/5/0	AUTO	READY
+V41_01C2408063	01C2408063	神奈川県	医療法人社団三成会　新百合ヶ丘総合病院	第三種	PRP	価格確定	250000			税別		Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2408063/5/0	AUTO	READY
+V41_01C2303044	01C2303044	神奈川県	医療法人社団優洸会  相模大野整形・形成外科	第二種	PRP	価格確定	45000			税別	一部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303044/5/0	AUTO	READY
+V41_01C2008023	01C2008023	神奈川県	医療法人社団快晴会　田奈整形外科・外科	第三種	PRP	価格確定	26000			税別	1回	MyCells	MyCells系	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2008023/5/0	AUTO	READY
+V41_01C2008023	01C2008023	神奈川県	医療法人社団快晴会　田奈整形外科・外科	第三種	PRP	価格確定	150000			税別	1回	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2008023/5/0	AUTO	READY
+V41_01C2009074	01C2009074	神奈川県	医療法人社団快晴会　田奈整形外科・外科	第二種	PRP	価格確定	26000			税別		MyCells	MyCells系	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2009074/5/0	AUTO	READY
+V41_01C2009074	01C2009074	神奈川県	医療法人社団快晴会　田奈整形外科・外科	第二種	PRP	価格確定	150000			税別	1回	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2009074/5/0	AUTO	READY
+V41_01C2009074	01C2009074	神奈川県	医療法人社団快晴会　田奈整形外科・外科	第二種	PRP	価格確定	90000			税別		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2009074/5/0	AUTO	READY
+V41_03C2305019	03C2305019	神奈川県	医療法人社団慈誠会　神人整形外科クリニック	第二種	PRP	価格確定	150000			不明	変形性膝関節症PRP・標準治療費	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305019/5/0	AUTO	READY
+V41_02C2604080	02C2604080	神奈川県	医療法人社団明和会　亀田病院	第三種	PRP	価格確定	50000			税別	スモールスピッツ約10ml・1本	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604080/5/0	AUTO	READY
+V41_02C2604080	02C2604080	神奈川県	医療法人社団明和会　亀田病院	第三種	PRP	価格確定	70000			税別	ラージスピッツ約20ml・1本	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604080/5/0	AUTO	READY
+V41_03C2111004	03C2111004	神奈川県	医療法人社団栄親会　横浜整形外科クリニック	第三種	PRP	価格確定	25000			税別	スモールスピッツ約10ml・1本	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2111004/5/0	AUTO	READY
+V41_03C2111004	03C2111004	神奈川県	医療法人社団栄親会　横浜整形外科クリニック	第三種	PRP	価格確定	35000			税別	ラージスピッツ約20ml・1本	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2111004/5/0	AUTO	READY
+V41_01C2209020	01C2209020	神奈川県	医療法人社団梅沢医院　梅沢整形外科	第三種	PRP	価格確定	44000			税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2209020/5/0	AUTO	READY
+V41_01C2209020	01C2209020	神奈川県	医療法人社団梅沢医院　梅沢整形外科	第三種	PRP	価格確定	55000			税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2209020/5/0	AUTO	READY
+V41_02C1906040	02C1906040	神奈川県	医療法人社団梅沢医院　梅沢整形外科	第三種	PRP	価格確定	46200			不明	ACP	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1906040/5/0	AUTO	READY
+V41_02C1906040	02C1906040	神奈川県	医療法人社団梅沢医院　梅沢整形外科	第三種	PRP	価格確定	143000			不明	Waqoo・シングル	Waqoo		https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1906040/5/0	AUTO	READY
+V41_02C1906040	02C1906040	神奈川県	医療法人社団梅沢医院　梅沢整形外科	第三種	PRP	価格確定	187000			不明	Waqoo・ダブル	Waqoo		https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1906040/5/0	AUTO	READY
+V41_02C1906040	02C1906040	神奈川県	医療法人社団梅沢医院　梅沢整形外科	第三種	PRP	価格確定	154000			不明	PRP-FD	PRP-FD		https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1906040/5/0	AUTO	READY
+V41_02C1906040	02C1906040	神奈川県	医療法人社団梅沢医院　梅沢整形外科	第三種	PRP	価格確定	176000			不明	PRP-FD2.0	PRP-FD2.0		https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1906040/5/0	AUTO	READY
+V41_02C2603036	02C2603036	神奈川県	医療法人社団活寿会 横浜ひざ関節症クリニック	第二種	脂肪由来幹細胞	価格確定	1287000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603036/5/0	AUTO	READY
+V41_02C2603036	02C2603036	神奈川県	医療法人社団活寿会 横浜ひざ関節症クリニック	第二種	脂肪由来幹細胞	価格確定	1749000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603036/5/0	AUTO	READY
+V41_03C2504060	03C2504060	神奈川県	医療法人社団皆吉会プライムコーストみなとみらいクリニック	第二種	PRP	価格確定	200000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2504060/5/0	AUTO	READY
+V41_03C2504061	03C2504061	神奈川県	医療法人社団皆吉会プライムコーストみなとみらいクリニック	第三種	PRP	価格確定	200000			税別	一部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2504061/5/0	AUTO	READY
+V41_02C2001097	02C2001097	神奈川県	医療法人社団総生会 麻生総合病院	第三種	PRP	価格確定	30000			不明	1回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2001097/5/0	AUTO	READY
+V41_01C2410043	01C2410043	神奈川県	医療法人社団耀風会  仲野整形外科スポーツ・ウェルネスクリニック	第三種	PRP	価格確定	350000			不明	両側	Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410043/5/0	AUTO	READY
+V41_01C2410043	01C2410043	神奈川県	医療法人社団耀風会  仲野整形外科スポーツ・ウェルネスクリニック	第三種	PRP	価格確定	40000			不明	片側	Condensia	京セラ	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410043/5/0	AUTO	READY
+V41_01C2410043	01C2410043	神奈川県	医療法人社団耀風会  仲野整形外科スポーツ・ウェルネスクリニック	第三種	PRP	価格確定	220000			不明	両側	Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410043/5/0	AUTO	READY
+V41_01C2410043	01C2410043	神奈川県	医療法人社団耀風会  仲野整形外科スポーツ・ウェルネスクリニック	第三種	PRP	価格確定	40000			不明		ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410043/5/0	AUTO	READY
+V41_01C2411083	01C2411083	神奈川県	医療法人社団耀風会  仲野整形外科スポーツ・ウェルネスクリニック	第二種	PRP	価格確定	360000			不明	両側	Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411083/5/0	AUTO	READY
+V41_01C2411083	01C2411083	神奈川県	医療法人社団耀風会  仲野整形外科スポーツ・ウェルネスクリニック	第二種	PRP	価格確定	50000			不明	片側	Condensia	京セラ	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411083/5/0	AUTO	READY
+V41_01C2411083	01C2411083	神奈川県	医療法人社団耀風会  仲野整形外科スポーツ・ウェルネスクリニック	第二種	PRP	価格確定	230000			不明	両側	Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411083/5/0	AUTO	READY
+V41_01C2411083	01C2411083	神奈川県	医療法人社団耀風会  仲野整形外科スポーツ・ウェルネスクリニック	第二種	PRP	価格確定	50000			不明		ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411083/5/0	AUTO	READY
+V41_01C2605036	01C2605036	神奈川県	医療法人社団豊葉会　ザ・ヨコハマフロント・ベイサイドクリニック	第二種	PRP	価格確定	44600			税込	ACP・一般	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0	AUTO	READY
+V41_01C2605036	01C2605036	神奈川県	医療法人社団豊葉会　ザ・ヨコハマフロント・ベイサイドクリニック	第二種	PRP	価格確定	35000			税込	ACP・学生	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0	AUTO	READY
+V41_01C2605036	01C2605036	神奈川県	医療法人社団豊葉会　ザ・ヨコハマフロント・ベイサイドクリニック	第二種	PRP	価格確定	190000			税込	ACP MAX・一般	ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0	AUTO	READY
+V41_01C2605036	01C2605036	神奈川県	医療法人社団豊葉会　ザ・ヨコハマフロント・ベイサイドクリニック	第二種	PRP	価格確定	165000			税込	ACP MAX・学生	ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0	AUTO	READY
+V41_01C2605036	01C2605036	神奈川県	医療法人社団豊葉会　ザ・ヨコハマフロント・ベイサイドクリニック	第二種	PRP	価格確定	295000			税込	Angel PRP・1部位	Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0	AUTO	READY
+V41_01C2605036	01C2605036	神奈川県	医療法人社団豊葉会　ザ・ヨコハマフロント・ベイサイドクリニック	第二種	PRP	価格確定	415000			税込	Angel PRP・2部位	Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0	AUTO	READY
+V41_01C2605036	01C2605036	神奈川県	医療法人社団豊葉会　ザ・ヨコハマフロント・ベイサイドクリニック	第二種	PRP	価格確定	600000			税込	Angel PRP・3部位	Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0	AUTO	READY
+V41_01C2605037	01C2605037	神奈川県	医療法人社団豊葉会　ザ・ヨコハマフロント・ベイサイドクリニック	第三種	PRP	価格確定	34700			税込	ACP・一般	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0	AUTO	READY
+V41_01C2605037	01C2605037	神奈川県	医療法人社団豊葉会　ザ・ヨコハマフロント・ベイサイドクリニック	第三種	PRP	価格確定	29000			税込	ACP・学生	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0	AUTO	READY
