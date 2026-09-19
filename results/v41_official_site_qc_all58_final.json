@@ -1,0 +1,82 @@
+{
+  "version": "v41-official-site-qc-all58-final",
+  "baseline_version": "v41-postprocess-1.6",
+  "queue_file": "results/v41_official_site_fallback_queue.json",
+  "queue_items_total": 58,
+  "unique_facilities_total": 56,
+  "classification_counts": {
+    "価格確定": 22,
+    "公式サイトはあるが価格非公開": 13,
+    "未確認": 23,
+    "FAIL": 0
+  },
+  "classification_total_check": 58,
+  "remaining_queue_items": 0,
+  "queue_complete": true,
+  "baseline_mutated": false,
+  "batch_files": [
+    {
+      "path": "results/v41_official_site_batch01_10facilities.json",
+      "items": 10,
+      "unique_facilities": 10,
+      "confirmed": 1,
+      "no_public": 3,
+      "unconfirmed": 6,
+      "sha": "88d63c3ef78900ac0c6716832872ad6fed1bf900"
+    },
+    {
+      "path": "results/v41_official_site_batch02_10facilities.json",
+      "items": 10,
+      "unique_facilities": 10,
+      "confirmed": 5,
+      "no_public": 1,
+      "unconfirmed": 4,
+      "sha": "474f91c3dfc2d926fe77cfcb7f9b108acb36086b"
+    },
+    {
+      "path": "results/v41_official_site_batch03_10facilities.json",
+      "items": 10,
+      "unique_facilities": 10,
+      "confirmed": 3,
+      "no_public": 3,
+      "unconfirmed": 4,
+      "sha": "e1403ae9cd5faa51ea5a53e5b9890d849f35ef48"
+    },
+    {
+      "path": "results/v41_official_site_batch04_10queueitems.json",
+      "items": 10,
+      "unique_facilities": 9,
+      "confirmed": 4,
+      "no_public": 4,
+      "unconfirmed": 2,
+      "sha": "ede85b5909ec23cf8ddf42380db9aa5aadc2dca3"
+    },
+    {
+      "path": "results/v41_official_site_batch05_10queueitems.json",
+      "items": 10,
+      "unique_facilities": 9,
+      "confirmed": 5,
+      "no_public": 2,
+      "unconfirmed": 3,
+      "sha": "1e74161dc9dc853c9d61041d89c6c156c3d04fdf"
+    },
+    {
+      "path": "results/v41_official_site_batch06_final_8queueitems.json",
+      "items": 8,
+      "unique_facilities": 8,
+      "confirmed": 4,
+      "no_public": 0,
+      "unconfirmed": 4,
+      "sha": "bf085762e2515da8ac0e9a00d2d19e6e785dce78"
+    }
+  ],
+  "audit_notes": [
+    "Classification totals were recomputed directly from each batch's classification_counts to avoid schema drift in early batch_audit keys.",
+    "Batch04 contains two plans at 表参道総合医療クリニック; Batch05 contains two plans at 三宅整形外科小児科クリニック. Therefore 58 queue items correspond to 56 unique facilities.",
+    "No related-treatment price was substituted for an unmatched queued plan.",
+    "Ancillary fees were not treated as treatment prices.",
+    "Exact MHLW published-plan documents were accepted as primary-source price evidence only for the identical queued plan.",
+    "The v41-postprocess-1.6 baseline has not yet been mutated; this rollup is the handoff checkpoint for the subsequent v40+v41 merge."
+  ],
+  "next_step": "Cross-check v40 existing records against v41 additions and the 58-item adjudication set, then build v42 with distinct statuses for confirmed price / no public price / unconfirmed."
+}
