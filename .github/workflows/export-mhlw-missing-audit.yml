@@ -1,0 +1,16 @@
+name: Export MHLW missing audit input
+on:
+  push:
+    paths:
+      - ".github/workflows/export-mhlw-missing-audit.yml"
+  workflow_dispatch:
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mhlw-missing-audit-input
+          path: results/mhlw_high_confidence_missing.csv
+          retention-days: 7
