@@ -1,31 +1,31 @@
 {
   "version": "v41-postprocess-1.3",
-  "updated_at": "2026-09-19T01:05:42.202394+00:00",
+  "updated_at": "2026-09-19T01:11:23.006238+00:00",
   "summary": {
     "version": "v41-postprocess-1.3",
-    "updated_at": "2026-09-19T01:05:42.202157+00:00",
+    "updated_at": "2026-09-19T01:11:23.005993+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 86,
+    "promoted_qc_to_auto": 93,
     "promoted_by_parser": 62,
-    "promoted_by_verified_override": 24,
-    "normalized_auto": 602,
-    "normalized_qc": 172,
+    "promoted_by_verified_override": 31,
+    "normalized_auto": 609,
+    "normalized_qc": 165,
     "normalized_fail": 0,
-    "normalized_price_records": 2153,
+    "normalized_price_records": 2144,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
       "source_status_retained": 637,
       "structured_treatment_price_table": 35,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 24,
-      "still_ambiguous": 20,
+      "verified_official_site_override": 31,
+      "still_ambiguous": 15,
       "structured_product_price_table": 8,
       "explicit_total_price_block": 2,
       "verified_official_override": 8,
-      "multiple_fee_components_needs_review": 23
+      "multiple_fee_components_needs_review": 21
     }
   },
   "items": [
@@ -2372,41 +2372,40 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 40000,
-          "tax": "税別",
-          "unit": "",
-          "score": 4,
-          "products": [],
-          "excerpt": "スモールスピッツ:約 10mlの場合 1 本あたり 30,000 円 (税抜価格) ラージスピッツ :約 20mlの場合 1 本あたり 40,000 円 (税抜価格) です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者",
-          "page": 1,
-          "line": "ラージスピッツ :約 20mlの場合 1 本あたり 40,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 30000,
           "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "スモールスピッツ:約 10mlの場合 1 本あたり 30,000 円 (税抜価格) ラージスピッツ :約 20mlの場合 1 本あたり 40,000 円 (税抜価格) です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者",
-          "page": 1,
-          "line": "スモールスピッツ:約 10mlの場合 1 本あたり 30,000 円 (税抜価格) ラージスピッツ :約 20mlの場合 1 本あたり 40,000 円 (税抜価格) です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
+          "unit": "スモールスピッツ約10ml・1本",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2108005/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 40000,
+          "tax": "税別",
+          "unit": "ラージスピッツ約20ml・1本",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2108005/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2108005/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_01G2403006",
@@ -7993,21 +7992,23 @@
         {
           "amount": 2650000,
           "tax": "税込",
-          "unit": "",
-          "score": 1,
-          "products": [],
-          "excerpt": "検査 けんさ 265万円 まんえん 税込みを",
-          "page": 8,
-          "line": "265万円",
-          "products_source": [],
+          "unit": "自家gMSC®1-A移植",
+          "products": [
+            "自家滑膜間葉系幹細胞由来三次元人工組織"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2505012/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2505012/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_01C2502010",
@@ -57167,21 +57168,23 @@
         {
           "amount": 2000000,
           "tax": "税別",
-          "unit": "",
-          "score": 5,
-          "products": [],
-          "excerpt": "10 今回の治療では 200万円(税抜) となります 。 なお、本治療にご同意いただき、患者様の血液加工の開始後に同意を撤回又 はキャンセルされた場合、加工時に発生した医療材料等の費用について、患者",
-          "page": 10,
-          "line": "今回の治療では 200万円(税抜) となります 。",
-          "products_source": [],
+          "unit": "本治療",
+          "products": [
+            "自己末梢血由来単核細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506055/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506055/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_03C2606046",
@@ -60500,166 +60503,25 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 350000,
-          "tax": "不明",
-          "unit": "",
-          "score": 6,
-          "products": [],
-          "excerpt": "50,000 円 脂肪採取費用 350,000 円 培養費用・投与費用 2,210,000 円",
-          "page": 6,
-          "line": "350,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 2210000,
-          "tax": "不明",
-          "unit": "",
-          "score": 6,
-          "products": [],
-          "excerpt": "350,000 円 培養費用・投与費用 2,210,000 円 ※必要に応じて、追加検査費用などが生じる場合がございます。 ※交通費などの実費についても、患者様に負担していただきます。",
-          "page": 6,
-          "line": "2,210,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 5,
-          "products": [],
-          "excerpt": "10,000 円 検査費用 50,000 円 脂肪採取費用 350,000 円",
-          "page": 6,
-          "line": "50,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 10000,
           "tax": "税別",
-          "unit": "",
-          "score": 4,
-          "products": [],
-          "excerpt": "費用(税別) 初診料 10,000 円 検査費用 50,000 円",
-          "page": 6,
-          "line": "10,000 円",
-          "products_source": [],
+          "unit": "培養費用・投与費用",
+          "products": [
+            "自家培養脂肪由来間葉系幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "50,000 円 脂肪採取費用 350,000 円 培養費用・投与費用 2,210,000 円",
-          "page": 6,
-          "line": "50,000 円 脂肪採取費用 350,000 円 培養費用・投与費用 2,210,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 2210000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "50,000 円 脂肪採取費用 350,000 円 培養費用・投与費用 2,210,000 円",
-          "page": 6,
-          "line": "50,000 円 脂肪採取費用 350,000 円 培養費用・投与費用 2,210,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
+          "note": "別途：脂肪採取350,000円、検査50,000円、初診10,000円（いずれも税別）",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605071/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 350000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "350,000 円 培養費用・投与費用 2,210,000 円 ※必要に応じて、追加検査費用などが生じる場合がございます。 ※交通費などの実費についても、患者様に負担していただきます。",
-          "page": 6,
-          "line": "350,000 円 培養費用・投与費用 2,210,000 円 ※必要に応じて、追加検査費用などが生じる場合がございます。 ※交通費などの実費についても、患者様に負担していただきます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "10,000 円 検査費用 50,000 円 脂肪採取費用 350,000 円",
-          "page": 6,
-          "line": "10,000 円 検査費用 50,000 円 脂肪採取費用 350,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 350000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "10,000 円 検査費用 50,000 円 脂肪採取費用 350,000 円",
-          "page": 6,
-          "line": "10,000 円 検査費用 50,000 円 脂肪採取費用 350,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 50000,
-          "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "費用(税別) 初診料 10,000 円 検査費用 50,000 円",
-          "page": 6,
-          "line": "費用(税別) 初診料 10,000 円 検査費用 50,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605071/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_01C2608003",
@@ -74369,22 +74231,24 @@
       "prices_normalized": [
         {
           "amount": 1750000,
-          "tax": "不明",
-          "unit": "",
-          "score": 5,
-          "products": [],
-          "excerpt": "12. 費用について この治療法は保険外診療で、治療にかかる費用は患者様のご負担となります。 175万円(別途消費税) 13. 苦情とお問い合わせ先 この治療内容について、わからないことや、疑問、質問、もう一度聞きたいこと、さら",
-          "page": 9,
-          "line": "175万円(別途消費税)",
-          "products_source": [],
+          "tax": "税別",
+          "unit": "ADRCs細胞治療",
+          "products": [
+            "ADRCs"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "note": "説明文書：175万円（別途消費税）",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506012/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506012/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_01D2408001",
@@ -79563,41 +79427,40 @@
       "qc_reason_source": "rescue price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 70000,
-          "tax": "税別",
-          "unit": "",
-          "score": 4,
-          "products": [],
-          "excerpt": "スモールスピッツ:約10mlの場合 1 本あたり 50,000 円 (税抜価格) ラージスピッツ :約 20mlの場合 1 本あたり 70,000 円 (税抜価格) です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者",
-          "page": 1,
-          "line": "ラージスピッツ :約 20mlの場合 1 本あたり 70,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 50000,
           "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "スモールスピッツ:約10mlの場合 1 本あたり 50,000 円 (税抜価格) ラージスピッツ :約 20mlの場合 1 本あたり 70,000 円 (税抜価格) です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者",
-          "page": 1,
-          "line": "スモールスピッツ:約10mlの場合 1 本あたり 50,000 円 (税抜価格) ラージスピッツ :約 20mlの場合 1 本あたり 70,000 円 (税抜価格) です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
+          "unit": "スモールスピッツ約10ml・1本",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604080/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 70000,
+          "tax": "税別",
+          "unit": "ラージスピッツ約20ml・1本",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604080/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604080/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_03C2111004",
@@ -79653,41 +79516,40 @@
       "qc_reason_source": "rescue price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 35000,
-          "tax": "税別",
-          "unit": "",
-          "score": 4,
-          "products": [],
-          "excerpt": "スモールスピッツ:約10mlの場合 1 本あたり 25,000 円 (税抜価格) ラージスピッツ :約 20mlの場合 1 本あたり 35,000 円 (税抜価格) です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者",
-          "page": 1,
-          "line": "ラージスピッツ :約 20mlの場合 1 本あたり 35,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 25000,
           "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "スモールスピッツ:約10mlの場合 1 本あたり 25,000 円 (税抜価格) ラージスピッツ :約 20mlの場合 1 本あたり 35,000 円 (税抜価格) です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者",
-          "page": 1,
-          "line": "スモールスピッツ:約10mlの場合 1 本あたり 25,000 円 (税抜価格) ラージスピッツ :約 20mlの場合 1 本あたり 35,000 円 (税抜価格) です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
+          "unit": "スモールスピッツ約10ml・1本",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2111004/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 35000,
+          "tax": "税別",
+          "unit": "ラージスピッツ約20ml・1本",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2111004/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2111004/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_01C2209020",
