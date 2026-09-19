@@ -44,27 +44,36 @@ def amount(m):
 def extract(text,tclass):
     t=norm(text)
     stem=bool(re.search(r"幹細胞|MSC|ASC|脂肪",tclass or "",re.I))
-    treat=re.compile(r"幹細胞|脂肪由来|MSC|ASC|細胞" if stem else r"PRP|APS|ACP|GPS|多血小板|血小板|Condensia|Angel|PRGF",re.I)
+    treat=re.compile(r"幹細胞|脂肪由来|MSC|ASC|SVF|ADRC|細胞" if stem else r"PRP|APS|ACP|GPS|多血小板|血小板|Condensia|コンデンシア|Angel|PRGF",re.I)
     lo,hi=(100000,20000000) if stem else (15000,2000000)
-    out=[]; seen=set()
-    for m in PRICE_RE.finditer(t):
-        a=amount(m)
-        if not lo<=a<=hi: continue
-        ctx=re.sub(r"\s+"," ",t[max(0,m.start()-180):min(len(t),m.end()+220)]).strip()
-        score=0
-        if PRICE_WORD.search(ctx): score+=4
-        if treat.search(ctx): score+=6
-        if ANC.search(ctx) and not treat.search(ctx): score-=8
-        if re.search(r"税込|税別|税抜",ctx): score+=1
-        tax="不明"
-        if re.search(r"税込|消費税込",ctx): tax="税込"
-        elif re.search(r"税別|税抜",ctx): tax="税別"
-        key=(a,ctx[:160])
-        if key in seen: continue
-        seen.add(key)
-        out.append({"amount":a,"tax":tax,"score":score,"excerpt":ctx})
+    raw_lines=[re.sub(r"\\s+"," ",x).strip() for x in t.splitlines()]
+    lines=[x for x in raw_lines if x]
+    out=[];seen=set()
+    for i,line in enumerate(lines):
+        for m in PRICE_RE.finditer(line):
+            a=amount(m)
+            if not lo<=a<=hi: continue
+            near=" ".join(lines[max(0,i-2):min(len(lines),i+3)])
+            score=0
+            if PRICE_WORD.search(line): score+=4
+            elif PRICE_WORD.search(near): score+=2
+            if treat.search(line): score+=8
+            elif treat.search(near): score+=4
+            if ANC.search(line) and not treat.search(line): score-=10
+            elif ANC.search(near) and not treat.search(line): score-=4
+            if re.search(r"税込|税別|税抜",line): score+=2
+            elif re.search(r"税込|税別|税抜",near): score+=1
+            if not treat.search(near):
+                continue
+            tax="不明"
+            if re.search(r"税込|消費税込",near): tax="税込"
+            elif re.search(r"税別|税抜",near): tax="税別"
+            key=(a,line,near[:180])
+            if key in seen: continue
+            seen.add(key)
+            out.append({"amount":a,"tax":tax,"score":score,"line":line,"excerpt":near})
     out.sort(key=lambda x:(-x["score"],x["amount"]))
-    return out[:15]
+    return out[:20]
 
 def main():
     seeds=json.loads(Path("data/v41_official_url_seeds.json").read_text(encoding="utf-8"))
