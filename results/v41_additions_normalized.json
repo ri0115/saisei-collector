@@ -1,9 +1,9 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T01:35:45.734594+00:00",
+  "updated_at": "2026-09-19T01:36:55.535891+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T01:35:45.734240+00:00",
+    "updated_at": "2026-09-19T01:36:55.535702+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
@@ -11,10 +11,10 @@
     "promoted_qc_to_auto": 119,
     "promoted_by_parser": 67,
     "promoted_by_verified_override": 52,
-    "normalized_auto": 637,
-    "normalized_qc": 137,
+    "normalized_auto": 641,
+    "normalized_qc": 133,
     "normalized_fail": 0,
-    "normalized_price_records": 1782,
+    "normalized_price_records": 1665,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
       "source_status_retained": 630,
@@ -22,10 +22,10 @@
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
       "verified_official_site_override": 53,
-      "verified_official_override": 10,
+      "verified_official_override": 14,
       "explicit_total_price_block": 2,
       "still_ambiguous": 2,
-      "multiple_fee_components_needs_review": 13
+      "multiple_fee_components_needs_review": 9
     }
   },
   "items": [
@@ -25668,407 +25668,79 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 300000,
-          "tax": "不明",
-          "unit": "1回",
-          "score": 6,
-          "products": [],
-          "excerpt": "40,000円  組織採取料 300,000円 治療費(施術費・幹細胞培養費を含む) 施術(1回)",
-          "page": 8,
-          "line": "300,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 3000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": "す。費用については下記の通りです。  初診料 3,000円  再診料 2,000円",
-          "page": 8,
-          "line": "3,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 40000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": " 上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "page": 8,
-          "line": "(40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 300000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": " 上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "page": 8,
-          "line": "(40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 2400000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": "両膝 1億×2 2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料",
-          "page": 8,
-          "line": "2,400,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 2000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "3,000円  再診料 2,000円  初期検査料 40,000円",
-          "page": 8,
-          "line": "2,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 40000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2,000円  初期検査料 40,000円  組織採取料 300,000円",
-          "page": 8,
-          "line": "40,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
           "amount": 1200000,
           "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "片膝 1億 1,200,000円 両膝 5千万×2",
-          "page": 8,
-          "line": "1,200,000円",
-          "products_source": [],
+          "unit": "片膝・1億個・1回",
+          "products": [
+            "骨髄由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 1400000,
           "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "両膝 5千万×2 1,400,000円 片膝 1.5億",
-          "page": 8,
-          "line": "1,400,000円",
-          "products_source": [],
+          "unit": "両膝・5千万個×2・1回",
+          "products": [
+            "骨髄由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 1700000,
           "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "片膝 1.5億 1,700,000円 両膝 7.5千万×2",
-          "page": 8,
-          "line": "1,700,000円",
-          "products_source": [],
+          "unit": "片膝・1.5億個・1回",
+          "products": [
+            "骨髄由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 1900000,
           "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "両膝 7.5千万×2 1,900,000円 両膝 1億×2",
-          "page": 8,
-          "line": "1,900,000円",
-          "products_source": [],
+          "unit": "両膝・7.5千万個×2・1回",
+          "products": [
+            "骨髄由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 2000,
-          "tax": "不明",
-          "unit": "",
-          "score": -3,
-          "products": [],
-          "excerpt": "2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "page": 8,
-          "line": "上記の治療費は初診料(3,000円)再診料(2,000円))および検査料",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 3000,
-          "tax": "不明",
-          "unit": "",
-          "score": -3,
-          "products": [],
-          "excerpt": "2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "page": 8,
-          "line": "上記の治療費は初診料(3,000円)再診料(2,000円))および検査料",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 40000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "40,000円  組織採取料 300,000円 治療費(施術費・幹細胞培養費を含む) 施術(1回)",
-          "page": 8,
-          "line": "40,000円  組織採取料 300,000円 治療費(施術費・幹細胞培養費を含む) 施術(1回)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
           "postprocess_keep": true,
-          "postprocess_reason": "explicit_treatment_price"
-        },
-        {
-          "amount": 2000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "す。費用については下記の通りです。  初診料 3,000円  再診料 2,000円",
-          "page": 8,
-          "line": "す。費用については下記の通りです。  初診料 3,000円  再診料 2,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 3000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": " 上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "page": 8,
-          "line": " 上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 2000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": " 上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "page": 8,
-          "line": " 上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 3000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "両膝 1億×2 2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料",
-          "page": 8,
-          "line": "両膝 1億×2 2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 2000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "両膝 1億×2 2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料",
-          "page": 8,
-          "line": "両膝 1億×2 2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 3000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "3,000円  再診料 2,000円  初期検査料 40,000円",
-          "page": 8,
-          "line": "3,000円  再診料 2,000円  初期検査料 40,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 40000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "3,000円  再診料 2,000円  初期検査料 40,000円",
-          "page": 8,
-          "line": "3,000円  再診料 2,000円  初期検査料 40,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 2000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2,000円  初期検査料 40,000円  組織採取料 300,000円",
-          "page": 8,
-          "line": "2,000円  初期検査料 40,000円  組織採取料 300,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 300000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2,000円  初期検査料 40,000円  組織採取料 300,000円",
-          "page": 8,
-          "line": "2,000円  初期検査料 40,000円  組織採取料 300,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 2400000,
           "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "page": 8,
-          "line": "2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
+          "unit": "両膝・1億個×2・1回",
+          "products": [
+            "骨髄由来幹細胞"
+          ],
           "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
           "postprocess_keep": true,
-          "postprocess_reason": "explicit_treatment_price"
-        },
-        {
-          "amount": 40000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "page": 8,
-          "line": "2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 300000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "page": 8,
-          "line": "2,400,000円  上記の治療費は初診料(3,000円)再診料(2,000円))および検査料 (40,000円)組織採取料(300,000円)は含まれませんのでご注意くだ",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
+          "postprocess_reason": "verified_official_override"
         }
       ],
       "prices_mhlw_document": [
@@ -26477,9 +26149,89 @@
         }
       ],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 1200000,
+          "tax": "不明",
+          "unit": "片膝・1億個・1回",
+          "products": [
+            "骨髄由来幹細胞"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1400000,
+          "tax": "不明",
+          "unit": "両膝・5千万個×2・1回",
+          "products": [
+            "骨髄由来幹細胞"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1700000,
+          "tax": "不明",
+          "unit": "片膝・1.5億個・1回",
+          "products": [
+            "骨髄由来幹細胞"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1900000,
+          "tax": "不明",
+          "unit": "両膝・7.5千万個×2・1回",
+          "products": [
+            "骨髄由来幹細胞"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2400000,
+          "tax": "不明",
+          "unit": "両膝・1億個×2・1回",
+          "products": [
+            "骨髄由来幹細胞"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+      "official_override_source_type": "mhlw_current_plan_pdf",
+      "official_override_verification": "price table visually verified"
     },
     {
       "plan_id": "V41_01E2403004",
@@ -40021,285 +39773,108 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 5000,
-          "tax": "不明",
-          "unit": "1 回",
-          "score": 5,
+          "amount": 38280,
+          "tax": "税込",
+          "unit": "ACP・1部位（1キット）",
           "products": [
-            "ACP"
-          ],
-          "excerpt": "す。 (3) 採血を開始してからのキャンセルについては、キャンセル費用を頂きます。 ■PRP 初回投与時※ :5,000 円(初診料として) ■PRP・1 回あたり※※ :下の表をご参照ください。 ACP",
-          "page": 6,
-          "line": "■PRP 初回投与時※ :5,000 円(初診料として)",
-          "products_source": [
             "ACP"
           ],
           "makers": [
             "Arthrex"
           ],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
-          "amount": 21780,
-          "tax": "不明",
-          "unit": "1 部位",
-          "score": 3,
-          "products": [],
-          "excerpt": "学生に限り、1 部位(1 キット) 27,280 円 21,780 円 ※ 継続してPRP を投与する場合の再診料はかかりません。",
-          "page": 6,
-          "line": "21,780 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "amount": 54780,
+          "tax": "税込",
+          "unit": "ACP・2部位（2キット）",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 27280,
-          "tax": "不明",
-          "unit": "1 部位",
-          "score": 3,
-          "products": [],
-          "excerpt": "43,780 円 学生に限り、1 部位(1 キット) 27,280 円 21,780 円 ※ 継続してPRP を投与する場合の再診料はかかりません。",
-          "page": 6,
-          "line": "27,280 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "tax": "税込",
+          "unit": "ACP・学生・1部位（1キット）",
+          "note": "学生価格",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 32780,
-          "tax": "不明",
-          "unit": "1 部位",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 部位(1 キット) 38,280 円 32,780 円 2 部位(2 キット) 54,780 円",
-          "page": 6,
-          "line": "32,780 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 38280,
-          "tax": "不明",
-          "unit": "1 部位",
-          "score": 0,
+          "tax": "税込",
+          "unit": "Condensia・1部位（1キット）",
           "products": [
-            "Condensia"
-          ],
-          "excerpt": "Condensia 1 部位(1 キット) 38,280 円 32,780 円 2 部位(2 キット)",
-          "page": 6,
-          "line": "38,280 円",
-          "products_source": [
             "Condensia"
           ],
           "makers": [
             "京セラ"
           ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 43780,
-          "tax": "不明",
-          "unit": "1 部位",
-          "score": 0,
-          "products": [],
-          "excerpt": "2 部位(2 キット) 54,780 円 43,780 円 学生に限り、1 部位(1 キット) 27,280 円",
-          "page": 6,
-          "line": "43,780 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 54780,
-          "tax": "不明",
-          "unit": "1 部位",
-          "score": 0,
-          "products": [],
-          "excerpt": "32,780 円 2 部位(2 キット) 54,780 円 43,780 円 学生に限り、1 部位(1 キット)",
-          "page": 6,
-          "line": "54,780 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 27280,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "学生に限り、1 部位(1 キット) 27,280 円 21,780 円 ※ 継続してPRP を投与する場合の再診料はかかりません。",
-          "page": 6,
-          "line": "学生に限り、1 部位(1 キット) 27,280 円 21,780 円 ※ 継続してPRP を投与する場合の再診料はかかりません。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 43780,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "43,780 円 学生に限り、1 部位(1 キット) 27,280 円 21,780 円 ※ 継続してPRP を投与する場合の再診料はかかりません。",
-          "page": 6,
-          "line": "43,780 円 学生に限り、1 部位(1 キット) 27,280 円 21,780 円 ※ 継続してPRP を投与する場合の再診料はかかりません。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 21780,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "43,780 円 学生に限り、1 部位(1 キット) 27,280 円 21,780 円 ※ 継続してPRP を投与する場合の再診料はかかりません。",
-          "page": 6,
-          "line": "43,780 円 学生に限り、1 部位(1 キット) 27,280 円 21,780 円 ※ 継続してPRP を投与する場合の再診料はかかりません。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 38280,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 部位(1 キット) 38,280 円 32,780 円 2 部位(2 キット) 54,780 円",
-          "page": 6,
-          "line": "1 部位(1 キット) 38,280 円 32,780 円 2 部位(2 キット) 54,780 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 54780,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 部位(1 キット) 38,280 円 32,780 円 2 部位(2 キット) 54,780 円",
-          "page": 6,
-          "line": "1 部位(1 キット) 38,280 円 32,780 円 2 部位(2 キット) 54,780 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 32780,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
+          "tax": "税込",
+          "unit": "Condensia・2部位（2キット）",
           "products": [
             "Condensia"
           ],
-          "excerpt": "Condensia 1 部位(1 キット) 38,280 円 32,780 円 2 部位(2 キット)",
-          "page": 6,
-          "line": "Condensia 1 部位(1 キット) 38,280 円 32,780 円 2 部位(2 キット)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
           "makers": [
             "京セラ"
           ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
         },
         {
-          "amount": 54780,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2 部位(2 キット) 54,780 円 43,780 円 学生に限り、1 部位(1 キット) 27,280 円",
-          "page": 6,
-          "line": "2 部位(2 キット) 54,780 円 43,780 円 学生に限り、1 部位(1 キット) 27,280 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 27280,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2 部位(2 キット) 54,780 円 43,780 円 学生に限り、1 部位(1 キット) 27,280 円",
-          "page": 6,
-          "line": "2 部位(2 キット) 54,780 円 43,780 円 学生に限り、1 部位(1 キット) 27,280 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 32780,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "32,780 円 2 部位(2 キット) 54,780 円 43,780 円 学生に限り、1 部位(1 キット)",
-          "page": 6,
-          "line": "32,780 円 2 部位(2 キット) 54,780 円 43,780 円 学生に限り、1 部位(1 キット)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 43780,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "32,780 円 2 部位(2 キット) 54,780 円 43,780 円 学生に限り、1 部位(1 キット)",
-          "page": 6,
-          "line": "32,780 円 2 部位(2 キット) 54,780 円 43,780 円 学生に限り、1 部位(1 キット)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "amount": 21780,
+          "tax": "税込",
+          "unit": "Condensia・学生・1部位（1キット）",
+          "note": "学生価格",
+          "products": [
+            "Condensia"
+          ],
+          "makers": [
+            "京セラ"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
       "prices_mhlw_document": [
@@ -40586,9 +40161,118 @@
         }
       ],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 38280,
+          "tax": "税込",
+          "unit": "ACP・1部位（1キット）",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 54780,
+          "tax": "税込",
+          "unit": "ACP・2部位（2キット）",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 27280,
+          "tax": "税込",
+          "unit": "ACP・学生・1部位（1キット）",
+          "note": "学生価格",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 32780,
+          "tax": "税込",
+          "unit": "Condensia・1部位（1キット）",
+          "products": [
+            "Condensia"
+          ],
+          "makers": [
+            "京セラ"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 43780,
+          "tax": "税込",
+          "unit": "Condensia・2部位（2キット）",
+          "products": [
+            "Condensia"
+          ],
+          "makers": [
+            "京セラ"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 21780,
+          "tax": "税込",
+          "unit": "Condensia・学生・1部位（1キット）",
+          "note": "学生価格",
+          "products": [
+            "Condensia"
+          ],
+          "makers": [
+            "京セラ"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+      "official_override_source_type": "mhlw_current_plan_pdf",
+      "official_override_verification": "price table visually verified"
     },
     {
       "plan_id": "V41_03F2304004",
@@ -112450,905 +112134,125 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
+          "amount": 44600,
+          "tax": "税込",
+          "unit": "ACP・一般",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 35000,
+          "tax": "税込",
+          "unit": "ACP・学生",
+          "note": "学生価格",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 190000,
+          "tax": "税込",
+          "unit": "ACP MAX・一般",
+          "products": [
+            "ACP MAX"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 165000,
+          "tax": "税込",
+          "unit": "ACP MAX・学生",
+          "note": "学生価格",
+          "products": [
+            "ACP MAX"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 295000,
+          "tax": "税込",
+          "unit": "Angel PRP・1部位",
+          "products": [
+            "Angel"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 415000,
+          "tax": "税込",
+          "unit": "Angel PRP・2部位",
+          "products": [
+            "Angel"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
           "amount": 600000,
-          "tax": "不明",
-          "unit": "",
-          "score": 5,
+          "tax": "税込",
+          "unit": "Angel PRP・3部位",
           "products": [
-            "Angel"
-          ],
-          "excerpt": "570,000円 30,000円 600,000円 Angel PRP なお、PRP治療当日はすべて自由診療となるため、治療費とは別に診察・検査費用が発生します。詳細は医師より",
-          "page": 6,
-          "line": "600,000円",
-          "products_source": [
             "Angel"
           ],
           "makers": [
             "Arthrex"
           ],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 39600,
-          "tax": "税込",
-          "unit": "",
-          "score": 4,
-          "products": [],
-          "excerpt": "治療費(税込) 一般 39,600円 5,000円 44,600円",
-          "page": 6,
-          "line": "39,600円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 165000,
-          "tax": "不明",
-          "unit": "1部位",
-          "score": 3,
-          "products": [
-            "ACP MAX",
-            "ACP"
-          ],
-          "excerpt": "155,000円 10,000円 165,000円 ACP MAX 一般・学生(1部位)",
-          "page": 6,
-          "line": "165,000円",
-          "products_source": [
-            "ACP MAX",
-            "ACP"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "context_tokens_unresolved",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 280000,
-          "tax": "不明",
-          "unit": "1部位",
-          "score": 3,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "ACP MAX 一般・学生(1部位) 280,000円 15,000円 295,000円",
-          "page": 6,
-          "line": "280,000円",
-          "products_source": [
-            "ACP MAX",
-            "ACP"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 35000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "30,000円 5,000円 35,000円 ACP 一般",
-          "page": 6,
-          "line": "35,000円",
-          "products_source": [
-            "ACP"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 180000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "ACP 一般 180,000円 10,000円 190,000円",
-          "page": 6,
-          "line": "180,000円",
-          "products_source": [
-            "ACP"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 15000,
-          "tax": "不明",
-          "unit": "1部位",
-          "score": 1,
-          "products": [],
-          "excerpt": "一般・学生(1部位) 280,000円 15,000円 295,000円 一般・学生(2部位)",
-          "page": 6,
-          "line": "15,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 5000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般 39,600円 5,000円 44,600円 学生",
-          "page": 6,
-          "line": "5,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般 180,000円 10,000円 190,000円 学生",
-          "page": 6,
-          "line": "10,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 15000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般・学生(2部位) 400,000円 15,000円 415,000円 一般・学生(3部位)",
-          "page": 6,
-          "line": "15,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 30000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "44,600円 学生 30,000円 5,000円 35,000円",
-          "page": 6,
-          "line": "30,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 44600,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "39,600円 5,000円 44,600円 学生 30,000円",
-          "page": 6,
-          "line": "44,600円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 155000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "190,000円 学生 155,000円 10,000円 165,000円",
-          "page": 6,
-          "line": "155,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 190000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "180,000円 10,000円 190,000円 学生 155,000円",
-          "page": 6,
-          "line": "190,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 295000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "280,000円 15,000円 295,000円 一般・学生(2部位) 400,000円",
-          "page": 6,
-          "line": "295,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 400000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "295,000円 一般・学生(2部位) 400,000円 15,000円 415,000円",
-          "page": 6,
-          "line": "400,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 570000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "570,000円 30,000円 600,000円 Angel PRP なお、PRP治療当日はすべて自由診療となるため、治療費とは別に診察・検査費用が発生します。詳細は医師より",
-          "page": 6,
-          "line": "570,000円 30,000円 600,000円 Angel PRP なお、PRP治療当日はすべて自由診療となるため、治療費とは別に診察・検査費用が発生します。詳細は医師より",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_treatment_price"
-        },
-        {
-          "amount": 30000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "570,000円 30,000円 600,000円 Angel PRP なお、PRP治療当日はすべて自由診療となるため、治療費とは別に診察・検査費用が発生します。詳細は医師より",
-          "page": 6,
-          "line": "570,000円 30,000円 600,000円 Angel PRP なお、PRP治療当日はすべて自由診療となるため、治療費とは別に診察・検査費用が発生します。詳細は医師より",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_treatment_price"
-        },
-        {
-          "amount": 5000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "治療費(税込) 一般 39,600円 5,000円 44,600円",
-          "page": 6,
-          "line": "治療費(税込) 一般 39,600円 5,000円 44,600円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 44600,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "治療費(税込) 一般 39,600円 5,000円 44,600円",
-          "page": 6,
-          "line": "治療費(税込) 一般 39,600円 5,000円 44,600円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 155000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "155,000円 10,000円 165,000円 ACP MAX 一般・学生(1部位)",
-          "page": 6,
-          "line": "155,000円 10,000円 165,000円 ACP MAX 一般・学生(1部位)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "155,000円 10,000円 165,000円 ACP MAX 一般・学生(1部位)",
-          "page": 6,
-          "line": "155,000円 10,000円 165,000円 ACP MAX 一般・学生(1部位)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 15000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "ACP MAX 一般・学生(1部位) 280,000円 15,000円 295,000円",
-          "page": 6,
-          "line": "ACP MAX 一般・学生(1部位) 280,000円 15,000円 295,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 295000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "ACP MAX 一般・学生(1部位) 280,000円 15,000円 295,000円",
-          "page": 6,
-          "line": "ACP MAX 一般・学生(1部位) 280,000円 15,000円 295,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 30000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "30,000円 5,000円 35,000円 ACP 一般",
-          "page": 6,
-          "line": "30,000円 5,000円 35,000円 ACP 一般",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 5000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "30,000円 5,000円 35,000円 ACP 一般",
-          "page": 6,
-          "line": "30,000円 5,000円 35,000円 ACP 一般",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "ACP 一般 180,000円 10,000円 190,000円",
-          "page": 6,
-          "line": "ACP 一般 180,000円 10,000円 190,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 190000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "ACP 一般 180,000円 10,000円 190,000円",
-          "page": 6,
-          "line": "ACP 一般 180,000円 10,000円 190,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 280000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般・学生(1部位) 280,000円 15,000円 295,000円 一般・学生(2部位)",
-          "page": 6,
-          "line": "一般・学生(1部位) 280,000円 15,000円 295,000円 一般・学生(2部位)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 295000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般・学生(1部位) 280,000円 15,000円 295,000円 一般・学生(2部位)",
-          "page": 6,
-          "line": "一般・学生(1部位) 280,000円 15,000円 295,000円 一般・学生(2部位)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 39600,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般 39,600円 5,000円 44,600円 学生",
-          "page": 6,
-          "line": "一般 39,600円 5,000円 44,600円 学生",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 44600,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般 39,600円 5,000円 44,600円 学生",
-          "page": 6,
-          "line": "一般 39,600円 5,000円 44,600円 学生",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 180000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般 180,000円 10,000円 190,000円 学生",
-          "page": 6,
-          "line": "一般 180,000円 10,000円 190,000円 学生",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 190000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般 180,000円 10,000円 190,000円 学生",
-          "page": 6,
-          "line": "一般 180,000円 10,000円 190,000円 学生",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 400000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般・学生(2部位) 400,000円 15,000円 415,000円 一般・学生(3部位)",
-          "page": 6,
-          "line": "一般・学生(2部位) 400,000円 15,000円 415,000円 一般・学生(3部位)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 415000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般・学生(2部位) 400,000円 15,000円 415,000円 一般・学生(3部位)",
-          "page": 6,
-          "line": "一般・学生(2部位) 400,000円 15,000円 415,000円 一般・学生(3部位)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 44600,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "44,600円 学生 30,000円 5,000円 35,000円",
-          "page": 6,
-          "line": "44,600円 学生 30,000円 5,000円 35,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 5000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "44,600円 学生 30,000円 5,000円 35,000円",
-          "page": 6,
-          "line": "44,600円 学生 30,000円 5,000円 35,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 35000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "44,600円 学生 30,000円 5,000円 35,000円",
-          "page": 6,
-          "line": "44,600円 学生 30,000円 5,000円 35,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 39600,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "39,600円 5,000円 44,600円 学生 30,000円",
-          "page": 6,
-          "line": "39,600円 5,000円 44,600円 学生 30,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 5000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "39,600円 5,000円 44,600円 学生 30,000円",
-          "page": 6,
-          "line": "39,600円 5,000円 44,600円 学生 30,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 30000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "39,600円 5,000円 44,600円 学生 30,000円",
-          "page": 6,
-          "line": "39,600円 5,000円 44,600円 学生 30,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 190000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "190,000円 学生 155,000円 10,000円 165,000円",
-          "page": 6,
-          "line": "190,000円 学生 155,000円 10,000円 165,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "190,000円 学生 155,000円 10,000円 165,000円",
-          "page": 6,
-          "line": "190,000円 学生 155,000円 10,000円 165,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 165000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "190,000円 学生 155,000円 10,000円 165,000円",
-          "page": 6,
-          "line": "190,000円 学生 155,000円 10,000円 165,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 180000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "180,000円 10,000円 190,000円 学生 155,000円",
-          "page": 6,
-          "line": "180,000円 10,000円 190,000円 学生 155,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "180,000円 10,000円 190,000円 学生 155,000円",
-          "page": 6,
-          "line": "180,000円 10,000円 190,000円 学生 155,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 155000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "180,000円 10,000円 190,000円 学生 155,000円",
-          "page": 6,
-          "line": "180,000円 10,000円 190,000円 学生 155,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 280000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "280,000円 15,000円 295,000円 一般・学生(2部位) 400,000円",
-          "page": 6,
-          "line": "280,000円 15,000円 295,000円 一般・学生(2部位) 400,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 15000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "280,000円 15,000円 295,000円 一般・学生(2部位) 400,000円",
-          "page": 6,
-          "line": "280,000円 15,000円 295,000円 一般・学生(2部位) 400,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 400000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "280,000円 15,000円 295,000円 一般・学生(2部位) 400,000円",
-          "page": 6,
-          "line": "280,000円 15,000円 295,000円 一般・学生(2部位) 400,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 295000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "295,000円 一般・学生(2部位) 400,000円 15,000円 415,000円",
-          "page": 6,
-          "line": "295,000円 一般・学生(2部位) 400,000円 15,000円 415,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 15000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "295,000円 一般・学生(2部位) 400,000円 15,000円 415,000円",
-          "page": 6,
-          "line": "295,000円 一般・学生(2部位) 400,000円 15,000円 415,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 415000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "295,000円 一般・学生(2部位) 400,000円 15,000円 415,000円",
-          "page": 6,
-          "line": "295,000円 一般・学生(2部位) 400,000円 15,000円 415,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "postprocess_reason": "verified_official_override"
         }
       ],
       "prices_mhlw_document": [
@@ -114255,9 +113159,135 @@
         }
       ],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 44600,
+          "tax": "税込",
+          "unit": "ACP・一般",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 35000,
+          "tax": "税込",
+          "unit": "ACP・学生",
+          "note": "学生価格",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 190000,
+          "tax": "税込",
+          "unit": "ACP MAX・一般",
+          "products": [
+            "ACP MAX"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 165000,
+          "tax": "税込",
+          "unit": "ACP MAX・学生",
+          "note": "学生価格",
+          "products": [
+            "ACP MAX"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 295000,
+          "tax": "税込",
+          "unit": "Angel PRP・1部位",
+          "products": [
+            "Angel"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 415000,
+          "tax": "税込",
+          "unit": "Angel PRP・2部位",
+          "products": [
+            "Angel"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 600000,
+          "tax": "税込",
+          "unit": "Angel PRP・3部位",
+          "products": [
+            "Angel"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+      "official_override_source_type": "mhlw_current_plan_pdf",
+      "official_override_verification": "price table visually verified"
     },
     {
       "plan_id": "V41_01C2605037",
@@ -114631,738 +113661,91 @@
       "qc_reason_source": "rescue price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 215000,
-          "tax": "不明",
-          "unit": "",
-          "score": 5,
-          "products": [
-            "Angel"
-          ],
-          "excerpt": "200,000円 15,000円 215,000円 Angel PRP なお、PRP治療当日はすべて自由診療となるため、治療費とは別に診察・検査費用が発生します。詳細は医師より",
-          "page": 6,
-          "line": "215,000円",
-          "products_source": [
-            "Angel"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 29700,
+          "amount": 34700,
           "tax": "税込",
-          "unit": "",
-          "score": 4,
-          "products": [],
-          "excerpt": "治療費(税込) 一般 29,700円 5,000円 34,700円",
-          "page": 6,
-          "line": "29,700円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 15000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
+          "unit": "ACP・一般",
           "products": [
-            "Angel"
-          ],
-          "excerpt": "一般・学生 200,000円 15,000円 215,000円 Angel PRP",
-          "page": 6,
-          "line": "15,000円",
-          "products_source": [
-            "Angel"
+            "ACP"
           ],
           "makers": [
             "Arthrex"
           ],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 29000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
+          "tax": "税込",
+          "unit": "ACP・学生",
+          "note": "学生価格",
           "products": [
-            "ACP"
-          ],
-          "excerpt": "24,000円 5,000円 29,000円 ACP 一般",
-          "page": 6,
-          "line": "29,000円",
-          "products_source": [
             "ACP"
           ],
           "makers": [
             "Arthrex"
           ],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 160000,
+          "tax": "税込",
+          "unit": "ACP MAX・一般",
+          "products": [
+            "ACP MAX"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 135000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [
-            "ACP MAX",
-            "ACP"
-          ],
-          "excerpt": "125,000円 10,000円 135,000円 ACP MAX 一般・学生",
-          "page": 6,
-          "line": "135,000円",
-          "products_source": [
-            "ACP MAX",
-            "ACP"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "context_tokens_unresolved",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 150000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "ACP 一般 150,000円 10,000円 160,000円",
-          "page": 6,
-          "line": "150,000円",
-          "products_source": [
-            "ACP"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 200000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
+          "tax": "税込",
+          "unit": "ACP MAX・学生",
+          "note": "学生価格",
           "products": [
             "ACP MAX"
           ],
-          "excerpt": "ACP MAX 一般・学生 200,000円 15,000円 215,000円",
-          "page": 6,
-          "line": "200,000円",
-          "products_source": [
-            "ACP MAX",
-            "ACP"
-          ],
           "makers": [
             "Arthrex"
           ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 5000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般 29,700円 5,000円 34,700円 学生",
-          "page": 6,
-          "line": "5,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般 150,000円 10,000円 160,000円 学生",
-          "page": 6,
-          "line": "10,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 24000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "34,700円 学生 24,000円 5,000円 29,000円",
-          "page": 6,
-          "line": "24,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 34700,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "29,700円 5,000円 34,700円 学生 24,000円",
-          "page": 6,
-          "line": "34,700円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 125000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "160,000円 学生 125,000円 10,000円 135,000円",
-          "page": 6,
-          "line": "125,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 160000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "150,000円 10,000円 160,000円 学生 125,000円",
-          "page": 6,
-          "line": "160,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 200000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "200,000円 15,000円 215,000円 Angel PRP なお、PRP治療当日はすべて自由診療となるため、治療費とは別に診察・検査費用が発生します。詳細は医師より",
-          "page": 6,
-          "line": "200,000円 15,000円 215,000円 Angel PRP なお、PRP治療当日はすべて自由診療となるため、治療費とは別に診察・検査費用が発生します。詳細は医師より",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_treatment_price"
-        },
-        {
-          "amount": 15000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "200,000円 15,000円 215,000円 Angel PRP なお、PRP治療当日はすべて自由診療となるため、治療費とは別に診察・検査費用が発生します。詳細は医師より",
-          "page": 6,
-          "line": "200,000円 15,000円 215,000円 Angel PRP なお、PRP治療当日はすべて自由診療となるため、治療費とは別に診察・検査費用が発生します。詳細は医師より",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_treatment_price"
-        },
-        {
-          "amount": 5000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "治療費(税込) 一般 29,700円 5,000円 34,700円",
-          "page": 6,
-          "line": "治療費(税込) 一般 29,700円 5,000円 34,700円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 34700,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "治療費(税込) 一般 29,700円 5,000円 34,700円",
-          "page": 6,
-          "line": "治療費(税込) 一般 29,700円 5,000円 34,700円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 200000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般・学生 200,000円 15,000円 215,000円 Angel PRP",
-          "page": 6,
-          "line": "一般・学生 200,000円 15,000円 215,000円 Angel PRP",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 215000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般・学生 200,000円 15,000円 215,000円 Angel PRP",
-          "page": 6,
-          "line": "一般・学生 200,000円 15,000円 215,000円 Angel PRP",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 24000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "24,000円 5,000円 29,000円 ACP 一般",
-          "page": 6,
-          "line": "24,000円 5,000円 29,000円 ACP 一般",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 5000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "24,000円 5,000円 29,000円 ACP 一般",
-          "page": 6,
-          "line": "24,000円 5,000円 29,000円 ACP 一般",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 125000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "125,000円 10,000円 135,000円 ACP MAX 一般・学生",
-          "page": 6,
-          "line": "125,000円 10,000円 135,000円 ACP MAX 一般・学生",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "125,000円 10,000円 135,000円 ACP MAX 一般・学生",
-          "page": 6,
-          "line": "125,000円 10,000円 135,000円 ACP MAX 一般・学生",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
+          "tax": "税込",
+          "unit": "Angel PRP・一般/学生",
           "products": [
-            "ACP"
+            "Angel"
           ],
-          "excerpt": "ACP 一般 150,000円 10,000円 160,000円",
-          "page": 6,
-          "line": "ACP 一般 150,000円 10,000円 160,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
           "makers": [
             "Arthrex"
           ],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 160000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "ACP 一般 150,000円 10,000円 160,000円",
-          "page": 6,
-          "line": "ACP 一般 150,000円 10,000円 160,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 15000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "ACP MAX 一般・学生 200,000円 15,000円 215,000円",
-          "page": 6,
-          "line": "ACP MAX 一般・学生 200,000円 15,000円 215,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 215000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "ACP MAX 一般・学生 200,000円 15,000円 215,000円",
-          "page": 6,
-          "line": "ACP MAX 一般・学生 200,000円 15,000円 215,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 29700,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般 29,700円 5,000円 34,700円 学生",
-          "page": 6,
-          "line": "一般 29,700円 5,000円 34,700円 学生",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 34700,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般 29,700円 5,000円 34,700円 学生",
-          "page": 6,
-          "line": "一般 29,700円 5,000円 34,700円 学生",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 150000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般 150,000円 10,000円 160,000円 学生",
-          "page": 6,
-          "line": "一般 150,000円 10,000円 160,000円 学生",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 160000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "一般 150,000円 10,000円 160,000円 学生",
-          "page": 6,
-          "line": "一般 150,000円 10,000円 160,000円 学生",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 34700,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "34,700円 学生 24,000円 5,000円 29,000円",
-          "page": 6,
-          "line": "34,700円 学生 24,000円 5,000円 29,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 5000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "34,700円 学生 24,000円 5,000円 29,000円",
-          "page": 6,
-          "line": "34,700円 学生 24,000円 5,000円 29,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 29000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "34,700円 学生 24,000円 5,000円 29,000円",
-          "page": 6,
-          "line": "34,700円 学生 24,000円 5,000円 29,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 29700,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "29,700円 5,000円 34,700円 学生 24,000円",
-          "page": 6,
-          "line": "29,700円 5,000円 34,700円 学生 24,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 5000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "29,700円 5,000円 34,700円 学生 24,000円",
-          "page": 6,
-          "line": "29,700円 5,000円 34,700円 学生 24,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 24000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "29,700円 5,000円 34,700円 学生 24,000円",
-          "page": 6,
-          "line": "29,700円 5,000円 34,700円 学生 24,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 160000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "160,000円 学生 125,000円 10,000円 135,000円",
-          "page": 6,
-          "line": "160,000円 学生 125,000円 10,000円 135,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "160,000円 学生 125,000円 10,000円 135,000円",
-          "page": 6,
-          "line": "160,000円 学生 125,000円 10,000円 135,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 135000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "160,000円 学生 125,000円 10,000円 135,000円",
-          "page": 6,
-          "line": "160,000円 学生 125,000円 10,000円 135,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 150000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "150,000円 10,000円 160,000円 学生 125,000円",
-          "page": 6,
-          "line": "150,000円 10,000円 160,000円 学生 125,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "150,000円 10,000円 160,000円 学生 125,000円",
-          "page": 6,
-          "line": "150,000円 10,000円 160,000円 学生 125,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 125000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "150,000円 10,000円 160,000円 学生 125,000円",
-          "page": 6,
-          "line": "150,000円 10,000円 160,000円 学生 125,000円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "postprocess_reason": "verified_official_override"
         }
       ],
       "prices_mhlw_document": [
@@ -116102,9 +114485,101 @@
         }
       ],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 34700,
+          "tax": "税込",
+          "unit": "ACP・一般",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 29000,
+          "tax": "税込",
+          "unit": "ACP・学生",
+          "note": "学生価格",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 160000,
+          "tax": "税込",
+          "unit": "ACP MAX・一般",
+          "products": [
+            "ACP MAX"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 135000,
+          "tax": "税込",
+          "unit": "ACP MAX・学生",
+          "note": "学生価格",
+          "products": [
+            "ACP MAX"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 215000,
+          "tax": "税込",
+          "unit": "Angel PRP・一般/学生",
+          "products": [
+            "Angel"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+      "official_override_source_type": "mhlw_current_plan_pdf",
+      "official_override_verification": "price table visually verified"
     },
     {
       "plan_id": "V41_03C2310079",
