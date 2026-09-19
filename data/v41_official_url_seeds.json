@@ -9,27 +9,9 @@
       "source": "web_verified"
     },
     {
-      "facility_id": "V41F9372FF520F",
-      "facility": "日本医科大学千葉北総病院",
-      "url": "https://www.nms.ac.jp/hokuso-h/section/orthopedics/staff.html",
-      "source": "web_verified"
-    },
-    {
       "facility_id": "V41F6BA7FEB040",
       "facility": "社会医療法人社団蛍水会 名戸ヶ谷病院",
       "url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
-      "source": "web_verified"
-    },
-    {
-      "facility_id": "V41F792727709A",
-      "facility": "UT整形外科 武蔵浦和",
-      "url": "https://www.ut-seikei.com/regenerative-medicine/",
-      "source": "web_verified"
-    },
-    {
-      "facility_id": "V41F5A02ABC301",
-      "facility": "医療法人社団 鴻愛会 with Life クリニック 大宮駅前",
-      "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
       "source": "web_verified"
     },
     {
@@ -42,18 +24,6 @@
       "facility_id": "V41F2272A75A03",
       "facility": "ひらまつ整形外科 難波ひざスポーツクリニック",
       "url": "https://www.h-nksc.jp/",
-      "source": "web_verified"
-    },
-    {
-      "facility_id": "V41FBBD6F8D2E6",
-      "facility": "医療法人槻陽会 高槻整形外科・再生医療クリニック",
-      "url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
-      "source": "web_verified"
-    },
-    {
-      "facility_id": "V41FE1A06DCDA7",
-      "facility": "医療法人酒井会 さかいペインクリニック",
-      "url": "https://sakai-pain.com/",
       "source": "web_verified"
     },
     {
@@ -99,27 +69,9 @@
       "source": "web_verified"
     },
     {
-      "facility_id": "V41F72BC51763F",
-      "facility": "一般社団法人再健会 シン・整形外科 代々木上原",
-      "url": "https://shin-yoyogiuehara.com/self-pay/",
-      "source": "web_verified"
-    },
-    {
       "facility_id": "V41F1D3991E09E",
       "facility": "一般社団法人天美会 Tenvi Clinic Ginza",
       "url": "https://tenviclinic.com/",
-      "source": "web_verified"
-    },
-    {
-      "facility_id": "V41F8EA8952CF4",
-      "facility": "医療法人元気会わかさクリニック WA CLINIC GINZA",
-      "url": "https://www.waclinic-ginza.com/price",
-      "source": "web_verified"
-    },
-    {
-      "facility_id": "V41F1418F41A29",
-      "facility": "医療法人社団HELENE ヘレネAOビルクリニック",
-      "url": "https://heleneclinic.com/",
       "source": "web_verified"
     },
     {
@@ -207,5 +159,7 @@
       "source": "web_verified_exact_address_name_transition"
     }
   ],
-  "updated_at": "2026-09-19"
+  "updated_at": "2026-09-19",
+  "active_queue_total": 136,
+  "active_unique_facilities": 118
 }
