@@ -1,0 +1,23 @@
+name: Export v42 inputs
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v42-inputs
+          path: |
+            results/v42_auto_prices_compact.tsv
+            results/v42_additions_final_compact.tsv
+            results/v42_manual_confirmed_prices.tsv
+          if-no-files-found: error
+          retention-days: 7
