@@ -172,6 +172,19 @@ async def fetch_pdf(context,url):
     except Exception as e:
         return None,None,type(e).__name__
 
+async def make_context(browser):
+    context=await browser.new_context(
+        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+        locale="ja-JP",
+    )
+    page=await context.new_page()
+    try:
+        await page.goto("https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
+                        wait_until="domcontentloaded",timeout=30000)
+    except Exception:
+        pass
+    return context
+
 async def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("--batch",type=int,required=True)
@@ -187,27 +200,34 @@ async def main():
     results=[]
     async with async_playwright() as p:
         browser=await p.chromium.launch(headless=True)
-        context=await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
-            locale="ja-JP",
-        )
-        page=await context.new_page()
-        try:
-            await page.goto("https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
-                            wait_until="domcontentloaded",timeout=30000)
-        except Exception:
-            pass
+        context=await make_context(browser)
+        context_resets=0
 
         for n,row in enumerate(subset,1):
+            if n>1 and (n-1)%5==0:
+                await context.close()
+                context=await make_context(browser)
+                context_resets+=1
+
             products=set();explicit=set();inferred=set();product_only=set();evidence=[]
-            pdf_count=0;attempts=0;urls=[];statuses=[]
+            pdf_count=0;attempts=0;urls=[];statuses=[];retry_403=0
             for code in [c for c in row["mhlw_plan_codes"].split("|") if c]:
                 consecutive_404=0
                 for idx in range(args.max_index+1):
                     attempts+=1
                     url=f"https://saiseiiryo.mhlw.go.jp/published_plan/download/{code}/5/{idx}"
                     data,status,ctype=await fetch_pdf(context,url)
-                    statuses.append(f"{code}:{idx}:{status}")
+                    if status==403:
+                        retry_403+=1
+                        await context.close()
+                        context=await make_context(browser)
+                        context_resets+=1
+                        await asyncio.sleep(0.4)
+                        data,status,ctype=await fetch_pdf(context,url)
+                        statuses.append(f"{code}:{idx}:403>retry:{status}")
+                    else:
+                        statuses.append(f"{code}:{idx}:{status}")
+                    await asyncio.sleep(0.08)
                     if data is None:
                         if status==404:
                             consecutive_404+=1
@@ -249,6 +269,8 @@ async def main():
                 "safe_resolved":safe,
                 "pdf_count":pdf_count,
                 "attempts":attempts,
+                "retry_403":retry_403,
+                "context_resets_so_far":context_resets,
                 "document_urls":"|".join(urls),
                 "http_statuses":"|".join(statuses),
                 "evidence_json":json.dumps(evidence[:30],ensure_ascii=False),
@@ -274,6 +296,8 @@ async def main():
         "validated_product_map":sum(r["maker_evidence_type"]=="VALIDATED_PRODUCT_MAP" for r in results),
         "product_only_unvalidated":sum(r["maker_evidence_type"]=="PRODUCT_ONLY_UNVALIDATED" for r in results),
         "no_brand_hit":sum(r["maker_evidence_type"]=="NONE" for r in results),
+        "retry_403":sum(int(r["retry_403"]) for r in results),
+        "max_context_resets":max((int(r["context_resets_so_far"]) for r in results),default=0),
     }
     (outdir/"summary.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(summary,ensure_ascii=False))
