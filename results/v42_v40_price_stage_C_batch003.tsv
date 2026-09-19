@@ -1,0 +1,17 @@
+lane	queue_index	plan_id	mhlw_plan_code	facility_id	prefecture	facility	category	treatment_class	status	amount	tax	unit	products	makers	document_url	ranking_eligible	merge_status	qc_reason
+C	101	P00504	02F2410007	F0155	山口県	医療法人社団季朋会 王司病院	第三種	PRP	AUTO	50000	税込	1 回	GPS|MyCells	Zimmer Biomet|MyCells系	https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2410007/5/0	true	READY_AUTO	
+C	101	P00504	02F2410007	F0155	山口県	医療法人社団季朋会 王司病院	第三種	PRP	AUTO	50000	税込		GPS|MyCells	Zimmer Biomet|MyCells系	https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2410007/5/0	true	READY_AUTO	
+C	101	P00504	02F2410007	F0155	山口県	医療法人社団季朋会 王司病院	第三種	PRP	AUTO	100000	税込		GPS|MyCells	Zimmer Biomet|MyCells系	https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2410007/5/0	true	READY_AUTO	
+C	102	P00510	01F2205002	F0193	徳島県	医療法人メディカルトラスト 髙木整形外科医院	第三種	PRP	AUTO	33000	税込		ACP|GPS|Zimmer|Arthrex	Arthrex|Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2205002/5/0	true	READY_AUTO	
+C	102	P00510	01F2205002	F0193	徳島県	医療法人メディカルトラスト 髙木整形外科医院	第三種	PRP	AUTO	110000	税込		ACP|APS|GPS|Zimmer	Arthrex|Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2205002/5/0	true	READY_AUTO	
+C	103	P00507	01F2205001	F0193	徳島県	医療法人メディカルトラスト 髙木整形外科医院	第二種	PRP	AUTO	55000	税込		ACP|APS|GPS|Zimmer	Arthrex|Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2205001/5/0	true	READY_AUTO	
+C	103	P00507	01F2205001	F0193	徳島県	医療法人メディカルトラスト 髙木整形外科医院	第二種	PRP	AUTO	165000	税込		ACP|APS|GPS|Zimmer	Arthrex|Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2205001/5/0	true	READY_AUTO	
+C	103	P00507	01F2205001	F0193	徳島県	医療法人メディカルトラスト 髙木整形外科医院	第二種	PRP	AUTO	385000	税込		ACP|APS|GPS|Zimmer	Arthrex|Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2205001/5/0	true	READY_AUTO	
+C	104	P00508	02F2504001	F0193	徳島県	医療法人メディカルトラスト 髙木整形外科医院	第二種	脂肪由来ASC	AUTO	1650000	税込	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2504001/5/0	true	READY_AUTO	
+C	104	P00508	02F2504001	F0193	徳島県	医療法人メディカルトラスト 髙木整形外科医院	第二種	脂肪由来ASC	AUTO	1936000	税込	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2504001/5/0	true	READY_AUTO	
+C	104	P00508	02F2504001	F0193	徳島県	医療法人メディカルトラスト 髙木整形外科医院	第二種	脂肪由来ASC	AUTO	286000	税込	1 部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2504001/5/0	true	READY_AUTO	
+C	104	P00508	02F2504001	F0193	徳島県	医療法人メディカルトラスト 髙木整形外科医院	第二種	脂肪由来ASC	AUTO	71280	税込	2回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2504001/5/0	true	READY_AUTO	
+C	104	P00508	02F2504001	F0193	徳島県	医療法人メディカルトラスト 髙木整形外科医院	第二種	脂肪由来ASC	AUTO	397000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2504001/5/0	true	READY_AUTO	
+C	104	P00508	02F2504001	F0193	徳島県	医療法人メディカルトラスト 髙木整形外科医院	第二種	脂肪由来ASC	AUTO	500000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2504001/5/0	true	READY_AUTO	
+C	104	P00508	02F2504001	F0193	徳島県	医療法人メディカルトラスト 髙木整形外科医院	第二種	脂肪由来ASC	AUTO	826000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2504001/5/0	true	READY_AUTO	
+C	105	P00535	03F2405002	F0198	愛媛県	社会医療法人石川記念会 HITO病院	第三種	PRP	AUTO	100000	税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2405002/5/0	true	READY_AUTO	
