@@ -1,31 +1,31 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T02:40:44.483008+00:00",
+  "updated_at": "2026-09-19T02:41:56.931366+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T02:40:44.482774+00:00",
+    "updated_at": "2026-09-19T02:41:56.931193+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 139,
+    "promoted_qc_to_auto": 149,
     "promoted_by_parser": 67,
-    "promoted_by_verified_override": 72,
-    "normalized_auto": 677,
-    "normalized_qc": 90,
+    "promoted_by_verified_override": 82,
+    "normalized_auto": 687,
+    "normalized_qc": 80,
     "normalized_fail": 0,
     "normalized_out_of_scope": 1,
     "normalized_no_public_price": 6,
     "in_scope_total": 773,
-    "resolved_in_scope": 683,
-    "normalized_price_records": 1525,
+    "resolved_in_scope": 693,
+    "normalized_price_records": 1550,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 596,
+      "source_status_retained": 586,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 73,
+      "verified_official_site_override": 83,
       "verified_official_override": 30,
       "explicit_total_price_block": 2,
       "verified_no_public_price": 6,
@@ -11400,12 +11400,106 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 550000,
+          "tax": "税込",
+          "unit": "1関節・1回投与",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "税抜500,000円",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2601085/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 770000,
+          "tax": "税込",
+          "unit": "2関節・1回投与",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "税抜700,000円",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2601085/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 770000,
+          "tax": "税込",
+          "unit": "1関節・2回投与",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "税抜700,000円",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2601085/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 550000,
+          "tax": "税込",
+          "unit": "1関節・1回投与",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "税抜500,000円",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2601085/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 770000,
+          "tax": "税込",
+          "unit": "2関節・1回投与",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "税抜700,000円",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2601085/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 770000,
+          "tax": "税込",
+          "unit": "1関節・2回投与",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "税抜700,000円",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2601085/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2601085/5/1",
+      "verified_source_type": "mhlw_published_plan_attachment",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -58015,12 +58109,136 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 350000,
+          "tax": "税込",
+          "unit": "0.5億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404039/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 700000,
+          "tax": "税込",
+          "unit": "1億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404039/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1400000,
+          "tax": "税込",
+          "unit": "2億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404039/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2100000,
+          "tax": "税込",
+          "unit": "3億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404039/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 350000,
+          "tax": "税込",
+          "unit": "0.5億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404039/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 700000,
+          "tax": "税込",
+          "unit": "1億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404039/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1400000,
+          "tax": "税込",
+          "unit": "2億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404039/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2100000,
+          "tax": "税込",
+          "unit": "3億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404039/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404039/5/2",
+      "verified_source_type": "mhlw_published_plan_attachment",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -58051,12 +58269,136 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 350000,
+          "tax": "税込",
+          "unit": "0.5億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404043/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 700000,
+          "tax": "税込",
+          "unit": "1億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404043/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1400000,
+          "tax": "税込",
+          "unit": "2億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404043/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2100000,
+          "tax": "税込",
+          "unit": "3億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404043/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 350000,
+          "tax": "税込",
+          "unit": "0.5億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404043/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 700000,
+          "tax": "税込",
+          "unit": "1億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404043/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1400000,
+          "tax": "税込",
+          "unit": "2億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404043/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2100000,
+          "tax": "税込",
+          "unit": "3億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404043/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2404043/5/1",
+      "verified_source_type": "mhlw_published_plan_attachment",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -58196,12 +58538,136 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 350000,
+          "tax": "税込",
+          "unit": "0.5億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505009/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 700000,
+          "tax": "税込",
+          "unit": "1億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505009/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1400000,
+          "tax": "税込",
+          "unit": "2億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505009/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2100000,
+          "tax": "税込",
+          "unit": "3億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505009/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 350000,
+          "tax": "税込",
+          "unit": "0.5億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505009/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 700000,
+          "tax": "税込",
+          "unit": "1億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505009/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1400000,
+          "tax": "税込",
+          "unit": "2億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505009/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2100000,
+          "tax": "税込",
+          "unit": "3億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505009/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505009/5/2",
+      "verified_source_type": "mhlw_published_plan_attachment",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -58231,12 +58697,136 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 350000,
+          "tax": "税込",
+          "unit": "0.5億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505010/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 700000,
+          "tax": "税込",
+          "unit": "1億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505010/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1400000,
+          "tax": "税込",
+          "unit": "2億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505010/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2100000,
+          "tax": "税込",
+          "unit": "3億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505010/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 350000,
+          "tax": "税込",
+          "unit": "0.5億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505010/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 700000,
+          "tax": "税込",
+          "unit": "1億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505010/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1400000,
+          "tax": "税込",
+          "unit": "2億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505010/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2100000,
+          "tax": "税込",
+          "unit": "3億cells",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505010/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505010/5/2",
+      "verified_source_type": "mhlw_published_plan_attachment",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -67748,12 +68338,46 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 1500000,
+          "tax": "税別",
+          "unit": "施術費用",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "初診料25,000円税別は別途",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C1905014/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 1500000,
+          "tax": "税別",
+          "unit": "施術費用",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "初診料25,000円税別は別途",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C1905014/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C1905014/5/1",
+      "verified_source_type": "mhlw_published_plan_attachment",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -79149,12 +79773,46 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 254100,
+          "tax": "税込",
+          "unit": "PRP投与・1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2508073/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 254100,
+          "tax": "税込",
+          "unit": "PRP投与・1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2508073/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2508073/5/1",
+      "verified_source_type": "mhlw_published_plan_attachment",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -79185,12 +79843,46 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 254100,
+          "tax": "税込",
+          "unit": "PRP投与・1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2508074/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 254100,
+          "tax": "税込",
+          "unit": "PRP投与・1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2508074/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2508074/5/1",
+      "verified_source_type": "mhlw_published_plan_attachment",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -87786,12 +88478,46 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 2200000,
+          "tax": "税込",
+          "unit": "1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "脂肪採取費220,000円税込を含む",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2509032/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 2200000,
+          "tax": "税込",
+          "unit": "1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "脂肪採取費220,000円税込を含む",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2509032/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2509032/5/1",
+      "verified_source_type": "mhlw_published_plan_attachment",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -87892,12 +88618,76 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 2508000,
+          "tax": "税込",
+          "unit": "5,000万個まで・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "脂肪採取費220,000円税込を含む",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2509048/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 3762000,
+          "tax": "税込",
+          "unit": "1億個まで・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "脂肪採取費220,000円税込を含む",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2509048/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 2508000,
+          "tax": "税込",
+          "unit": "5,000万個まで・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "脂肪採取費220,000円税込を含む",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2509048/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 3762000,
+          "tax": "税込",
+          "unit": "1億個まで・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "脂肪採取費220,000円税込を含む",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2509048/5/1",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2509048/5/1",
+      "verified_source_type": "mhlw_published_plan_attachment",
       "scope_status": "IN_SCOPE"
     },
     {
