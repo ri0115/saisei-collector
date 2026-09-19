@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json,re,unicodedata,time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.parse import urljoin,urlparse
 
@@ -16,7 +17,7 @@ def norm(s):
     return unicodedata.normalize("NFKC",s or "")
 
 def get(url):
-    r=requests.get(url,headers={"User-Agent":UA,"Accept":"text/html,*/*"},timeout=30,allow_redirects=True)
+    r=requests.get(url,headers={"User-Agent":UA,"Accept":"text/html,*/*"},timeout=12,allow_redirects=True)
     r.raise_for_status()
     return r
 
@@ -88,13 +89,17 @@ def main():
         try:
             root_text,links,final_url=text_and_links(s["url"])
             pages=[(final_url,root_text)]
-            for u in links[:10]:
-                try:
-                    txt,_,fu=text_and_links(u)
-                    pages.append((fu,txt))
-                    time.sleep(.25)
-                except Exception as e:
-                    rec["pages"].append({"url":u,"error":f"{type(e).__name__}: {e}"})
+            child_urls=links[:6]
+            if child_urls:
+                with ThreadPoolExecutor(max_workers=4) as ex:
+                    futs={ex.submit(text_and_links,u):u for u in child_urls}
+                    for fut in as_completed(futs):
+                        u=futs[fut]
+                        try:
+                            txt,_,fu=fut.result()
+                            pages.append((fu,txt))
+                        except Exception as e:
+                            rec["pages"].append({"url":u,"error":f"{type(e).__name__}: {e}"})
             uniq=[];seen=set()
             for u,txt in pages:
                 if u in seen: continue
