@@ -44,6 +44,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 北海道|福亀会札幌中央整形外科クリニック	北海道	医療法人社団 福亀会 札幌中央整形外科クリニック	Arthrex	1	ACP	MANUAL_VERIFIED
 北海道|gozenごうだ整形外科	北海道	医療法人社団GOZEN ごうだ整形外科	Arthrex	1	ACP	MANUAL_VERIFIED
 北海道|くわのみ会桑園整形外科	北海道	医療法人社団くわのみ会 桑園整形外科	Zimmer Biomet	1	APS	MANUAL_VERIFIED
+北海道|みつわ整形外科クリニック	北海道	医療法人社団みつわ整形外科クリニック	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 北海道|三慈会釧路三慈会病院	北海道	医療法人社団三慈会 釧路三慈会病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 北海道|悠仁会羊ヶ丘病院	北海道	医療法人社団悠仁会 羊ヶ丘病院	Arthrex	1	ACP	MANUAL_VERIFIED
 北海道|松陽会だい整形外科クリニック	北海道	医療法人社団松陽会 だい整形外科クリニック	Arthrex	1	ACP	MANUAL_VERIFIED
@@ -66,6 +67,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 千葉県|淳英会おゆみの中央病院	千葉県	医療法人社団淳英会 おゆみの中央病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 千葉県|錦昌会みどりのは葉記念病院	千葉県	医療法人社団錦昌会 みどりのは 葉記念病院	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 千葉県|鉄蕉会亀田クリニック	千葉県	医療法人鉄蕉会 亀田クリニック	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+千葉県|鉄蕉会亀田総合病院	千葉県	医療法人鉄蕉会 亀田総合病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 千葉県|千葉ニュータウン整形外科リハビリテーションクリニック	千葉県	千葉ニュータウン整形外科リハビリテーションクリニック	Arthrex	1	ACP|ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
 千葉県|日本医科大学千葉北総病院	千葉県	日本医科大学千葉北総病院	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 千葉県|柏の葉キャンパス整形外科	千葉県	柏の葉キャンパス整形外科	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
@@ -163,6 +165,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 奈良県|近畿大学奈良病院	奈良県	近畿大学奈良病院	Zimmer Biomet	1	GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 宮城県|jr仙台病院	宮城県	JR仙台病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 宮城県|宮城整形外科スポーツウェルネスクリニック	宮城県	宮城整形外科 スポーツ・ウェルネスクリニック	Zimmer Biomet	1	APS	MANUAL_VERIFIED
+宮城県|仙台病院	宮城県	独立行政法人地域医療機能推進機構仙台病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 宮城県|関節外科スポーツクリニック石巻	宮城県	関節外科スポーツクリニック石巻	Arthrex	1	ACP	MANUAL_VERIFIED
 宮崎県|mスポーツ整形外科クリニック	宮崎県	Mスポーツ整形外科クリニック	Zimmer Biomet	1	GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 宮崎県|あたご整形外科	宮崎県	あたご整形外科	Zimmer Biomet	1	APS	MANUAL_VERIFIED
@@ -237,6 +240,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 東京都|お茶の水セルクリニック	東京都	お茶の水セルクリニック	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|GPS|Zimmer|APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|すみだ運動器リハビリテーションクリニック	東京都	すみだ運動器リハビリテーションクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
 東京都|つくる整形外科祐天寺駅前スポーツクリニック	東京都	つくる整形外科 祐天寺駅前スポーツクリニック	Arthrex	1	ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+東京都|アットホーム表参道クリニック	東京都	アットホーム表参道クリニック	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 東京都|アレックス脊椎クリニック	東京都	アレックス脊椎クリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|トウキョウメディカルエンドサージカルクリニック	東京都	トウキョウ メディカル エンド サージカル クリニック	Zimmer Biomet	1	GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 東京都|モティーフ銀座クリニック	東京都	モティーフ銀座クリニック	京セラ	1	Condensia	MHLW_FULL
@@ -334,6 +338,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 滋賀県|公立甲賀病院	滋賀県	公立甲賀病院	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
 滋賀県|はたスポーツ整形クリニック	滋賀県	医療法人はたスポーツ整形クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 滋賀県|翠蓮会とがの整形外科クリニック	滋賀県	医療法人翠蓮会 とがの整形外科クリニック	Arthrex	1	ACP	MANUAL_VERIFIED
+滋賀県|長浜赤十字病院	滋賀県	長浜赤十字病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 熊本県|にしくまもと病院	熊本県	にしくまもと病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 熊本県|リハビリテーションセンター熊本回生会病院	熊本県	リハビリテーションセンター熊本回生会病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 熊本県|天草地域医療センター	熊本県	天草地域医療センター	Zimmer Biomet	1	APS	MANUAL_VERIFIED
