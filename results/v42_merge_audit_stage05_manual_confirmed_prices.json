@@ -1,0 +1,18 @@
+{
+  "version": "v42-merge-audit-stage05-manual-confirmed-prices",
+  "created_date_jst": "2026-09-19",
+  "source": "results/v42_manual_confirmed_prices.tsv",
+  "validation": {
+    "price_rows": 40,
+    "unique_plan_codes": 22,
+    "missing_plan_codes_in_additions": 0,
+    "audit_only_plan_codes": 0,
+    "exact_duplicate_rows": 0,
+    "price_status_confirmed_plans": 22,
+    "tax_review_rows": 3,
+    "tax_unknown_rows": 1,
+    "safe_for_amount_merge": true
+  },
+  "rule": "Do not infer unresolved tax status. Preserve confirmed amounts and carry tax-review state into staging.",
+  "next_step": "Consolidate the three recovered-price batches and reconcile plan-level coverage for all 730 価格確定 plans."
+}
