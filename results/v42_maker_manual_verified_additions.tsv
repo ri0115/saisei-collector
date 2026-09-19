@@ -36,3 +36,12 @@ prefecture	facility	product	facility_label_maker	legal_manufacturer	japan_mah_or
 神奈川県	東海大学医学部付属病院	APS	Zimmer Biomet	Zimmer Biomet	Zimmer Biomet	MANUFACTURER_LOCATOR_ADDRESS_MATCH	https://m.kansetsu-life.com/saisei/index.php	Zimmer Biomet APS locator at 伊勢原市下糟屋143; exact hospital identity.
 静岡県	医療法人社団オステオケア ないとう整形外科クリニック	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator ACP-PRP; legal-prefix-stripped unique prefecture match.
 千葉県	医療法人社団志高会 たてやま整形外科クリニック	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator ACP-PRP; legal-prefix-stripped unique prefecture match; upgrades batch07 unresolved.
+大阪府	医療法人想千あわ整形外科クリニック	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator ACP-PRP; unique legal-prefix-stripped Osaka match.
+大阪府	医療法人桂礼会 小阪医院	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator ACP-PRP; unique Osaka match.
+大阪府	社会医療法人報恩会 長吉総合病院	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator ACP-PRP; unique Osaka match.
+東京都	医療法人社団平成会 たいら整形外科クリニック	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator ACP-PRP; unique Tokyo match.
+東京都	社会福祉法人 みどり福祉会 B&Jクリニック お茶の水	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator ACP-PRP; unique Tokyo match.
+東京都	社会福祉法人同愛記念病院財団 同愛記念病院	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator ACP-PRP; unique Tokyo match.
+福岡県	医療法人HMC ブレインメディカルクリニック博多	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator ACP-PRP; unique Fukuoka match.
+和歌山県	医療法人琉憲会 ナカイマ整形外科クリニック	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator ACP-PRP; unique Wakayama match.
+京都府	医療法人社団貴順会吉川病院	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator uses 𠮷川病院; current MHLW uses 吉川病院; unique legal-entity match.
