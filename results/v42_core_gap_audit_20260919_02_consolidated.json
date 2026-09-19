@@ -1,0 +1,36 @@
+{
+  "version": "v42-core-gap-audit-2026-09-19-02",
+  "date_jst": "2026-09-19",
+  "confirmed_current_gap_facilities": 3,
+  "confirmed_current_gap_plan_records_minimum": 5,
+  "facilities": [
+    {
+      "facility": "宮城整形外科 スポーツ・ウェルネスクリニック",
+      "prefecture": "宮城県",
+      "plan_codes": [
+        "01B2411004",
+        "01B2411005"
+      ],
+      "status": "CONFIRMED_CURRENT_CORE_GAP"
+    },
+    {
+      "facility": "キッコーマン総合病院",
+      "prefecture": "千葉県",
+      "plan_codes": [],
+      "status": "CONFIRMED_CURRENT_CORE_GAP_PLAN_CODE_PENDING"
+    },
+    {
+      "facility": "医療法人社団誠歯会 東京 BT クリニック歯科・医科",
+      "prefecture": "東京都",
+      "plan_codes": [
+        "01C2506009",
+        "01C2506010"
+      ],
+      "status": "CONFIRMED_CURRENT_CORE_GAP"
+    }
+  ],
+  "manufacturer_implication": {
+    "BTI_Biotechnology_Institute_additional_facilities_pending_core_rebuild": 2
+  },
+  "rule": "Do not mutate the locked 949-facility denominator until the current-MHLW gap audit is completed and duplicate facility aliases are reconciled. These three facilities are confirmed candidates for the next core rebuild."
+}
