@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import csv, io, json, re, time, zipfile
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
 from pathlib import Path
 
@@ -121,30 +122,41 @@ def match_page(text: str):
 FETCH_DIAG=defaultdict(int)
 
 def fetch_attachments(code: str, session: requests.Session):
-    docs=[]
-    for idx in range(10):
+    def one(idx):
         url=f"https://saiseiiryo.mhlw.go.jp/published_plan/download/{code}/5/{idx}"
         try:
             r=session.get(
-                url, timeout=25, allow_redirects=True,
+                url, timeout=12, allow_redirects=True,
                 headers={"Referer":"https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
                          "Accept":"application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,*/*"}
             )
-        except Exception as e:
-            FETCH_DIAG["exception"] += 1
-            continue
-        ctype=(r.headers.get("content-type") or "").lower()
-        FETCH_DIAG[f"status_{r.status_code}"] += 1
-        FETCH_DIAG[f"ctype_{ctype.split(';')[0]}"] += 1
+        except Exception:
+            return idx,url,None,None,None,"exception"
+        ctype=(r.headers.get("content-type") or "").lower().split(";")[0]
         if r.status_code != 200:
-            continue
+            return idx,url,r.status_code,ctype,None,"http"
         pages=extract_pages(r.content)
         if not pages:
-            FETCH_DIAG["unparsed_200"] += 1
-            continue
-        FETCH_DIAG["parsed_attachment"] += 1
-        docs.append((idx, url, pages))
-        time.sleep(0.08)
+            return idx,url,r.status_code,ctype,None,"unparsed"
+        return idx,url,r.status_code,ctype,pages,"parsed"
+
+    docs=[]
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        futs=[ex.submit(one,idx) for idx in range(10)]
+        for fut in as_completed(futs):
+            idx,url,status,ctype,pages,state=fut.result()
+            if state=="exception":
+                FETCH_DIAG["exception"] += 1
+                continue
+            FETCH_DIAG[f"status_{status}"] += 1
+            FETCH_DIAG[f"ctype_{ctype}"] += 1
+            if state=="unparsed":
+                FETCH_DIAG["unparsed_200"] += 1
+                continue
+            if state=="parsed":
+                FETCH_DIAG["parsed_attachment"] += 1
+                docs.append((idx,url,pages))
+    docs.sort(key=lambda x:x[0])
     return docs
 
 adds=read_tsv(ADDITIONS)
