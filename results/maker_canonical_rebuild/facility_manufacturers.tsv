@@ -364,6 +364,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 神奈川県|愛仁会太田総合病院	神奈川県	医療法人愛仁会 太田総合病院	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 神奈川県|横浜未来ヘルスケアシステム戸塚共立第2病院	神奈川県	医療法人横浜未来ヘルスケアシステム 戸塚共立第2病院	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
 神奈川県|三成会新百合ヶ丘総合病院	神奈川県	医療法人社団三成会 新百合ヶ丘総合病院	Arthrex	1	ACP|Angel	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|三穂会三宅整形外科小児科クリニック	神奈川県	医療法人社団三穂会 三宅整形外科小児科クリニック	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 神奈川県|快晴会田奈整形外科外科	神奈川県	医療法人社団快晴会 田奈整形外科・外科	ESTAR Technologies|Zimmer Biomet	2	GPS|MyCells	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 神奈川県|梅沢医院梅沢整形外科	神奈川県	医療法人社団梅沢医院 梅沢整形外科	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 神奈川県|総生会麻生総合病院	神奈川県	医療法人社団総生会 麻生総合病院	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
@@ -393,12 +394,12 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 福岡県|tenjintoyaclinic	福岡県	Tenjin Toya Clinic	Arthrex|BTI Biotechnology Institute	2	Angel|PRGF-Endoret	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 福岡県|とも整形外科スポーツクリニック	福岡県	とも整形外科スポーツクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
 福岡県|北九州総合病院	福岡県	北九州総合病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
+福岡県|同信会福岡整形外科病院	福岡県	医療法人 同信会 福岡整形外科病院	Arthrex|Zimmer Biomet	2	APS|HD-PRP	MANUAL_VERIFIED
 福岡県|hmcブレインメディカルクリニック博多	福岡県	医療法人HMC ブレインメディカルクリニック博多	Arthrex	1	ACP	MANUAL_VERIFIED
 福岡県|neoまなべ整形外科クリニック	福岡県	医療法人NEO まなべ整形外科クリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 福岡県|tscタケダスポーツビューティークリニック	福岡県	医療法人TSC タケダスポーツ・ビューティークリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP|ACP MAX|ACP|Angel|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 福岡県|オアシス福岡志恩病院	福岡県	医療法人オアシス 福岡志恩病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
 福岡県|一寿会西尾病院	福岡県	医療法人一寿会西尾病院	Arthrex	1	ACP	MANUAL_VERIFIED
-福岡県|同信会福岡整形外科病院	福岡県	医療法人同信会 福岡整形外科病院	Arthrex	1	HD-PRP	MANUAL_VERIFIED
 福岡県|松口整形外科クリニック	福岡県	医療法人松口整形外科クリニック	Arthrex	1	ACP	MANUAL_VERIFIED
 福岡県|秀英会新庄整形外科医院	福岡県	医療法人秀英会 新庄整形外科医院	Arthrex|Zimmer Biomet	2	ACP|APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 福岡県|笑運舎戸畑駅fプラス整形外科	福岡県	医療法人笑運舎 戸畑駅Fプラス整形外科	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
