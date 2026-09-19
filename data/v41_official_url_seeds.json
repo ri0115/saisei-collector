@@ -379,6 +379,36 @@
       "facility": "医療法人颯成会 さいとう整形クリニック",
       "url": "https://saitouseikei.com/",
       "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F043C53111E",
+      "facility": "医療法人ネオポリス診療所 新宿皮フ科",
+      "url": "https://ginzaclinic-stemcell.com/",
+      "source": "web_verified_official_notice"
+    },
+    {
+      "facility_id": "V41FB1A4F951CC",
+      "facility": "医療法人社団OSSO FORTE 東十条整形外科",
+      "url": "http://higa10seikei.jp/",
+      "source": "mhlw_medical_info_official_url"
+    },
+    {
+      "facility_id": "V41FE77155AC34",
+      "facility": "医療法人社団三穂会 三宅整形外科小児科クリニック",
+      "url": "https://www.miyake-seikei.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FE499C63A14",
+      "facility": "医療法人社団明和会 亀田病院",
+      "url": "https://www.kameda-hp.jp/department/orthopedic_surgery.html",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FAF8317BA68",
+      "facility": "医療法人社団梅沢医院 梅沢整形外科",
+      "url": "https://umezawa-clinic.com/",
+      "source": "web_verified"
     }
   ],
   "updated_at": "2026-09-19",
