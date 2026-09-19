@@ -1,0 +1,15 @@
+{
+  "version": "v42-maker-manual-audit-batch-12",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 402,
+  "audited_records": 4,
+  "confirmed_new": 1,
+  "core_gap_candidate_facilities": 2,
+  "expected_canonical_after_rebuild": 403,
+  "expected_bti_facility_count_after_rebuild": 5,
+  "notes": [
+    "PRGF treatment name alone is not used as sufficient manufacturer evidence.",
+    "内田宙司整形外科 is accepted because the exact MHLW plan explicitly names BTI and BTI-made equipment.",
+    "Kikkoman General Hospital and Tokyo BT Clinic are held outside the 949 denominator until core-gap audit."
+  ]
+}
