@@ -1,0 +1,30 @@
+{
+  "version": "v42-merge-audit-stage09h-v40-B-integrity",
+  "created_date_jst": "2026-09-19",
+  "summary": {
+    "source_plans": 335,
+    "staged_unique_plans": 335,
+    "staged_rows_including_placeholders": 793,
+    "source_status_counts": {
+      "QC": 103,
+      "AUTO": 232
+    },
+    "stage_row_status_counts": {
+      "REVIEW_QC_CANDIDATE": 148,
+      "READY_AUTO": 587,
+      "REVIEW_QC_NO_PRICE": 58
+    },
+    "missing_plans": 0,
+    "extra_plans": 0,
+    "missing_queue_indices": 0,
+    "extra_queue_indices": 0,
+    "multi_index_plans": 0,
+    "exact_plan_coverage": true
+  },
+  "missing_plans": [],
+  "extra_plans": [],
+  "missing_queue_indices": [],
+  "extra_queue_indices": [],
+  "multi_index_plans": [],
+  "conclusion": "PASS: B lane 335/335 plans preserved across 7 bounded batches."
+}
