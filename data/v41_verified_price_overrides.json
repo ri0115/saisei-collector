@@ -2116,6 +2116,40 @@
           "note": "検査費用は別途"
         }
       ]
+    },
+    "V41_02C1909198": {
+      "facility": "社会福祉法人みどり福祉会 B&Jクリニック お茶の水",
+      "source_type": "official_clinic_site",
+      "source_url": "https://bj-clinic.com/prp%EF%BC%88%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%89%E7%99%82%E6%B3%95",
+      "prices": [
+        {
+          "price_type": "range",
+          "amount_min": 20000,
+          "amount_max": 150000,
+          "tax": "税別",
+          "unit": "PRP・1回",
+          "product": "PRP",
+          "ranking_eligible": false,
+          "note": "投与疾患・投与部位により異なる公式価格レンジ"
+        }
+      ]
+    },
+    "V41_03C2603037": {
+      "facility": "学校法人藤田学園 藤田医科大学 羽田クリニック",
+      "source_type": "official_hospital_site",
+      "source_url": "https://haneda.fujita-hu.ac.jp/department/Musculoskeletal_Surgery_Center.html",
+      "prices": [
+        {
+          "price_type": "range",
+          "amount_min": 1650000,
+          "amount_max": 3300000,
+          "tax": "税込",
+          "unit": "自家脂肪由来間葉系幹細胞培養＋注射",
+          "product": "脂肪由来幹細胞",
+          "ranking_eligible": false,
+          "note": "変形性膝関節症の公式料金レンジ"
+        }
+      ]
     }
   },
   "updated_at": "2026-09-19",
