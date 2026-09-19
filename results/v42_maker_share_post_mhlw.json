@@ -1,0 +1,110 @@
+{
+  "version": "v42-maker-share-post-mhlw",
+  "created_date_jst": "2026-09-19",
+  "facility_universe": 949,
+  "baseline": {
+    "manufacturer_known_facilities": 308,
+    "product_known_facilities": 319,
+    "manufacturer_placements": 388,
+    "product_placements": 596
+  },
+  "mhlw_full_recovery": {
+    "candidates": 366,
+    "pdf_retrieved": 366,
+    "pdf_documents": 765,
+    "manufacturer_safe_facilities": 40,
+    "explicit_mhlw": 25,
+    "validated_product_map": 15,
+    "product_only_facilities": 2,
+    "retry_403": 0,
+    "manufacturer_additions": {
+      "Zimmer Biomet": 27,
+      "Arthrex": 5,
+      "京セラ": 11
+    },
+    "product_additions": {
+      "APS": 27,
+      "GPS": 16,
+      "Condensia": 9,
+      "TriCeLL": 3,
+      "ACP": 3,
+      "MyCells": 2,
+      "ACP MAX": 2,
+      "Angel": 1
+    }
+  },
+  "strict_official_site_locked_supplement": {
+    "manufacturer_facilities": 1,
+    "product_facilities": 2,
+    "manufacturer_additions": {
+      "Arthrex": 1
+    },
+    "product_additions": {
+      "ACP": 1,
+      "MyCells": 1
+    },
+    "notes": [
+      "ぐんまスポーツ整形外科: facility official page confirms Arthrex ACP",
+      "ONE CLINIC 梅田: facility official page confirms MyCells product; manufacturer not auto-assigned"
+    ]
+  },
+  "current_safe_snapshot": {
+    "manufacturer_known_facilities": 349,
+    "manufacturer_known_rate_pct": 36.8,
+    "product_known_facilities": 361,
+    "product_known_rate_pct": 38,
+    "manufacturer_placements": 432,
+    "manufacturer_counts": {
+      "Zimmer Biomet": 223,
+      "Arthrex": 119,
+      "京セラ": 50,
+      "MyCells系": 22,
+      "PEAK系": 7,
+      "TriCeLL系": 6,
+      "BTI": 4,
+      "MAGELLAN系": 1
+    },
+    "manufacturer_share_pct": {
+      "Zimmer Biomet": 51.6,
+      "Arthrex": 27.5,
+      "京セラ": 11.6,
+      "MyCells系": 5.1,
+      "PEAK系": 1.6,
+      "TriCeLL系": 1.4,
+      "BTI": 0.9,
+      "MAGELLAN系": 0.2
+    },
+    "product_placements": 661,
+    "product_counts": {
+      "APS": 182,
+      "GPS": 176,
+      "ACP": 117,
+      "ACP MAX": 60,
+      "Condensia": 50,
+      "MyCells": 27,
+      "Angel": 24,
+      "PEAK": 10,
+      "TriCeLL": 10,
+      "PRGF-Endoret": 4,
+      "MAGELLAN": 1
+    },
+    "product_share_pct": {
+      "APS": 27.5,
+      "GPS": 26.6,
+      "ACP": 17.7,
+      "ACP MAX": 9.1,
+      "Condensia": 7.6,
+      "MyCells": 4.1,
+      "Angel": 3.6,
+      "PEAK": 1.5,
+      "TriCeLL": 1.5,
+      "PRGF-Endoret": 0.6,
+      "MAGELLAN": 0.2
+    }
+  },
+  "excluded_from_safe_snapshot": {
+    "route": "full official-site automated crawl",
+    "reason": "candidate generation is useful but facility-page/product association requires row-level manual audit before affecting market-share outputs"
+  },
+  "interpretation": "Share is documented facility adoption/availability share, not sales-volume or procedure-volume market share."
+}
