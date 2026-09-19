@@ -1,0 +1,22 @@
+{
+  "core_candidate_pool_facilities": 846,
+  "canonical_pairs": 550,
+  "terminal_audited_pairs": 141,
+  "locator_rows": 372,
+  "candidate_pairs": 9,
+  "confidence_counts": {
+    "HIGH": 3,
+    "REVIEW": 3,
+    "HOLD_POLICY": 3
+  },
+  "next_batch_size": 6,
+  "next_batch_high": 3,
+  "next_batch_review": 3,
+  "policy": [
+    "Generate only from repository-known core candidates; do not infer a facility into the 949 denominator from locator presence alone.",
+    "Zimmer Biomet PRP-only locator rows are HOLD_POLICY and excluded from next batch.",
+    "PRP-FD/PFC-FD/PDF-FD processing-outsourcing services are not manufacturer-share candidates.",
+    "Terminally audited facility/manufacturer pairs are suppressed to avoid repeat work.",
+    "maker_next_batch.tsv is capped at 10 rows to reduce ChatGPT timeout risk."
+  ]
+}
