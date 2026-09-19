@@ -1,16 +1,16 @@
 {
-  "version": "v42-maker-canonical-2026-09-19-02",
+  "version": "v42-maker-canonical-2026-09-19-03",
   "date_jst": "2026-09-19",
   "canonical": true,
   "safe_to_use": true,
   "supersedes": "results/v42_maker_share_checkpoint_post_mhlw.json and quarantined official-web outputs",
   "facility_total": 949,
-  "manufacturer_known_facilities": 363,
-  "manufacturer_known_rate": 0.3825,
-  "manufacturer_placements": 446,
+  "manufacturer_known_facilities": 370,
+  "manufacturer_known_rate": 0.3898840885142255,
+  "manufacturer_placements": 454,
   "manufacturer_counts": {
-    "Zimmer Biomet": 225,
-    "Arthrex": 123,
+    "Zimmer Biomet": 228,
+    "Arthrex": 128,
     "京セラ": 52,
     "ESTAR Technologies": 26,
     "REV-MED": 8,
@@ -26,12 +26,29 @@
     "Only exact MHLW plan evidence or manually verified facility-official evidence is included."
   ],
   "additions_since_post_mhlw_checkpoint": {
-    "manufacturer_facilities_added": 14,
+    "manufacturer_facilities_added": 21,
     "sources": {
       "MHLW_product_only_upgraded_with_validated_registry": 2,
       "previous_official_lead_upgraded": 1,
-      "manually_verified_facility_official_pages": 11
+      "manually_verified_facility_official_pages": 18
     }
   },
-  "pending": "Strict official maker recovery v2 is separate candidate-generation only and must be audited before merge."
+  "pending": "Strict official maker recovery v2 remains candidate-generation only and must be audited before merge. Osaka Umeda Cell Clinic held; Omiya Hashimoto and Nagano Matsushiro excluded from manufacturer inference.",
+  "exclusions_or_holds": [
+    {
+      "facility": "大宮はしもと整形外科",
+      "status": "EXCLUDE",
+      "reason": "APS appears only in comparative discussion; current clinic PRP kit manufacturer not identified."
+    },
+    {
+      "facility": "長野松代総合病院",
+      "status": "EXCLUDE",
+      "reason": "ACP is Advance Care Planning, not Arthrex ACP."
+    },
+    {
+      "facility": "大阪梅田セルクリニック",
+      "status": "HOLD",
+      "reason": "APS is described, but current page only says a foreign-made kit and does not identify manufacturer/product strongly enough for canonical assignment."
+    }
+  ]
 }
