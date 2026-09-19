@@ -1,0 +1,17 @@
+{
+  "version": "v42-merge-audit-stage08e-v40-A-batch005",
+  "created_date_jst": "2026-09-19",
+  "source": "results/latest.json",
+  "plan_range": "A queue 201-216",
+  "plan_rows": 16,
+  "status_counts": {
+    "AUTO": 12,
+    "QC": 4
+  },
+  "exported_price_rows": 26,
+  "no_price_counts": {
+    "AUTO": 0,
+    "QC": 2
+  },
+  "next_step": "Run A-lane integrity audit before starting B."
+}
