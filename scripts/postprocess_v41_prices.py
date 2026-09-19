@@ -9,6 +9,7 @@ OUT_SUM=Path("results/v41_additions_postprocess_summary.json")
 OUT_CSV=Path("results/v41_additions_prices_normalized.csv")
 OUT_WEB=Path("results/v41_official_site_fallback_queue.json")
 OUT_REVIEW=Path("results/v41_complex_price_review_queue.json")
+OVERRIDES=Path("data/v41_official_price_overrides.json")
 OVERRIDE_PATH=Path("data/v41_verified_price_overrides.json")
 
 PRODUCT_CANON={
@@ -297,6 +298,10 @@ def resolve_qc_item(item,normed):
 def main():
     data=json.loads(SRC.read_text(encoding="utf-8"))
     items=data.get("items",[])
+    override_map={}
+    if OVERRIDES.exists():
+        od=json.loads(OVERRIDES.read_text(encoding="utf-8"))
+        override_map={x["plan_id"]:x for x in od.get("items",[]) if x.get("plan_id")}
     overrides={}
     if OVERRIDE_PATH.exists():
         overrides=(json.loads(OVERRIDE_PATH.read_text(encoding="utf-8")).get("plans") or {})
@@ -358,6 +363,28 @@ def main():
                 item["postprocess_resolution"]="verified_official_site_override"
                 item["verified_source_url"]=ov.get("source_url")
                 item["verified_source_type"]=ov.get("source_type")
+
+        ov=override_map.get(item.get("plan_id"))
+        if ov:
+            op=[]
+            for p in ov.get("prices",[]):
+                q=dict(p)
+                prod=q.pop("product",None)
+                q["products"]=[prod] if prod else []
+                q["makers"]=list(dict.fromkeys(MAKER[x] for x in q["products"] if x in MAKER))
+                q["score"]=99
+                q["page"]=""
+                q["excerpt"]="official override: "+ov.get("source_url","")
+                q["source_url"]=ov.get("source_url","")
+                q["postprocess_keep"]=True
+                q["postprocess_reason"]="verified_official_override"
+                op.append(q)
+            item["prices_normalized"]=op
+            item["status_normalized"]="AUTO"
+            item["postprocess_resolution"]="verified_official_override"
+            item["official_override_source_url"]=ov.get("source_url","")
+            item["official_override_source_type"]=ov.get("source_type","")
+            item["official_override_verification"]=ov.get("verification","")
 
         status=item["status_normalized"]
         if status=="AUTO": normalized_auto+=1
