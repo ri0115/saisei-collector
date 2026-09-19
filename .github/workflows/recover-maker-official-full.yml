@@ -1,5 +1,9 @@
 name: Strict official maker recovery
 on:
+  push:
+    paths:
+      - "scripts/recover_maker_official_full.py"
+      - ".github/workflows/recover-maker-official-full.yml"
   workflow_dispatch:
 permissions:
   actions: read
