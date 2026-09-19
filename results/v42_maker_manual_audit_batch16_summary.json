@@ -1,0 +1,28 @@
+{
+  "version": "v42-maker-manual-audit-batch-16",
+  "date_jst": "2026-09-19",
+  "expected_baseline_after_batch15": 438,
+  "audited_facilities": 18,
+  "confirmed_new_facilities": 16,
+  "confirmed_new_manufacturer_placements": 16,
+  "already_canonical": 1,
+  "hold_branch_ambiguous": 1,
+  "confirmed_by_manufacturer": {
+    "Arthrex": 10,
+    "Zimmer Biomet": 6
+  },
+  "expected_canonical_after_rebuild": {
+    "manufacturer_known_facilities": 454,
+    "manufacturer_known_rate_pct": 47.84,
+    "manufacturer_placements": 539,
+    "Zimmer Biomet": 241,
+    "Arthrex": 203
+  },
+  "correction_note": "宮城整形外科 スポーツ・ウェルネスクリニック is v40 core facility F0145. Prior core-gap wording should be interpreted as plan-code/current-plan reconciliation, not a missing facility denominator record.",
+  "policy": [
+    "Core membership verified against actual v40 workbook facility master.",
+    "Branch-specific manufacturer assignment requires branch-specific evidence; 北7条ごうだ is held.",
+    "Manufacturer-operated locator exact-address or unique same-prefecture facility matches are accepted.",
+    "PRP-FD/PFC-FD/PDF-FD processing-outsourcing products are excluded from canonical manufacturer counts."
+  ]
+}
