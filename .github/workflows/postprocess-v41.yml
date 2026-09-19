@@ -7,6 +7,7 @@ on:
     paths:
       - "scripts/postprocess_v41_prices.py"
       - "data/v41_verified_price_overrides.json"
+      - "data/v41_official_price_overrides.json"
       - ".github/workflows/postprocess-v41.yml"
 
 permissions:
