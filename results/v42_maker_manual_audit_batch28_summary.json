@@ -1,0 +1,20 @@
+{
+  "version": "v42-maker-manual-audit-batch-28",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 470,
+  "audited_facilities": 10,
+  "confirmed_new_facilities": 0,
+  "confirmed_new_manufacturer_placements": 0,
+  "processing_outsourcing_only": 1,
+  "holds": 9,
+  "expected_canonical_after_rebuild": {
+    "manufacturer_known_facilities": 470,
+    "manufacturer_known_rate_pct": 49.53,
+    "manufacturer_placements": 567
+  },
+  "policy": [
+    "No manufacturer inference from generic PRP alone.",
+    "No manufacturer inference from specialty/sports focus.",
+    "Existing PFC-FD processing-outsourcing evidence remains excluded from canonical manufacturer share."
+  ]
+}
