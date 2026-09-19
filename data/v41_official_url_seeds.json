@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-seeds-1.3",
+  "version": "v41-official-seeds-1.4",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -156,6 +156,18 @@
       "facility_id": "V41FA35962BFED",
       "facility": "HIME CLINIC",
       "url": "https://hime.clinic/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F5C961B1A36",
+      "facility": "医療法人社団順徳会 下総中山整形外科クリニック",
+      "url": "http://www.shimousanakayama-seikeigeka.com/",
+      "source": "web_verified_via_mhlw_medical_info"
+    },
+    {
+      "facility_id": "V41F9674F5DE4E",
+      "facility": "医療法人光明会 もりあきクリニック",
+      "url": "https://moriaki-clinic.net/",
       "source": "web_verified"
     }
   ],
