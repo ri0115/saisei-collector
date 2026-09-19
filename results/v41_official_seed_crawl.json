@@ -1,0 +1,580 @@
+{
+  "version": "v41-seed-crawl-1.0",
+  "total_facilities": 12,
+  "results": [
+    {
+      "facility_id": "V41F36AC21EE08",
+      "facility": "社会医療法人 孝仁会 釧路孝仁会記念病院",
+      "seed_url": "https://www.kojinkai.or.jp/regenerative_medicine/",
+      "pages": [
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/",
+          "chars": 1414
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/hospital/",
+          "chars": 1479
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/",
+          "chars": 2574
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/greetings/",
+          "chars": 1854
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/cpc/",
+          "chars": 2845
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/committee/",
+          "chars": 2403
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/stem_cell/",
+          "chars": 1556
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/stem_cell/msc/",
+          "chars": 1171
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/stem_cell/adrcs/",
+          "chars": 1244
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/stem_cell/gmsc/",
+          "chars": 1265
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_03A2505002",
+          "treatment_class": "その他MSK",
+          "treatment": "自己脂肪（組織）由来再生（幹）細胞を用いた変形性膝関節症の治療",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F9372FF520F",
+      "facility": "日本医科大学千葉北総病院",
+      "seed_url": "https://www.nms.ac.jp/hokuso-h/section/orthopedics/staff.html",
+      "pages": [
+        {
+          "url": "https://www.nms.ac.jp/hokuso-h/section/orthopedics/staff.html",
+          "chars": 964
+        },
+        {
+          "url": "https://www.nms.ac.jp/hokuso-h/section/orthopedics/guide_copy_copy.html",
+          "chars": 1892
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2310044",
+          "treatment_class": "APS/PRP",
+          "treatment": "変形性関節症に対する多血小板血漿抽出液（ＡＰＳ）関節内投与療法",
+          "candidates": [
+            {
+              "amount": 400000,
+              "tax": "税込",
+              "score": 11,
+              "excerpt": "め、膝のクーリングを施行し安静に過ごします。痛みが強い場合は鎮痛剤を服用します。1週間後に再診頂き、問題なければ従来の生活や運動を開始します。 その後は治療後1ヶ月、3ヶ月、6ヶ月、12ヶ月に診察やアンケート調査を行い、必要に応じて画像検査、血液検査も行います。 費用について PRP療法は保険診療の対象外のため自費診療となります。 当院では所定の施術料として400,000円(税込)をお支払いただき、治療後6ヶ月まで本治療に関連する診察料・検査料等も自費診療となります。 本治療に関する連絡先 日本医科大学千葉北総病院 整形外科外来 Tel: 0476-99-1111(代表) 5500/5501 (内線) 対応日時:金曜日 14-16時 プライバシーポリシー サイトポリシー お問い合わせ 【所在地】 〒 270-1694 千葉県印西市鎌苅1715 【連絡先】 代表 0476-99-1111 © 学校法人日本医",
+              "source_url": "https://www.nms.ac.jp/hokuso-h/section/orthopedics/guide_copy_copy.html",
+              "combined_score": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F6BA7FEB040",
+      "facility": "社会医療法人社団蛍水会 名戸ヶ谷病院",
+      "seed_url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
+      "pages": [
+        {
+          "url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
+          "chars": 4918
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2402051",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿(Platelet-rich plasma:PRP)を用いた関節機能治療(関節腔外に限る)",
+          "candidates": [
+            {
+              "amount": 30000,
+              "tax": "不明",
+              "score": 10,
+              "excerpt": "初回10,000円、再診(2回目以降)5,000円 ※初回の予約料には、問診、診察、採血と画像検査(医師が必要と判断した場合に限り、MRI検査料を含む)等の費用が含まれています。 ACP療法(従来型PRP) 約1-4週の間隔で計3回の治療を1クールとしています。2回目以降は、担当医師による診察・相談の上、継続して治療を行うことが可能です。 費用:片膝 1回 30,000円( +予約料)/1部位(関節) 両膝 1回 56,000円( +予約料)/同日に2部位(関節) APS療法(次世代PRP) 原則として、(半年〜)年1回の治療。2回目以降は、担当医師による診察・相談の上、継続して治療を行うことが可能です。 料金:300,000( +予約料)/1部位(関節) ※ 予約担当者までご確認願います。 当院は再生医療等提供計画、特定細胞加工物製造届が受理されています 本邦で再生医療を行うには、再生医療等安全性確保",
+              "source_url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
+              "combined_score": 10
+            },
+            {
+              "amount": 56000,
+              "tax": "不明",
+              "score": 10,
+              "excerpt": "の予約料には、問診、診察、採血と画像検査(医師が必要と判断した場合に限り、MRI検査料を含む)等の費用が含まれています。 ACP療法(従来型PRP) 約1-4週の間隔で計3回の治療を1クールとしています。2回目以降は、担当医師による診察・相談の上、継続して治療を行うことが可能です。 費用:片膝 1回 30,000円( +予約料)/1部位(関節) 両膝 1回 56,000円( +予約料)/同日に2部位(関節) APS療法(次世代PRP) 原則として、(半年〜)年1回の治療。2回目以降は、担当医師による診察・相談の上、継続して治療を行うことが可能です。 料金:300,000( +予約料)/1部位(関節) ※ 予約担当者までご確認願います。 当院は再生医療等提供計画、特定細胞加工物製造届が受理されています 本邦で再生医療を行うには、再生医療等安全性確保法(実施可能な再生医療を行うための法律)に則り、再生医療等",
+              "source_url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
+              "combined_score": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F792727709A",
+      "facility": "UT整形外科 武蔵浦和",
+      "seed_url": "https://www.ut-seikei.com/regenerative-medicine/",
+      "pages": [
+        {
+          "url": "https://www.ut-seikei.com/regenerative-medicine/",
+          "chars": 11789
+        },
+        {
+          "url": "https://www.ut-seikei.com/free-medical/",
+          "chars": 3387
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2501014",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "変形性関節症に対する自家培養脂肪由来幹細胞を用いた治療",
+          "candidates": [
+            {
+              "amount": 220000,
+              "tax": "税込",
+              "score": 11,
+              "excerpt": "関節内に注射器を用いて直接投与します。 変形性膝関節症の方のみ、投与後そのままお帰りいただけます。 4投与前後のモニタリング 幹細胞の投与後は、安全性と効果の確認のために、投与から1年後に投与前の状態と比較して、評価を行います。 幹細胞移植治療プランと料金(税込) 項目 料金(税込) カウンセリング・初診料 5,000円 血液検査 11,000円 細胞採取 220,000円 自家脂肪由来間葉系幹細胞 治療範囲 細胞数 料金(税込) 片側 5,000万cells 660,000円 1億cells 880,000円 両側 1億cells(片側5,000万cells) 1120,000円 2億cells(片側1億cells) 1450,000円 細胞保管費用(1か月あたり) 項目 料金(税込) 細胞保管費用 11,000円 キャンセル料 項目 料金(税込) 脂肪採取前まで なし 脂肪採取後、投与予定日の28日前",
+              "source_url": "https://www.ut-seikei.com/regenerative-medicine/",
+              "combined_score": 11
+            },
+            {
+              "amount": 660000,
+              "tax": "税込",
+              "score": 11,
+              "excerpt": "前後のモニタリング 幹細胞の投与後は、安全性と効果の確認のために、投与から1年後に投与前の状態と比較して、評価を行います。 幹細胞移植治療プランと料金(税込) 項目 料金(税込) カウンセリング・初診料 5,000円 血液検査 11,000円 細胞採取 220,000円 自家脂肪由来間葉系幹細胞 治療範囲 細胞数 料金(税込) 片側 5,000万cells 660,000円 1億cells 880,000円 両側 1億cells(片側5,000万cells) 1120,000円 2億cells(片側1億cells) 1450,000円 細胞保管費用(1か月あたり) 項目 料金(税込) 細胞保管費用 11,000円 キャンセル料 項目 料金(税込) 脂肪採取前まで なし 脂肪採取後、投与予定日の28日前まで 投与費用の50% 投与予定日の27~14日前まで 投与費用の80% 投与予定日の13日前~投与当日",
+              "source_url": "https://www.ut-seikei.com/regenerative-medicine/",
+              "combined_score": 11
+            },
+            {
+              "amount": 880000,
+              "tax": "税込",
+              "score": 11,
+              "excerpt": "は、安全性と効果の確認のために、投与から1年後に投与前の状態と比較して、評価を行います。 幹細胞移植治療プランと料金(税込) 項目 料金(税込) カウンセリング・初診料 5,000円 血液検査 11,000円 細胞採取 220,000円 自家脂肪由来間葉系幹細胞 治療範囲 細胞数 料金(税込) 片側 5,000万cells 660,000円 1億cells 880,000円 両側 1億cells(片側5,000万cells) 1120,000円 2億cells(片側1億cells) 1450,000円 細胞保管費用(1か月あたり) 項目 料金(税込) 細胞保管費用 11,000円 キャンセル料 項目 料金(税込) 脂肪採取前まで なし 脂肪採取後、投与予定日の28日前まで 投与費用の50% 投与予定日の27~14日前まで 投与費用の80% 投与予定日の13日前~投与当日 投与費用の100% PRPと幹細胞",
+              "source_url": "https://www.ut-seikei.com/regenerative-medicine/",
+              "combined_score": 11
+            },
+            {
+              "amount": 220000,
+              "tax": "税込",
+              "score": -3,
+              "excerpt": "PSシステム (2種、関節のみ) 330,000円 キャンセル料 治療種類 キャンセルの時期 料金(税込) 京セラ社製 Condencia (2種・3種、各1部位) 採血後 5,500円 加工後 キット原価、製造作業費として33,000円 ジンマーバイオメット社製 APSシステム (2種、関節のみ) 採血後 5,500円 加工後 キット原価、製造作業費として220,000円 PRP療法の除外基準 以下のようにPRP療法を実施できない場合があります。 また、患者様の健康状態などを考慮して、医師が治療の提供の可否を判断いたします。 がんと診断されている 抗がん剤、生物学的製剤または免疫抑制剤を使用している 本治療を1ヶ月以内に受けたことがある 活動性の感染がある 血液感染症がある 重篤な合併症(心疾患、肺疾患、肝疾患、出血傾向、腎疾患、コントロール不良な糖尿病および高血圧症など)がある 薬剤過敏症の既往歴があ",
+              "source_url": "https://www.ut-seikei.com/regenerative-medicine/",
+              "combined_score": -3
+            },
+            {
+              "amount": 330000,
+              "tax": "税込",
+              "score": -3,
+              "excerpt": "治療内容 PRP療法の種類 料金(税込) ※2回目以降、各種1割引き 筋・腱・靱帯への注入 (第三種再生医療) 京セラ社製 Condencia (2種・3種、各1部位) 66,000円 関節腔内への注入 (第二種再生医療) 京セラ社 Condencia (2種・3種、各1部位) 66,000円 ジンマーバイオメット社製 APSシステム (2種、関節のみ) 330,000円 キャンセル料 治療種類 キャンセルの時期 料金(税込) 京セラ社製 Condencia (2種・3種、各1部位) 採血後 5,500円 加工後 キット原価、製造作業費として33,000円 ジンマーバイオメット社製 APSシステム (2種、関節のみ) 採血後 5,500円 加工後 キット原価、製造作業費として220,000円 PRP療法の除外基準 以下のようにPRP療法を実施できない場合があります。 また、患者様の健康状態などを考慮して",
+              "source_url": "https://www.ut-seikei.com/regenerative-medicine/",
+              "combined_score": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F5A02ABC301",
+      "facility": "医療法人社団 鴻愛会 with Life クリニック 大宮駅前",
+      "seed_url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+      "pages": [
+        {
+          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+          "chars": 5205
+        },
+        {
+          "url": "https://withlifeomiya.kouaikai.jp/selfpay/",
+          "chars": 2334
+        },
+        {
+          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/",
+          "chars": 3382
+        },
+        {
+          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/cultured-stem-cell-treatment/",
+          "chars": 4134
+        },
+        {
+          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/cultured-stem-cell-therapy/",
+          "chars": 4594
+        },
+        {
+          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/stem-cell-supernatant-therapy/",
+          "chars": 3760
+        },
+        {
+          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/guide/",
+          "chars": 2965
+        },
+        {
+          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/safety/",
+          "chars": 4071
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2506018",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F2DCC112519",
+      "facility": "医療法人社団祐慈会 井上整形外科クリニック",
+      "seed_url": "https://www.inoue-seikeigeka.jp/",
+      "pages": [
+        {
+          "url": "https://www.inoue-seikeigeka.jp/",
+          "chars": 1485
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_03C2305016",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿（PRP）による変形性膝関節症治療",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F2272A75A03",
+      "facility": "ひらまつ整形外科 難波ひざスポーツクリニック",
+      "seed_url": "https://www.h-nksc.jp/",
+      "pages": [
+        {
+          "url": "https://www.h-nksc.jp/",
+          "chars": 2260
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01E2605009",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FBBD6F8D2E6",
+      "facility": "医療法人槻陽会 高槻整形外科・再生医療クリニック",
+      "seed_url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
+      "pages": [
+        {
+          "url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
+          "chars": 1492
+        },
+        {
+          "url": "https://kiyoukai-osaka.jp/regenerative_medicine/",
+          "chars": 2080
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01E2603003",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自己脂肪由来幹細胞を用いた関節疾患の治療",
+          "candidates": [
+            {
+              "amount": 100000,
+              "tax": "税込",
+              "score": 11,
+              "excerpt": "とで、炎症を抑えながら組織の回復をより力強く後押しします。慢性的な痛みや機能低下に対して、痛みの軽減や動きやすさの改善が期待でき、手術前の新たな選択肢となる治療です。 料金について カウンセリング料 3,300円(税込)~ レントゲン検査 2,200円(税込)~ 術前採血 11,000円(税込)~ 真皮線維芽細胞治療 400,000円(税込)~ PRP治療 100,000円(税込)~ APS治療 350,000円(税込)~ SVF治療 600,000円(税込)~ ASC治療 1,000,000円(税込)~ 支払方法について 現金払い お支払いは原則、同意日となります。 クレジット払い VISA / MASTER / 銀聯 / JCB / AMEX / DINERS / DISCOVER 診療時間・予約 再生医療 全日完全予約制となっております。 予約について ご予約はこちら お電話での予約は 072ー69",
+              "source_url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
+              "combined_score": 11
+            },
+            {
+              "amount": 350000,
+              "tax": "税込",
+              "score": 11,
+              "excerpt": "強く後押しします。慢性的な痛みや機能低下に対して、痛みの軽減や動きやすさの改善が期待でき、手術前の新たな選択肢となる治療です。 料金について カウンセリング料 3,300円(税込)~ レントゲン検査 2,200円(税込)~ 術前採血 11,000円(税込)~ 真皮線維芽細胞治療 400,000円(税込)~ PRP治療 100,000円(税込)~ APS治療 350,000円(税込)~ SVF治療 600,000円(税込)~ ASC治療 1,000,000円(税込)~ 支払方法について 現金払い お支払いは原則、同意日となります。 クレジット払い VISA / MASTER / 銀聯 / JCB / AMEX / DINERS / DISCOVER 診療時間・予約 再生医療 全日完全予約制となっております。 予約について ご予約はこちら お電話での予約は 072ー691ー6871 ※電話受付時間は診察時間内",
+              "source_url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
+              "combined_score": 11
+            },
+            {
+              "amount": 400000,
+              "tax": "税込",
+              "score": 11,
+              "excerpt": "う幹細胞を十分な数まで増やして活用することで、炎症を抑えながら組織の回復をより力強く後押しします。慢性的な痛みや機能低下に対して、痛みの軽減や動きやすさの改善が期待でき、手術前の新たな選択肢となる治療です。 料金について カウンセリング料 3,300円(税込)~ レントゲン検査 2,200円(税込)~ 術前採血 11,000円(税込)~ 真皮線維芽細胞治療 400,000円(税込)~ PRP治療 100,000円(税込)~ APS治療 350,000円(税込)~ SVF治療 600,000円(税込)~ ASC治療 1,000,000円(税込)~ 支払方法について 現金払い お支払いは原則、同意日となります。 クレジット払い VISA / MASTER / 銀聯 / JCB / AMEX / DINERS / DISCOVER 診療時間・予約 再生医療 全日完全予約制となっております。 予約について ご予約",
+              "source_url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
+              "combined_score": 11
+            },
+            {
+              "amount": 600000,
+              "tax": "税込",
+              "score": 11,
+              "excerpt": "に対して、痛みの軽減や動きやすさの改善が期待でき、手術前の新たな選択肢となる治療です。 料金について カウンセリング料 3,300円(税込)~ レントゲン検査 2,200円(税込)~ 術前採血 11,000円(税込)~ 真皮線維芽細胞治療 400,000円(税込)~ PRP治療 100,000円(税込)~ APS治療 350,000円(税込)~ SVF治療 600,000円(税込)~ ASC治療 1,000,000円(税込)~ 支払方法について 現金払い お支払いは原則、同意日となります。 クレジット払い VISA / MASTER / 銀聯 / JCB / AMEX / DINERS / DISCOVER 診療時間・予約 再生医療 全日完全予約制となっております。 予約について ご予約はこちら お電話での予約は 072ー691ー6871 ※電話受付時間は診察時間内のみとなります。 お電話での予約は 07",
+              "source_url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
+              "combined_score": 11
+            },
+            {
+              "amount": 1000000,
+              "tax": "税込",
+              "score": 11,
+              "excerpt": "期待でき、手術前の新たな選択肢となる治療です。 料金について カウンセリング料 3,300円(税込)~ レントゲン検査 2,200円(税込)~ 術前採血 11,000円(税込)~ 真皮線維芽細胞治療 400,000円(税込)~ PRP治療 100,000円(税込)~ APS治療 350,000円(税込)~ SVF治療 600,000円(税込)~ ASC治療 1,000,000円(税込)~ 支払方法について 現金払い お支払いは原則、同意日となります。 クレジット払い VISA / MASTER / 銀聯 / JCB / AMEX / DINERS / DISCOVER 診療時間・予約 再生医療 全日完全予約制となっております。 予約について ご予約はこちら お電話での予約は 072ー691ー6871 ※電話受付時間は診察時間内のみとなります。 お電話での予約は 072ー691ー6871 ※電話受付時間は診察時",
+              "source_url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
+              "combined_score": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FE1A06DCDA7",
+      "facility": "医療法人酒井会 さかいペインクリニック",
+      "seed_url": "https://sakai-pain.com/",
+      "pages": [
+        {
+          "url": "https://sakai-pain.com/",
+          "chars": 2374
+        },
+        {
+          "url": "https://sakai-pain.com/medical/regenerativemedicine/",
+          "chars": 2508
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01E2403006",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）",
+          "candidates": [
+            {
+              "amount": 30000,
+              "tax": "税込",
+              "score": 11,
+              "excerpt": "固薬を使用されている方 貧血のある方 危篤な感染症のある方や、感染を起こしやすい基礎疾患(癌、糖尿病、免疫不全症、膠原病、肝硬変など)をお持ちの方 その他主治医が不適当と判断した方 費用 PRPは保険外診療(自由診療)となり、当院では以下の通りに価格を設定しております。疾患・症状により複数回の治療が望ましい場合もあります。 スポーツ関連疾患:注射1回あたり 30,000円(税込) 変形性膝関節症:注射1回あたり 30,000円(税込) 診療案内 ペインクリニック・神経ブロック注射 整形外科 リハビリテーション科・訪問リハビリテーション 再生医療 デイケア(準備中) TOP 〒582-0007 大阪府柏原市上市1-2-2 アゼリア柏原416 072-971-1899 診療科目 麻酔科・リハビリテーション科・整形外科・内科 診療時間 月 火 水 木 金 土 日 09:00-12:30 ● ● ● ● ● ●",
+              "source_url": "https://sakai-pain.com/medical/regenerativemedicine/",
+              "combined_score": 11
+            },
+            {
+              "amount": 30000,
+              "tax": "税込",
+              "score": 11,
+              "excerpt": "方や、感染を起こしやすい基礎疾患(癌、糖尿病、免疫不全症、膠原病、肝硬変など)をお持ちの方 その他主治医が不適当と判断した方 費用 PRPは保険外診療(自由診療)となり、当院では以下の通りに価格を設定しております。疾患・症状により複数回の治療が望ましい場合もあります。 スポーツ関連疾患:注射1回あたり 30,000円(税込) 変形性膝関節症:注射1回あたり 30,000円(税込) 診療案内 ペインクリニック・神経ブロック注射 整形外科 リハビリテーション科・訪問リハビリテーション 再生医療 デイケア(準備中) TOP 〒582-0007 大阪府柏原市上市1-2-2 アゼリア柏原416 072-971-1899 診療科目 麻酔科・リハビリテーション科・整形外科・内科 診療時間 月 火 水 木 金 土 日 09:00-12:30 ● ● ● ● ● ● / 16:00-19:00 ● ● ● ▲ ● / /",
+              "source_url": "https://sakai-pain.com/medical/regenerativemedicine/",
+              "combined_score": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FD969C63F8B",
+      "facility": "吹田くわた内科・ペインクリニック",
+      "seed_url": "https://suita-clinic.com/medical/free_treatment/",
+      "pages": [
+        {
+          "url": "https://suita-clinic.com/medical/free_treatment/",
+          "chars": 2178
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01E2505012",
+          "treatment_class": "PRP",
+          "treatment": "変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法",
+          "candidates": [
+            {
+              "amount": 16000,
+              "tax": "不明",
+              "score": 4,
+              "excerpt": "● ● ー 皮膚科 ● ● ー ー ● ー ー ★木曜午前診のみ9:00〜13:00 皮膚科診療のみ終了時間の30分前最終受付 06-6878-0128 WEB予約 WEB問診 自費診療 TOP 内科の診療内容 自費診療 自費診療 注射 筋膜リリース 5,000円 トリガーポイント 4,000円 トリガーポイント(1部位追加) 1,000円 神経根ブロック 16,000円 神経根ブロック(ステロイド混注) 17,000円 仙腸関節ブロック 12,000円 ”仙骨”硬膜外ブロック 10,000円 大腰筋筋溝ブロック 5,000円 アルツ 5,000円 にんにく (Light)1,600円 (Standard)2,000円 (Premium)2,500円 プラセンタ プラセンタ(メルスモン、ラエンネック) 1アンプル / 1,200円 2アンプル / 2,200円 3アンプル / 3,000円 プラセンタオ",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 4
+            },
+            {
+              "amount": 17000,
+              "tax": "不明",
+              "score": 4,
+              "excerpt": "木曜午前診のみ9:00〜13:00 皮膚科診療のみ終了時間の30分前最終受付 06-6878-0128 WEB予約 WEB問診 自費診療 TOP 内科の診療内容 自費診療 自費診療 注射 筋膜リリース 5,000円 トリガーポイント 4,000円 トリガーポイント(1部位追加) 1,000円 神経根ブロック 16,000円 神経根ブロック(ステロイド混注) 17,000円 仙腸関節ブロック 12,000円 ”仙骨”硬膜外ブロック 10,000円 大腰筋筋溝ブロック 5,000円 アルツ 5,000円 にんにく (Light)1,600円 (Standard)2,000円 (Premium)2,500円 プラセンタ プラセンタ(メルスモン、ラエンネック) 1アンプル / 1,200円 2アンプル / 2,200円 3アンプル / 3,000円 プラセンタオプション ツボ注射 1,500円 筋注(ラエンネッ",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 4
+            },
+            {
+              "amount": 18000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": "センタ プラセンタ(メルスモン、ラエンネック) 1アンプル / 1,200円 2アンプル / 2,200円 3アンプル / 3,000円 プラセンタオプション ツボ注射 1,500円 筋注(ラエンネック) 1,500円 静注 1,500円 点滴静注 3,000円 エコーガイド下筋注 3,000円 メディカルダイエット ウゴービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            },
+            {
+              "amount": 20000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": "0円 メディカルダイエット ウゴービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個 2,000円 アネラ マナソープMD10 1個 2,500円 LNCクレンジング・バーム 1個 4,000円 LNCトーニングローション 1本 5,000円 LNCモイスチャーローション 1本 5,000円 LNCディアセラム 1本 11,000円 LNCアイクリーム 1本 6,500円 L",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            },
+            {
+              "amount": 26000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": "1アンプル / 1,200円 2アンプル / 2,200円 3アンプル / 3,000円 プラセンタオプション ツボ注射 1,500円 筋注(ラエンネック) 1,500円 静注 1,500円 点滴静注 3,000円 エコーガイド下筋注 3,000円 メディカルダイエット ウゴービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個 2,000円 アネラ マナソープMD10 1個",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            },
+            {
+              "amount": 27000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": "ービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個 2,000円 アネラ マナソープMD10 1個 2,500円 LNCクレンジング・バーム 1個 4,000円 LNCトーニングローション 1本 5,000円 LNCモイスチャーローション 1本 5,000円 LNCディアセラム 1本 11,000円 LNCアイクリーム 1本 6,500円 LNCリペアリング・クリーム 1個",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            },
+            {
+              "amount": 38000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": ",200円 3アンプル / 3,000円 プラセンタオプション ツボ注射 1,500円 筋注(ラエンネック) 1,500円 静注 1,500円 点滴静注 3,000円 エコーガイド下筋注 3,000円 メディカルダイエット ウゴービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個 2,000円 アネラ マナソープMD10 1個 2,500円 LNCクレンジング・バーム 1個",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            },
+            {
+              "amount": 50000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": "ンタオプション ツボ注射 1,500円 筋注(ラエンネック) 1,500円 静注 1,500円 点滴静注 3,000円 エコーガイド下筋注 3,000円 メディカルダイエット ウゴービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個 2,000円 アネラ マナソープMD10 1個 2,500円 LNCクレンジング・バーム 1個 4,000円 LNCトーニングローション 1本",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            },
+            {
+              "amount": 62000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": "エンネック) 1,500円 静注 1,500円 点滴静注 3,000円 エコーガイド下筋注 3,000円 メディカルダイエット ウゴービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個 2,000円 アネラ マナソープMD10 1個 2,500円 LNCクレンジング・バーム 1個 4,000円 LNCトーニングローション 1本 5,000円 LNCモイスチャーローション 1本",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            }
+          ]
+        },
+        {
+          "plan_id": "V41_01E2505013",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
+          "candidates": [
+            {
+              "amount": 16000,
+              "tax": "不明",
+              "score": 4,
+              "excerpt": "● ● ー 皮膚科 ● ● ー ー ● ー ー ★木曜午前診のみ9:00〜13:00 皮膚科診療のみ終了時間の30分前最終受付 06-6878-0128 WEB予約 WEB問診 自費診療 TOP 内科の診療内容 自費診療 自費診療 注射 筋膜リリース 5,000円 トリガーポイント 4,000円 トリガーポイント(1部位追加) 1,000円 神経根ブロック 16,000円 神経根ブロック(ステロイド混注) 17,000円 仙腸関節ブロック 12,000円 ”仙骨”硬膜外ブロック 10,000円 大腰筋筋溝ブロック 5,000円 アルツ 5,000円 にんにく (Light)1,600円 (Standard)2,000円 (Premium)2,500円 プラセンタ プラセンタ(メルスモン、ラエンネック) 1アンプル / 1,200円 2アンプル / 2,200円 3アンプル / 3,000円 プラセンタオ",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 4
+            },
+            {
+              "amount": 17000,
+              "tax": "不明",
+              "score": 4,
+              "excerpt": "木曜午前診のみ9:00〜13:00 皮膚科診療のみ終了時間の30分前最終受付 06-6878-0128 WEB予約 WEB問診 自費診療 TOP 内科の診療内容 自費診療 自費診療 注射 筋膜リリース 5,000円 トリガーポイント 4,000円 トリガーポイント(1部位追加) 1,000円 神経根ブロック 16,000円 神経根ブロック(ステロイド混注) 17,000円 仙腸関節ブロック 12,000円 ”仙骨”硬膜外ブロック 10,000円 大腰筋筋溝ブロック 5,000円 アルツ 5,000円 にんにく (Light)1,600円 (Standard)2,000円 (Premium)2,500円 プラセンタ プラセンタ(メルスモン、ラエンネック) 1アンプル / 1,200円 2アンプル / 2,200円 3アンプル / 3,000円 プラセンタオプション ツボ注射 1,500円 筋注(ラエンネッ",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 4
+            },
+            {
+              "amount": 18000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": "センタ プラセンタ(メルスモン、ラエンネック) 1アンプル / 1,200円 2アンプル / 2,200円 3アンプル / 3,000円 プラセンタオプション ツボ注射 1,500円 筋注(ラエンネック) 1,500円 静注 1,500円 点滴静注 3,000円 エコーガイド下筋注 3,000円 メディカルダイエット ウゴービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            },
+            {
+              "amount": 20000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": "0円 メディカルダイエット ウゴービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個 2,000円 アネラ マナソープMD10 1個 2,500円 LNCクレンジング・バーム 1個 4,000円 LNCトーニングローション 1本 5,000円 LNCモイスチャーローション 1本 5,000円 LNCディアセラム 1本 11,000円 LNCアイクリーム 1本 6,500円 L",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            },
+            {
+              "amount": 26000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": "1アンプル / 1,200円 2アンプル / 2,200円 3アンプル / 3,000円 プラセンタオプション ツボ注射 1,500円 筋注(ラエンネック) 1,500円 静注 1,500円 点滴静注 3,000円 エコーガイド下筋注 3,000円 メディカルダイエット ウゴービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個 2,000円 アネラ マナソープMD10 1個",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            },
+            {
+              "amount": 27000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": "ービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個 2,000円 アネラ マナソープMD10 1個 2,500円 LNCクレンジング・バーム 1個 4,000円 LNCトーニングローション 1本 5,000円 LNCモイスチャーローション 1本 5,000円 LNCディアセラム 1本 11,000円 LNCアイクリーム 1本 6,500円 LNCリペアリング・クリーム 1個",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            },
+            {
+              "amount": 38000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": ",200円 3アンプル / 3,000円 プラセンタオプション ツボ注射 1,500円 筋注(ラエンネック) 1,500円 静注 1,500円 点滴静注 3,000円 エコーガイド下筋注 3,000円 メディカルダイエット ウゴービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個 2,000円 アネラ マナソープMD10 1個 2,500円 LNCクレンジング・バーム 1個",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            },
+            {
+              "amount": 50000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": "ンタオプション ツボ注射 1,500円 筋注(ラエンネック) 1,500円 静注 1,500円 点滴静注 3,000円 エコーガイド下筋注 3,000円 メディカルダイエット ウゴービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個 2,000円 アネラ マナソープMD10 1個 2,500円 LNCクレンジング・バーム 1個 4,000円 LNCトーニングローション 1本",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            },
+            {
+              "amount": 62000,
+              "tax": "不明",
+              "score": 0,
+              "excerpt": "エンネック) 1,500円 静注 1,500円 点滴静注 3,000円 エコーガイド下筋注 3,000円 メディカルダイエット ウゴービ ウゴービ皮下注 0.25mg 18,000円/月 ウゴービ皮下注 0.5mg 26,000円/月 ウゴービ皮下注 1.0mg 38,000円/月 ウゴービ皮下注 1.7mg 50,000円/月 ウゴービ皮下注 2.4mg 62,000円/月 ゼップバウンド ゼップバウンド 2.5mg / 13,000円 5.0mg / 20,000円 7.5mg / 27,000円 プラセンタ化粧品 Placenta Solution MD 1本 10,000円 アネラ マナソープMD5 1個 2,000円 アネラ マナソープMD10 1個 2,500円 LNCクレンジング・バーム 1個 4,000円 LNCトーニングローション 1本 5,000円 LNCモイスチャーローション 1本",
+              "source_url": "https://suita-clinic.com/medical/free_treatment/",
+              "combined_score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F674136D42B",
+      "facility": "CASAクリニック",
+      "seed_url": "https://casa-clinic.jp/autologous/",
+      "pages": [
+        {
+          "url": "https://casa-clinic.jp/autologous/",
+          "chars": 981
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01E2508012",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "変形性関節症に対する自己脂肪組織由来幹細胞を用いた治療",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F9945331DCD",
+      "facility": "医療法人ポイントワン ならやまと整形外科スポーツクリニック",
+      "seed_url": "https://narayamato.net/",
+      "pages": [],
+      "plans": [],
+      "error": "SSLError: HTTPSConnectionPool(host='narayamato.net', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'narayamato.net'. (_ssl.c:1010)\")))"
+    }
+  ]
+}
