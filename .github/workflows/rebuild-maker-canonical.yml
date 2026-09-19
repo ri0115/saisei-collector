@@ -5,6 +5,7 @@ on:
       - "scripts/rebuild_maker_canonical.py"
       - "scripts/build_maker_next_batch.py"
       - "data/product_manufacturer_registry.json"
+      - "data/v40_nonqueue_facility_master.tsv"
       - "results/v42_maker_manual_verified_additions.tsv"
       - "results/v42_maker_manual_audit_batch*.tsv"
       - "results/v42_maker_recovery_full366.tsv"
