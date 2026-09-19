@@ -1,8 +1,8 @@
 {
   "facility_universe": 949,
-  "manufacturer_known_facilities": 402,
-  "manufacturer_known_rate_pct": 42.36,
-  "manufacturer_placements": 482,
+  "manufacturer_known_facilities": 403,
+  "manufacturer_known_rate_pct": 42.47,
+  "manufacturer_placements": 483,
   "manufacturer_counts": {
     "Zimmer Biomet": 214,
     "Arthrex": 174,
@@ -10,18 +10,18 @@
     "ESTAR Technologies": 26,
     "REV-MED": 8,
     "DSM Biomedical": 7,
-    "BTI Biotechnology Institute": 4,
+    "BTI Biotechnology Institute": 5,
     "Arteriocyte Medical Systems": 1,
     "Arthrex|Zimmer Biomet": 1
   },
   "manufacturer_share_pct": {
-    "Zimmer Biomet": 44.4,
-    "Arthrex": 36.1,
-    "京セラ": 9.75,
-    "ESTAR Technologies": 5.39,
+    "Zimmer Biomet": 44.31,
+    "Arthrex": 36.02,
+    "京セラ": 9.73,
+    "ESTAR Technologies": 5.38,
     "REV-MED": 1.66,
     "DSM Biomedical": 1.45,
-    "BTI Biotechnology Institute": 0.83,
+    "BTI Biotechnology Institute": 1.04,
     "Arteriocyte Medical Systems": 0.21,
     "Arthrex|Zimmer Biomet": 0.21
   },
@@ -30,9 +30,9 @@
     "MHLW_FULL": 40,
     "PRICE_STAGE_V40": 157,
     "PRICE_STAGE_V40_PRODUCT": 157,
-    "PRICE_STAGE_V41": 185,
     "PRICE_STAGE_V41_PRODUCT": 185,
-    "MANUAL_VERIFIED": 46,
+    "PRICE_STAGE_V41": 185,
+    "MANUAL_VERIFIED": 47,
     "MANUFACTURER_LOCATOR": 62
   },
   "manufacturer_locator_high_rows": 63,
