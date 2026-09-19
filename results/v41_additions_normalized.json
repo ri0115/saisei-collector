@@ -1,9 +1,9 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T01:42:20.856928+00:00",
+  "updated_at": "2026-09-19T01:43:18.229762+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T01:42:20.856562+00:00",
+    "updated_at": "2026-09-19T01:43:18.229424+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
@@ -11,18 +11,18 @@
     "promoted_qc_to_auto": 119,
     "promoted_by_parser": 67,
     "promoted_by_verified_override": 52,
-    "normalized_auto": 650,
-    "normalized_qc": 124,
+    "normalized_auto": 653,
+    "normalized_qc": 121,
     "normalized_fail": 0,
-    "normalized_price_records": 1508,
+    "normalized_price_records": 1512,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 626,
+      "source_status_retained": 623,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
       "verified_official_site_override": 53,
-      "verified_official_override": 23,
+      "verified_official_override": 26,
       "explicit_total_price_block": 2,
       "still_ambiguous": 2,
       "multiple_fee_components_needs_review": 4
@@ -38875,12 +38875,48 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 110000,
+          "tax": "税込",
+          "unit": "血液分離専用容器キット・施術1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/1",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/1",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 110000,
+          "tax": "税込",
+          "unit": "血液分離専用容器キット・施術1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/1",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/1",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/1",
+      "official_override_source_type": "mhlw_current_plan_pdf",
+      "official_override_verification": "price page visually verified"
     },
     {
       "plan_id": "V41_01E2102010",
@@ -48667,12 +48703,82 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 800000,
+          "tax": "税別",
+          "unit": "日本の健康保険証をお持ちの方",
+          "note": "資料1（/5/1）",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606015/5/1",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606015/5/1",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1300000,
+          "tax": "税別",
+          "unit": "日本の健康保険証をお持ちでない方",
+          "note": "資料2（/5/2）。通訳・コーディネーター経由のフォローアップ費用を含む。",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606015/5/1",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606015/5/1",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 800000,
+          "tax": "税別",
+          "unit": "日本の健康保険証をお持ちの方",
+          "note": "資料1（/5/1）",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606015/5/1",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606015/5/1",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1300000,
+          "tax": "税別",
+          "unit": "日本の健康保険証をお持ちでない方",
+          "note": "資料2（/5/2）。通訳・コーディネーター経由のフォローアップ費用を含む。",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606015/5/1",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606015/5/1",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606015/5/1",
+      "official_override_source_type": "mhlw_current_plan_pdf",
+      "official_override_verification": "two patient-group price documents visually verified"
     },
     {
       "plan_id": "V41_02C2606022",
@@ -48702,12 +48808,48 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 800000,
+          "tax": "税別",
+          "unit": "治療1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606022/5/1",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606022/5/1",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 800000,
+          "tax": "税別",
+          "unit": "治療1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606022/5/1",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606022/5/1",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606022/5/1",
+      "official_override_source_type": "mhlw_current_plan_pdf",
+      "official_override_verification": "price page visually verified"
     },
     {
       "plan_id": "V41_03C2408009",

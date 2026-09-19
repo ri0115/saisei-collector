@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T01:42:20.972549+00:00",
-  "total": 123,
-  "unique_facilities": 106,
+  "updated_at": "2026-09-19T01:43:18.348796+00:00",
+  "total": 120,
+  "unique_facilities": 104,
   "items": [
     {
       "plan_id": "V41_02C2601085",
@@ -303,21 +303,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_01E2303002",
-      "mhlw_plan_code": "01E2303002",
-      "facility_id": "V41F9945331DCD",
-      "prefecture": "奈良県",
-      "facility": "医療法人ポイントワン　ならやまと整形外科スポーツクリニック",
-      "address": "北葛城郡上牧町上牧3413-1",
-      "category": "第三種",
-      "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_01F2305003",
       "mhlw_plan_code": "01F2305003",
       "facility_id": "V41F739E9E2C77",
@@ -479,36 +464,6 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2009011/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_02C2606015",
-      "mhlw_plan_code": "02C2606015",
-      "facility_id": "V41F9B33AA41E9",
-      "prefecture": "東京都",
-      "facility": "アヴェニューセルクリニック",
-      "address": "港区南青山3－18－16　ル・ボワビル3階",
-      "category": "第二種",
-      "treatment": "自己脂肪由来間葉系幹細胞を用いた関節痛、変形性関節症治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606015/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_02C2606022",
-      "mhlw_plan_code": "02C2606022",
-      "facility_id": "V41F9B33AA41E9",
-      "prefecture": "東京都",
-      "facility": "アヴェニューセルクリニック",
-      "address": "港区南青山3－18－16　ル・ボワビル3階",
-      "category": "第二種",
-      "treatment": "自己脂肪由来間葉系幹細胞を用いた靭帯・腱損傷治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606022/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
     },
