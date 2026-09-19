@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-seeds-1.4",
+  "version": "v41-official-seeds-1.5",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -169,6 +169,42 @@
       "facility": "医療法人光明会 もりあきクリニック",
       "url": "https://moriaki-clinic.net/",
       "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FC1E6387844",
+      "facility": "医療法人神明会 印どうメディカルクリニック",
+      "url": "https://www.indoh-beauty.com/",
+      "source": "web_verified_exact_address"
+    },
+    {
+      "facility_id": "V41FB27CDCB6B4",
+      "facility": "アットホーム表参道クリニック",
+      "url": "https://www.o-athome.jp/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F44A291BB5A",
+      "facility": "MediLotus clinic",
+      "url": "https://medilotus-clinic.com/",
+      "source": "official_line_account_verified_domain"
+    },
+    {
+      "facility_id": "V41F9B33AA41E9",
+      "facility": "アヴェニューセルクリニック",
+      "url": "https://www.acell-clinic.com/rebirth/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F317F4EF430",
+      "facility": "一般社団法人厚生会 元麻布ヒルズメディカルクリニック",
+      "url": "https://motoazabuhills-clinic.jp/regenerative_medicine/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F308BE151FB",
+      "facility": "ミライズクリニック南青山",
+      "url": "https://miriselongevity.com/",
+      "source": "web_verified_exact_address_name_transition"
     }
   ],
   "updated_at": "2026-09-19"
