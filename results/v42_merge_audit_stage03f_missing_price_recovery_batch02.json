@@ -1,0 +1,156 @@
+{
+  "version": "v42-merge-audit-stage03f-missing-price-recovery-batch02",
+  "created_date_jst": "2026-09-19",
+  "scope": "Plans 9-16 of 26 previously flagged as 価格確定 but without exported price rows.",
+  "reviewed_plans": 8,
+  "recovered_plans": 8,
+  "unresolved_plans": 0,
+  "recovered_price_rows": 12,
+  "classification": "PIPELINE_EXPORT_OMISSION_CONFIRMED_FOR_BATCH",
+  "rules": [
+    "Use only exact-plan MHLW evidence.",
+    "Exclude ancillary/component fees unless the document identifies them as the treatment price itself.",
+    "Exclude storage, consultation/testing, and cancellation-stage liabilities from treatment-price rows.",
+    "Preserve multiple explicit treatment price options.",
+    "Do not infer tax status."
+  ],
+  "records": [
+    {
+      "code": "01C2511020",
+      "facility": "THE HUNDRED",
+      "rows": [
+        {
+          "amount": "3300000",
+          "tax": "税込",
+          "unit": "1回",
+          "label": "自己脂肪由来間葉系幹細胞を用いた腰痛治療"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511020/5/0",
+      "note": "Exact-plan MHLW document; cancellation-related fees excluded."
+    },
+    {
+      "code": "02C2503061",
+      "facility": "一般社団法人日本オーラルヘルス協会 ミライズクリニック南青山",
+      "rows": [
+        {
+          "amount": "1290000",
+          "tax": "税込",
+          "unit": "初回・1関節",
+          "label": "自家ASC関節治療"
+        },
+        {
+          "amount": "1690000",
+          "tax": "税込",
+          "unit": "初回・2関節",
+          "label": "自家ASC関節治療"
+        },
+        {
+          "amount": "498000",
+          "tax": "税込",
+          "unit": "2回目以降・1関節",
+          "label": "自家ASC関節治療"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2503061/5/0",
+      "note": "Exact-plan MHLW fee table; long-term storage fee excluded."
+    },
+    {
+      "code": "01C2601047",
+      "facility": "一般社団法人ＲＫミライ Rejoint Clinic Dr.K",
+      "rows": [
+        {
+          "amount": "1500000",
+          "tax": "税抜",
+          "unit": "今回の治療",
+          "label": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601047/5/0",
+      "note": "Exact-plan MHLW document."
+    },
+    {
+      "code": "03C2606023",
+      "facility": "医療法人優美会 クリニック 渋谷",
+      "rows": [
+        {
+          "amount": "1100000",
+          "tax": "税抜",
+          "unit": "今回の治療",
+          "label": "自己脂肪由来間葉系幹細胞を用いた靭帯・腱損傷治療"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2606023/5/0",
+      "note": "Exact-plan MHLW document."
+    },
+    {
+      "code": "02C2608035",
+      "facility": "医療法人社団 熊谷整形外科",
+      "rows": [
+        {
+          "amount": "5500000",
+          "tax": "税込",
+          "unit": "初回投与",
+          "label": "ヒト自己脂肪組織由来間葉系幹細胞を用いた慢性疼痛緩和治療"
+        },
+        {
+          "amount": "4400000",
+          "tax": "税込",
+          "unit": "2回目以降投与",
+          "label": "ヒト自己脂肪組織由来間葉系幹細胞を用いた慢性疼痛緩和治療"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608035/5/0",
+      "note": "Exact-plan MHLW fee sheet; consultation, testing and frozen-storage fees excluded."
+    },
+    {
+      "code": "03C2305005",
+      "facility": "医療法人社団小﨑会 常盤台らいおん整形外科",
+      "rows": [
+        {
+          "amount": "132000",
+          "tax": "税込",
+          "unit": "1治療（採血＋投与2回分）",
+          "label": "多血小板血漿（PRP）を用いた筋・腱・靭帯治療"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305005/5/0",
+      "note": "Exact-plan MHLW document."
+    },
+    {
+      "code": "02C2406003",
+      "facility": "医療法人社団松和会 池上総合病院",
+      "rows": [
+        {
+          "amount": "4400000",
+          "tax": "税込",
+          "unit": "治療総額",
+          "label": "膝関節軟骨損傷に対する自己軟骨細胞シート移植"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2406003/5/0",
+      "note": "Exact-plan MHLW document; component breakdown and cancellation-stage liabilities are not emitted separately."
+    },
+    {
+      "code": "01C2503047",
+      "facility": "医療法人社団紘朗会 麻布皮フ科クリニック",
+      "rows": [
+        {
+          "amount": "1350000",
+          "tax": "税込",
+          "unit": "片側・0.5億個",
+          "label": "細胞移植費用"
+        },
+        {
+          "amount": "2700000",
+          "tax": "税込",
+          "unit": "両側・0.5億個ずつ",
+          "label": "細胞移植費用"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503047/5/0",
+      "note": "Exact-plan MHLW document; separate fat-harvesting component (150,000/300,000) and storage fees excluded from treatment-price rows."
+    }
+  ],
+  "next_step": "Stage recovered rows, continue bounded auto-price merge, and audit the remaining 10 flagged plans."
+}
