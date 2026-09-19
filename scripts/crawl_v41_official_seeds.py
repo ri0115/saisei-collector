@@ -70,13 +70,28 @@ def other_therapy_regex(target_kind):
     }
     return re.compile(pats.get(target_kind,r"$^"),re.I)
 
+EXTRA_IND=re.compile(r"関節外|靭帯|靱帯|筋腱|筋肉|筋膜|スポーツ|アキレス|腱板|肉離れ",re.I)
+INTRA_IND=re.compile(r"関節内|関節腔|変形性関節|慢性関節|膝関節|股関節|軟骨|半月板|OA",re.I)
+
 def indication_regex(treatment):
     t=treatment or ""
     if re.search(r"筋肉|腱|靭帯|靱帯|筋膜|関節外|スポーツ",t):
-        return re.compile(r"筋|腱|靭帯|靱帯|筋膜|関節外|スポーツ|アキレス|腱板|肉離れ",re.I), "extra_articular"
+        return EXTRA_IND, "extra_articular"
     if re.search(r"関節|関節炎|変形性|軟骨|半月板",t):
-        return re.compile(r"関節|膝|股関節|変形性|軟骨|半月板|OA",re.I), "intra_articular"
+        return INTRA_IND, "intra_articular"
     return None, "unspecified"
+
+def nearest_indication_kind(lines,i):
+    # Associate a price with the closest current/preceding section heading.
+    # Do not use following headings: that caused an intra-articular price to
+    # inherit the next extra-articular section.
+    for j in range(i,max(-1,i-4),-1):
+        s=lines[j]
+        ex=bool(EXTRA_IND.search(s))
+        intr=bool(INTRA_IND.search(s))
+        if ex and not intr: return "extra_articular"
+        if intr and not ex: return "intra_articular"
+    return None
 
 def extract(text,tclass,treatment=""):
     t=norm(text)
@@ -112,10 +127,10 @@ def extract(text,tclass,treatment=""):
                 continue
 
             near=" ".join(lines[max(0,i-2):min(len(lines),i+3)])
-            # For orthopedic PRP, match the actual indication as well as PRP.
-            # This separates joint/intra-articular pricing from muscle/tendon/
-            # ligament (extra-articular) pricing on the same official page.
-            indication_match=True if indication is None else bool(indication.search(near))
+            # For orthopedic PRP, associate the price with the closest preceding
+            # indication section, never with a following section.
+            detected_indication=nearest_indication_kind(lines,i)
+            indication_match=True if indication is None else (detected_indication==indication_kind)
             if indication is not None and not indication_match:
                 continue
             score=0
