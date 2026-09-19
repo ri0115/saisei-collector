@@ -1,0 +1,12 @@
+{
+  "version": "v41-scope-exclusions-1.0",
+  "updated_at": "2026-09-19",
+  "plans": {
+    "V41_01C2511006": {
+      "facility": "一般社団法人Garden KAI CLINIC TOKYO",
+      "treatment": "自家多血小板フィブリンを用いた軟骨移植外鼻形成術",
+      "reason": "外鼻形成術であり整形外科・運動器領域の治療ではない",
+      "disposition": "OUT_OF_SCOPE"
+    }
+  }
+}
