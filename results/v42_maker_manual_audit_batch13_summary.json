@@ -1,0 +1,28 @@
+{
+  "version": "v42-maker-manual-audit-batch-13",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 403,
+  "facilities_audited": 15,
+  "v40_core_confirmed": 15,
+  "confirmed_new_facilities": 15,
+  "confirmed_new_manufacturer_placements": 16,
+  "confirmed_by_manufacturer": {
+    "Zimmer Biomet": 10,
+    "Arthrex": 6
+  },
+  "dual_manufacturer_facilities": [
+    "医療法人徳洲会 山形徳洲会病院"
+  ],
+  "expected_canonical_after_rebuild": {
+    "manufacturer_known_facilities": 418,
+    "manufacturer_known_rate_pct": 44.05,
+    "manufacturer_placements": 499,
+    "Zimmer Biomet": 224,
+    "Arthrex": 180
+  },
+  "policy": [
+    "Core membership is verified against the actual v40 workbook facility master, not queue-only repo artifacts.",
+    "Manufacturer-operated locator evidence is accepted when facility name and current address match the v40 master.",
+    "A facility may contribute multiple manufacturer placements when both manufacturer sources independently match the same current facility."
+  ]
+}
