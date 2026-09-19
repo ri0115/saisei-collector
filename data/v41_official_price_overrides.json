@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-overrides-1.5",
+  "version": "v41-official-overrides-1.6",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -875,6 +875,95 @@
           "tax": "税別",
           "unit": "治療1回",
           "product": "脂肪由来幹細胞"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_01E2505012",
+      "facility": "吹田くわた内科・ペインクリニック",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01E2505012/5/1",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price sheet visually verified",
+      "prices": [
+        {
+          "amount": 50000,
+          "tax": "税込",
+          "unit": "初回お試し",
+          "product": "PRP"
+        },
+        {
+          "amount": 60000,
+          "tax": "税込",
+          "unit": "1回（2回目以降）",
+          "product": "PRP"
+        },
+        {
+          "amount": 165000,
+          "tax": "税込",
+          "unit": "3回セット",
+          "product": "PRP",
+          "note": "1回あたり55,000円"
+        }
+      ],
+      "note": "PRP採血・調製（京セラダブルスピン法）、エコーガイド下注射、再診1回、術前カウンセリングを含む。部位追加等は別オプション。"
+    },
+    {
+      "plan_id": "V41_01E2505013",
+      "facility": "吹田くわた内科・ペインクリニック",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01E2505013/5/1",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price sheet visually verified",
+      "prices": [
+        {
+          "amount": 50000,
+          "tax": "税込",
+          "unit": "初回お試し",
+          "product": "PRP"
+        },
+        {
+          "amount": 60000,
+          "tax": "税込",
+          "unit": "1回（2回目以降）",
+          "product": "PRP"
+        },
+        {
+          "amount": 165000,
+          "tax": "税込",
+          "unit": "3回セット",
+          "product": "PRP",
+          "note": "1回あたり55,000円"
+        }
+      ],
+      "note": "PRP採血・調製（京セラダブルスピン法）、エコーガイド下注射、再診1回、術前カウンセリングを含む。部位追加等は別オプション。"
+    },
+    {
+      "plan_id": "V41_01E2111002",
+      "facility": "医療法人神明会 印どうメディカルクリニック",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01E2111002/5/2",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price page visually verified",
+      "prices": [
+        {
+          "amount": 33000,
+          "tax": "税込",
+          "unit": "Condensia 1キット",
+          "product": "Condensia"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_02C2505006",
+      "facility": "医療法人ネオポリス診療所銀座クリニック",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2505006/5/2",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price page visually verified",
+      "prices": [
+        {
+          "amount": 1000000,
+          "tax": "不明",
+          "unit": "片膝・1億セルあたり（概算）",
+          "product": "脂肪由来幹細胞",
+          "note": "細胞培養・保管費用などを含む。病状により異なる。"
         }
       ]
     }
