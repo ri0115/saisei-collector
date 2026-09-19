@@ -1,0 +1,7 @@
+{
+  "status": "QUARANTINED",
+  "date": "2026-09-19",
+  "reason": "Old official-web scan produced false positives from generic ACP/APS tokens on non-facility pages such as medical information directories. This file intentionally blocks automatic consolidation until strict re-audit completes.",
+  "canonical_chat": "current",
+  "safe_to_use": false
+}
