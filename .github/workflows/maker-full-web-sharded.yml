@@ -1,0 +1,54 @@
+name: Full official web maker recovery
+
+on:
+  push:
+    paths:
+      - "scripts/recover_maker_full_web.py"
+      - "scripts/consolidate_maker_full_web.py"
+      - ".github/workflows/maker-full-web-sharded.yml"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  scan:
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        batch: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 ddgs
+      - run: python scripts/recover_maker_full_web.py --batch ${{ matrix.batch }} --batches 17
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maker-web-shard-${{ matrix.batch }}
+          path: results/maker_full_web_sharded/batch${{ format('{0:00}', matrix.batch) }}
+          retention-days: 7
+
+  consolidate:
+    needs: scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: maker-web-shard-*
+          path: maker_web_artifacts
+          merge-multiple: false
+      - run: python scripts/consolidate_maker_full_web.py maker_web_artifacts
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add results/v42_maker_recovery_official_web.tsv results/v42_maker_recovery_official_web_summary.json
+          git diff --cached --quiet || git commit -m "Consolidate official web maker recovery"
+          git push
