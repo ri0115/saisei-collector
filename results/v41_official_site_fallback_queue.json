@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T02:22:50.179797+00:00",
-  "total": 109,
-  "unique_facilities": 97,
+  "updated_at": "2026-09-19T02:25:14.390898+00:00",
+  "total": 107,
+  "unique_facilities": 96,
   "items": [
     {
       "plan_id": "V41_02C2601085",
@@ -165,36 +165,6 @@
       "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2505023/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01C2501048",
-      "mhlw_plan_code": "01C2501048",
-      "facility_id": "V41FFDC4415AAB",
-      "prefecture": "東京都",
-      "facility": "GINZA中央クリニック",
-      "address": "中央区銀座7-8-8 6階",
-      "category": "第二種",
-      "treatment": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2501048/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01C2506062",
-      "mhlw_plan_code": "01C2506062",
-      "facility_id": "V41FFDC4415AAB",
-      "prefecture": "東京都",
-      "facility": "GINZA中央クリニック",
-      "address": "中央区銀座7-8-8 6階",
-      "category": "第二種",
-      "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506062/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
