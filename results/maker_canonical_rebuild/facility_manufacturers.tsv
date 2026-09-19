@@ -195,6 +195,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 岐阜県|森整形外科リハビリクリニック	岐阜県	森整形外科リハビリクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
 岐阜県|美濃整形外科	岐阜県	美濃整形外科	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|GPS|APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 岡山県|あゆみ整形ハンドクリニック	岡山県	あゆみ整形ハンドクリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+岡山県|きびじ整形外科内科リハビリクリニック	岡山県	医療法人社団きびじ整形外科・内科・リハビリクリニック	京セラ	1	PRP作製システム	MANUAL_VERIFIED
 岡山県|河合会新倉敷メディカルスクエア	岡山県	医療法人社団河合会 新倉敷メディカルスクエア	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 岩手県|いわてスポーツ整形外科クリニック	岩手県	いわてスポーツ・整形外科クリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
 岩手県|盛岡ふじさわ整形外科クリニック	岩手県	盛岡ふじさわ整形外科クリニック	Zimmer Biomet	1	APS	MANUAL_VERIFIED
