@@ -1,0 +1,31 @@
+name: Maker pilot 50
+
+on:
+  push:
+    paths:
+      - "scripts/scan_maker_pilot.py"
+      - ".github/workflows/maker-pilot.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  maker-pilot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pypdf
+      - run: python scripts/scan_maker_pilot.py
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/v42_maker_pilot50_candidates.tsv results/v42_maker_pilot50_results.tsv results/v42_maker_pilot50_summary.json
+          git diff --cached --quiet || git commit -m "Run maker pilot 50"
+          git push
