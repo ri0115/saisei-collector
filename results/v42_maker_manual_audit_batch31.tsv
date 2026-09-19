@@ -1,0 +1,4 @@
+facility_id	prefecture	facility	status	product	manufacturer	evidence_type	evidence_url	note
+B31-01	三重県	社会医療法人峰和会 鈴鹿回生病院	HOLD_NO_BRAND	PRP		WEB_AND_MHLW_NO_EXPLICIT_BRAND	https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2506007/5/0	PRP plan exists, but no explicit product/brand/manufacturer evidence found in current audit; hold without inference.
+B31-02	千葉県	医療法人社団誠馨会 千葉メディカルセンター	HOLD_NO_BRAND	PRP		OFFICIAL_WEB_NO_EXPLICIT_BRAND	https://www.seikeikai-cmc.jp/wp-uploads/public_magazine39.pdf	Official hospital material describes PRP preparation by centrifugation but does not identify a kit, brand, or manufacturer; hold.
+B31-03	大阪府	医療法人 井上クリニック	HOLD_NO_BRAND	PRP		WEB_AND_MHLW_NO_EXPLICIT_BRAND	https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2104016/5/0	PRP plan exists; current web search did not establish an explicit kit, brand, or manufacturer. Hold without inference.
