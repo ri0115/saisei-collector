@@ -1,24 +1,9 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T01:27:35.289357+00:00",
-  "total": 131,
-  "unique_facilities": 113,
+  "updated_at": "2026-09-19T01:28:51.369484+00:00",
+  "total": 129,
+  "unique_facilities": 111,
   "items": [
-    {
-      "plan_id": "V41_03A2505002",
-      "mhlw_plan_code": "03A2505002",
-      "facility_id": "V41F36AC21EE08",
-      "prefecture": "北海道",
-      "facility": "社会医療法人　孝仁会　\r\n釧路孝仁会記念病院",
-      "address": "釧路市愛国191番212",
-      "category": "第二種",
-      "treatment": "自己脂肪（組織）由来再生（幹）細胞を用いた変形性膝関節症の治療",
-      "treatment_class": "その他MSK",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2505002/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
     {
       "plan_id": "V41_02C2601085",
       "mhlw_plan_code": "02C2601085",
@@ -359,21 +344,6 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505013/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01E2508012",
-      "mhlw_plan_code": "01E2508012",
-      "facility_id": "V41F674136D42B",
-      "prefecture": "大阪府",
-      "facility": "ＣＡＳＡクリニック",
-      "address": "大阪市中央区西心斎橋一丁目5番5号アーバンＢＬＤ心斎橋7階",
-      "category": "第二種",
-      "treatment": "変形性関節症に対する自己脂肪組織由来幹細胞を用いた治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2508012/5/0",
-      "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
     },

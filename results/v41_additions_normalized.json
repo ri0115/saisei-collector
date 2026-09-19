@@ -1,27 +1,27 @@
 {
   "version": "v41-postprocess-1.5",
-  "updated_at": "2026-09-19T01:27:35.203539+00:00",
+  "updated_at": "2026-09-19T01:28:51.286757+00:00",
   "summary": {
     "version": "v41-postprocess-1.5",
-    "updated_at": "2026-09-19T01:27:35.203172+00:00",
+    "updated_at": "2026-09-19T01:28:51.286465+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 111,
+    "promoted_qc_to_auto": 113,
     "promoted_by_parser": 67,
-    "promoted_by_verified_override": 44,
-    "normalized_auto": 627,
-    "normalized_qc": 147,
+    "promoted_by_verified_override": 46,
+    "normalized_auto": 629,
+    "normalized_qc": 145,
     "normalized_fail": 0,
-    "normalized_price_records": 2025,
+    "normalized_price_records": 2028,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 634,
+      "source_status_retained": 632,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 45,
+      "verified_official_site_override": 47,
       "still_ambiguous": 4,
       "explicit_total_price_block": 2,
       "verified_official_override": 8,
@@ -7465,9 +7465,42 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 2524500,
+          "tax": "税込",
+          "unit": "初回治療・脂肪採取＋幹細胞培養＋幹細胞投与",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "初診料5,500円・適格性検査220,000円は別項目。初回総額は2,750,000円。",
+          "source_url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/stem_cell/msc/msc_3/",
+          "source_type": "official_hospital_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1375000,
+          "tax": "税込",
+          "unit": "2回目以降の治療",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/stem_cell/msc/msc_3/",
+          "source_type": "official_hospital_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/stem_cell/msc/msc_3/",
+      "verified_source_type": "official_hospital_site"
     },
     {
       "plan_id": "V41_03A2505012",
@@ -26783,9 +26816,27 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 3200000,
+          "tax": "税込",
+          "unit": "両ひざ・1億個・1回・非冷凍",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "諸費用、検査費用、脂肪採取費用、培養費用を含む。2回目以降は金額が異なる。",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2508012/5/1",
+          "source_type": "official_mhlw_plan_price_sheet",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2508012/5/1",
+      "verified_source_type": "official_mhlw_plan_price_sheet"
     },
     {
       "plan_id": "V41_01E2303002",
