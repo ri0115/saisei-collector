@@ -141,7 +141,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 大阪府|美咲会えびえ記念病院	大阪府	医療法人社団美咲会 えびえ記念病院	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 大阪府|神明会印どうメディカルクリニック	大阪府	医療法人神明会 印どうメディカルクリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 大阪府|良耕会村尾診療所	大阪府	医療法人良耕会  村尾診療所	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
-大阪府|良花会整形外科とくはらクリニック	大阪府	医療法人良花会 整形外科とくはらクリニック	Arthrex|Zimmer Biomet	2	ACP|APS|GPS|APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+大阪府|良花会整形外科とくはらクリニック	大阪府	医療法人良花会 整形外科とくはらクリニック	Arthrex|Zimmer Biomet	2	ACP|APS|GPS|ACP|APS|GPS III|APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
 大阪府|荒巻会あらまき整形外科クリニック	大阪府	医療法人荒巻会 あらまき整形外科クリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 大阪府|誠幸会わだ整形外科クリニック	大阪府	医療法人誠幸会 わだ整形外科クリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 大阪府|讃高会枚方東整形外科病院	大阪府	医療法人讃高会 枚方東整形外科病院	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR
@@ -319,7 +319,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 東京都|池尻大橋せらクリニック	東京都	池尻大橋せらクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
 東京都|労働者健康安全機構東京労災病院	東京都	独立行政法人労働者健康安全機構 東京労災病院	DSM Biomedical|Zimmer Biomet	2	APS|GPS|PEAK	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|村山医療センター	東京都	独立行政法人国立病院機構村山医療センター	Zimmer Biomet	1	APS	MANUAL_VERIFIED
-東京都|東京医療センター	東京都	独立行政法人国立病院機構東京医療センター	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR|MHLW_FULL
+東京都|東京医療センター	東京都	独立行政法人国立病院機構東京医療センター	Zimmer Biomet	1	APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR|MHLW_FULL
 東京都|白山リハビリ整形外科	東京都	白山リハビリ整形外科	REV-MED	1	TriCeLL	MANUAL_VERIFIED
 東京都|白金高輪やまと整形外科	東京都	白金高輪やまと整形外科	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|目黒ひざ&形成外科クリニック	東京都	目黒ひざ&形成外科クリニック	Arthrex|Zimmer Biomet	2	ACP|APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
@@ -431,7 +431,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 長野県|弘仁会かもいクリニック	長野県	医療法人弘仁会 かもいクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
 長野県|直佳会森ロコモクリニック	長野県	医療法人直佳会 森 ロコモクリニック	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 長野県|笠間整形外科医院	長野県	医療法人笠間整形外科医院	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
-長野県|栗山会飯田病院	長野県	社会医療法人栗山会飯田病院	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR|MHLW_FULL
+長野県|栗山会飯田病院	長野県	社会医療法人栗山会飯田病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR|MHLW_FULL
 長野県|長野整形外科クリニック	長野県	長野整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 青森県|八戸平和病院	青森県	八戸平和病院	Arthrex	1	ACP	MANUAL_VERIFIED
 青森県|なかざわ整形外科なかざわスポーツクリニック	青森県	医療法人なかざわ整形外科 なかざわスポーツクリニック	Arthrex	1	ACP	MANUAL_VERIFIED
