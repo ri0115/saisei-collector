@@ -1173,8 +1173,6 @@ mhlw_plan_code	amount	amount_min	amount_max	tax	unit	product	maker
 01C2209020	44000			税込	2 回分		
 01C2209020	55000			税込	2 回分		
 02C1906040	46200			不明	ACP	ACP	Arthrex
-02C1906040	143000			不明	Waqoo・シングル	Waqoo	
-02C1906040	187000			不明	Waqoo・ダブル	Waqoo	
 02C2603036	1287000			税込			
 02C2603036	1749000			税込			
 03C2504060	200000			税別			
