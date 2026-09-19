@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T02:38:59.704279+00:00",
-  "total": 92,
-  "unique_facilities": 84,
+  "updated_at": "2026-09-19T02:40:44.599670+00:00",
+  "total": 90,
+  "unique_facilities": 83,
   "items": [
     {
       "plan_id": "V41_02C2601085",
@@ -494,36 +494,6 @@
       "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）",
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508074/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_02C2510015",
-      "mhlw_plan_code": "02C2510015",
-      "facility_id": "V41F758D287476",
-      "prefecture": "東京都",
-      "facility": "医療法人社団山本医院\r\nセルフォース ワン クリニック トウキョウ",
-      "address": "中央区銀座6丁目9番6号 5階",
-      "category": "第二種",
-      "treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2510015/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01C2504031",
-      "mhlw_plan_code": "01C2504031",
-      "facility_id": "V41F568ED5AA3F",
-      "prefecture": "東京都",
-      "facility": "医療法人社団心愛会\r\n麻布台ビューティセルクリニック",
-      "address": "港区麻布台1-11-5 Village Azabudai 2F",
-      "category": "第二種",
-      "treatment": "自己脂肪由来幹細胞を用いた筋肉増大の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504031/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
