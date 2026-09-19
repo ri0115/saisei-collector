@@ -1,0 +1,11 @@
+facility_id	prefecture	facility	status	product	manufacturer	evidence_type	evidence_url	note
+B25-01	大阪府	ひらまつ整形外科 難波膝スポーツクリニック	CONFIRMED_NEW	Condensia	京セラ	FACILITY_OFFICIAL_EXPLICIT	https://www.h-nksc.jp/private_medical/p_03.html	Current official page explicitly lists 京セラ社コンデンシア for PRP. Same page also lists PFC-FD processed by CellSource; PFC-FD is watchlist-only.
+B25-02	大阪府	しらい痛みのクリニック	HOLD_NO_BRANDED_PRP			CURRENT_OFFICIAL_SITE_REVIEW	https://shirai-pain.com/	Current official site reviewed; no branded PRP kit/manufacturer confirmed.
+B25-03	大阪府	つねとう痛みのクリニック	HOLD_NO_BRANDED_PRP			CURRENT_OFFICIAL_SITE_REVIEW	https://www.tsune-itm.com/	Current official site reviewed; no branded PRP kit/manufacturer confirmed.
+B25-04	奈良県	医療法人ポイントワン ならやまと整形外科スポーツクリニック	HOLD_NO_BRANDED_PRP			CURRENT_OFFICIAL_SITE_REVIEW	https://narayamato.net/	Current official site reviewed; no branded PRP kit/manufacturer confirmed.
+B25-05	愛知県	春日井整形あさひ病院	HOLD_NO_BRANDED_PRP			CURRENT_OFFICIAL_SITE_REVIEW	https://med-sanjinkai.jp/asahi/	Current official hospital site reviewed; no branded PRP kit/manufacturer confirmed.
+B25-06	東京都	医療法人社団健翔会 豊島長崎クリニック	HOLD_NO_BRANDED_PRP			CURRENT_OFFICIAL_SITE_REVIEW	https://toshima-nagasaki.jp/	Current official site reviewed; no branded PRP kit/manufacturer confirmed.
+B25-07	香川県	医療法人社団 まえだ整形外科外科医院	HOLD_PRP_GENERIC_ONLY			FACILITY_OFFICIAL_PRP_ONLY	https://maedaseikei.sakura.ne.jp/medical/seikei/	Current official site confirms PRP therapy but reviewed primary pages do not identify branded kit/manufacturer.
+B25-08	大阪府	ソラリス整形外科 大阪 福島リハビリテーションクリニック	PROCESSING_OUTSOURCING_ONLY	PFC-FD	セルソース株式会社	FACILITY_OFFICIAL_PROCESSOR_EXPLICIT	https://solaris-clinic.com/pfc_fd.html	Current official page confirms PFC-FD and CellSource naming. Excluded from manufacturer-share canonical; watchlist only.
+B25-09	北海道	Revo. Clinic	HOLD_NO_BRANDED_PRP			CURRENT_OFFICIAL_SITE_REVIEW	https://revoclinic.jp/	Current site reviewed; no branded PRP kit/manufacturer identified for the locked core facility.
+B25-10	埼玉県	川越TACA川越下肢静脈瘤膝関節クリニック	HOLD_PRODUCT_LABEL_UNMAPPED	WSC-PRP		FACILITY_OFFICIAL_PRODUCT_LABEL	https://kawagoe.taclinic.jp/menu/surgery/regenerative/	Current official page confirms WSC-PRP offering, but manufacturer/kit maker is not identified in reviewed primary evidence; do not infer.
