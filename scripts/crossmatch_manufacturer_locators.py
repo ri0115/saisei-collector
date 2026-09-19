@@ -45,26 +45,25 @@ def get(url):
 def parse_arthrex():
     soup=get(ARTHREX_URL)
     out=[]
-    # Site structure is repeated h3 facility name -> h4 product labels -> address/url fields until next h3.
-    for h3 in soup.find_all("h3"):
-        name=h3.get_text(" ",strip=True)
-        if not name: continue
-        products=[]
-        address=""
-        node=h3.find_next_sibling()
-        guard=0
-        while node and node.name!="h3" and guard<30:
-            guard+=1
-            text=node.get_text(" ",strip=True)
-            if node.name=="h4":
-                if "ACP-PRP" in text: products.append("ACP-PRP")
-                if "HD-PRP" in text: products.append("HD-PRP")
-            if ("〒" in text or re.search(r"\d{3}-\d{4}",text)) and not address:
-                address=text
-            node=node.find_next_sibling()
-        if products:
-            out.append({"source":"Arthrex","name":name,"products":"|".join(sorted(set(products))),
-                        "address":address,"source_url":ARTHREX_URL})
+    current_pref=""
+    current=None
+    prefs=set(["北海道","青森県","岩手県","宮城県","秋田県","山形県","福島県","茨城県","栃木県","群馬県","埼玉県","千葉県","東京都","神奈川県","新潟県","富山県","石川県","福井県","山梨県","長野県","岐阜県","静岡県","愛知県","三重県","滋賀県","京都府","大阪府","兵庫県","奈良県","和歌山県","鳥取県","島根県","岡山県","広島県","山口県","徳島県","香川県","愛媛県","高知県","福岡県","佐賀県","長崎県","熊本県","大分県","宮崎県","鹿児島県","沖縄県"])
+    # Headings are nested in cards, so read all headings in document order rather than siblings.
+    for h in soup.find_all(["h2","h3","h4"]):
+        txt=h.get_text(" ",strip=True)
+        if h.name=="h2" and txt in prefs:
+            current_pref=txt
+        elif h.name=="h3":
+            if current and current["products"]:
+                out.append(current)
+            current={"source":"Arthrex","name":txt,"products":[],"address":current_pref,"source_url":ARTHREX_URL}
+        elif h.name=="h4" and current:
+            if "ACP-PRP" in txt: current["products"].append("ACP-PRP")
+            if "HD-PRP" in txt: current["products"].append("HD-PRP")
+    if current and current["products"]:
+        out.append(current)
+    for x in out:
+        x["products"]="|".join(sorted(set(x["products"])))
     return out
 
 def parse_zimmer():
