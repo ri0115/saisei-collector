@@ -1,0 +1,20 @@
+{
+  "version": "v42-maker-manual-audit-batch-10",
+  "date_jst": "2026-09-19",
+  "baseline_before_batch09": 382,
+  "batch09_confirmed_new": 11,
+  "facilities_audited": 12,
+  "confirmed_new": 9,
+  "already_canonical": 1,
+  "hold_or_reject": 2,
+  "expected_canonical_after_batch09_and_10": 402,
+  "confirmed_by_manufacturer": {
+    "Arthrex": 9
+  },
+  "policy": [
+    "Legal-prefix and punctuation normalization is allowed only for unique same-prefecture manufacturer-locator matches.",
+    "Kanji glyph variants are accepted when legal entity and prefecture uniquely agree.",
+    "Zimmer PRP-only locator rows remain unassigned without APS/GPS or explicit manufacturer evidence.",
+    "Low-similarity facility-name matches are rejected."
+  ]
+}
