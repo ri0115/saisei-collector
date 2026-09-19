@@ -1,0 +1,4 @@
+facility_id	prefecture	facility	status	product	manufacturer	evidence_type	evidence_url	note
+B35-01	大阪府	医療法人 翔寿会 こんどう整形外科クリニック	HOLD_NO_BRAND	PRP		MHLW_CURRENT_NO_EXPLICIT_BRAND	https://saiseiiryo.mhlw.go.jp/disclosed_committee/history/NA8230002	Current MHLW committee history confirms PRP treatment plans, but no explicit kit/brand/manufacturer was established. Hold without inference.
+B35-02	山梨県	東甲府医院	HOLD_NO_BRAND	PRP		MHLW_CURRENT_NO_EXPLICIT_BRAND	https://saiseiiryo.mhlw.go.jp/disclosed_committee/history/NA8230002	Current MHLW committee history confirms PRP treatment plans, but no explicit kit/brand/manufacturer was established. Hold without inference.
+B35-03	東京都	いたばし整形外科関節クリニック	HOLD_NO_BRAND	PRP		MHLW_CURRENT_NO_EXPLICIT_BRAND	https://saiseiiryo.mhlw.go.jp/published_plan/index/2	Current MHLW published-plan index confirms PRP therapy for osteoarthritis/traumatic arthritis, but no explicit kit/brand/manufacturer was established. Hold without inference.
