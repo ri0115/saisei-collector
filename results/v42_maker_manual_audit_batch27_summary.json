@@ -1,0 +1,19 @@
+{
+  "version": "v42-maker-manual-audit-batch-27",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 470,
+  "audited_facilities": 10,
+  "confirmed_new_facilities": 0,
+  "confirmed_new_manufacturer_placements": 0,
+  "holds": 10,
+  "expected_canonical_after_rebuild": {
+    "manufacturer_known_facilities": 470,
+    "manufacturer_known_rate_pct": 49.53,
+    "manufacturer_placements": 567
+  },
+  "policy": [
+    "PRP treatment alone is insufficient for manufacturer assignment.",
+    "Generic mention of a PRP preparation kit without product/manufacturer name is held.",
+    "University/hospital regenerative-medicine activity does not imply a specific commercial kit."
+  ]
+}
