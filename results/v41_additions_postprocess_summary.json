@@ -1,6 +1,6 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T02:46:31.398480+00:00",
+  "updated_at": "2026-09-19T02:57:40.928892+00:00",
   "total": 774,
   "source_auto": 508,
   "source_qc": 266,
@@ -8,26 +8,24 @@
   "promoted_qc_to_auto": 163,
   "promoted_by_parser": 67,
   "promoted_by_verified_override": 96,
-  "normalized_auto": 701,
-  "normalized_qc": 66,
+  "normalized_auto": 707,
+  "normalized_qc": 60,
   "normalized_fail": 0,
   "normalized_out_of_scope": 1,
   "normalized_no_public_price": 6,
   "in_scope_total": 773,
-  "resolved_in_scope": 707,
-  "normalized_price_records": 1570,
+  "resolved_in_scope": 713,
+  "normalized_price_records": 1579,
   "resolution_counts": {
     "treatment_prices_separated_from_ancillary_fees": 13,
-    "source_status_retained": 572,
+    "source_status_retained": 568,
     "structured_treatment_price_table": 15,
     "structured_product_price_table": 32,
     "single_clear_treatment_price": 4,
     "verified_official_site_override": 97,
-    "verified_official_override": 30,
+    "verified_official_override": 36,
     "explicit_total_price_block": 2,
     "verified_no_public_price": 6,
-    "out_of_scope_non_orthopedic": 1,
-    "multiple_fee_components_needs_review": 1,
-    "still_ambiguous": 1
+    "out_of_scope_non_orthopedic": 1
   }
 }

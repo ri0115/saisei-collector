@@ -1,9 +1,9 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T02:46:31.398795+00:00",
+  "updated_at": "2026-09-19T02:57:40.929215+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T02:46:31.398480+00:00",
+    "updated_at": "2026-09-19T02:57:40.928892+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
@@ -11,27 +11,25 @@
     "promoted_qc_to_auto": 163,
     "promoted_by_parser": 67,
     "promoted_by_verified_override": 96,
-    "normalized_auto": 701,
-    "normalized_qc": 66,
+    "normalized_auto": 707,
+    "normalized_qc": 60,
     "normalized_fail": 0,
     "normalized_out_of_scope": 1,
     "normalized_no_public_price": 6,
     "in_scope_total": 773,
-    "resolved_in_scope": 707,
-    "normalized_price_records": 1570,
+    "resolved_in_scope": 713,
+    "normalized_price_records": 1579,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 572,
+      "source_status_retained": 568,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
       "verified_official_site_override": 97,
-      "verified_official_override": 30,
+      "verified_official_override": 36,
       "explicit_total_price_block": 2,
       "verified_no_public_price": 6,
-      "out_of_scope_non_orthopedic": 1,
-      "multiple_fee_components_needs_review": 1,
-      "still_ambiguous": 1
+      "out_of_scope_non_orthopedic": 1
     }
   },
   "items": [
@@ -92070,19 +92068,20 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 30000,
-          "tax": "不明",
-          "unit": "",
-          "score": -10,
-          "products": [],
-          "excerpt": "つでも取りやめることができます。この場合でも、一切不利益を受けません。 (採血等にかかる実費等はご負担いただきます。 : 採血後のキャンセル料 5.OOO円 加工後のキャンセル料 30,000 円) もしこの治療を受けることに同意しない場合も、最適と考えられる治療を実施できる KDICBSROGRICRBER<K LES.",
-          "page": 6,
-          "line": ": 採血後のキャンセル料 5.OOO円 加工後のキャンセル料 30,000 円)",
-          "products_source": [],
+          "amount": 143000,
+          "tax": "税込",
+          "unit": "1部位・1回",
+          "price_type": "point",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://jujo-seikei.clinic/prp.html",
+          "source_url": "https://jujo-seikei.clinic/prp.html",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
       "prices_mhlw_document": [
@@ -92103,9 +92102,30 @@
         }
       ],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review",
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 143000,
+          "tax": "税込",
+          "unit": "1部位・1回",
+          "price_type": "point",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://jujo-seikei.clinic/prp.html",
+          "source_url": "https://jujo-seikei.clinic/prp.html",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://jujo-seikei.clinic/prp.html",
+      "official_override_source_type": "facility_official",
+      "official_override_verification": "extra-articular PRP treatment matched",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -103563,12 +103583,86 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 26400,
+          "tax": "不明",
+          "unit": "PRP注射・1回",
+          "price_type": "point",
+          "note": "公式ページ記載のPRP注射基本額",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+          "source_url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 52800,
+          "tax": "不明",
+          "unit": "PRP注射・両膝",
+          "price_type": "point",
+          "note": "公式ページ記載の両膝額",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+          "source_url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 26400,
+          "tax": "不明",
+          "unit": "PRP注射・1回",
+          "price_type": "point",
+          "note": "公式ページ記載のPRP注射基本額",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+          "source_url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 52800,
+          "tax": "不明",
+          "unit": "PRP注射・両膝",
+          "price_type": "point",
+          "note": "公式ページ記載の両膝額",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+          "source_url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+      "official_override_source_type": "hospital_official",
+      "official_override_verification": "PRP treatment matched; current official fee page",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -103918,12 +104012,50 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 165000,
+          "tax": "税込",
+          "unit": "1治療・2回投与",
+          "price_type": "point",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.sato-hosp.jp/prp.html",
+          "source_url": "https://www.sato-hosp.jp/prp.html",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 165000,
+          "tax": "税込",
+          "unit": "1治療・2回投与",
+          "price_type": "point",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.sato-hosp.jp/prp.html",
+          "source_url": "https://www.sato-hosp.jp/prp.html",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://www.sato-hosp.jp/prp.html",
+      "official_override_source_type": "hospital_official",
+      "official_override_verification": "third-class muscle/tendon/ligament PRP matched",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -113302,12 +113434,182 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 46200,
+          "tax": "不明",
+          "unit": "ACP",
+          "price_type": "point",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://umezawa-clinic.com/",
+          "source_url": "https://umezawa-clinic.com/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 143000,
+          "tax": "不明",
+          "unit": "Waqoo・シングル",
+          "price_type": "point",
+          "products": [
+            "Waqoo"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://umezawa-clinic.com/",
+          "source_url": "https://umezawa-clinic.com/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 187000,
+          "tax": "不明",
+          "unit": "Waqoo・ダブル",
+          "price_type": "point",
+          "products": [
+            "Waqoo"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://umezawa-clinic.com/",
+          "source_url": "https://umezawa-clinic.com/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 154000,
+          "tax": "不明",
+          "unit": "PRP-FD",
+          "price_type": "point",
+          "products": [
+            "PRP-FD"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://umezawa-clinic.com/",
+          "source_url": "https://umezawa-clinic.com/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 176000,
+          "tax": "不明",
+          "unit": "PRP-FD2.0",
+          "price_type": "point",
+          "products": [
+            "PRP-FD2.0"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://umezawa-clinic.com/",
+          "source_url": "https://umezawa-clinic.com/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 46200,
+          "tax": "不明",
+          "unit": "ACP",
+          "price_type": "point",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://umezawa-clinic.com/",
+          "source_url": "https://umezawa-clinic.com/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 143000,
+          "tax": "不明",
+          "unit": "Waqoo・シングル",
+          "price_type": "point",
+          "products": [
+            "Waqoo"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://umezawa-clinic.com/",
+          "source_url": "https://umezawa-clinic.com/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 187000,
+          "tax": "不明",
+          "unit": "Waqoo・ダブル",
+          "price_type": "point",
+          "products": [
+            "Waqoo"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://umezawa-clinic.com/",
+          "source_url": "https://umezawa-clinic.com/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 154000,
+          "tax": "不明",
+          "unit": "PRP-FD",
+          "price_type": "point",
+          "products": [
+            "PRP-FD"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://umezawa-clinic.com/",
+          "source_url": "https://umezawa-clinic.com/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 176000,
+          "tax": "不明",
+          "unit": "PRP-FD2.0",
+          "price_type": "point",
+          "products": [
+            "PRP-FD2.0"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://umezawa-clinic.com/",
+          "source_url": "https://umezawa-clinic.com/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://umezawa-clinic.com/",
+      "official_override_source_type": "facility_official",
+      "official_override_verification": "current PRP price announcement matched",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -118540,34 +118842,40 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 5000,
+          "amount": 35000,
           "tax": "税込",
-          "unit": "1回(採血が15ml の場合)",
-          "score": 8,
-          "products": [],
-          "excerpt": "かかる費用であり、以下が費用の総額となります。 PRP 療法の費用(消費税込み) 1回(採血が15ml の場合) 3 万5000 円 1 回(採血が15ml 超の場合) 18 万5000 円 治療終了後も定期的な受診が必要です。",
-          "page": 7,
-          "line": "1回(採血が15ml の場合) 3 万5000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
+          "unit": "PRP・1回",
+          "price_type": "point",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.gumyoji-seikei.com/self-pay/",
+          "source_url": "https://www.gumyoji-seikei.com/self-pay/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
-          "amount": 5000,
+          "amount": 70000,
           "tax": "税込",
-          "unit": "1回(採血が15ml の場合)",
-          "score": 7,
-          "products": [],
-          "excerpt": "PRP 療法の費用(消費税込み) 1回(採血が15ml の場合) 3 万5000 円 1 回(採血が15ml 超の場合) 18 万5000 円 治療終了後も定期的な受診が必要です。 尚、この治療は治療効果の保証制度(返金保証)の対象外となります。",
-          "page": 7,
-          "line": "1 回(採血が15ml 超の場合) 18 万5000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
+          "unit": "PRP・左右両側・1回",
+          "price_type": "point",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.gumyoji-seikei.com/self-pay/",
+          "source_url": "https://www.gumyoji-seikei.com/self-pay/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
       "prices_mhlw_document": [
@@ -118603,9 +118911,50 @@
         }
       ],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous",
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 35000,
+          "tax": "税込",
+          "unit": "PRP・1回",
+          "price_type": "point",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.gumyoji-seikei.com/self-pay/",
+          "source_url": "https://www.gumyoji-seikei.com/self-pay/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 70000,
+          "tax": "税込",
+          "unit": "PRP・左右両側・1回",
+          "price_type": "point",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.gumyoji-seikei.com/self-pay/",
+          "source_url": "https://www.gumyoji-seikei.com/self-pay/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://www.gumyoji-seikei.com/self-pay/",
+      "official_override_source_type": "facility_official",
+      "official_override_verification": "current PRP self-pay price page matched",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -123264,12 +123613,58 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": null,
+          "amount_min": 110000,
+          "amount_max": 130000,
+          "tax": "不明",
+          "unit": "PRP・1回",
+          "price_type": "range",
+          "ranking_eligible": false,
+          "note": "公式サイト『11〜13万円』",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://katsunoseikei.com/prp/",
+          "source_url": "https://katsunoseikei.com/prp/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": null,
+          "amount_min": 110000,
+          "amount_max": 130000,
+          "tax": "不明",
+          "unit": "PRP・1回",
+          "price_type": "range",
+          "ranking_eligible": false,
+          "note": "公式サイト『11〜13万円』",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://katsunoseikei.com/prp/",
+          "source_url": "https://katsunoseikei.com/prp/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://katsunoseikei.com/prp/",
+      "official_override_source_type": "facility_official",
+      "official_override_verification": "muscle/tendon/ligament PRP matched",
       "scope_status": "IN_SCOPE"
     },
     {

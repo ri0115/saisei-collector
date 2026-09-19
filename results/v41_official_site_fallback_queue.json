@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T02:46:31.519393+00:00",
-  "total": 66,
-  "unique_facilities": 64,
+  "updated_at": "2026-09-19T02:57:41.046493+00:00",
+  "total": 60,
+  "unique_facilities": 58,
   "items": [
     {
       "plan_id": "V41_02C2402051",
@@ -469,37 +469,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_01C2209017",
-      "mhlw_plan_code": "01C2209017",
-      "facility_id": "V41FD076D781A0",
-      "prefecture": "東京都",
-      "facility": "十条整形外科リハビリクリニック",
-      "address": "北区十条仲原1－28－13ラファエーラ十条2階",
-      "category": "第三種",
-      "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2209017/5/0",
-      "qc_reason": "price candidates remain ambiguous",
-      "postprocess_resolution": "multiple_fee_components_needs_review",
-      "price_candidates": [
-        {
-          "amount": 30000,
-          "tax": "不明",
-          "unit": "",
-          "score": -10,
-          "products": [],
-          "excerpt": "つでも取りやめることができます。この場合でも、一切不利益を受けません。 (採血等にかかる実費等はご負担いただきます。 : 採血後のキャンセル料 5.OOO円 加工後のキャンセル料 30,000 円) もしこの治療を受けることに同意しない場合も、最適と考えられる治療を実施できる KDICBSROGRICRBER<K LES.",
-          "page": 6,
-          "line": ": 採血後のキャンセル料 5.OOO円 加工後のキャンセル料 30,000 円)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        }
-      ]
-    },
-    {
       "plan_id": "V41_02C2306054",
       "mhlw_plan_code": "02C2306054",
       "facility_id": "V41FF421A2F9B8",
@@ -629,36 +598,6 @@
       "treatment": "関節周囲炎の緩和を目的とした自己脂肪由来間葉系間質細胞治療(局所投与)",
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508039/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_03C2609016",
-      "mhlw_plan_code": "03C2609016",
-      "facility_id": "V41F52C8BCC0C9",
-      "prefecture": "東京都",
-      "facility": "順天堂大学医学部附属順天堂医院",
-      "address": "文京区本郷3-1-3",
-      "category": "第三種",
-      "treatment": "自己多血小板血漿(PRP)療法（治療対象：筋・腱・靭帯・椎体周囲軟部組織の損傷）",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609016/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01C2307023",
-      "mhlw_plan_code": "01C2307023",
-      "facility_id": "V41F075DAACD91",
-      "prefecture": "栃木県",
-      "facility": "医療法人親仁会　佐藤病院",
-      "address": "宇都宮市西3-1-11",
-      "category": "第三種",
-      "treatment": "多血小板血漿（PRP）を用いた筋、腱、靭帯への治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2307023/5/0",
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
@@ -797,21 +736,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_02C1906040",
-      "mhlw_plan_code": "02C1906040",
-      "facility_id": "V41FAF8317BA68",
-      "prefecture": "神奈川県",
-      "facility": "医療法人社団梅沢医院　梅沢整形外科",
-      "address": "横浜市旭区東希望が丘77-2",
-      "category": "第三種",
-      "treatment": "多血小板血漿を用いた再生医療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1906040/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_01C2405046",
       "mhlw_plan_code": "01C2405046",
       "facility_id": "V41FA87CDC6E15",
@@ -887,52 +811,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_01C2502023",
-      "mhlw_plan_code": "01C2502023",
-      "facility_id": "V41F0AA5AE12F1",
-      "prefecture": "神奈川県",
-      "facility": "弘明寺整形外科リハビリテーションクリニック",
-      "address": "横浜市南区六ツ川1-81 FHCビル3階",
-      "category": "第二種",
-      "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた\r\n慢性関節炎の治療（関節内組織）",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2502023/5/0",
-      "qc_reason": "price candidates remain ambiguous",
-      "postprocess_resolution": "still_ambiguous",
-      "price_candidates": [
-        {
-          "amount": 5000,
-          "tax": "税込",
-          "unit": "1回(採血が15ml の場合)",
-          "score": 8,
-          "products": [],
-          "excerpt": "かかる費用であり、以下が費用の総額となります。 PRP 療法の費用(消費税込み) 1回(採血が15ml の場合) 3 万5000 円 1 回(採血が15ml 超の場合) 18 万5000 円 治療終了後も定期的な受診が必要です。",
-          "page": 7,
-          "line": "1回(採血が15ml の場合) 3 万5000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 5000,
-          "tax": "税込",
-          "unit": "1回(採血が15ml の場合)",
-          "score": 7,
-          "products": [],
-          "excerpt": "PRP 療法の費用(消費税込み) 1回(採血が15ml の場合) 3 万5000 円 1 回(採血が15ml 超の場合) 18 万5000 円 治療終了後も定期的な受診が必要です。 尚、この治療は治療効果の保証制度(返金保証)の対象外となります。",
-          "page": 7,
-          "line": "1 回(採血が15ml 超の場合) 18 万5000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        }
-      ]
-    },
-    {
       "plan_id": "V41_03C2305022",
       "mhlw_plan_code": "03C2305022",
       "facility_id": "V41F1F85F83ADF",
@@ -958,21 +836,6 @@
       "treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2302004/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_03G2101004",
-      "mhlw_plan_code": "03G2101004",
-      "facility_id": "V41F04A1DFA892",
-      "prefecture": "福岡県",
-      "facility": "医療法人かつの整形外科・リハビリテーション科",
-      "address": "福岡市西区福重4丁目7-6　2F",
-      "category": "第三種",
-      "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた筋、腱、靭帯損傷、肩腱板損傷に対する治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2101004/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
