@@ -1,0 +1,33 @@
+name: Full MHLW maker recovery sharded
+
+on:
+  push:
+    paths:
+      - ".github/workflows/maker-full-mhlw-sharded.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        batch: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright pypdf
+      - run: playwright install --with-deps chromium
+      - run: python scripts/recover_maker_full_mhlw.py --batch ${{ matrix.batch }} --batches 40
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maker-full-shard-${{ matrix.batch }}
+          path: results/maker_full_mhlw/
+          if-no-files-found: error
+          retention-days: 7
