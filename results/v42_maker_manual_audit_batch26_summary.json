@@ -1,0 +1,11 @@
+{
+  "version": "v42-maker-manual-audit-batch-26",
+  "date_jst": "2026-09-19",
+  "audited_facilities": 10,
+  "confirmed_new_facilities": 0,
+  "confirmed_new_manufacturer_placements": 0,
+  "holds_or_nonshare": 10,
+  "processing_outsourcing_found": 1,
+  "external_processor_only_not_manufacturer_share": 1,
+  "note": "Sports-orthopedic priority batch. No facility-level branded kit/manufacturer evidence strong enough for canonical addition."
+}
