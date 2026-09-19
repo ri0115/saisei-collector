@@ -110,8 +110,10 @@ def main():
     p=RESULTS/"v42_maker_manual_verified_additions.tsv"
     if p.exists():
         for r in read_tsv(p):
-            maker=r.get("legal_manufacturer","")
-            if maker:add_pair(fac,r.get("prefecture",""),r.get("facility",""),maker,"MANUAL_VERIFIED",r.get("product",""))
+            makers=r.get("legal_manufacturer","")
+            for maker in re.split(r"[|/]", norm(makers)):
+                if norm(maker):
+                    add_pair(fac,r.get("prefecture",""),r.get("facility",""),maker,"MANUAL_VERIFIED",r.get("product",""))
 
     # 4. Manufacturer-operated facility locators: only HIGH confidence exact matches.
     p=RESULTS/"maker_locator_crossmatch"/"matches.tsv"
