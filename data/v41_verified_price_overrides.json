@@ -1,5 +1,5 @@
 {
-  "version": "v41-verified-overrides-1.3",
+  "version": "v41-verified-overrides-1.4",
   "generated_at": "2026-09-19",
   "notes": "Verified from clinic/hospital official webpages via web search. Amounts are treatment prices only; ancillary fees excluded.",
   "plans": {
@@ -1057,6 +1057,29 @@
         }
       ],
       "note": "同一計画説明文書の「金額（税込）」製品別表を採用"
+    },
+    "V41_01E2111019": {
+      "facility": "医療法人誠幸会 わだ整形外科クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://wadaseikei.net/prp/",
+      "prices": [
+        {
+          "amount": 30000,
+          "tax": "税別",
+          "unit": "関節外PRP・Condensia・1キット",
+          "product": "Condensia",
+          "maker": "京セラ",
+          "note": "筋・腱・靭帯等の関節外治療"
+        },
+        {
+          "amount": 25000,
+          "tax": "税込",
+          "unit": "関節外PRP・学生・1キット",
+          "product": "Condensia",
+          "maker": "京セラ",
+          "note": "学生料金"
+        }
+      ]
     }
   },
   "updated_at": "2026-09-19"
