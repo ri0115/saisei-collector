@@ -1,0 +1,382 @@
+facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sources
+京都府|cliniqueharukyoto	京都府	Clinique Haru Kyoto	Arthrex|Zimmer Biomet	2	ACP|APS|GPS|MyCells|TriCeLL	MHLW_FULL
+京都府|エムスカイ松木整形外科クリニック	京都府	医療法人エムスカイ 松木整形外科クリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+京都府|京都翔医会西京都病院	京都府	医療法人京都翔医会 西京都病院	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP|ACP MAX|ACP|Angel|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+京都府|千春会千春会ハイパーサーミアクリニック	京都府	医療法人社団千春会  千春会ハイパーサーミアクリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP|ACP MAX|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+京都府|康静会伏見ウェルネスクリニック	京都府	医療法人社団康静会 伏見ウェルネスクリニック	ESTAR Technologies	1	MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+京都府|親和会京都木原病院	京都府	医療法人社団親和会 京都木原病院	ESTAR Technologies|Zimmer Biomet	2	APS|APS|GPS|GPS|APS|GPS|GPS|MyCells|GPS|MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+京都府|順和会京都下鴨病院	京都府	医療法人社団順和会 京都下鴨病院	Zimmer Biomet|京セラ	2	APS|Condensia|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+京都府|藍整会なか整形外科京都西院リハビリテーションクリニック	京都府	医療法人藍整会 なか整形外科 京都西院リハビリテーションクリニック	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR
+京都府|康生会たけだ膠原病リウマチクリニック	京都府	医療法人財団康生会 たけだ膠原病リウマチクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+佐賀県|佐賀県医療センター好生館	佐賀県	佐賀県医療センター好生館	Zimmer Biomet	1	APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+佐賀県|百武整形外科スポーツクリニック	佐賀県	百武整形外科・スポーツクリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+兵庫県|夢整形外科スポーツクリニック	兵庫県	「夢」整形外科スポーツクリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+兵庫県|かいと整形外科リハビリクリニック	兵庫県	かいと整形外科リハビリクリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+兵庫県|ささき整形外科リハビリクリニック	兵庫県	ささき整形外科リハビリクリニック	Arthrex|Zimmer Biomet|京セラ	3	ACP|ACP MAX|APS|Condensia|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+兵庫県|やす整形外科クリニック	兵庫県	やす整形外科クリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+兵庫県|三輪整形外科クリニック	兵庫県	三輪整形外科クリニック	Arthrex	1	ACP|ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+兵庫県|兵庫県立リハビリテーション中央病院	兵庫県	兵庫県立リハビリテーション中央病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
+兵庫県|研樹会神戸ルミヴィアクリニック	兵庫県	医療法人 研樹会 神戸ルミヴィアクリニック	Zimmer Biomet|京セラ	2	APS|APS|GPS|Condensia|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+兵庫県|髙倉整形外科クリニック	兵庫県	医療法人社団 髙倉整形外科クリニック	Arthrex|Zimmer Biomet|京セラ	3	ACP|APS|APS|GPS|Angel|Angel|Condensia|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+兵庫県|s&jしばはら整形外科スポーツ関節クリニック	兵庫県	医療法人社団S&J しばはら整形外科スポーツ関節クリニック	Arthrex|Zimmer Biomet	2	ACP|ACP MAX|ACP MAX|ACP|Angel|ACP MAX|ACP|GPS|APS|APS|Angel|Angel|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+兵庫県|さいとう整形外科	兵庫県	医療法人社団さいとう整形外科	Arthrex|ESTAR Technologies|REV-MED|Zimmer Biomet|京セラ	5	ACP|ACP|APS|GPS|TriCeLL|ACP|TriCeLL|MyCells|APS|APS|GPS|TriCeLL|Condensia|GPS|MyCells|TriCeLL	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+兵庫県|リハケア会西川整形外科リハビリクリニック	兵庫県	医療法人社団リハケア会  西川整形外科リハビリクリニック	ESTAR Technologies|Zimmer Biomet	2	APS|GPS|GPS|MyCells|MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+兵庫県|佳和会中山クリニック	兵庫県	医療法人社団佳和会 中山クリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+兵庫県|大室整形外科脊椎関節クリニック	兵庫県	医療法人社団大室整形外科 脊椎・関節クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+兵庫県|大雄会大井クリニック	兵庫県	医療法人社団大雄会 大井クリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+兵庫県|慶愛会森口整形外科	兵庫県	医療法人社団慶愛会 森口整形外科	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+兵庫県|成道会ひろクリニック	兵庫県	医療法人社団成道会 ひろクリニック	Zimmer Biomet	1	GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+兵庫県|成道会神戸関節症クリニック	兵庫県	医療法人社団成道会 神戸関節症クリニック	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+兵庫県|高遼会整形外科たかひろクリニック	兵庫県	医療法人社団高遼会 整形外科たかひろクリニック	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+兵庫県|神戸海星病院	兵庫県	医療法人財団 神戸海星病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+兵庫県|増本整形外科クリニック	兵庫県	増本整形外科クリニック	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+兵庫県|木本整形外科クリニック	兵庫県	木本整形外科クリニック	ESTAR Technologies	1	MyCells	MANUAL_VERIFIED
+兵庫県|芦屋整形外科スポーツクリニック	兵庫県	芦屋整形外科スポーツクリニック	Arthrex	1	ACP|ACP MAX|Angel	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+兵庫県|藤田整形外科スポーツクリニック	兵庫県	藤田整形外科 スポーツクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+千葉県|平成博愛会印西総合病院	千葉県	医療法人平成博愛会 印西総合病院	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+千葉県|オルソプラスむらた整形外科	千葉県	医療法人社団オルソプラス  むらた整形外科	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+千葉県|協友会柏厚生総合病院	千葉県	医療法人社団協友会 柏厚生総合病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+千葉県|南洲会南洲会勝浦クリニック	千葉県	医療法人社団南洲会 南洲会勝浦クリニック	ESTAR Technologies|Zimmer Biomet	2	GPS|MyCells	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+千葉県|奏の杜整形外科	千葉県	医療法人社団奏の杜整形外科	Arthrex|Zimmer Biomet	2	ACP-PRP|APS	MANUFACTURER_LOCATOR
+千葉県|実幸会いらはら診療所	千葉県	医療法人社団実幸会 いらはら診療所	京セラ	1	Condensia	MHLW_FULL
+千葉県|慈宏会まさき整形外科	千葉県	医療法人社団慈宏会 まさき整形外科	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR|MHLW_FULL
+千葉県|明敬会重城病院	千葉県	医療法人社団明敬会 重城病院	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR
+千葉県|淳英会jメディカルおゆみの	千葉県	医療法人社団淳英会 Jメディカルおゆみの	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+千葉県|淳英会おゆみの中央病院	千葉県	医療法人社団淳英会 おゆみの中央病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+千葉県|錦昌会みどりのは葉記念病院	千葉県	医療法人社団錦昌会 みどりのは 葉記念病院	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+千葉県|鉄蕉会亀田クリニック	千葉県	医療法人鉄蕉会 亀田クリニック	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+千葉県|千葉ニュータウン整形外科リハビリテーションクリニック	千葉県	千葉ニュータウン整形外科リハビリテーションクリニック	Arthrex	1	ACP|ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+千葉県|日本医科大学千葉北総病院	千葉県	日本医科大学千葉北総病院	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+千葉県|柏の葉キャンパス整形外科	千葉県	柏の葉キャンパス整形外科	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+千葉県|社団蛍水会名戸ヶ谷病院	千葉県	社会医療法人社団蛍水会 名戸ヶ谷病院	Arthrex|Zimmer Biomet	2	ACP|APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+千葉県|長浜クリニック	千葉県	長浜クリニック	Arthrex|京セラ	2	ACP|Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+千葉県|順天堂大学医学部附属浦安病院	千葉県	順天堂大学医学部附属浦安病院	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+和歌山県|伏虎リハビリテーション病院	和歌山県	伏虎リハビリテーション病院	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+和歌山県|たちばな会西岡病院	和歌山県	医療法人たちばな会 西岡病院	京セラ	1	Condensia	MHLW_FULL
+和歌山県|優真会やなせ整形外科	和歌山県	医療法人優真会 やなせ整形外科	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+和歌山県|須佐病院	和歌山県	医療法人須佐病院	Arthrex	1	APS|Angel	MHLW_FULL
+和歌山県|海南医療センター	和歌山県	海南医療センター	Zimmer Biomet	1	GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+和歌山県|黎明会北出病院	和歌山県	社会医療法人黎明会 北出病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+和歌山県|黎明会和歌山健診クリニックキタデ	和歌山県	社会医療法人黎明会 和歌山 健診クリニック・キタデ	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+和歌山県|琴の浦リハビリテイションセンター琴の浦リハビリテーションセンター附属病院	和歌山県	社会福祉法人琴の浦リハビリテイションセンター    琴の浦リハビリテーションセンター附属病院	DSM Biomedical|Zimmer Biomet	2	APS|PEAK	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+埼玉県|ut整形外科武蔵浦和	埼玉県	UT整形外科 武蔵浦和	Zimmer Biomet|京セラ	2	APS|Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+埼玉県|さいたま整形外科クリニック	埼玉県	さいたま整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+埼玉県|ミューズシティクリニック	埼玉県	ミューズシティクリニック	京セラ	1		MHLW_FULL
+埼玉県|伊奈整形外科せぼねクリニック	埼玉県	伊奈整形外科・せぼねクリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+埼玉県|本庄福島病院本庄総合病院	埼玉県	医療法人本庄福島病院 本庄総合病院	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+埼玉県|宏志会豊岡第一病院	埼玉県	医療法人社団 宏志会 豊岡第一病院	Zimmer Biomet	1	GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+埼玉県|鴻愛会withlifeクリニック大宮駅前	埼玉県	医療法人社団 鴻愛会 with Life クリニック 大宮駅前	Arthrex	1	ACP|ACP MAX|Angel	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+埼玉県|nagomi会健康スポーツクリニック	埼玉県	医療法人社団nagomi会  健康スポーツクリニック	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+埼玉県|南越谷病院	埼玉県	医療法人社団南越谷病院	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+埼玉県|幸祥会東整形外科	埼玉県	医療法人社団幸祥会 東整形外科	Zimmer Biomet|京セラ	2	APS|APS|Condensia|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+埼玉県|愛友会三郷中央総合病院	埼玉県	医療法人社団愛友会 三郷中央総合病院	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+埼玉県|慶辰会新越谷駅前えがわ整形外科クリニック	埼玉県	医療法人社団慶辰会 新越谷駅前えがわ整形外科クリニック	Zimmer Biomet	1	APS|GPS	MHLW_FULL
+埼玉県|春陽会大宮リビータ整形外科	埼玉県	医療法人社団春陽会 大宮リビータ整形外科	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+埼玉県|武蔵野会tmgあさか医療センター	埼玉県	医療法人社団武蔵野会 TMGあさか医療センター	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+埼玉県|活寿会大宮ひざ関節症クリニック	埼玉県	医療法人社団活寿会  大宮ひざ関節症クリニック	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+埼玉県|順生会はにゅう整形外科	埼玉県	医療法人社団順生会 はにゅう整形外科	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+埼玉県|医療生協さいたま生活協同組合埼玉協同病院	埼玉県	医療生協さいたま生活協同組合 埼玉協同病院	ESTAR Technologies|Zimmer Biomet	2	APS|MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+埼玉県|獨協医科大学埼玉医療センター	埼玉県	獨協医科大学埼玉医療センター	Zimmer Biomet	1	APS|APS / GPS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大分県|仙波整形外科	大分県	仙波整形外科	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+大分県|唱和会明野中央病院	大分県	医療法人社団唱和会 明野中央病院	Zimmer Biomet	1	GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大分県|猿渡整形外科スポーツリハクリニック	大分県	猿渡整形外科スポーツリハクリニック	京セラ	1	Condensia	MANUAL_VERIFIED
+大阪府|oneclinic梅田	大阪府	ONE CLINIC 梅田	ESTAR Technologies	1	MyCells	MANUAL_VERIFIED
+大阪府|たけうち整形外科リウマチ科	大阪府	たけうち整形外科リウマチ科	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+大阪府|はせがわ整形外科運動器エコークリニック	大阪府	はせがわ整形外科運動器エコークリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|まつうら整形肩肘スポーツクリニック	大阪府	まつうら整形・肩肘スポーツクリニック	Arthrex	1	ACP|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|アスレティックス整形外科肩膝スポーツクリニック	大阪府	アスレティックス整形外科肩膝スポーツクリニック	京セラ	1	Condensia	MANUAL_VERIFIED
+大阪府|きど整形外科クリニック	大阪府	医療法人 きど整形外科クリニック	Zimmer Biomet|京セラ	2	APS|APS|GPS|Condensia|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|凉庵会整形外科吉田クリニック	大阪府	医療法人 凉庵会 整形外科 吉田クリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+大阪府|厚心会まつかわ整形外科クリニック	大阪府	医療法人 厚心会 まつかわ整形外科クリニック	Arteriocyte Medical Systems|Arthrex	2	ACP|MAGELLAN	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|nクリニック	大阪府	医療法人Nクリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|nクリニック本町nクリニック	大阪府	医療法人Nクリニック 本町Nクリニック	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|一幸会いっしん整形外科	大阪府	医療法人一幸会 いっしん整形外科	Arthrex	1	ACP	MANUAL_VERIFIED
+大阪府|井上会井上整形外科	大阪府	医療法人井上会 井上整形外科	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+大阪府|亮星会ほしやま整形外科医院	大阪府	医療法人亮星会 ほしやま整形外科医院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+大阪府|仁由会日本ウェルネス再生クリニック	大阪府	医療法人仁由会 日本ウェルネス再生クリニック	ESTAR Technologies	1	MyCells	MANUAL_VERIFIED
+大阪府|健裕会よこい整形外科健康スポーツクリニック	大阪府	医療法人健裕会 よこい整形外科 健康スポーツクリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+大阪府|再生会そばじまクリニック	大阪府	医療法人再生会 そばじまクリニック	京セラ	1	Condensia	MHLW_FULL
+大阪府|医誠会医誠会国際総合病院	大阪府	医療法人医誠会 医誠会国際総合病院	Zimmer Biomet	1	GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|医進会高石加茂病院	大阪府	医療法人医進会 高石加茂病院	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|協和会協和会病院	大阪府	医療法人協和会 協和会病院	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|啓信会大阪整形外科病院	大阪府	医療法人啓信会 大阪整形外科病院	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|恒晴会心斎橋ペインクリニック	大阪府	医療法人恒晴会 心斎橋ペインクリニック	Zimmer Biomet|京セラ	2	APS|APS|GPS|Condensia|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|新和会朝田整形外科	大阪府	医療法人新和会 朝田整形外科	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|春秋会城山病院	大阪府	医療法人春秋会 城山病院	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|朝雲会あさぐも整形外科クリニック	大阪府	医療法人朝雲会 あさぐも整形外科クリニック	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|槻陽会高槻整形外科再生医療クリニック	大阪府	医療法人槻陽会 高槻整形外科・再生医療クリニック	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|彦星会大阪中之島整形外科	大阪府	医療法人社団彦星会 大阪中之島整形外科	Zimmer Biomet	1	APS	MHLW_FULL
+大阪府|彦星会岩橋クリニック	大阪府	医療法人社団彦星会 岩橋クリニック	Zimmer Biomet	1	GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|美咲会えびえ記念病院	大阪府	医療法人社団美咲会 えびえ記念病院	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|神明会印どうメディカルクリニック	大阪府	医療法人神明会 印どうメディカルクリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|良耕会村尾診療所	大阪府	医療法人良耕会  村尾診療所	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|良花会整形外科とくはらクリニック	大阪府	医療法人良花会 整形外科とくはらクリニック	Arthrex|Zimmer Biomet|Zimmer Biomet	2	ACP|APS|GPS|APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+大阪府|荒巻会あらまき整形外科クリニック	大阪府	医療法人荒巻会 あらまき整形外科クリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+大阪府|誠幸会わだ整形外科クリニック	大阪府	医療法人誠幸会 わだ整形外科クリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|讃高会枚方東整形外科病院	大阪府	医療法人讃高会 枚方東整形外科病院	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR
+大阪府|吹田くわた内科ペインクリニック	大阪府	吹田くわた内科・ペインクリニック	京セラ	1		MHLW_FULL
+大阪府|大阪市立総合医療センター	大阪府	大阪市立総合医療センター	Arthrex	1	ACP|ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+大阪府|市立ひらかた病院	大阪府	市立ひらかた病院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+大阪府|市立岸和田市民病院	大阪府	市立岸和田市民病院	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|枚方市駅前やました整形外科リハビリテーションクリニック	大阪府	枚方市駅前やました整形外科リハビリテーションクリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|森ノ宮医療大学附属大阪ベイクリニック	大阪府	森ノ宮医療大学附属 大阪ベイクリニック	Zimmer Biomet|京セラ	2	Condensia|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|信愛会畷生会脳神経外科病院	大阪府	社会医療法人 信愛会 畷生会脳神経外科病院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+大阪府|oneflagおおさかグローバル整形外科病院	大阪府	社会医療法人ONE FLAG おおさかグローバル整形外科病院	Arthrex|Zimmer Biomet	2	ACP|ACP|GPS|Zimmer|Arthrex|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+大阪府|啓仁会堺咲花病院	大阪府	社会医療法人啓仁会 堺咲花病院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+大阪府|寿会富永病院	大阪府	社会医療法人寿会 富永病院	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+大阪府|近畿大学病院	大阪府	近畿大学病院	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+大阪府|運動器ケアしまだ病院	大阪府	運動器ケア しまだ病院	Zimmer Biomet	1	APS|GPS	MHLW_FULL
+大阪府|都島整形外科クリニック	大阪府	都島整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+大阪府|高槻整形外科再生医療クリニック	大阪府	高槻整形外科・再生医療クリニック	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+奈良県|沢井病院	奈良県	一般財団法人 沢井病院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+奈良県|新生会総合病院高の原中央病院	奈良県	医療法人新生会 総合病院 高の原中央病院	Arthrex|Zimmer Biomet	2	ACP|ACP MAX|ACP MAX|ACP|ACP MAX|ACP|APS|GPS|APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+奈良県|松本快生会西奈良中央病院	奈良県	社会医療法人 松本快生会 西奈良中央病院	DSM Biomedical|Zimmer Biomet	2	APS|APS|GPS|PEAK|GPS|GPS|PEAK|PEAK	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+奈良県|高清会香芝高清会病院	奈良県	社会医療法人高清会 香芝高清会病院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+奈良県|恩賜財団済生会奈良病院	奈良県	社会福祉法人 恩賜財団済生会奈良病院	Zimmer Biomet	1	GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+奈良県|近畿大学奈良病院	奈良県	近畿大学奈良病院	Zimmer Biomet	1	GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+宮崎県|mスポーツ整形外科クリニック	宮崎県	Mスポーツ整形外科クリニック	Zimmer Biomet	1	GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+宮崎県|坂田整形外科クリニック	宮崎県	坂田整形外科クリニック	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+宮崎県|整形外科押領司病院	宮崎県	整形外科 押領司病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+山口県|宇部興産中央病院	山口県	医療法人社団 宇部興産中央病院	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+山口県|季朋会王司病院	山口県	医療法人社団季朋会 王司病院	ESTAR Technologies|Zimmer Biomet	2	GPS|GPS|MyCells|MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+山口県|山口県厚生農業協同組合連合会小郡第一総合病院	山口県	山口県厚生農業協同組合連合会 小郡第一総合病院	Zimmer Biomet	1	APS|GPS	MHLW_FULL
+山梨県|東甲府医院	山梨県	東甲府医院	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR
+山梨県|山梨病院	山梨県	独立行政法人地域医療機能推進機構 山梨病院	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR
+山梨県|加納岩加納岩総合病院	山梨県	社会医療法人加納岩 加納岩総合病院	Arthrex	1	ACP|ACP|Arthrex	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+岐阜県|radiantclinic	岐阜県	Radiant Clinic	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+岐阜県|東海中央病院	岐阜県	公立学校共済組合 東海中央病院	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+岐阜県|豊正会大垣中央病院	岐阜県	医療法人社団 豊正会 大垣中央病院	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+岐阜県|岐阜大学医学部附属病院	岐阜県	岐阜大学医学部附属病院	Zimmer Biomet	1	GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+岐阜県|森整形外科リハビリクリニック	岐阜県	森整形外科リハビリクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+岐阜県|美濃整形外科	岐阜県	美濃整形外科	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|GPS|APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+岡山県|あゆみ整形ハンドクリニック	岡山県	あゆみ整形ハンドクリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+岩手県|いわてスポーツ整形外科クリニック	岩手県	いわてスポーツ・整形外科クリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+島根県|やまもと整形外科クリニック	島根県	やまもと整形外科クリニック	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+広島県|かたひざこしのクリニック福山かたひざこしのクリニック	広島県	医療法人かたひざこしのクリニック 福山かた・ひざ・こしのクリニック	Arthrex|京セラ	2	ACP|Condensia	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+広島県|エムエム会マッターホルンリハビリテーション病院	広島県	医療法人エム・エム会 マッターホルンリハビリテーション病院	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+広島県|昭和原田整形外科病院	広島県	医療法人昭和 原田整形外科病院	Arthrex	1	ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+広島県|まりも会ヒロシマ平松病院	広島県	医療法人社団まりも会 ヒロシマ平松病院	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+広島県|大田クリニック整形外科	広島県	大田クリニック整形外科	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+広島県|寛田クリニック	広島県	寛田クリニック	Arthrex	1	ACP|ACP MAX|Angel	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+広島県|労働者健康安全機構中国労災病院	広島県	独立行政法人労働者健康安全機構 中国労災病院	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+広島県|里仁会興生総合病院	広島県	社会医療法人里仁会 興生総合病院	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+徳島県|やましろクリニック	徳島県	やましろクリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+徳島県|おおた整形外科クリニック	徳島県	医療法人おおた整形外科クリニック	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+徳島県|メディカルトラスト髙木整形外科医院	徳島県	医療法人メディカルトラスト 髙木整形外科医院	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|GPS|Zimmer|ACP|GPS|Zimmer|Arthrex|APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+愛媛県|丸石整形外科医院	愛媛県	医療法人 丸石整形外科医院	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+愛媛県|鎌野病院	愛媛県	医療法人 鎌野病院	Arthrex	1	ACP|ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+愛媛県|大野醫院おおの整形外科内科医院	愛媛県	医療法人大野醫院 おおの整形外科内科医院	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+愛媛県|石川記念会hito病院	愛媛県	社会医療法人石川記念会 HITO病院	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+愛知県|あいせい紀年病院	愛知県	あいせい紀年病院	Arthrex	1	ACP|ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+愛知県|ふくの森リハビリ整形外科	愛知県	ふくの森リハビリ整形外科	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+愛知県|リジェネレーションクリニック	愛知県	リジェネレーションクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+愛知県|伊藤整形内科あいちスポーツ人工関節クリニック	愛知県	伊藤整形・内科 あいちスポーツ人工関節クリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+愛知県|豊田整形外科	愛知県	医療法人 豊田整形外科	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+愛知県|健整会みかわ整形外科	愛知県	医療法人健整会 みかわ整形外科	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+愛知県|桂名会重工大須病院	愛知県	医療法人桂名会 重工大須病院	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+愛知県|紫雪会えさき整形外科リウマチ科	愛知県	医療法人紫雪会 えさき整形外科リウマチ科	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+愛知県|絢南会かすがい関節スポーツ整形外科いたみのクリニック	愛知県	医療法人絢南会    かすがい関節・スポーツ整形外科いたみのクリニック	Arthrex|DSM Biomedical|Zimmer Biomet	3	ACP|APS|GPS|PEAK	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+愛知県|水谷整形外科内科クリニック	愛知県	水谷整形外科・内科クリニック	Arthrex|Zimmer Biomet	2	ACP|ACP|Angel|APS|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+愛知県|瀬戸にしな整形外科クリニック	愛知県	瀬戸にしな整形外科クリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+愛知県|米田病院	愛知県	米田病院	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+愛知県|蒲郡市民病院	愛知県	蒲郡市民病院	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+愛知県|藤田医科大学病院	愛知県	藤田医科大学病院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+新潟県|kosmiこん整形外科クリニック	新潟県	医療法人社団KOSMI こん整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+新潟県|ibisこばり坂クリニック	新潟県	医療法人社団ibis こばり坂クリニック	Arthrex|Zimmer Biomet	2	ACP|APS|GPS|APS	MANUFACTURER_LOCATOR|MHLW_FULL
+新潟県|間庭整形外科医院	新潟県	医療法人社団間庭整形外科医院	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+新潟県|新潟大学医歯学総合病院	新潟県	新潟大学医歯学総合病院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|arex尾山台整形外科	東京都	AR-Ex尾山台整形外科	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|sbc整形外科クリニック西新宿本院	東京都	SBC整形外科クリニック西新宿本院	ESTAR Technologies|Zimmer Biomet	2	APS|GPS|GPS|MyCells|MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|taoclinic	東京都	TAO Clinic	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP|ACP MAX|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|おかのクリニック	東京都	おかのクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+東京都|お茶の水セルクリニック	東京都	お茶の水セルクリニック	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|GPS|Zimmer|APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|すみだ運動器リハビリテーションクリニック	東京都	すみだ運動器リハビリテーションクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+東京都|つくる整形外科祐天寺駅前スポーツクリニック	東京都	つくる整形外科 祐天寺駅前スポーツクリニック	Arthrex	1	ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+東京都|アレックス脊椎クリニック	東京都	アレックス脊椎クリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|トウキョウメディカルエンドサージカルクリニック	東京都	トウキョウ メディカル エンド サージカル クリニック	Zimmer Biomet	1	GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|モティーフ銀座クリニック	東京都	モティーフ銀座クリニック	京セラ	1	Condensia	MHLW_FULL
+東京都|solsol整形外科世田谷スポーツクリニック	東京都	一般社団法人SOL SOL整形外科世田谷スポーツクリニック	Arthrex	1	ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|循整会世田谷人工関節脊椎クリニック	東京都	一般社団法人循整会 世田谷人工関節・脊椎クリニック	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|東京lab高輪ゲートウェイ駅前整形外科クリニック	東京都	一般社団法人東京LAB 高輪ゲートウェイ駅前整形外科クリニック	京セラ	1	Condensia	MHLW_FULL
+東京都|三軒茶屋整形外科スポーツクリニック	東京都	三軒茶屋整形外科・スポーツクリニック	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|世田谷かくた整形外科成城学園前院	東京都	世田谷かくた整形外科 成城学園前院	Arthrex|Zimmer Biomet	2	ACP|APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|予防からはじめる整形外科tclinicichigaya	東京都	予防からはじめる整形外科 T CLINIC Ichigaya	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|仙川整形外科	東京都	仙川整形外科	REV-MED	1	TriCeLL	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|日産厚生会玉川病院	東京都	公益財団法人日産厚生会玉川病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|北里大学北里研究所病院	東京都	北里大学北里研究所病院	Zimmer Biomet	1	GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|healthandhumanperformancemtxスポーツ関節クリニック	東京都	医療法人社団 Health and Human Performance  MTXスポーツ・関節クリニック	ESTAR Technologies	1	MyCells	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|tsoc東京スポーツ&整形外科クリニック北参道	東京都	医療法人社団 TSOC 東京スポーツ&整形外科クリニック北参道	Arthrex	1	ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|医生会わせだ整形外科	東京都	医療法人社団 医生会 わせだ整形外科	Arthrex|BTI Biotechnology Institute|京セラ	3	ACP|ACP MAX|ACP MAX|ACP|ACP MAX|ACP|Angel|Angel|Condensia|PRGF-Endoret	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|大山整形外科診療所	東京都	医療法人社団 大山整形外科診療所	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|山手クリニック	東京都	医療法人社団 山手クリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+東京都|正貴会いくこ皮フ科クリニック	東京都	医療法人社団 正貴会 いくこ皮フ科クリニック	ESTAR Technologies|Zimmer Biomet	2	APS|GPS|MyCells	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|白鳳会大角医院	東京都	医療法人社団 白鳳会 大角医院	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|苑田会苑田会人工関節センター病院	東京都	医療法人社団 苑田会 苑田会人工関節センター病院	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|ihoc稲城平尾整形外科クリニック	東京都	医療法人社団IHOC   稲城平尾整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP|Angel|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|mtac文京整形外科	東京都	医療法人社団M-TAC 文京整形外科	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|tsoc東京スポーツ&整形外科クリニック	東京都	医療法人社団TSOC 東京スポーツ&整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|vita池尻大橋せらクリニック	東京都	医療法人社団VITA 池尻大橋せらクリニック	Arthrex	1	ACP|ACP MAX|ACP MAX / ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|アーツメディックさかい整形外科	東京都	医療法人社団アーツメディック さかい整形外科	京セラ	1	Condensia	MHLW_FULL
+東京都|サザナミきむらてつや整形外科内科	東京都	医療法人社団サザナミ きむらてつや整形外科内科	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|スポーツメディカル八王子スポーツ整形外科	東京都	医療法人社団スポーツメディカル  八王子スポーツ整形外科	Arthrex|Zimmer Biomet	2	ACP|APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|下田緑眞会世田谷北部病院	東京都	医療法人社団下田緑眞会 世田谷北部病院	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|中川整形外科	東京都	医療法人社団中川整形外科	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|充幸会髙見澤整形外科クリニック	東京都	医療法人社団充幸会 髙見澤整形外科クリニック	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|全心会ぜんしん整形外科立川スポーツリハビリクリニック	東京都	医療法人社団全心会  ぜんしん整形外科 立川スポーツリハビリクリニック	Arthrex	1	ACP|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|博栄会赤羽中央総合病院	東京都	医療法人社団博栄会 赤羽中央総合病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|善用会講道館ビルクリニック	東京都	医療法人社団善用会 講道館ビルクリニック	Arthrex	1	ACP	MANUAL_VERIFIED
+東京都|山本前田記念会前田病院	東京都	医療法人社団山本・前田記念会 前田病院	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|幸神会下北沢doクリニック	東京都	医療法人社団幸神会 下北沢DOクリニック	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|GPS|APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|幹葉会南青山外苑前整形外科リハビリテーション科クリニック	東京都	医療法人社団幹葉会  南青山外苑前整形外科リハビリテーション科クリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|康静会赤羽ウェルネスクリニック	東京都	医療法人社団康静会 赤羽ウェルネスクリニック	ESTAR Technologies	1	MyCells	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|彩康会十条整形外科リハビリクリニック	東京都	医療法人社団彩康会 十条整形外科リハビリクリニック	Zimmer Biomet	1	APS|TriCeLL	MHLW_FULL
+東京都|快晴会すがも北口整形外科クリニック	東京都	医療法人社団快晴会  すがも北口整形外科クリニック	ESTAR Technologies|Zimmer Biomet	2	GPS|GPS|MyCells|MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|慶優会増本整形外科クリニック	東京都	医療法人社団慶優会 増本整形外科クリニック	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|慶晃会世田谷玉川整形外科内科クリニック	東京都	医療法人社団慶晃会 世田谷玉川 整形外科内科クリニック	Arthrex|DSM Biomedical|Zimmer Biomet	3	ACP|ACP|APS|GPS|PEAK|APS|GPS|PEAK	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|敬和慶友会自由が丘くびと腰の整形外科関節のクリニック	東京都	医療法人社団敬和慶友会 自由が丘くびと腰の整形外科関節のクリニック	Zimmer Biomet|京セラ	2	APS|Condensia|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|松和会池上総合病院	東京都	医療法人社団松和会 池上総合病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|森羅北砂2丁目だい整形外科	東京都	医療法人社団森羅 北砂2丁目だい整形外科	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|洪泳会東京洪誠病院	東京都	医療法人社団洪泳会 東京洪誠病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|活寿会東京ひざ関節症クリニック銀座院	東京都	医療法人社団活寿会 東京ひざ関節症クリニック銀座院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|癒合会高輪和合クリニック	東京都	医療法人社団癒合会 高輪和合クリニック	ESTAR Technologies	1	MyCells	MANUAL_VERIFIED
+東京都|研裕会紀尾井町プラザクリニック歯科美容外科	東京都	医療法人社団研裕会 紀尾井町プラザクリニック歯科・美容外科	BTI Biotechnology Institute	1	PRGF-Endoret	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|秀慈会リバーシティすずき整形外科	東京都	医療法人社団秀慈会 リバーシティすずき整形外科	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|菫会目黒病院	東京都	医療法人社団菫会 目黒病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|進誠会豪徳寺整形外科クリニック	東京都	医療法人社団進誠会  豪徳寺整形外科クリニック	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|青和会井上整形外科	東京都	医療法人社団青和会 井上整形外科	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|高賢会安田整形外科	東京都	医療法人社団高賢会 安田整形外科	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|荻窪病院	東京都	医療法人財団荻窪病院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|千歳船橋整形外科スポーツリハビリクリニック	東京都	千歳船橋整形外科スポーツ・リハビリクリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|東京都立病院機構東京都立大久保病院	東京都	地方独立行政法人東京都立病院機構  東京都立大久保病院	Arthrex|Zimmer Biomet	2	ACP MAX|APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|慶應義塾大学病院	東京都	慶應義塾大学病院	Zimmer Biomet	1	GPS	MHLW_FULL
+東京都|新柴又駅前広場クリニック	東京都	新柴又駅前広場クリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|日本医科大学付属病院	東京都	日本医科大学付属病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|明大前整形外科クリニック	東京都	明大前整形外科クリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|昭和医科大学江東豊洲病院	東京都	昭和医科大学江東豊洲病院	Arthrex	1	ACP MAX	MHLW_FULL
+東京都|東京メディサイトクリニック	東京都	東京メディサイトクリニック	ESTAR Technologies	1	MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|東京城南整形外科	東京都	東京城南整形外科	REV-MED	1	TriCeLL	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|東京整形外科	東京都	東京整形外科	Arthrex	1	ACP|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|東京科学大学病院	東京都	東京科学大学病院	Zimmer Biomet	1	APS|GPS	MHLW_FULL
+東京都|東京銀座ウェルネス&エイジングクリニック	東京都	東京銀座ウェルネス&エイジングクリニック	Zimmer Biomet	1	APS	MHLW_FULL
+東京都|東邦大学医療センター大橋病院	東京都	東邦大学医療センター大橋病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|横浜町田関節脊椎病院	東京都	横浜町田関節脊椎病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|池尻大橋せらクリニック	東京都	池尻大橋せらクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+東京都|労働者健康安全機構東京労災病院	東京都	独立行政法人労働者健康安全機構 東京労災病院	DSM Biomedical|Zimmer Biomet	2	APS|GPS|PEAK	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|東京医療センター	東京都	独立行政法人国立病院機構東京医療センター	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR|MHLW_FULL
+東京都|白山リハビリ整形外科	東京都	白山リハビリ整形外科	REV-MED	1	TriCeLL	MANUAL_VERIFIED
+東京都|白金高輪やまと整形外科	東京都	白金高輪やまと整形外科	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|目黒ひざ&形成外科クリニック	東京都	目黒ひざ&形成外科クリニック	Arthrex|Zimmer Biomet	2	ACP|APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|社団東京巨樹の会東京品川病院	東京都	社会医療法人社団東京巨樹の会 東京品川病院	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|財団仁医会牧田総合病院	東京都	社会医療法人財団 仁医会 牧田総合病院	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|白十字会東京白十字病院	東京都	社会福祉法人白十字会 東京白十字病院	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+東京都|祐天寺整形外科クリニック	東京都	祐天寺整形外科クリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|葛西駅前あおぞら整形外科クリニック	東京都	葛西駅前あおぞら整形外科クリニック	Zimmer Biomet	1	APS	MANUAL_VERIFIED
+東京都|西新宿整形外科クリニック	東京都	西新宿整形外科クリニック	ESTAR Technologies|Zimmer Biomet	2	APS|GPS|MyCells	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|豪徳寺整形外科クリニック	東京都	豪徳寺整形外科クリニック	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|運動器クリニック市ヶ谷	東京都	運動器クリニック市ヶ谷	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|都立大整形外科クリニック	東京都	都立大整形外科クリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|銀座yrクリニック	東京都	銀座YRクリニック	ESTAR Technologies|京セラ	2	Condensia|MyCells	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|阿部整形外科クリニック	東京都	阿部整形外科クリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|順天堂大学医学部附属練馬病院	東京都	順天堂大学医学部附属練馬病院	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+東京都|順天堂大学医学部附属順天堂医院	東京都	順天堂大学医学部附属順天堂医院	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|順天堂大学医学部附属順天堂東京江東高齢者医療センター	東京都	順天堂大学医学部附属順天堂東京江東高齢者医療センター	ESTAR Technologies|Zimmer Biomet	2	GPS|MyCells	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+沖縄県|八重瀬会同仁病院	沖縄県	医療法人八重瀬会 同仁病院	Zimmer Biomet	1	GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+滋賀県|公立甲賀病院	滋賀県	公立甲賀病院	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+滋賀県|はたスポーツ整形クリニック	滋賀県	医療法人はたスポーツ整形クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+石川県|まえだクリニックまえだ整形外科骨関節クリニック	石川県	医療法人社団まえだクリニック まえだ整形外科 骨・関節クリニック	Arthrex	1	ACP|ACP MAX	MHLW_FULL
+石川県|みやた整形外科みやた整形外科	石川県	医療法人社団みやた整形外科 みやた整形外科	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+石川県|金沢医科大学病院	石川県	金沢医科大学病院	ESTAR Technologies|Zimmer Biomet	2	APS|APS|MyCells|MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+石川県|金沢泉が丘わたなべクリニック	石川県	金沢泉が丘わたなべクリニック	京セラ	1	Condensia	MHLW_FULL
+神奈川県|okunoclinic横浜センター南	神奈川県	Okuno Clinic.横浜 センター南	Arthrex|DSM Biomedical	2	ACP|PEAK	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|ysaスポーツと医科学のクリニック横浜関内	神奈川県	YSA スポーツと医科学のクリニック横浜関内	Arthrex|Zimmer Biomet	2	ACP|ACP MAX|APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|いしずえ整形外科	神奈川県	いしずえ整形外科	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|さこ整形外科リハビリテーション科	神奈川県	さこ整形外科・リハビリテーション科	ESTAR Technologies	1	MyCells	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|ほんだ整形外科クリニック	神奈川県	ほんだ整形外科クリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+神奈川県|センター南gotoクリニック	神奈川県	センター南GOTOクリニック	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|solsol整形外科鷺沼スポーツクリニック	神奈川県	一般社団法人SOL SOL整形外科鷺沼スポーツクリニック	Arthrex	1	ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+神奈川県|三ツ沢sora整形外科	神奈川県	三ツ沢SORA整形外科	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|二階堂整形外科クリニック	神奈川県	二階堂整形外科クリニック	Arthrex|Zimmer Biomet	2	ACP|APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|よこはまtsc横浜たまプラーザ運動器スポーツクリニック	神奈川県	医療法人 よこはまTSC  横浜たまプラーザ運動器スポーツクリニック	Arthrex|Zimmer Biomet	2	ACP|APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|宝円会湘南つつじ整形外科	神奈川県	医療法人宝円会 湘南つつじ整形外科	REV-MED	1	TriCeLL	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|徳洲会湘南鎌倉人工関節センター	神奈川県	医療法人徳洲会 湘南鎌倉人工関節センター	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|徳洲会湘南鎌倉総合病院	神奈川県	医療法人徳洲会 湘南鎌倉総合病院	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|愛仁会太田総合病院	神奈川県	医療法人愛仁会 太田総合病院	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|横浜未来ヘルスケアシステム戸塚共立第2病院	神奈川県	医療法人横浜未来ヘルスケアシステム 戸塚共立第2病院	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+神奈川県|三成会新百合ヶ丘総合病院	神奈川県	医療法人社団三成会 新百合ヶ丘総合病院	Arthrex	1	ACP|Angel	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|快晴会田奈整形外科外科	神奈川県	医療法人社団快晴会 田奈整形外科・外科	ESTAR Technologies|Zimmer Biomet	2	GPS|MyCells	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|梅沢医院梅沢整形外科	神奈川県	医療法人社団梅沢医院 梅沢整形外科	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|総生会麻生総合病院	神奈川県	医療法人社団総生会 麻生総合病院	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|耀風会仲野整形外科スポーツウェルネスクリニック	神奈川県	医療法人社団耀風会  仲野整形外科スポーツ・ウェルネスクリニック	Arthrex|京セラ	2	ACP|Angel|Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|豊葉会ザヨコハマフロントベイサイドクリニック	神奈川県	医療法人社団豊葉会 ザ・ヨコハマフロント・ベイサイドクリニック	Arthrex	1	ACP|ACP MAX|Angel	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|緑樹会あおば整形外科	神奈川県	医療法人緑樹会 あおば整形外科	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|明理会東戸塚記念病院	神奈川県	医療法人財団明理会 東戸塚記念病院	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+神奈川県|吉野整形外科	神奈川県	吉野整形外科	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|弘明寺整形外科リハビリテーションクリニック	神奈川県	弘明寺整形外科リハビリテーションクリニック	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|横浜駅前さいとう整形外科スポーツクリニック	神奈川県	横浜駅前さいとう整形外科・スポーツクリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|横須賀市立市民病院	神奈川県	横須賀市立市民病院	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|池田整形外科形成外科美容外科	神奈川県	池田整形外科 形成外科・美容外科	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|済生会横浜市東部病院	神奈川県	済生会 横浜市東部病院	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+神奈川県|相模原協同病院	神奈川県	相模原協同病院	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|GPS|APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|財団互恵会大船中央病院	神奈川県	社会医療法人財団互恵会 大船中央病院	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+神奈川県|聖隷福祉事業団聖隷横浜病院	神奈川県	社会福祉法人聖隷福祉事業団 聖隷横浜病院	Zimmer Biomet	1	APS	MHLW_FULL
+神奈川県|羽沢よこはま国大整形外科リウマチ科関節鏡クリニック	神奈川県	羽沢よこはま国大整形外科リウマチ科・関節鏡クリニック	REV-MED|Zimmer Biomet	2	APS|GPS|TriCeLL	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|開成くさやま整形外科リハビリクリニック	神奈川県	開成くさやま整形外科リハビリクリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+神奈川県|黒河内整形外科プラウドタワー相模大野クロスクリニック	神奈川県	黒河内整形外科プラウドタワー相模大野クロスクリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+福井県|博俊会春江病院	福井県	医療法人 博俊会 春江病院	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+福井県|eternabloomさくら通り整形外科クリニック	福井県	医療法人Eternabloom さくら通り整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+福井県|弘昭会大森整形外科リウマチ科	福井県	医療法人弘昭会 大森整形外科リウマチ科	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+福岡県|tenjintoyaclinic	福岡県	Tenjin Toya Clinic	Arthrex|BTI Biotechnology Institute	2	Angel|PRGF-Endoret	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+福岡県|とも整形外科スポーツクリニック	福岡県	とも整形外科スポーツクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+福岡県|neoまなべ整形外科クリニック	福岡県	医療法人NEO まなべ整形外科クリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+福岡県|tscタケダスポーツビューティークリニック	福岡県	医療法人TSC タケダスポーツ・ビューティークリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP|ACP MAX|ACP|Angel|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+福岡県|オアシス福岡志恩病院	福岡県	医療法人オアシス 福岡志恩病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+福岡県|一寿会西尾病院	福岡県	医療法人一寿会西尾病院	Arthrex	1	ACP	MANUAL_VERIFIED
+福岡県|秀英会新庄整形外科医院	福岡県	医療法人秀英会 新庄整形外科医院	Arthrex|Zimmer Biomet	2	ACP|APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+福岡県|笑運舎戸畑駅fプラス整形外科	福岡県	医療法人笑運舎 戸畑駅Fプラス整形外科	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+福岡県|櫛田学整形外科クリニック	福岡県	櫛田学整形外科クリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+群馬県|あさくらスポーツリハビリテーションクリニック	群馬県	あさくらスポーツリハビリテーションクリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+群馬県|ぐんまスポーツ整形外科	群馬県	ぐんまスポーツ整形外科	Arthrex	1	ACP|ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
+群馬県|パーク整形外科クリニック	群馬県	パーク整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+群馬県|善衆会善衆会病院	群馬県	医療法人社団善衆会 善衆会病院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+群馬県|慶友整形外科クリニック	群馬県	慶友整形外科クリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+茨城県|アントラーズスポーツクリニック	茨城県	アントラーズスポーツクリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+茨城県|健佑会いちはら病院	茨城県	医療法人健佑会いちはら病院	Arthrex|BTI Biotechnology Institute|Zimmer Biomet	3	ACP|ACP|APS|GPS|Zimmer|ACP|GPS|Arthrex|APS|GPS|PRGF-Endoret	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+茨城県|筑波記念会筑波記念病院	茨城県	医療法人社団 筑波記念会 筑波記念病院	Arthrex	1	ACP|ACP / Arthrex	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+長崎県|増田整形外科	長崎県	医療法人増田整形外科	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+長崎県|財団白十字会佐世保中央病院	長崎県	社会医療法人財団白十字会 佐世保中央病院	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+長野県|mosc百瀬整形外科スポーツクリニック	長野県	一般社団法人MOSC 百瀬整形外科スポーツクリニック	Arthrex	1	ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+長野県|佐久市立国保浅間総合病院	長野県	佐久市立国保浅間総合病院	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+長野県|佐久平整形外科クリニック	長野県	佐久平整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+長野県|弘仁会かもいクリニック	長野県	医療法人弘仁会 かもいクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+長野県|直佳会森ロコモクリニック	長野県	医療法人直佳会 森 ロコモクリニック	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+長野県|笠間整形外科医院	長野県	医療法人笠間整形外科医院	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+長野県|栗山会飯田病院	長野県	社会医療法人栗山会飯田病院	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR|MHLW_FULL
+長野県|長野整形外科クリニック	長野県	長野整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+静岡県|tobu整形外科スポーツ&リハビリクリニック	静岡県	TOBU整形外科スポーツ&リハビリクリニック	京セラ	1	Condensia	MHLW_FULL
+静岡県|しずおか整形外科病院	静岡県	しずおか整形外科病院	ESTAR Technologies|Zimmer Biomet	2	APS|APS|MyCells|GPS|GPS|MyCells|MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+静岡県|ばんどう整形外科ファミリークリニック	静岡県	ばんどう整形外科・ファミリークリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+静岡県|みしま痛み&リハビリクリニック	静岡県	みしま痛み&リハビリクリニック	ESTAR Technologies	1	MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+静岡県|伊豆高原メディカルたかやなぎ整形外科	静岡県	伊豆高原メディカル たかやなぎ整形外科	Arthrex|京セラ	2	ACP|Condensia	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+静岡県|ディーエイチアール鈴木整形外科スポーツクリニック	静岡県	医療法人社団ディー・エイチ・アール 鈴木整形外科スポーツクリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+静岡県|平成会藤枝平成記念病院	静岡県	医療法人社団平成会 藤枝平成記念病院	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR|MHLW_FULL
+静岡県|志隆ふくだ整形外科リウマチ科	静岡県	医療法人社団志隆 ふくだ整形外科リウマチ科	Arthrex|Zimmer Biomet	2	ACP|APS|Angel	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+静岡県|明徳会十全記念病院	静岡県	医療法人社団明徳会 十全記念病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+静岡県|浜本整形外科医院	静岡県	医療法人社団浜本整形外科医院	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|GPS|APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+静岡県|富士整形外科病院	静岡県	富士整形外科病院	Arthrex	1	ACP-PRP|HD-PRP	MANUFACTURER_LOCATOR
+静岡県|清水サルバス整形外科糖尿病内分泌クリニック	静岡県	清水サルバス整形外科・糖尿病内分泌クリニック	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|GPS|ACP|GPS|APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+静岡県|聖隷福祉事業団総合病院聖隷浜松病院	静岡県	社会福祉法人聖隷福祉事業団 総合病院 聖隷浜松病院	Zimmer Biomet	1	GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+静岡県|錦野クリニック	静岡県	錦野クリニック	REV-MED	1	TriCeLL	MANUAL_VERIFIED
+静岡県|順天堂大学医学部附属静岡病院	静岡県	順天堂大学医学部附属 静岡病院	Zimmer Biomet	1	APS	MHLW_FULL
+香川県|永井整形外科医院	香川県	医療法人社団 永井整形外科医院	ESTAR Technologies|REV-MED|Zimmer Biomet	3	APS|APS|GPS|GPS|GPS|TriCeLL|MyCells|MyCells|TriCeLL	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+香川県|財団大樹会総合病院回生病院	香川県	社会医療法人財団 大樹会 総合病院 回生病院	Zimmer Biomet	1	APS	MHLW_FULL
+香川県|高松南整形外科スポーツクリニック	香川県	高松南整形外科スポーツクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+高知県|緑風会海里マリン病院	高知県	医療法人緑風会 海里マリン病院	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+高知県|高知西病院	高知県	独立行政法人地域医療機能推進機構 高知西病院	Zimmer Biomet	1	APS|GPS	MHLW_FULL
+高知県|近森会近森病院	高知県	社会医療法人近森会 近森病院	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+高知県|高知大学医学部附属病院	高知県	高知大学医学部附属病院	Zimmer Biomet	1	GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+鳥取県|ysoc米子南整形外科クリニック	鳥取県	医療法人YSOC 米子南整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP|ACP MAX|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+鳥取県|かわぐちクリニック	鳥取県	医療法人社団かわぐちクリニック	Arthrex|DSM Biomedical|Zimmer Biomet	3	ACP|ACP|GPS|PEAK|APS|APS|GPS|PEAK|GPS|PEAK	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+鳥取県|鳥取大学医学部附属病院	鳥取県	鳥取大学医学部附属病院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+鹿児島県|七徳会大井病院	鹿児島県	医療法人七徳会 大井病院	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+鹿児島県|天陽会中央クリニック	鹿児島県	天陽会中央クリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
+鹿児島県|鹿児島中央整形外科スポーツクリニック	鹿児島県	鹿児島中央整形外科スポーツクリニック	Arthrex	1	ACP|ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR

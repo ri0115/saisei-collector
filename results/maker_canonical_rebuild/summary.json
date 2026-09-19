@@ -1,0 +1,47 @@
+{
+  "facility_universe": 949,
+  "manufacturer_known_facilities": 381,
+  "manufacturer_known_rate_pct": 40.15,
+  "manufacturer_placements": 461,
+  "manufacturer_counts": {
+    "Zimmer Biomet": 212,
+    "Arthrex": 155,
+    "京セラ": 47,
+    "ESTAR Technologies": 26,
+    "REV-MED": 8,
+    "DSM Biomedical": 7,
+    "BTI Biotechnology Institute": 4,
+    "Arteriocyte Medical Systems": 1,
+    "Arthrex|Zimmer Biomet": 1
+  },
+  "manufacturer_share_pct": {
+    "Zimmer Biomet": 45.99,
+    "Arthrex": 33.62,
+    "京セラ": 10.2,
+    "ESTAR Technologies": 5.64,
+    "REV-MED": 1.74,
+    "DSM Biomedical": 1.52,
+    "BTI Biotechnology Institute": 0.87,
+    "Arteriocyte Medical Systems": 0.22,
+    "Arthrex|Zimmer Biomet": 0.22
+  },
+  "multi_manufacturer_facilities": 69,
+  "source_presence_facilities": {
+    "MHLW_FULL": 40,
+    "PRICE_STAGE_V40_PRODUCT": 157,
+    "PRICE_STAGE_V40": 157,
+    "PRICE_STAGE_V41_PRODUCT": 185,
+    "PRICE_STAGE_V41": 185,
+    "MANUFACTURER_LOCATOR": 62,
+    "MANUAL_VERIFIED": 25
+  },
+  "manufacturer_locator_high_rows": 63,
+  "manufacturer_locator_high_unique_facilities": 62,
+  "policy": [
+    "Rebuilt from current staged price evidence, MHLW exact-plan attachment recovery, manually verified official pages, and HIGH-confidence manufacturer-operated facility locators.",
+    "Facility/manufacturer pairs are deduplicated before counting.",
+    "Product-to-manufacturer normalization uses data/product_manufacturer_registry.json.",
+    "REVIEW locator matches are excluded.",
+    "Share is documented facility adoption/availability share, not sales-volume or procedure-volume share."
+  ]
+}
