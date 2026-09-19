@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-overrides-1.6",
+  "version": "v41-official-overrides-1.7",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -966,6 +966,153 @@
           "note": "細胞培養・保管費用などを含む。病状により異なる。"
         }
       ]
+    },
+    {
+      "plan_id": "V41_01C2209017",
+      "facility": "十条整形外科リハビリクリニック",
+      "source_url": "https://jujo-seikei.clinic/prp.html",
+      "source_type": "facility_official",
+      "verification": "extra-articular PRP treatment matched",
+      "prices": [
+        {
+          "amount": 143000,
+          "tax": "税込",
+          "unit": "1部位・1回",
+          "product": "PRP",
+          "price_type": "point"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_03C2609016",
+      "facility": "順天堂大学医学部附属順天堂医院",
+      "source_url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+      "source_type": "hospital_official",
+      "verification": "PRP treatment matched; current official fee page",
+      "prices": [
+        {
+          "amount": 26400,
+          "tax": "不明",
+          "unit": "PRP注射・1回",
+          "product": "PRP",
+          "price_type": "point",
+          "note": "公式ページ記載のPRP注射基本額"
+        },
+        {
+          "amount": 52800,
+          "tax": "不明",
+          "unit": "PRP注射・両膝",
+          "product": "PRP",
+          "price_type": "point",
+          "note": "公式ページ記載の両膝額"
+        }
+      ],
+      "note": "公式ページには第二種再生医療実施料13,200円の別記あり。本計画は第三種のため基本PRP注射額のみ価格レコード化。"
+    },
+    {
+      "plan_id": "V41_01C2307023",
+      "facility": "医療法人親仁会 佐藤病院",
+      "source_url": "https://www.sato-hosp.jp/prp.html",
+      "source_type": "hospital_official",
+      "verification": "third-class muscle/tendon/ligament PRP matched",
+      "prices": [
+        {
+          "amount": 165000,
+          "tax": "税込",
+          "unit": "1治療・2回投与",
+          "product": "PRP",
+          "price_type": "point"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_01C2502023",
+      "facility": "弘明寺整形外科リハビリテーションクリニック",
+      "source_url": "https://www.gumyoji-seikei.com/self-pay/",
+      "source_type": "facility_official",
+      "verification": "current PRP self-pay price page matched",
+      "prices": [
+        {
+          "amount": 35000,
+          "tax": "税込",
+          "unit": "PRP・1回",
+          "product": "ACP",
+          "price_type": "point"
+        },
+        {
+          "amount": 70000,
+          "tax": "税込",
+          "unit": "PRP・左右両側・1回",
+          "product": "ACP",
+          "price_type": "point"
+        }
+      ],
+      "note": "公式ページはArthrex社ACP PRP採用と記載。現行自費料金を優先。"
+    },
+    {
+      "plan_id": "V41_03G2101004",
+      "facility": "医療法人かつの整形外科・リハビリテーション科",
+      "source_url": "https://katsunoseikei.com/prp/",
+      "source_type": "facility_official",
+      "verification": "muscle/tendon/ligament PRP matched",
+      "prices": [
+        {
+          "amount": null,
+          "amount_min": 110000,
+          "amount_max": 130000,
+          "tax": "不明",
+          "unit": "PRP・1回",
+          "product": "PRP",
+          "price_type": "range",
+          "ranking_eligible": false,
+          "note": "公式サイト『11〜13万円』"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_02C1906040",
+      "facility": "医療法人社団梅沢医院 梅沢整形外科",
+      "source_url": "https://umezawa-clinic.com/",
+      "source_type": "facility_official",
+      "verification": "current PRP price announcement matched",
+      "prices": [
+        {
+          "amount": 46200,
+          "tax": "不明",
+          "unit": "ACP",
+          "product": "ACP",
+          "price_type": "point"
+        },
+        {
+          "amount": 143000,
+          "tax": "不明",
+          "unit": "Waqoo・シングル",
+          "product": "Waqoo",
+          "price_type": "point"
+        },
+        {
+          "amount": 187000,
+          "tax": "不明",
+          "unit": "Waqoo・ダブル",
+          "product": "Waqoo",
+          "price_type": "point"
+        },
+        {
+          "amount": 154000,
+          "tax": "不明",
+          "unit": "PRP-FD",
+          "product": "PRP-FD",
+          "price_type": "point"
+        },
+        {
+          "amount": 176000,
+          "tax": "不明",
+          "unit": "PRP-FD2.0",
+          "product": "PRP-FD2.0",
+          "price_type": "point"
+        }
+      ],
+      "note": "2026-04-15公式お知らせ記載の現行料金。税込/税別表記はページ上で確認できないため不明。"
     }
   ]
 }
