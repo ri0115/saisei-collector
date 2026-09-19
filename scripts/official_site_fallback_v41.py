@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import argparse,csv,json,re,time,unicodedata
+import argparse,csv,json,re,time,unicodedata,base64
 from datetime import datetime,timezone
 from pathlib import Path
 from urllib.parse import quote_plus,urlparse,parse_qs,unquote,urljoin
@@ -14,7 +14,7 @@ except Exception:
 
 UA="Mozilla/5.0 (compatible; RegenMedOfficialFallback/1.0; +https://github.com/ri0115/saisei-collector)"
 SEARCH="https://html.duckduckgo.com/html/?q="
-BING="https://www.bing.com/search?q="
+BING="https://www.bing.com/search?cc=jp&setlang=ja-JP&q="
 EXCLUDE_DOMAINS=(
     "saiseiiryo.mhlw.go.jp","mhlw.go.jp","caloo.jp","medicaldoc.jp","byoinnavi.jp","hospitalnavi.jp",
     "mapion.co.jp","google.com","yahoo.co.jp","instagram.com","facebook.com","x.com","twitter.com",
@@ -47,6 +47,19 @@ def clean_result_url(href):
     if "duckduckgo.com" in u.netloc and u.path.startswith("/l/"):
         q=parse_qs(u.query)
         if q.get("uddg"): return unquote(q["uddg"][0])
+    if "bing.com" in u.netloc and u.path.startswith("/ck/a"):
+        q=parse_qs(u.query)
+        raw=(q.get("u") or [""])[0]
+        # Bing usually encodes the destination as a1 + URL-safe base64.
+        if raw.startswith("a1"):
+            enc=raw[2:]
+            try:
+                enc += "=" * ((4-len(enc)%4)%4)
+                dec=base64.urlsafe_b64decode(enc.encode()).decode("utf-8","ignore")
+                if dec.startswith("http"):
+                    return dec
+            except Exception:
+                pass
     return href if href.startswith("http") else ""
 
 def search(query):
@@ -72,7 +85,7 @@ def search(query):
     for li in soup.select("li.b_algo"):
         a=li.select_one("h2 a")
         if not a: continue
-        url=a.get("href","")
+        url=clean_result_url(a.get("href",""))
         if not url.startswith("http"): continue
         sn=li.select_one(".b_caption p")
         title=a.get_text(" ",strip=True)
@@ -143,7 +156,7 @@ def query_for(group):
         kw="再生医療 幹細胞 PRP 料金"
     else:
         kw="PRP 再生医療 料金"
-    return f'"{fac}" {kw}'
+    return f'{fac} {kw}'
 
 def main():
     ap=argparse.ArgumentParser()
