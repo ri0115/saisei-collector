@@ -123,3 +123,6 @@ prefecture	facility	product	facility_label_maker	legal_manufacturer	japan_mah_or
 千葉県	医療法人社団仁敬会 そがセントラルクリニック	MAGELLAN	Arteriocyte Medical Systems	Arteriocyte Medical Systems	Arteriocyte Medical Systems, Inc.	FACILITY_OFFICIAL_EXPLICIT	https://www.soga-centralclinic.jp/prp/	Official clinic page states MAGELLAN system.
 千葉県	医療法人社団淳英会 おゆみの中央病院	MyCells	ESTAR Technologies	ESTAR Technologies	ESTAR TECHNOLOGIES LTD.	FACILITY_OFFICIAL_EXPLICIT	https://www.oyumino-central.jp/department/prp/index.php	Official hospital page states Mycells kit.
 大分県	医療法人社団唱和会 明野中央病院	Condensia	京セラ	京セラ	京セラ	FACILITY_OFFICIAL_EXPLICIT	https://www.akenohp.jp/drugtherapy/prpaps	Official hospital page states Kyocera Condensia.
+東京都	医療法人社団TSOC 東京スポーツ＆整形外科クリニック	ACP|ACP MAX	Arthrex	Arthrex	Arthrex Japan	MHLW_EXACT_PLAN_PRICE_TABLE	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511021/5/0	Exact MHLW plan price table lists ACP double syringe and ACP MAX for F0219.
+東京都	医療法人社団TSOC 東京スポーツ＆整形外科クリニック	Condensia	京セラ	京セラ	京セラ	MHLW_EXACT_PLAN_PRICE_TABLE	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511021/5/0	Exact MHLW plan price table lists Condensia system for F0219.
+東京都	東京城南整形外科	Condensia	京セラ	京セラ	京セラ	MHLW_EXACT_PLAN_PRICE_TABLE	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603014/5/0	Exact MHLW plan price table lists Kyocera Condensia kit.
