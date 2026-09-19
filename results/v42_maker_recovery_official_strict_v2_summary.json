@@ -1,0 +1,20 @@
+{
+  "input": 326,
+  "safe_resolved": 16,
+  "product_resolved": 16,
+  "explicit": 5,
+  "validated_product_map": 11,
+  "maker_counts": {
+    "Arthrex": 7,
+    "Zimmer Biomet": 5,
+    "ESTAR Technologies": 2,
+    "京セラ": 2
+  },
+  "product_counts": {
+    "ACP": 7,
+    "APS": 5,
+    "MyCells": 2,
+    "Condensia": 2
+  },
+  "status": "STRICT_V2_AUDIT_REQUIRED_BEFORE_MERGE"
+}
