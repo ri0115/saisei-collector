@@ -1,0 +1,14 @@
+{
+  "version": "v42-maker-manual-audit-batch-46",
+  "date_jst": "2026-09-20",
+  "audited_facilities": 10,
+  "confirmed_new_facilities": 2,
+  "confirmed_new_manufacturer_placements": 2,
+  "holds": 8,
+  "confirmed_by_manufacturer": {
+    "Zimmer Biomet": 2
+  },
+  "canonical_merge_deferred": true,
+  "canonical_rebuild_performed": false,
+  "note": "Batch 46 processed 10 facilities. Iida Hospital and Tokyo Medical Center have exact MHLW APS -> Zimmer Biomet evidence. Canonical merge remains deferred until Batch 48 completes the next 30-facility cycle."
+}
