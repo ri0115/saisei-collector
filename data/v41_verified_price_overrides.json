@@ -1699,6 +1699,41 @@
           "product": "脂肪由来幹細胞"
         }
       ]
+    },
+    "V41_01C1907048": {
+      "facility": "医療法人社団 顕伊会 さい整形外科クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://sai-seikei.com/private.html",
+      "prices": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "関節腔内・1関節・PRP 4mL",
+          "product": "PRP",
+          "note": "第二種再生医療等技術。診察料・採血・注射施術料・PRP精製技術料・精製キット等を含む"
+        }
+      ]
+    },
+    "V41_02C2608014": {
+      "facility": "医療法人社団HELENE 表参道ヘレネクリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.hiza.click/",
+      "prices": [
+        {
+          "amount": 1078000,
+          "tax": "税別",
+          "unit": "片膝・幹細胞1億セル",
+          "product": "自家間葉系幹細胞",
+          "note": "診察料・血液検査料・細胞採取料・投与料・培養料・保管料込み"
+        },
+        {
+          "amount": 1485000,
+          "tax": "税別",
+          "unit": "両膝・各1億セル",
+          "product": "自家間葉系幹細胞",
+          "note": "診察料・血液検査料・細胞採取料・投与料・培養料・保管料込み"
+        }
+      ]
     }
   },
   "updated_at": "2026-09-19",
