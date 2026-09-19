@@ -9,6 +9,7 @@ on:
       - "data/v41_verified_price_overrides.json"
       - "data/v41_official_price_overrides.json"
       - "data/v41_scope_exclusions.json"
+      - "data/v41_no_public_price_overrides.json"
       - ".github/workflows/postprocess-v41.yml"
 
 permissions:
@@ -39,7 +40,7 @@ jobs:
           s=json.load(open("results/v41_additions_postprocess_summary.json",encoding="utf-8"))
           assert s["total"]==774
           assert s["normalized_fail"]==0
-          assert s["normalized_auto"]+s["normalized_qc"]+s.get("normalized_out_of_scope",0)==774
+          assert s["normalized_auto"]+s["normalized_qc"]+s.get("normalized_no_public_price",0)+s.get("normalized_out_of_scope",0)==774
           print(s)
           PY
       - name: Commit normalized outputs
