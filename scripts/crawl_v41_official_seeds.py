@@ -70,12 +70,12 @@ def other_therapy_regex(target_kind):
     }
     return re.compile(pats.get(target_kind,r"$^"),re.I)
 
-EXTRA_IND=re.compile(r"関節外|靭帯|靱帯|筋腱|筋肉|筋膜|スポーツ|アキレス|腱板|肉離れ",re.I)
+EXTRA_IND=re.compile(r"関節(?:腔)?外|靭帯|靱帯|筋腱|筋肉|筋膜|スポーツ|アキレス|腱板|肉離れ",re.I)
 INTRA_IND=re.compile(r"関節内|関節腔|変形性関節|慢性関節|膝関節|股関節|軟骨|半月板|OA",re.I)
 
 def indication_regex(treatment):
     t=treatment or ""
-    if re.search(r"筋肉|腱|靭帯|靱帯|筋膜|関節外|スポーツ",t):
+    if re.search(r"筋肉|腱|靭帯|靱帯|筋膜|関節(?:腔)?外|スポーツ",t):
         return EXTRA_IND, "extra_articular"
     if re.search(r"関節|関節炎|変形性|軟骨|半月板",t):
         return INTRA_IND, "intra_articular"
@@ -130,8 +130,8 @@ def extract(text,tclass,treatment=""):
             # For orthopedic PRP, associate the price with the closest preceding
             # indication section, never with a following section.
             detected_indication=nearest_indication_kind(lines,i)
-            indication_match=True if indication is None else (detected_indication==indication_kind)
-            if indication is not None and not indication_match:
+            indication_match=True if indication is None else (detected_indication in (None,indication_kind))
+            if indication is not None and detected_indication is not None and detected_indication!=indication_kind:
                 continue
             score=0
             if same_target: score+=10
@@ -240,7 +240,7 @@ def main():
 
     order={s["facility_id"]:i for i,s in enumerate(seeds["items"])}
     results.sort(key=lambda r:order.get(r.get("facility_id"),999999))
-    out={"version":"v41-seed-crawl-1.2","total_facilities":len(results),"results":results}
+    out={"version":"v41-seed-crawl-1.3","total_facilities":len(results),"results":results}
     Path("results/v41_official_seed_crawl.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
     print(json.dumps({
       "facilities":len(results),
