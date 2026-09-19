@@ -1,0 +1,35 @@
+{
+  "version": "v42-maker-recovery-full366",
+  "source_run_id": 35432363044,
+  "shards": 40,
+  "global_candidate_count": 366,
+  "input": 366,
+  "facilities_with_pdf": 366,
+  "pdf_documents": 765,
+  "safe_resolved": 40,
+  "explicit_mhlw": 25,
+  "validated_product_map": 15,
+  "product_only_unvalidated": 2,
+  "no_brand_hit": 324,
+  "retry_403": 0,
+  "maker_counts": {
+    "Zimmer Biomet": 27,
+    "京セラ": 11,
+    "Arthrex": 5
+  },
+  "product_counts": {
+    "APS": 27,
+    "GPS": 16,
+    "Condensia": 9,
+    "ACP": 3,
+    "TriCeLL": 2,
+    "ACP MAX": 2,
+    "MyCells": 1,
+    "Angel": 1
+  },
+  "evidence_counts": {
+    "VALIDATED_PRODUCT_MAP": 15,
+    "EXPLICIT_MHLW": 25
+  },
+  "locked_rule": "Only EXPLICIT_MHLW or VALIDATED_PRODUCT_MAP is manufacturer-safe. Product-only unvalidated hits do not update manufacturer share."
+}
