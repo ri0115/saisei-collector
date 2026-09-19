@@ -1504,7 +1504,203 @@
           "product": "脂肪由来幹細胞"
         }
       ]
+    },
+    "V41_02C2601086": {
+      "facility": "医療法人社団 順徳会 下総中山整形外科クリニック",
+      "source_type": "mhlw_published_plan_attachment",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601086/5/2",
+      "prices": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "1回・1部位",
+          "product": "PRP",
+          "note": "税抜50,000円。検査費用は別途"
+        }
+      ]
+    },
+    "V41_02C2601087": {
+      "facility": "医療法人社団 順徳会 下総中山整形外科クリニック",
+      "source_type": "mhlw_published_plan_attachment",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2601087/5/2",
+      "prices": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "1回・1部位",
+          "product": "PRP",
+          "note": "税抜50,000円。採血60mLから最大3回分を製造、料金表記は投与1回分"
+        }
+      ]
+    },
+    "V41_01E2307007": {
+      "facility": "医療法人光明会 もりあきクリニック",
+      "source_type": "mhlw_published_plan_attachment",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01E2307007/5/1",
+      "prices": [
+        {
+          "amount": 40800,
+          "tax": "税込",
+          "unit": "PRP 1mL・採血約10mL",
+          "product": "PRP"
+        },
+        {
+          "amount": 62800,
+          "tax": "税込",
+          "unit": "PRP 2mL・採血約20mL",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_03D2506004": {
+      "facility": "春日井整形あさひ病院",
+      "source_type": "mhlw_published_plan_attachment",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/03D2506004/5/1",
+      "prices": [
+        {
+          "amount": 15000,
+          "tax": "税別",
+          "unit": "PRP 1mL・学生",
+          "product": "PRP"
+        },
+        {
+          "amount": 20000,
+          "tax": "税別",
+          "unit": "PRP 1mL・一般",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_02C2608020": {
+      "facility": "医療法人社団福至会 SPES CLINIC TOKYO BAY 晴海中央医院",
+      "source_type": "mhlw_published_plan_attachment",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2608020/5/1",
+      "prices": [
+        {
+          "amount": 3575000,
+          "tax": "税込",
+          "unit": "1回",
+          "product": "脂肪由来幹細胞"
+        }
+      ]
+    },
+    "V41_01C2509020": {
+      "facility": "THE HUNDRED",
+      "source_type": "mhlw_published_plan_attachment",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2509020/5/1",
+      "prices": [
+        {
+          "amount": 3300000,
+          "tax": "不明",
+          "unit": "脂肪由来間葉系幹細胞 採取・投与",
+          "product": "脂肪由来幹細胞",
+          "note": "細胞保管費用110,000円/年は別途"
+        }
+      ]
+    },
+    "V41_02C2608034": {
+      "facility": "医療法人社団 熊谷整形外科",
+      "source_type": "mhlw_published_plan_attachment",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2608034/5/0",
+      "prices": [
+        {
+          "amount": 3300000,
+          "tax": "税込",
+          "unit": "初回投与",
+          "product": "脂肪由来幹細胞",
+          "note": "税抜3,000,000円"
+        },
+        {
+          "amount": 2640000,
+          "tax": "税込",
+          "unit": "2回目以降投与",
+          "product": "脂肪由来幹細胞",
+          "note": "税抜2,400,000円"
+        }
+      ]
+    },
+    "V41_01C2312021": {
+      "facility": "医療法人社団円徳 慶友整形外科脊椎関節病院",
+      "source_type": "mhlw_published_plan_attachment",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2312021/5/1",
+      "prices": [
+        {
+          "amount": 990000,
+          "tax": "不明",
+          "unit": "0.5〜1億cells・1回投与",
+          "product": "脂肪由来幹細胞"
+        }
+      ]
+    },
+    "V41_01C2603057": {
+      "facility": "医療法人社団喜美会 自由が丘クリニック",
+      "source_type": "mhlw_published_plan_attachment",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2603057/5/1",
+      "prices": [
+        {
+          "amount": 2200000,
+          "tax": "不明",
+          "unit": "片側・5,000万個",
+          "product": "脂肪由来幹細胞",
+          "note": "脂肪採取料550,000円、保管料110,000円/年は別途"
+        },
+        {
+          "amount": 3300000,
+          "tax": "不明",
+          "unit": "片側・1億個",
+          "product": "脂肪由来幹細胞",
+          "note": "脂肪採取料550,000円、保管料110,000円/年は別途"
+        },
+        {
+          "amount": 3300000,
+          "tax": "不明",
+          "unit": "両側合計・1億個",
+          "product": "脂肪由来幹細胞",
+          "note": "脂肪採取料550,000円、保管料110,000円/年は別途"
+        },
+        {
+          "amount": 5500000,
+          "tax": "不明",
+          "unit": "両側合計・2億個",
+          "product": "脂肪由来幹細胞",
+          "note": "脂肪採取料550,000円、保管料110,000円/年は別途"
+        }
+      ]
+    },
+    "V41_02C2509040": {
+      "facility": "医療法人社団誠心会 Re:Born Clinic 銀座院",
+      "source_type": "mhlw_published_plan_attachment",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2509040/5/1",
+      "prices": [
+        {
+          "amount": 275000,
+          "tax": "税込",
+          "unit": "1回",
+          "product": "PRP",
+          "note": "内、血液採取費用5,500円税込"
+        }
+      ]
+    },
+    "V41_01C2506017": {
+      "facility": "日本橋えがわクリニック",
+      "source_type": "mhlw_published_plan_attachment",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/01C2506017/5/1",
+      "prices": [
+        {
+          "amount": 500000,
+          "tax": "税別",
+          "unit": "1関節・1回投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 700000,
+          "tax": "税別",
+          "unit": "1関節・2回投与",
+          "product": "脂肪由来幹細胞"
+        }
+      ]
     }
   },
-  "updated_at": "2026-09-19"
+  "updated_at": "2026-09-19",
+  "note": "Verified price overrides from official facility pages and MHLW published-plan attachments. Treatment prices only; ancillary fees retained in notes where relevant."
 }
