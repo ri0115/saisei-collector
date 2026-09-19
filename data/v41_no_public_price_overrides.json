@@ -15,6 +15,20 @@
       "source_url": "https://gc-clinic.jp/menu.html",
       "public_price_status": "CONTACT_REQUIRED",
       "note": "MSC間葉系幹細胞治療の料金は公式サイトで「お問い合わせください」"
+    },
+    "V41_01C2505023": {
+      "facility": "GINZA NOA CLINIC",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.ginza-noa-cl.jp/stemcell",
+      "public_price_status": "CONTACT_REQUIRED",
+      "note": "公式サイトに金額掲載なし。症状・施術回数により異なり、治療開始前に詳細料金を案内すると明記"
+    },
+    "V41_02C2605056": {
+      "facility": "GINZA NOA CLINIC",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.ginza-noa-cl.jp/stemcell",
+      "public_price_status": "CONTACT_REQUIRED",
+      "note": "公式サイトに金額掲載なし。症状・施術回数により異なり、治療開始前に詳細料金を案内すると明記"
     }
   }
 }
