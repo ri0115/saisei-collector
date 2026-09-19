@@ -1,5 +1,5 @@
 {
-  "version": "v41-verified-overrides-1.1",
+  "version": "v41-verified-overrides-1.2",
   "generated_at": "2026-09-19",
   "notes": "Verified from clinic/hospital official webpages via web search. Amounts are treatment prices only; ancillary fees excluded.",
   "plans": {
@@ -851,6 +851,167 @@
           "tax": "税別",
           "unit": "ラージスピッツ約20ml・1本",
           "product": "PRP"
+        }
+      ]
+    },
+    "V41_03D2505020": {
+      "facility": "医療法人財団檜扇会 クリニック 名古屋ちくさヒルズ",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2505020/5/0",
+      "prices": [
+        {
+          "amount": 30000,
+          "tax": "不明",
+          "unit": "採血10ml・PRP約1ml",
+          "product": "PRP"
+        },
+        {
+          "amount": 45000,
+          "tax": "不明",
+          "unit": "採血20ml・PRP約2ml",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_02C2603063": {
+      "facility": "REGENE CLINIC 新宿三丁目院",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603063/5/0",
+      "prices": [
+        {
+          "amount": 1078000,
+          "tax": "不明",
+          "unit": "関節1箇所・0.5〜1億cells",
+          "product": "自家脂肪由来幹細胞"
+        },
+        {
+          "amount": 1485000,
+          "tax": "不明",
+          "unit": "関節2箇所・1〜2億cells",
+          "product": "自家脂肪由来幹細胞",
+          "note": "2年目以降の細胞保管料66,000円/年（税込）は別項目"
+        }
+      ]
+    },
+    "V41_02C2310061": {
+      "facility": "ミライズクリニック南青山",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2310061/5/0",
+      "prices": [
+        {
+          "amount": 4500000,
+          "tax": "不明",
+          "unit": "軟骨組織採取＋ACC移植・片膝",
+          "product": "ACC"
+        },
+        {
+          "amount": 3000000,
+          "tax": "不明",
+          "unit": "ACC再移植・片膝",
+          "product": "ACC"
+        }
+      ]
+    },
+    "V41_01C2310059": {
+      "facility": "医療法人社団 山手クリニック",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310059/5/0",
+      "prices": [
+        {
+          "amount": 150000,
+          "tax": "不明",
+          "unit": "膝関節・片側・1クール3回",
+          "product": "PRP"
+        },
+        {
+          "amount": 100000,
+          "tax": "不明",
+          "unit": "股関節・片側・1回",
+          "product": "PRP"
+        },
+        {
+          "amount": 40000,
+          "tax": "不明",
+          "unit": "肩関節・片側・1回",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_01C2006008": {
+      "facility": "医療法人社団良徳会 RCクリニック",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2006008/5/0",
+      "prices": [
+        {
+          "amount": 1000000,
+          "tax": "不明",
+          "unit": "片膝・1×10^7 cells",
+          "product": "自家脂肪由来幹細胞",
+          "note": "別途 初診料10,000円・施術料100,000円"
+        },
+        {
+          "amount": 1400000,
+          "tax": "不明",
+          "unit": "片膝・1×10^8 cells",
+          "product": "自家脂肪由来幹細胞",
+          "note": "別途 初診料10,000円・施術料100,000円"
+        }
+      ]
+    },
+    "V41_02C2404031": {
+      "facility": "医療法人財団檜扇会 クリニック 東京虎ノ門COR",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2404031/5/0",
+      "prices": [
+        {
+          "amount": 150000,
+          "tax": "不明",
+          "unit": "採血80ml・PRP約8ml",
+          "product": "PRP"
+        },
+        {
+          "amount": 210000,
+          "tax": "不明",
+          "unit": "採血120ml・PRP約12ml",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_02C2404036": {
+      "facility": "医療法人財団檜扇会 クリニック 東京虎ノ門COR",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2404036/5/0",
+      "prices": [
+        {
+          "amount": 30000,
+          "tax": "不明",
+          "unit": "採血10ml・PRP約1ml",
+          "product": "PRP"
+        },
+        {
+          "amount": 45000,
+          "tax": "不明",
+          "unit": "採血20ml・PRP約2ml",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_03C2603038": {
+      "facility": "学校法人藤田学園 藤田医科大学 羽田クリニック",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/03C2603038/5/0",
+      "prices": [
+        {
+          "amount": 9000000,
+          "tax": "不明",
+          "unit": "軟骨組織採取＋ACC移植・片膝",
+          "product": "ACC"
+        },
+        {
+          "amount": 4500000,
+          "tax": "不明",
+          "unit": "ACC再移植・片膝",
+          "product": "ACC"
         }
       ]
     }
