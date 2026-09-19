@@ -1,0 +1,26 @@
+{
+  "version": "v42-maker-manual-audit-batch-23",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 468,
+  "audited_facilities": 2,
+  "confirmed_new_facilities": 1,
+  "existing_facility_new_placements": 1,
+  "confirmed_new_manufacturer_placements": 2,
+  "confirmed_by_manufacturer": {
+    "京セラ": 1,
+    "ESTAR Technologies": 1
+  },
+  "expected_canonical_after_rebuild": {
+    "manufacturer_known_facilities": 469,
+    "manufacturer_known_rate_pct": 49.42,
+    "manufacturer_placements": 565,
+    "京セラ": 52,
+    "ESTAR Technologies": 29
+  },
+  "processing_outsourcing_found": {
+    "facility": "医療法人社団淳英会 Jメディカルおゆみの",
+    "service": "VFD",
+    "processor": "セルソース株式会社",
+    "action": "watchlist_only_not_manufacturer_share"
+  }
+}
