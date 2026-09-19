@@ -1,0 +1,17 @@
+{
+  "version": "v42-merge-audit-stage10c-v40-C-batch003",
+  "created_date_jst": "2026-09-19",
+  "source": "results/c_latest.json",
+  "plan_range": "C queue 101-105",
+  "plan_rows": 5,
+  "status_counts": {
+    "AUTO": 5,
+    "QC": 0
+  },
+  "exported_price_rows": 16,
+  "no_price_counts": {
+    "AUTO": 0,
+    "QC": 0
+  },
+  "next_step": "Run C-lane integrity audit."
+}
