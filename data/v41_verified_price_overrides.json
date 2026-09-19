@@ -1961,6 +1961,107 @@
           "note": "脂肪採取費220,000円税込を含む"
         }
       ]
+    },
+    "V41_01C2403007": {
+      "facility": "池尻大橋せらクリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://sera-clinic.com/self-pay-medical-treatment/",
+      "prices": [
+        {
+          "amount": 25000,
+          "tax": "税込",
+          "unit": "1回・1部位",
+          "product": "PRP"
+        },
+        {
+          "amount": 45000,
+          "tax": "税込",
+          "unit": "1回・2部位",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_01C2503019": {
+      "facility": "羽沢よこはま国大整形外科リウマチ科・関節鏡クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://hazawayokohama.com/first/",
+      "prices": [
+        {
+          "amount": 381700,
+          "tax": "税込",
+          "unit": "関節内・1回",
+          "product": "APS"
+        },
+        {
+          "amount": 178200,
+          "tax": "税込",
+          "unit": "関節内・1回",
+          "product": "GPS"
+        },
+        {
+          "amount": 107800,
+          "tax": "税込",
+          "unit": "関節内・1回",
+          "product": "TriCeLL"
+        }
+      ]
+    },
+    "V41_01C2504013": {
+      "facility": "羽沢よこはま国大整形外科リウマチ科・関節鏡クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://hazawayokohama.com/first/",
+      "prices": [
+        {
+          "amount": 178200,
+          "tax": "税込",
+          "unit": "関節外・1回",
+          "product": "GPS"
+        },
+        {
+          "amount": 57200,
+          "tax": "税込",
+          "unit": "関節外・1回",
+          "product": "TriCeLL"
+        }
+      ]
+    },
+    "V41_03C2308020": {
+      "facility": "順天堂大学医学部附属練馬病院",
+      "source_type": "official_hospital_site",
+      "source_url": "https://hosp-nerima.juntendo.ac.jp/clinic/orthopaedic_surgery/prp.html",
+      "prices": [
+        {
+          "amount": 50000,
+          "tax": "税別",
+          "unit": "関節内・1回",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_01C2508064": {
+      "facility": "白金高輪やまと整形外科",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.shirokane-orthopedic.com/prp/",
+      "prices": [
+        {
+          "amount": 60500,
+          "tax": "税込",
+          "unit": "1関節・1部位",
+          "product": "ACP"
+        },
+        {
+          "amount": 110000,
+          "tax": "税込",
+          "unit": "1関節・1部位・ACPダブル",
+          "product": "ACP"
+        },
+        {
+          "amount": 209000,
+          "tax": "税込",
+          "unit": "1関節・1部位",
+          "product": "ACP MAX"
+        }
+      ]
     }
   },
   "updated_at": "2026-09-19",
