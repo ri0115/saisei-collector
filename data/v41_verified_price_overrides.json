@@ -2152,6 +2152,6 @@
       ]
     }
   },
-  "updated_at": "2026-09-19",
-  "note": "Verified price overrides from official facility pages and MHLW published-plan attachments. Treatment prices only; ancillary fees retained in notes where relevant."
+  "updated_at": "2026-09-19T02:45:51.663228+00:00",
+  "note": "Verified price overrides from official facility pages and MHLW published-plan attachments. Deep OCR imports are restricted to AUTO_DEEP point-price candidates."
 }
