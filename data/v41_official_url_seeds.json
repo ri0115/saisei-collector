@@ -241,6 +241,42 @@
       "facility": "医療法人社団喜美会 自由が丘クリニック",
       "url": "https://jiyugaokaclinic.com/medical/paintreatment/",
       "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F568ED5AA3F",
+      "facility": "医療法人社団心愛会 麻布台ビューティセルクリニック",
+      "url": "https://beautycell-cl.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FA414C99BAB",
+      "facility": "医療法人美健会 ルネスクリニック日本橋",
+      "url": "https://renais-clinic-ag.com/fee/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FD076D781A0",
+      "facility": "十条整形外科リハビリクリニック",
+      "url": "https://jujo-seikei.clinic/prp.html",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FF421A2F9B8",
+      "facility": "小石川整形外科",
+      "url": "https://koishikawa-seikei.com/asc.html",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FB6FEEF9F1C",
+      "facility": "表参道総合医療クリニック",
+      "url": "https://www.omotesando-amc.jp/prp/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F0072FF5DB8",
+      "facility": "独立行政法人国立病院機構村山医療センター",
+      "url": "https://murayama.hosp.go.jp/info/20240213.html",
+      "source": "web_verified"
     }
   ],
   "updated_at": "2026-09-19",
