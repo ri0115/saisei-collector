@@ -152,9 +152,17 @@ def fetch_pdf(url):
     last=None
     for n in range(3):
         try:
-            r=requests.get(url,headers={"User-Agent":UA,"Accept":"application/pdf,*/*"},timeout=35)
+            headers={
+                "User-Agent":UA,
+                "Accept":"application/pdf,text/html;q=0.9,*/*;q=0.8",
+                "Referer":"https://saiseiiryo.mhlw.go.jp/"
+            }
+            r=requests.get(url,headers=headers,timeout=35,allow_redirects=True)
+            if r.status_code in (403,429,500,502,503,504):
+                raise RuntimeError(f"HTTP {r.status_code}")
             r.raise_for_status()
-            if r.content[:4]!=b"%PDF":raise RuntimeError("not a PDF")
+            if r.content[:4]!=b"%PDF":
+                raise RuntimeError(f"not a PDF content-type={r.headers.get('content-type','')} final={r.url}")
             return r.content
         except Exception as e:
             last=e
