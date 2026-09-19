@@ -1,0 +1,49 @@
+name: Strict official maker recovery v2
+on:
+  push:
+    paths:
+      - "scripts/recover_maker_official_strict_v2.py"
+      - "scripts/consolidate_maker_official_strict_v2.py"
+      - ".github/workflows/maker-official-strict-v2.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        batch: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 ddgs
+      - run: python scripts/recover_maker_official_strict_v2.py --batch ${{ matrix.batch }} --batches 17
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maker-official-v2-${{ matrix.batch }}
+          path: results/maker_official_strict_v2_sharded/**
+          retention-days: 7
+  consolidate:
+    needs: scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: "maker-official-v2-*"
+          path: strict_v2_artifacts
+      - run: python scripts/consolidate_maker_official_strict_v2.py strict_v2_artifacts
+      - name: Commit audited-candidate results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add results/v42_maker_recovery_official_strict_v2.tsv results/v42_maker_recovery_official_strict_v2_summary.json
+          git diff --cached --quiet || git commit -m "Consolidate strict v2 official maker candidates"
+          git push
