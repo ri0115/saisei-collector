@@ -1,5 +1,5 @@
 {
-  "version": "v41-verified-overrides-1.8",
+  "version": "v41-verified-overrides-1.9",
   "generated_at": "2026-09-19",
   "notes": "Verified from clinic/hospital official webpages via web search. Amounts are treatment prices only; ancillary fees excluded.",
   "plans": {
@@ -1350,6 +1350,20 @@
         }
       ],
       "note": "公式料金表。組織採取・培養費込み。特殊検査・薬剤は別途の場合あり。"
+    },
+    "V41_02C1909204": {
+      "facility": "医療法人社団 秀慈会 リバーシティすずき整形外科",
+      "source_type": "official_clinic_site",
+      "source_url": "https://suzuki-seikei.tokyo/medical/medical01.html",
+      "prices": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "PRP注射1関節・採血30-32mL / PRP 4mL",
+          "product": "PRP"
+        }
+      ],
+      "note": "公式サイトの現行料金。税抜80,000円、税込88,000円。診察料・採血・注射施術料・PRP精製技術料・材料費を含む。"
     }
   },
   "updated_at": "2026-09-19"
