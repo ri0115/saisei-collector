@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-seeds-1.1",
+  "version": "v41-official-seeds-1.2",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -108,6 +108,36 @@
       "facility_id": "V41F1D3991E09E",
       "facility": "一般社団法人天美会 Tenvi Clinic Ginza",
       "url": "https://tenviclinic.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F8EA8952CF4",
+      "facility": "医療法人元気会わかさクリニック WA CLINIC GINZA",
+      "url": "https://www.waclinic-ginza.com/price",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F1418F41A29",
+      "facility": "医療法人社団HELENE ヘレネAOビルクリニック",
+      "url": "https://heleneclinic.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F2971E2EBD2",
+      "facility": "医療法人社団HELENE 表参道ヘレネクリニック",
+      "url": "https://heleneclinic.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FF30312617D",
+      "facility": "医療法人社団HELENE 表参道ヘレネクリニック",
+      "url": "https://heleneclinic.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FFE15421C47",
+      "facility": "医療法人社団 育楽会 あやせ駅前整形外科・内科",
+      "url": "https://www.ayase-ekimae.com/",
       "source": "web_verified"
     }
   ],
