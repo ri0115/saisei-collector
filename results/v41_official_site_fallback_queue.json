@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T01:15:39.929808+00:00",
-  "total": 136,
-  "unique_facilities": 118,
+  "updated_at": "2026-09-19T01:19:54.956695+00:00",
+  "total": 135,
+  "unique_facilities": 117,
   "items": [
     {
       "plan_id": "V41_03A2505002",
@@ -359,21 +359,6 @@
       "treatment": "四肢の靭帯、筋腱付着部、体幹、腰部およびスポーツ傷害（筋・腱・靭帯）を対象とした自己多血小板血漿注入療法",
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2111002/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01E2111019",
-      "mhlw_plan_code": "01E2111019",
-      "facility_id": "V41FD3CEE3B1CD",
-      "prefecture": "大阪府",
-      "facility": "医療法人誠幸会　わだ整形外科クリニック",
-      "address": "枚方市長尾元町二丁目１番２１号",
-      "category": "第三種",
-      "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿(自家PRP)注入療法",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2111019/5/0",
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
