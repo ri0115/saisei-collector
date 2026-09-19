@@ -1,31 +1,31 @@
 {
   "version": "v41-postprocess-1.3",
-  "updated_at": "2026-09-19T01:11:23.006238+00:00",
+  "updated_at": "2026-09-19T01:13:45.327649+00:00",
   "summary": {
     "version": "v41-postprocess-1.3",
-    "updated_at": "2026-09-19T01:11:23.005993+00:00",
+    "updated_at": "2026-09-19T01:13:45.327439+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 93,
+    "promoted_qc_to_auto": 101,
     "promoted_by_parser": 62,
-    "promoted_by_verified_override": 31,
-    "normalized_auto": 609,
-    "normalized_qc": 165,
+    "promoted_by_verified_override": 39,
+    "normalized_auto": 617,
+    "normalized_qc": 157,
     "normalized_fail": 0,
-    "normalized_price_records": 2144,
+    "normalized_price_records": 2136,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
       "source_status_retained": 637,
       "structured_treatment_price_table": 35,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 31,
-      "still_ambiguous": 15,
+      "verified_official_site_override": 39,
+      "still_ambiguous": 10,
       "structured_product_price_table": 8,
       "explicit_total_price_block": 2,
       "verified_official_override": 8,
-      "multiple_fee_components_needs_review": 21
+      "multiple_fee_components_needs_review": 18
     }
   },
   "items": [
@@ -30006,85 +30006,40 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 45000,
-          "tax": "不明",
-          "unit": "",
-          "score": 5,
-          "products": [],
-          "excerpt": "20ml 2ml 45,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支",
-          "page": 7,
-          "line": "45,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 30000,
           "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "10ml 1ml 30,000 円 20ml 2ml",
-          "page": 7,
-          "line": "30,000 円",
-          "products_source": [],
+          "unit": "採血10ml・PRP約1ml",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": -5,
-          "products": [],
-          "excerpt": "2ml 45,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支 払いいただきます。",
-          "page": 7,
-          "line": "※初診時には、初診料として10,000 円がかかります。",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "20ml 2ml 45,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支",
-          "page": 7,
-          "line": "20ml 2ml 45,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2505020/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 45000,
           "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "2ml 45,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支 払いいただきます。",
-          "page": 7,
-          "line": "2ml 45,000 円 ※初診時には、初診料として10,000 円がかかります。 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支 払いいただきます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
+          "unit": "採血20ml・PRP約2ml",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2505020/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2505020/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_01D2511003",
@@ -33937,53 +33892,40 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 66000,
-          "tax": "税込",
-          "unit": "1 回",
-          "score": 7,
-          "products": [],
-          "excerpt": "費用、細胞保管料(1 年目)、術後検査の費用が含まれます。1 回の脂肪採取から複数回の治 療が可能な自家ASC を培養することができます。自家ASC を2 年以上保管する場合、保管費 用として66,000 円/年(税込)をお支払いいただきます。 患者様の脂肪組織の状態等により、治療に用いるのに十分な数の細胞を培養できないことがありま す。培養できた自家ASC の細胞数など詳細はスタッフにお問い合わせください。",
-          "page": 5,
-          "line": "用として66,000 円/年(税込)をお支払いいただきます。",
-          "products_source": [],
+          "amount": 1078000,
+          "tax": "不明",
+          "unit": "関節1箇所・0.5〜1億cells",
+          "products": [
+            "自家脂肪由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603063/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 1485000,
           "tax": "不明",
-          "unit": "1 回",
-          "score": 5,
-          "products": [],
-          "excerpt": "関節2 箇所 1〜2 億cells 1,485,000 円 自家ASC 治療費用には、自家ASC の原料となる脂肪組織及び血液の採取費用、細胞輸送 費用、細胞保管料(1 年目)、術後検査の費用が含まれます。1 回の脂肪採取から複数回の治",
-          "page": 5,
-          "line": "1,485,000 円",
-          "products_source": [],
+          "unit": "関節2箇所・1〜2億cells",
+          "products": [
+            "自家脂肪由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 1078000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [],
-          "excerpt": "関節1 箇所 0.5〜1 億cells 1,078,000 円 関節2 箇所 1〜2 億cells",
-          "page": 5,
-          "line": "1,078,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
+          "note": "2年目以降の細胞保管料66,000円/年（税込）は別項目",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603063/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2603063/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_01C2509020",
@@ -38101,38 +38043,40 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 3000000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": "たりの価格 ACC 移植(再) 300万円 使用した細胞数にかかわらず、片膝あ たりの価格",
-          "page": 21,
-          "line": "300万円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 4500000,
           "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": "軟骨組織採取 ACC 移植 450万円 使用した細胞数にかかわらず、片膝あ たりの価格",
-          "page": 21,
-          "line": "450万円",
-          "products_source": [],
+          "unit": "軟骨組織採取＋ACC移植・片膝",
+          "products": [
+            "ACC"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2310061/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 3000000,
+          "tax": "不明",
+          "unit": "ACC再移植・片膝",
+          "products": [
+            "ACC"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2310061/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2310061/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_01C2509025",
@@ -46676,53 +46620,55 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 40000,
+          "amount": 150000,
           "tax": "不明",
-          "unit": "片側",
-          "score": 3,
-          "products": [],
-          "excerpt": "片側・1 回分 肩関節 40,000 円 片側・1 回分 肘関節",
-          "page": 7,
-          "line": "40,000 円",
-          "products_source": [],
+          "unit": "膝関節・片側・1クール3回",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310059/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 100000,
           "tax": "不明",
-          "unit": "片側",
-          "score": 3,
-          "products": [],
-          "excerpt": "片側・1 クール3 回分 股関節 100,000 円 片側・1 回分 肩関節",
-          "page": 7,
-          "line": "100,000 円",
-          "products_source": [],
+          "unit": "股関節・片側・1回",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310059/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
-          "amount": 150000,
+          "amount": 40000,
           "tax": "不明",
-          "unit": "片側",
-          "score": 3,
-          "products": [],
-          "excerpt": "回数 膝関節 150,000 円 片側・1 クール3 回分 股関節",
-          "page": 7,
-          "line": "150,000 円",
-          "products_source": [],
+          "unit": "肩関節・片側・1回",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310059/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310059/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_02C2608034",
@@ -62747,100 +62693,40 @@
       "qc_reason_source": "rescue price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 1400000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": "片膝 1×108 1,400,000円 ※初診料:10,000円、施術料:100,000円がかかりま す。",
-          "page": 9,
-          "line": "1,400,000円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 1000000,
           "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "片膝 1×107 1,000,000円 片膝 1×108",
-          "page": 9,
-          "line": "1,000,000円",
-          "products_source": [],
+          "unit": "片膝・1×10^7 cells",
+          "products": [
+            "自家脂肪由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 10000,
-          "tax": "不明",
-          "unit": "",
-          "score": -1,
-          "products": [],
-          "excerpt": "1×108 1,400,000円 ※初診料:10,000円、施術料:100,000円がかかりま す。 (3)費用は、同意書にサイン後、幹細胞治療のための脂肪組織採",
-          "page": 9,
-          "line": "※初診料:10,000円、施術料:100,000円がかかりま",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 100000,
-          "tax": "不明",
-          "unit": "",
-          "score": -1,
-          "products": [],
-          "excerpt": "1×108 1,400,000円 ※初診料:10,000円、施術料:100,000円がかかりま す。 (3)費用は、同意書にサイン後、幹細胞治療のための脂肪組織採",
-          "page": 9,
-          "line": "※初診料:10,000円、施術料:100,000円がかかりま",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
+          "note": "別途 初診料10,000円・施術料100,000円",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2006008/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
         },
         {
-          "amount": 10000,
+          "amount": 1400000,
           "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "片膝 1×108 1,400,000円 ※初診料:10,000円、施術料:100,000円がかかりま す。",
-          "page": 9,
-          "line": "片膝 1×108 1,400,000円 ※初診料:10,000円、施術料:100,000円がかかりま す。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
+          "unit": "片膝・1×10^8 cells",
+          "products": [
+            "自家脂肪由来幹細胞"
+          ],
           "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 100000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "片膝 1×108 1,400,000円 ※初診料:10,000円、施術料:100,000円がかかりま す。",
-          "page": 9,
-          "line": "片膝 1×108 1,400,000円 ※初診料:10,000円、施術料:100,000円がかかりま す。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
+          "note": "別途 初診料10,000円・施術料100,000円",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2006008/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2006008/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_01C2602027",
@@ -64513,38 +64399,40 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 210000,
-          "tax": "不明",
-          "unit": "",
-          "score": 5,
-          "products": [],
-          "excerpt": "120ml 12ml 210,000 円 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支 払いいただきます。",
-          "page": 7,
-          "line": "210,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 150000,
           "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "80ml 8ml 150,000 円 120ml 12ml",
-          "page": 7,
-          "line": "150,000 円",
-          "products_source": [],
+          "unit": "採血80ml・PRP約8ml",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2404031/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 210000,
+          "tax": "不明",
+          "unit": "採血120ml・PRP約12ml",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2404031/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2404031/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_02C2404036",
@@ -64622,38 +64510,40 @@
       "qc_reason_source": "rescue price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 45000,
-          "tax": "不明",
-          "unit": "",
-          "score": 5,
-          "products": [],
-          "excerpt": "20ml 2ml 45,000 円 (3)費用は、同意書にサイン後、PRP 治療のための採血の前に全額お支 払いいただきます。",
-          "page": 7,
-          "line": "45,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 30000,
           "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "10ml 1ml 30,000 円 20ml 2ml",
-          "page": 7,
-          "line": "30,000 円",
-          "products_source": [],
+          "unit": "採血10ml・PRP約1ml",
+          "products": [
+            "PRP"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2404036/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 45000,
+          "tax": "不明",
+          "unit": "採血20ml・PRP約2ml",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2404036/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2404036/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_03C2601008",
@@ -65771,38 +65661,40 @@
       "qc_reason_source": "rescue price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 4500000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": "たりの価格 ACC 移植(再) 450万円 使用した細胞数にかかわらず、片膝あ たりの価格",
-          "page": 21,
-          "line": "450万円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 9000000,
           "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": "軟骨組織採取 ACC 移植 900万円 使用した細胞数にかかわらず、片膝あ たりの価格",
-          "page": 21,
-          "line": "900万円",
-          "products_source": [],
+          "unit": "軟骨組織採取＋ACC移植・片膝",
+          "products": [
+            "ACC"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/03C2603038/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 4500000,
+          "tax": "不明",
+          "unit": "ACC再移植・片膝",
+          "products": [
+            "ACC"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/03C2603038/5/0",
+          "source_type": "official_mhlw_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/03C2603038/5/0",
+      "verified_source_type": "official_mhlw_document"
     },
     {
       "plan_id": "V41_02C2306054",
