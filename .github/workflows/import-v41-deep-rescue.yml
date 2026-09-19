@@ -1,0 +1,36 @@
+name: Import v41 deep rescue prices
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Deep rescue v41 MHLW price PDFs"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Import AUTO_DEEP prices
+        run: python scripts/import_v41_deep_rescue.py
+      - name: Commit verified overrides
+        run: |
+          git config user.name "regen-med-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/v41_verified_price_overrides.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Import verified v41 deep OCR prices [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
