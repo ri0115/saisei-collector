@@ -1,0 +1,77 @@
+{
+  "version": "maker-recovery-pilot-audit-01",
+  "created_date_jst": "2026-09-19",
+  "pilot_facilities": 50,
+  "routes": {
+    "mhlw_linked_documents": {
+      "reviewed": 50,
+      "safe_resolved": 2,
+      "safe_examples": [
+        {
+          "facility": "Clinique Haru Kyoto",
+          "products": [
+            "ACP",
+            "MyCells",
+            "TriCeLL"
+          ],
+          "evidence": "exact MHLW plan attachment"
+        },
+        {
+          "facility": "西岡病院",
+          "products": [
+            "Condensia"
+          ],
+          "maker": [
+            "京セラ"
+          ],
+          "evidence": "exact MHLW plan attachment"
+        }
+      ],
+      "note": "Direct attachment retrieval was unavailable/non-text-readable for many plans; lack of hit is not evidence of no product."
+    },
+    "strict_official_web": {
+      "reviewed_after_mhlw": 48,
+      "safe_resolved": 1,
+      "safe_examples": [
+        {
+          "facility": "ぐんまスポーツ整形外科",
+          "products": [
+            "ACP"
+          ],
+          "maker": [
+            "Arthrex"
+          ],
+          "evidence": "target facility official page"
+        }
+      ],
+      "note": "Search snippets and third-party pages are not accepted as confirmation."
+    },
+    "committee_history": {
+      "reviewed": 48,
+      "apparent_hits": 2,
+      "safe_resolved": 0,
+      "decision": "REJECT_FOR_AUTOMATIC_ASSIGNMENT",
+      "reason": "Committee history pages list many facilities/plans on the same meeting page; product terms from another facility can be falsely associated with the target facility. Exact row-level association is not guaranteed."
+    }
+  },
+  "manually_identified_leads": [
+    {
+      "facility": "ONE CLINIC 梅田",
+      "product": "MyCells",
+      "evidence_level": "official facility page; manufacturer requires separate regulatory mapping"
+    },
+    {
+      "facility": "佐賀県医療センター好生館",
+      "product": "APS",
+      "evidence_level": "official facility page; manufacturer can be mapped only as PRODUCT_MAP after regulatory confirmation"
+    }
+  ],
+  "locked_rules": [
+    "Do not confirm a manufacturer from a search-engine snippet alone.",
+    "Do not associate a product mentioned elsewhere on a committee meeting page with the target facility.",
+    "Prefer exact-plan documents or exact target-facility official pages.",
+    "Keep EXPLICIT manufacturer evidence separate from PRODUCT_MAP inference.",
+    "Resolve product-to-manufacturer conflicts before updating market-share outputs."
+  ],
+  "next_route": "Scan exact treatment titles and exact plan text for branded product terms before any broader web crawl."
+}
