@@ -1,0 +1,22 @@
+{
+  "version": "v42-merge-audit-stage15-core-count-correction",
+  "created_date_jst": "2026-09-19",
+  "supersedes": "results/v42_merge_audit_stage14_core_count_lock.json",
+  "issue": "The v41 additions compact file contains one record explicitly marked scope_status=OUT_OF_SCOPE: 01C2511006 / 一般社団法人Garden KAI CLINIC TOKYO / 自家多血小板フィブリンを用いた軟骨移植外鼻形成術.",
+  "counts": {
+    "v40_canonical_after_duplicate_merge": 899,
+    "v40_audit_only_chronic_pain": 2,
+    "v40_core": 897,
+    "v41_additions_total": 774,
+    "v41_out_of_scope": 1,
+    "v41_core": 773,
+    "correct_v42_core": 1670
+  },
+  "audit_excluded_codes": [
+    "01E2502020",
+    "03E2406027",
+    "01C2511006"
+  ],
+  "reason": "Do not retain a clearly non-orthopedic OUT_OF_SCOPE plan merely to preserve the earlier arithmetic lock. The prior 1,671 count failed to subtract the pre-existing v41 orthopedic-DB exclusion.",
+  "conclusion": "Lock corrected v42 core at 1,670 plans. Preserve all three excluded records in the audit/exclusion sheet."
+}
