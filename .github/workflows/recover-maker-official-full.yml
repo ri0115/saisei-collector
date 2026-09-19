@@ -1,0 +1,24 @@
+name: Strict official maker recovery
+on:
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 ddgs
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/recover_maker_official_full.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maker-official-full
+          path: results/maker_official_full
+          retention-days: 7
