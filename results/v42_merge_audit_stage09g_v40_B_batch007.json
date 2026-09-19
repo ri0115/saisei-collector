@@ -1,0 +1,17 @@
+{
+  "version": "v42-merge-audit-stage09g-v40-B-batch007",
+  "created_date_jst": "2026-09-19",
+  "source": "results/b_latest.json",
+  "plan_range": "B queue 301-335",
+  "plan_rows": 35,
+  "status_counts": {
+    "AUTO": 21,
+    "QC": 14
+  },
+  "exported_price_rows": 62,
+  "no_price_counts": {
+    "AUTO": 0,
+    "QC": 8
+  },
+  "next_step": "Run B-lane integrity audit."
+}
