@@ -1,0 +1,16 @@
+{
+  "version": "v42-maker-manual-audit-batch-20",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 466,
+  "audited_candidate_pairs": 6,
+  "audited_unique_facilities": 5,
+  "confirmed_new_facilities": 0,
+  "confirmed_new_manufacturer_placements": 0,
+  "already_canonical_aliases": 6,
+  "expected_canonical_after_rebuild": {
+    "manufacturer_known_facilities": 466,
+    "manufacturer_known_rate_pct": 49.1,
+    "manufacturer_placements": 552
+  },
+  "next_route": "Stop spending manual review on exhausted Arthrex/Zimmer locator matches; move to unresolved product/kit labels and validated manufacturer mappings. Processing-outsourcing products remain excluded."
+}
