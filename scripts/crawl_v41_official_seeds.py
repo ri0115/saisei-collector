@@ -42,37 +42,90 @@ def amount(m):
     if m.group(1): return int(m.group(1).replace(",",""))
     return int(round(float(m.group(2))*10000))
 
-def extract(text,tclass):
+def target_regex(tclass,treatment):
+    tc=(tclass or "")+" "+(treatment or "")
+    if re.search(r"APS|多血小板血漿抽出液",tc,re.I):
+        return re.compile(r"APS|多血小板血漿抽出液",re.I), "APS"
+    if re.search(r"PRGF|Endoret",tc,re.I):
+        return re.compile(r"PRGF|Endoret",re.I), "PRGF"
+    if re.search(r"SVF|間質血管",tc,re.I):
+        return re.compile(r"SVF|間質血管",re.I), "SVF"
+    if re.search(r"滑膜",tc,re.I) and re.search(r"幹細胞|間葉系",tc,re.I):
+        return re.compile(r"滑膜.*(?:幹細胞|間葉系)|(?:幹細胞|間葉系).*滑膜",re.I), "synovial_stem"
+    if re.search(r"脂肪由来|ASC|ADRC",tc,re.I) and re.search(r"幹細胞|MSC|間葉系|ASC|ADRC",tc,re.I):
+        return re.compile(r"ASC|ADRC|脂肪由来(?:間葉系)?幹細胞|脂肪由来(?:間葉系)?細胞",re.I), "adipose_stem"
+    if re.search(r"幹細胞|MSC|間葉系",tc,re.I):
+        return re.compile(r"幹細胞|MSC|間葉系",re.I), "stem"
+    return re.compile(r"PRP|ACP(?: MAX)?|GPS(?:III| III|Ⅲ)?|多血小板血漿|血小板|Condensia|コンデンシア|Angel",re.I), "PRP"
+
+def other_therapy_regex(target_kind):
+    pats={
+        "APS": r"PRP|ACP|GPS|Condensia|コンデンシア|Angel|ASC|SVF|幹細胞",
+        "PRGF": r"APS|ACP|GPS|Condensia|コンデンシア|Angel|ASC|SVF|幹細胞",
+        "SVF": r"ASC|ADRC|脂肪由来.*幹細胞|PRP|APS|ACP|GPS",
+        "adipose_stem": r"SVF|間質血管|PRP|APS|ACP|GPS",
+        "synovial_stem": r"脂肪由来|ASC|SVF|PRP|APS",
+        "stem": r"PRP|APS|ACP|GPS",
+        "PRP": r"ASC|ADRC|SVF|間質血管|脂肪由来.*幹細胞",
+    }
+    return re.compile(pats.get(target_kind,r"$^"),re.I)
+
+def extract(text,tclass,treatment=""):
     t=norm(text)
-    stem=bool(re.search(r"幹細胞|MSC|ASC|脂肪",tclass or "",re.I))
-    treat=re.compile(r"幹細胞|脂肪由来|MSC|ASC|SVF|ADRC|細胞" if stem else r"PRP|APS|ACP|GPS|多血小板|血小板|Condensia|コンデンシア|Angel|PRGF",re.I)
+    target,target_kind=target_regex(tclass,treatment)
+    other=other_therapy_regex(target_kind)
+    stem=target_kind in ("SVF","adipose_stem","synovial_stem","stem")
     lo,hi=(100000,20000000) if stem else (15000,2000000)
-    raw_lines=[re.sub(r"\\s+"," ",x).strip() for x in t.splitlines()]
+    raw_lines=[re.sub(r"\s+"," ",x).strip() for x in t.splitlines()]
     lines=[x for x in raw_lines if x]
     out=[];seen=set()
+
     for i,line in enumerate(lines):
         for m in PRICE_RE.finditer(line):
             a=amount(m)
-            if not lo<=a<=hi: continue
-            near=" ".join(lines[max(0,i-2):min(len(lines),i+3)])
+            if not lo<=a<=hi:
+                continue
+
+            prev=lines[i-1] if i>0 else ""
+            nxt=lines[i+1] if i+1<len(lines) else ""
+            same_target=bool(target.search(line))
+            prev_target=bool(target.search(prev))
+            next_target=bool(target.search(nxt))
+
+            # Reject rows explicitly labeled as another therapy unless target is
+            # also present in that same row.
+            if other.search(line) and not same_target:
+                continue
+
+            # Require a target label either on the same row or an immediately
+            # adjacent row. This prevents a page-wide PRP/ASC/SVF mix-up.
+            if not (same_target or prev_target or next_target):
+                continue
+
+            near=" ".join(lines[max(0,i-1):min(len(lines),i+2)])
             score=0
+            if same_target: score+=10
+            elif prev_target: score+=7
+            elif next_target: score+=5
             if PRICE_WORD.search(line): score+=4
             elif PRICE_WORD.search(near): score+=2
-            if treat.search(line): score+=8
-            elif treat.search(near): score+=4
-            if ANC.search(line) and not treat.search(line): score-=10
-            elif ANC.search(near) and not treat.search(line): score-=4
+            if ANC.search(line) and not same_target: score-=10
+            elif ANC.search(near) and not same_target: score-=4
             if re.search(r"税込|税別|税抜",line): score+=2
             elif re.search(r"税込|税別|税抜",near): score+=1
-            if not treat.search(near):
-                continue
+
             tax="不明"
             if re.search(r"税込|消費税込",near): tax="税込"
             elif re.search(r"税別|税抜",near): tax="税別"
-            key=(a,line,near[:180])
+
+            key=(a,line,target_kind)
             if key in seen: continue
             seen.add(key)
-            out.append({"amount":a,"tax":tax,"score":score,"line":line,"excerpt":near})
+            out.append({
+                "amount":a,"tax":tax,"score":score,"line":line,
+                "excerpt":near,"target_kind":target_kind,
+                "label_match":"same_line" if same_target else ("previous_line" if prev_target else "next_line")
+            })
     out.sort(key=lambda x:(-x["score"],x["amount"]))
     return out[:20]
 
@@ -108,7 +161,7 @@ def main():
             for p in plans:
                 cand=[]
                 for u,txt in uniq:
-                    for c in extract(txt,p.get("treatment_class")):
+                    for c in extract(txt,p.get("treatment_class"),p.get("treatment","")):
                         z={**c,"source_url":u}
                         z["combined_score"]=c["score"]
                         cand.append(z)
