@@ -1,12 +1,12 @@
 {
-  "high_candidate_rows_before_normalized_audit": 63,
-  "audited_unique_facility_maker_pairs": 63,
-  "new_manufacturer_facilities": 49,
-  "new_manufacturer_placements_on_new_facilities": 50,
+  "high_candidate_rows_before_normalized_audit": 37,
+  "audited_unique_facility_maker_pairs": 37,
+  "new_manufacturer_facilities": 36,
+  "new_manufacturer_placements_on_new_facilities": 37,
   "new_maker_placements_on_already_known_facilities": 0,
-  "duplicate_known_maker_pairs": 13,
+  "duplicate_known_maker_pairs": 0,
   "new_facility_by_manufacturer": {
-    "Zimmer Biomet": 19,
+    "Zimmer Biomet": 6,
     "Arthrex": 31
   },
   "new_existing_facility_placements_by_manufacturer": {},
@@ -24,13 +24,6 @@
       "maker": "Arthrex",
       "source": "Arthrex",
       "products": "ACP-PRP"
-    },
-    {
-      "prefecture": "兵庫県",
-      "facility": "医療法人社団高遼会 整形外科たかひろクリニック",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
     },
     {
       "prefecture": "兵庫県",
@@ -56,13 +49,6 @@
     {
       "prefecture": "千葉県",
       "facility": "医療法人社団奏の杜整形外科",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
-    },
-    {
-      "prefecture": "千葉県",
-      "facility": "医療法人社団慈宏会 まさき整形外科",
       "maker": "Zimmer Biomet",
       "source": "Zimmer Biomet",
       "products": "APS"
@@ -96,39 +82,11 @@
       "products": "ACP-PRP"
     },
     {
-      "prefecture": "埼玉県",
-      "facility": "医療法人社団幸祥会 東整形外科",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
-    },
-    {
-      "prefecture": "埼玉県",
-      "facility": "医療法人社団愛友会 三郷中央総合病院",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
-    },
-    {
-      "prefecture": "埼玉県",
-      "facility": "医療法人社団武蔵野会 TMGあさか医療センター",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
-    },
-    {
       "prefecture": "大分県",
       "facility": "仙波整形外科",
       "maker": "Arthrex",
       "source": "Arthrex",
       "products": "ACP-PRP"
-    },
-    {
-      "prefecture": "大阪府",
-      "facility": "たけうち整形外科リウマチ科",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
     },
     {
       "prefecture": "大阪府",
@@ -180,13 +138,6 @@
       "products": "ACP-PRP"
     },
     {
-      "prefecture": "愛媛県",
-      "facility": "社会医療法人石川記念会 HITO病院",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
-    },
-    {
       "prefecture": "愛知県",
       "facility": "ふくの森リハビリ整形外科",
       "maker": "Arthrex",
@@ -215,13 +166,6 @@
       "products": "ACP-PRP"
     },
     {
-      "prefecture": "新潟県",
-      "facility": "医療法人社団ibis こばり坂クリニック",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
-    },
-    {
       "prefecture": "東京都",
       "facility": "おかのクリニック",
       "maker": "Arthrex",
@@ -248,20 +192,6 @@
       "maker": "Arthrex",
       "source": "Arthrex",
       "products": "ACP-PRP"
-    },
-    {
-      "prefecture": "東京都",
-      "facility": "独立行政法人国立病院機構東京医療センター",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
-    },
-    {
-      "prefecture": "東京都",
-      "facility": "社会福祉法人白十字会 東京白十字病院",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
     },
     {
       "prefecture": "東京都",
@@ -314,31 +244,10 @@
     },
     {
       "prefecture": "長野県",
-      "facility": "佐久市立国保浅間総合病院",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
-    },
-    {
-      "prefecture": "長野県",
       "facility": "医療法人弘仁会 かもいクリニック",
       "maker": "Arthrex",
       "source": "Arthrex",
       "products": "ACP-PRP"
-    },
-    {
-      "prefecture": "長野県",
-      "facility": "社会医療法人栗山会飯田病院",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
-    },
-    {
-      "prefecture": "静岡県",
-      "facility": "医療法人社団平成会 藤枝平成記念病院",
-      "maker": "Zimmer Biomet",
-      "source": "Zimmer Biomet",
-      "products": "APS"
     },
     {
       "prefecture": "静岡県",
