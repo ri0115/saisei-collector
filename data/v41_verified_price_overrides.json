@@ -1,5 +1,5 @@
 {
-  "version": "v41-verified-overrides-1.2",
+  "version": "v41-verified-overrides-1.1",
   "generated_at": "2026-09-19",
   "notes": "Verified from clinic/hospital official webpages via web search. Amounts are treatment prices only; ancillary fees excluded.",
   "plans": {
@@ -740,6 +740,117 @@
           "unit": "高濃度PRP 10回コース総額",
           "product": "高濃度PRP",
           "note": ""
+        }
+      ]
+    },
+    "V41_01G2108005": {
+      "facility": "医療法人仁栄会 さかえまち整形外科",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2108005/5/0",
+      "prices": [
+        {
+          "amount": 30000,
+          "tax": "税別",
+          "unit": "スモールスピッツ約10ml・1本",
+          "product": "PRP"
+        },
+        {
+          "amount": 40000,
+          "tax": "税別",
+          "unit": "ラージスピッツ約20ml・1本",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_03A2505012": {
+      "facility": "社会医療法人孝仁会 釧路孝仁会記念病院",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2505012/5/0",
+      "prices": [
+        {
+          "amount": 2650000,
+          "tax": "税込",
+          "unit": "自家gMSC®1-A移植",
+          "product": "自家滑膜間葉系幹細胞由来三次元人工組織"
+        }
+      ]
+    },
+    "V41_01C2506055": {
+      "facility": "医療法人社団同仁会診療所 Clinic Le GINZA",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506055/5/0",
+      "prices": [
+        {
+          "amount": 2000000,
+          "tax": "税別",
+          "unit": "本治療",
+          "product": "自己末梢血由来単核細胞"
+        }
+      ]
+    },
+    "V41_02C2605071": {
+      "facility": "医療法人社団桜伸会 サンテクリニック",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605071/5/0",
+      "prices": [
+        {
+          "amount": 2210000,
+          "tax": "税別",
+          "unit": "培養費用・投与費用",
+          "product": "自家培養脂肪由来間葉系幹細胞",
+          "note": "別途：脂肪採取350,000円、検査50,000円、初診10,000円（いずれも税別）"
+        }
+      ]
+    },
+    "V41_03G2506012": {
+      "facility": "社会医療法人令和会 熊本リハビリテーション病院",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506012/5/0",
+      "prices": [
+        {
+          "amount": 1750000,
+          "tax": "税別",
+          "unit": "ADRCs細胞治療",
+          "product": "ADRCs",
+          "note": "説明文書：175万円（別途消費税）"
+        }
+      ]
+    },
+    "V41_02C2604080": {
+      "facility": "医療法人社団明和会 亀田病院",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604080/5/0",
+      "prices": [
+        {
+          "amount": 50000,
+          "tax": "税別",
+          "unit": "スモールスピッツ約10ml・1本",
+          "product": "PRP"
+        },
+        {
+          "amount": 70000,
+          "tax": "税別",
+          "unit": "ラージスピッツ約20ml・1本",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_03C2111004": {
+      "facility": "医療法人社団栄親会 横浜整形外科クリニック",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2111004/5/0",
+      "prices": [
+        {
+          "amount": 25000,
+          "tax": "税別",
+          "unit": "スモールスピッツ約10ml・1本",
+          "product": "PRP"
+        },
+        {
+          "amount": 35000,
+          "tax": "税別",
+          "unit": "ラージスピッツ約20ml・1本",
+          "product": "PRP"
         }
       ]
     }
