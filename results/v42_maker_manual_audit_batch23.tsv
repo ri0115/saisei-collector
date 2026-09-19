@@ -1,0 +1,3 @@
+facility_id	prefecture	facility	status	product	manufacturer	evidence_type	evidence_url	note
+B23-01	埼玉県	医療法人社団鴻愛会 こうのす共生病院	CONFIRMED_NEW	Condensia	京セラ	FACILITY_OFFICIAL_EXPLICIT	https://kouaikai.jp/section/regenerative-medicine/prp/	Current hospital official page explicitly identifies Condensia system and Kyocera Medical; facility is v40 core F0102.
+B23-02	千葉県	医療法人社団淳英会 Jメディカルおゆみの	CONFIRMED_NEW_PLACEMENT	MyCells	ESTAR Technologies	FACILITY_OFFICIAL_EXPLICIT_PLUS_CURRENT_REGISTRY	https://www.j-medical-oyumino.jp/biotherapy.html	Current facility official page lists Mycells kit. Facility already canonical for Zimmer Biomet; add ESTAR Technologies via validated MyCells registry mapping.
