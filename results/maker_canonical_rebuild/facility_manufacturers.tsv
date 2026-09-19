@@ -64,7 +64,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 千葉県|慈宏会まさき整形外科	千葉県	医療法人社団慈宏会 まさき整形外科	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR|MHLW_FULL
 千葉県|明敬会重城病院	千葉県	医療法人社団明敬会 重城病院	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR
 千葉県|曙会流山中央病院	千葉県	医療法人社団曙会 流山中央病院	Arthrex	1	ACP	MANUAL_VERIFIED
-千葉県|淳英会jメディカルおゆみの	千葉県	医療法人社団淳英会 Jメディカルおゆみの	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+千葉県|淳英会jメディカルおゆみの	千葉県	医療法人社団淳英会 Jメディカルおゆみの	ESTAR Technologies|Zimmer Biomet	2	APS|GPS|MyCells	MANUAL_VERIFIED|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 千葉県|淳英会おゆみの中央病院	千葉県	医療法人社団淳英会 おゆみの中央病院	ESTAR Technologies|Zimmer Biomet	2	APS|GPS|MyCells	MANUAL_VERIFIED|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 千葉県|錦昌会みどりのは葉記念病院	千葉県	医療法人社団錦昌会 みどりのは 葉記念病院	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 千葉県|鉄蕉会亀田クリニック	千葉県	医療法人鉄蕉会 亀田クリニック	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
@@ -100,6 +100,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 埼玉県|武蔵野会tmgあさか医療センター	埼玉県	医療法人社団武蔵野会 TMGあさか医療センター	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
 埼玉県|活寿会大宮ひざ関節症クリニック	埼玉県	医療法人社団活寿会  大宮ひざ関節症クリニック	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 埼玉県|順生会はにゅう整形外科	埼玉県	医療法人社団順生会 はにゅう整形外科	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+埼玉県|鴻愛会こうのす共生病院	埼玉県	医療法人社団鴻愛会 こうのす共生病院	京セラ	1	Condensia	MANUAL_VERIFIED
 埼玉県|医療生協さいたま生活協同組合埼玉協同病院	埼玉県	医療生協さいたま生活協同組合 埼玉協同病院	ESTAR Technologies|Zimmer Biomet	2	APS|MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 埼玉県|東松山市立市民病院	埼玉県	東松山市立市民病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 埼玉県|獨協医科大学埼玉医療センター	埼玉県	獨協医科大学埼玉医療センター	Zimmer Biomet	1	APS|APS / GPS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
@@ -264,7 +265,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 東京都|苑田会苑田会人工関節センター病院	東京都	医療法人社団 苑田会 苑田会人工関節センター病院	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|ihoc稲城平尾整形外科クリニック	東京都	医療法人社団IHOC   稲城平尾整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP|Angel|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|mtac文京整形外科	東京都	医療法人社団M-TAC 文京整形外科	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
-東京都|tsoc東京スポーツ&整形外科クリニック	東京都	医療法人社団TSOC 東京スポーツ&整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|tsoc東京スポーツ&整形外科クリニック	東京都	医療法人社団TSOC 東京スポーツ&整形外科クリニック	Arthrex|京セラ	2	ACP|ACP MAX|ACP MAX|ACP|ACP|ACP MAX|Condensia	MANUAL_VERIFIED|PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|vita池尻大橋せらクリニック	東京都	医療法人社団VITA 池尻大橋せらクリニック	Arthrex	1	ACP|ACP MAX|ACP MAX / ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|アーツメディックさかい整形外科	東京都	医療法人社団アーツメディック さかい整形外科	京セラ	1	Condensia	MHLW_FULL
 東京都|サザナミきむらてつや整形外科内科	東京都	医療法人社団サザナミ きむらてつや整形外科内科	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
@@ -306,7 +307,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 東京都|明大前整形外科クリニック	東京都	明大前整形外科クリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|昭和医科大学江東豊洲病院	東京都	昭和医科大学江東豊洲病院	Arthrex	1	ACP MAX	MHLW_FULL
 東京都|東京メディサイトクリニック	東京都	東京メディサイトクリニック	ESTAR Technologies	1	MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
-東京都|東京城南整形外科	東京都	東京城南整形外科	REV-MED	1	TriCeLL	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+東京都|東京城南整形外科	東京都	東京城南整形外科	REV-MED|京セラ	2	Condensia|TriCeLL	MANUAL_VERIFIED|PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 東京都|東京整形外科	東京都	東京整形外科	Arthrex	1	ACP|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|東京科学大学病院	東京都	東京科学大学病院	Zimmer Biomet	1	APS|GPS	MHLW_FULL
 東京都|東京銀座ウェルネス&エイジングクリニック	東京都	東京銀座ウェルネス&エイジングクリニック	Zimmer Biomet	1	APS	MHLW_FULL

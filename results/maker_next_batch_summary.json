@@ -1,7 +1,7 @@
 {
   "core_candidate_pool_facilities": 951,
-  "canonical_pairs": 560,
-  "terminal_audited_pairs": 163,
+  "canonical_pairs": 564,
+  "terminal_audited_pairs": 165,
   "locator_rows": 372,
   "candidate_pairs": 3,
   "confidence_counts": {
