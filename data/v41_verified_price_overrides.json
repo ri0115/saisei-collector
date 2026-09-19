@@ -1,5 +1,5 @@
 {
-  "version": "v41-verified-overrides-1.7",
+  "version": "v41-verified-overrides-1.8",
   "generated_at": "2026-09-19",
   "notes": "Verified from clinic/hospital official webpages via web search. Amounts are treatment prices only; ancillary fees excluded.",
   "plans": {
@@ -1258,6 +1258,98 @@
         }
       ],
       "note": "第三種再生医療等技術。荒川区東尾久4-3-9の施設住所まで一致。"
+    },
+    "V41_02C2508027": {
+      "facility": "医療法人社団 ICVS Tokyo Clinic V2",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.icvs-v2.org/price.html",
+      "prices": [
+        {
+          "amount": 3520000,
+          "tax": "税込",
+          "unit": "骨髄由来幹細胞1億個・動脈投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 4620000,
+          "tax": "税込",
+          "unit": "骨髄由来幹細胞2億個・動脈投与",
+          "product": "骨髄由来幹細胞"
+        }
+      ],
+      "note": "公式料金表。組織採取・培養費込み。特殊検査・薬剤は別途の場合あり。"
+    },
+    "V41_02C2508046": {
+      "facility": "医療法人社団 ICVS Tokyo Clinic V2",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.icvs-v2.org/price.html",
+      "prices": [
+        {
+          "amount": 3520000,
+          "tax": "税込",
+          "unit": "骨髄由来幹細胞1億個・局所投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 4620000,
+          "tax": "税込",
+          "unit": "骨髄由来幹細胞2億個・局所投与",
+          "product": "骨髄由来幹細胞"
+        }
+      ],
+      "note": "公式料金表。組織採取・培養費込み。特殊検査・薬剤は別途の場合あり。"
+    },
+    "V41_02C2605032": {
+      "facility": "医療法人社団 ICVS Tokyo Clinic V2",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.icvs-v2.org/price.html",
+      "prices": [
+        {
+          "amount": 2970000,
+          "tax": "税込",
+          "unit": "脂肪由来幹細胞1億個・局所投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 3960000,
+          "tax": "税込",
+          "unit": "脂肪由来幹細胞2億個・局所投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 4950000,
+          "tax": "税込",
+          "unit": "脂肪由来幹細胞3億個・局所投与",
+          "product": "脂肪由来幹細胞"
+        }
+      ],
+      "note": "公式料金表。組織採取・培養費込み。特殊検査・薬剤は別途の場合あり。"
+    },
+    "V41_02C2605078": {
+      "facility": "医療法人社団 ICVS Tokyo Clinic V2",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.icvs-v2.org/price.html",
+      "prices": [
+        {
+          "amount": 2970000,
+          "tax": "税込",
+          "unit": "脂肪由来幹細胞1億個・動脈投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 3960000,
+          "tax": "税込",
+          "unit": "脂肪由来幹細胞2億個・動脈投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 4950000,
+          "tax": "税込",
+          "unit": "脂肪由来幹細胞3億個・動脈投与",
+          "product": "脂肪由来幹細胞"
+        }
+      ],
+      "note": "公式料金表。組織採取・培養費込み。特殊検査・薬剤は別途の場合あり。"
     }
   },
   "updated_at": "2026-09-19"
