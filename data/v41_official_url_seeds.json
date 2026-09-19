@@ -1,0 +1,78 @@
+{
+  "version": "v41-official-seeds-1.0",
+  "generated_at": "2026-09-19",
+  "items": [
+    {
+      "facility_id": "V41F36AC21EE08",
+      "facility": "社会医療法人 孝仁会 釧路孝仁会記念病院",
+      "url": "https://www.kojinkai.or.jp/regenerative_medicine/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F9372FF520F",
+      "facility": "日本医科大学千葉北総病院",
+      "url": "https://www.nms.ac.jp/hokuso-h/section/orthopedics/staff.html",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F6BA7FEB040",
+      "facility": "社会医療法人社団蛍水会 名戸ヶ谷病院",
+      "url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F792727709A",
+      "facility": "UT整形外科 武蔵浦和",
+      "url": "https://www.ut-seikei.com/regenerative-medicine/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F5A02ABC301",
+      "facility": "医療法人社団 鴻愛会 with Life クリニック 大宮駅前",
+      "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F2DCC112519",
+      "facility": "医療法人社団祐慈会 井上整形外科クリニック",
+      "url": "https://www.inoue-seikeigeka.jp/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F2272A75A03",
+      "facility": "ひらまつ整形外科 難波ひざスポーツクリニック",
+      "url": "https://www.h-nksc.jp/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FBBD6F8D2E6",
+      "facility": "医療法人槻陽会 高槻整形外科・再生医療クリニック",
+      "url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FE1A06DCDA7",
+      "facility": "医療法人酒井会 さかいペインクリニック",
+      "url": "https://sakai-pain.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FD969C63F8B",
+      "facility": "吹田くわた内科・ペインクリニック",
+      "url": "https://suita-clinic.com/medical/free_treatment/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F674136D42B",
+      "facility": "CASAクリニック",
+      "url": "https://casa-clinic.jp/autologous/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F9945331DCD",
+      "facility": "医療法人ポイントワン ならやまと整形外科スポーツクリニック",
+      "url": "https://narayamato.net/",
+      "source": "web_verified"
+    }
+  ]
+}
