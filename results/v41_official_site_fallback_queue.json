@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T01:38:13.492024+00:00",
-  "total": 127,
-  "unique_facilities": 110,
+  "updated_at": "2026-09-19T01:42:20.972549+00:00",
+  "total": 123,
+  "unique_facilities": 106,
   "items": [
     {
       "plan_id": "V41_02C2601085",
@@ -228,21 +228,6 @@
       ]
     },
     {
-      "plan_id": "V41_03C2305016",
-      "mhlw_plan_code": "03C2305016",
-      "facility_id": "V41F2DCC112519",
-      "prefecture": "埼玉県",
-      "facility": "医療法人社団祐慈会　井上整形外科クリニック",
-      "address": "さいたま市南区太田窪2丁目11-22",
-      "category": "第二種",
-      "treatment": "多血小板血漿（PRP）による変形性膝関節症治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305016/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_01E2605009",
       "mhlw_plan_code": "01E2605009",
       "facility_id": "V41F2272A75A03",
@@ -258,21 +243,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_01E2606017",
-      "mhlw_plan_code": "01E2606017",
-      "facility_id": "V41FC8FBBE30B3",
-      "prefecture": "大阪府",
-      "facility": "医療法人信生会 Rクリニック",
-      "address": "大阪市中央区南船場4丁目5番8号　\r\nラスターオン心斎橋ビル4階",
-      "category": "第二種",
-      "treatment": "膝関節症に対する自己脂肪由来幹細胞による治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2606017/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_01E2307007",
       "mhlw_plan_code": "01E2307007",
       "facility_id": "V41F9674F5DE4E",
@@ -283,21 +253,6 @@
       "treatment": "自己多血小板血漿（PRP)を用いた、筋・腱・靱帯の軟部組織再生療法",
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2307007/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01E2302002",
-      "mhlw_plan_code": "01E2302002",
-      "facility_id": "V41FAA880E4BDF",
-      "prefecture": "大阪府",
-      "facility": "医療法人恒晴会　心斎橋ペインクリニック",
-      "address": "大阪市中央区西心斎橋一丁目４番５号御堂筋ビル8階",
-      "category": "第三種",
-      "treatment": "筋・腱・靭帯の損傷および慢性炎症に対する自家多血小板血漿注入療法",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2302002/5/0",
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
@@ -418,21 +373,6 @@
       "treatment": "自己多血小板血漿(PRP)を用いた整形外科領域における軟部組織治療",
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2511004/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01D2603004",
-      "mhlw_plan_code": "01D2603004",
-      "facility_id": "V41FA35962BFED",
-      "prefecture": "愛知県",
-      "facility": "HIME CLINIC",
-      "address": "名古屋市千種区仲田2丁目305-1　COULEURS GRAND 202",
-      "category": "第三種",
-      "treatment": "多血小板血漿（PRP）を用いた筋肉、腱、靭帯治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2603004/5/0",
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
