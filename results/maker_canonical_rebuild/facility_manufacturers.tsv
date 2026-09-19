@@ -349,6 +349,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 熊本県|天草地域医療センター	熊本県	天草地域医療センター	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 石川県|まえだクリニックまえだ整形外科骨関節クリニック	石川県	医療法人社団まえだクリニック まえだ整形外科 骨・関節クリニック	Arthrex	1	ACP|ACP MAX	MHLW_FULL
 石川県|みやた整形外科みやた整形外科	石川県	医療法人社団みやた整形外科 みやた整形外科	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
+石川県|浅ノ川浅ノ川総合病院	石川県	医療法人社団浅ノ川 浅ノ川総合病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 石川県|金沢医科大学病院	石川県	金沢医科大学病院	Arteriocyte Medical Systems|ESTAR Technologies|Zimmer Biomet	3	APS|APS|MyCells|MAGELLAN|MyCells	MANUAL_VERIFIED|PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 石川県|金沢泉が丘わたなべクリニック	石川県	金沢泉が丘わたなべクリニック	京セラ	1	Condensia	MHLW_FULL
 神奈川県|okunoclinic横浜センター南	神奈川県	Okuno Clinic.横浜 センター南	Arthrex|DSM Biomedical	2	ACP|PEAK	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
