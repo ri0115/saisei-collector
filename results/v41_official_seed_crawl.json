@@ -1,6 +1,6 @@
 {
   "version": "v41-seed-crawl-1.3",
-  "total_facilities": 46,
+  "total_facilities": 76,
   "results": [
     {
       "facility_id": "V41F36AC21EE08",
@@ -12,12 +12,12 @@
           "chars": 1414
         },
         {
-          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/",
-          "chars": 2574
-        },
-        {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/hospital/",
           "chars": 1479
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/",
+          "chars": 2574
         },
         {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/greetings/",
@@ -160,12 +160,12 @@
           "chars": 4336
         },
         {
-          "url": "https://www.ginza-noa-cl.jp/prp",
-          "chars": 3244
-        },
-        {
           "url": "https://www.ginza-noa-cl.jp/stemtap",
           "chars": 4379
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/prp",
+          "chars": 3244
         }
       ],
       "plans": []
@@ -192,16 +192,16 @@
           "chars": 2171
         },
         {
-          "url": "https://iit-clinic.com/stem-cell-therapy/",
-          "chars": 3887
+          "url": "https://iit-clinic.com/prp-therapy/",
+          "chars": 3002
         },
         {
           "url": "https://iit-clinic.com/mesenchymal-stem-cell-supernatant/",
           "chars": 1093
         },
         {
-          "url": "https://iit-clinic.com/prp-therapy/",
-          "chars": 3002
+          "url": "https://iit-clinic.com/stem-cell-therapy/",
+          "chars": 3887
         }
       ],
       "plans": [
@@ -248,16 +248,16 @@
           "chars": 5269
         },
         {
+          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
+          "chars": 8679
+        },
+        {
           "url": "https://heleneclinic.com/stemcell/",
           "chars": 2839
         },
         {
           "url": "https://heleneclinic.com/stemcell/msc/",
           "chars": 3480
-        },
-        {
-          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
-          "chars": 8679
         },
         {
           "url": "https://heleneclinic.com/stemcell/risk/",
@@ -292,16 +292,16 @@
           "chars": 5269
         },
         {
+          "url": "https://heleneclinic.com/stemcell/",
+          "chars": 2839
+        },
+        {
           "url": "https://heleneclinic.com/stemcell/disease-treatment/",
           "chars": 8679
         },
         {
           "url": "https://heleneclinic.com/stemcell/msc/",
           "chars": 3480
-        },
-        {
-          "url": "https://heleneclinic.com/stemcell/",
-          "chars": 2839
         },
         {
           "url": "https://heleneclinic.com/stemcell/risk/",
@@ -385,19 +385,19 @@
         },
         {
           "url": "https://hime.clinic/archives/118236",
-          "chars": 7894
+          "chars": 7901
         },
         {
           "url": "https://hime.clinic/archives/treatment_category/fre",
           "chars": 947
         },
         {
-          "url": "https://hime.clinic/%E7%AC%AC%E4%B8%89%E7%A8%AE%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2",
-          "chars": 7985
-        },
-        {
           "url": "https://hime.clinic/%E7%BE%8E%E5%AE%B9%E3%82%92%E4%B8%BB%E3%81%A8%E3%81%97%E3%81%9F%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%83%92%E3%83%A1%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC",
           "chars": 2311
+        },
+        {
+          "url": "https://hime.clinic/%E7%AC%AC%E4%B8%89%E7%A8%AE%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2",
+          "chars": 7985
         }
       ],
       "plans": []
@@ -496,12 +496,12 @@
           "chars": 1968
         },
         {
-          "url": "https://motoazabuhills-clinic.jp/obesity/",
-          "chars": 7796
-        },
-        {
           "url": "https://motoazabuhills-clinic.jp/relieve-pain/",
           "chars": 5840
+        },
+        {
+          "url": "https://motoazabuhills-clinic.jp/obesity/",
+          "chars": 7796
         },
         {
           "url": "https://motoazabuhills-clinic.jp/aga/",
@@ -584,12 +584,12 @@
           "chars": 2117
         },
         {
-          "url": "https://kaiclinictokyo.com/menu/injection/prp/",
-          "chars": 1868
-        },
-        {
           "url": "https://kaiclinictokyo.com/price/",
           "chars": 6552
+        },
+        {
+          "url": "https://kaiclinictokyo.com/menu/injection/prp/",
+          "chars": 1868
         }
       ],
       "plans": []
@@ -620,16 +620,16 @@
           "chars": 6673
         },
         {
-          "url": "https://kumagaiseikei.jp/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82/",
-          "chars": 1166
-        },
-        {
           "url": "https://kumagaiseikei.jp/%E5%B9%B9%E7%B4%B0%E8%83%9E%E5%9F%B9%E9%A4%8A%E4%B8%8A%E6%B8%85%E6%B6%B2%E7%99%82%E6%B3%95/",
           "chars": 1063
         },
         {
           "url": "https://kumagaiseikei.jp/%E8%87%AA%E5%B7%B1%E8%84%82%E8%82%AA%E7%94%B1%E6%9D%A5%E5%B9%B9%E7%B4%B0%E8%83%9E%E5%86%8D%E7%94%9F%E6%B2%BB%E7%99%82/",
           "chars": 1047
+        },
+        {
+          "url": "https://kumagaiseikei.jp/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82/",
+          "chars": 1166
         }
       ],
       "plans": []
@@ -708,12 +708,12 @@
           "chars": 5876
         },
         {
-          "url": "https://clinic-le-ginza.jp/prp/",
-          "chars": 4737
-        },
-        {
           "url": "https://clinic-le-ginza.jp/",
           "chars": 4120
+        },
+        {
+          "url": "https://clinic-le-ginza.jp/prp/",
+          "chars": 4737
         },
         {
           "url": "https://clinic-le-ginza.jp/price/",
@@ -816,16 +816,16 @@
           "chars": 2332
         },
         {
-          "url": "https://beautycell-cl.com/menu/regenerative_medicine/arthrosis/",
-          "chars": 3904
-        },
-        {
           "url": "https://beautycell-cl.com/menu/regenerative_medicine/",
           "chars": 2072
         },
         {
           "url": "https://beautycell-cl.com/menu/regenerative_medicine/hair/",
           "chars": 2797
+        },
+        {
+          "url": "https://beautycell-cl.com/menu/regenerative_medicine/arthrosis/",
+          "chars": 3904
         },
         {
           "url": "https://beautycell-cl.com/menu/regenerative_medicine/diabetes/",
@@ -1176,6 +1176,933 @@
           "plan_id": "V41_03C2604028",
           "treatment_class": "APS/PRP",
           "treatment": "変形性関節症に対する多血小板血漿抽出液（APS）関節内投与療法",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F7CE93E5920",
+      "facility": "医療法人慶春会 脳梗塞・脊髄損傷クリニック銀座院",
+      "seed_url": "https://neurotech.jp/about-clinic",
+      "pages": [
+        {
+          "url": "https://neurotech.jp/about-clinic",
+          "chars": 8287
+        },
+        {
+          "url": "https://neurotech.jp/regenerative-medicine-for-spinal-cord-injury/",
+          "chars": 8184
+        },
+        {
+          "url": "https://neurotech.jp/regenerative-medicine-for-stroke/",
+          "chars": 7222
+        },
+        {
+          "url": "https://neurotech.jp/doctor/",
+          "chars": 12519
+        },
+        {
+          "url": "https://neurotech.jp/saiseiiryou/cytokine/",
+          "chars": 5285
+        },
+        {
+          "url": "https://neurotech.jp/saiseiiryou/",
+          "chars": 1901
+        },
+        {
+          "url": "https://neurotech.jp/saiseiiryou/stem-cell-infusion/",
+          "chars": 6758
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2506078",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F70C769660D",
+      "facility": "医療法人社団敬和慶友会 自由が丘くびと腰の整形外科関節のクリニック",
+      "seed_url": "https://seikeigeka.clinic/",
+      "pages": [
+        {
+          "url": "https://seikeigeka.clinic/",
+          "chars": 3218
+        },
+        {
+          "url": "https://seikeigeka.clinic/shinryou_guide/prp/",
+          "chars": 2900
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2410055",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FD361E6CD7C",
+      "facility": "銀座ALIVIO clinic",
+      "seed_url": "https://ginza-alivio.com/",
+      "pages": [
+        {
+          "url": "https://ginza-alivio.com/",
+          "chars": 1727
+        },
+        {
+          "url": "https://ginza-alivio.com/menu/",
+          "chars": 1446
+        },
+        {
+          "url": "https://ginza-alivio.com/maps/",
+          "chars": 563
+        },
+        {
+          "url": "https://ginza-alivio.com/regenerative_medicine/",
+          "chars": 1320
+        },
+        {
+          "url": "https://ginza-alivio.com/doctors/",
+          "chars": 1728
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2411046",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自家脂肪由来幹細胞を用いた変形性関節症治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F52C8BCC0C9",
+      "facility": "順天堂大学医学部附属順天堂医院",
+      "seed_url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+      "pages": [
+        {
+          "url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+          "chars": 3544
+        },
+        {
+          "url": "https://hosp.juntendo.ac.jp/about/attempt/prp.html",
+          "chars": 0
+        },
+        {
+          "url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/",
+          "chars": 717
+        },
+        {
+          "url": "https://hosp.juntendo.ac.jp/clinic/department/seikei/about/",
+          "chars": 11963
+        },
+        {
+          "url": "https://hosp.juntendo.ac.jp/albums/abm.php?d=5674&f=abm00015503.pdf&n=%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%88PRP%EF%BC%89%E7%99%82%E6%B3%95%E6%96%BD%E8%A1%8C%E6%82%A3%E8%80%85%E3%81%AE%E5%8A%B9%E6%9E%9C%E3%81%A8%E5%8A%B9%E6%9E%9C%E3%81%AB%E5%BD%B1%E9%9F%BF%E3%82%92%E5%8F%8A%E3%81%BC%E3%81%99%E5%9B%A0%E5%AD%90%E3%81%AE%E7%A0%94%E7%A9%B6.pdf",
+          "chars": 113067
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_03C2609016",
+          "treatment_class": "PRP",
+          "treatment": "自己多血小板血漿(PRP)療法（治療対象：筋・腱・靭帯・椎体周囲軟部組織の損傷）",
+          "candidates": [
+            {
+              "amount": 26400,
+              "tax": "不明",
+              "score": 14,
+              "line": "PRP療法は、日本ではまだ保険診療として認められていません。そのため、治療を受ける方は自由診療となります。当院での一回のPRP注射にかかる費用は現在26,400円(両膝の場合は52,800円)+第二種再生医療実施料(13,200円)です。PRP療法は再生医療のひとつですが、先進医療や高額医療の補助の対象とはなりません。PRP療法実施日の痛み止めや湿布の処方、および検査もすべて自費となりますのでご注意ください。",
+              "excerpt": "これまでに、プロスポーツ選手から学生スポーツ、中高年のスポーツ愛好家まで、幅広い対象の方にこの治療法を行っています。他院で手術加療を勧められたが決心がつかず、最後の保存療法としてPRP療法を希望して来院され、PRP療法が奏効して手術を回避できた方も複数います。先述のように、非常に副作用の少ない治療ですので、数ある保存加療のうちの一つの選択肢として、特に既存の治療法への反応が乏しい方への実施をお勧めしています。 多血小板血漿(PRP)治療の費用とスケジュール PRP療法は、日本ではまだ保険診療として認められていません。そのため、治療を受ける方は自由診療となります。当院での一回のPRP注射にかかる費用は現在26,400円(両膝の場合は52,800円)+第二種再生医療実施料(13,200円)です。PRP療法は再生医療のひとつですが、先進医療や高額医療の補助の対象とはなりません。PRP療法実施日の痛み止めや湿布の処方、および検査もすべて自費となりますのでご注意ください。 当院では、通常3~4週間の間隔で3回のPRP療法を1クールとして行っていますが、PRP療法を行うかどうかは当日の状態によって担当医と患者さんがご相談の上で最終決定いたします。3回の治療を行ってから約3か月後(治療開始から半年)に、痛みがどれくらい取れたか、生活がどれくらい改善したか、レントゲンやMRI検査所見がどう変化したかを評価します。効果が認められた方では2クール目のPRP療法を行う方もいらっしゃいます。 残念ながら効果がなかった方も、特殊なPRPの作成方法により抗炎症作用を高めた新しいPRP療法(APS療法:注射は1年間に1回で費用は片膝330,000円+第二種再生医療実施料)や、骨切り術や人工関節置換術などの手術加療を行う事も可能ですので担当医にご相談ください。",
+              "target_kind": "PRP",
+              "label_match": "same_line",
+              "source_url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+              "combined_score": 14
+            },
+            {
+              "amount": 50000,
+              "tax": "不明",
+              "score": 14,
+              "line": "当院では様々な再生医療を行っております。5万円以内で施行できるPRP療法から、100万円以上の費用を要する培養幹細胞治療まで、費用には大きな開きがあります。現在のところ、これらの治療法の効果はどれも概ね「6割」の方に認められると報告されています。しかし、高額な費用の治療の方が効果もより高いかどうかは明らかにされておりません。では、なぜ費用に差があるのでしょうか?それは、治療に使用する加工物(細胞や液性成分)を精製する過程において、より高度の医療技術を必要とするものの方が必然的に費用が高くなるためであります。また、どの治療がその患者さんに最適なのかを治療前に判定できればよいのですが、残念ながらまだそれも研究段階で明らかになっておりません。当院で行っているすべての再生医療に対して効果を示す方もいれば、どれか一つにだけ効果を示す方、残念ながらどれにも効果を示さない方など、患者さんによってその効果の現れ方は様々です。",
+              "excerpt": "この数字を高いと捉える方もいれば、低いと捉える方もおられます。我々は、手術以外の様々な方法(痛み止めの内服やヒアルロン酸の注射など)を行っても無効であった方の6割に効果を示せば、手術以外の治療の一つの選択肢として試してみる価値はある治療なのではないかと考えております。さらに、日本では保険診療として認められているヒアルロン酸注射と比較した研究でも、PRPや幹細胞治療は除痛効果や機能改善効果が高く、効果持続期間も長いとする論文が多く存在します。 高額な治療の方が効果的? 当院では様々な再生医療を行っております。5万円以内で施行できるPRP療法から、100万円以上の費用を要する培養幹細胞治療まで、費用には大きな開きがあります。現在のところ、これらの治療法の効果はどれも概ね「6割」の方に認められると報告されています。しかし、高額な費用の治療の方が効果もより高いかどうかは明らかにされておりません。では、なぜ費用に差があるのでしょうか?それは、治療に使用する加工物(細胞や液性成分)を精製する過程において、より高度の医療技術を必要とするものの方が必然的に費用が高くなるためであります。また、どの治療がその患者さんに最適なのかを治療前に判定できればよいのですが、残念ながらまだそれも研究段階で明らかになっておりません。当院で行っているすべての再生医療に対して効果を示す方もいれば、どれか一つにだけ効果を示す方、残念ながらどれにも効果を示さない方など、患者さんによってその効果の現れ方は様々です。 血小板は多ければ多いほど効くのですか? PRP療法を受ける患者さんに「私の血小板、ダメかしら」と言われることがあります。血小板は様々な成長因子を放出しますので、血小板が多ければ多いほど効果的なのではないかと考えられてきましたが、実はそうではないことが分かってきました。PRP中には沢山の成長因子(細胞を活性化させる)やサイトカイン(痛みや炎症を抑制する)が含まれております。",
+              "target_kind": "PRP",
+              "label_match": "same_line",
+              "source_url": "https://hosp.juntendo.ac.jp/clinic/department/seikei/about/",
+              "combined_score": 14
+            },
+            {
+              "amount": 52800,
+              "tax": "不明",
+              "score": 14,
+              "line": "PRP療法は、日本ではまだ保険診療として認められていません。そのため、治療を受ける方は自由診療となります。当院での一回のPRP注射にかかる費用は現在26,400円(両膝の場合は52,800円)+第二種再生医療実施料(13,200円)です。PRP療法は再生医療のひとつですが、先進医療や高額医療の補助の対象とはなりません。PRP療法実施日の痛み止めや湿布の処方、および検査もすべて自費となりますのでご注意ください。",
+              "excerpt": "これまでに、プロスポーツ選手から学生スポーツ、中高年のスポーツ愛好家まで、幅広い対象の方にこの治療法を行っています。他院で手術加療を勧められたが決心がつかず、最後の保存療法としてPRP療法を希望して来院され、PRP療法が奏効して手術を回避できた方も複数います。先述のように、非常に副作用の少ない治療ですので、数ある保存加療のうちの一つの選択肢として、特に既存の治療法への反応が乏しい方への実施をお勧めしています。 多血小板血漿(PRP)治療の費用とスケジュール PRP療法は、日本ではまだ保険診療として認められていません。そのため、治療を受ける方は自由診療となります。当院での一回のPRP注射にかかる費用は現在26,400円(両膝の場合は52,800円)+第二種再生医療実施料(13,200円)です。PRP療法は再生医療のひとつですが、先進医療や高額医療の補助の対象とはなりません。PRP療法実施日の痛み止めや湿布の処方、および検査もすべて自費となりますのでご注意ください。 当院では、通常3~4週間の間隔で3回のPRP療法を1クールとして行っていますが、PRP療法を行うかどうかは当日の状態によって担当医と患者さんがご相談の上で最終決定いたします。3回の治療を行ってから約3か月後(治療開始から半年)に、痛みがどれくらい取れたか、生活がどれくらい改善したか、レントゲンやMRI検査所見がどう変化したかを評価します。効果が認められた方では2クール目のPRP療法を行う方もいらっしゃいます。 残念ながら効果がなかった方も、特殊なPRPの作成方法により抗炎症作用を高めた新しいPRP療法(APS療法:注射は1年間に1回で費用は片膝330,000円+第二種再生医療実施料)や、骨切り術や人工関節置換術などの手術加療を行う事も可能ですので担当医にご相談ください。",
+              "target_kind": "PRP",
+              "label_match": "same_line",
+              "source_url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+              "combined_score": 14
+            },
+            {
+              "amount": 300000,
+              "tax": "不明",
+              "score": 14,
+              "line": "このAPS作成には特殊な機器を必要とするため、費用も高額(約30万円)ですが、第一選択のPRPが無効な方で、APSにて効果が出る方もおられます。APS治療では、従来のPRPと比べて注射後の痛みが4~5日間続く方が多くなっておりますが、これはAPS中に白血球が多く含まれるためと考えております。ご興味のある方は担当医にご相談ください。",
+              "excerpt": "さらに、血小板とは別に、もともと血漿中に存在する沢山の蛋白や液性成分も含まれております。当院で治療した約800名の患者さんの血小板数と治療効果に関係があるか調べましたが、関係性は見出せませんでした。 そのため、血小板だけではなく様々な細胞から放出されてPRP中に存在している物質が、治療の効果に複雑に関係していると考え、現在も様々な研究を行っております。また、PRP中には血小板以外にも白血球が存在しますが、我々は白血球が少ないPRPを第一選択として使用しております。また、白血球を多く含み、白血球由来の炎症を抑える働きを持つ蛋白を高めたPRP(APS: autologous protein solution)も使用しております。 このAPS作成には特殊な機器を必要とするため、費用も高額(約30万円)ですが、第一選択のPRPが無効な方で、APSにて効果が出る方もおられます。APS治療では、従来のPRPと比べて注射後の痛みが4~5日間続く方が多くなっておりますが、これはAPS中に白血球が多く含まれるためと考えております。ご興味のある方は担当医にご相談ください。 治療の開始時期について 患者さんにこんなことを言われます「わたし、これまでずっと我慢し続けて、こんなにひどくなっちゃったんです。もう手遅れですか?」。その問いかけは、当たっている部分もあればそうではない部分もあります。当院で治療した患者さんのデータをみると、やはり「変形が軽い方のが効果が得られやすい」のは事実です。軟骨がすり減り始めたばかりの方では、再生医療の治療効果は約7割の方に認められますが、軟骨がなくなってしまった方ではその効果は約5割に低下します。また、治療後に一時的に良くなっても、歩いて生活をしているうちに再び骨や軟骨が傷み、半年を過ぎたあたりから痛みがぶり返してくる方もおられます。",
+              "target_kind": "PRP",
+              "label_match": "same_line",
+              "source_url": "https://hosp.juntendo.ac.jp/clinic/department/seikei/about/",
+              "combined_score": 14
+            },
+            {
+              "amount": 330000,
+              "tax": "不明",
+              "score": 14,
+              "line": "残念ながら効果がなかった方も、特殊なPRPの作成方法により抗炎症作用を高めた新しいPRP療法(APS療法:注射は1年間に1回で費用は片膝330,000円+第二種再生医療実施料)や、骨切り術や人工関節置換術などの手術加療を行う事も可能ですので担当医にご相談ください。",
+              "excerpt": "PRP療法は、日本ではまだ保険診療として認められていません。そのため、治療を受ける方は自由診療となります。当院での一回のPRP注射にかかる費用は現在26,400円(両膝の場合は52,800円)+第二種再生医療実施料(13,200円)です。PRP療法は再生医療のひとつですが、先進医療や高額医療の補助の対象とはなりません。PRP療法実施日の痛み止めや湿布の処方、および検査もすべて自費となりますのでご注意ください。 当院では、通常3~4週間の間隔で3回のPRP療法を1クールとして行っていますが、PRP療法を行うかどうかは当日の状態によって担当医と患者さんがご相談の上で最終決定いたします。3回の治療を行ってから約3か月後(治療開始から半年)に、痛みがどれくらい取れたか、生活がどれくらい改善したか、レントゲンやMRI検査所見がどう変化したかを評価します。効果が認められた方では2クール目のPRP療法を行う方もいらっしゃいます。 残念ながら効果がなかった方も、特殊なPRPの作成方法により抗炎症作用を高めた新しいPRP療法(APS療法:注射は1年間に1回で費用は片膝330,000円+第二種再生医療実施料)や、骨切り術や人工関節置換術などの手術加療を行う事も可能ですので担当医にご相談ください。 PRP外来を受診したい患者さん 多血小板血漿(PRP)治療の経過解析",
+              "target_kind": "PRP",
+              "label_match": "same_line",
+              "source_url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+              "combined_score": 14
+            },
+            {
+              "amount": 1000000,
+              "tax": "不明",
+              "score": 14,
+              "line": "当院では様々な再生医療を行っております。5万円以内で施行できるPRP療法から、100万円以上の費用を要する培養幹細胞治療まで、費用には大きな開きがあります。現在のところ、これらの治療法の効果はどれも概ね「6割」の方に認められると報告されています。しかし、高額な費用の治療の方が効果もより高いかどうかは明らかにされておりません。では、なぜ費用に差があるのでしょうか?それは、治療に使用する加工物(細胞や液性成分)を精製する過程において、より高度の医療技術を必要とするものの方が必然的に費用が高くなるためであります。また、どの治療がその患者さんに最適なのかを治療前に判定できればよいのですが、残念ながらまだそれも研究段階で明らかになっておりません。当院で行っているすべての再生医療に対して効果を示す方もいれば、どれか一つにだけ効果を示す方、残念ながらどれにも効果を示さない方など、患者さんによってその効果の現れ方は様々です。",
+              "excerpt": "この数字を高いと捉える方もいれば、低いと捉える方もおられます。我々は、手術以外の様々な方法(痛み止めの内服やヒアルロン酸の注射など)を行っても無効であった方の6割に効果を示せば、手術以外の治療の一つの選択肢として試してみる価値はある治療なのではないかと考えております。さらに、日本では保険診療として認められているヒアルロン酸注射と比較した研究でも、PRPや幹細胞治療は除痛効果や機能改善効果が高く、効果持続期間も長いとする論文が多く存在します。 高額な治療の方が効果的? 当院では様々な再生医療を行っております。5万円以内で施行できるPRP療法から、100万円以上の費用を要する培養幹細胞治療まで、費用には大きな開きがあります。現在のところ、これらの治療法の効果はどれも概ね「6割」の方に認められると報告されています。しかし、高額な費用の治療の方が効果もより高いかどうかは明らかにされておりません。では、なぜ費用に差があるのでしょうか?それは、治療に使用する加工物(細胞や液性成分)を精製する過程において、より高度の医療技術を必要とするものの方が必然的に費用が高くなるためであります。また、どの治療がその患者さんに最適なのかを治療前に判定できればよいのですが、残念ながらまだそれも研究段階で明らかになっておりません。当院で行っているすべての再生医療に対して効果を示す方もいれば、どれか一つにだけ効果を示す方、残念ながらどれにも効果を示さない方など、患者さんによってその効果の現れ方は様々です。 血小板は多ければ多いほど効くのですか? PRP療法を受ける患者さんに「私の血小板、ダメかしら」と言われることがあります。血小板は様々な成長因子を放出しますので、血小板が多ければ多いほど効果的なのではないかと考えられてきましたが、実はそうではないことが分かってきました。PRP中には沢山の成長因子(細胞を活性化させる)やサイトカイン(痛みや炎症を抑制する)が含まれております。",
+              "target_kind": "PRP",
+              "label_match": "same_line",
+              "source_url": "https://hosp.juntendo.ac.jp/clinic/department/seikei/about/",
+              "combined_score": 14
+            }
+          ],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F075DAACD91",
+      "facility": "医療法人親仁会 佐藤病院",
+      "seed_url": "https://www.sato-hosp.jp/",
+      "pages": [
+        {
+          "url": "https://www.sato-hosp.jp/",
+          "chars": 1952
+        },
+        {
+          "url": "https://www.sato-hosp.jp/news.html",
+          "chars": 2983
+        },
+        {
+          "url": "https://www.sato-hosp.jp/prp.html",
+          "chars": 3722
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2307023",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿（PRP）を用いた筋、腱、靭帯への治療",
+          "candidates": [
+            {
+              "amount": 165000,
+              "tax": "税込",
+              "score": 11,
+              "line": "165,000円(税込)",
+              "excerpt": "そのため、治療を受ける方は自由診療となります。またPRP療法ご希望の方はまずは本治療の適応であるかを診断するために、一度通常の受診をしていただきます。治療の適応がある場合には、治療日を決めて予約します。(※ご希望の方は、一度病院にお尋ねください) 当院でのPRP 1治療(2回投与) 165,000円(税込) PRP療法は再生医療のひとつですが、先進医療や高額医療の補助の対象とはなりません。当院では、通常3~4週間の間隔で2回のPRP療法を1クールとして行っていますが、PRP療法を行うかどうかは当日の状態によって担当医と患者さんがご相談の上で最終決定いたします。2回の治療を行ってから約3か月後(治療開始から半年)に、痛みがどれくらい取れたか、生活がどれくらい改善したか、レントゲンやMRI検査所見がどう変化したかを評価します。効果が認められた方では2クール目のPRP療法を行う方もいらっしゃいます。 残念ながら効果がなかった方も、関節鏡下手術、骨切り術や人工関節置換術などの手術加療を行う事も可能ですので担当医にご相談ください。",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://www.sato-hosp.jp/prp.html",
+              "combined_score": 11
+            }
+          ],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FD7677D490C",
+      "facility": "医療法人湘美会 SBC横浜駅前整形外科クリニック",
+      "seed_url": "https://www.sbc-seikeigeka.com/clinic/branch/yokohama/",
+      "pages": [
+        {
+          "url": "https://www.sbc-seikeigeka.com/clinic/branch/yokohama/",
+          "chars": 5175
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2508038",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自己脂肪組織由来幹細胞（ASCs）を用いた変形性関節症の治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F6CD422CED3",
+      "facility": "医療法人社団葵会 AOI国際病院",
+      "seed_url": "https://www.aoikai.jp/aoiuniversalhospital/regenerative/",
+      "pages": [
+        {
+          "url": "https://www.aoikai.jp/aoiuniversalhospital/regenerative/",
+          "chars": 2122
+        },
+        {
+          "url": "https://www.aoikai.jp/aoiuniversalhospital/specialty/prp/prp02/",
+          "chars": 2350
+        },
+        {
+          "url": "https://www.aoikai.jp/aoiuniversalhospital/specialty/prp/prp01/",
+          "chars": 2527
+        },
+        {
+          "url": "https://www.aoikai.jp/aoiuniversalhospital/regenerative_medicine_committee/rmc01/",
+          "chars": 2339
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2104005",
+          "treatment_class": "PRP",
+          "treatment": "整形外科領域におけるPRP（多血小板血漿）療法",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F0AA5AE12F1",
+      "facility": "弘明寺整形外科リハビリテーションクリニック",
+      "seed_url": "https://www.gumyoji-seikei.com/prp/",
+      "pages": [
+        {
+          "url": "https://www.gumyoji-seikei.com/prp/",
+          "chars": 6421
+        },
+        {
+          "url": "https://www.gumyoji-seikei.com/self-pay/",
+          "chars": 6534
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2502023",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた\r\n慢性関節炎の治療（関節内組織）",
+          "candidates": [
+            {
+              "amount": 35000,
+              "tax": "税込",
+              "score": 11,
+              "line": "35,000円(税込)",
+              "excerpt": "PRP療法の費用 PRP療法 1回 35,000円(税込) ※左右両側に施行する場合は 70,000円(税込) となります。 よくある質問(FAQ)",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://www.gumyoji-seikei.com/prp/",
+              "combined_score": 11
+            },
+            {
+              "amount": 100000,
+              "tax": "不明",
+              "score": 11,
+              "line": "そのため費用は医療機関によって異なりますが、一般的には1回あたり数万円〜10万円程度かかることがあります。",
+              "excerpt": "の治療です PRP療法は、日本では一部の疾患を除き保険診療の対象外となることが多く、自由診療として行われます。 そのため費用は医療機関によって異なりますが、一般的には1回あたり数万円〜10万円程度かかることがあります。 効果には個人差があります すべての患者さんに同じ効果が得られるわけではありません。",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://www.gumyoji-seikei.com/prp/",
+              "combined_score": 11
+            }
+          ],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FA20D012DAD",
+      "facility": "医療法人社団桜伸会 さくらクリニック",
+      "seed_url": "https://www.sakura-clinic.org/",
+      "pages": [
+        {
+          "url": "https://www.sakura-clinic.org/",
+          "chars": 2627
+        },
+        {
+          "url": "https://www.sakura-clinic.org/price/price_2",
+          "chars": 786
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2606078",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "慢性疼痛緩和を目的とした自家培養脂肪由来間葉系幹細胞の関節内投与による治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F34A769E095",
+      "facility": "幹細胞クリニック東京",
+      "seed_url": "https://kansaibou-clinic.or.jp/",
+      "pages": [
+        {
+          "url": "https://kansaibou-clinic.or.jp/",
+          "chars": 1329
+        },
+        {
+          "url": "https://kansaibou-clinic.or.jp/column/stem-cell-culture-supernatant/",
+          "chars": 5172
+        },
+        {
+          "url": "https://kansaibou-clinic.or.jp/column/stem-cell-therapy/",
+          "chars": 4224
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2601013",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F18AF7F0D02",
+      "facility": "医療法人鉄蕉会 亀田京橋クリニック",
+      "seed_url": "https://medical.kameda.com/kyobashi/",
+      "pages": [
+        {
+          "url": "https://medical.kameda.com/kyobashi/",
+          "chars": 1886
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C1904038",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた関節内組織損傷に対する治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F2F76A73C47",
+      "facility": "東京医科大学病院",
+      "seed_url": "https://hospinfo.tokyo-med.ac.jp/shinryo/seikei/",
+      "pages": [
+        {
+          "url": "https://hospinfo.tokyo-med.ac.jp/shinryo/seikei/",
+          "chars": 5445
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_03C2208002",
+          "treatment_class": "PRP",
+          "treatment": "スポーツ傷害（筋・腱・靭帯）を対象とした自己多血小板血漿注入療法",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F9D55F516BD",
+      "facility": "医療法人輝鳳会 池袋クリニック",
+      "seed_url": "https://ganno-clinic.jp/",
+      "pages": [
+        {
+          "url": "https://ganno-clinic.jp/",
+          "chars": 3009
+        },
+        {
+          "url": "https://ganno-clinic.jp/chiryou/price.html",
+          "chars": 1734
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_03C2601008",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿（PRP）を用いた変形性関節症治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F04A1DFA892",
+      "facility": "医療法人かつの整形外科・リハビリテーション科",
+      "seed_url": "https://katsunoseikei.com/",
+      "pages": [
+        {
+          "url": "https://katsunoseikei.com/",
+          "chars": 1794
+        },
+        {
+          "url": "https://katsunoseikei.com/prp/",
+          "chars": 1779
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_03G2101004",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた筋、腱、靭帯損傷、肩腱板損傷に対する治療",
+          "candidates": [
+            {
+              "amount": 130000,
+              "tax": "不明",
+              "score": 14,
+              "line": "なおPRP療法は自由診療のため健康保険適応外となります。金額は11~13万円です。",
+              "excerpt": "このPRP療法は、国の認可を受けた施設・医師にしか投与を許されていない再生医療です。 当クリニックは認定を受けておりますので安心してご利用ください。 なおPRP療法は自由診療のため健康保険適応外となります。金額は11~13万円です。 PRP療法にご興味をお持ちの方はご遠慮なくお問い合わせください。 PRP療法の流れ",
+              "target_kind": "PRP",
+              "label_match": "same_line",
+              "source_url": "https://katsunoseikei.com/prp/",
+              "combined_score": 14
+            }
+          ],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FD15C5E30AC",
+      "facility": "医療法人野球医学ベースボール＆スポーツクリニック",
+      "seed_url": "https://baseball-sports.clinic/",
+      "pages": [
+        {
+          "url": "https://baseball-sports.clinic/",
+          "chars": 2867
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2412055",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F1F85F83ADF",
+      "facility": "藤沢整形外科クリニック",
+      "seed_url": "https://eishinkai-fujisawa.com/",
+      "pages": [
+        {
+          "url": "https://eishinkai-fujisawa.com/",
+          "chars": 2015
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_03C2305022",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿（PRP）による変形性関節症治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F62C99AB377",
+      "facility": "医療法人颯成会 さいとう整形クリニック",
+      "seed_url": "https://saitouseikei.com/",
+      "pages": [
+        {
+          "url": "https://saitouseikei.com/",
+          "chars": 3376
+        },
+        {
+          "url": "https://saitouseikei.com/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82",
+          "chars": 2136
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2605035",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F043C53111E",
+      "facility": "医療法人ネオポリス診療所 新宿皮フ科",
+      "seed_url": "https://ginzaclinic-stemcell.com/",
+      "pages": [
+        {
+          "url": "https://ginzaclinic-stemcell.com/",
+          "chars": 69
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2311013",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自家脂肪由来間葉系幹細胞を用いた変形性膝関節症の治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FB1A4F951CC",
+      "facility": "医療法人社団OSSO FORTE 東十条整形外科",
+      "seed_url": "http://higa10seikei.jp/",
+      "pages": [
+        {
+          "url": "https://www.higa10seikei.jp/",
+          "chars": 2809
+        },
+        {
+          "url": "https://www.higa10seikei.jp/osteoarthritis.html",
+          "chars": 3565
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2307055",
+          "treatment_class": "PRP",
+          "treatment": "変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FE77155AC34",
+      "facility": "医療法人社団三穂会 三宅整形外科小児科クリニック",
+      "seed_url": "https://www.miyake-seikei.com/",
+      "pages": [
+        {
+          "url": "https://www.miyake-seikei.com/",
+          "chars": 3952
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2411084",
+          "treatment_class": "PRP",
+          "treatment": "変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法",
+          "candidates": [],
+          "no_public_price_evidence": []
+        },
+        {
+          "plan_id": "V41_01C2411085",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FE499C63A14",
+      "facility": "医療法人社団明和会 亀田病院",
+      "seed_url": "https://www.kameda-hp.jp/department/orthopedic_surgery.html",
+      "pages": [
+        {
+          "url": "https://www.kameda-hp.jp/department/orthopedic_surgery.html",
+          "chars": 4491
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2103001",
+          "treatment_class": "PRP",
+          "treatment": "関節炎・変形性関節症の自己多血小板血漿（PRP）治療法",
+          "candidates": [],
+          "no_public_price_evidence": [
+            {
+              "source_url": "https://www.kameda-hp.jp/department/orthopedic_surgery.html",
+              "evidence": "Step5. 経過観察 治療後はリハビリテーションなどを組み合わせながら回復をサポート 費用について PRP療法は、現在のところ保険適用外の自由診療となります。治療にかかる費用については、診察時に詳しくご説明させていただきます。"
+            },
+            {
+              "source_url": "https://www.kameda-hp.jp/department/orthopedic_surgery.html",
+              "evidence": "経過観察 治療後はリハビリテーションなどを組み合わせながら回復をサポート 費用について PRP療法は、現在のところ保険適用外の自由診療となります。治療にかかる費用については、診察時に詳しくご説明させていただきます。 安全性・副作用"
+            },
+            {
+              "source_url": "https://www.kameda-hp.jp/department/orthopedic_surgery.html",
+              "evidence": "治療後はリハビリテーションなどを組み合わせながら回復をサポート 費用について PRP療法は、現在のところ保険適用外の自由診療となります。治療にかかる費用については、診察時に詳しくご説明させていただきます。 安全性・副作用 ご自身の血液を使用するため、拒絶反応や感染症のリスクは極めて低いとされています。ただし、一時的に以下のような症状が出ることがあります。"
+            },
+            {
+              "source_url": "https://www.kameda-hp.jp/department/orthopedic_surgery.html",
+              "evidence": "費用について PRP療法は、現在のところ保険適用外の自由診療となります。治療にかかる費用については、診察時に詳しくご説明させていただきます。 安全性・副作用 ご自身の血液を使用するため、拒絶反応や感染症のリスクは極めて低いとされています。ただし、一時的に以下のような症状が出ることがあります。 ・注入後の数日間、軽度の痛みや腫れ"
+            },
+            {
+              "source_url": "https://www.kameda-hp.jp/department/orthopedic_surgery.html",
+              "evidence": "PRP療法は、現在のところ保険適用外の自由診療となります。治療にかかる費用については、診察時に詳しくご説明させていただきます。 安全性・副作用 ご自身の血液を使用するため、拒絶反応や感染症のリスクは極めて低いとされています。ただし、一時的に以下のような症状が出ることがあります。 ・注入後の数日間、軽度の痛みや腫れ ・内出血(数日で消失します)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FAF8317BA68",
+      "facility": "医療法人社団梅沢医院 梅沢整形外科",
+      "seed_url": "https://umezawa-clinic.com/",
+      "pages": [
+        {
+          "url": "https://umezawa-clinic.com/",
+          "chars": 5211
+        },
+        {
+          "url": "https://umezawa-clinic.com/price/",
+          "chars": 5454
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C1906040",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿を用いた再生医療",
+          "candidates": [
+            {
+              "amount": 176000,
+              "tax": "不明",
+              "score": 12,
+              "line": "PRP-FD 154.000円 PRP-FD2.0 176,000円",
+              "excerpt": "ACP 46,200円 Waqoo(シングル) 143,000円 (ダブル) 187,000円 PRP-FD 154.000円 PRP-FD2.0 176,000円 詳しくは当ホームページの整形外科の診療案内よりPRP-FD療法にお入りいただき当院のPRP治療内容と料金等をご確認ください。 院内では掲示及びパンフレットをご用意しております。ご希望の方・ご質問のある方は診察時に医師にご相談ください。",
+              "target_kind": "PRP",
+              "label_match": "same_line",
+              "source_url": "https://umezawa-clinic.com/",
+              "combined_score": 12
+            },
+            {
+              "amount": 46200,
+              "tax": "不明",
+              "score": 10,
+              "line": "ACP 46,200円",
+              "excerpt": "当院でのPRP治療(再生医療)について 当院では再生医療(関節、靱帯の再生医療の注射)としてACP・Waqoo・PRP-FDの治療を行っております。 ACP 46,200円 Waqoo(シングル) 143,000円 (ダブル) 187,000円 PRP-FD 154.000円 PRP-FD2.0 176,000円",
+              "target_kind": "PRP",
+              "label_match": "same_line",
+              "source_url": "https://umezawa-clinic.com/",
+              "combined_score": 10
+            },
+            {
+              "amount": 143000,
+              "tax": "不明",
+              "score": 9,
+              "line": "Waqoo(シングル) 143,000円 (ダブル) 187,000円",
+              "excerpt": "当院では再生医療(関節、靱帯の再生医療の注射)としてACP・Waqoo・PRP-FDの治療を行っております。 ACP 46,200円 Waqoo(シングル) 143,000円 (ダブル) 187,000円 PRP-FD 154.000円 PRP-FD2.0 176,000円 詳しくは当ホームページの整形外科の診療案内よりPRP-FD療法にお入りいただき当院のPRP治療内容と料金等をご確認ください。",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://umezawa-clinic.com/",
+              "combined_score": 9
+            },
+            {
+              "amount": 187000,
+              "tax": "不明",
+              "score": 9,
+              "line": "Waqoo(シングル) 143,000円 (ダブル) 187,000円",
+              "excerpt": "当院では再生医療(関節、靱帯の再生医療の注射)としてACP・Waqoo・PRP-FDの治療を行っております。 ACP 46,200円 Waqoo(シングル) 143,000円 (ダブル) 187,000円 PRP-FD 154.000円 PRP-FD2.0 176,000円 詳しくは当ホームページの整形外科の診療案内よりPRP-FD療法にお入りいただき当院のPRP治療内容と料金等をご確認ください。",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://umezawa-clinic.com/",
+              "combined_score": 9
+            }
+          ],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F439538D391",
+      "facility": "医療法人山本整形外科医院",
+      "seed_url": "https://yamamoto-orth.com/information/self-paid/",
+      "pages": [
+        {
+          "url": "https://yamamoto-orth.com/information/self-paid/",
+          "chars": 771
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2206015",
+          "treatment_class": "PRP",
+          "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F0BD84E86C2",
+      "facility": "国家公務員共済組合連合会 横浜南共済病院",
+      "seed_url": "https://minamikyousai.kkr.or.jp/service/orthopedics/",
+      "pages": [
+        {
+          "url": "https://minamikyousai.kkr.or.jp/service/orthopedics/",
+          "chars": 3957
+        },
+        {
+          "url": "https://minamikyousai.kkr.or.jp/raiin/nyuin/price.html",
+          "chars": 2244
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2411039",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿（PRP）を用いた腱付着部炎・腱障害・筋損傷・靭帯損傷（関節外に限る）治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F7AAE4023FC",
+      "facility": "小田原市立病院",
+      "seed_url": "https://www.city.odawara.kanagawa.jp/hospital/section/orth/prp.html",
+      "pages": [],
+      "plans": [],
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.city.odawara.kanagawa.jp/hospital/section/orth/prp.html"
+    },
+    {
+      "facility_id": "V41FA4C65591BA",
+      "facility": "医療法人柿生会 渡辺クリニック",
+      "seed_url": "https://watanabeclinic.com/",
+      "pages": [
+        {
+          "url": "https://watanabeclinic.com/",
+          "chars": 2437
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2608038",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FC7A655E44B",
+      "facility": "産業医科大学若松病院",
+      "seed_url": "https://www.wakamatsu-sportsmed.com/blank-4",
+      "pages": [
+        {
+          "url": "https://www.wakamatsu-sportsmed.com/blank-4",
+          "chars": 18008
+        },
+        {
+          "url": "https://www.wakamatsu-sportsmed.com/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82-%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%E7%99%82%E6%B3%95-prp",
+          "chars": 2770
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_03G2403004",
+          "treatment_class": "PRP",
+          "treatment": "整形外科領域における多血小板血漿(PRP)療法",
+          "candidates": [
+            {
+              "amount": 50000,
+              "tax": "税別",
+              "score": 11,
+              "line": "1セット50,000円(税別)となります。",
+              "excerpt": "​費用と保険について PRP治療は自由診療となりますので保険適応外です。 1セット50,000円(税別)となります。 bottom of page",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://www.wakamatsu-sportsmed.com/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82-%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%E7%99%82%E6%B3%95-prp",
+              "combined_score": 11
+            }
+          ],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FBEAA3D4434",
+      "facility": "慶友整形外科クリニック",
+      "seed_url": "https://www.ku-kai.or.jp/html/ko.php",
+      "pages": [
+        {
+          "url": "https://www.ku-kai.or.jp/html/ko.php",
+          "chars": 3428
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2304008",
+          "treatment_class": "PRP",
+          "treatment": "高白血球多血小板血漿（leukocyte rich PRP：LR-PRP）を用いた膝蓋腱炎、上腕骨外側顆炎、腱板炎、足底筋膜炎、靭帯損傷、腱鞘炎の修復",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F897007AA88",
+      "facility": "アントラーズスポーツクリニック",
+      "seed_url": "https://www.antlerssc.com/",
+      "pages": [
+        {
+          "url": "https://www.antlerssc.com/",
+          "chars": 1335
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_03C2311002",
+          "treatment_class": "PRP",
+          "treatment": "四肢の靱帯、筋腱付着部およびスポーツ傷害（筋・腱・靭 帯）を対象とした自己多血小板血漿注入療法",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F04E31ABAD7",
+      "facility": "医療法人吉祥会 吉井整形外科内科中央病院",
+      "seed_url": "https://kisshokai.com/",
+      "pages": [
+        {
+          "url": "https://kisshokai.com/",
+          "chars": 3795
+        },
+        {
+          "url": "https://kisshokai.com/nyuin/hiyou/",
+          "chars": 2407
+        },
+        {
+          "url": "https://kisshokai.com/gairai/treatment/",
+          "chars": 2197
+        },
+        {
+          "url": "https://kisshokai.com/prp%E7%99%82%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+          "chars": 2095
+        },
+        {
+          "url": "https://kisshokai.com/gairai/",
+          "chars": 2434
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01G2404012",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋 肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療(関節腔外に 限る)",
           "candidates": [],
           "no_public_price_evidence": []
         }
