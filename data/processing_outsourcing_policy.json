@@ -1,0 +1,17 @@
+{
+  "version": "2026-09-19",
+  "scope": "processing-only platelet-derived products such as PRP-FD/PFC-FD",
+  "rules": [
+    "Exclude processing-outsourcing products from the regenerative-medicine canonical facility/price/manufacturer system when they do not require a regenerative medicine provision-plan filing.",
+    "Do not count processing-only products in manufacturer share or cost rankings.",
+    "When encountered during audits, append a lead to data/processing_outsourcing_watchlist.tsv.",
+    "Record the processing contractor only when supported by primary evidence or a validated proprietary-brand mapping.",
+    "Facility may remain in the main database for separate in-scope treatments such as live PRP/ACP/APS; exclude only the processing-only product rows."
+  ],
+  "excluded_labels": [
+    "PRP-FD",
+    "PRP-FD2.0",
+    "PFC-FD",
+    "L-cepfer"
+  ]
+}
