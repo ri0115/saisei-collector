@@ -1,0 +1,23 @@
+{
+  "arthrex_locator_facilities": 0,
+  "zimmer_locator_facilities": 209,
+  "target_unknown_pool_rows": 366,
+  "all_exact_matches": 26,
+  "new_high_confidence_matches": 6,
+  "new_review_matches": 1,
+  "new_high_unique_facilities": 6,
+  "new_review_unique_facilities": 1,
+  "high_by_manufacturer": {
+    "Zimmer Biomet": 6
+  },
+  "review_by_manufacturer": {
+    "Zimmer Biomet": 1
+  },
+  "multi_manufacturer_new_facilities": [],
+  "policy": {
+    "Arthrex ACP-PRP": "HIGH because manufacturer-operated locator explicitly labels ACP-PRP",
+    "Arthrex HD-PRP": "REVIEW",
+    "Zimmer APS": "HIGH because Zimmer-operated locator explicitly labels APS therapy",
+    "Zimmer PRP only": "REVIEW"
+  }
+}
