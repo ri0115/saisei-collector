@@ -3,16 +3,28 @@ on:
   push:
     paths:
       - "scripts/rebuild_maker_canonical.py"
+      - "scripts/build_maker_next_batch.py"
       - "data/product_manufacturer_registry.json"
       - "results/v42_maker_manual_verified_additions.tsv"
+      - "results/v42_maker_manual_audit_batch*.tsv"
       - "results/v42_maker_recovery_full366.tsv"
+      - "results/v42_maker_recovery_official_strict_v2.tsv"
+      - "results/v42_additions_final_compact.tsv"
       - "results/maker_locator_crossmatch/matches.tsv"
+      - "results/maker_locator_crossmatch/arthrex_locator.tsv"
+      - "results/maker_locator_crossmatch/zimmer_locator.tsv"
       - "results/v42_v40_price_stage_*_batch*.tsv"
       - "results/v42_price_merge_stage_batch*.tsv"
       - ".github/workflows/rebuild-maker-canonical.yml"
   workflow_dispatch:
+
 permissions:
   contents: write
+
+concurrency:
+  group: rebuild-maker-canonical-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   rebuild:
     runs-on: ubuntu-latest
@@ -22,12 +34,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/rebuild_maker_canonical.py
-      - name: Commit canonical rebuild
+      - name: Rebuild canonical snapshot
+        run: python scripts/rebuild_maker_canonical.py
+      - name: Build next 10-facility maker batch
+        run: python scripts/build_maker_next_batch.py
+      - name: Commit canonical rebuild and next batch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add results/maker_canonical_rebuild
-          git diff --cached --quiet || git commit -m "Rebuild canonical manufacturer snapshot"
+          git add results/maker_candidate_queue.tsv
+          git add results/maker_next_batch.tsv
+          git add results/maker_next_batch_summary.json
+          git diff --cached --quiet || git commit -m "Rebuild canonical manufacturer snapshot and next batch"
           git pull --rebase
           git push
