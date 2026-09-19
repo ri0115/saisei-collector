@@ -1,0 +1,15 @@
+prefecture	facility	product	facility_label_maker	legal_manufacturer	japan_mah_or_supplier	evidence_type	evidence_url	note
+東京都	白山リハビリ整形外科	TriCeLL		REV-MED Inc.	メッド・アライアンス株式会社	MHLW_EXACT_PLAN_PRODUCT_MAP	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507079/5/0	Exact MHLW plan document names TriCell PRP kit.
+東京都	医療法人社団癒合会 高輪和合クリニック	MyCells	Kaylight社	ESTAR TECHNOLOGIES LTD.	ディーマー・メディカル・ジャパン株式会社	MHLW_EXACT_PLAN_PLUS_PMDA	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407028/5/0	Facility document says Kaylight; PMDA current labeling lists ESTAR as legal manufacturer.
+大阪府	ONE CLINIC 梅田	MyCells	Kaylight社	ESTAR TECHNOLOGIES LTD.	ディーマー・メディカル・ジャパン株式会社	FACILITY_OFFICIAL_PLUS_PMDA	https://one-clinic-umeda.com/prp-therapy/	Official facility page states MyCells/Kaylight; legal manufacturer normalized from PMDA.
+東京都	医療法人社団善用会 講道館ビルクリニック	ACP	Arthrex	Arthrex	Arthrex Japan	FACILITY_OFFICIAL_EXPLICIT	https://kodokan.jp/prp療法（自費診療）	Official page explicitly states Arthrex ACP Double Syringe.
+福岡県	医療法人オアシス 福岡志恩病院	APS	Zimmer Biomet	Zimmer Biomet	Zimmer Biomet	FACILITY_OFFICIAL_EXPLICIT	https://shion-hp.jp/new-treatment/	Official page explicitly states Zimmer Biomet APS kit.
+兵庫県	医療法人財団 神戸海星病院	APS		Zimmer Biomet	Zimmer Biomet	FACILITY_OFFICIAL_PRODUCT_MAP	https://www.kobe-kaisei.org/feature/prp/	Official page documents APS treatment; manufacturer from validated product registry.
+福岡県	医療法人一寿会西尾病院	ACP		Arthrex	Arthrex Japan	FACILITY_OFFICIAL_PRODUCT_MAP	https://ichiju-kai.jp/pickup/prp/	Official page documents ACP PRP.
+千葉県	千葉ニュータウン整形外科リハビリテーションクリニック	ACP	Arthrex	Arthrex	Arthrex Japan	FACILITY_OFFICIAL_EXPLICIT	https://chibanewtownseikei.com/prp/	Official page explicitly lists Arthrex ACP Double Syringe System.
+兵庫県	木本整形外科クリニック	MyCells		ESTAR TECHNOLOGIES LTD.	ディーマー・メディカル・ジャパン株式会社	FACILITY_OFFICIAL_PLUS_PMDA	https://kimotoclinic.com/regenerative/	Official page names Mycells PRP kit; legal manufacturer from PMDA.
+大分県	猿渡整形外科スポーツリハクリニック	Condensia	京セラ	京セラ	京セラ	FACILITY_OFFICIAL_EXPLICIT	https://sawatari-cl.com/prp療法/	Official page states Kyocera Condensia system.
+大阪府	アスレティックス整形外科肩膝スポーツクリニック	Condensia	京セラ	京セラ	京セラ	FACILITY_OFFICIAL_EXPLICIT	https://athletics-clinic.jp/facility/	Official page states Kyocera Condensia.
+静岡県	錦野クリニック	TriCeLL	REV-MED	REV-MED Inc.	メッド・アライアンス株式会社	FACILITY_OFFICIAL_EXPLICIT	https://www.nishikino.net/treatment/prp/	Official page states TriCell PRP kit (REV-MED).
+大阪府	大阪市立総合医療センター	ACP	Arthrex	Arthrex	Arthrex Japan	FACILITY_OFFICIAL_EXPLICIT	https://www.osakacity-hp.or.jp/ocgh/dep/sur/seikei/prptiryou.html	Official page explicitly states Arthrex ACP Double Syringe System.
+大阪府	医療法人仁由会 日本ウェルネス再生クリニック	MyCells	Kaylight社	ESTAR TECHNOLOGIES LTD.	ディーマー・メディカル・ジャパン株式会社	FACILITY_OFFICIAL_PLUS_PMDA	https://wbc-saisei.com/menu_hadasaisei.php	Official page states Kaylight MyCells; legal manufacturer normalized from PMDA.
