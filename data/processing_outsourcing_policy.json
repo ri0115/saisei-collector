@@ -6,12 +6,16 @@
     "Do not count processing-only products in manufacturer share or cost rankings.",
     "When encountered during audits, append a lead to data/processing_outsourcing_watchlist.tsv.",
     "Record the processing contractor only when supported by primary evidence or a validated proprietary-brand mapping.",
-    "Facility may remain in the main database for separate in-scope treatments such as live PRP/ACP/APS; exclude only the processing-only product rows."
+    "Facility may remain in the main database for separate in-scope treatments such as live PRP/ACP/APS; exclude only the processing-only product rows.",
+    "Validated contract-processing brands such as Waqoo PDF-FD/PDF-FD5 are excluded even when displayed on an in-scope facility price page."
   ],
   "excluded_labels": [
     "PRP-FD",
     "PRP-FD2.0",
     "PFC-FD",
-    "L-cepfer"
+    "L-cepfer",
+    "PDF-FD",
+    "PDF-FD5",
+    "Waqoo"
   ]
 }
