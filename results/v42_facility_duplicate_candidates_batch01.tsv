@@ -1,0 +1,4 @@
+prefecture	canonical_facility_candidate	alias_facility	mhlw_plan_codes	address	status	note
+群馬県	慶友整形外科クリニック	慶友整形外科クリニック	01C1906015|01C1910017|02C2304008	館林市羽附町1741	DUPLICATE_GROUP_BASE	Existing older facility identity.
+群馬県	慶友整形外科クリニック	社会医療法人慶友会 慶友整形外科クリニック	01C2605018	館林市羽附町1741	DUPLICATE_CANDIDATE	Same address and current facility; legal-prefix variation.
+群馬県	慶友整形外科クリニック	社会医療法人社団慶友会 慶友整形外科クリニック	01C2605017	館林市羽附町1741	DUPLICATE_CANDIDATE	Same address and current facility; legal-prefix variation.
