@@ -1,10 +1,10 @@
 {
   "version": "v41-fast-text-rescue-1.0",
-  "total": 107,
+  "total": 105,
   "auto": 0,
   "qc": 0,
-  "no_match": 47,
-  "error": 60,
+  "no_match": 62,
+  "error": 43,
   "items": [
     {
       "plan_id": "V41_02C2601085",
@@ -15,7 +15,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601085/5/0"
     },
     {
       "plan_id": "V41_02C2601086",
@@ -26,7 +26,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601086/5/0"
     },
     {
       "plan_id": "V41_02C2601087",
@@ -37,7 +37,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601087/5/0"
     },
     {
       "plan_id": "V41_02C2402051",
@@ -48,7 +48,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2402051/5/0"
     },
     {
       "plan_id": "V41_01E2605009",
@@ -70,7 +70,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2307007/5/0"
     },
     {
       "plan_id": "V41_01F2305003",
@@ -114,18 +114,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
-    },
-    {
-      "plan_id": "V41_01C2505023",
-      "facility": "GINZA NOA CLINIC",
-      "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2505023/5/0",
-      "accepted": [],
-      "candidates": [],
-      "status": "NO_MATCH",
-      "error": ""
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2506004/5/0"
     },
     {
       "plan_id": "V41_01C2210035",
@@ -136,7 +125,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2210035/5/0"
     },
     {
       "plan_id": "V41_01C2509020",
@@ -166,17 +155,6 @@
       "treatment": "自家培養脂肪由来幹細胞を用いた変形性関節症の治療",
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504026/5/0",
-      "accepted": [],
-      "candidates": [],
-      "status": "NO_MATCH",
-      "error": ""
-    },
-    {
-      "plan_id": "V41_02C2605056",
-      "facility": "一般社団法人創生会 GINZA NOA CLINIC",
-      "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605056/5/0",
       "accepted": [],
       "candidates": [],
       "status": "NO_MATCH",
@@ -246,7 +224,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2311013/5/0"
     },
     {
       "plan_id": "V41_02C2505009",
@@ -367,7 +345,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606078/5/0"
     },
     {
       "plan_id": "V41_01C2212040",
@@ -389,7 +367,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1912017/5/0"
     },
     {
       "plan_id": "V41_01C1907048",
@@ -400,7 +378,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1907048/5/0"
     },
     {
       "plan_id": "V41_01C2309059",
@@ -499,7 +477,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2510015/5/0"
     },
     {
       "plan_id": "V41_01C2504031",
@@ -565,7 +543,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509032/5/0"
     },
     {
       "plan_id": "V41_02C2509040",
@@ -576,7 +554,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509040/5/0"
     },
     {
       "plan_id": "V41_02C2509048",
@@ -587,7 +565,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "RuntimeError: not pdf"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509048/5/0"
     },
     {
       "plan_id": "V41_02C2507026",
@@ -609,7 +587,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2601008/5/0"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2601008/5/0"
     },
     {
       "plan_id": "V41_01C1904038",
@@ -686,7 +664,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506017/5/0"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506017/5/0"
     },
     {
       "plan_id": "V41_02C2512068",
@@ -718,8 +696,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2403007/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2403007/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_03C2604028",
@@ -729,8 +707,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604028/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604028/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_01C2508064",
@@ -740,8 +718,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508064/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508064/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_02C1909198",
@@ -752,7 +730,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909198/5/0"
+      "error": "RuntimeError: not pdf content-type=application/pdf final=https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909198/5/0"
     },
     {
       "plan_id": "V41_01C2504035",
@@ -762,8 +740,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504035/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504035/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_01C2506021",
@@ -773,8 +751,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506021/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506021/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_01C2406033",
@@ -784,8 +762,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406033/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406033/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_01C2411046",
@@ -795,8 +773,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411046/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411046/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_01C2508039",
@@ -806,8 +784,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508039/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508039/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_03C2308020",
@@ -818,7 +796,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2308020/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_03C2609016",
@@ -829,7 +807,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609016/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_02C2502053",
@@ -840,7 +818,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502053/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_01C2307023",
@@ -850,8 +828,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2307023/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2307023/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_01C2410005",
@@ -861,8 +839,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410005/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410005/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_01C2305022",
@@ -872,8 +850,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2305022/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2305022/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_02C2608038",
@@ -883,8 +861,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608038/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608038/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_02C2508038",
@@ -895,7 +873,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508038/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_02C2104005",
@@ -905,8 +883,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2104005/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2104005/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_01C2411084",
@@ -916,8 +894,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411084/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411084/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_01C2411085",
@@ -927,8 +905,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411085/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411085/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_01C2303043",
@@ -938,8 +916,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303043/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303043/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_03C2305019",
@@ -949,8 +927,8 @@
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305019/5/0",
       "accepted": [],
       "candidates": [],
-      "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305019/5/0"
+      "status": "NO_MATCH",
+      "error": ""
     },
     {
       "plan_id": "V41_01C2103001",
@@ -961,7 +939,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2103001/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_02C1906040",
@@ -972,7 +950,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1906040/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_01C2405046",
@@ -983,7 +961,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2405046/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_01C2412055",
@@ -994,7 +972,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2412055/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_01C2605035",
@@ -1005,7 +983,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605035/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_02C2411039",
@@ -1016,7 +994,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2411039/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_02C2502024",
@@ -1027,7 +1005,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502024/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_01C2502023",
@@ -1038,7 +1016,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2502023/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_01C2503019",
@@ -1049,7 +1027,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503019/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_01C2504013",
@@ -1060,7 +1038,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504013/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_03C2305022",
@@ -1071,7 +1049,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305022/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_01G2302004",
@@ -1082,7 +1060,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2302004/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_03G2101004",
@@ -1093,7 +1071,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2101004/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_02G1904001",
@@ -1104,7 +1082,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/02G1904001/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_01G2002004",
@@ -1115,7 +1093,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2002004/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_03G2403004",
@@ -1126,7 +1104,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2403004/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_01C2206015",
@@ -1137,7 +1115,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206015/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_02C2304008",
@@ -1148,7 +1126,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2304008/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_03C2311002",
@@ -1159,7 +1137,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2311002/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_03F2505004",
@@ -1170,7 +1148,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2505004/5/0"
+      "error": "RuntimeError: HTTP 403"
     },
     {
       "plan_id": "V41_01G2404012",
@@ -1181,7 +1159,7 @@
       "accepted": [],
       "candidates": [],
       "status": "ERROR",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2404012/5/0"
+      "error": "RuntimeError: HTTP 403"
     }
   ]
 }
