@@ -22,7 +22,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase
           git add results/maker_locator_crossmatch
           git diff --cached --quiet || git commit -m "Crossmatch manufacturer facility locators"
+          git pull --rebase
           git push
