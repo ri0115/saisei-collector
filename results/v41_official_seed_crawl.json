@@ -1,5 +1,5 @@
 {
-  "version": "v41-seed-crawl-1.0",
+  "version": "v41-seed-crawl-1.1",
   "total_facilities": 34,
   "results": [
     {
@@ -12,10 +12,6 @@
           "chars": 1414
         },
         {
-          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/greetings/",
-          "chars": 1854
-        },
-        {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/hospital/",
           "chars": 1479
         },
@@ -24,12 +20,16 @@
           "chars": 2574
         },
         {
-          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/cpc/",
-          "chars": 2845
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/greetings/",
+          "chars": 1854
         },
         {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/committee/",
           "chars": 2403
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/cpc/",
+          "chars": 2845
         }
       ],
       "plans": [
@@ -114,24 +114,24 @@
           "chars": 5205
         },
         {
-          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/",
-          "chars": 3382
-        },
-        {
           "url": "https://withlifeomiya.kouaikai.jp/selfpay/",
           "chars": 2334
+        },
+        {
+          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/",
+          "chars": 3382
         },
         {
           "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/cultured-stem-cell-treatment/",
           "chars": 4134
         },
         {
-          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/cultured-stem-cell-therapy/",
-          "chars": 4594
-        },
-        {
           "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/stem-cell-supernatant-therapy/",
           "chars": 3760
+        },
+        {
+          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/cultured-stem-cell-therapy/",
+          "chars": 4594
         }
       ],
       "plans": []
@@ -268,12 +268,12 @@
           "chars": 4336
         },
         {
-          "url": "https://www.ginza-noa-cl.jp/prp",
-          "chars": 3244
-        },
-        {
           "url": "https://www.ginza-noa-cl.jp/stemtap",
           "chars": 4379
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/prp",
+          "chars": 3244
         }
       ],
       "plans": [
@@ -295,12 +295,12 @@
           "chars": 4336
         },
         {
-          "url": "https://www.ginza-noa-cl.jp/prp",
-          "chars": 3244
-        },
-        {
           "url": "https://www.ginza-noa-cl.jp/stemtap",
           "chars": 4379
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/prp",
+          "chars": 3244
         }
       ],
       "plans": [
@@ -357,12 +357,12 @@
           "chars": 1093
         },
         {
-          "url": "https://iit-clinic.com/prp-therapy/",
-          "chars": 3002
-        },
-        {
           "url": "https://iit-clinic.com/stem-cell-therapy/",
           "chars": 3887
+        },
+        {
+          "url": "https://iit-clinic.com/prp-therapy/",
+          "chars": 3002
         }
       ],
       "plans": [
@@ -427,12 +427,12 @@
           "chars": 2843
         },
         {
-          "url": "https://www.waclinic-ginza.com/menu/test6",
-          "chars": 4223
-        },
-        {
           "url": "https://www.waclinic-ginza.com/menu/exosome-stem-cells",
           "chars": 5186
+        },
+        {
+          "url": "https://www.waclinic-ginza.com/menu/test6",
+          "chars": 4223
         },
         {
           "url": "https://www.waclinic-ginza.com/menu/stemcelltherapy",
@@ -455,20 +455,20 @@
           "chars": 5269
         },
         {
-          "url": "https://heleneclinic.com/stemcell/risk/",
-          "chars": 2591
+          "url": "https://heleneclinic.com/stemcell/",
+          "chars": 2839
         },
         {
           "url": "https://heleneclinic.com/stemcell/msc/",
           "chars": 3480
         },
         {
-          "url": "https://heleneclinic.com/stemcell/",
-          "chars": 2839
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/disease-treatment/",
           "chars": 8679
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/risk/",
+          "chars": 2591
         },
         {
           "url": "https://heleneclinic.com/stemcell/research-papers/",
@@ -491,10 +491,6 @@
           "chars": 5269
         },
         {
-          "url": "https://heleneclinic.com/stemcell/risk/",
-          "chars": 2591
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/",
           "chars": 2839
         },
@@ -505,6 +501,10 @@
         {
           "url": "https://heleneclinic.com/stemcell/disease-treatment/",
           "chars": 8679
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/risk/",
+          "chars": 2591
         },
         {
           "url": "https://heleneclinic.com/stemcell/research-papers/",
@@ -534,20 +534,20 @@
           "chars": 5269
         },
         {
-          "url": "https://heleneclinic.com/stemcell/risk/",
-          "chars": 2591
-        },
-        {
-          "url": "https://heleneclinic.com/stemcell/msc/",
-          "chars": 3480
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/",
           "chars": 2839
         },
         {
           "url": "https://heleneclinic.com/stemcell/disease-treatment/",
           "chars": 8679
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/msc/",
+          "chars": 3480
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/risk/",
+          "chars": 2591
         },
         {
           "url": "https://heleneclinic.com/stemcell/research-papers/",
@@ -668,6 +668,10 @@
           "chars": 3465
         },
         {
+          "url": "https://hime.clinic/archives/118236",
+          "chars": 7798
+        },
+        {
           "url": "https://hime.clinic/archives/treatment_category/reg",
           "chars": 939
         },
@@ -678,10 +682,6 @@
         {
           "url": "https://hime.clinic/%E7%BE%8E%E5%AE%B9%E3%82%92%E4%B8%BB%E3%81%A8%E3%81%97%E3%81%9F%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%83%92%E3%83%A1%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC",
           "chars": 2311
-        },
-        {
-          "url": "https://hime.clinic/archives/118236",
-          "chars": 7794
         },
         {
           "url": "https://hime.clinic/%E7%AC%AC%E4%B8%89%E7%A8%AE%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2",
@@ -871,20 +871,20 @@
           "chars": 1968
         },
         {
-          "url": "https://motoazabuhills-clinic.jp/obesity/",
-          "chars": 7796
-        },
-        {
-          "url": "https://motoazabuhills-clinic.jp/aga/",
-          "chars": 4637
-        },
-        {
           "url": "https://motoazabuhills-clinic.jp/relieve-pain/",
           "chars": 5840
         },
         {
+          "url": "https://motoazabuhills-clinic.jp/obesity/",
+          "chars": 7796
+        },
+        {
           "url": "https://motoazabuhills-clinic.jp/forgetfulness/",
           "chars": 6241
+        },
+        {
+          "url": "https://motoazabuhills-clinic.jp/aga/",
+          "chars": 4637
         },
         {
           "url": "https://motoazabuhills-clinic.jp/skin-aging/",
