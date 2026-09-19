@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Canonical rebuild trigger: evidence inputs are tracked by workflow paths.
 import csv, glob, json, re, unicodedata
 from pathlib import Path
 from collections import defaultdict, Counter
