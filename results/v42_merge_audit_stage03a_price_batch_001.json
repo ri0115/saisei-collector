@@ -1,0 +1,62 @@
+{
+  "version": "v42-merge-audit-stage03a-price-batch-001",
+  "created_date_jst": "2026-09-19",
+  "purpose": "Bounded pre-merge validation for the first 150 auto-confirmed price rows before mutating the v42 workbook/core dataset.",
+  "sources": {
+    "auto_prices": {
+      "path": "results/v42_auto_prices_compact.tsv",
+      "sha": "1c851a601512c90016fd412b0ee8a240943d77c7",
+      "total_price_rows": 1345,
+      "unique_plan_codes": 682
+    },
+    "additions": {
+      "path": "results/v42_additions_final_compact.tsv",
+      "sha": "1fcc19f44fad1800402ddc762b2ed1b30c4fef3b",
+      "total_plan_rows": 774,
+      "unique_plan_codes": 774
+    },
+    "manual_confirmed_prices": {
+      "path": "results/v42_manual_confirmed_prices.tsv",
+      "sha": "fc7ae0d63e5062e93af2b131c0d159df632429ba",
+      "total_price_rows": 40,
+      "unique_plan_codes": 22
+    },
+    "scope_review": {
+      "path": "results/v42_merge_audit_stage02b_core_scope_review.json",
+      "commit": "a547318cf5263305e8401f0605667db0608bc7cd"
+    }
+  },
+  "batch": {
+    "source": "auto_prices",
+    "data_row_start": 1,
+    "data_row_end": 150,
+    "price_rows": 150,
+    "unique_plan_codes": 82,
+    "first_plan_code": "01E2605013",
+    "last_plan_code": "01C2408009"
+  },
+  "validation": {
+    "missing_plan_codes_in_additions": 0,
+    "all_plan_codes_resolve_uniquely": true,
+    "price_status_by_unique_plan": {
+      "価格確定": 82
+    },
+    "audit_only_rows_present": 0,
+    "audit_only_codes_checked": [
+      "01E2502020",
+      "03E2406027"
+    ],
+    "manual_price_overlap_codes_in_batch": 0,
+    "safe_for_merge": true
+  },
+  "merge_rules_locked": [
+    "Join by exact mhlw_plan_code at plan level.",
+    "Do not substitute a related-treatment price for another plan.",
+    "Do not treat ancillary fees as treatment prices.",
+    "Preserve multiple valid price options for the same plan as separate price rows.",
+    "Preserve tax and unit labels as captured; do not infer missing tax treatment.",
+    "Keep audit-only plans outside the v42 core and retain them only in the audit trail."
+  ],
+  "mutation_status": "NOT_YET_APPLIED_TO_WORKBOOK",
+  "next_step": "Apply these 150 validated price rows to the v42 staging structure, save a checkpoint, then validate the next bounded batch."
+}
