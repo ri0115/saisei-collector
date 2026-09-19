@@ -1,0 +1,58 @@
+{
+  "version": "v42-merge-audit-stage03-structure-lock",
+  "source": "v41 workbook master-sheet structure + stage01/02 scope decisions",
+  "v42_core_plan_universe": {
+    "unique_plan_codes": 1671,
+    "mhlw_current_core": 1661,
+    "retained_scope_extensions": 10,
+    "audit_only_excluded_from_core": 2
+  },
+  "v40_retained_structure": {
+    "v40_current_rows_before_dedup": 903,
+    "v40_unique_current_codes_before_scope_filter": 899,
+    "duplicate_mappings_to_collapse": 4,
+    "audit_only_codes_to_remove_from_core": [
+      "01E2502020",
+      "03E2406027"
+    ],
+    "retained_v40_core_unique_codes": 897
+  },
+  "v41_additions": {
+    "rows": 774,
+    "unique_codes": 774,
+    "overlap_with_v40_codes": 0
+  },
+  "master_sheet_strategy": {
+    "facility_master": "Preserve existing v40 facility_id when an added v41 plan matches an existing facility; create new facility_id only for genuinely new facilities.",
+    "plan_master": "Use one row per current MHLW plan code. Collapse four legacy duplicate mappings into their designated canonical v40 plan_id. Append v41 additions after normalization.",
+    "price_master": "Keep existing v40 price rows, then append validated v41 normalized price rows and 58-item manual adjudication prices. Deduplicate by plan code + amount/range + tax + unit + product + maker; prefer manual/official adjudication over parser-only duplicates.",
+    "audit_sheet": "Move 01E2502020 and 03E2406027 to audit-only, preserving source lineage and reason."
+  },
+  "duplicate_collapse": [
+    {
+      "code": "02E2509002",
+      "drop_legacy_plan_id": "P00411",
+      "canonical_plan_id": "P00857",
+      "facility": "社会医療法人愛仁会 高槻病院"
+    },
+    {
+      "code": "01E2407016",
+      "drop_legacy_plan_id": "P00870",
+      "canonical_plan_id": "P00455",
+      "facility": "医療法人興生会 吉本整形外科・外科病院"
+    },
+    {
+      "code": "01F2501002",
+      "drop_legacy_plan_id": "P00877",
+      "canonical_plan_id": "P00532",
+      "facility": "医療法人大野醫院 おおの整形外科内科医院"
+    },
+    {
+      "code": "01D2407009",
+      "drop_legacy_plan_id": "P00739",
+      "canonical_plan_id": "P00627",
+      "facility": "医療法人EKOC 東金沢整形外科クリニック"
+    }
+  ],
+  "next_step": "Begin price merge in bounded chunks. First create a small 100-plan price staging batch, verify deduplication and source-priority rules, then scale."
+}
