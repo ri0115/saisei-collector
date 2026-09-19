@@ -1,0 +1,29 @@
+lane	queue_index	plan_id	mhlw_plan_code	facility_id	prefecture	facility	category	treatment_class	status	amount	tax	unit	products	makers	document_url	ranking_eligible	merge_status	qc_reason
+A	201	P00858	02E2603026	F0588	大阪府	医療法人美喜有会 リペアセルクリニック	第二種	脂肪由来幹細胞	AUTO	1320000	税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2603026/5/0	true	READY_AUTO	
+A	202	P00864	01E2004009	F0591	大阪府	医療法人良花会 整形外科とくはらクリニック	第三種	PRP	AUTO	30000	税別	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2004009/5/0	true	READY_AUTO	
+A	202	P00864	01E2004009	F0591	大阪府	医療法人良花会 整形外科とくはらクリニック	第三種	PRP	AUTO	80000	税別	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2004009/5/0	true	READY_AUTO	
+A	203	P00865	01E2308005	F0123	大阪府	医療法人荒巻会 あらまき整形外科クリニック	第三種	PRP	AUTO	55000	不明		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2308005/5/0	true	READY_AUTO	
+A	203	P00865	01E2308005	F0123	大阪府	医療法人荒巻会 あらまき整形外科クリニック	第三種	PRP	AUTO	66000	不明		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2308005/5/0	true	READY_AUTO	
+A	204	P00869	01E2506026	F0593	大阪府	社会医療法人 大阪国際メディカル＆サイエンスセンター 大阪警察病院	第三種	PRP	AUTO	33000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2506026/5/0	true	READY_AUTO	line-level medium price context
+A	204	P00869	01E2506026	F0593	大阪府	社会医療法人 大阪国際メディカル＆サイエンスセンター 大阪警察病院	第三種	PRP	AUTO	44000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2506026/5/0	true	READY_AUTO	line-level medium price context
+A	205	P00868	03E2409027	F0592	大阪府	社会医療法人 大阪国際メディカル＆サイエンスセンター 第二大阪警察病院	第三種	PRP	AUTO	33000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2409027/5/0	true	READY_AUTO	
+A	206	P00866	03E2502009	F0117	大阪府	社会医療法人ONE FLAG おおさかグローバル整形外科病院	第三種	PRP	AUTO	35000	税別		ACP|GPS|Zimmer|Arthrex	Arthrex|Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2502009/5/0	true	READY_AUTO	
+A	206	P00866	03E2502009	F0117	大阪府	社会医療法人ONE FLAG おおさかグローバル整形外科病院	第三種	PRP	AUTO	100000	税別		ACP|GPS|Zimmer|Arthrex	Arthrex|Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2502009/5/0	true	READY_AUTO	
+A	207	P00867	03E2603011	F0120	大阪府	社会医療法人報恩会 長吉総合病院	第三種	PRP	AUTO	33000	税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2603011/5/0	true	READY_AUTO	
+A	208	P00857	02E2509002	F0122	大阪府	社会医療法人愛仁会 高槻病院	第二種	ADRC	AUTO	2000000	税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509002/5/0	true	READY_AUTO	rescue strong price context
+A	208	P00857	02E2509002	F0122	大阪府	社会医療法人愛仁会 高槻病院	第二種	ADRC	AUTO	3000000	税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509002/5/0	true	READY_AUTO	rescue strong price context
+A	209	P00871	01E2510031	F0137	奈良県	医療法人新生会 総合病院 高の原中央病院	第三種	PRP	QC	55000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2510031/5/0	false	REVIEW_QC_CANDIDATE	rescue price candidates remain ambiguous
+A	209	P00871	01E2510031	F0137	奈良県	医療法人新生会 総合病院 高の原中央病院	第三種	PRP	QC	198000	不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2510031/5/0	false	REVIEW_QC_CANDIDATE	rescue price candidates remain ambiguous
+A	209	P00871	01E2510031	F0137	奈良県	医療法人新生会 総合病院 高の原中央病院	第三種	PRP	QC	110000	不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2510031/5/0	false	REVIEW_QC_CANDIDATE	rescue price candidates remain ambiguous
+A	210	P00870	01E2407016	F0140	奈良県	医療法人興生会 吉本整形外科・外科病院	第三種	PRP	QC						https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2407016/5/0	false	REVIEW_QC_NO_PRICE	no price found after rescue text/OCR pass
+A	211	P00861	01E2412027	F0342	滋賀県	医療法人翠蓮会 とがの整形外科クリニック	第三種	PRP	AUTO	38500	税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2412027/5/0	true	READY_AUTO	
+A	212	P00877	01F2501002	F0196	愛媛県	医療法人大野醫院 おおの整形外科内科医院	第三種	PRP	QC	44000	不明	片側			https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2501002/5/0	false	REVIEW_QC_CANDIDATE	rescue price candidates remain ambiguous
+A	212	P00877	01F2501002	F0196	愛媛県	医療法人大野醫院 おおの整形外科内科医院	第三種	PRP	QC	99000	不明	両側			https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2501002/5/0	false	REVIEW_QC_CANDIDATE	rescue price candidates remain ambiguous
+A	212	P00877	01F2501002	F0196	愛媛県	医療法人大野醫院 おおの整形外科内科医院	第三種	PRP	QC	220000	不明	両側			https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2501002/5/0	false	REVIEW_QC_CANDIDATE	rescue price candidates remain ambiguous
+A	212	P00877	01F2501002	F0196	愛媛県	医療法人大野醫院 おおの整形外科内科医院	第三種	PRP	QC	385000	不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2501002/5/0	false	REVIEW_QC_CANDIDATE	rescue price candidates remain ambiguous
+A	213	P00875	02F1910006	F0594	香川県	医療法人社団研宣会 広瀬病院	第三種	PRP	AUTO	30000	税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/02F1910006/5/0	true	READY_AUTO	
+A	214	P00876	01F2311002	F0595	香川県	医療法人社団藤井外科胃腸科・整形外科	第三種	PRP	AUTO	55000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2311002/5/0	true	READY_AUTO	rescue medium price context
+A	215	P00873	02F2607001	F0427	高知県	高知大学医学部附属病院	第二種	PRP	QC						https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2607001/5/0	false	REVIEW_QC_NO_PRICE	no price found after rescue text/OCR pass
+A	216	P00874	01F2306002	F0429	鳥取県	医療法人社団かわぐちクリニック	第三種	PRP	AUTO	44000	税込		ACP|GPS|PEAK	Arthrex|Zimmer Biomet|PEAK系	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2306002/5/0	true	READY_AUTO	
+A	216	P00874	01F2306002	F0429	鳥取県	医療法人社団かわぐちクリニック	第三種	PRP	AUTO	165000	税込		ACP|GPS|PEAK	Arthrex|Zimmer Biomet|PEAK系	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2306002/5/0	true	READY_AUTO	
+A	216	P00874	01F2306002	F0429	鳥取県	医療法人社団かわぐちクリニック	第三種	PRP	AUTO	253000	税込		ACP|GPS|PEAK	Arthrex|Zimmer Biomet|PEAK系	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2306002/5/0	true	READY_AUTO	
