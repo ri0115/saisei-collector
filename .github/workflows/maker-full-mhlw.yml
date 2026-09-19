@@ -1,0 +1,33 @@
+name: Full MHLW maker recovery
+
+on:
+  push:
+    paths:
+      - "scripts/recover_maker_full_mhlw.py"
+      - ".github/workflows/maker-full-mhlw.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: [0,1,2,3,4,5,6,7]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright pypdf
+      - run: playwright install --with-deps chromium
+      - run: python scripts/recover_maker_full_mhlw.py --batch ${{ matrix.batch }} --batches 8
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maker-full-mhlw-${{ matrix.batch }}
+          path: results/maker_full_mhlw/
+          if-no-files-found: error
+          retention-days: 7
