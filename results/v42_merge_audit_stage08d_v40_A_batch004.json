@@ -1,0 +1,17 @@
+{
+  "version": "v42-merge-audit-stage08d-v40-A-batch004",
+  "created_date_jst": "2026-09-19",
+  "source": "results/latest.json",
+  "plan_range": "A queue 151-200",
+  "plan_rows": 50,
+  "status_counts": {
+    "AUTO": 32,
+    "QC": 18
+  },
+  "exported_price_rows": 128,
+  "no_price_counts": {
+    "AUTO": 0,
+    "QC": 7
+  },
+  "next_step": "Process final A queue 201-216 separately."
+}
