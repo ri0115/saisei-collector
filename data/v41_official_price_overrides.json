@@ -1,0 +1,207 @@
+{
+  "version": "v41-official-overrides-1.0",
+  "generated_at": "2026-09-19",
+  "items": [
+    {
+      "plan_id": "V41_01C2310044",
+      "facility": "日本医科大学千葉北総病院",
+      "source_url": "https://www.nms.ac.jp/hokuso-h/section/orthopedics/guide_copy_copy.html",
+      "source_type": "facility_official",
+      "verification": "treatment-name matched",
+      "prices": [
+        {
+          "amount": 400000,
+          "tax": "税込",
+          "unit": "1施術",
+          "product": "APS",
+          "price_type": "point",
+          "note": "公式ページでAPS療法・施術料40万円を確認"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_01C2501014",
+      "facility": "UT整形外科 武蔵浦和",
+      "source_url": "https://www.ut-seikei.com/regenerative-medicine/",
+      "source_type": "facility_official",
+      "verification": "treatment-name matched",
+      "prices": [
+        {
+          "amount": 660000,
+          "tax": "税込",
+          "unit": "片側・5000万cells",
+          "price_type": "point"
+        },
+        {
+          "amount": 880000,
+          "tax": "税込",
+          "unit": "片側・1億cells",
+          "price_type": "point"
+        },
+        {
+          "amount": 1120000,
+          "tax": "税込",
+          "unit": "両側・計1億cells",
+          "price_type": "point"
+        },
+        {
+          "amount": 1450000,
+          "tax": "税込",
+          "unit": "両側・計2億cells",
+          "price_type": "point"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_01E2603003",
+      "facility": "高槻整形外科・再生医療クリニック",
+      "source_url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
+      "source_type": "facility_official",
+      "verification": "ASC treatment matched",
+      "prices": [
+        {
+          "amount": 1000000,
+          "tax": "税込",
+          "unit": "ASC治療",
+          "price_type": "from",
+          "note": "100万円〜"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_01E2403006",
+      "facility": "さかいペインクリニック",
+      "source_url": "https://sakai-pain.com/medical/regenerativemedicine/",
+      "source_type": "facility_official",
+      "verification": "extra-articular PRP matched",
+      "prices": [
+        {
+          "amount": 30000,
+          "tax": "税込",
+          "unit": "注射1回",
+          "price_type": "point",
+          "note": "スポーツ関連疾患"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_01C2506018",
+      "facility": "with Life クリニック 大宮駅前",
+      "source_url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+      "source_type": "facility_official",
+      "verification": "PRP joint treatment matched",
+      "prices": [
+        {
+          "amount": 45000,
+          "tax": "税込",
+          "unit": "ライトPRP",
+          "product": "ACP",
+          "price_type": "point"
+        },
+        {
+          "amount": 168000,
+          "tax": "税込",
+          "unit": "スタンダードPRP",
+          "product": "ACP MAX",
+          "price_type": "point"
+        },
+        {
+          "amount": 248000,
+          "tax": "税込",
+          "unit": "プレミアムPRP",
+          "product": "Angel",
+          "price_type": "point"
+        },
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "ライトPRPダブルショット",
+          "product": "ACP",
+          "price_type": "point"
+        },
+        {
+          "amount": 298000,
+          "tax": "税込",
+          "unit": "プレミアムPRP・2部位",
+          "product": "Angel",
+          "price_type": "point"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_01C2507016",
+      "facility": "WA CLINIC GINZA",
+      "source_url": "https://www.waclinic-ginza.com/menu/stemcelltherapy",
+      "source_type": "facility_official",
+      "verification": "joint stem-cell treatment matched",
+      "prices": [
+        {
+          "amount": 990000,
+          "tax": "税込",
+          "unit": "片膝・5000万cell",
+          "price_type": "point"
+        },
+        {
+          "amount": 1320000,
+          "tax": "税込",
+          "unit": "片膝・1億cell",
+          "price_type": "point"
+        },
+        {
+          "amount": 1320000,
+          "tax": "税込",
+          "unit": "両膝・計1億cell",
+          "price_type": "point"
+        },
+        {
+          "amount": 2200000,
+          "tax": "税込",
+          "unit": "両膝・計2億cell",
+          "price_type": "point"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_02C2604055",
+      "facility": "ヘレネAOビルクリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604055/5/0",
+      "source_type": "MHLW_current_document",
+      "verification": "exact MHLW plan code matched",
+      "prices": [
+        {
+          "amount": 1185800,
+          "tax": "税込",
+          "unit": "片膝・1億個・1回",
+          "price_type": "point"
+        },
+        {
+          "amount": 1633500,
+          "tax": "税込",
+          "unit": "両膝・2億個・1回",
+          "price_type": "point"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_01C2603035",
+      "facility": "シン・整形外科 代々木上原",
+      "source_url": "https://shin-yoyogiuehara.com/treatment/regenerative/",
+      "source_type": "facility_official",
+      "verification": "PRP-PRO treatment matched; PRP-FD excluded",
+      "prices": [
+        {
+          "amount": 198000,
+          "tax": "税込",
+          "unit": "PRP-PRO・片膝1関節1クール",
+          "price_type": "point"
+        },
+        {
+          "amount": 328900,
+          "tax": "税込",
+          "unit": "PRP-PRO・両膝2関節1クール",
+          "price_type": "point"
+        }
+      ]
+    }
+  ]
+}
