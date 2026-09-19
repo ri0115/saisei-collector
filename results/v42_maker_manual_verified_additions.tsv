@@ -45,3 +45,4 @@ prefecture	facility	product	facility_label_maker	legal_manufacturer	japan_mah_or
 福岡県	医療法人HMC ブレインメディカルクリニック博多	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator ACP-PRP; unique Fukuoka match.
 和歌山県	医療法人琉憲会 ナカイマ整形外科クリニック	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator ACP-PRP; unique Wakayama match.
 京都府	医療法人社団貴順会吉川病院	ACP	Arthrex	Arthrex	Arthrex Japan	MANUFACTURER_LOCATOR_MANUAL_MATCH	https://seikei-saisei.jp/institution.html	Arthrex Japan locator uses 𠮷川病院; current MHLW uses 吉川病院; unique legal-entity match.
+神奈川県	内田宙司整形外科	PRGF-Endoret	BTI	BTI Biotechnology Institute	BTIジャパン	MHLW_EXACT_PLAN_EXPLICIT	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508047/5/0	Exact MHLW plan states Spanish BTI commercialization and use of BTI-made centrifuge; current plan fee 110,000 yen.
