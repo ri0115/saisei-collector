@@ -1,9 +1,9 @@
 {
   "version": "v41-postprocess-1.4",
-  "updated_at": "2026-09-19T01:19:54.872239+00:00",
+  "updated_at": "2026-09-19T01:20:23.078610+00:00",
   "summary": {
     "version": "v41-postprocess-1.4",
-    "updated_at": "2026-09-19T01:19:54.871940+00:00",
+    "updated_at": "2026-09-19T01:20:23.078318+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
@@ -26166,14 +26166,14 @@
         {
           "amount": 30000,
           "tax": "税別",
-          "unit": "関節外PRP・Condensia・1キット",
+          "unit": "関節外PRP・1キット",
           "products": [
             "Condensia"
           ],
           "makers": [
             "京セラ"
           ],
-          "note": "筋・腱・靭帯等の関節外治療",
+          "note": "",
           "source_url": "https://wadaseikei.net/prp/",
           "source_type": "official_clinic_site",
           "verification": "web_verified_official_source",
@@ -26190,7 +26190,7 @@
           "makers": [
             "京セラ"
           ],
-          "note": "学生料金",
+          "note": "学生価格",
           "source_url": "https://wadaseikei.net/prp/",
           "source_type": "official_clinic_site",
           "verification": "web_verified_official_source",
