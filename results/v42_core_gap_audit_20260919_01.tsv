@@ -1,0 +1,3 @@
+prefecture	facility	mhlw_plan_code	category	treatment	mhlw_current_status	v42_core_status	evidence_url	audit_status
+宮城県	宮城整形外科 スポーツ・ウェルネスクリニック	01B2411004	第二種	変形性関節症に対する自家多血小板血漿、自家多血小板血漿抽出液関節内投与療法	CURRENT_LISTED	NOT_FOUND_IN_V42_CORE	https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2411004/5/0	CORE_GAP_CANDIDATE
+宮城県	宮城整形外科 スポーツ・ウェルネスクリニック	01B2411005	第三種	自家多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療	CURRENT_LISTED	NOT_FOUND_IN_V42_CORE	https://saiseiiryo.mhlw.go.jp/published_plan/download/01B2411005/5/0	CORE_GAP_CANDIDATE
