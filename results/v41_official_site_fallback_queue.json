@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T02:41:57.014740+00:00",
-  "total": 80,
-  "unique_facilities": 78,
+  "updated_at": "2026-09-19T02:43:26.717816+00:00",
+  "total": 75,
+  "unique_facilities": 73,
   "items": [
     {
       "plan_id": "V41_02C2402051",
@@ -590,21 +590,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_01C2403007",
-      "mhlw_plan_code": "01C2403007",
-      "facility_id": "V41FE53F617A06",
-      "prefecture": "東京都",
-      "facility": "池尻大橋せらクリニック",
-      "address": "東京都目黒区大橋2-22-42 No.R池尻大橋4F",
-      "category": "第三種",
-      "treatment": "自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2403007/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_03C2604028",
       "mhlw_plan_code": "03C2604028",
       "facility_id": "V41F0072FF5DB8",
@@ -632,21 +617,6 @@
           "postprocess_reason": "treatment_label_nearest"
         }
       ]
-    },
-    {
-      "plan_id": "V41_01C2508064",
-      "mhlw_plan_code": "01C2508064",
-      "facility_id": "V41FBE6EB4AF98",
-      "prefecture": "東京都",
-      "facility": "白金高輪やまと整形外科",
-      "address": "港区三田5-12-7 プラウドフラット白金高輪 1階",
-      "category": "第二種",
-      "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508064/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
     },
     {
       "plan_id": "V41_02C1909198",
@@ -735,21 +705,6 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508039/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_03C2308020",
-      "mhlw_plan_code": "03C2308020",
-      "facility_id": "V41F093B946235",
-      "prefecture": "東京都",
-      "facility": "順天堂大学医学部附属練馬病院",
-      "address": "練馬区高野台3−1−10",
-      "category": "第二種",
-      "treatment": "自家多血小板血漿(Platelet-rich plasma : PRP)を用いた関節内損傷に対する治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2308020/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
     },
@@ -1111,36 +1066,6 @@
           "postprocess_reason": "below_minimum_treatment_price"
         }
       ]
-    },
-    {
-      "plan_id": "V41_01C2503019",
-      "mhlw_plan_code": "01C2503019",
-      "facility_id": "V41FC526ECE3EC",
-      "prefecture": "神奈川県",
-      "facility": "羽沢よこはま国大整形外科リウマチ科・関節鏡クリニック",
-      "address": "横浜市神奈川区羽沢南2-44-7 HAZAAR 4階",
-      "category": "第二種",
-      "treatment": "自家多血小板血漿（PRP）を用いた変形性関節症及び関節腔内の治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503019/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01C2504013",
-      "mhlw_plan_code": "01C2504013",
-      "facility_id": "V41F6C7AD09107",
-      "prefecture": "神奈川県",
-      "facility": "羽沢よこはま国大整形外科リウマチ科・関節鏡クリニック",
-      "address": "神奈川県横浜市神奈川区羽沢南2-44-7 HAZAAR 4階",
-      "category": "第三種",
-      "treatment": "自家多血小板血漿（PRP）を用いた筋腱付着部およびスポーツ障害（筋・腱・靭帯）の治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504013/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
     },
     {
       "plan_id": "V41_03C2305022",
