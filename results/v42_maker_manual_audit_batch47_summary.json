@@ -1,0 +1,24 @@
+{
+  "version": "v42-maker-manual-audit-batch-47",
+  "date_jst": "2026-09-20",
+  "audited_facilities": 15,
+  "confirmed_new_facilities": 1,
+  "confirmed_new_manufacturer_placements": 2,
+  "holds": 14,
+  "confirmed_by_manufacturer": {
+    "Arthrex": 1,
+    "Zimmer Biomet": 1
+  },
+  "canonical_merge_deferred": true,
+  "canonical_rebuild_performed": false,
+  "carried_forward_from_batch46": {
+    "provisional_new_facilities": 2,
+    "provisional_new_manufacturer_placements": 2
+  },
+  "provisional_cycle_46_47": {
+    "audited_facilities": 25,
+    "provisional_new_facilities": 3,
+    "provisional_new_manufacturer_placements": 4
+  },
+  "note": "Batch 47 processed 15 facilities. Tokuhara Clinic has current official manufacturer-explicit evidence for ACP -> Arthrex and APS/GPS III -> Zimmer Biomet. Canonical merge remains deferred until Batch 48 completes the 30-facility cycle."
+}
