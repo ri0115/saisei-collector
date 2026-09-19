@@ -409,6 +409,36 @@
       "facility": "医療法人社団梅沢医院 梅沢整形外科",
       "url": "https://umezawa-clinic.com/",
       "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F439538D391",
+      "facility": "医療法人山本整形外科医院",
+      "url": "https://yamamoto-orth.com/information/self-paid/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F0BD84E86C2",
+      "facility": "国家公務員共済組合連合会 横浜南共済病院",
+      "url": "https://minamikyousai.kkr.or.jp/service/orthopedics/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F7AAE4023FC",
+      "facility": "小田原市立病院",
+      "url": "https://www.city.odawara.kanagawa.jp/hospital/section/orth/prp.html",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FA4C65591BA",
+      "facility": "医療法人柿生会 渡辺クリニック",
+      "url": "https://watanabeclinic.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FC7A655E44B",
+      "facility": "産業医科大学若松病院",
+      "url": "https://www.wakamatsu-sportsmed.com/blank-4",
+      "source": "web_verified"
     }
   ],
   "updated_at": "2026-09-19",
