@@ -1,0 +1,23 @@
+{
+  "version": "v42-maker-manual-audit-batch-11",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 402,
+  "audited_records": 5,
+  "unique_facilities_or_alias_groups": 3,
+  "confirmed_new": 0,
+  "holds": 3,
+  "duplicate_alias_records": 2,
+  "canonical_after_batch": 402,
+  "structural_findings": [
+    {
+      "facility": "慶友整形外科クリニック",
+      "issue": "Three staged facility identities share the same current physical facility/address; denominator/core deduplication should be audited before changing facility_universe."
+    }
+  ],
+  "policy": [
+    "Exact manufacturer-locator name is insufficient when address/contact metadata conflicts with current authoritative facility information.",
+    "Institution-level university locator labels are not assigned to a specific affiliated hospital without facility-level evidence.",
+    "Branch-specific manufacturer assignment requires branch-specific evidence.",
+    "Facility-universe deduplication findings are recorded separately and do not mutate the 949 denominator until core audit is complete."
+  ]
+}
