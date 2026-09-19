@@ -2,18 +2,24 @@
   "arthrex_locator_facilities": 163,
   "zimmer_locator_facilities": 209,
   "target_unknown_pool_rows": 366,
-  "all_exact_matches": 26,
-  "new_high_confidence_matches": 6,
+  "all_exact_matches": 65,
+  "new_high_confidence_matches": 37,
   "new_review_matches": 1,
-  "new_high_unique_facilities": 6,
+  "new_high_unique_facilities": 36,
   "new_review_unique_facilities": 1,
   "high_by_manufacturer": {
+    "Arthrex": 31,
     "Zimmer Biomet": 6
   },
   "review_by_manufacturer": {
     "Zimmer Biomet": 1
   },
-  "multi_manufacturer_new_facilities": [],
+  "multi_manufacturer_new_facilities": [
+    {
+      "facility_key": "千葉県|医療法人社団奏の杜整形外科",
+      "manufacturers": "Arthrex|Zimmer Biomet"
+    }
+  ],
   "policy": {
     "Arthrex ACP-PRP": "HIGH because manufacturer-operated locator explicitly labels ACP-PRP",
     "Arthrex HD-PRP": "REVIEW",
