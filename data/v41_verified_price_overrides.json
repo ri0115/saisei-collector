@@ -1,5 +1,5 @@
 {
-  "version": "v41-verified-overrides-1.4",
+  "version": "v41-verified-overrides-1.5",
   "generated_at": "2026-09-19",
   "notes": "Verified from clinic/hospital official webpages via web search. Amounts are treatment prices only; ancillary fees excluded.",
   "plans": {
@@ -1079,6 +1079,111 @@
           "note": "学生価格"
         }
       ]
+    },
+    "V41_01E2312020": {
+      "facility": "医療法人社団 彦星会 大阪中之島整形外科",
+      "source_type": "official_clinic_site",
+      "source_url": "https://team-onoc.com/contents/saiseiiryo/asc.html",
+      "prices": [
+        {
+          "amount": 880000,
+          "tax": "税込",
+          "unit": "ASC・1関節",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1210000,
+          "tax": "税込",
+          "unit": "ASC・2関節",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1485000,
+          "tax": "税込",
+          "unit": "ASC・3関節",
+          "product": "脂肪由来幹細胞"
+        }
+      ]
+    },
+    "V41_01C1905038": {
+      "facility": "元浅草いけだクリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://ikeda-cl.org/contents/%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%88prp%EF%BC%89%E7%99%82%E6%B3%95.html",
+      "prices": [
+        {
+          "amount": 80000,
+          "tax": "税別",
+          "unit": "PRP注射・1関節",
+          "product": "PRP",
+          "note": "採血30〜33cc / PRP 4ml"
+        }
+      ]
+    },
+    "V41_02C1907031": {
+      "facility": "医療法人 保仁会 神谷整形外科・眼科",
+      "source_type": "official_clinic_site",
+      "source_url": "https://kamitanicl.com/prp/index.html",
+      "prices": [
+        {
+          "amount": 20000,
+          "tax": "税別",
+          "unit": "筋・腱・靭帯・PRP注射1単位",
+          "product": "PRP",
+          "note": "採血10ml / PRP 1〜1.5ml"
+        },
+        {
+          "amount": 40000,
+          "tax": "税別",
+          "unit": "筋・腱・靭帯・PRP注射2単位",
+          "product": "PRP",
+          "note": "採血20ml / PRP 2〜3ml"
+        },
+        {
+          "amount": 80000,
+          "tax": "税別",
+          "unit": "関節腔内・PRP注射1単位",
+          "product": "PRP",
+          "note": "採血30〜33ml / PRP 3〜5ml"
+        }
+      ]
+    },
+    "V41_01D2512001": {
+      "facility": "伊藤整形・内科 あいちスポーツ人工関節クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.itojoint.jp/saisei/price.html",
+      "prices": [
+        {
+          "amount": 1320000,
+          "tax": "税込",
+          "unit": "自己脂肪由来幹細胞・5000万個・1回",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1760000,
+          "tax": "税込",
+          "unit": "自己脂肪由来幹細胞・1億個・1回",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2970000,
+          "tax": "税込",
+          "unit": "自己脂肪由来幹細胞・1億個×2回",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 4070000,
+          "tax": "税込",
+          "unit": "自己脂肪由来幹細胞・1億個×3回",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2750000,
+          "tax": "税込",
+          "unit": "自己脂肪由来幹細胞・2億個・1回",
+          "product": "脂肪由来幹細胞"
+        }
+      ],
+      "note": "公式料金表は脊椎・関節内・静脈点滴に用いる自己脂肪細胞由来幹細胞の共通料金を掲載"
     }
   },
   "updated_at": "2026-09-19"
