@@ -1,0 +1,20 @@
+{
+  "version": "v42-maker-manual-audit-batch-41",
+  "date_jst": "2026-09-20",
+  "audited_facilities": 10,
+  "confirmed_new_facilities": 0,
+  "confirmed_new_manufacturer_placements": 0,
+  "holds": 10,
+  "canonical_merge_deferred": true,
+  "canonical_rebuild_performed": false,
+  "carried_forward_from_batch40": {
+    "provisional_new_facilities": 1,
+    "provisional_new_manufacturer_placements": 1
+  },
+  "provisional_cycle_40_41": {
+    "audited_facilities": 20,
+    "provisional_new_facilities": 1,
+    "provisional_new_manufacturer_placements": 1
+  },
+  "note": "Batch 41 processed 10 facilities and found no manufacturer-resolvable product evidence. Canonical merge remains deferred until Batch 42 completes the 30-facility cycle."
+}
