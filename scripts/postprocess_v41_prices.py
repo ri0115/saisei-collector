@@ -381,9 +381,15 @@ def main():
                 products=[product] if product else []
                 maker=p.get("maker")
                 makers=[maker] if maker else ([MAKER[product]] if product in MAKER else [])
+                price_type=p.get("price_type","point")
                 verified.append({
-                    "amount":p.get("amount"),"tax":p.get("tax","不明"),"unit":p.get("unit",""),
+                    "price_type":price_type,
+                    "amount":p.get("amount"),
+                    "amount_min":p.get("amount_min"),
+                    "amount_max":p.get("amount_max"),
+                    "tax":p.get("tax","不明"),"unit":p.get("unit",""),
                     "products":products,"makers":makers,"note":p.get("note",""),
+                    "ranking_eligible":p.get("ranking_eligible", price_type=="point"),
                     "source_url":ov.get("source_url"),"source_type":ov.get("source_type","official_site"),
                     "verification":"web_verified_official_source","postprocess_keep":True,
                     "postprocess_reason":"verified_official_override"
