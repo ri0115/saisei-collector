@@ -1,0 +1,98 @@
+name: Deep rescue v41 MHLW price PDFs
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/deep_mhlw_rescue_v41.py"
+      - ".github/workflows/deep-rescue-v41.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "regen-v41-deep-rescue"
+  cancel-in-progress: false
+
+jobs:
+  rescue:
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3]
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install OCR and dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-jpn
+          pip install requests pymupdf pytesseract pillow
+      - name: Deep OCR rescue
+        run: |
+          python scripts/deep_mhlw_rescue_v41.py             --shard ${{ matrix.shard }}             --shards 4             --output "deep_v41_${{ matrix.shard }}.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deep-v41-${{ matrix.shard }}
+          path: deep_v41_${{ matrix.shard }}.json
+          retention-days: 3
+
+  merge:
+    needs: rescue
+    if: always() && needs.rescue.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/download-artifact@v5
+        with:
+          pattern: deep-v41-*
+          path: deep-input
+      - name: Merge deep rescue results
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          files=sorted(Path("deep-input").rglob("deep_v41_*.json"))
+          items=[]
+          shards={}
+          for p in files:
+              d=json.loads(p.read_text(encoding="utf-8"))
+              items.extend(d.get("items",[]))
+              shards[str(d["shard"])]={k:d[k] for k in ("total","auto","qc","no_match","error")}
+          ids=[x.get("plan_id") for x in items]
+          if len(ids)!=len(set(ids)):
+              raise RuntimeError("duplicate plan IDs in deep rescue")
+          out={
+              "version":"v41-deep-mhlw-rescue-1.0",
+              "total":len(items),
+              "auto":sum(x.get("status")=="AUTO_DEEP" for x in items),
+              "qc":sum(x.get("status")=="QC_DEEP" for x in items),
+              "no_match":sum(x.get("status")=="NO_MATCH" for x in items),
+              "error":sum(x.get("status")=="ERROR" for x in items),
+              "shards":shards,
+              "items":items
+          }
+          Path("results/v41_deep_mhlw_rescue.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
+          print(json.dumps({k:out[k] for k in ("total","auto","qc","no_match","error")},ensure_ascii=False))
+          PY
+      - name: Commit rescue audit
+        run: |
+          git config user.name "regen-med-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add results/v41_deep_mhlw_rescue.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Audit v41 fallback with deep MHLW OCR [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
