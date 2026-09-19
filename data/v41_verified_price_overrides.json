@@ -2150,8 +2150,49 @@
           "note": "変形性膝関節症の公式料金レンジ"
         }
       ]
+    },
+    "V41_01C2410005": {
+      "facility": "井土ヶ谷整形外科リハビリクリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://idogaya-seikei.com/prp",
+      "prices": [
+        {
+          "amount": 165000,
+          "tax": "税別",
+          "unit": "1クール・採血＋2回注射",
+          "product": "PRP",
+          "note": "診察料金を含む"
+        }
+      ]
+    },
+    "V41_01C2305022": {
+      "facility": "医療法人健進会 井上整形外科",
+      "source_type": "official_clinic_site",
+      "source_url": "https://inoue-seikei.net/prp.html",
+      "prices": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "1関節",
+          "product": "PRP",
+          "note": "診察料・採血・注射施術料・PRP精製技術料・キット等を含む"
+        }
+      ]
+    },
+    "V41_03C2305019": {
+      "facility": "医療法人社団慈誠会 神人整形外科クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.jinnin-seikei.jp/prp-guide",
+      "prices": [
+        {
+          "amount": 150000,
+          "tax": "不明",
+          "unit": "変形性膝関節症PRP・標準治療費",
+          "product": "PRP"
+        }
+      ]
     }
   },
-  "updated_at": "2026-09-19T02:45:51.663228+00:00",
+  "updated_at": "2026-09-19",
   "note": "Verified price overrides from official facility pages and MHLW published-plan attachments. Deep OCR imports are restricted to AUTO_DEEP point-price candidates."
 }
