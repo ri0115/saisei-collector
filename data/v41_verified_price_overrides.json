@@ -1,5 +1,5 @@
 {
-  "version": "v41-verified-overrides-1.2",
+  "version": "v41-verified-overrides-1.3",
   "generated_at": "2026-09-19",
   "notes": "Verified from clinic/hospital official webpages via web search. Amounts are treatment prices only; ancillary fees excluded.",
   "plans": {
@@ -1014,6 +1014,49 @@
           "product": "ACC"
         }
       ]
+    },
+    "V41_02C2511027": {
+      "facility": "医療法人社団 医生会 わせだ整形外科",
+      "source_type": "official_mhlw_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511027/5/0",
+      "prices": [
+        {
+          "amount": 44000,
+          "tax": "税込",
+          "unit": "ACP",
+          "product": "ACP",
+          "maker": "Arthrex"
+        },
+        {
+          "amount": 165000,
+          "tax": "税込",
+          "unit": "ACP MAX",
+          "product": "ACP MAX",
+          "maker": "Arthrex"
+        },
+        {
+          "amount": 250000,
+          "tax": "税込",
+          "unit": "Angel",
+          "product": "Angel",
+          "maker": "Arthrex"
+        },
+        {
+          "amount": 44000,
+          "tax": "税込",
+          "unit": "Condensia",
+          "product": "Condensia",
+          "maker": "京セラ"
+        },
+        {
+          "amount": 110000,
+          "tax": "税込",
+          "unit": "PRGF",
+          "product": "PRGF-Endoret",
+          "maker": "BTI"
+        }
+      ],
+      "note": "同一計画説明文書の「金額（税込）」製品別表を採用"
     }
   },
   "updated_at": "2026-09-19"
