@@ -41,6 +41,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 千葉県|実幸会いらはら診療所	千葉県	医療法人社団実幸会 いらはら診療所	京セラ	1	Condensia	MHLW_FULL
 千葉県|慈宏会まさき整形外科	千葉県	医療法人社団慈宏会 まさき整形外科	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR|MHLW_FULL
 千葉県|明敬会重城病院	千葉県	医療法人社団明敬会 重城病院	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR
+千葉県|曙会流山中央病院	千葉県	医療法人社団曙会 流山中央病院	Arthrex	1	ACP	MANUAL_VERIFIED
 千葉県|淳英会jメディカルおゆみの	千葉県	医療法人社団淳英会 Jメディカルおゆみの	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 千葉県|淳英会おゆみの中央病院	千葉県	医療法人社団淳英会 おゆみの中央病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 千葉県|錦昌会みどりのは葉記念病院	千葉県	医療法人社団錦昌会 みどりのは 葉記念病院	Arthrex	1	ACP	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
