@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T02:30:20.330249+00:00",
-  "total": 105,
-  "unique_facilities": 94,
+  "updated_at": "2026-09-19T02:34:10.398188+00:00",
+  "total": 94,
+  "unique_facilities": 86,
   "items": [
     {
       "plan_id": "V41_02C2601085",
@@ -15,36 +15,6 @@
       "treatment": "自己脂肪組織由来幹細胞（ASCs）を用いた変形性関節症の治療",
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601085/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_02C2601086",
-      "mhlw_plan_code": "02C2601086",
-      "facility_id": "V41F5C961B1A36",
-      "prefecture": "千葉県",
-      "facility": "医療法人社団　順徳会　下総中山整形外科クリニック",
-      "address": "船橋市本中山2-10-1 ミレニティ中山4階",
-      "category": "第二種",
-      "treatment": "自己多血小板血漿(PRP)療法（治療対象：関節炎・変形性関節症）",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601086/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_02C2601087",
-      "mhlw_plan_code": "02C2601087",
-      "facility_id": "V41F5C961B1A36",
-      "prefecture": "千葉県",
-      "facility": "医療法人社団　順徳会　下総中山整形外科クリニック",
-      "address": "船橋市本中山2-10-1 ミレニティ中山4階",
-      "category": "第三種",
-      "treatment": "自己多血小板血漿(PRP)療法（治療対象：筋・腱・靭帯損傷）",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601087/5/0",
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
@@ -75,21 +45,6 @@
       "treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605009/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01E2307007",
-      "mhlw_plan_code": "01E2307007",
-      "facility_id": "V41F9674F5DE4E",
-      "prefecture": "大阪府",
-      "facility": "医療法人光明会　もりあきクリニック",
-      "address": "箕面市船場西3-8-11ＣＯＭプラザ１Ｆ",
-      "category": "第三種",
-      "treatment": "自己多血小板血漿（PRP)を用いた、筋・腱・靱帯の軟部組織再生療法",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2307007/5/0",
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
@@ -140,21 +95,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_03D2506004",
-      "mhlw_plan_code": "03D2506004",
-      "facility_id": "V41F5AF30AB300",
-      "prefecture": "愛知県",
-      "facility": "春日井整形あさひ病院",
-      "address": "春日井市下原町字村東2090番地",
-      "category": "第三種",
-      "treatment": "自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2506004/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_01C2210035",
       "mhlw_plan_code": "01C2210035",
       "facility_id": "V41F44A291BB5A",
@@ -166,21 +106,6 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2210035/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01C2509020",
-      "mhlw_plan_code": "01C2509020",
-      "facility_id": "V41FA2867A003D",
-      "prefecture": "東京都",
-      "facility": "THE HUNDRED",
-      "address": "中央区銀座4 丁⽬ 4-2 銀座松屋通り安⽥ビル 5-7 階",
-      "category": "第二種",
-      "treatment": "ヒト⾃⼰脂肪組織由来間葉系幹細胞を⽤いた関節疾患の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509020/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
     },
@@ -379,52 +304,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_02C2608034",
-      "mhlw_plan_code": "02C2608034",
-      "facility_id": "V41FA31807090A",
-      "prefecture": "東京都",
-      "facility": "医療法人社団 熊谷整形外科",
-      "address": "墨田区業平2-14-9",
-      "category": "第二種",
-      "treatment": "ヒト自己脂肪組織由来間葉系幹細胞の関節内投与による関節傷害の症状改善の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608034/5/0",
-      "qc_reason": "price candidates remain ambiguous",
-      "postprocess_resolution": "multiple_fee_components_needs_review",
-      "price_candidates": [
-        {
-          "amount": 3300,
-          "tax": "税別",
-          "unit": "2 回",
-          "score": -6,
-          "products": [],
-          "excerpt": "(税抜価格 2.400.OOO 円十消費税) © 初診料、再診料、検査料は別途 (初診料 5,500 円、再診料 3,300 円、検査料 1 1.OOO 円) * 支払期限 : 初回は組織採了時まで、2 回目以降は投写日決定時まで © 中止時の費用負担 : 支払期限の時点から了日目までは半放、8日目以降は全額負担",
-          "page": 1,
-          "line": "(初診料 5,500 円、再診料 3,300 円、検査料 1 1.OOO 円)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 5500,
-          "tax": "税別",
-          "unit": "2 回",
-          "score": -6,
-          "products": [],
-          "excerpt": "(税抜価格 2.400.OOO 円十消費税) © 初診料、再診料、検査料は別途 (初診料 5,500 円、再診料 3,300 円、検査料 1 1.OOO 円) * 支払期限 : 初回は組織採了時まで、2 回目以降は投写日決定時まで © 中止時の費用負担 : 支払期限の時点から了日目までは半放、8日目以降は全額負担",
-          "page": 1,
-          "line": "(初診料 5,500 円、再診料 3,300 円、検査料 1 1.OOO 円)",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        }
-      ]
-    },
-    {
       "plan_id": "V41_02C1905014",
       "mhlw_plan_code": "02C1905014",
       "facility_id": "V41F7EBA676DC3",
@@ -575,21 +454,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_01C2312021",
-      "mhlw_plan_code": "01C2312021",
-      "facility_id": "V41F1F45EE20D2",
-      "prefecture": "東京都",
-      "facility": "医療法人社団円徳\r\n慶友整形外科脊椎関節病院",
-      "address": "足立区足立1-12-12\r\n足立メディカルモール4階〜8階",
-      "category": "第二種",
-      "treatment": "自家脂肪組織由来幹細胞（ASC）の投与による関節治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2312021/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_01C2409061",
       "mhlw_plan_code": "01C2409061",
       "facility_id": "V41FFD2B139326",
@@ -661,21 +525,6 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508074/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01C2603057",
-      "mhlw_plan_code": "01C2603057",
-      "facility_id": "V41F123B0843D8",
-      "prefecture": "東京都",
-      "facility": "医療法人社団喜美会　自由が丘クリニック",
-      "address": "目黒区八雲3丁目12-10 パークヴィラ2階",
-      "category": "第二種",
-      "treatment": "自家培養脂肪由来幹細胞を用いた変形性関節症の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603057/5/0",
-      "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
     },
@@ -755,21 +604,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_02C2608020",
-      "mhlw_plan_code": "02C2608020",
-      "facility_id": "V41FD574F41EE5",
-      "prefecture": "東京都",
-      "facility": "医療法人社団福至会　SPES CLINIC TOKYO BAY 晴海中央医院",
-      "address": "中央区晴海2-1-40 晴海プライムスクエア11F",
-      "category": "第二種",
-      "treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608020/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_02C2509032",
       "mhlw_plan_code": "02C2509032",
       "facility_id": "V41F2982F76FBC",
@@ -781,21 +615,6 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509032/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_02C2509040",
-      "mhlw_plan_code": "02C2509040",
-      "facility_id": "V41F2982F76FBC",
-      "prefecture": "東京都",
-      "facility": "医療法人社団誠心会\r\nRe:Born Clinic 銀座院",
-      "address": "中央区銀座1-15-4　銀座一丁目ビル10F",
-      "category": "第二種",
-      "treatment": "多血小板血漿を用いた変形性関節症の治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509040/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
     },
@@ -946,21 +765,6 @@
       "treatment": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療",
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601013/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01C2506017",
-      "mhlw_plan_code": "01C2506017",
-      "facility_id": "V41F69EEBD7824",
-      "prefecture": "東京都",
-      "facility": "日本橋えがわクリニック",
-      "address": "中央区八重洲１－４－１０八重洲仲通りビル８F",
-      "category": "第二種",
-      "treatment": "自己脂肪組織由来幹細胞（ASCs）を用いた変形性関節症の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506017/5/0",
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
