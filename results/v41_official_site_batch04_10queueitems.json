@@ -1,0 +1,282 @@
+{
+  "version": "v41-official-site-batch-04",
+  "baseline_version": "v41-postprocess-1.6",
+  "scope": {
+    "queue_file": "results/v41_official_site_fallback_queue.json",
+    "batch_index": 4,
+    "queue_item_range": "31-40",
+    "items": 10,
+    "unique_facilities": 9,
+    "duplicate_facility_note": "Queue #34 and #35 are two distinct PRP plans at 表参道総合医療クリニック."
+  },
+  "decision_rule": {
+    "confirmed_price": "Current official facility site or the exact current MHLW published-plan document for the identical queued plan explicitly shows a numeric treatment price. Prices for materially different treatments are not substituted.",
+    "official_no_public_price": "Current official facility site confirms the identical queued treatment/therapy is offered, but the current public fee information does not publish that treatment fee.",
+    "unconfirmed": "The current official facility site cannot be adequately inspected or does not establish a sufficiently close match to the queued treatment, and the exact public plan materials do not yield a reliable numeric fee. Related-treatment prices are not reused."
+  },
+  "evidence_policy_note": "Exact MHLW published-plan documents are accepted as primary-source evidence only for the identical queued plan. Cross-plan, same-facility, and related-modality prices are explicitly excluded.",
+  "classification_counts": {
+    "価格確定": 4,
+    "公式サイトはあるが価格非公開": 4,
+    "未確認": 2
+  },
+  "records": [
+    {
+      "queue_no": 31,
+      "plan_id": "V41_01C2601013",
+      "mhlw_plan_code": "01C2601013",
+      "facility_id": "V41F34A769E095",
+      "facility": "幹細胞クリニック東京",
+      "prefecture": "東京都",
+      "target_treatment": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療",
+      "classification": "公式サイトはあるが価格非公開",
+      "official_url": "https://kansaibou-clinic.or.jp/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601013/5/0",
+      "matched_prices": [],
+      "evidence": "Current official site confirms MSC stem-cell treatment at the exact queued address and states that a clear all-inclusive price is presented after counseling, but it does not publish a numeric amount. The exact MHLW plan confirms the osteoarthritis adipose-derived MSC treatment and refers to a separate treatment-cost sheet without a numeric fee in the public main document."
+    },
+    {
+      "queue_no": 32,
+      "plan_id": "V41_03C2208002",
+      "mhlw_plan_code": "03C2208002",
+      "facility_id": "V41F2F76A73C47",
+      "facility": "東京医科大学病院",
+      "prefecture": "東京都",
+      "target_treatment": "スポーツ傷害（筋・腱・靭帯）を対象とした自己多血小板血漿注入療法",
+      "classification": "公式サイトはあるが価格非公開",
+      "official_url": "https://hospinfo.tokyo-med.ac.jp/shinryo/seikei/",
+      "official_department_url": "https://tmuortho.net/sportblog/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2208002/5/0",
+      "matched_prices": [],
+      "evidence": "The current official hospital orthopedics site confirms the active sports/arthroscopy service, and the live official orthopedics department site identifies PRP as a sports-group treatment. The exact MHLW plan matches sports injury of muscle/tendon/ligament. No current public numeric PRP treatment fee was found."
+    },
+    {
+      "queue_no": 33,
+      "plan_id": "V41_03C2604028",
+      "mhlw_plan_code": "03C2604028",
+      "facility_id": "V41F0072FF5DB8",
+      "facility": "独立行政法人国立病院機構村山医療センター",
+      "prefecture": "東京都",
+      "target_treatment": "変形性関節症に対する多血小板血漿抽出液（APS）関節内投与療法",
+      "classification": "価格確定",
+      "official_url": "https://murayama.hosp.go.jp/info/20240213.html",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604028/5/0",
+      "matched_prices": [
+        {
+          "treatment": "変形性関節症に対する多血小板血漿抽出液（APS）関節内投与療法",
+          "amount_yen": 330000,
+          "tax": "税込",
+          "unit": "施術料",
+          "note": "患者の症状・その他の事情等により治療費が変動する場合あり"
+        }
+      ],
+      "evidence": "The current official hospital page confirms APS therapy for osteoarthritis. The exact MHLW plan document states the hospital-prescribed treatment fee is 330,000 yen tax included."
+    },
+    {
+      "queue_no": 34,
+      "plan_id": "V41_01C2504035",
+      "mhlw_plan_code": "01C2504035",
+      "facility_id": "V41FB6FEEF9F1C",
+      "facility": "表参道総合医療クリニック",
+      "prefecture": "東京都",
+      "target_treatment": "自家多血小板血漿（Platelet-rich plasma：PRP）を用いた脊椎由来疼痛の治療",
+      "classification": "公式サイトはあるが価格非公開",
+      "official_url": "https://www.omotesando-amc.jp/prp/",
+      "fee_url": "https://www.omotesando-amc.jp/price/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504035/5/0",
+      "matched_prices": [],
+      "evidence": "Current official PRP page describes autologous PRP injection and includes lumbar/spinal pain indications, establishing the queued therapy. The public fee page publishes PRP-FD prices, not the identical live autologous PRP plan, so those prices are not adopted.",
+      "related_prices_not_adopted": [
+        {
+          "label": "腰痛に対してのPRP-FD 2V",
+          "amount_yen": 1100000,
+          "tax": "税込",
+          "reason": "PRP-FD is a different processed modality from the queued autologous PRP treatment."
+        }
+      ]
+    },
+    {
+      "queue_no": 35,
+      "plan_id": "V41_01C2506021",
+      "mhlw_plan_code": "01C2506021",
+      "facility_id": "V41FB6FEEF9F1C",
+      "facility": "表参道総合医療クリニック",
+      "prefecture": "東京都",
+      "target_treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）",
+      "classification": "公式サイトはあるが価格非公開",
+      "official_url": "https://www.omotesando-amc.jp/prp/",
+      "fee_url": "https://www.omotesando-amc.jp/price/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506021/5/0",
+      "matched_prices": [],
+      "evidence": "Current official PRP page confirms intra-articular/osteoarthritis PRP indications. The exact MHLW supplementary fee form publicly displays a treatment-fee field but its treatment/amount row is redacted, while the public website prices are for PRP-FD or combination therapies rather than the identical queued PRP treatment.",
+      "related_prices_not_adopted": [
+        {
+          "label": "PRP-FD 片膝",
+          "amount_yen": 440000,
+          "tax": "税込",
+          "reason": "Different processed modality."
+        }
+      ]
+    },
+    {
+      "queue_no": 36,
+      "plan_id": "V41_01C2411046",
+      "mhlw_plan_code": "01C2411046",
+      "facility_id": "V41FD361E6CD7C",
+      "facility": "銀座ALIVIO clinic",
+      "prefecture": "東京都",
+      "target_treatment": "自家脂肪由来幹細胞を用いた変形性関節症治療",
+      "classification": "価格確定",
+      "official_url": "https://ginza-alivio.com/menu/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411046/5/0",
+      "matched_prices": [
+        {
+          "treatment": "幹細胞治療",
+          "detail": "初回（脂肪採取と初回の幹細胞投与を含む）",
+          "amount_yen": 2500000,
+          "price_type": "〜（下限価格）",
+          "tax": "税別",
+          "unit": "初回"
+        },
+        {
+          "treatment": "幹細胞治療",
+          "detail": "2回目以降",
+          "amount_yen": 1500000,
+          "price_type": "〜（下限価格）",
+          "tax": "税別",
+          "unit": "2回目以降"
+        }
+      ],
+      "evidence": "Current official menu describes autologous adipose-derived cultured stem-cell treatment with joint-cavity administration and publishes the two stem-cell fee tiers. The exact MHLW plan provides the osteoarthritis linkage. The public menu is not disease-specific, so the original labels and 'from' pricing are preserved without converting to a per-joint fee.",
+      "scope_note": "公式メニューは疾患別価格ではないため、価格の『〜』を維持"
+    },
+    {
+      "queue_no": 37,
+      "plan_id": "V41_01C2508039",
+      "mhlw_plan_code": "01C2508039",
+      "facility_id": "V41F779AAFAA1B",
+      "facility": "青海100クリニック",
+      "prefecture": "東京都",
+      "target_treatment": "関節周囲炎の緩和を目的とした自己脂肪由来間葉系間質細胞治療(局所投与)",
+      "classification": "未確認",
+      "official_url": null,
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508039/5/0",
+      "matched_prices": [],
+      "evidence": "The exact MHLW plan confirms the queued local adipose-derived stromal-cell treatment and states that it is entirely self-pay with details on a separate treatment statement, but no current official clinic website establishing the service and no public numeric fee were identified. Therefore retained as unconfirmed rather than no-public-price."
+    },
+    {
+      "queue_no": 38,
+      "plan_id": "V41_02C2608038",
+      "mhlw_plan_code": "02C2608038",
+      "facility_id": "V41FA4C65591BA",
+      "facility": "医療法人柿生会 渡辺クリニック",
+      "prefecture": "神奈川県",
+      "target_treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する治療",
+      "classification": "未確認",
+      "official_url": "https://watanabeclinic.com/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608038/5/0",
+      "matched_prices": [],
+      "evidence": "Current official clinic site confirms the facility and orthopedics service but does not currently expose PRP/regenerative-medicine treatment or pricing. The MHLW plan confirms the PRP filing, but the current public facility site does not establish sufficiently close correspondence to classify the price as publicly unavailable."
+    },
+    {
+      "queue_no": 39,
+      "plan_id": "V41_02C2508038",
+      "mhlw_plan_code": "02C2508038",
+      "facility_id": "V41FD7677D490C",
+      "facility": "医療法人湘美会 SBC横浜駅前整形外科クリニック",
+      "prefecture": "神奈川県",
+      "target_treatment": "自己脂肪組織由来幹細胞（ASCs）を用いた変形性関節症の治療",
+      "classification": "価格確定",
+      "official_url": "https://www.sbc-seikeigeka.com/clinic/branch/yokohama/",
+      "treatment_url": "https://www.sbc-seikeigeka.com/care/kneejoint/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508038/5/0",
+      "matched_prices": [
+        {
+          "treatment": "培養脂肪幹細胞治療（ASC）",
+          "amount_yen": 1200000,
+          "tax": "税込",
+          "unit": "3回コース",
+          "note": "診察料込"
+        }
+      ],
+      "evidence": "The current official Yokohama branch links to the group's knee regenerative-medicine page, which explicitly describes cultured adipose stem-cell treatment (ASC) for osteoarthritis and publishes a 3-treatment course of 1,200,000 yen tax included including consultation."
+    },
+    {
+      "queue_no": 40,
+      "plan_id": "V41_02C2104005",
+      "mhlw_plan_code": "02C2104005",
+      "facility_id": "V41F6CD422CED3",
+      "facility": "医療法人社団 葵会 AOI国際病院",
+      "prefecture": "神奈川県",
+      "target_treatment": "整形外科領域におけるPRP（多血小板血漿）療法",
+      "classification": "価格確定",
+      "official_url": "https://www.aoikai.jp/aoiuniversalhospital/regenerative/",
+      "treatment_url": "https://www.aoikai.jp/aoiuniversalhospital/specialty/prp/prp02/",
+      "fee_pdf_url": "https://www.aoikai.jp/aoiuniversalhospital/wp-content/uploads/sites/50/2025/05/89e616fd6408f6906ad40b5ec2b383a8.pdf",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2104005/5/0",
+      "matched_prices": [
+        {
+          "treatment": "PRP（一般）",
+          "amount_yen": 100000,
+          "tax": "税込",
+          "unit": "1回"
+        },
+        {
+          "treatment": "PRP療法（1mL）",
+          "amount_yen": 30000,
+          "tax": "税込",
+          "unit": "1回",
+          "note": "手技料及び超音波検査料含む"
+        }
+      ],
+      "ancillary_fees": [
+        {
+          "item": "PRP初診料",
+          "amount_yen": 3000,
+          "tax": "税込",
+          "unit": "1回"
+        },
+        {
+          "item": "PRP再診料",
+          "amount_yen_min": 1000,
+          "amount_yen_max": 1240,
+          "tax": "税込",
+          "unit": "1回"
+        },
+        {
+          "item": "PRP末梢血液一般検査",
+          "amount_yen": 275,
+          "tax": "税込",
+          "unit": "1回"
+        },
+        {
+          "item": "PRP血液像検査",
+          "amount_yen": 165,
+          "tax": "税込",
+          "unit": "1回"
+        }
+      ],
+      "evidence": "Current official hospital regenerative/orthopedic PRP pages establish PRP treatment in orthopedics. The hospital's official May 2025 out-of-pocket fee PDF publishes both 'PRP（一般） 100,000円/回' and 'PRP療法（1mL）（手技料及び超音波検査料含む）30,000円/回', both tax included. Labels are preserved separately rather than collapsing them."
+    }
+  ],
+  "batch_audit": {
+    "item_count": 10,
+    "unique_facility_count": 9,
+    "classification_total": 10,
+    "confirmed_price_items": 4,
+    "confirmed_price_rows": 6,
+    "official_no_public_price_items": 4,
+    "unconfirmed_items": 2,
+    "fail": 0,
+    "baseline_mutated": false,
+    "next_queue_no": 41
+  },
+  "cumulative_after_batch04": {
+    "processed_queue_items": 40,
+    "confirmed_price_items": 13,
+    "official_no_public_price_items": 11,
+    "unconfirmed_items": 16,
+    "fail": 0,
+    "remaining_queue_items": 18
+  }
+}
