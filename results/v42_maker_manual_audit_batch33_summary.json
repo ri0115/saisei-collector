@@ -2,20 +2,17 @@
   "version": "v42-maker-manual-audit-batch-33",
   "date_jst": "2026-09-20",
   "audited_facilities": 3,
-  "confirmed_new_facilities": 1,
-  "confirmed_new_manufacturer_placements": 1,
+  "confirmed_new_facilities": 0,
+  "confirmed_new_manufacturer_placements": 0,
+  "already_canonical": 1,
   "holds": 2,
-  "confirmed_by_manufacturer": {
-    "Arthrex": 1
-  },
-  "canonical_rebuild_performed": false,
-  "canonical_rebuild_expected_after_push": true,
-  "expected_canonical_after_rebuild": {
-    "manufacturer_known_facilities": 475,
+  "canonical_rebuild_performed": true,
+  "canonical_after_rebuild": {
+    "manufacturer_known_facilities": 474,
     "facility_universe": 949,
-    "manufacturer_known_rate_pct": 50.05,
-    "manufacturer_placements": 575,
-    "Arthrex": 211
+    "manufacturer_known_rate_pct": 49.95,
+    "manufacturer_placements": 574,
+    "Arthrex": 210
   },
-  "note": "This completes the 9-facility cycle across batches 31-33. Updating manual_verified_additions triggers canonical rebuild workflow."
+  "note": "This completes the 9-facility cycle across batches 31-33. Nishio Hospital ACP/Arthrex was already canonical; the push only normalized the displayed facility name. No new manufacturer-known facility was added."
 }
