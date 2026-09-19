@@ -1,6 +1,6 @@
 {
   "version": "v41-seed-crawl-1.2",
-  "total_facilities": 32,
+  "total_facilities": 40,
   "results": [
     {
       "facility_id": "V41F36AC21EE08",
@@ -20,12 +20,12 @@
           "chars": 2574
         },
         {
-          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/greetings/",
-          "chars": 1854
-        },
-        {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/cpc/",
           "chars": 2845
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/greetings/",
+          "chars": 1854
         },
         {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/committee/",
@@ -156,12 +156,12 @@
           "chars": 4336
         },
         {
-          "url": "https://www.ginza-noa-cl.jp/prp",
-          "chars": 3244
-        },
-        {
           "url": "https://www.ginza-noa-cl.jp/stemtap",
           "chars": 4379
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/prp",
+          "chars": 3244
         }
       ],
       "plans": [
@@ -204,12 +204,12 @@
           "chars": 2171
         },
         {
-          "url": "https://iit-clinic.com/mesenchymal-stem-cell-supernatant/",
-          "chars": 1093
-        },
-        {
           "url": "https://iit-clinic.com/prp-therapy/",
           "chars": 3002
+        },
+        {
+          "url": "https://iit-clinic.com/mesenchymal-stem-cell-supernatant/",
+          "chars": 1093
         },
         {
           "url": "https://iit-clinic.com/stem-cell-therapy/",
@@ -260,6 +260,10 @@
           "chars": 5269
         },
         {
+          "url": "https://heleneclinic.com/stemcell/msc/",
+          "chars": 3480
+        },
+        {
           "url": "https://heleneclinic.com/stemcell/",
           "chars": 2839
         },
@@ -268,20 +272,16 @@
           "chars": 8679
         },
         {
-          "url": "https://heleneclinic.com/stemcell/msc/",
-          "chars": 3480
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/risk/",
           "chars": 2591
         },
         {
-          "url": "https://heleneclinic.com/stemcell/academic-activities/",
-          "chars": 3052
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/research-papers/",
           "chars": 9589
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/academic-activities/",
+          "chars": 3052
         }
       ],
       "plans": [
@@ -304,12 +304,12 @@
           "chars": 5269
         },
         {
-          "url": "https://heleneclinic.com/stemcell/",
-          "chars": 2839
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/msc/",
           "chars": 3480
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/",
+          "chars": 2839
         },
         {
           "url": "https://heleneclinic.com/stemcell/disease-treatment/",
@@ -320,12 +320,12 @@
           "chars": 2591
         },
         {
-          "url": "https://heleneclinic.com/stemcell/academic-activities/",
-          "chars": 3052
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/research-papers/",
           "chars": 9589
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/academic-activities/",
+          "chars": 3052
         }
       ],
       "plans": [
@@ -546,24 +546,24 @@
           "chars": 1968
         },
         {
-          "url": "https://motoazabuhills-clinic.jp/obesity/",
-          "chars": 7796
-        },
-        {
           "url": "https://motoazabuhills-clinic.jp/relieve-pain/",
           "chars": 5840
+        },
+        {
+          "url": "https://motoazabuhills-clinic.jp/obesity/",
+          "chars": 7796
         },
         {
           "url": "https://motoazabuhills-clinic.jp/aga/",
           "chars": 4637
         },
         {
-          "url": "https://motoazabuhills-clinic.jp/forgetfulness/",
-          "chars": 6241
-        },
-        {
           "url": "https://motoazabuhills-clinic.jp/skin-aging/",
           "chars": 5249
+        },
+        {
+          "url": "https://motoazabuhills-clinic.jp/forgetfulness/",
+          "chars": 6241
         }
       ],
       "plans": [
@@ -738,6 +738,189 @@
           "plan_id": "V41_01C2510078",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F7EBA676DC3",
+      "facility": "医療法人社団 盛心会 タカラクリニック",
+      "seed_url": "https://takaracancerclinic.com/",
+      "pages": [
+        {
+          "url": "https://takaracancerclinic.com/",
+          "chars": 1521
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C1905014",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F865E2F2615",
+      "facility": "医療法人社団医進会 銀座小田クリニック",
+      "seed_url": "https://ishinkai-goc.net/",
+      "pages": [
+        {
+          "url": "https://ishinkai-goc.net/",
+          "chars": 2318
+        },
+        {
+          "url": "https://ishinkai-goc.net/our-medical-care/stem-cell-therapy/",
+          "chars": 3785
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_03C2309040",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F444EEF2E57",
+      "facility": "医療法人社団同仁会診療所 Clinic Le GINZA",
+      "seed_url": "https://clinic-le-ginza.jp/stem-cell/",
+      "pages": [
+        {
+          "url": "https://clinic-le-ginza.jp/stem-cell/",
+          "chars": 5876
+        },
+        {
+          "url": "https://clinic-le-ginza.jp/prp/",
+          "chars": 4737
+        },
+        {
+          "url": "https://clinic-le-ginza.jp/",
+          "chars": 4120
+        },
+        {
+          "url": "https://clinic-le-ginza.jp/price/",
+          "chars": 2819
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2503053",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "整形外科疾患に伴う炎症の緩和を目的とした自己脂肪組織由来間葉系幹細胞の静脈点滴治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F641A5944C0",
+      "facility": "医療法人社団円徳 慶友整形外科脊椎関節病院",
+      "seed_url": "https://hospital.adachikeiyu.com/visitation",
+      "pages": [
+        {
+          "url": "https://hospital.adachikeiyu.com/visitation",
+          "chars": 1335
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2309059",
+          "treatment_class": "PRP",
+          "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F1F45EE20D2",
+      "facility": "医療法人社団円徳 慶友整形外科脊椎関節病院",
+      "seed_url": "https://hospital.adachikeiyu.com/visitation",
+      "pages": [
+        {
+          "url": "https://hospital.adachikeiyu.com/visitation",
+          "chars": 1335
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2312021",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自家脂肪組織由来幹細胞（ASC）の投与による関節治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FFD2B139326",
+      "facility": "医療法人社団円徳 慶友整形外科脊椎関節病院",
+      "seed_url": "https://hospital.adachikeiyu.com/visitation",
+      "pages": [
+        {
+          "url": "https://hospital.adachikeiyu.com/visitation",
+          "chars": 1335
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2409061",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自己脂肪由来間葉系幹細胞を用いた慢性疼痛に対する治療",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F15EAFC3246",
+      "facility": "医療法人社団喜美会 自由が丘クリニック",
+      "seed_url": "https://jiyugaokaclinic.com/medical/paintreatment/",
+      "pages": [
+        {
+          "url": "https://jiyugaokaclinic.com/medical/paintreatment/",
+          "chars": 4261
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2508073",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）",
+          "candidates": [],
+          "no_public_price_evidence": []
+        },
+        {
+          "plan_id": "V41_01C2508074",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F123B0843D8",
+      "facility": "医療法人社団喜美会 自由が丘クリニック",
+      "seed_url": "https://jiyugaokaclinic.com/medical/paintreatment/",
+      "pages": [
+        {
+          "url": "https://jiyugaokaclinic.com/medical/paintreatment/",
+          "chars": 4261
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2603057",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自家培養脂肪由来幹細胞を用いた変形性関節症の治療",
           "candidates": [],
           "no_public_price_evidence": []
         }
