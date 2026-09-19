@@ -1,0 +1,71 @@
+[
+  {
+    "code": "01E2605018",
+    "idx": 0,
+    "url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605018/5/0",
+    "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605018/5/0\", waiting until \"commit\"\n"
+  },
+  {
+    "code": "01E2605018",
+    "idx": 1,
+    "url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605018/5/1",
+    "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605018/5/1\", waiting until \"commit\"\n"
+  },
+  {
+    "code": "03F2304004",
+    "idx": 0,
+    "url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2304004/5/0",
+    "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2304004/5/0\", waiting until \"commit\"\n"
+  },
+  {
+    "code": "03F2304004",
+    "idx": 1,
+    "url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2304004/5/1",
+    "status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 6508,
+    "pdf_magic": false
+  },
+  {
+    "code": "01C2407019",
+    "idx": 0,
+    "url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407019/5/0",
+    "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407019/5/0\", waiting until \"commit\"\n"
+  },
+  {
+    "code": "01C2407019",
+    "idx": 1,
+    "url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407019/5/1",
+    "status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 6508,
+    "pdf_magic": false
+  },
+  {
+    "code": "01G2404003",
+    "idx": 0,
+    "url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2404003/5/0",
+    "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2404003/5/0\", waiting until \"commit\"\n"
+  },
+  {
+    "code": "01G2404003",
+    "idx": 1,
+    "url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2404003/5/1",
+    "status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 6508,
+    "pdf_magic": false
+  },
+  {
+    "code": "01E2303002",
+    "idx": 0,
+    "url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/0",
+    "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/0\", waiting until \"commit\"\n"
+  },
+  {
+    "code": "01E2303002",
+    "idx": 1,
+    "url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/1",
+    "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/1\", waiting until \"commit\"\n"
+  }
+]
