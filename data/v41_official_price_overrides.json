@@ -1082,23 +1082,9 @@
           "unit": "ACP",
           "product": "ACP",
           "price_type": "point"
-        },
-        {
-          "amount": 143000,
-          "tax": "不明",
-          "unit": "Waqoo・シングル",
-          "product": "Waqoo",
-          "price_type": "point"
-        },
-        {
-          "amount": 187000,
-          "tax": "不明",
-          "unit": "Waqoo・ダブル",
-          "product": "Waqoo",
-          "price_type": "point"
         }
       ],
-      "note": "2026-04-15公式お知らせ記載の現行料金。税込/税別表記はページ上で確認できないため不明。 Processing-only PRP-FD/PFC-FD price rows excluded from canonical system on 2026-09-19; tracked separately."
+      "note": "2026-04-15公式お知らせ記載の現行料金。税込/税別表記はページ上で確認できないため不明。 Processing-only PRP-FD/PFC-FD price rows excluded from canonical system on 2026-09-19; tracked separately. Waqoo/PDF-FD processing-only rows excluded from canonical system on 2026-09-19; tracked separately."
     },
     {
       "plan_id": "V41_01F2310002",
