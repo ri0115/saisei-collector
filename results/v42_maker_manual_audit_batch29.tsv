@@ -1,0 +1,6 @@
+facility_id	prefecture	facility	status	product	manufacturer	evidence_type	evidence_url	note
+B29-01	大阪府	医療法人新和会 朝田整形外科	CONFIRMED_NEW_PLACEMENT	Condensia	京セラ	FACILITY_OFFICIAL_EXPLICIT	https://asada-seikei.jimdoweb.com/prp%E7%99%82%E6%B3%95/	Current official page explicitly lists Kyocera Condensia. Facility already canonical for Zimmer Biomet.
+B29-02	埼玉県	医療法人社団春陽会 大宮リビータ整形外科	CONFIRMED_NEW_PLACEMENT	Condensia	京セラ	FACILITY_OFFICIAL_PRODUCT_MAP	https://omiya-revita-seikei.com/treatment_area/joint-disorders/	Current official page lists Condensia PRP and APS treatments. Facility already canonical for Zimmer Biomet; add Kyocera only.
+B29-03	千葉県	長浜クリニック	ALREADY_CANONICAL	ACP|Condensia	Arthrex|京セラ	CANONICAL_ALREADY_PRESENT	https://www.nagahama-clinic.com/prp	Current official page confirms both; already canonical. PFC-FD stays outsourcing-only.
+B29-04	大阪府	医療法人 厚心会 まつかわ整形外科クリニック	ALREADY_CANONICAL	MAGELLAN	Arteriocyte Medical Systems	CANONICAL_ALREADY_PRESENT	https://matsukawa-cl.jp/rm/magellan/	Current official MAGELLAN page; already canonical.
+B29-05	東京都	医療法人社団研裕会 紀尾井町プラザクリニック歯科・美容外科	ALREADY_CANONICAL	PRGF-Endoret	BTI Biotechnology Institute	CANONICAL_ALREADY_PRESENT	https://kpc-biyou.jp/lp/	Current PRGF-Endoret offering; already canonical.
