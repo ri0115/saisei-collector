@@ -1,0 +1,71 @@
+lane	queue_index	plan_id	mhlw_plan_code	facility_id	prefecture	facility	category	treatment_class	status	amount	tax	unit	products	makers	document_url	ranking_eligible	merge_status	qc_reason
+B	301	P00517	03F2403003	F0418	香川県	社会医療法人財団 大樹会 総合病院 回生病院	第二種	脂肪由来MSC	AUTO	800000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2403003/5/0	true	READY_AUTO	line-level strong price context
+B	301	P00517	03F2403003	F0418	香川県	社会医療法人財団 大樹会 総合病院 回生病院	第二種	脂肪由来MSC	AUTO	1200000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2403003/5/0	true	READY_AUTO	line-level strong price context
+B	302	P00518	03F2309004	F0419	香川県	香川県厚生農業協同組合連合会 屋島総合病院	第二種	PRP	AUTO	33000	税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2309004/5/0	true	READY_AUTO	
+B	303	P00519	01F2203001	F0420	香川県	高松南整形外科スポーツクリニック	第二種	PRP	AUTO	45000	税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2203001/5/0	true	READY_AUTO	
+B	303	P00519	01F2203001	F0420	香川県	高松南整形外科スポーツクリニック	第二種	PRP	AUTO	50000	税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2203001/5/0	true	READY_AUTO	
+B	303	P00519	01F2203001	F0420	香川県	高松南整形外科スポーツクリニック	第二種	PRP	AUTO	90000	税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2203001/5/0	true	READY_AUTO	
+B	304	P00537	03F2505001	F0424	高知県	医療法人緑風会 海里マリン病院	第二種	PRP/APS	AUTO	100000	不明		APS|GPS|Zimmer	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2505001/5/0	true	READY_AUTO	
+B	304	P00537	03F2505001	F0424	高知県	医療法人緑風会 海里マリン病院	第二種	PRP/APS	AUTO	300000	不明		APS|GPS|Zimmer	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2505001/5/0	true	READY_AUTO	
+B	305	P00538	03F2603001	F0421	高知県	独立行政法人地域医療機能推進機構 高知西病院	第二種	PRP	AUTO	150000	税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2603001/5/0	true	READY_AUTO	
+B	305	P00538	03F2603001	F0421	高知県	独立行政法人地域医療機能推進機構 高知西病院	第二種	PRP	AUTO	2000	税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2603001/5/0	true	READY_AUTO	
+B	305	P00538	03F2603001	F0421	高知県	独立行政法人地域医療機能推進機構 高知西病院	第二種	PRP	AUTO	300000	税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2603001/5/0	true	READY_AUTO	
+B	306	P00539	02F2506008	F0422	高知県	社会医療法人近森会 近森病院	第二種	PRP/APS	AUTO	300000	税別		APS|GPS|Zimmer	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2506008/5/0	true	READY_AUTO	line-level medium price context
+B	307	P00542	03F2207001	F0423	高知県	細木病院	第三種	PRP	AUTO	50000	税別	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2207001/5/0	true	READY_AUTO	
+B	308	P00540	03F2207002	F0423	高知県	細木病院	第二種	PRP	AUTO	80000	税別	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2207002/5/0	true	READY_AUTO	
+B	309	P00544	02F2605002	F0427	高知県	高知大学医学部附属病院	第三種	PRP	AUTO	82600	不明		GPS|Zimmer	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2605002/5/0	true	READY_AUTO	
+B	310	P00467	01F2604003	F0428	鳥取県	医療法人YSOC 米子南整形外科クリニック	第二種	PRP	AUTO	50000	税込		ACP MAX|ACP|Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2604003/5/0	true	READY_AUTO	line-level strong price context
+B	310	P00467	01F2604003	F0428	鳥取県	医療法人YSOC 米子南整形外科クリニック	第二種	PRP	AUTO	90000	税込		ACP MAX|ACP|Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2604003/5/0	true	READY_AUTO	line-level strong price context
+B	310	P00467	01F2604003	F0428	鳥取県	医療法人YSOC 米子南整形外科クリニック	第二種	PRP	AUTO	200000	税込		ACP MAX|ACP|Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2604003/5/0	true	READY_AUTO	line-level strong price context
+B	310	P00467	01F2604003	F0428	鳥取県	医療法人YSOC 米子南整形外科クリニック	第二種	PRP	AUTO	300000	税込		ACP MAX|ACP|Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2604003/5/0	true	READY_AUTO	line-level strong price context
+B	310	P00467	01F2604003	F0428	鳥取県	医療法人YSOC 米子南整形外科クリニック	第二種	PRP	AUTO	15000	税込		ACP MAX|ACP|Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2604003/5/0	true	READY_AUTO	line-level strong price context
+B	310	P00467	01F2604003	F0428	鳥取県	医療法人YSOC 米子南整形外科クリニック	第二種	PRP	AUTO	50000	税込		ACP MAX|ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2604003/5/0	true	READY_AUTO	line-level strong price context
+B	310	P00467	01F2604003	F0428	鳥取県	医療法人YSOC 米子南整形外科クリニック	第二種	PRP	AUTO	180000	税込		ACP MAX|ACP|Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2604003/5/0	true	READY_AUTO	line-level strong price context
+B	310	P00467	01F2604003	F0428	鳥取県	医療法人YSOC 米子南整形外科クリニック	第二種	PRP	AUTO	10000	税込		ACP MAX|ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2604003/5/0	true	READY_AUTO	line-level strong price context
+B	311	P00468	02F2506001	F0429	鳥取県	医療法人社団かわぐちクリニック	第二種	PRP	AUTO	44000	税込		APS|GPS|PEAK	Zimmer Biomet|PEAK系	https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2506001/5/0	true	READY_AUTO	
+B	311	P00468	02F2506001	F0429	鳥取県	医療法人社団かわぐちクリニック	第二種	PRP	AUTO	165000	税込		APS|GPS|PEAK	Zimmer Biomet|PEAK系	https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2506001/5/0	true	READY_AUTO	
+B	311	P00468	02F2506001	F0429	鳥取県	医療法人社団かわぐちクリニック	第二種	PRP	AUTO	253000	税込		APS|GPS|PEAK	Zimmer Biomet|PEAK系	https://saiseiiryo.mhlw.go.jp/published_plan/download/02F2506001/5/0	true	READY_AUTO	
+B	312	P00471	01F2202005	F0430	鳥取県	医療法人育生会 高島病院	第三種	PRP	QC						https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2202005/5/0	false	REVIEW_QC_NO_PRICE	no price found after text/OCR pass
+B	313	P00469	01F2202004	F0430	鳥取県	医療法人育生会 高島病院	第二種	PRP	QC	33000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2202004/5/0	false	REVIEW_QC_CANDIDATE	no price found after text/OCR pass
+B	314	P00470	03F2509002	F0431	鳥取県	鳥取大学医学部附属病院	第二種	PRP	AUTO	187000	税別	1 回	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2509002/5/0	true	READY_AUTO	
+B	314	P00470	03F2509002	F0431	鳥取県	鳥取大学医学部附属病院	第二種	PRP	AUTO	300000	税別	1 回	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2509002/5/0	true	READY_AUTO	
+B	314	P00470	03F2509002	F0431	鳥取県	鳥取大学医学部附属病院	第二種	PRP	AUTO	2000	税別		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2509002/5/0	true	READY_AUTO	
+B	314	P00470	03F2509002	F0431	鳥取県	鳥取大学医学部附属病院	第二種	PRP	AUTO	187000	税別		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2509002/5/0	true	READY_AUTO	
+B	314	P00470	03F2509002	F0431	鳥取県	鳥取大学医学部附属病院	第二種	PRP	AUTO	300000	税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2509002/5/0	true	READY_AUTO	
+B	315	P00577	01G2403007	F0011	佐賀県	佐賀県医療センター好生館	第二種	PRP	QC						https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2403007/5/0	false	REVIEW_QC_NO_PRICE	no price found after text/OCR pass
+B	316	P00576	02G2406002	F0012	佐賀県	百武整形外科・スポーツクリニック	第二種	PRP	QC	50000	税別		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2406002/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	316	P00576	02G2406002	F0012	佐賀県	百武整形外科・スポーツクリニック	第二種	PRP	QC	150000	税別		APS|GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2406002/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	316	P00576	02G2406002	F0012	佐賀県	百武整形外科・スポーツクリニック	第二種	PRP	QC	300000	税別	1 回	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02G2406002/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	317	P00588	01G2101005	F0104	大分県	仙波整形外科	第二種	PRP	AUTO	50000	税別	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2101005/5/0	true	READY_AUTO	
+B	317	P00588	01G2101005	F0104	大分県	仙波整形外科	第二種	PRP	AUTO	100000	税別	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2101005/5/0	true	READY_AUTO	
+B	318	P00894	01G2506014	F0345	熊本県	保田窪整形外科病院	第三種	PRP	AUTO	22000	税込	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2506014/5/0	true	READY_AUTO	
+B	318	P00894	01G2506014	F0345	熊本県	保田窪整形外科病院	第三種	PRP	AUTO	38500	税込	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2506014/5/0	true	READY_AUTO	
+B	318	P00894	01G2506014	F0345	熊本県	保田窪整形外科病院	第三種	PRP	AUTO	15000	不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2506014/5/0	true	READY_AUTO	
+B	318	P00894	01G2506014	F0345	熊本県	保田窪整形外科病院	第三種	PRP	AUTO	17000	不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2506014/5/0	true	READY_AUTO	
+B	318	P00894	01G2506014	F0345	熊本県	保田窪整形外科病院	第三種	PRP	AUTO	25000	不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2506014/5/0	true	READY_AUTO	
+B	319	P00587	03G2506012	F0347	熊本県	熊本リハビリテーション病院	第二種	ADRC	QC	1750000	不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506012/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	320	P00565	03G2508016	F0370	福岡県	Re:Born Clinic 本院	第二種	脂肪由来幹細胞	QC						https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2508016/5/0	false	REVIEW_QC_NO_PRICE	no price found after text/OCR pass
+B	321	P00566	03G2508026	F0370	福岡県	Re:Born Clinic 本院	第二種	脂肪由来幹細胞	QC						https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2508026/5/0	false	REVIEW_QC_NO_PRICE	no price found after text/OCR pass
+B	322	P00567	03G2509014	F0370	福岡県	Re:Born Clinic 本院	第二種	PRP	QC						https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2509014/5/0	false	REVIEW_QC_NO_PRICE	no price found after text/OCR pass
+B	323	P00568	01G2603002	F0371	福岡県	ZERO100クリニック	第二種	PRP	QC	165000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2603002/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	323	P00568	01G2603002	F0371	福岡県	ZERO100クリニック	第二種	PRP	QC	27500	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2603002/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	323	P00568	01G2603002	F0371	福岡県	ZERO100クリニック	第二種	PRP	QC	165000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2603002/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	323	P00568	01G2603002	F0371	福岡県	ZERO100クリニック	第二種	PRP	QC	27500	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2603002/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	324	P00554	03G2104001	F0372	福岡県	うらはし整形外科クリニック	第三種	PRP	AUTO	20000	税込	一部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2104001/5/0	true	READY_AUTO	
+B	325	P00552	01G2604001	F0372	福岡県	うらはし整形外科クリニック	第二種	PRP	QC	10000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2604001/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	325	P00552	01G2604001	F0372	福岡県	うらはし整形外科クリニック	第二種	PRP	QC	50000	税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2604001/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	326	P00553	03G2406014	F0372	福岡県	うらはし整形外科クリニック	第二種	脂肪由来幹細胞	AUTO	1320000	税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2406014/5/0	true	READY_AUTO	
+B	327	P00575	01G2208003	F0377	福岡県	医療法人 前川整形外科医院 前川整形外科スポーツクリニック	第三種	PRP	QC						https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2208003/5/0	false	REVIEW_QC_NO_PRICE	no price found after text/OCR pass
+B	328	P00885	01G2408004	F0600	福岡県	医療法人HMC ブレインメディカルクリニック博多	第三種	PRP	AUTO	40000	税別	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2408004/5/0	true	READY_AUTO	
+B	329	P00883	03G2310005	F0599	福岡県	医療法人TSC タケダスポーツ・ビューティークリニック	第三種	PRP	QC						https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2310005/5/0	false	REVIEW_QC_NO_PRICE	no price found after text/OCR pass
+B	330	P00882	01G2502001	F0599	福岡県	医療法人TSC タケダスポーツ・ビューティークリニック	第二種	PRP	QC	44000	税込	1 回	ACP|Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2502001/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	330	P00882	01G2502001	F0599	福岡県	医療法人TSC タケダスポーツ・ビューティークリニック	第二種	PRP	QC	165000	不明		ACP MAX|ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2502001/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	330	P00882	01G2502001	F0599	福岡県	医療法人TSC タケダスポーツ・ビューティークリニック	第二種	PRP	QC	275000	不明		ACP MAX|ACP|Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2502001/5/0	false	REVIEW_QC_CANDIDATE	price candidates remain ambiguous
+B	331	P00547	01G2403010	F0376	福岡県	医療法人再生会 セルメディカルチームジャパン	第二種	脂肪由来MSC	AUTO	60000	税別	4 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2403010/5/0	true	READY_AUTO	line-level medium price context
+B	331	P00547	01G2403010	F0376	福岡県	医療法人再生会 セルメディカルチームジャパン	第二種	脂肪由来MSC	AUTO	1300000	税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2403010/5/0	true	READY_AUTO	line-level medium price context
+B	331	P00547	01G2403010	F0376	福岡県	医療法人再生会 セルメディカルチームジャパン	第二種	脂肪由来MSC	AUTO	100000	不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2403010/5/0	true	READY_AUTO	line-level medium price context
+B	332	P00570	01G2107003	F0382	福岡県	櫛田学整形外科クリニック	第二種	PRP	AUTO	38500	税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2107003/5/0	true	READY_AUTO	
+B	333	P00578	01G1906005	F0400	長崎県	医療法人増田整形外科	第二種	PRP/APS	AUTO	100000	税別		APS|GPS|Zimmer	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01G1906005/5/0	true	READY_AUTO	
+B	333	P00578	01G1906005	F0400	長崎県	医療法人増田整形外科	第二種	PRP/APS	AUTO	250000	税別		APS|GPS|Zimmer	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01G1906005/5/0	true	READY_AUTO	
+B	334	P00597		F0434	鹿児島県	南風病院	第二種	PRP	QC							false	REVIEW_QC_NO_PRICE	no document URL; retained as verified-plan QC
+B	335	P00901	01G2110006	F0435	鹿児島県	天陽会中央クリニック	第三種	PRP	AUTO	50000	税込	2 回分			https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2110006/5/0	true	READY_AUTO	
