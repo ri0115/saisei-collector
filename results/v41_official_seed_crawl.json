@@ -1,6 +1,6 @@
 {
   "version": "v41-seed-crawl-1.1",
-  "total_facilities": 34,
+  "total_facilities": 26,
   "results": [
     {
       "facility_id": "V41F36AC21EE08",
@@ -12,20 +12,20 @@
           "chars": 1414
         },
         {
-          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/hospital/",
-          "chars": 1479
-        },
-        {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/",
           "chars": 2574
         },
         {
-          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/greetings/",
-          "chars": 1854
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/hospital/",
+          "chars": 1479
         },
         {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/cpc/",
           "chars": 2845
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/greetings/",
+          "chars": 1854
         },
         {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/committee/",
@@ -42,76 +42,35 @@
       ]
     },
     {
-      "facility_id": "V41F9372FF520F",
-      "facility": "日本医科大学千葉北総病院",
-      "seed_url": "https://www.nms.ac.jp/hokuso-h/section/orthopedics/staff.html",
-      "pages": [
-        {
-          "url": "https://www.nms.ac.jp/hokuso-h/section/orthopedics/staff.html",
-          "chars": 964
-        },
-        {
-          "url": "https://www.nms.ac.jp/hokuso-h/section/orthopedics/guide_copy_copy.html",
-          "chars": 1892
-        }
-      ],
-      "plans": []
-    },
-    {
       "facility_id": "V41F6BA7FEB040",
       "facility": "社会医療法人社団蛍水会 名戸ヶ谷病院",
       "seed_url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
-      "pages": [],
-      "plans": [],
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.nadogaya.com', port=443): Max retries exceeded with url: /department/orthopedic_surgery/aps/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nadogaya.com', port=443) at 0x7f8100155340>, 'Connection to www.nadogaya.com timed out. (connect timeout=12)'))"
-    },
-    {
-      "facility_id": "V41F792727709A",
-      "facility": "UT整形外科 武蔵浦和",
-      "seed_url": "https://www.ut-seikei.com/regenerative-medicine/",
       "pages": [
         {
-          "url": "https://www.ut-seikei.com/regenerative-medicine/",
-          "chars": 11789
-        },
-        {
-          "url": "https://www.ut-seikei.com/free-medical/",
-          "chars": 3387
+          "url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
+          "chars": 4918
         }
       ],
-      "plans": []
-    },
-    {
-      "facility_id": "V41F5A02ABC301",
-      "facility": "医療法人社団 鴻愛会 with Life クリニック 大宮駅前",
-      "seed_url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
-      "pages": [
+      "plans": [
         {
-          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
-          "chars": 5205
-        },
-        {
-          "url": "https://withlifeomiya.kouaikai.jp/selfpay/",
-          "chars": 2334
-        },
-        {
-          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/",
-          "chars": 3382
-        },
-        {
-          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/cultured-stem-cell-therapy/",
-          "chars": 4594
-        },
-        {
-          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/cultured-stem-cell-treatment/",
-          "chars": 4134
-        },
-        {
-          "url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/stem-cell-supernatant-therapy/",
-          "chars": 3760
+          "plan_id": "V41_02C2402051",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿(Platelet-rich plasma:PRP)を用いた関節機能治療(関節腔外に限る)",
+          "candidates": [
+            {
+              "amount": 56000,
+              "tax": "不明",
+              "score": 7,
+              "line": "両膝 1回 56,000円( +予約料)/同日に2部位(関節)",
+              "excerpt": "約1-4週の間隔で計3回の治療を1クールとしています。2回目以降は、担当医師による診察・相談の上、継続して治療を行うことが可能です。 費用:片膝 1回 30,000円( +予約料)/1部位(関節) 両膝 1回 56,000円( +予約料)/同日に2部位(関節) APS療法(次世代PRP) 原則として、(半年〜)年1回の治療。2回目以降は、担当医師による診察・相談の上、継続して治療を行うことが可能です。",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
+              "combined_score": 7
+            }
+          ]
         }
-      ],
-      "plans": []
+      ]
     },
     {
       "facility_id": "V41F2DCC112519",
@@ -150,22 +109,6 @@
           "candidates": []
         }
       ]
-    },
-    {
-      "facility_id": "V41FBBD6F8D2E6",
-      "facility": "医療法人槻陽会 高槻整形外科・再生医療クリニック",
-      "seed_url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
-      "pages": [],
-      "plans": [],
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='kiyoukai-osaka.jp', port=443): Max retries exceeded with url: /regenerative_medicine/procedures/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='kiyoukai-osaka.jp', port=443) at 0x7f80efec2300>, 'Connection to kiyoukai-osaka.jp timed out. (connect timeout=12)'))"
-    },
-    {
-      "facility_id": "V41FE1A06DCDA7",
-      "facility": "医療法人酒井会 さかいペインクリニック",
-      "seed_url": "https://sakai-pain.com/",
-      "pages": [],
-      "plans": [],
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='sakai-pain.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='sakai-pain.com', port=443) at 0x7f80eff2e000>, 'Connection to sakai-pain.com timed out. (connect timeout=12)'))"
     },
     {
       "facility_id": "V41FD969C63F8B",
@@ -229,12 +172,12 @@
           "chars": 4336
         },
         {
-          "url": "https://www.ginza-noa-cl.jp/prp",
-          "chars": 3244
-        },
-        {
           "url": "https://www.ginza-noa-cl.jp/stemtap",
           "chars": 4379
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/prp",
+          "chars": 3244
         }
       ],
       "plans": [
@@ -296,17 +239,32 @@
       "facility_id": "V41FA1B35167B4",
       "facility": "一般社団法人エンパシア IIT CLINIC",
       "seed_url": "https://iit-clinic.com/",
-      "pages": [],
-      "plans": [],
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='iit-clinic.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='iit-clinic.com', port=443) at 0x7f80eff2daf0>, 'Connection to iit-clinic.com timed out. (connect timeout=12)'))"
-    },
-    {
-      "facility_id": "V41F72BC51763F",
-      "facility": "一般社団法人再健会 シン・整形外科 代々木上原",
-      "seed_url": "https://shin-yoyogiuehara.com/self-pay/",
-      "pages": [],
-      "plans": [],
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='shin-yoyogiuehara.com', port=443): Max retries exceeded with url: /self-pay/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='shin-yoyogiuehara.com', port=443) at 0x7f80ef6235c0>, 'Connection to shin-yoyogiuehara.com timed out. (connect timeout=12)'))"
+      "pages": [
+        {
+          "url": "https://iit-clinic.com/",
+          "chars": 2171
+        },
+        {
+          "url": "https://iit-clinic.com/mesenchymal-stem-cell-supernatant/",
+          "chars": 1093
+        },
+        {
+          "url": "https://iit-clinic.com/prp-therapy/",
+          "chars": 3002
+        },
+        {
+          "url": "https://iit-clinic.com/stem-cell-therapy/",
+          "chars": 3887
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2504026",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自家培養脂肪由来幹細胞を用いた変形性関節症の治療",
+          "candidates": []
+        }
+      ]
     },
     {
       "facility_id": "V41F1D3991E09E",
@@ -332,74 +290,6 @@
       ]
     },
     {
-      "facility_id": "V41F8EA8952CF4",
-      "facility": "医療法人元気会わかさクリニック WA CLINIC GINZA",
-      "seed_url": "https://www.waclinic-ginza.com/price",
-      "pages": [
-        {
-          "url": "https://www.waclinic-ginza.com/price",
-          "chars": 7015
-        },
-        {
-          "url": "https://www.waclinic-ginza.com/menu/exosome-stem-cells",
-          "chars": 5186
-        },
-        {
-          "url": "https://www.waclinic-ginza.com/menu/%E8%84%82%E8%82%AA%E5%B9%B9%E7%B4%B0%E8%83%9E%EF%BC%88%E6%B3%A8%E5%85%A5%EF%BC%89",
-          "chars": 2843
-        },
-        {
-          "url": "https://www.waclinic-ginza.com/menu/test6",
-          "chars": 4223
-        },
-        {
-          "url": "https://www.waclinic-ginza.com/menu/prp%EF%BC%88%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%89%E7%99%82%E6%B3%95",
-          "chars": 3081
-        },
-        {
-          "url": "https://www.waclinic-ginza.com/menu/stemcelltherapy",
-          "chars": 3089
-        }
-      ],
-      "plans": []
-    },
-    {
-      "facility_id": "V41F1418F41A29",
-      "facility": "医療法人社団HELENE ヘレネAOビルクリニック",
-      "seed_url": "https://heleneclinic.com/",
-      "pages": [
-        {
-          "url": "https://heleneclinic.com/",
-          "chars": 5269
-        },
-        {
-          "url": "https://heleneclinic.com/stemcell/",
-          "chars": 2839
-        },
-        {
-          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
-          "chars": 8679
-        },
-        {
-          "url": "https://heleneclinic.com/stemcell/msc/",
-          "chars": 3480
-        },
-        {
-          "url": "https://heleneclinic.com/stemcell/risk/",
-          "chars": 2591
-        },
-        {
-          "url": "https://heleneclinic.com/stemcell/academic-activities/",
-          "chars": 3052
-        },
-        {
-          "url": "https://heleneclinic.com/stemcell/research-papers/",
-          "chars": 9589
-        }
-      ],
-      "plans": []
-    },
-    {
       "facility_id": "V41F2971E2EBD2",
       "facility": "医療法人社団HELENE 表参道ヘレネクリニック",
       "seed_url": "https://heleneclinic.com/",
@@ -409,16 +299,16 @@
           "chars": 5269
         },
         {
-          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
-          "chars": 8679
+          "url": "https://heleneclinic.com/stemcell/msc/",
+          "chars": 3480
         },
         {
           "url": "https://heleneclinic.com/stemcell/",
           "chars": 2839
         },
         {
-          "url": "https://heleneclinic.com/stemcell/msc/",
-          "chars": 3480
+          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
+          "chars": 8679
         },
         {
           "url": "https://heleneclinic.com/stemcell/risk/",
@@ -452,6 +342,10 @@
           "chars": 5269
         },
         {
+          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
+          "chars": 8679
+        },
+        {
           "url": "https://heleneclinic.com/stemcell/",
           "chars": 2839
         },
@@ -460,20 +354,16 @@
           "chars": 3480
         },
         {
-          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
-          "chars": 8679
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/risk/",
           "chars": 2591
         },
         {
-          "url": "https://heleneclinic.com/stemcell/academic-activities/",
-          "chars": 3052
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/research-papers/",
           "chars": 9589
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/academic-activities/",
+          "chars": 3052
         }
       ],
       "plans": [
@@ -489,17 +379,73 @@
       "facility_id": "V41FFE15421C47",
       "facility": "医療法人社団 育楽会 あやせ駅前整形外科・内科",
       "seed_url": "https://www.ayase-ekimae.com/",
-      "pages": [],
-      "plans": [],
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.ayase-ekimae.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ayase-ekimae.com', port=443) at 0x7f80ecc88a10>, 'Connection to www.ayase-ekimae.com timed out. (connect timeout=12)'))"
+      "pages": [
+        {
+          "url": "https://www.ayase-ekimae.com/",
+          "chars": 3625
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C1912017",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する組織修復",
+          "candidates": []
+        }
+      ]
     },
     {
       "facility_id": "V41FD3CEE3B1CD",
       "facility": "医療法人誠幸会 わだ整形外科クリニック",
       "seed_url": "https://wadaseikei.net/prp/",
-      "pages": [],
-      "plans": [],
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='wadaseikei.net', port=443): Max retries exceeded with url: /prp/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='wadaseikei.net', port=443) at 0x7f80efa2b2f0>, 'Connection to wadaseikei.net timed out. (connect timeout=12)'))"
+      "pages": [
+        {
+          "url": "https://wadaseikei.net/prp/",
+          "chars": 5637
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01E2111019",
+          "treatment_class": "PRP",
+          "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿(自家PRP)注入療法",
+          "candidates": [
+            {
+              "amount": 30000,
+              "tax": "税別",
+              "score": 16,
+              "line": "Condensiaによる施術料は1キットにつき、30,000円(税別)となります。",
+              "excerpt": "Condensiaによる施術料は1キットにつき、50,000円(税別)となります。 関節外(靭帯損傷、肉離れ等のスポーツ障害) Condensiaによる施術料は1キットにつき、30,000円(税別)となります。 (学生は、税込25,000円) ご不明な点は、医師・スタッフにお尋ねください。",
+              "target_kind": "PRP",
+              "label_match": "same_line",
+              "source_url": "https://wadaseikei.net/prp/",
+              "combined_score": 16
+            },
+            {
+              "amount": 50000,
+              "tax": "税別",
+              "score": 16,
+              "line": "Condensiaによる施術料は1キットにつき、50,000円(税別)となります。",
+              "excerpt": "この治療は、健康保険が適用されない自由診療です。そのため、患者様の費用負担が他の治療よりも高額になることがあります。 関節内(変形性関節症など) Condensiaによる施術料は1キットにつき、50,000円(税別)となります。 関節外(靭帯損傷、肉離れ等のスポーツ障害) Condensiaによる施術料は1キットにつき、30,000円(税別)となります。",
+              "target_kind": "PRP",
+              "label_match": "same_line",
+              "source_url": "https://wadaseikei.net/prp/",
+              "combined_score": 16
+            },
+            {
+              "amount": 25000,
+              "tax": "税込",
+              "score": 11,
+              "line": "(学生は、税込25,000円)",
+              "excerpt": "関節外(靭帯損傷、肉離れ等のスポーツ障害) Condensiaによる施術料は1キットにつき、30,000円(税別)となります。 (学生は、税込25,000円) ご不明な点は、医師・スタッフにお尋ねください。 健康被害が発生した際の処置と補償等について",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://wadaseikei.net/prp/",
+              "combined_score": 11
+            }
+          ]
+        }
+      ]
     },
     {
       "facility_id": "V41F358BC973A9",
@@ -524,9 +470,40 @@
       "facility_id": "V41FA35962BFED",
       "facility": "HIME CLINIC",
       "seed_url": "https://hime.clinic/",
-      "pages": [],
-      "plans": [],
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='hime.clinic', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='hime.clinic', port=443) at 0x7f80ecb05b20>, 'Connection to hime.clinic timed out. (connect timeout=12)'))"
+      "pages": [
+        {
+          "url": "https://hime.clinic/",
+          "chars": 3465
+        },
+        {
+          "url": "https://hime.clinic/archives/118236",
+          "chars": 7887
+        },
+        {
+          "url": "https://hime.clinic/archives/treatment_category/reg",
+          "chars": 939
+        },
+        {
+          "url": "https://hime.clinic/archives/treatment_category/fre",
+          "chars": 947
+        },
+        {
+          "url": "https://hime.clinic/%E7%AC%AC%E4%B8%89%E7%A8%AE%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2",
+          "chars": 7985
+        },
+        {
+          "url": "https://hime.clinic/%E7%BE%8E%E5%AE%B9%E3%82%92%E4%B8%BB%E3%81%A8%E3%81%97%E3%81%9F%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%83%92%E3%83%A1%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC",
+          "chars": 2311
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01D2603004",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿（PRP）を用いた筋肉、腱、靭帯治療",
+          "candidates": []
+        }
+      ]
     },
     {
       "facility_id": "V41F5C961B1A36",
@@ -632,9 +609,30 @@
       "facility_id": "V41F9B33AA41E9",
       "facility": "アヴェニューセルクリニック",
       "seed_url": "https://www.acell-clinic.com/rebirth/",
-      "pages": [],
-      "plans": [],
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.acell-clinic.com', port=443): Max retries exceeded with url: /rebirth/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.acell-clinic.com', port=443) at 0x7f80ef8adbb0>, 'Connection to www.acell-clinic.com timed out. (connect timeout=12)'))"
+      "pages": [
+        {
+          "url": "https://www.a6-clinic.com/cell/rebirth/",
+          "chars": 961
+        },
+        {
+          "url": "https://www.a6-clinic.com/cell/rebirth/about.html",
+          "chars": 3525
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2606015",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自己脂肪由来間葉系幹細胞を用いた関節痛、変形性関節症治療",
+          "candidates": []
+        },
+        {
+          "plan_id": "V41_02C2606022",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自己脂肪由来間葉系幹細胞を用いた靭帯・腱損傷治療",
+          "candidates": []
+        }
+      ]
     },
     {
       "facility_id": "V41F317F4EF430",
@@ -658,12 +656,12 @@
           "chars": 4637
         },
         {
-          "url": "https://motoazabuhills-clinic.jp/skin-aging/",
-          "chars": 5249
-        },
-        {
           "url": "https://motoazabuhills-clinic.jp/forgetfulness/",
           "chars": 6241
+        },
+        {
+          "url": "https://motoazabuhills-clinic.jp/skin-aging/",
+          "chars": 5249
         }
       ],
       "plans": [
