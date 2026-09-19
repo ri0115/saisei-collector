@@ -2,26 +2,27 @@
   "version": "v42-maker-manual-audit-batch-36",
   "date_jst": "2026-09-20",
   "audited_facilities": 3,
-  "confirmed_new_facilities": 1,
-  "confirmed_new_manufacturer_placements": 2,
+  "confirmed_new_facilities": 0,
+  "existing_facility_new_placements": 1,
+  "confirmed_new_manufacturer_placements": 1,
   "processing_outsourcing_only": 1,
   "holds": 2,
   "confirmed_by_manufacturer": {
-    "Zimmer Biomet": 1,
     "REV-MED": 1
   },
   "cycle_34_36": {
     "audited_facilities": 9,
-    "provisional_new_facilities": 2,
-    "provisional_new_manufacturer_placements": 4
+    "new_facilities": 0,
+    "new_manufacturer_placements": 1
   },
   "canonical_merge_performed": true,
-  "canonical_rebuild_triggered": true,
-  "expected_after_rebuild": {
-    "manufacturer_known_facilities": 476,
+  "canonical_rebuild_performed": true,
+  "canonical_after_rebuild": {
+    "manufacturer_known_facilities": 474,
     "facility_universe": 949,
-    "manufacturer_known_rate_pct": 50.16,
-    "manufacturer_placements": 578
+    "manufacturer_known_rate_pct": 49.95,
+    "manufacturer_placements": 575,
+    "REV-MED": 10
   },
-  "note": "Batch 36 completes the 9-facility cycle. Verified additions from Batch 34 (Clinique Haru Kyoto: Arthrex + Zimmer Biomet) and Batch 36 (Jujo: Zimmer Biomet + REV-MED) were merged to manual_verified_additions, triggering canonical rebuild."
+  "note": "Cycle rebuild confirmed Clinique Haru Kyoto was already canonical. Jujo Orthopedic Rehabilitation Clinic was already canonical for Zimmer Biomet; only REV-MED was newly added via TriCeLL. Manufacturer-known facility count therefore remains 474/949."
 }
