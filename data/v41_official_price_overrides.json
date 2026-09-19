@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-overrides-1.7",
+  "version": "v41-official-overrides-1.8",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -1113,6 +1113,23 @@
         }
       ],
       "note": "2026-04-15公式お知らせ記載の現行料金。税込/税別表記はページ上で確認できないため不明。"
+    },
+    {
+      "plan_id": "V41_01F2310002",
+      "facility": "医療法人龍樹会 池田整形外科リハビリテーションクリニック",
+      "source_url": "https://regene-m.jp/wp/wp-content/uploads/2022/12/%E8%87%AA%E5%B7%B1%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%88Platelet-rich-plasma%EF%BC%9APRP%EF%BC%89%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91%E9%A0%98%E5%9F%9F%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%BB%9F%E9%83%A8%E7%B5%84%E7%B9%94%E6%B2%BB%E7%99%82_%E6%B1%A0%E7%94%B0%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF_%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%BA%83%E5%B3%B6%E5%B8%82.pdf",
+      "source_type": "published_explanation_document",
+      "verification": "exact treatment document matched; deep OCR and indexed text agree",
+      "prices": [
+        {
+          "amount": 100000,
+          "tax": "税別",
+          "unit": "軟部組織治療・費用例",
+          "product": "PRP",
+          "price_type": "point",
+          "note": "文書記載『治療費例』のため参考価格"
+        }
+      ]
     }
   ]
 }
