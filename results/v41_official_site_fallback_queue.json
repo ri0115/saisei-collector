@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T02:25:14.390898+00:00",
-  "total": 107,
-  "unique_facilities": 96,
+  "updated_at": "2026-09-19T02:30:20.330249+00:00",
+  "total": 105,
+  "unique_facilities": 94,
   "items": [
     {
       "plan_id": "V41_02C2601085",
@@ -155,21 +155,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_01C2505023",
-      "mhlw_plan_code": "01C2505023",
-      "facility_id": "V41F2D8FF4122C",
-      "prefecture": "東京都",
-      "facility": "GINZA NOA CLINIC",
-      "address": "中央区銀座5-4-6 ロイヤルクリスタル銀座3階",
-      "category": "第二種",
-      "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2505023/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_01C2210035",
       "mhlw_plan_code": "01C2210035",
       "facility_id": "V41F44A291BB5A",
@@ -226,21 +211,6 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504026/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_02C2605056",
-      "mhlw_plan_code": "02C2605056",
-      "facility_id": "V41F9252C99E29",
-      "prefecture": "東京都",
-      "facility": "一般社団法人創生会 GINZA NOA CLINIC",
-      "address": "中央区銀座5-4-6 ロイヤルクリスタル銀座3階",
-      "category": "第二種",
-      "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605056/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
     },
