@@ -1,0 +1,32 @@
+{
+  "version": "v42-maker-manual-audit-batch-15",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 433,
+  "audited_facilities": 16,
+  "confirmed_new_facilities": 5,
+  "existing_facility_new_placements": 1,
+  "confirmed_new_manufacturer_placements": 8,
+  "already_canonical_facilities": 10,
+  "confirmed_by_manufacturer": {
+    "Arthrex": 5,
+    "Zimmer Biomet": 3
+  },
+  "dual_or_new_multimanufacturer": [
+    "公益社団法人鹿児島共済会 南風病院",
+    "医療法人術徳会 霧島整形外科クリニック",
+    "寛田クリニック"
+  ],
+  "expected_canonical_after_rebuild": {
+    "manufacturer_known_facilities": 438,
+    "manufacturer_known_rate_pct": 46.15,
+    "manufacturer_placements": 523,
+    "Zimmer Biomet": 235,
+    "Arthrex": 193
+  },
+  "policy": [
+    "Use actual v40 facility master for core membership.",
+    "Do not increment already-canonical facility/manufacturer pairs.",
+    "Allow an additional manufacturer placement for an existing facility when a second current manufacturer-operated locator independently matches the same facility.",
+    "Processing-outsourcing products remain excluded and are tracked only in data/processing_outsourcing_watchlist.tsv."
+  ]
+}
