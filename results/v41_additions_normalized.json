@@ -1,9 +1,9 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T02:58:23.508072+00:00",
+  "updated_at": "2026-09-19T03:03:14.010355+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T02:58:23.507693+00:00",
+    "updated_at": "2026-09-19T03:03:14.009996+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
@@ -11,22 +11,22 @@
     "promoted_qc_to_auto": 163,
     "promoted_by_parser": 67,
     "promoted_by_verified_override": 96,
-    "normalized_auto": 707,
-    "normalized_qc": 59,
+    "normalized_auto": 708,
+    "normalized_qc": 58,
     "normalized_fail": 0,
     "normalized_out_of_scope": 1,
     "normalized_no_public_price": 7,
     "in_scope_total": 773,
-    "resolved_in_scope": 714,
-    "normalized_price_records": 1579,
+    "resolved_in_scope": 715,
+    "normalized_price_records": 1580,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 567,
+      "source_status_retained": 566,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
       "verified_official_site_override": 97,
-      "verified_official_override": 36,
+      "verified_official_override": 37,
       "explicit_total_price_block": 2,
       "verified_no_public_price": 7,
       "out_of_scope_non_orthopedic": 1
@@ -41765,12 +41765,52 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 100000,
+          "tax": "税別",
+          "unit": "軟部組織治療・費用例",
+          "price_type": "point",
+          "note": "文書記載『治療費例』のため参考価格",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://regene-m.jp/wp/wp-content/uploads/2022/12/%E8%87%AA%E5%B7%B1%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%88Platelet-rich-plasma%EF%BC%9APRP%EF%BC%89%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91%E9%A0%98%E5%9F%9F%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%BB%9F%E9%83%A8%E7%B5%84%E7%B9%94%E6%B2%BB%E7%99%82_%E6%B1%A0%E7%94%B0%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF_%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%BA%83%E5%B3%B6%E5%B8%82.pdf",
+          "source_url": "https://regene-m.jp/wp/wp-content/uploads/2022/12/%E8%87%AA%E5%B7%B1%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%88Platelet-rich-plasma%EF%BC%9APRP%EF%BC%89%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91%E9%A0%98%E5%9F%9F%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%BB%9F%E9%83%A8%E7%B5%84%E7%B9%94%E6%B2%BB%E7%99%82_%E6%B1%A0%E7%94%B0%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF_%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%BA%83%E5%B3%B6%E5%B8%82.pdf",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
       "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "price_source_preferred": "verified_override",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "prices_override_verified": [
+        {
+          "amount": 100000,
+          "tax": "税別",
+          "unit": "軟部組織治療・費用例",
+          "price_type": "point",
+          "note": "文書記載『治療費例』のため参考価格",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://regene-m.jp/wp/wp-content/uploads/2022/12/%E8%87%AA%E5%B7%B1%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%88Platelet-rich-plasma%EF%BC%9APRP%EF%BC%89%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91%E9%A0%98%E5%9F%9F%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%BB%9F%E9%83%A8%E7%B5%84%E7%B9%94%E6%B2%BB%E7%99%82_%E6%B1%A0%E7%94%B0%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF_%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%BA%83%E5%B3%B6%E5%B8%82.pdf",
+          "source_url": "https://regene-m.jp/wp/wp-content/uploads/2022/12/%E8%87%AA%E5%B7%B1%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%88Platelet-rich-plasma%EF%BC%9APRP%EF%BC%89%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91%E9%A0%98%E5%9F%9F%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%BB%9F%E9%83%A8%E7%B5%84%E7%B9%94%E6%B2%BB%E7%99%82_%E6%B1%A0%E7%94%B0%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF_%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%BA%83%E5%B3%B6%E5%B8%82.pdf",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "official_override_source_url": "https://regene-m.jp/wp/wp-content/uploads/2022/12/%E8%87%AA%E5%B7%B1%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%88Platelet-rich-plasma%EF%BC%9APRP%EF%BC%89%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91%E9%A0%98%E5%9F%9F%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%BB%9F%E9%83%A8%E7%B5%84%E7%B9%94%E6%B2%BB%E7%99%82_%E6%B1%A0%E7%94%B0%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF_%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%BA%83%E5%B3%B6%E5%B8%82.pdf",
+      "official_override_source_type": "published_explanation_document",
+      "official_override_verification": "exact treatment document matched; deep OCR and indexed text agree",
       "scope_status": "IN_SCOPE"
     },
     {

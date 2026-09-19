@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T02:58:23.630594+00:00",
-  "total": 59,
-  "unique_facilities": 57,
+  "updated_at": "2026-09-19T03:03:14.132822+00:00",
+  "total": 58,
+  "unique_facilities": 56,
   "items": [
     {
       "plan_id": "V41_02C2402051",
@@ -61,21 +61,6 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2304004/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01F2310002",
-      "mhlw_plan_code": "01F2310002",
-      "facility_id": "V41F358BC973A9",
-      "prefecture": "広島県",
-      "facility": "医療法人龍樹会　池田整形外科リハビリテーションクリニック",
-      "address": "広島市東区戸坂大上４丁目29番13号",
-      "category": "第三種",
-      "treatment": "自己多血小板血漿（Platelet-rich plasma：PRP）を用いた\r\n整形外科領域における軟部組織治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2310002/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
     },
