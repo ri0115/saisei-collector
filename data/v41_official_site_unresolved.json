@@ -1,0 +1,31 @@
+{
+  "version": "v41-official-site-unresolved-1.0",
+  "generated_at": "2026-09-19",
+  "total": 3,
+  "items": [
+    {
+      "facility_id": "V41F5149DED673",
+      "facility": "医療法人社団 三二会 番町診療所 表参道",
+      "prefecture": "東京都",
+      "reason": "official_site_not_verified",
+      "evidence": "Public hospital-network listings confirm the facility/address/phone, but no current official clinic website was verified.",
+      "fallback": "retain MHLW plan document; public price not confirmed"
+    },
+    {
+      "facility_id": "V41F779AAFAA1B",
+      "facility": "青海100クリニック",
+      "prefecture": "東京都",
+      "reason": "no_public_official_site_found",
+      "evidence": "Current MHLW plan confirms facility/address/phone; external regenerative-medicine directory explicitly lists no official site.",
+      "fallback": "retain MHLW plan document; public price not confirmed"
+    },
+    {
+      "facility_id": "V41F167802D210",
+      "facility": "医療法人社団サンセール会 SCクリニック福岡",
+      "prefecture": "福岡県",
+      "reason": "official_site_not_verified",
+      "evidence": "Current MHLW documents confirm facility/address/phone; searches returned MHLW/third-party listings but no verified official website.",
+      "fallback": "retain MHLW plan document; public price not confirmed"
+    }
+  ]
+}
