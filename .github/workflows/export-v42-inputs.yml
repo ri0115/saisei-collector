@@ -19,5 +19,8 @@ jobs:
             results/v42_auto_prices_compact.tsv
             results/v42_additions_final_compact.tsv
             results/v42_manual_confirmed_prices.tsv
+            results/v42_recovered_prices_consolidated.tsv
+            results/v42_merge_audit_stage02b_core_scope_review.json
+            results/v42_merge_audit_stage14_core_count_lock.json
           if-no-files-found: error
           retention-days: 7
