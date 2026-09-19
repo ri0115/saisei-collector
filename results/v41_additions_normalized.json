@@ -1,31 +1,31 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T02:43:26.596893+00:00",
+  "updated_at": "2026-09-19T02:44:22.289312+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T02:43:26.596542+00:00",
+    "updated_at": "2026-09-19T02:44:22.289026+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 154,
+    "promoted_qc_to_auto": 158,
     "promoted_by_parser": 67,
-    "promoted_by_verified_override": 87,
-    "normalized_auto": 692,
-    "normalized_qc": 75,
+    "promoted_by_verified_override": 91,
+    "normalized_auto": 696,
+    "normalized_qc": 71,
     "normalized_fail": 0,
     "normalized_out_of_scope": 1,
     "normalized_no_public_price": 6,
     "in_scope_total": 773,
-    "resolved_in_scope": 698,
-    "normalized_price_records": 1561,
+    "resolved_in_scope": 702,
+    "normalized_price_records": 1565,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 581,
+      "source_status_retained": 577,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 88,
+      "verified_official_site_override": 92,
       "verified_official_override": 30,
       "explicit_total_price_block": 2,
       "verified_no_public_price": 6,
@@ -91666,12 +91666,46 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "関節内・1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://kaoruko-happyclinic.com/price/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "関節内・1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://kaoruko-happyclinic.com/price/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://kaoruko-happyclinic.com/price/",
+      "verified_source_type": "official_clinic_site",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -93142,12 +93176,46 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "1回・1部位",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "検査費用は別途",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2512068/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "1回・1部位",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "検査費用は別途",
+          "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2512068/5/2",
+          "source_type": "mhlw_published_plan_attachment",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2512068/5/2",
+      "verified_source_type": "mhlw_published_plan_attachment",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -98517,12 +98585,50 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "1回",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "note": "",
+          "source_url": "https://gotokuji-seikeigeka.com/about_prp/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "1回",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "note": "",
+          "source_url": "https://gotokuji-seikeigeka.com/about_prp/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://gotokuji-seikeigeka.com/about_prp/",
+      "verified_source_type": "official_clinic_site",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -102075,12 +102181,46 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "PRP療法・1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "1日完結の場合は診察・検査料5,500円税込が別途",
+          "source_url": "https://hasegawaseikeigeka.com/prp_therapy/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "PRP療法・1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "1日完結の場合は診察・検査料5,500円税込が別途",
+          "source_url": "https://hasegawaseikeigeka.com/prp_therapy/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://hasegawaseikeigeka.com/prp_therapy/",
+      "verified_source_type": "official_clinic_site",
       "scope_status": "IN_SCOPE"
     },
     {

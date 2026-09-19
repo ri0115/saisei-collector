@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T02:43:26.717816+00:00",
-  "total": 75,
-  "unique_facilities": 73,
+  "updated_at": "2026-09-19T02:44:22.384843+00:00",
+  "total": 71,
+  "unique_facilities": 69,
   "items": [
     {
       "plan_id": "V41_02C2402051",
@@ -500,21 +500,6 @@
       ]
     },
     {
-      "plan_id": "V41_01C2302066",
-      "mhlw_plan_code": "01C2302066",
-      "facility_id": "V41FC9744101D1",
-      "prefecture": "東京都",
-      "facility": "女性のための整形外科 かおるこHappyクリニック",
-      "address": "千代田区内幸町1丁目1-1 帝国ホテル本館4階",
-      "category": "第二種",
-      "treatment": "変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302066/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_03C2603037",
       "mhlw_plan_code": "03C2603037",
       "facility_id": "V41F4533DED309",
@@ -556,21 +541,6 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601013/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_02C2512068",
-      "mhlw_plan_code": "02C2512068",
-      "facility_id": "V41F1885D567CF",
-      "prefecture": "東京都",
-      "facility": "日本橋人形町整形外科",
-      "address": "東京都中央区日本橋人形町1−6−8 人形町大内ビル2階",
-      "category": "第二種",
-      "treatment": "自己多血小板血漿(PRP)療法（治療対象：外傷性関節炎・変形性関節症）",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512068/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
     },
@@ -664,21 +634,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_01C2406033",
-      "mhlw_plan_code": "01C2406033",
-      "facility_id": "V41F3E8A4A7E12",
-      "prefecture": "東京都",
-      "facility": "豪徳寺整形外科クリニック",
-      "address": "世田谷区豪徳寺2丁目31-8ハイム和泉102",
-      "category": "第二種",
-      "treatment": "自家多血小板血漿（Platelet-rich plasma：PRP）を用いた慢性関節炎の治療（関節内組織）",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406033/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_01C2411046",
       "mhlw_plan_code": "01C2411046",
       "facility_id": "V41FD361E6CD7C",
@@ -720,21 +675,6 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609016/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_02C2502053",
-      "mhlw_plan_code": "02C2502053",
-      "facility_id": "V41FBDE86DC8C5",
-      "prefecture": "栃木県",
-      "facility": "医療法人恭友会　はせがわ整形外科クリニック",
-      "address": "宇都宮市一条4-5-13",
-      "category": "第三種",
-      "treatment": "自己多血小板血漿（ＰＲＰ）を用いた整形外科治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502053/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
     },
