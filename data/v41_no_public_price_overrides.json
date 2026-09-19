@@ -43,17 +43,13 @@
       "source_url": "https://beautycell-cl.com/price/",
       "public_price_status": "CONTACT_REQUIRED",
       "note": "公式料金ページで、再生医療の費用はカウンセリング時に詳しく案内すると明記"
-    }
-  },
-  "items": [
-    {
-      "plan_id": "V41_03G2403004",
+    },
+    "V41_03G2403004": {
       "facility": "産業医科大学若松病院",
       "public_price_status": "TREATMENT_SUSPENDED",
       "source_url": "https://www.wakamatsu-sportsmed.com/blank-4",
       "source_type": "hospital_official",
       "note": "公式サイトで再生医療・PRP療法は現在更新中のため一時中断と明記。旧価格を現行価格として採用しない。"
     }
-  ],
-  "generated_at": "2026-09-19"
+  }
 }
