@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-import csv, io, json, re, time
+import csv, io, json, re, time, zipfile
 from collections import defaultdict
 from pathlib import Path
 
@@ -73,19 +73,33 @@ def relevant_class(s):
     u = (s or "").upper()
     return any(x in u for x in PRPISH)
 
-def extract_pages(pdf_bytes: bytes):
-    try:
-        reader = PdfReader(io.BytesIO(pdf_bytes))
-    except Exception:
-        return []
-    pages=[]
-    for i,p in enumerate(reader.pages,1):
+def extract_pages(raw: bytes):
+    # PDF
+    if b"%PDF" in raw[:1024]:
         try:
-            txt=p.extract_text() or ""
+            reader = PdfReader(io.BytesIO(raw))
         except Exception:
-            txt=""
-        pages.append((i, txt))
-    return pages
+            return []
+        pages=[]
+        for i,p in enumerate(reader.pages,1):
+            try:
+                txt=p.extract_text() or ""
+            except Exception:
+                txt=""
+            pages.append((i, txt))
+        return pages
+    # DOCX / OOXML fallback
+    if raw[:2] == b"PK":
+        try:
+            with zipfile.ZipFile(io.BytesIO(raw)) as z:
+                xml=z.read("word/document.xml").decode("utf-8","ignore")
+            txt=re.sub(r"<w:tab[^>]*/>", "\t", xml)
+            txt=re.sub(r"</w:p>", "\n", txt)
+            txt=re.sub(r"<[^>]+>", "", txt)
+            return [(1, txt)]
+        except Exception:
+            return []
+    return []
 
 def match_page(text: str):
     upper = text.upper()
@@ -104,22 +118,33 @@ def match_page(text: str):
             makers.append(maker)
     return sorted(set(products)), sorted(set(makers))
 
+FETCH_DIAG=defaultdict(int)
+
 def fetch_attachments(code: str, session: requests.Session):
     docs=[]
     for idx in range(10):
         url=f"https://saiseiiryo.mhlw.go.jp/published_plan/download/{code}/5/{idx}"
         try:
-            r=session.get(url, timeout=20, allow_redirects=True)
-        except Exception:
+            r=session.get(
+                url, timeout=25, allow_redirects=True,
+                headers={"Referer":"https://saiseiiryo.mhlw.go.jp/published_plan/index/3",
+                         "Accept":"application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,*/*"}
+            )
+        except Exception as e:
+            FETCH_DIAG["exception"] += 1
             continue
         ctype=(r.headers.get("content-type") or "").lower()
-        if r.status_code != 200 or (b"%PDF" not in r.content[:8] and "pdf" not in ctype):
+        FETCH_DIAG[f"status_{r.status_code}"] += 1
+        FETCH_DIAG[f"ctype_{ctype.split(';')[0]}"] += 1
+        if r.status_code != 200:
             continue
         pages=extract_pages(r.content)
         if not pages:
+            FETCH_DIAG["unparsed_200"] += 1
             continue
+        FETCH_DIAG["parsed_attachment"] += 1
         docs.append((idx, url, pages))
-        time.sleep(0.12)
+        time.sleep(0.08)
     return docs
 
 adds=read_tsv(ADDITIONS)
@@ -185,7 +210,15 @@ write_tsv(OUT_CAND, candidate_rows, list(candidate_rows[0].keys()) if candidate_
           ["pilot_id","prefecture","facility","mhlw_plan_codes","treatment_classes","plan_count","baseline_maker_status"])
 
 session=requests.Session()
-session.headers.update({"User-Agent":"Mozilla/5.0 maker-audit/1.0"})
+session.headers.update({
+    "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36",
+    "Accept-Language":"ja,en-US;q=0.9,en;q=0.8",
+})
+# Warm up cookies / WAF session before direct downloads.
+try:
+    session.get("https://saiseiiryo.mhlw.go.jp/published_plan/index/3", timeout=20)
+except Exception:
+    pass
 
 result_rows=[]
 facility_found=set()
@@ -244,6 +277,7 @@ summary={
     "mhlw_attachments_opened":attachment_count,
     "evidence_rows":len(result_rows),
     "direct_mhlw_attachment_only":True,
+    "fetch_diagnostics":dict(FETCH_DIAG),
     "generated_files":[str(OUT_CAND.relative_to(ROOT)),str(OUT_RES.relative_to(ROOT))],
 }
 OUT_SUM.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
