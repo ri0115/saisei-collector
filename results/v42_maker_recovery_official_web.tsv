@@ -1,0 +1,2 @@
+status	note
+QUARANTINED	Old official-web scan produced false positives from generic ACP/APS matches; do not use until strict re-audit completes.
