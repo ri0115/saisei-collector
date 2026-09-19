@@ -7,7 +7,6 @@ on:
       - "data/product_manufacturer_registry.json"
       - "data/v40_nonqueue_facility_master.tsv"
       - "results/v42_maker_manual_verified_additions.tsv"
-      - "results/v42_maker_manual_audit_batch*.tsv"
       - "results/v42_maker_recovery_full366.tsv"
       - "results/v42_maker_recovery_official_strict_v2.tsv"
       - "results/v42_additions_final_compact.tsv"
@@ -35,6 +34,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Sync latest main
+        run: git pull --rebase origin main
       - name: Rebuild canonical snapshot
         run: python scripts/rebuild_maker_canonical.py
       - name: Build next 10-facility maker batch
