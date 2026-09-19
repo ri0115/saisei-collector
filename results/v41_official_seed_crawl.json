@@ -1,6 +1,6 @@
 {
   "version": "v41-seed-crawl-1.3",
-  "total_facilities": 40,
+  "total_facilities": 46,
   "results": [
     {
       "facility_id": "V41F36AC21EE08",
@@ -20,12 +20,12 @@
           "chars": 1479
         },
         {
-          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/cpc/",
-          "chars": 2845
-        },
-        {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/greetings/",
           "chars": 1854
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/cpc/",
+          "chars": 2845
         },
         {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/committee/",
@@ -140,12 +140,12 @@
           "chars": 4336
         },
         {
-          "url": "https://www.ginza-noa-cl.jp/stemtap",
-          "chars": 4379
-        },
-        {
           "url": "https://www.ginza-noa-cl.jp/prp",
           "chars": 3244
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/stemtap",
+          "chars": 4379
         }
       ],
       "plans": []
@@ -160,12 +160,12 @@
           "chars": 4336
         },
         {
-          "url": "https://www.ginza-noa-cl.jp/stemtap",
-          "chars": 4379
-        },
-        {
           "url": "https://www.ginza-noa-cl.jp/prp",
           "chars": 3244
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/stemtap",
+          "chars": 4379
         }
       ],
       "plans": []
@@ -192,16 +192,16 @@
           "chars": 2171
         },
         {
+          "url": "https://iit-clinic.com/stem-cell-therapy/",
+          "chars": 3887
+        },
+        {
           "url": "https://iit-clinic.com/mesenchymal-stem-cell-supernatant/",
           "chars": 1093
         },
         {
           "url": "https://iit-clinic.com/prp-therapy/",
           "chars": 3002
-        },
-        {
-          "url": "https://iit-clinic.com/stem-cell-therapy/",
-          "chars": 3887
         }
       ],
       "plans": [
@@ -292,6 +292,10 @@
           "chars": 5269
         },
         {
+          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
+          "chars": 8679
+        },
+        {
           "url": "https://heleneclinic.com/stemcell/msc/",
           "chars": 3480
         },
@@ -300,16 +304,12 @@
           "chars": 2839
         },
         {
-          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
-          "chars": 8679
+          "url": "https://heleneclinic.com/stemcell/risk/",
+          "chars": 2591
         },
         {
           "url": "https://heleneclinic.com/stemcell/academic-activities/",
           "chars": 3052
-        },
-        {
-          "url": "https://heleneclinic.com/stemcell/risk/",
-          "chars": 2591
         },
         {
           "url": "https://heleneclinic.com/stemcell/research-papers/",
@@ -380,24 +380,24 @@
           "chars": 3465
         },
         {
-          "url": "https://hime.clinic/archives/118236",
-          "chars": 8014
-        },
-        {
           "url": "https://hime.clinic/archives/treatment_category/reg",
           "chars": 939
+        },
+        {
+          "url": "https://hime.clinic/archives/118236",
+          "chars": 7894
         },
         {
           "url": "https://hime.clinic/archives/treatment_category/fre",
           "chars": 947
         },
         {
-          "url": "https://hime.clinic/%E7%BE%8E%E5%AE%B9%E3%82%92%E4%B8%BB%E3%81%A8%E3%81%97%E3%81%9F%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%83%92%E3%83%A1%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC",
-          "chars": 2311
-        },
-        {
           "url": "https://hime.clinic/%E7%AC%AC%E4%B8%89%E7%A8%AE%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2",
           "chars": 7985
+        },
+        {
+          "url": "https://hime.clinic/%E7%BE%8E%E5%AE%B9%E3%82%92%E4%B8%BB%E3%81%A8%E3%81%97%E3%81%9F%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%83%92%E3%83%A1%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC",
+          "chars": 2311
         }
       ],
       "plans": []
@@ -496,24 +496,24 @@
           "chars": 1968
         },
         {
-          "url": "https://motoazabuhills-clinic.jp/relieve-pain/",
-          "chars": 5840
-        },
-        {
           "url": "https://motoazabuhills-clinic.jp/obesity/",
           "chars": 7796
+        },
+        {
+          "url": "https://motoazabuhills-clinic.jp/relieve-pain/",
+          "chars": 5840
         },
         {
           "url": "https://motoazabuhills-clinic.jp/aga/",
           "chars": 4637
         },
         {
-          "url": "https://motoazabuhills-clinic.jp/skin-aging/",
-          "chars": 5249
-        },
-        {
           "url": "https://motoazabuhills-clinic.jp/forgetfulness/",
           "chars": 6241
+        },
+        {
+          "url": "https://motoazabuhills-clinic.jp/skin-aging/",
+          "chars": 5249
         }
       ],
       "plans": [
@@ -584,12 +584,12 @@
           "chars": 2117
         },
         {
-          "url": "https://kaiclinictokyo.com/price/",
-          "chars": 6552
-        },
-        {
           "url": "https://kaiclinictokyo.com/menu/injection/prp/",
           "chars": 1868
+        },
+        {
+          "url": "https://kaiclinictokyo.com/price/",
+          "chars": 6552
         }
       ],
       "plans": []
@@ -708,12 +708,12 @@
           "chars": 5876
         },
         {
-          "url": "https://clinic-le-ginza.jp/",
-          "chars": 4120
-        },
-        {
           "url": "https://clinic-le-ginza.jp/prp/",
           "chars": 4737
+        },
+        {
+          "url": "https://clinic-le-ginza.jp/",
+          "chars": 4120
         },
         {
           "url": "https://clinic-le-ginza.jp/price/",
@@ -805,6 +805,381 @@
         }
       ],
       "plans": []
+    },
+    {
+      "facility_id": "V41F568ED5AA3F",
+      "facility": "医療法人社団心愛会 麻布台ビューティセルクリニック",
+      "seed_url": "https://beautycell-cl.com/",
+      "pages": [
+        {
+          "url": "https://beautycell-cl.com/",
+          "chars": 2332
+        },
+        {
+          "url": "https://beautycell-cl.com/menu/regenerative_medicine/arthrosis/",
+          "chars": 3904
+        },
+        {
+          "url": "https://beautycell-cl.com/menu/regenerative_medicine/",
+          "chars": 2072
+        },
+        {
+          "url": "https://beautycell-cl.com/menu/regenerative_medicine/hair/",
+          "chars": 2797
+        },
+        {
+          "url": "https://beautycell-cl.com/menu/regenerative_medicine/diabetes/",
+          "chars": 3062
+        },
+        {
+          "url": "https://beautycell-cl.com/menu/regenerative_medicine/anti_aging/",
+          "chars": 1884
+        },
+        {
+          "url": "https://beautycell-cl.com/menu/regenerative_medicine/muscle/",
+          "chars": 3223
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2507025",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FA414C99BAB",
+      "facility": "医療法人美健会 ルネスクリニック日本橋",
+      "seed_url": "https://renais-clinic-ag.com/fee/",
+      "pages": [
+        {
+          "url": "https://renais-clinic-ag.com/fee/",
+          "chars": 2089
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2507026",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "慢性筋骨格系疼痛の緩和を目的とした自己脂肪由来間葉系幹細胞治療（局所投与）",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FD076D781A0",
+      "facility": "十条整形外科リハビリクリニック",
+      "seed_url": "https://jujo-seikei.clinic/prp.html",
+      "pages": [
+        {
+          "url": "https://jujo-seikei.clinic/prp.html",
+          "chars": 5391
+        },
+        {
+          "url": "https://jujo-seikei.clinic/private.html",
+          "chars": 3083
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2209017",
+          "treatment_class": "PRP",
+          "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法",
+          "candidates": [
+            {
+              "amount": 143000,
+              "tax": "税込",
+              "score": 13,
+              "line": "費用:1部位 143,000円(税込)",
+              "excerpt": "しかしステロイド注射は長期に行うと、副作用のために組織のダメージが進んでしまい、逆に治りにくくなって、腱断裂を起こすリスクも高まります。 PRP治療では副作用がほとんどないため、ステロイド注射は極力抑え(2回程度までに限定)、痛みや炎症が継続するときはPRP治療を行うことをお勧めします。 費用:1部位 143,000円(税込) 筋肉・腱・靱帯PRP治療の適応疾患(厚労省 第3種再生医療等技術) 遅延性/慢性炎症(筋腱靭帯)",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://jujo-seikei.clinic/prp.html",
+              "combined_score": 13
+            }
+          ],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FF421A2F9B8",
+      "facility": "小石川整形外科",
+      "seed_url": "https://koishikawa-seikei.com/asc.html",
+      "pages": [],
+      "plans": [],
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://koishikawa-seikei.com/asc.html"
+    },
+    {
+      "facility_id": "V41FB6FEEF9F1C",
+      "facility": "表参道総合医療クリニック",
+      "seed_url": "https://www.omotesando-amc.jp/prp/",
+      "pages": [
+        {
+          "url": "https://www.omotesando-amc.jp/prp/",
+          "chars": 8834
+        },
+        {
+          "url": "https://www.omotesando-amc.jp/spinal_disc_regeneration_therapy/",
+          "chars": 3646
+        },
+        {
+          "url": "https://www.omotesando-amc.jp/regenerative-medicine/",
+          "chars": 7584
+        },
+        {
+          "url": "https://www.omotesando-amc.jp/consultation/",
+          "chars": 1212
+        },
+        {
+          "url": "https://www.omotesando-amc.jp/sast/",
+          "chars": 4363
+        },
+        {
+          "url": "https://www.omotesando-amc.jp/price/",
+          "chars": 2543
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2504035",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿（Platelet-rich plasma：PRP）を用いた脊椎由来疼痛の治療",
+          "candidates": [
+            {
+              "amount": 1100000,
+              "tax": "税込",
+              "score": 11,
+              "line": "1,100,000円(税込)",
+              "excerpt": "椎間板再生因子注入療法(PRP-FD 2V(バイアル))の価格 椎間板再生因子注入療法(PRP-FD 2V(バイアル)) 1,100,000円(税込) *1 椎間板性腰痛の治療",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://www.omotesando-amc.jp/spinal_disc_regeneration_therapy/",
+              "combined_score": 11
+            },
+            {
+              "amount": 550000,
+              "tax": "不明",
+              "score": 9,
+              "line": "550,000円",
+              "excerpt": "330,000円 PRP:4回治療 550,000円 エクソソーム AGA治療の費用 回数",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 9
+            },
+            {
+              "amount": 330000,
+              "tax": "不明",
+              "score": 7,
+              "line": "330,000円",
+              "excerpt": "33,000円 PRP:2回治療 330,000円 PRP:4回治療 550,000円",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 7
+            },
+            {
+              "amount": 440000,
+              "tax": "不明",
+              "score": 5,
+              "line": "440,000円",
+              "excerpt": "286,000円 4回治療 440,000円 PRP+エクソソーム 2回治療 (コンビネーションプレミアム)",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 5
+            },
+            {
+              "amount": 495000,
+              "tax": "不明",
+              "score": 5,
+              "line": "495,000円",
+              "excerpt": "PRP+エクソソーム 2回治療 (コンビネーションプレミアム) 495,000円 PRP+エクソソーム 4回治療 (コンビネーションプレミアム)",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 5
+            },
+            {
+              "amount": 880000,
+              "tax": "不明",
+              "score": 5,
+              "line": "880,000円",
+              "excerpt": "2V (膝) 880,000円 PRP+エクソソーム (コンビネーションプレミアム)",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 5
+            },
+            {
+              "amount": 1100000,
+              "tax": "不明",
+              "score": 5,
+              "line": "1,100,000円",
+              "excerpt": "腰痛に対してのPRP-FD 2V 1,100,000円 PRP+エクソソーム (コンビネーションプレミアム)",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 5
+            },
+            {
+              "amount": 1540000,
+              "tax": "不明",
+              "score": 5,
+              "line": "1,540,000円",
+              "excerpt": "880,000円 ダブル股関節(4V) 1,540,000円 腰痛に対してのPRP-FD 2V",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 5
+            },
+            {
+              "amount": 33000,
+              "tax": "不明",
+              "score": 3,
+              "line": "33,000円",
+              "excerpt": "料金 事前検査(頭皮診断+血液検査) 33,000円 PRP:2回治療 330,000円",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 3
+            }
+          ],
+          "no_public_price_evidence": []
+        },
+        {
+          "plan_id": "V41_01C2506021",
+          "treatment_class": "PRP",
+          "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）",
+          "candidates": [
+            {
+              "amount": 1100000,
+              "tax": "税込",
+              "score": 11,
+              "line": "1,100,000円(税込)",
+              "excerpt": "椎間板再生因子注入療法(PRP-FD 2V(バイアル))の価格 椎間板再生因子注入療法(PRP-FD 2V(バイアル)) 1,100,000円(税込) *1 椎間板性腰痛の治療",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://www.omotesando-amc.jp/spinal_disc_regeneration_therapy/",
+              "combined_score": 11
+            },
+            {
+              "amount": 550000,
+              "tax": "不明",
+              "score": 9,
+              "line": "550,000円",
+              "excerpt": "330,000円 PRP:4回治療 550,000円 エクソソーム AGA治療の費用 回数",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 9
+            },
+            {
+              "amount": 330000,
+              "tax": "不明",
+              "score": 7,
+              "line": "330,000円",
+              "excerpt": "33,000円 PRP:2回治療 330,000円 PRP:4回治療 550,000円",
+              "target_kind": "PRP",
+              "label_match": "previous_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 7
+            },
+            {
+              "amount": 440000,
+              "tax": "不明",
+              "score": 5,
+              "line": "440,000円",
+              "excerpt": "286,000円 4回治療 440,000円 PRP+エクソソーム 2回治療 (コンビネーションプレミアム)",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 5
+            },
+            {
+              "amount": 495000,
+              "tax": "不明",
+              "score": 5,
+              "line": "495,000円",
+              "excerpt": "PRP+エクソソーム 2回治療 (コンビネーションプレミアム) 495,000円 PRP+エクソソーム 4回治療 (コンビネーションプレミアム)",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 5
+            },
+            {
+              "amount": 880000,
+              "tax": "不明",
+              "score": 5,
+              "line": "880,000円",
+              "excerpt": "2V (膝) 880,000円 PRP+エクソソーム (コンビネーションプレミアム)",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 5
+            },
+            {
+              "amount": 1100000,
+              "tax": "不明",
+              "score": 5,
+              "line": "1,100,000円",
+              "excerpt": "腰痛に対してのPRP-FD 2V 1,100,000円 PRP+エクソソーム (コンビネーションプレミアム)",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 5
+            },
+            {
+              "amount": 1540000,
+              "tax": "不明",
+              "score": 5,
+              "line": "1,540,000円",
+              "excerpt": "880,000円 ダブル股関節(4V) 1,540,000円 腰痛に対してのPRP-FD 2V",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 5
+            },
+            {
+              "amount": 33000,
+              "tax": "不明",
+              "score": 3,
+              "line": "33,000円",
+              "excerpt": "料金 事前検査(頭皮診断+血液検査) 33,000円 PRP:2回治療 330,000円",
+              "target_kind": "PRP",
+              "label_match": "next_line",
+              "source_url": "https://www.omotesando-amc.jp/price/",
+              "combined_score": 3
+            }
+          ],
+          "no_public_price_evidence": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F0072FF5DB8",
+      "facility": "独立行政法人国立病院機構村山医療センター",
+      "seed_url": "https://murayama.hosp.go.jp/info/20240213.html",
+      "pages": [
+        {
+          "url": "https://murayama.hosp.go.jp/info/20240213.html",
+          "chars": 7088
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_03C2604028",
+          "treatment_class": "APS/PRP",
+          "treatment": "変形性関節症に対する多血小板血漿抽出液（APS）関節内投与療法",
+          "candidates": [],
+          "no_public_price_evidence": []
+        }
+      ]
     }
   ]
 }
