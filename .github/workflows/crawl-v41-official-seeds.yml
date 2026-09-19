@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: "regen-v41-official-seed-crawl"
+  cancel-in-progress: true
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
