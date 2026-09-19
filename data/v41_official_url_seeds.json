@@ -325,6 +325,36 @@
       "facility": "弘明寺整形外科リハビリテーションクリニック",
       "url": "https://www.gumyoji-seikei.com/prp/",
       "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FA20D012DAD",
+      "facility": "医療法人社団桜伸会 さくらクリニック",
+      "url": "https://www.sakura-clinic.org/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F34A769E095",
+      "facility": "幹細胞クリニック東京",
+      "url": "https://kansaibou-clinic.or.jp/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F18AF7F0D02",
+      "facility": "医療法人鉄蕉会 亀田京橋クリニック",
+      "url": "https://medical.kameda.com/kyobashi/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F2F76A73C47",
+      "facility": "東京医科大学病院",
+      "url": "https://hospinfo.tokyo-med.ac.jp/shinryo/seikei/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F9D55F516BD",
+      "facility": "医療法人輝鳳会 池袋クリニック",
+      "url": "https://ganno-clinic.jp/",
+      "source": "web_verified_group_site"
     }
   ],
   "updated_at": "2026-09-19",
