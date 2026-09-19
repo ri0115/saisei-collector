@@ -1,0 +1,34 @@
+name: Consolidate maker full recovery
+
+on:
+  push:
+    paths:
+      - "scripts/consolidate_maker_full.py"
+      - ".github/workflows/consolidate-maker-full.yml"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  consolidate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ri0115/saisei-collector
+          run-id: 35432363044
+          pattern: maker-full-shard-*
+          path: maker_artifacts
+          merge-multiple: false
+      - run: python scripts/consolidate_maker_full.py maker_artifacts
+      - name: Commit consolidated recovery
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/v42_maker_recovery_full366.tsv results/v42_maker_recovery_full366_summary.json
+          git diff --cached --quiet || git commit -m "Consolidate v42 maker recovery full366"
+          git push
