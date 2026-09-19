@@ -1,0 +1,8 @@
+record_type	prefecture	facility_or_company	service_label	processing_company	status	evidence_url	note	first_seen_jst
+FACILITY	東京都	表参道総合医療クリニック	PFC-FD / PRP-FD	セルソース株式会社	OFFERING_CONFIRMED	https://www.omotesando-amc.jp/pfcfd/	Official page states PFC-FD is a CellSource trademark and blood is sent to an external cell-processing center for freeze-dry processing.	2026-09-19
+FACILITY	神奈川県	医療法人社団梅沢医院 梅沢整形外科	PRP-FD	セルソース株式会社	OFFERING_CONFIRMED	https://umezawa-clinic.com/	Official site states PRP-FD treatment uses CellSource system.	2026-09-19
+FACILITY	東京都	シン・整形外科 代々木上原	PRP-FD		OFFERING_CONFIRMED_PROCESSOR_UNRESOLVED	https://shin-yoyogiuehara.com/treatment/regenerative/	Current official page lists PRP-FD treatment; processing contractor not identified in reviewed primary evidence.	2026-09-19
+FACILITY	大阪府	大阪梅田セルクリニック	PRP-FD		OFFERING_CONFIRMED_PROCESSOR_UNRESOLVED	https://www.osaka-knee.com/regenerative-medicine/prp	Official page describes freeze-dried PRP-FD; processing contractor not identified in reviewed primary evidence.	2026-09-19
+FACILITY	神奈川県	医療法人野球医学 ベースボール＆スポーツクリニック	PFC-FD	セルソース株式会社	OFFERING_CONFIRMED_BRAND_MAP	https://baseball-sports.clinic/	Existing official-site audit found PFC-FD fees; PFC-FD brand is CellSource.	2026-09-19
+FACILITY	東京都	葛西駅前あおぞら整形外科クリニック	PFC-FD	セルソース株式会社	OFFERING_CONFIRMED_BRAND_MAP	https://aozora-seikei.com/regenerative-medicine/	Official page lists PFC-FD; PFC-FD brand is CellSource.	2026-09-19
+SUPPLIER		プライムロード株式会社	L-cepfer（PRP-FD）	プライムロード株式会社	PROCESSING_SERVICE_CONFIRMED	https://primeroad.co.jp/service_bk/lcepfer/	Company describes L-cepfer as a PRP concentrate freeze-dry processing service and states no regenerative-medicine provision-plan filing is required because it is rendered cell-free.	2026-09-19
