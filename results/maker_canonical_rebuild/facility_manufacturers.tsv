@@ -145,7 +145,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 大阪府|荒巻会あらまき整形外科クリニック	大阪府	医療法人荒巻会 あらまき整形外科クリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 大阪府|誠幸会わだ整形外科クリニック	大阪府	医療法人誠幸会 わだ整形外科クリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 大阪府|讃高会枚方東整形外科病院	大阪府	医療法人讃高会 枚方東整形外科病院	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR
-大阪府|吹田くわた内科ペインクリニック	大阪府	吹田くわた内科・ペインクリニック	京セラ	1		MHLW_FULL
+大阪府|吹田くわた内科ペインクリニック	大阪府	吹田くわた内科・ペインクリニック	京セラ	1	PRP	MANUAL_VERIFIED|MHLW_FULL
 大阪府|大阪市立総合医療センター	大阪府	大阪市立総合医療センター	Arthrex	1	ACP|ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
 大阪府|市立ひらかた病院	大阪府	市立ひらかた病院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 大阪府|市立岸和田市民病院	大阪府	市立岸和田市民病院	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
@@ -391,7 +391,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 神奈川県|済生会横浜市東部病院	神奈川県	済生会 横浜市東部病院	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 神奈川県|相模原協同病院	神奈川県	相模原協同病院	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|GPS|APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 神奈川県|財団互恵会大船中央病院	神奈川県	社会医療法人財団互恵会 大船中央病院	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
-神奈川県|聖隷福祉事業団聖隷横浜病院	神奈川県	社会福祉法人聖隷福祉事業団 聖隷横浜病院	Zimmer Biomet	1	APS	MHLW_FULL
+神奈川県|聖隷福祉事業団聖隷横浜病院	神奈川県	社会福祉法人聖隷福祉事業団 聖隷横浜病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED|MHLW_FULL
 神奈川県|羽沢よこはま国大整形外科リウマチ科関節鏡クリニック	神奈川県	羽沢よこはま国大整形外科リウマチ科・関節鏡クリニック	REV-MED|Zimmer Biomet	2	APS|GPS|TriCeLL	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 神奈川県|開成くさやま整形外科リハビリクリニック	神奈川県	開成くさやま整形外科リハビリクリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 神奈川県|黒河内整形外科プラウドタワー相模大野クロスクリニック	神奈川県	黒河内整形外科プラウドタワー相模大野クロスクリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
@@ -436,7 +436,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 青森県|八戸平和病院	青森県	八戸平和病院	Arthrex	1	ACP	MANUAL_VERIFIED
 青森県|なかざわ整形外科なかざわスポーツクリニック	青森県	医療法人なかざわ整形外科 なかざわスポーツクリニック	Arthrex	1	ACP	MANUAL_VERIFIED
 青森県|弘前大学医学部附属病院	青森県	弘前大学医学部附属病院	Arthrex	1	ACP	MANUAL_VERIFIED
-静岡県|tobu整形外科スポーツ&リハビリクリニック	静岡県	TOBU整形外科スポーツ&リハビリクリニック	京セラ	1	Condensia	MHLW_FULL
+静岡県|tobu整形外科スポーツ&リハビリクリニック	静岡県	TOBU整形外科スポーツ&リハビリクリニック	京セラ	1	Condensia	MANUAL_VERIFIED|MHLW_FULL
 静岡県|しずおか整形外科病院	静岡県	しずおか整形外科病院	ESTAR Technologies|Zimmer Biomet	2	APS|APS|MyCells|GPS|GPS|MyCells|MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 静岡県|ばんどう整形外科ファミリークリニック	静岡県	ばんどう整形外科・ファミリークリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 静岡県|みしま痛み&リハビリクリニック	静岡県	みしま痛み&リハビリクリニック	ESTAR Technologies	1	MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
