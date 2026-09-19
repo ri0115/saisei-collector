@@ -12,20 +12,20 @@
           "chars": 1414
         },
         {
-          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/",
-          "chars": 2574
-        },
-        {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/hospital/",
           "chars": 1479
         },
         {
-          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/cpc/",
-          "chars": 2845
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/",
+          "chars": 2574
         },
         {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/greetings/",
           "chars": 1854
+        },
+        {
+          "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/cpc/",
+          "chars": 2845
         },
         {
           "url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/outline/committee/",
@@ -56,19 +56,7 @@
           "plan_id": "V41_02C2402051",
           "treatment_class": "PRP",
           "treatment": "自家多血小板血漿(Platelet-rich plasma:PRP)を用いた関節機能治療(関節腔外に限る)",
-          "candidates": [
-            {
-              "amount": 56000,
-              "tax": "不明",
-              "score": 7,
-              "line": "両膝 1回 56,000円( +予約料)/同日に2部位(関節)",
-              "excerpt": "約1-4週の間隔で計3回の治療を1クールとしています。2回目以降は、担当医師による診察・相談の上、継続して治療を行うことが可能です。 費用:片膝 1回 30,000円( +予約料)/1部位(関節) 両膝 1回 56,000円( +予約料)/同日に2部位(関節) APS療法(次世代PRP) 原則として、(半年〜)年1回の治療。2回目以降は、担当医師による診察・相談の上、継続して治療を行うことが可能です。",
-              "target_kind": "PRP",
-              "label_match": "next_line",
-              "source_url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
-              "combined_score": 7
-            }
-          ]
+          "candidates": []
         }
       ]
     },
@@ -172,12 +160,12 @@
           "chars": 4336
         },
         {
-          "url": "https://www.ginza-noa-cl.jp/stemtap",
-          "chars": 4379
-        },
-        {
           "url": "https://www.ginza-noa-cl.jp/prp",
           "chars": 3244
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/stemtap",
+          "chars": 4379
         }
       ],
       "plans": [
@@ -199,12 +187,12 @@
           "chars": 4336
         },
         {
-          "url": "https://www.ginza-noa-cl.jp/stemtap",
-          "chars": 4379
-        },
-        {
           "url": "https://www.ginza-noa-cl.jp/prp",
           "chars": 3244
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/stemtap",
+          "chars": 4379
         }
       ],
       "plans": [
@@ -303,12 +291,12 @@
           "chars": 3480
         },
         {
-          "url": "https://heleneclinic.com/stemcell/",
-          "chars": 2839
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/disease-treatment/",
           "chars": 8679
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/",
+          "chars": 2839
         },
         {
           "url": "https://heleneclinic.com/stemcell/risk/",
@@ -342,16 +330,16 @@
           "chars": 5269
         },
         {
+          "url": "https://heleneclinic.com/stemcell/msc/",
+          "chars": 3480
+        },
+        {
           "url": "https://heleneclinic.com/stemcell/disease-treatment/",
           "chars": 8679
         },
         {
           "url": "https://heleneclinic.com/stemcell/",
           "chars": 2839
-        },
-        {
-          "url": "https://heleneclinic.com/stemcell/msc/",
-          "chars": 3480
         },
         {
           "url": "https://heleneclinic.com/stemcell/risk/",
@@ -422,17 +410,6 @@
               "combined_score": 16
             },
             {
-              "amount": 50000,
-              "tax": "税別",
-              "score": 16,
-              "line": "Condensiaによる施術料は1キットにつき、50,000円(税別)となります。",
-              "excerpt": "この治療は、健康保険が適用されない自由診療です。そのため、患者様の費用負担が他の治療よりも高額になることがあります。 関節内(変形性関節症など) Condensiaによる施術料は1キットにつき、50,000円(税別)となります。 関節外(靭帯損傷、肉離れ等のスポーツ障害) Condensiaによる施術料は1キットにつき、30,000円(税別)となります。",
-              "target_kind": "PRP",
-              "label_match": "same_line",
-              "source_url": "https://wadaseikei.net/prp/",
-              "combined_score": 16
-            },
-            {
               "amount": 25000,
               "tax": "税込",
               "score": 11,
@@ -476,24 +453,24 @@
           "chars": 3465
         },
         {
-          "url": "https://hime.clinic/archives/118236",
-          "chars": 7887
-        },
-        {
           "url": "https://hime.clinic/archives/treatment_category/reg",
           "chars": 939
+        },
+        {
+          "url": "https://hime.clinic/archives/118236",
+          "chars": 7788
         },
         {
           "url": "https://hime.clinic/archives/treatment_category/fre",
           "chars": 947
         },
         {
-          "url": "https://hime.clinic/%E7%AC%AC%E4%B8%89%E7%A8%AE%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2",
-          "chars": 7985
-        },
-        {
           "url": "https://hime.clinic/%E7%BE%8E%E5%AE%B9%E3%82%92%E4%B8%BB%E3%81%A8%E3%81%97%E3%81%9F%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%83%92%E3%83%A1%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC",
           "chars": 2311
+        },
+        {
+          "url": "https://hime.clinic/%E7%AC%AC%E4%B8%89%E7%A8%AE%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E6%A9%9F%E9%96%A2",
+          "chars": 7985
         }
       ],
       "plans": [
@@ -644,12 +621,16 @@
           "chars": 1968
         },
         {
+          "url": "https://motoazabuhills-clinic.jp/relieve-pain/",
+          "chars": 5840
+        },
+        {
           "url": "https://motoazabuhills-clinic.jp/obesity/",
           "chars": 7796
         },
         {
-          "url": "https://motoazabuhills-clinic.jp/relieve-pain/",
-          "chars": 5840
+          "url": "https://motoazabuhills-clinic.jp/skin-aging/",
+          "chars": 5249
         },
         {
           "url": "https://motoazabuhills-clinic.jp/aga/",
@@ -658,10 +639,6 @@
         {
           "url": "https://motoazabuhills-clinic.jp/forgetfulness/",
           "chars": 6241
-        },
-        {
-          "url": "https://motoazabuhills-clinic.jp/skin-aging/",
-          "chars": 5249
         }
       ],
       "plans": [
