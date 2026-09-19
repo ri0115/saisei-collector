@@ -1,0 +1,3 @@
+prefecture	facility	plan_codes	treatment	manufacturer_lead	status	evidence_url	note
+千葉県	キッコーマン総合病院		PRGF-Endoret	BTI Biotechnology Institute	CORE_GAP_CANDIDATE	https://hospital.kikkoman.co.jp/shinryo/seikeigeka/prgf.html	Official orthopedics page states BTI-made PRGF-Endoret and says facility is filed as a Class II regenerative-medicine provider; absent from current repo universe.
+東京都	医療法人社団誠歯会 東京 BT クリニック歯科・医科	01C2506009|01C2506010	PRGF-Endoret	BTI Biotechnology Institute	CORE_GAP_CANDIDATE	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506009/5/0	Two current musculoskeletal PRGF plans explicitly use BTI equipment; absent from current repo universe.
