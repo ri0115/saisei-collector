@@ -1,0 +1,21 @@
+{
+  "version": "v42-maker-manual-audit-batch-19",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 465,
+  "audited_candidate_pairs": 6,
+  "confirmed_new_facilities": 1,
+  "existing_facility_new_placements": 1,
+  "confirmed_new_manufacturer_placements": 2,
+  "already_canonical_aliases": 4,
+  "confirmed_by_manufacturer": {
+    "Zimmer Biomet": 2
+  },
+  "expected_canonical_after_rebuild": {
+    "manufacturer_known_facilities": 466,
+    "manufacturer_known_rate_pct": 49.1,
+    "manufacturer_placements": 552,
+    "Zimmer Biomet": 248,
+    "Arthrex": 209
+  },
+  "note": "Four of six generated candidates were canonical aliases. Generator alias suppression will be tightened before the next batch."
+}
