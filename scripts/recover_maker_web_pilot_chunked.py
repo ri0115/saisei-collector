@@ -16,15 +16,15 @@ PRODUCT_PATTERNS=[
 ("ACP MAX",re.compile(r"(?i)ACP[\\s・_-]*MAX|HD[- ]?PRP\\s*[（(]ACP\\s*MAX")),
 ("ACP",re.compile(r"(?i)\\bACP\\b|ACPダブルシリンジ|ACP[- ]?PRP")),
 ("Angel",re.compile(r"(?i)\\bAngel\\b(?:\\s*c?PRP)?")),
-("GPS",re.compile(r"(?i)GPS\\s*(?:III|Ⅲ|3)?")),
-("APS",re.compile(r"(?i)\\bAPS\\b|Autologous\\s+Protein\\s+Solution")),
+("GPS",re.compile(r"(?i)G\\s*P\\s*S\\s*(?:III|Ⅲ|3)?")),
+("APS",re.compile(r"(?i)(?<![A-Za-z])A\\s*P\\s*S(?![A-Za-z])|Autologous\\s+Protein\\s+Solution")),
 ("Condensia",re.compile(r"(?i)Condensia|コンデンシア")),
 ("MyCells",re.compile(r"(?i)My\\s*cells?|Mycells|マイセル")),
 ("TriCeLL",re.compile(r"(?i)Tri\\s*Cell|TriCeLL|トライセル")),
 ("MAGELLAN",re.compile(r"(?i)MAGELLAN|Magellan|マゼラン")),
 ("PRGF-Endoret",re.compile(r"(?i)PRGF[- ]?Endoret|Endoret|PRGF")),
 ("PEAK",re.compile(r"(?i)PEAK\\s*(?:PRP)?")),
-("YCELL",re.compile(r"(?i)YCELL|Ycellbio|ワイセル")),
+("YCELL",re.compile(r"(?i)(?<![A-Za-z])Y\\s*CELL(?:BIO)?(?:\\s*Medical)?|ワイセル")),
 ]
 MAKER_PATTERNS=[
 ("Zimmer Biomet",re.compile(r"(?i)Zimmer\\s*Biomet|ジンマー(?:・|\\s|-)?バイオメット")),
@@ -56,6 +56,19 @@ def official_like(url,title,facility):
     if len(key)>=4 and (key in t or t in key): return True
     tokens=[x for x in re.split(r"[・&＆/\\s]",key) if len(x)>=4]
     return any(tok in t for tok in tokens)
+
+GENERIC_TOKENS=["医療法人","社会医療法人","医療法人社団","一般社団法人","整形外科","スポーツ","クリニック","病院","医院","CLINIC","Clinic"]
+
+def facility_matches_page(text, facility):
+    page=re.sub(r"\\s+","",norm(text)).lower()
+    key=core_name(facility).lower()
+    if key and key in page: return True
+    reduced=key
+    for g in GENERIC_TOKENS:
+        reduced=reduced.replace(g.lower(),"")
+    if len(reduced)>=4 and reduced in page: return True
+    toks=[t.lower() for t in re.split(r"[・&＆/\\s]",norm(facility)) if len(t)>=4 and t not in GENERIC_TOKENS]
+    return any(t.replace(" ","") in page for t in toks)
 
 def hits(text):
     text=norm(text); ps=[]; ms=[]
