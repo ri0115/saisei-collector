@@ -55,13 +55,13 @@ def parse_index(kind):
         pref=td[1].get_text(" ",strip=True)
         address=td[2].get_text(" ",strip=True)
         treatment=td[4].get_text(" ",strip=True)
-        links=[urljoin(url,a.get("href","")) for a in td[7].find_all("a",href=True)]
+        link_items=[{"label":a.get_text(" ",strip=True),"url":urljoin(url,a.get("href",""))} for a in td[7].find_all("a",href=True)]
         codes=[]
-        for u in links:
-            m=re.search(r"/published_plan/download/([^/]+)/",u)
+        for z in link_items:
+            m=re.search(r"/published_plan/download/([^/]+)/",z["url"])
             if m: codes.append(m.group(1))
         if facility and treatment and codes:
-            out.append({"kind":str(kind),"facility":facility,"prefecture":pref,"address":address,"treatment":treatment,"links":links,"codes":codes})
+            out.append({"kind":str(kind),"facility":facility,"prefecture":pref,"address":address,"treatment":treatment,"links":[z["url"] for z in link_items],"link_items":link_items,"codes":codes})
     return out
 
 def facility_id(pref,facility,address):
@@ -106,6 +106,10 @@ def main():
             "treatment":r["treatment"],
             "treatment_class":infer_class(r["treatment"]),
             "document_url_source":doc,
+            "document_urls_source":[
+                z for z in r.get("link_items",[])
+                if f"/download/{code}/" in z.get("url","")
+            ],
             "evidence_url":doc,
             "plan_status":"厚労省現行一覧確認済 / v41高確度追加 / 価格回収待ち"
         })
