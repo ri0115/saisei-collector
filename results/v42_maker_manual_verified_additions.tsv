@@ -13,3 +13,10 @@ prefecture	facility	product	facility_label_maker	legal_manufacturer	japan_mah_or
 静岡県	錦野クリニック	TriCeLL	REV-MED	REV-MED Inc.	メッド・アライアンス株式会社	FACILITY_OFFICIAL_EXPLICIT	https://www.nishikino.net/treatment/prp/	Official page states TriCell PRP kit (REV-MED).
 大阪府	大阪市立総合医療センター	ACP	Arthrex	Arthrex	Arthrex Japan	FACILITY_OFFICIAL_EXPLICIT	https://www.osakacity-hp.or.jp/ocgh/dep/sur/seikei/prptiryou.html	Official page explicitly states Arthrex ACP Double Syringe System.
 大阪府	医療法人仁由会 日本ウェルネス再生クリニック	MyCells	Kaylight社	ESTAR TECHNOLOGIES LTD.	ディーマー・メディカル・ジャパン株式会社	FACILITY_OFFICIAL_PLUS_PMDA	https://wbc-saisei.com/menu_hadasaisei.php	Official page states Kaylight MyCells; legal manufacturer normalized from PMDA.
+兵庫県	三輪整形外科クリニック	ACP		Arthrex	Arthrex Japan	FACILITY_OFFICIAL_PRODUCT_MAP	https://miwa-seikeigeka.clinic/self-paymedicaltreatment	Official facility page states ACP-PRP; manufacturer from validated ACP registry.
+大阪府	医療法人一幸会 いっしん整形外科	ACP	Arthrex	Arthrex	Arthrex Japan	FACILITY_OFFICIAL_EXPLICIT	https://isshin-clinic.com/medical/prp-therapy/	Official page explicitly states Arthrex ACP Double Syringe System.
+大阪府	医療法人良花会 整形外科とくはらクリニック	ACP|APS|GPS	Arthrex|Zimmer Biomet	Arthrex|Zimmer Biomet	Arthrex Japan|Zimmer Biomet	FACILITY_OFFICIAL_EXPLICIT	https://tokuhara-clinic.com/prp/	Official page explicitly states Arthrex ACP and Zimmer Biomet APS/GPS III.
+宮崎県	整形外科 押領司病院	APS		Zimmer Biomet	Zimmer Biomet	FACILITY_OFFICIAL_PRODUCT_MAP	https://oryoji.or.jp/regenerative-medicine/	Official page documents APS treatment; manufacturer from validated APS registry.
+愛知県	あいせい紀年病院	ACP		Arthrex	Arthrex Japan	FACILITY_OFFICIAL_PRODUCT_MAP	https://www.aisei-hp.or.jp/examination/prp.php	Official page documents ACP-PRP; manufacturer from validated ACP registry.
+東京都	つくる整形外科 祐天寺駅前スポーツクリニック		Arthrex	Arthrex	Arthrex Japan	FACILITY_OFFICIAL_EXPLICIT	https://tsukuruseikei.jp/menu/prp療法/	Official page explicitly states use of Arthrex PRP kit.
+東京都	葛西駅前あおぞら整形外科クリニック	APS		Zimmer Biomet	Zimmer Biomet	FACILITY_OFFICIAL_PRODUCT_MAP	https://aozora-seikei.com/regenerative-medicine/	Official page documents APS therapy; manufacturer from validated APS registry.
