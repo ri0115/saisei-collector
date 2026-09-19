@@ -1,0 +1,17 @@
+{
+  "version": "v42-merge-audit-stage10a-v40-C-batch001",
+  "created_date_jst": "2026-09-19",
+  "source": "results/c_latest.json",
+  "plan_range": "C queue 1-50",
+  "plan_rows": 50,
+  "status_counts": {
+    "AUTO": 35,
+    "QC": 15
+  },
+  "exported_price_rows": 131,
+  "no_price_counts": {
+    "AUTO": 0,
+    "QC": 8
+  },
+  "next_step": "Process C queue 51-100 separately."
+}
