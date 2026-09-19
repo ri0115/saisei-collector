@@ -1,0 +1,40 @@
+{
+  "version": "v42-merge-audit-stage06-recovered-price-consolidation-and-coverage",
+  "created_date_jst": "2026-09-19",
+  "recovered": {
+    "source_files": [
+      "results/v42_recovered_prices_batch01.tsv",
+      "results/v42_recovered_prices_batch02.tsv",
+      "results/v42_recovered_prices_batch03.tsv"
+    ],
+    "price_rows": 50,
+    "unique_plan_codes": 26,
+    "row_status_counts": {
+      "READY": 42,
+      "REVIEW_COMPLEX_COMPONENTS": 7,
+      "REVIEW_SECONDARY_SOURCE": 1
+    },
+    "plan_status_counts": {
+      "READY": 24,
+      "REVIEW_COMPLEX_COMPONENTS": 1,
+      "REVIEW_SECONDARY_SOURCE": 1
+    }
+  },
+  "confirmed_plan_coverage": {
+    "price_confirmed_plans": 730,
+    "auto_unique_plans": 682,
+    "manual_unique_plans": 22,
+    "recovered_unique_plans": 26,
+    "union_unique_plans": 730,
+    "overlaps": {
+      "auto_manual": 0,
+      "auto_recovered": 0,
+      "manual_recovered": 0
+    },
+    "missing_confirmed_plans": [],
+    "source_plans_not_marked_confirmed": [],
+    "exact_plan_coverage": true
+  },
+  "interpretation": "All 730 plans marked 価格確定 are now accounted for by exactly one source family. Recovered special cases remain explicitly tagged so ranking logic can exclude complex components and provisional secondary-source values.",
+  "next_step": "Build the unified v42 price staging master, keeping non-ranking special rows separate by flags, then run row/plan sanity checks."
+}
