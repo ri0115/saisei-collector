@@ -1,0 +1,15 @@
+{
+  "version": "v42-maker-manual-audit-batch-35",
+  "date_jst": "2026-09-20",
+  "audited_facilities": 3,
+  "confirmed_new_facilities": 0,
+  "confirmed_new_manufacturer_placements": 0,
+  "holds": 3,
+  "canonical_merge_deferred": true,
+  "canonical_rebuild_performed": false,
+  "carried_forward_from_batch34": {
+    "provisional_new_facilities": 1,
+    "provisional_new_manufacturer_placements": 2
+  },
+  "note": "Batch 35 checkpoint only. No new confirmed manufacturer evidence. Canonical merge/rebuild remains deferred until Batch 36 completes the 9-facility cycle."
+}
