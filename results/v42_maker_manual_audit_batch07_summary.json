@@ -1,0 +1,34 @@
+{
+  "version": "v42-maker-manual-audit-batch-07",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 381,
+  "facilities_audited": 12,
+  "confirmed_new": 1,
+  "already_canonical": 1,
+  "hold_historical": 1,
+  "unresolved": 9,
+  "confirmed_additions": [
+    {
+      "prefecture": "千葉県",
+      "facility": "医療法人社団曙会 流山中央病院",
+      "product": "ACP",
+      "manufacturer": "Arthrex"
+    }
+  ],
+  "holds": [
+    {
+      "prefecture": "千葉県",
+      "facility": "医療法人社団誠富会 成田整形外科",
+      "historical_product": "Condensia",
+      "historical_manufacturer": "京セラ",
+      "reason": "Historical clinic-director conference evidence is explicit, but current official page does not name the product and current director differs; do not count as current manufacturer evidence."
+    }
+  ],
+  "expected_canonical_after_rebuild": 382,
+  "policy": [
+    "Current exact-facility official evidence is preferred.",
+    "Validated product-to-manufacturer mapping is allowed when the current facility page explicitly names the product.",
+    "Historical evidence is retained as a lead but is not counted when current-use continuity is uncertain.",
+    "PRP-only evidence without branded product/manufacturer remains unresolved."
+  ]
+}
