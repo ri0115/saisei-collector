@@ -1,0 +1,55 @@
+{
+  "version": "v42-merge-audit-stage07-v40-nonqueue-reconciliation",
+  "created_date_jst": "2026-09-19",
+  "source_workbook": "整形外科再生医療DB_v40_中部A山梨高速回収完了.xlsx",
+  "source_sheets": {
+    "current_plan_audit": "全国最終監査_v33",
+    "latest_plan_master": "治療計画マスター_v1",
+    "latest_price_master": "価格マスター_v1",
+    "v40_collection_queue": "全国価格回収キュー_v40"
+  },
+  "counts": {
+    "v40_current_rows": 903,
+    "v40_collection_queue_rows": 656,
+    "v40_nonqueue_rows": 247,
+    "nonqueue_v33_already_price_bearing": 198,
+    "nonqueue_v33_stale_price_missing_rows": 47,
+    "nonqueue_plan_linkage_caution_rows": 2
+  },
+  "stale_47_reconciliation": {
+    "resolved_in_latest_plan_master": 47,
+    "exact_price_rows_present_for_all_47": true,
+    "latest_plan_status_counts": {
+      "MHLW価格文書確認済": 34,
+      "施設公式価格確認済": 11,
+      "価格確認済（旧公式料金表・現行再確認）": 1,
+      "価格確認済（説明文書転載）": 1
+    },
+    "recovery_stage_counts": {
+      "確認済・高速回収v36": 17,
+      "確認済・高速回収v38": 17,
+      "確認済・公式例外レーンv37": 9,
+      "施設公式補完・v38": 2,
+      "施設公式補完・現行再確認": 1,
+      "代替資料確認済・v38": 1
+    },
+    "interpretation": "The 47 rows shown as price-missing in the older 全国最終監査_v33 sheet were subsequently resolved during v36-v38. They were correctly absent from the v40 remaining-price queue and must not be treated as lost rows."
+  },
+  "plan_linkage_caution": [
+    {
+      "plan_id": "P00562",
+      "facility_id": "F0386",
+      "facility": "福岡ひざ関節症クリニック",
+      "treatment": "自家脂肪組織由来幹細胞（ASC）の投与による関節治療"
+    },
+    {
+      "plan_id": "P00563",
+      "facility_id": "F0386",
+      "facility": "福岡ひざ関節症クリニック",
+      "treatment": "自家脂肪由来幹細胞を用いた変形性関節症の局所治療"
+    }
+  ],
+  "plan_linkage_caution_note": "The facility price master contains a current cultured-stem-cell menu price (1,287,000 JPY incl. tax) but intentionally keeps assignment to either individual MHLW plan unresolved. Do not duplicate that one facility-level price into both plans.",
+  "conclusion": "No v40 plan is missing merely because it was outside the 656-row GitHub collection queue. The 247 nonqueue rows consist of 245 price-resolved plans and 2 facility-price / plan-linkage-caution plans.",
+  "next_step": "Construct a safe v40 plan-to-price staging map from the latest workbook masters. Prefer exact MHLW document-code/URL mapping, then exact treatment mapping, then unique-plan facility/category mapping. Keep facility-shared or ambiguous prices unassigned."
+}
