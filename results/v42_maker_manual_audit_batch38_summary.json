@@ -1,0 +1,24 @@
+{
+  "version": "v42-maker-manual-audit-batch-38",
+  "date_jst": "2026-09-20",
+  "audited_facilities": 10,
+  "confirmed_new_facilities": 1,
+  "confirmed_new_manufacturer_placements": 1,
+  "processing_outsourcing_only": 1,
+  "holds": 9,
+  "confirmed_by_manufacturer": {
+    "ESTAR Technologies": 1
+  },
+  "canonical_merge_deferred": true,
+  "canonical_rebuild_performed": false,
+  "carried_forward_from_batch37": {
+    "provisional_new_facilities": 1,
+    "provisional_new_manufacturer_placements": 1
+  },
+  "provisional_cycle_37_38": {
+    "audited_facilities": 20,
+    "provisional_new_facilities": 2,
+    "provisional_new_manufacturer_placements": 2
+  },
+  "note": "Batch 38 processed 10 facilities. Takanawa Wago Clinic has exact MHLW MyCells evidence, mapped to ESTAR Technologies. Canonical merge remains deferred until Batch 39 completes the 30-facility cycle."
+}
