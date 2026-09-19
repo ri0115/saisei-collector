@@ -1,0 +1,190 @@
+{
+  "version": "v41-official-site-batch-06-final",
+  "baseline_version": "v41-postprocess-1.6",
+  "scope": {
+    "queue_file": "results/v41_official_site_fallback_queue.json",
+    "batch_index": 6,
+    "queue_item_range": "51-58",
+    "items": 8,
+    "unique_facilities": 8
+  },
+  "decision_rule": {
+    "confirmed_price": "Current official facility site or the exact current MHLW published-plan document for the identical queued plan explicitly shows a numeric treatment price. Prices for materially different treatments are not substituted.",
+    "official_no_public_price": "Current official facility site confirms the identical queued treatment/therapy is offered, but the current public fee information does not publish that treatment fee.",
+    "unconfirmed": "The current official facility site cannot be adequately inspected or does not establish a sufficiently close match to the queued treatment, and the exact public plan materials do not yield a reliable numeric fee. Related-treatment prices are not reused."
+  },
+  "classification_counts": {
+    "価格確定": 4,
+    "公式サイトはあるが価格非公開": 0,
+    "未確認": 4
+  },
+  "records": [
+    {
+      "queue_no": 51,
+      "plan_id": "V41_01G2302004",
+      "mhlw_plan_code": "01G2302004",
+      "facility_id": "V41FCE7B54111A",
+      "facility": "医療法人 桜康会 三宮整形外科医院",
+      "prefecture": "福岡県",
+      "target_treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
+      "classification": "価格確定",
+      "official_url": "https://sannomiya-seikei.com/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2302004/5/0",
+      "matched_prices": [
+        {
+          "treatment": "整形外科領域の関節腔外PRP治療",
+          "amount_yen": 35000,
+          "tax": "税込",
+          "unit": "施術料",
+          "note": "患者の症状・その他の事情等により治療費が変動する場合あり"
+        }
+      ],
+      "evidence": "The exact MHLW published-plan PDF for this facility and treatment states the hospital-prescribed treatment fee is 35,000 yen tax included."
+    },
+    {
+      "queue_no": 52,
+      "plan_id": "V41_02G1904001",
+      "mhlw_plan_code": "02G1904001",
+      "facility_id": "V41FC0B9D558DC",
+      "facility": "医療法人前川整形外科医院",
+      "prefecture": "福岡県",
+      "target_treatment": "多血小板血漿(platelet rich plasma)治療",
+      "classification": "未確認",
+      "official_url": "https://maekawa1998.com/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02G1904001/5/0",
+      "matched_prices": [],
+      "evidence": "The current official facility site confirms the orthopedic clinic and sports-orthopedic service but does not currently expose PRP/regenerative-medicine treatment or pricing. The exact MHLW attachment was not reliably retrievable in this pass, so the queued PRP treatment cannot be tied to a current public fee."
+    },
+    {
+      "queue_no": 53,
+      "plan_id": "V41_01G2002004",
+      "mhlw_plan_code": "01G2002004",
+      "facility_id": "V41F167802D210",
+      "facility": "医療法人社団サンセール会 SCクリニック福岡",
+      "prefecture": "福岡県",
+      "target_treatment": "自家脂肪由来間葉系幹細胞を用いた変形性膝関節症の治療",
+      "classification": "未確認",
+      "official_url": null,
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2002004/5/0",
+      "matched_prices": [],
+      "evidence": "Current MHLW published materials still identify SCクリニック福岡 and the exact adipose-derived MSC knee-osteoarthritis treatment, but a current official clinic website publishing the target service/fee was not established. Public MHLW attachments refer to treatment-cost explanation but no reliable numeric fee was recovered. Therefore retained as unconfirmed."
+    },
+    {
+      "queue_no": 54,
+      "plan_id": "V41_01C2206015",
+      "mhlw_plan_code": "01C2206015",
+      "facility_id": "V41F439538D391",
+      "facility": "医療法人山本整形外科医院",
+      "prefecture": "群馬県",
+      "target_treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法",
+      "classification": "価格確定",
+      "official_url": "https://yamamoto-orth.com/information/self-paid/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206015/5/0",
+      "matched_prices": [
+        {
+          "treatment": "PRP治療",
+          "amount_yen": 50000,
+          "tax": "税別",
+          "unit": "1回相当",
+          "note": "公式ページはPRP治療全般の費用として表示"
+        }
+      ],
+      "evidence": "The current official regenerative-medicine page states that PRP is used for tendon insertion disorders and muscle/tendon injury, matching the queued extra-articular sports-injury scope, and publishes a fee of 50,000 yen before tax."
+    },
+    {
+      "queue_no": 55,
+      "plan_id": "V41_02C2304008",
+      "mhlw_plan_code": "02C2304008",
+      "facility_id": "V41FBEAA3D4434",
+      "facility": "慶友整形外科クリニック",
+      "prefecture": "群馬県",
+      "target_treatment": "高白血球多血小板血漿（leukocyte rich PRP：LR-PRP）を用いた膝蓋腱炎、上腕骨外側顆炎、腱板炎、足底筋膜炎、靭帯損傷、腱鞘炎の修復",
+      "classification": "価格確定",
+      "official_url": "https://www.ku-kai.or.jp/html/ko.php",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2304008/5/0",
+      "matched_prices": [
+        {
+          "treatment": "LR-PRP治療",
+          "amount_yen": 150000,
+          "tax": "不明",
+          "unit": "治療費",
+          "note": "厚労省の当該計画公開文書に150,000円と記載。税区分は確認できず。"
+        }
+      ],
+      "evidence": "The exact MHLW published-plan text for plan 02C2304008 and 慶友整形外科クリニック contains a treatment price of 150,000 yen. Because the tax wording could not be reliably recovered, tax status is intentionally left unresolved."
+    },
+    {
+      "queue_no": 56,
+      "plan_id": "V41_03C2311002",
+      "mhlw_plan_code": "03C2311002",
+      "facility_id": "V41F897007AA88",
+      "facility": "アントラーズスポーツクリニック",
+      "prefecture": "茨城県",
+      "target_treatment": "四肢の靱帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自己多血小板血漿注入療法",
+      "classification": "未確認",
+      "official_url": "https://www.antlerssc.com/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2311002/5/0",
+      "matched_prices": [],
+      "evidence": "The current official clinic site confirms active sports-orthopedic practice but does not currently expose the queued PRP treatment or a PRP fee in its public pages. The exact MHLW attachment could not be reliably parsed during this pass. Retained as unconfirmed."
+    },
+    {
+      "queue_no": 57,
+      "plan_id": "V41_03F2505004",
+      "mhlw_plan_code": "03F2505004",
+      "facility_id": "V41F2AAA31D23B",
+      "facility": "医療法人弘仁会 三条整形外科スポーツクリニック",
+      "prefecture": "香川県",
+      "target_treatment": "自己多血小板血漿（PRP）を用いた整形外科療法",
+      "classification": "未確認",
+      "official_url": "http://www.sanjo-hp.net/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2505004/5/0",
+      "matched_prices": [],
+      "evidence": "MHLW/committee records confirm ongoing PRP regenerative-medicine activity at the facility, but the current official website returns 403 to the crawler and the exact queued-plan attachment could not be reliably parsed. Prices from other Sanjo PRP plans are not substituted. Retained as unconfirmed."
+    },
+    {
+      "queue_no": 58,
+      "plan_id": "V41_01G2404012",
+      "mhlw_plan_code": "01G2404012",
+      "facility_id": "V41F04E31ABAD7",
+      "facility": "医療法人吉祥会 吉井整形外科内科中央病院",
+      "prefecture": "鹿児島県",
+      "target_treatment": "自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療(関節腔外に限る)",
+      "classification": "価格確定",
+      "official_url": "https://kisshokai.com/prp%E7%99%82%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2404012/5/0",
+      "matched_prices": [
+        {
+          "treatment": "関節腔外PRP治療",
+          "amount_yen": 38500,
+          "tax": "税込",
+          "unit": "1回・1部位",
+          "note": "診査、PRP調製用採血、PRP調製、注入費用の総額"
+        }
+      ],
+      "evidence": "The current official hospital site publicly advertises PRP regenerative medicine. The exact MHLW plan PDF states 'PRP1回・1部位：38,500（税込）', including examination, blood draw, PRP preparation and injection."
+    }
+  ],
+  "batch_audit": {
+    "item_count": 8,
+    "unique_facility_count": 8,
+    "classification_total": 8,
+    "confirmed_price_items": 4,
+    "confirmed_price_rows": 4,
+    "official_no_public_price_items": 0,
+    "unconfirmed_items": 4,
+    "fail": 0,
+    "baseline_mutated": false,
+    "next_queue_no": null,
+    "queue_complete": true
+  },
+  "cumulative_after_batch06": {
+    "processed_queue_items": 58,
+    "total_queue_items": 58,
+    "confirmed_price_items": 22,
+    "official_no_public_price_items": 13,
+    "unconfirmed_items": 23,
+    "fail": 0,
+    "remaining_queue_items": 0,
+    "classification_total_check": 58
+  }
+}
