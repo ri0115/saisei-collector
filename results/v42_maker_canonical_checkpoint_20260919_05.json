@@ -1,0 +1,112 @@
+{
+  "version": "v42-maker-canonical-2026-09-19-05",
+  "date_jst": "2026-09-19",
+  "canonical": true,
+  "safe_to_use": true,
+  "supersedes": "results/v42_maker_share_checkpoint_post_mhlw.json and quarantined official-web outputs",
+  "facility_total": 949,
+  "manufacturer_known_facilities": 407,
+  "manufacturer_known_rate": 0.42887249736564803,
+  "manufacturer_placements": 492,
+  "manufacturer_counts": {
+    "Zimmer Biomet": 234,
+    "Arthrex": 160,
+    "京セラ": 52,
+    "ESTAR Technologies": 26,
+    "REV-MED": 8,
+    "DSM Biomedical": 7,
+    "BTI Biotechnology Institute": 4,
+    "Arteriocyte Medical Systems": 1
+  },
+  "rules": [
+    "Counts use legal manufacturer / canonical manufacturer group where available.",
+    "Facility document labels such as Kaylight are preserved separately from PMDA legal manufacturer.",
+    "One facility can contribute to multiple manufacturer placements.",
+    "Quarantined old official-web scan is not included.",
+    "Only exact MHLW plan evidence or manually verified facility-official evidence is included."
+  ],
+  "additions_since_post_mhlw_checkpoint": {
+    "manufacturer_facilities_added": 24,
+    "sources": {
+      "MHLW_product_only_upgraded_with_validated_registry": 2,
+      "previous_official_lead_upgraded": 1,
+      "manually_verified_facility_official_pages": 21
+    }
+  },
+  "pending": "Continue with manufacturer-operated locators for other products (Kyocera/Condensia, MyCells, TriCeLL, PEAK, MAGELLAN) and targeted official-site audit. Raw locator candidates are not merged unless they meet the locked evidence policy.",
+  "exclusions_or_holds": [
+    {
+      "facility": "大宮はしもと整形外科",
+      "status": "EXCLUDE",
+      "reason": "APS appears only in comparative discussion; current clinic PRP kit manufacturer not identified."
+    },
+    {
+      "facility": "長野松代総合病院",
+      "status": "EXCLUDE",
+      "reason": "ACP is Advance Care Planning, not Arthrex ACP."
+    },
+    {
+      "facility": "大阪梅田セルクリニック",
+      "status": "HOLD",
+      "reason": "APS is described, but current page only says a foreign-made kit and does not identify manufacturer/product strongly enough for canonical assignment."
+    }
+  ],
+  "strict_v2_audit": {
+    "raw_safe_candidates": 16,
+    "accepted_new_facilities": 3,
+    "already_counted_or_duplicate": [
+      "三輪整形外科クリニック",
+      "神戸海星病院",
+      "木本整形外科クリニック",
+      "猿渡整形外科スポーツリハクリニック",
+      "ONE CLINIC 梅田",
+      "アスレティックス整形外科肩膝スポーツクリニック",
+      "講道館ビルクリニック",
+      "葛西駅前あおぞら整形外科クリニック",
+      "西尾病院",
+      "ぐんまスポーツ整形外科",
+      "池尻大橋せらクリニック"
+    ],
+    "excluded_or_held": [
+      "大宮はしもと整形外科",
+      "大阪梅田セルクリニック"
+    ],
+    "newly_accepted": [
+      "兵庫県立リハビリテーション中央病院",
+      "医療法人 鎌野病院",
+      "鹿児島中央整形外科スポーツクリニック"
+    ]
+  },
+  "manufacturer_locator_audit": {
+    "arthrex_locator_facilities": 163,
+    "zimmer_locator_facilities": 209,
+    "accepted_new_facilities": 34,
+    "accepted_new_placements": 35,
+    "accepted_by_manufacturer": {
+      "Arthrex": 30,
+      "Zimmer Biomet": 5
+    },
+    "dual_manufacturer_new_facilities": [
+      "医療法人社団奏の杜整形外科"
+    ],
+    "excluded_as_already_known_nonqueue": [
+      "独立行政法人地域医療機能推進機構 山梨病院"
+    ],
+    "review_not_merged": [
+      "医療法人恵愛会 中村病院（Zimmer-operated locator: PRP only; product kit not explicit）"
+    ],
+    "evidence_policy": [
+      "Arthrex Japan-operated locator + exact facility match + ACP-PRP listing => accepted as Arthrex.",
+      "Zimmer Biomet-operated locator + exact facility match + APS listing => accepted as Zimmer Biomet.",
+      "Zimmer locator PRP-only listing is not auto-assigned.",
+      "Legal-prefix-stripped matches are accepted only when unique within prefecture.",
+      "v40 nonqueue manufacturer evidence was checked before final facility count."
+    ],
+    "source_urls": [
+      "https://seikei-saisei.jp/institution.html",
+      "https://seikei-saisei.jp/info.html",
+      "https://m.kansetsu-life.com/saisei/index.php",
+      "https://kansetsu-life.com/about/index.html"
+    ]
+  }
+}
