@@ -1,0 +1,26 @@
+{
+  "version": "v42-merge-audit-stage03g-price-batch-004",
+  "created_date_jst": "2026-09-19",
+  "purpose": "Bounded pre-merge validation for auto-confirmed price rows 451-600.",
+  "batch": {
+    "source": "results/v42_auto_prices_compact.tsv",
+    "data_row_start": 451,
+    "data_row_end": 600,
+    "price_rows": 150,
+    "unique_plan_codes": 64,
+    "first_plan_code": "01G2408006",
+    "last_plan_code": "01C2506006"
+  },
+  "validation": {
+    "missing_plan_codes_in_additions": 0,
+    "all_plan_codes_resolve_uniquely": true,
+    "price_status_by_unique_plan": {
+      "価格確定": 64
+    },
+    "audit_only_rows_present": 0,
+    "manual_price_overlap_codes_in_batch": 0,
+    "safe_for_merge": true
+  },
+  "mutation_status": "STAGED_ONLY",
+  "next_step": "Continue rows 601-750 after checkpoint."
+}
