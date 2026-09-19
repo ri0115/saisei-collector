@@ -60,13 +60,28 @@ if MANUAL.exists():
             elif "bti" in low: known[k].add("BTI Biotechnology Institute")
         sources[k].add(str(MANUAL))
 
+# Alias-aware view of known facilities: catches e.g. "医療法人社団VITA 池尻大橋せらクリニック"
+# versus "池尻大橋せらクリニック". Restricted to same prefecture and reasonably long aliases.
+known_entries=[]
+for kk,makers in known.items():
+    pref,facpart=kk.split("|",1)
+    if makers and len(facpart)>=6:
+        known_entries.append((pref,facpart,set(makers)))
+
 matches=read(MATCH)
 audit=[]
 for r in matches:
     if r.get("confidence")!="HIGH" or r.get("is_new_candidate")!="YES":continue
     k=key(r["prefecture"],r["facility"])
     maker=r["inferred_manufacturer"]
-    existing=known.get(k,set())
+    existing=set(known.get(k,set()))
+    # containment alias check only inside the same prefecture
+    prefkey=norm(r["prefecture"])
+    facalias=k.split("|",1)[1]
+    if len(facalias)>=6:
+        for kp,kfac,kmakers in known_entries:
+            if kp==prefkey and (facalias in kfac or kfac in facalias):
+                existing.update(kmakers)
     if maker in existing:
         status="DUPLICATE_KNOWN_MAKER"
     elif existing:
