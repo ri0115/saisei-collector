@@ -1,0 +1,39 @@
+prefecture	facility	mhlw_plan_codes	locator_manufacturer	locator_products	locator_confidence	source_operator	match_type	source_url	known_manufacturers_before_locator	known_evidence_before_locator	same_manufacturer_already_known	facility_has_other_manufacturer_known	truly_new_manufacturer_placement	truly_new_manufacturer_facility
+岩手県	いわてスポーツ・整形外科クリニック	01B2403004	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+埼玉県	医療法人社団南越谷病院	01C2102010|01C2102011	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_LEGAL_STRIPPED	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+千葉県	順天堂大学医学部附属浦安病院	02C2109023|02C2109024	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+千葉県	医療法人社団奏の杜整形外科	01C2102007	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_LEGAL_STRIPPED	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+千葉県	柏の葉キャンパス整形外科	03C2410007|03C2410034	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+千葉県	医療法人社団オルソプラス  むらた整形外科	01C2409051|01C2409052	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+群馬県	慶友整形外科クリニック	01C1906015|01C1910017	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+神奈川県	ほんだ整形外科クリニック	01C2105005	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+神奈川県	医療法人横浜未来ヘルスケアシステム 戸塚共立第2病院	02C2508001|02C2508002	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+東京都	順天堂大学医学部附属練馬病院	03C2308020|03C2308021	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+東京都	おかのクリニック	01C2205034|01C2205035	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+東京都	医療法人社団 山手クリニック	01C2310059	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_LEGAL_STRIPPED	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+東京都	すみだ運動器リハビリテーションクリニック	01C2302048	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+東京都	池尻大橋せらクリニック	01C2403007	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+長野県	医療法人弘仁会 かもいクリニック	01C2210029|01C2210030	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+静岡県	富士整形外科病院	02D2510005|02D2510006	Arthrex	ACP-PRP|HD-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+愛知県	米田病院	03D2604004|03D2604005	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+愛知県	瀬戸にしな整形外科クリニック	01D2111003	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+愛知県	ふくの森リハビリ整形外科	01D2404006	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+愛知県	リジェネレーションクリニック	01D2404004|01D2404005	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+岐阜県	公立学校共済組合 東海中央病院	03D2509003	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_LEGAL_STRIPPED	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+岐阜県	森整形外科リハビリクリニック	01D2109002|01D2109003	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+京都府	医療法人財団康生会 たけだ膠原病リウマチクリニック	03E2507006|03E2507007|03E2507008	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+兵庫県	藤田整形外科 スポーツクリニック	01E2506023|01E2506024	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+滋賀県	公立甲賀病院	01E2307011|01E2307012	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+山口県	医療法人社団 宇部興産中央病院	01F2206003|03F2208001	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+香川県	高松南整形外科スポーツクリニック	01F2203001|01F2203002	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+福岡県	とも整形外科スポーツクリニック	01G1906001|01G2001007	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+福岡県	櫛田学整形外科クリニック	01G2107003	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+大分県	仙波整形外科	01G2101005	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+鹿児島県	天陽会中央クリニック	01G2110006	Arthrex	ACP-PRP	HIGH	Arthrex	EXACT_STRICT	https://seikei-saisei.jp/institution.html			NO	NO	YES	YES
+千葉県	医療法人社団奏の杜整形外科	01C2102007	Zimmer Biomet	APS	HIGH	Zimmer Biomet	EXACT_LEGAL_STRIPPED	https://m.kansetsu-life.com/saisei/index.php			NO	NO	YES	YES
+千葉県	医療法人社団明敬会 重城病院	03C2207033|03C2207034	Zimmer Biomet	APS	HIGH	Zimmer Biomet	EXACT_STRICT	https://m.kansetsu-life.com/saisei/index.php			NO	NO	YES	YES
+山梨県	東甲府医院	01C2411014	Zimmer Biomet	APS	HIGH	Zimmer Biomet	EXACT_STRICT	https://m.kansetsu-life.com/saisei/index.php			NO	NO	YES	YES
+山梨県	独立行政法人地域医療機能推進機構 山梨病院	02C2605091	Zimmer Biomet	APS	HIGH	Zimmer Biomet	EXACT_STRICT	https://m.kansetsu-life.com/saisei/index.php			NO	NO	YES	YES
+京都府	医療法人藍整会 なか整形外科 京都西院リハビリテーションクリニック	03E2603014|03E2603015	Zimmer Biomet	APS	HIGH	Zimmer Biomet	EXACT_STRICT	https://m.kansetsu-life.com/saisei/index.php			NO	NO	YES	YES
+大阪府	医療法人讃高会 枚方東整形外科病院	02E2507044|02E2507045	Zimmer Biomet	APS	HIGH	Zimmer Biomet	EXACT_STRICT	https://m.kansetsu-life.com/saisei/index.php			NO	NO	YES	YES
+大分県	医療法人恵愛会 中村病院	02G1911002	Zimmer Biomet	PRP	REVIEW	Zimmer Biomet	EXACT_STRICT	https://m.kansetsu-life.com/saisei/index.php			NO	NO	YES	YES
