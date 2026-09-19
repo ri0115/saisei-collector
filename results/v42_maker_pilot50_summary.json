@@ -3,9 +3,17 @@
   "eligible_unknown_prp_aps_facilities": 257,
   "facilities_with_maker_or_product_recovered": 1,
   "facility_recovery_rate": 0.02,
-  "mhlw_attachments_opened": 10,
+  "mhlw_attachments_opened": 15,
   "evidence_rows": 1,
   "direct_mhlw_attachment_only": true,
+  "fetch_diagnostics": {
+    "status_200": 15,
+    "ctype_application/pdf": 15,
+    "parsed_attachment": 15,
+    "status_404": 96,
+    "ctype_text/html": 535,
+    "status_403": 439
+  },
   "generated_files": [
     "results/v42_maker_pilot50_candidates.tsv",
     "results/v42_maker_pilot50_results.tsv"
