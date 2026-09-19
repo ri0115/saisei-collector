@@ -1,5 +1,5 @@
 {
-  "version": "v41-verified-overrides-1.5",
+  "version": "v41-verified-overrides-1.6",
   "generated_at": "2026-09-19",
   "notes": "Verified from clinic/hospital official webpages via web search. Amounts are treatment prices only; ancillary fees excluded.",
   "plans": {
@@ -1184,6 +1184,40 @@
         }
       ],
       "note": "公式料金表は脊椎・関節内・静脈点滴に用いる自己脂肪細胞由来幹細胞の共通料金を掲載"
+    },
+    "V41_03A2505002": {
+      "facility": "社会医療法人 孝仁会 釧路孝仁会記念病院",
+      "source_type": "official_hospital_site",
+      "source_url": "https://www.kojinkai.or.jp/regenerative_medicine/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82%E3%80%80-%E5%B9%B9%E7%B4%B0%E8%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%B2%BB%E7%99%82/stem_cell/msc/msc_3/",
+      "prices": [
+        {
+          "amount": 2524500,
+          "tax": "税込",
+          "unit": "初回治療・脂肪採取＋幹細胞培養＋幹細胞投与",
+          "product": "脂肪由来幹細胞",
+          "note": "初診料5,500円・適格性検査220,000円は別項目。初回総額は2,750,000円。"
+        },
+        {
+          "amount": 1375000,
+          "tax": "税込",
+          "unit": "2回目以降の治療",
+          "product": "脂肪由来幹細胞"
+        }
+      ]
+    },
+    "V41_01E2508012": {
+      "facility": "CASAクリニック",
+      "source_type": "official_mhlw_plan_price_sheet",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2508012/5/1",
+      "prices": [
+        {
+          "amount": 3200000,
+          "tax": "税込",
+          "unit": "両ひざ・1億個・1回・非冷凍",
+          "product": "脂肪由来幹細胞",
+          "note": "諸費用、検査費用、脂肪採取費用、培養費用を含む。2回目以降は金額が異なる。"
+        }
+      ]
     }
   },
   "updated_at": "2026-09-19"
