@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-seeds-1.5",
+  "version": "v41-official-seeds-1.6",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -157,6 +157,42 @@
       "facility": "ミライズクリニック南青山",
       "url": "https://miriselongevity.com/",
       "source": "web_verified_exact_address_name_transition"
+    },
+    {
+      "facility_id": "V41FEAC08EC422",
+      "facility": "医療法人エム・エム会 マッターホルンリハビリテーション病院",
+      "url": "https://www.matterhorn-hospital.jp/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F5AF30AB300",
+      "facility": "春日井整形あさひ病院",
+      "url": "https://med-sanjinkai.jp/asahi/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F2AB00D8A4A",
+      "facility": "一般社団法人Garden KAI CLINIC TOKYO",
+      "url": "https://kaiclinictokyo.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FBD5BD4E549",
+      "facility": "医療法人ネオポリス診療所銀座クリニック",
+      "url": "https://ginzaclinic-neopolis.or.jp/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FA31807090A",
+      "facility": "医療法人社団 熊谷整形外科",
+      "url": "https://kumagaiseikei.jp/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F78006E7C02",
+      "facility": "医療法人社団 苑田会 苑田会人工関節センター病院",
+      "url": "https://sonodakai.jp/sjrc/",
+      "source": "web_verified"
     }
   ],
   "updated_at": "2026-09-19",
