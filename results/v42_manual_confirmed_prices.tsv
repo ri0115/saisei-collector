@@ -1,0 +1,41 @@
+mhlw_plan_code	amount	amount_min	amount_max	tax	unit	label	note	evidence_url
+01E2605009	44000			税込	1回	PRP療法	血液20mlより製造	https://www.h-nksc.jp/private_medical/p_03.html
+01E2605009	110000			税込	3回	PRP療法		https://www.h-nksc.jp/private_medical/p_03.html
+01E2605009	198000			税込	6回	PRP療法		https://www.h-nksc.jp/private_medical/p_03.html
+01C2510078	980000			税別	1回	自己脂肪由来幹細胞を用いた治療・変形性関節症（脂肪採取から投与まで）	手術料80,000円を含む	https://sonodakai.jp/sjrc/
+01C2510078	900000			税別	1回	変形性関節症（投与のみ）		https://sonodakai.jp/sjrc/
+01C2510078	1800000			税別	2回	変形性関節症（投与のみ）		https://sonodakai.jp/sjrc/
+01C2510078	2700000			税別	3回	変形性関節症（投与のみ）		https://sonodakai.jp/sjrc/
+02C2601051	165000			要最終確認	1回	片膝（5千万個）		https://heleneclinic.com/
+02C2601051	297000			要最終確認	1回	片膝（1億個）		https://heleneclinic.com/
+02C2601051	231000			要最終確認	1回	上記以外の部位 1箇所		https://heleneclinic.com/
+01C2307055	33000			税込	1関節	自家多血小板血漿（PRP）注入療法		https://www.higa10seikei.jp/osteoarthritis.html
+02C2606078	3932500			税込	1年で2分割投与	初代培養（フラスコ3000cm²）、1年で2分割投与	初診料・検査費・脂肪採取費・培養費・投与費を含む	https://stemcell-sakura.com/cost/
+02C2606078	2656500			税込	1年で2分割投与	解凍培養（フラスコ3000cm²）、1年で2分割投与	培養費・投与費を含む	https://stemcell-sakura.com/cost/
+01C2309059	50000			税込	1回	血液分離専用容器キットによる施術料		https://hospital.adachikeiyu.com/visitation
+01C2503053	1500000			税抜	今回の治療	整形外科疾患に伴う炎症の緩和を目的とした自己脂肪組織由来間葉系幹細胞の静脈点滴治療		https://clinic-le-ginza.jp/stem-cell/
+01C2206031	38500			税込	1回	血液分離専用容器キットによる施術料		https://www.tokunaga-seikei.com/
+02C2410055	1200000			税込	今回の治療	自己脂肪由来間葉系幹細胞を用いた変形性関節症治療		https://seikeigeka.clinic/
+03C2604028	330000			税込	施術料	変形性関節症に対する多血小板血漿抽出液（APS）関節内投与療法	患者の症状・その他の事情等により治療費が変動する場合あり	https://murayama.hosp.go.jp/info/20240213.html
+01C2411046	2500000			税別	初回	初回（脂肪採取と初回の幹細胞投与を含む）		https://ginza-alivio.com/menu/
+01C2411046	1500000			税別	2回目以降	2回目以降		https://ginza-alivio.com/menu/
+02C2508038	1200000			税込	3回コース	培養脂肪幹細胞治療（ASC）	診察料込	https://www.sbc-seikeigeka.com/care/kneejoint/
+02C2104005	100000			税込	1回	PRP（一般）		https://www.aoikai.jp/aoiuniversalhospital/specialty/prp/prp02/
+02C2104005	30000			税込	1回	PRP療法（1mL）	手技料及び超音波検査料含む	https://www.aoikai.jp/aoiuniversalhospital/specialty/prp/prp02/
+01C2411084	330000			税込	施術料	変形性関節症に対するPRP関節内投与療法	患者の症状・その他の事情等により変動する場合あり	https://www.miyake-seikei.com/
+01C2411085	132000			税込	施術料	整形外科領域の関節腔外PRP治療	患者の症状・その他の事情等により変動する場合あり	https://www.miyake-seikei.com/
+01C2303043	550000			税込	1回	片膝1回・細胞5000万個		https://www.dr-kenta.com/regenerate/
+01C2303043	990000			税込	2回	片膝2回・細胞5000万個×2		https://www.dr-kenta.com/regenerate/
+01C2303043	1485000			税込	3回	片膝3回・細胞5000万個×3		https://www.dr-kenta.com/regenerate/
+01C2303043	880000			税込	1回	両膝1回（5000万個×2）または片膝1億個		https://www.dr-kenta.com/regenerate/
+01C2303043	1584000			税込	2回	両膝2回・細胞5000万個×4		https://www.dr-kenta.com/regenerate/
+01C2303043	2376000			税込	3回	両膝3回・細胞5000万個×6		https://www.dr-kenta.com/regenerate/
+01C2303043	550000			税込	追加1回	片膝1回・細胞5000万個		https://www.dr-kenta.com/regenerate/
+01C2303043	1100000			税込	追加1回	両膝1回・細胞1億個		https://www.dr-kenta.com/regenerate/
+01C2605035	38000			税別	1回	1回		https://saitouseikei.com/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82
+01C2605035	98000			税別	3回セット	3回セット		https://saitouseikei.com/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82
+03C2305022	150000			税別	1関節	1関節（血液100mL分）		https://eishinkai-fujisawa.com/jointprp/
+01G2302004	35000			税込	施術料	整形外科領域の関節腔外PRP治療	患者の症状・その他の事情等により治療費が変動する場合あり	https://sannomiya-seikei.com/
+01C2206015	50000			税別	1回相当	PRP治療	公式ページはPRP治療全般の費用として表示	https://yamamoto-orth.com/information/self-paid/
+02C2304008	150000			不明	治療費	LR-PRP治療	厚労省の当該計画公開文書に150,000円と記載。税区分は確認できず。	https://www.ku-kai.or.jp/html/ko.php
+01G2404012	38500			税込	1回・1部位	関節腔外PRP治療	診査、PRP調製用採血、PRP調製、注入費用の総額	https://kisshokai.com/prp%E7%99%82%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/
