@@ -1,0 +1,151 @@
+plan_id	mhlw_plan_code	prefecture	facility	category	treatment_class	price_status	amount	amount_min	amount_max	tax	unit	product	maker	plan_evidence_url	price_source	merge_status
+V41_01C2509014	01C2509014	東京都	医療法人社団T.O.P.ドクターズ  東京国際クリニック	第二種	脂肪由来幹細胞	価格確定	800000			税別	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509014/5/0	AUTO	READY
+V41_02C2511037	02C2511037	東京都	医療法人社団TSOC 東京スポーツ&整形外科クリニック	第三種	PRP	価格確定	200000			税別		ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2511037/5/0	AUTO	READY
+V41_01C2510080	01C2510080	東京都	医療法人社団TaaK  Akira International Clinic	第二種	脂肪由来幹細胞	価格確定	1800000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2510080/5/0	AUTO	READY
+V41_01C2511030	01C2511030	東京都	医療法人社団VITA　池尻大橋せらクリニック	第三種	PRP	価格確定	75000			不明	1 回	ACP MAX / ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511030/5/0	AUTO	READY
+V41_01C2511030	01C2511030	東京都	医療法人社団VITA　池尻大橋せらクリニック	第三種	PRP	価格確定	220000			不明		ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511030/5/0	AUTO	READY
+V41_01C2511030	01C2511030	東京都	医療法人社団VITA　池尻大橋せらクリニック	第三種	PRP	価格確定	25000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511030/5/0	AUTO	READY
+V41_01C2511030	01C2511030	東京都	医療法人社団VITA　池尻大橋せらクリニック	第三種	PRP	価格確定	25000			不明	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511030/5/0	AUTO	READY
+V41_01C2511030	01C2511030	東京都	医療法人社団VITA　池尻大橋せらクリニック	第三種	PRP	価格確定	50000			不明	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511030/5/0	AUTO	READY
+V41_02C2203026	02C2203026	東京都	医療法人社団　三友会　高円寺整形外科	第二種	脂肪由来幹細胞	価格確定	750000			税別	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2203026/5/0	AUTO	READY
+V41_02C2203026	02C2203026	東京都	医療法人社団　三友会　高円寺整形外科	第二種	脂肪由来幹細胞	価格確定	1000000			税別	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2203026/5/0	AUTO	READY
+V41_02C2203026	02C2203026	東京都	医療法人社団　三友会　高円寺整形外科	第二種	脂肪由来幹細胞	価格確定	1500000			税別	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2203026/5/0	AUTO	READY
+V41_01C2601014	01C2601014	東京都	医療法人社団　正貴会　いくこ皮フ科クリニック	第二種	PRP	価格確定	66000			不明	1回	MyCells	MyCells系	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601014/5/0	AUTO	READY
+V41_01C2601014	01C2601014	東京都	医療法人社団　正貴会　いくこ皮フ科クリニック	第二種	PRP	価格確定	132000			不明	1回	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601014/5/0	AUTO	READY
+V41_01C2601014	01C2601014	東京都	医療法人社団　正貴会　いくこ皮フ科クリニック	第二種	PRP	価格確定	308000			不明	1回	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601014/5/0	AUTO	READY
+V41_03C2606021	03C2606021	東京都	医療法人社団　熊谷整形外科	第二種	脂肪由来幹細胞	価格確定	4620000			税込	2 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2606021/5/0	AUTO	READY
+V41_03C2606021	03C2606021	東京都	医療法人社団　熊谷整形外科	第二種	脂肪由来幹細胞	価格確定	3630000			不明	2 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2606021/5/0	AUTO	READY
+V41_02C2001010	02C2001010	東京都	医療法人社団　白鳳会　大角医院	第三種	PRP	価格確定	90000			税別		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2001010/5/0	AUTO	READY
+V41_02C1905098	02C1905098	東京都	医療法人社団　苑田会  苑田会人工関節センター病院	第三種	PRP	価格確定	50000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1905098/5/0	AUTO	READY
+V41_01C1907048	01C1907048	東京都	医療法人社団　顕伊会　さい整形外科クリニック	第二種	PRP	価格確定	88000			税込	関節腔内・1関節・PRP 4mL	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1907048/5/0	AUTO	READY
+V41_02C2606060	02C2606060	東京都	医療法人社団ことのは　両国きたむら整形外科	第三種	PRP	価格確定	35000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606060/5/0	AUTO	READY
+V41_02C1912131	02C1912131	東京都	医療法人社団しぜん会　まつだ整形外科・リウマチ科	第三種	PRP	価格確定	30000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1912131/5/0	AUTO	READY
+V41_03C2605008	03C2605008	東京都	医療法人社団ウェルエイジング　Dクリニック東京	第二種	脂肪由来幹細胞	価格確定	1000000			税別	2 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2605008/5/0	AUTO	READY
+V41_03C2605008	03C2605008	東京都	医療法人社団ウェルエイジング　Dクリニック東京	第二種	脂肪由来幹細胞	価格確定	1500000			税別	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2605008/5/0	AUTO	READY
+V41_02C2307023	02C2307023	東京都	医療法人社団スポーツメディカル  八王子スポーツ整形外科	第三種	PRP	価格確定	30000			不明	1回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2307023/5/0	AUTO	READY
+V41_02C2307023	02C2307023	東京都	医療法人社団スポーツメディカル  八王子スポーツ整形外科	第三種	PRP	価格確定	120000			不明	1回	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2307023/5/0	AUTO	READY
+V41_02C2601092	02C2601092	東京都	医療法人社団スポーツメディカル  八王子スポーツ整形外科	第二種	PRP	価格確定	50000			不明	1回	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601092/5/0	AUTO	READY
+V41_02C2601092	02C2601092	東京都	医療法人社団スポーツメディカル  八王子スポーツ整形外科	第二種	PRP	価格確定	180000			不明	1回	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601092/5/0	AUTO	READY
+V41_02C2601092	02C2601092	東京都	医療法人社団スポーツメディカル  八王子スポーツ整形外科	第二種	PRP	価格確定	380000			不明	1回	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601092/5/0	AUTO	READY
+V41_02C2502063	02C2502063	東京都	医療法人社団ナチュラルハーモニー  ナチュラルハーモニークリニック表参道	第二種	脂肪由来幹細胞	価格確定	1000000			不明	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502063/5/0	AUTO	READY
+V41_02C2502063	02C2502063	東京都	医療法人社団ナチュラルハーモニー  ナチュラルハーモニークリニック表参道	第二種	脂肪由来幹細胞	価格確定	1500000			不明	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502063/5/0	AUTO	READY
+V41_02C2601056	02C2601056	東京都	医療法人社団ナチュラルハーモニー  ナチュラルハーモニークリニック表参道	第二種	脂肪由来幹細胞	価格確定	4158000			不明	1 部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601056/5/0	AUTO	READY
+V41_02C2601056	02C2601056	東京都	医療法人社団ナチュラルハーモニー  ナチュラルハーモニークリニック表参道	第二種	脂肪由来幹細胞	価格確定	1540000			不明	1 部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601056/5/0	AUTO	READY
+V41_02C2601056	02C2601056	東京都	医療法人社団ナチュラルハーモニー  ナチュラルハーモニークリニック表参道	第二種	脂肪由来幹細胞	価格確定	2926000			不明	1 部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601056/5/0	AUTO	READY
+V41_03C2604054	03C2604054	東京都	医療法人社団ルネ ルネクリニック東京院	第二種	脂肪由来幹細胞	価格確定	1320000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604054/5/0	AUTO	READY
+V41_03C2604056	03C2604056	東京都	医療法人社団ルネ ルネクリニック東京院	第二種	脂肪由来幹細胞	価格確定	1320000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604056/5/0	AUTO	READY
+V41_02C2512023	02C2512023	東京都	医療法人社団下田緑眞会 世田谷北部病院	第三種	PRP	価格確定	40000			税込		ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512023/5/0	AUTO	READY
+V41_02C2512023	02C2512023	東京都	医療法人社団下田緑眞会 世田谷北部病院	第三種	PRP	価格確定	80000			税込		ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512023/5/0	AUTO	READY
+V41_02C2512023	02C2512023	東京都	医療法人社団下田緑眞会 世田谷北部病院	第三種	PRP	価格確定	160000			税込		ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512023/5/0	AUTO	READY
+V41_01C2504014	01C2504014	東京都	医療法人社団中川整形外科	第三種	PRP	価格確定	50000			税込	1 回	Condensia	京セラ	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504014/5/0	AUTO	READY
+V41_02C1912115	02C1912115	東京都	医療法人社団健翔会　豊島長崎クリニック	第三種	PRP	価格確定	50000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1912115/5/0	AUTO	READY
+V41_02C1912115	02C1912115	東京都	医療法人社団健翔会　豊島長崎クリニック	第三種	PRP	価格確定	150000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1912115/5/0	AUTO	READY
+V41_01C2211043	01C2211043	東京都	医療法人社団充幸会　髙見澤整形外科クリニック	第二種	PRP	価格確定	100000			不明	1 回	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2211043/5/0	AUTO	READY
+V41_01C2211043	01C2211043	東京都	医療法人社団充幸会　髙見澤整形外科クリニック	第二種	PRP	価格確定	300000			不明	1 回	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2211043/5/0	AUTO	READY
+V41_01C2211044	01C2211044	東京都	医療法人社団充幸会　髙見澤整形外科クリニック	第三種	PRP	価格確定	100000			不明	1 部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2211044/5/0	AUTO	READY
+V41_03C2407058	03C2407058	東京都	医療法人社団光美会 ルーチェクリニック銀座院	第二種	脂肪由来幹細胞	価格確定	1650000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2407058/5/0	AUTO	READY
+V41_01C2409054	01C2409054	東京都	医療法人社団全心会  ぜんしん整形外科　立川スポーツリハビリクリニック	第三種	PRP	価格確定	450000			不明	両側	Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409054/5/0	AUTO	READY
+V41_01C2409054	01C2409054	東京都	医療法人社団全心会  ぜんしん整形外科　立川スポーツリハビリクリニック	第三種	PRP	価格確定	50000			不明	片側	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409054/5/0	AUTO	READY
+V41_01C2409054	01C2409054	東京都	医療法人社団全心会  ぜんしん整形外科　立川スポーツリハビリクリニック	第三種	PRP	価格確定	300000			不明	両側	Angel	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409054/5/0	AUTO	READY
+V41_01C2312021	01C2312021	東京都	医療法人社団円徳  慶友整形外科脊椎関節病院	第二種	脂肪由来幹細胞	価格確定	990000			不明	0.5〜1億cells・1回投与	脂肪由来幹細胞		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2312021/5/0	AUTO	READY
+V41_01C2312020	01C2312020	東京都	医療法人社団円徳　慶友整形外科脊椎関節病院	第二種	脂肪由来幹細胞	価格確定	990000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2312020/5/0	AUTO	READY
+V41_01C2312020	01C2312020	東京都	医療法人社団円徳　慶友整形外科脊椎関節病院	第二種	脂肪由来幹細胞	価格確定	990000			不明	1 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2312020/5/0	AUTO	READY
+V41_02C1911105	02C1911105	東京都	医療法人社団医献会　辻クリニック	第二種	脂肪由来幹細胞	価格確定	600000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1911105/5/0	AUTO	READY
+V41_02C1911105	02C1911105	東京都	医療法人社団医献会　辻クリニック	第二種	脂肪由来幹細胞	価格確定	800000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1911105/5/0	AUTO	READY
+V41_01C2110046	01C2110046	東京都	医療法人社団千美会  ガーデンクリニック 池袋院	第二種	脂肪由来幹細胞	価格確定	1280000			税別	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2110046/5/0	AUTO	READY
+V41_01C2110047	01C2110047	東京都	医療法人社団千美会  美容外科・歯科 ガーデンクリニック新宿院	第二種	脂肪由来幹細胞	価格確定	1280000			税別	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2110047/5/0	AUTO	READY
+V41_02C2202019	02C2202019	東京都	医療法人社団博栄会　赤羽中央総合病院	第二種	PRP	価格確定	100000			税別		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2202019/5/0	AUTO	READY
+V41_02C2202019	02C2202019	東京都	医療法人社団博栄会　赤羽中央総合病院	第二種	PRP	価格確定	300000			税別		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2202019/5/0	AUTO	READY
+V41_03C2203019	03C2203019	東京都	医療法人社団博栄会　赤羽中央総合病院	第三種	PRP	価格確定	100000			税別		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2203019/5/0	AUTO	READY
+V41_01C2506055	01C2506055	東京都	医療法人社団同仁会診療所　Clinic Le GINZA	第二種	その他MSK	価格確定	2000000			税別	本治療	自己末梢血由来単核細胞		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506055/5/0	AUTO	READY
+V41_03C2606046	03C2606046	東京都	医療法人社団和み會　東京長寿医学クリニック	第二種	脂肪由来幹細胞	価格確定	1650000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2606046/5/0	AUTO	READY
+V41_03C2410030	03C2410030	東京都	医療法人社団啓神会　M再生クリニック	第二種	脂肪由来幹細胞	価格確定	3509000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2410030/5/0	AUTO	READY
+V41_01C2603012	01C2603012	東京都	医療法人社団善用会　講道館ビルクリニック	第二種	PRP	価格確定	45000			税込	両側			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603012/5/0	AUTO	READY
+V41_01C2508073	01C2508073	東京都	医療法人社団喜美会　自由が丘クリニック	第二種	PRP	価格確定	254100			税込	PRP投与・1回	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508073/5/0	AUTO	READY
+V41_01C2508074	01C2508074	東京都	医療法人社団喜美会　自由が丘クリニック	第三種	PRP	価格確定	254100			税込	PRP投与・1回	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508074/5/0	AUTO	READY
+V41_01C2603057	01C2603057	東京都	医療法人社団喜美会　自由が丘クリニック	第二種	脂肪由来幹細胞	価格確定	2200000			不明	片側・5,000万個	脂肪由来幹細胞		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603057/5/0	AUTO	READY
+V41_01C2603057	01C2603057	東京都	医療法人社団喜美会　自由が丘クリニック	第二種	脂肪由来幹細胞	価格確定	3300000			不明	片側・1億個	脂肪由来幹細胞		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603057/5/0	AUTO	READY
+V41_01C2603057	01C2603057	東京都	医療法人社団喜美会　自由が丘クリニック	第二種	脂肪由来幹細胞	価格確定	3300000			不明	両側合計・1億個	脂肪由来幹細胞		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603057/5/0	AUTO	READY
+V41_01C2603057	01C2603057	東京都	医療法人社団喜美会　自由が丘クリニック	第二種	脂肪由来幹細胞	価格確定	5500000			不明	両側合計・2億個	脂肪由来幹細胞		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603057/5/0	AUTO	READY
+V41_03C2305004	03C2305004	東京都	医療法人社団小﨑会　常盤台らいおん整形外科	第二種	PRP	価格確定	198000			税込	2 回			https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305004/5/0	AUTO	READY
+V41_02C2206037	02C2206037	東京都	医療法人社団山本・前田記念会　前田病院	第三種	PRP	価格確定	120000			不明		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2206037/5/0	AUTO	READY
+V41_01C2407032	01C2407032	東京都	医療法人社団幸神会　下北沢DOクリニック	第三種	PRP	価格確定	55000			税込		ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407032/5/0	AUTO	READY
+V41_01C2407032	01C2407032	東京都	医療法人社団幸神会　下北沢DOクリニック	第三種	PRP	価格確定	150000			税込		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407032/5/0	AUTO	READY
+V41_01C2503066	01C2503066	東京都	医療法人社団幹葉会  南青山外苑前整形外科リハビリテーション科クリニック	第三種	PRP	価格確定	77000			税込		ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503066/5/0	AUTO	READY
+V41_01C2503066	01C2503066	東京都	医療法人社団幹葉会  南青山外苑前整形外科リハビリテーション科クリニック	第三種	PRP	価格確定	132000			税込		ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503066/5/0	AUTO	READY
+V41_01C2503066	01C2503066	東京都	医療法人社団幹葉会  南青山外苑前整形外科リハビリテーション科クリニック	第三種	PRP	価格確定	220000			税込		ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503066/5/0	AUTO	READY
+V41_01C2509003	01C2509003	東京都	医療法人社団幹葉会  南青山外苑前整形外科リハビリテーション科クリニック	第二種	PRP	価格確定	77000			税込		ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509003/5/0	AUTO	READY
+V41_01C2509003	01C2509003	東京都	医療法人社団幹葉会  南青山外苑前整形外科リハビリテーション科クリニック	第二種	PRP	価格確定	132000			税込		ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509003/5/0	AUTO	READY
+V41_01C2509003	01C2509003	東京都	医療法人社団幹葉会  南青山外苑前整形外科リハビリテーション科クリニック	第二種	PRP	価格確定	220000			税込		ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509003/5/0	AUTO	READY
+V41_02C2606097	02C2606097	東京都	医療法人社団康静会　赤羽ウェルネスクリニック	第三種	PRP	価格確定	50000			不明	一部位	MyCells	MyCells系	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606097/5/0	AUTO	READY
+V41_03C2305035	03C2305035	東京都	医療法人社団康静会　赤羽ウェルネスクリニック	第二種	PRP	価格確定	50000			税別		MyCells	MyCells系	https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305035/5/0	AUTO	READY
+V41_01C2604065	01C2604065	東京都	医療法人社団彩康会　十条整形外科リハビリクリニック	第三種	PRP	価格確定	50000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2604065/5/0	AUTO	READY
+V41_01C2604065	01C2604065	東京都	医療法人社団彩康会　十条整形外科リハビリクリニック	第三種	PRP	価格確定	55000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2604065/5/0	AUTO	READY
+V41_03C2207011	03C2207011	東京都	医療法人社団快晴会  すがも北口整形外科クリニック	第三種	PRP	価格確定	26000			税別	1回	MyCells	MyCells系	https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2207011/5/0	AUTO	READY
+V41_03C2207011	03C2207011	東京都	医療法人社団快晴会  すがも北口整形外科クリニック	第三種	PRP	価格確定	150000			税別	1回	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2207011/5/0	AUTO	READY
+V41_03C2405010	03C2405010	東京都	医療法人社団慶優会　増本整形外科クリニック	第三種	PRP	価格確定	100000			不明		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2405010/5/0	AUTO	READY
+V41_01C1911015	01C1911015	東京都	医療法人社団慶光会 大城クリニック	第三種	PRP	価格確定	60000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1911015/5/0	AUTO	READY
+V41_02C2510020	02C2510020	東京都	医療法人社団慶晃会 世田谷玉川 整形外科内科クリニック	第三種	PRP	価格確定	50000			税込		ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2510020/5/0	AUTO	READY
+V41_02C2510020	02C2510020	東京都	医療法人社団慶晃会 世田谷玉川 整形外科内科クリニック	第三種	PRP	価格確定	120000			税込		PEAK	PEAK系	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2510020/5/0	AUTO	READY
+V41_02C2510020	02C2510020	東京都	医療法人社団慶晃会 世田谷玉川 整形外科内科クリニック	第三種	PRP	価格確定	300000			税込		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2510020/5/0	AUTO	READY
+V41_01C1908039	01C1908039	東京都	医療法人社団成煌会　瑞江整形外科	第三種	PRP	価格確定	30000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1908039/5/0	AUTO	READY
+V41_01C1908039	01C1908039	東京都	医療法人社団成煌会　瑞江整形外科	第三種	PRP	価格確定	60000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1908039/5/0	AUTO	READY
+V41_02C2410054	02C2410054	東京都	医療法人社団敬和慶友会 自由が丘くびと腰の整形外科関節のクリニック	第二種	PRP	価格確定	45000			税込		Condensia	京セラ	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2410054/5/0	AUTO	READY
+V41_02C2410054	02C2410054	東京都	医療法人社団敬和慶友会 自由が丘くびと腰の整形外科関節のクリニック	第二種	PRP	価格確定	150000			税込		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2410054/5/0	AUTO	READY
+V41_02C2410054	02C2410054	東京都	医療法人社団敬和慶友会 自由が丘くびと腰の整形外科関節のクリニック	第二種	PRP	価格確定	330000			税込		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2410054/5/0	AUTO	READY
+V41_02C2410056	02C2410056	東京都	医療法人社団敬和慶友会 自由が丘くびと腰の整形外科関節のクリニック	第三種	PRP	価格確定	45000			税込		Condensia	京セラ	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2410056/5/0	AUTO	READY
+V41_02C2410056	02C2410056	東京都	医療法人社団敬和慶友会 自由が丘くびと腰の整形外科関節のクリニック	第三種	PRP	価格確定	150000			税込		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2410056/5/0	AUTO	READY
+V41_02C2410056	02C2410056	東京都	医療法人社団敬和慶友会 自由が丘くびと腰の整形外科関節のクリニック	第三種	PRP	価格確定	330000			税込		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2410056/5/0	AUTO	READY
+V41_01C2309002	01C2309002	東京都	医療法人社団晴美会　麹町リバース今井整形外科クリニック	第三種	PRP	価格確定	33000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2309002/5/0	AUTO	READY
+V41_01C2309002	01C2309002	東京都	医療法人社団晴美会　麹町リバース今井整形外科クリニック	第三種	PRP	価格確定	66000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2309002/5/0	AUTO	READY
+V41_01C2401012	01C2401012	東京都	医療法人社団最匠会　光伸メディカルクリニック	第三種	PRP	価格確定	30000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2401012/5/0	AUTO	READY
+V41_01C2401012	01C2401012	東京都	医療法人社団最匠会　光伸メディカルクリニック	第三種	PRP	価格確定	50000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2401012/5/0	AUTO	READY
+V41_01C2511011	01C2511011	東京都	医療法人社団東京Dタワーホスピタル	第二種	脂肪由来幹細胞	価格確定	2200000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511011/5/0	AUTO	READY
+V41_01C2511011	01C2511011	東京都	医療法人社団東京Dタワーホスピタル	第二種	脂肪由来幹細胞	価格確定	2100000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511011/5/0	AUTO	READY
+V41_01C2511037	01C2511037	東京都	医療法人社団松和会 池上総合病院	第三種	PRP	価格確定	120000			不明	1部位	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511037/5/0	AUTO	READY
+V41_01C2512021	01C2512021	東京都	医療法人社団松和会　池上総合病院	第二種	PRP	価格確定	120000			税別	1部位	GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2512021/5/0	AUTO	READY
+V41_01C2512021	01C2512021	東京都	医療法人社団松和会　池上総合病院	第二種	PRP	価格確定	300000			税別	1部位	APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2512021/5/0	AUTO	READY
+V41_01C2405036	01C2405036	東京都	医療法人社団松徳会 松倉クリニック	第二種	脂肪由来幹細胞	価格確定	2200000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2405036/5/0	AUTO	READY
+V41_01C2406018	01C2406018	東京都	医療法人社団桜伸会  サンテクリニック	第二種	脂肪由来幹細胞	価格確定	2090000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406018/5/0	AUTO	READY
+V41_01C2406018	01C2406018	東京都	医療法人社団桜伸会  サンテクリニック	第二種	脂肪由来幹細胞	価格確定	5720000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406018/5/0	AUTO	READY
+V41_01C2406018	01C2406018	東京都	医療法人社団桜伸会  サンテクリニック	第二種	脂肪由来幹細胞	価格確定	880000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406018/5/0	AUTO	READY
+V41_01C2406018	01C2406018	東京都	医療法人社団桜伸会  サンテクリニック	第二種	脂肪由来幹細胞	価格確定	1210000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406018/5/0	AUTO	READY
+V41_01C2406018	01C2406018	東京都	医療法人社団桜伸会  サンテクリニック	第二種	脂肪由来幹細胞	価格確定	1375000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406018/5/0	AUTO	READY
+V41_01C2406018	01C2406018	東京都	医療法人社団桜伸会  サンテクリニック	第二種	脂肪由来幹細胞	価格確定	2090000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406018/5/0	AUTO	READY
+V41_02C2605071	02C2605071	東京都	医療法人社団桜伸会　サンテクリニック	第二種	脂肪由来幹細胞	価格確定	2210000			税別	培養費用・投与費用	自家培養脂肪由来間葉系幹細胞		https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605071/5/0	AUTO	READY
+V41_01C2608003	01C2608003	東京都	医療法人社団森羅　北砂2丁目だい整形外科	第二種	PRP	価格確定	300000			不明	片側	ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2608003/5/0	AUTO	READY
+V41_01C2608003	01C2608003	東京都	医療法人社団森羅　北砂2丁目だい整形外科	第二種	PRP	価格確定	80000			不明	片側	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2608003/5/0	AUTO	READY
+V41_01C2608004	01C2608004	東京都	医療法人社団森羅　北砂2丁目だい整形外科	第三種	PRP	価格確定	300000			不明	片側	ACP MAX	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2608004/5/0	AUTO	READY
+V41_01C2608004	01C2608004	東京都	医療法人社団森羅　北砂2丁目だい整形外科	第三種	PRP	価格確定	80000			不明	片側	ACP	Arthrex	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2608004/5/0	AUTO	READY
+V41_01C2602025	01C2602025	東京都	医療法人社団正貴会　いくこ皮フ科クリニック	第二種	脂肪由来幹細胞	価格確定	550000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602025/5/0	AUTO	READY
+V41_02C2507007	02C2507007	東京都	医療法人社団洪泳会 東京洪誠病院	第二種	PRP	価格確定	100000			税別		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2507007/5/0	AUTO	READY
+V41_02C2507007	02C2507007	東京都	医療法人社団洪泳会 東京洪誠病院	第二種	PRP	価格確定	300000			税別		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2507007/5/0	AUTO	READY
+V41_02C2507008	02C2507008	東京都	医療法人社団洪泳会 東京洪誠病院	第三種	PRP	価格確定	100000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2507008/5/0	AUTO	READY
+V41_03C2510027	03C2510027	東京都	医療法人社団活寿会  東京ひざ関節症クリニック銀座院	第二種	脂肪由来幹細胞	価格確定	1287000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2510027/5/0	AUTO	READY
+V41_03C2510027	03C2510027	東京都	医療法人社団活寿会  東京ひざ関節症クリニック銀座院	第二種	脂肪由来幹細胞	価格確定	1749000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2510027/5/0	AUTO	READY
+V41_02C2602018	02C2602018	東京都	医療法人社団活寿会　東京ひざ関節症クリニック新宿院	第二種	脂肪由来幹細胞	価格確定	1287000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2602018/5/0	AUTO	READY
+V41_02C2602018	02C2602018	東京都	医療法人社団活寿会　東京ひざ関節症クリニック新宿院	第二種	脂肪由来幹細胞	価格確定	1749000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2602018/5/0	AUTO	READY
+V41_01C2503056	01C2503056	東京都	医療法人社団熊野前医院　たいら整形外科	第三種	PRP	価格確定	88000			税込	筋・腱・靭帯への注入・PRP 4mL	PRP		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503056/5/0	AUTO	READY
+V41_01C2407028	01C2407028	東京都	医療法人社団癒合会　高輪和合クリニック	第二種	PRP	価格確定	100000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407028/5/0	AUTO	READY
+V41_01C2407028	01C2407028	東京都	医療法人社団癒合会　高輪和合クリニック	第二種	PRP	価格確定	200000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2407028/5/0	AUTO	READY
+V41_01C2509061	01C2509061	東京都	医療法人社団研裕会 紀尾井町プラザクリニック歯科・美容外科	第二種	脂肪由来幹細胞	価格確定	1100000			税込	1 部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509061/5/0	AUTO	READY
+V41_01C2509061	01C2509061	東京都	医療法人社団研裕会 紀尾井町プラザクリニック歯科・美容外科	第二種	脂肪由来幹細胞	価格確定	1323300			税込	1 部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509061/5/0	AUTO	READY
+V41_01C2509061	01C2509061	東京都	医療法人社団研裕会 紀尾井町プラザクリニック歯科・美容外科	第二種	脂肪由来幹細胞	価格確定	2423300			税込	1 部位			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509061/5/0	AUTO	READY
+V41_01C2505053	01C2505053	東京都	医療法人社団研裕会　紀尾井町プラザクリニック歯科・美容外科	第三種	PRGF	価格確定	165000			不明	1回	PRGF-Endoret	BTI	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2505053/5/0	AUTO	READY
+V41_02C2608020	02C2608020	東京都	医療法人社団福至会　SPES CLINIC TOKYO BAY 晴海中央医院	第二種	脂肪由来幹細胞	価格確定	3575000			税込	1回	脂肪由来幹細胞		https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608020/5/0	AUTO	READY
+V41_02C2002036	02C2002036	東京都	医療法人社団秀博会BTRアーツ銀座クリニック	第二種	脂肪由来幹細胞	価格確定	150000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2002036/5/0	AUTO	READY
+V41_02C2002036	02C2002036	東京都	医療法人社団秀博会BTRアーツ銀座クリニック	第二種	脂肪由来幹細胞	価格確定	700000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2002036/5/0	AUTO	READY
+V41_02C2002036	02C2002036	東京都	医療法人社団秀博会BTRアーツ銀座クリニック	第二種	脂肪由来幹細胞	価格確定	1000000			税別				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2002036/5/0	AUTO	READY
+V41_02C2001047	02C2001047	東京都	医療法人社団秀慈会　リバーシティすずき整形外科	第二種	APS/PRP	価格確定	320000			税別		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2001047/5/0	AUTO	READY
+V41_01C2505049	01C2505049	東京都	医療法人社団紘朗会  麻布皮フ科クリニック	第二種	PRP	価格確定	55000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2505049/5/0	AUTO	READY
+V41_01C2005002	01C2005002	東京都	医療法人社団育生会　私のクリニック目白	第三種	PRP	価格確定	110000			不明				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2005002/5/0	AUTO	READY
+V41_01C2207058	01C2207058	東京都	医療法人社団舜成会　  西国立整形外科クリニック	第三種	PRP	価格確定	33000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2207058/5/0	AUTO	READY
+V41_01C2207058	01C2207058	東京都	医療法人社団舜成会　  西国立整形外科クリニック	第三種	PRP	価格確定	66000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2207058/5/0	AUTO	READY
+V41_01C2006008	01C2006008	東京都	医療法人社団良徳会　RCクリニック	第二種	脂肪由来幹細胞	価格確定	1000000			不明	片膝・1×10^7 cells	自家脂肪由来幹細胞		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2006008/5/0	AUTO	READY
+V41_01C2006008	01C2006008	東京都	医療法人社団良徳会　RCクリニック	第二種	脂肪由来幹細胞	価格確定	1400000			不明	片膝・1×10^8 cells	自家脂肪由来幹細胞		https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2006008/5/0	AUTO	READY
+V41_01C2602027	01C2602027	東京都	医療法人社団色空会　お茶の水整形外科機能リハビリテーションクリニック	第二種	PRP	価格確定	55000			税込	両側			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602027/5/0	AUTO	READY
+V41_01C2602027	01C2602027	東京都	医療法人社団色空会　お茶の水整形外科機能リハビリテーションクリニック	第二種	PRP	価格確定	55000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602027/5/0	AUTO	READY
+V41_01C2602027	01C2602027	東京都	医療法人社団色空会　お茶の水整形外科機能リハビリテーションクリニック	第二種	PRP	価格確定	165000			税込	1回			https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602027/5/0	AUTO	READY
+V41_01C1902050	01C1902050	東京都	医療法人社団菫会　目黒病院	第三種	PRP	価格確定	150000			税別		GPS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1902050/5/0	AUTO	READY
+V41_01C1906008	01C1906008	東京都	医療法人社団菫会　目黒病院	第二種	PRP	価格確定	300000			税別		APS	Zimmer Biomet	https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1906008/5/0	AUTO	READY
+V41_02C2601007	02C2601007	東京都	医療法人社団裕健会 神田クリニック	第二種	脂肪由来幹細胞	価格確定	1100000			税込				https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601007/5/0	AUTO	READY
