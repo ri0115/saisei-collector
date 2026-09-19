@@ -1,0 +1,19 @@
+{
+  "version": "v42-core-gap-audit-2026-09-19-01",
+  "status": "AUDIT_REQUIRED_BEFORE_CORE_COUNT_CHANGE",
+  "confirmed_current_mhlw_gap_candidates": 2,
+  "candidate_facilities": 1,
+  "candidates": [
+    {
+      "facility": "宮城整形外科 スポーツ・ウェルネスクリニック",
+      "code": "01B2411004",
+      "category": "第二種"
+    },
+    {
+      "facility": "宮城整形外科 スポーツ・ウェルネスクリニック",
+      "code": "01B2411005",
+      "category": "第三種"
+    }
+  ],
+  "rule": "Do not change the canonical 1,670-plan / 949-facility denominator from one discovered gap. Reconcile all MHLW-current high-confidence missing candidates against v42 first."
+}
