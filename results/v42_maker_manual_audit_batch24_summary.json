@@ -1,0 +1,22 @@
+{
+  "version": "v42-maker-manual-audit-batch-24",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 468,
+  "baseline_manufacturer_placements": 564,
+  "audited_facilities": 2,
+  "confirmed_new_facilities": 1,
+  "existing_facility_new_placements": 1,
+  "confirmed_new_manufacturer_placements": 2,
+  "confirmed_by_manufacturer": {
+    "ESTAR Technologies": 1,
+    "京セラ": 1
+  },
+  "expected_canonical_after_rebuild": {
+    "manufacturer_known_facilities": 469,
+    "manufacturer_known_rate_pct": 49.42,
+    "manufacturer_placements": 566,
+    "ESTAR Technologies": 30,
+    "京セラ": 53
+  },
+  "note": "Both rows use facility-specific primary evidence. Generic PRP inference is not used."
+}
