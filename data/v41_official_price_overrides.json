@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-overrides-1.3",
+  "version": "v41-official-overrides-1.4",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -754,6 +754,75 @@
         }
       ],
       "note": "脂肪採取、培養、基本投与料を含む。初診、事前検査、CT/エコー/血管造影等装置下投与、再診は別料金。"
+    },
+    {
+      "plan_id": "V41_01D2603004",
+      "facility": "HIME CLINIC",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2603004/5/2",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price page visually verified",
+      "prices": [
+        {
+          "amount": 1000000,
+          "tax": "税込",
+          "unit": "PRP 筋肉・腱・靭帯治療 2回投与",
+          "product": "PRP"
+        },
+        {
+          "amount": 1800000,
+          "tax": "税込",
+          "unit": "PRP 筋肉・腱・靭帯治療 4回投与",
+          "product": "PRP"
+        }
+      ],
+      "note": "標準的治療費用。採血および記載投与回数分を含む。"
+    },
+    {
+      "plan_id": "V41_01E2302002",
+      "facility": "医療法人恒晴会 心斎橋ペインクリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2302002/5/2",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price page visually verified",
+      "prices": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "Condensia 1キット",
+          "product": "Condensia"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_01E2606017",
+      "facility": "医療法人信生会 Rクリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2606017/5/1",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price page visually verified",
+      "prices": [
+        {
+          "amount": 2200000,
+          "tax": "税込",
+          "unit": "1膝・1億個投与",
+          "product": "脂肪由来幹細胞"
+        }
+      ],
+      "note": "短期間培養追加550,000円、ASCバンキング2年目以降110,000円/年は別料金。"
+    },
+    {
+      "plan_id": "V41_03C2305016",
+      "facility": "医療法人社団祐慈会 井上整形外科クリニック",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/03C2305016/5/1",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price page visually verified",
+      "prices": [
+        {
+          "amount": 300000,
+          "tax": "不明",
+          "unit": "PRP変形性膝関節症治療・採血＋投与3回分",
+          "product": "PRP"
+        }
+      ],
+      "note": "PDFでは税込/税別の明示なし。"
     }
   ]
 }
