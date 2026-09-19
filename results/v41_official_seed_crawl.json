@@ -1,6 +1,6 @@
 {
   "version": "v41-seed-crawl-1.1",
-  "total_facilities": 26,
+  "total_facilities": 32,
   "results": [
     {
       "facility_id": "V41F36AC21EE08",
@@ -32,14 +32,7 @@
           "chars": 2403
         }
       ],
-      "plans": [
-        {
-          "plan_id": "V41_03A2505002",
-          "treatment_class": "その他MSK",
-          "treatment": "自己脂肪（組織）由来再生（幹）細胞を用いた変形性膝関節症の治療",
-          "candidates": []
-        }
-      ]
+      "plans": []
     },
     {
       "facility_id": "V41F6BA7FEB040",
@@ -70,14 +63,7 @@
           "chars": 1485
         }
       ],
-      "plans": [
-        {
-          "plan_id": "V41_03C2305016",
-          "treatment_class": "PRP",
-          "treatment": "多血小板血漿（PRP）による変形性膝関節症治療",
-          "candidates": []
-        }
-      ]
+      "plans": []
     },
     {
       "facility_id": "V41F2272A75A03",
@@ -108,20 +94,7 @@
           "chars": 2178
         }
       ],
-      "plans": [
-        {
-          "plan_id": "V41_01E2505012",
-          "treatment_class": "PRP",
-          "treatment": "変形性関節症に対する多血小板血漿（ＰＲＰ）関節内投与療法",
-          "candidates": []
-        },
-        {
-          "plan_id": "V41_01E2505013",
-          "treatment_class": "PRP",
-          "treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
-          "candidates": []
-        }
-      ]
+      "plans": []
     },
     {
       "facility_id": "V41F674136D42B",
@@ -133,14 +106,7 @@
           "chars": 981
         }
       ],
-      "plans": [
-        {
-          "plan_id": "V41_01E2508012",
-          "treatment_class": "脂肪由来幹細胞",
-          "treatment": "変形性関節症に対する自己脂肪組織由来幹細胞を用いた治療",
-          "candidates": []
-        }
-      ]
+      "plans": []
     },
     {
       "facility_id": "V41F9945331DCD",
@@ -187,12 +153,12 @@
           "chars": 4336
         },
         {
-          "url": "https://www.ginza-noa-cl.jp/prp",
-          "chars": 3244
-        },
-        {
           "url": "https://www.ginza-noa-cl.jp/stemtap",
           "chars": 4379
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/prp",
+          "chars": 3244
         }
       ],
       "plans": [
@@ -291,12 +257,12 @@
           "chars": 3480
         },
         {
-          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
-          "chars": 8679
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/",
           "chars": 2839
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
+          "chars": 8679
         },
         {
           "url": "https://heleneclinic.com/stemcell/risk/",
@@ -334,24 +300,24 @@
           "chars": 3480
         },
         {
-          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
-          "chars": 8679
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/",
           "chars": 2839
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/disease-treatment/",
+          "chars": 8679
         },
         {
           "url": "https://heleneclinic.com/stemcell/risk/",
           "chars": 2591
         },
         {
-          "url": "https://heleneclinic.com/stemcell/research-papers/",
-          "chars": 9589
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/academic-activities/",
           "chars": 3052
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/research-papers/",
+          "chars": 9589
         }
       ],
       "plans": [
@@ -392,37 +358,7 @@
           "chars": 5637
         }
       ],
-      "plans": [
-        {
-          "plan_id": "V41_01E2111019",
-          "treatment_class": "PRP",
-          "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿(自家PRP)注入療法",
-          "candidates": [
-            {
-              "amount": 30000,
-              "tax": "税別",
-              "score": 16,
-              "line": "Condensiaによる施術料は1キットにつき、30,000円(税別)となります。",
-              "excerpt": "Condensiaによる施術料は1キットにつき、50,000円(税別)となります。 関節外(靭帯損傷、肉離れ等のスポーツ障害) Condensiaによる施術料は1キットにつき、30,000円(税別)となります。 (学生は、税込25,000円) ご不明な点は、医師・スタッフにお尋ねください。",
-              "target_kind": "PRP",
-              "label_match": "same_line",
-              "source_url": "https://wadaseikei.net/prp/",
-              "combined_score": 16
-            },
-            {
-              "amount": 25000,
-              "tax": "税込",
-              "score": 11,
-              "line": "(学生は、税込25,000円)",
-              "excerpt": "関節外(靭帯損傷、肉離れ等のスポーツ障害) Condensiaによる施術料は1キットにつき、30,000円(税別)となります。 (学生は、税込25,000円) ご不明な点は、医師・スタッフにお尋ねください。 健康被害が発生した際の処置と補償等について",
-              "target_kind": "PRP",
-              "label_match": "previous_line",
-              "source_url": "https://wadaseikei.net/prp/",
-              "combined_score": 11
-            }
-          ]
-        }
-      ]
+      "plans": []
     },
     {
       "facility_id": "V41F358BC973A9",
@@ -458,7 +394,7 @@
         },
         {
           "url": "https://hime.clinic/archives/118236",
-          "chars": 7788
+          "chars": 7911
         },
         {
           "url": "https://hime.clinic/archives/treatment_category/fre",
@@ -473,14 +409,7 @@
           "chars": 7985
         }
       ],
-      "plans": [
-        {
-          "plan_id": "V41_01D2603004",
-          "treatment_class": "PRP",
-          "treatment": "多血小板血漿（PRP）を用いた筋肉、腱、靭帯治療",
-          "candidates": []
-        }
-      ]
+      "plans": []
     },
     {
       "facility_id": "V41F5C961B1A36",
@@ -546,14 +475,7 @@
           "chars": 1414
         }
       ],
-      "plans": [
-        {
-          "plan_id": "V41_01E2111002",
-          "treatment_class": "PRP",
-          "treatment": "四肢の靭帯、筋腱付着部、体幹、腰部およびスポーツ傷害（筋・腱・靭帯）を対象とした自己多血小板血漿注入療法",
-          "candidates": []
-        }
-      ]
+      "plans": []
     },
     {
       "facility_id": "V41FB27CDCB6B4",
@@ -596,20 +518,7 @@
           "chars": 3525
         }
       ],
-      "plans": [
-        {
-          "plan_id": "V41_02C2606015",
-          "treatment_class": "脂肪由来幹細胞",
-          "treatment": "自己脂肪由来間葉系幹細胞を用いた関節痛、変形性関節症治療",
-          "candidates": []
-        },
-        {
-          "plan_id": "V41_02C2606022",
-          "treatment_class": "脂肪由来幹細胞",
-          "treatment": "自己脂肪由来間葉系幹細胞を用いた靭帯・腱損傷治療",
-          "candidates": []
-        }
-      ]
+      "plans": []
     },
     {
       "facility_id": "V41F317F4EF430",
@@ -633,12 +542,12 @@
           "chars": 5249
         },
         {
-          "url": "https://motoazabuhills-clinic.jp/aga/",
-          "chars": 4637
-        },
-        {
           "url": "https://motoazabuhills-clinic.jp/forgetfulness/",
           "chars": 6241
+        },
+        {
+          "url": "https://motoazabuhills-clinic.jp/aga/",
+          "chars": 4637
         }
       ],
       "plans": [
@@ -669,6 +578,151 @@
           "plan_id": "V41_02C2310060",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FEAC08EC422",
+      "facility": "医療法人エム・エム会 マッターホルンリハビリテーション病院",
+      "seed_url": "https://www.matterhorn-hospital.jp/",
+      "pages": [],
+      "plans": [],
+      "error": "SSLError: HTTPSConnectionPool(host='www.matterhorn-hospital.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.matterhorn-hospital.jp'. (_ssl.c:1010)\")))"
+    },
+    {
+      "facility_id": "V41F5AF30AB300",
+      "facility": "春日井整形あさひ病院",
+      "seed_url": "https://med-sanjinkai.jp/asahi/",
+      "pages": [
+        {
+          "url": "https://med-sanjinkai.jp/asahi/",
+          "chars": 2618
+        },
+        {
+          "url": "https://med-sanjinkai.jp/asahi/hospitalization-guidance/",
+          "chars": 4289
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_03D2506004",
+          "treatment_class": "PRP",
+          "treatment": "自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織治療",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F2AB00D8A4A",
+      "facility": "一般社団法人Garden KAI CLINIC TOKYO",
+      "seed_url": "https://kaiclinictokyo.com/",
+      "pages": [
+        {
+          "url": "https://kaiclinictokyo.com/",
+          "chars": 2117
+        },
+        {
+          "url": "https://kaiclinictokyo.com/price/",
+          "chars": 6552
+        },
+        {
+          "url": "https://kaiclinictokyo.com/menu/injection/prp/",
+          "chars": 1868
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2511006",
+          "treatment_class": "その他MSK",
+          "treatment": "自家多血小板フィブリンを用いた軟骨移植外鼻形成術",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FBD5BD4E549",
+      "facility": "医療法人ネオポリス診療所銀座クリニック",
+      "seed_url": "https://ginzaclinic-neopolis.or.jp/",
+      "pages": [
+        {
+          "url": "https://ginzaclinic-neopolis.or.jp/",
+          "chars": 2609
+        },
+        {
+          "url": "https://ginzaclinic-neopolis.or.jp/stemcell.html",
+          "chars": 2479
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2505009",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自家脂肪由来間葉系幹細胞を用いた腰痛の治療",
+          "candidates": []
+        },
+        {
+          "plan_id": "V41_02C2505010",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自家脂肪由来間葉系幹細胞を用いた肩(回旋筋)腱板損傷の治療",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FA31807090A",
+      "facility": "医療法人社団 熊谷整形外科",
+      "seed_url": "https://kumagaiseikei.jp/",
+      "pages": [
+        {
+          "url": "https://kumagaiseikei.jp/",
+          "chars": 6673
+        },
+        {
+          "url": "https://kumagaiseikei.jp/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82/",
+          "chars": 1166
+        },
+        {
+          "url": "https://kumagaiseikei.jp/%E8%87%AA%E5%B7%B1%E8%84%82%E8%82%AA%E7%94%B1%E6%9D%A5%E5%B9%B9%E7%B4%B0%E8%83%9E%E5%86%8D%E7%94%9F%E6%B2%BB%E7%99%82/",
+          "chars": 1047
+        },
+        {
+          "url": "https://kumagaiseikei.jp/%E5%B9%B9%E7%B4%B0%E8%83%9E%E5%9F%B9%E9%A4%8A%E4%B8%8A%E6%B8%85%E6%B6%B2%E7%99%82%E6%B3%95/",
+          "chars": 1063
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2608034",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "ヒト自己脂肪組織由来間葉系幹細胞の関節内投与による関節傷害の症状改善の治療",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F78006E7C02",
+      "facility": "医療法人社団 苑田会 苑田会人工関節センター病院",
+      "seed_url": "https://sonodakai.jp/sjrc/",
+      "pages": [
+        {
+          "url": "https://sonodakai.jp/sjrc/",
+          "chars": 3466
+        },
+        {
+          "url": "https://sonodakai.jp/sjrc/inpatient/fee/",
+          "chars": 2131
+        },
+        {
+          "url": "https://sonodakai.jp/sjrc/wp-content/uploads/saiseiiryo.pdf",
+          "chars": 670411
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2510078",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
           "candidates": []
         }
       ]
