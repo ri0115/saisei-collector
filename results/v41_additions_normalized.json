@@ -1,28 +1,28 @@
 {
-  "version": "v41-postprocess-1.4",
-  "updated_at": "2026-09-19T01:22:19.666034+00:00",
+  "version": "v41-postprocess-1.5",
+  "updated_at": "2026-09-19T01:27:35.203539+00:00",
   "summary": {
-    "version": "v41-postprocess-1.4",
-    "updated_at": "2026-09-19T01:22:19.665784+00:00",
+    "version": "v41-postprocess-1.5",
+    "updated_at": "2026-09-19T01:27:35.203172+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 107,
-    "promoted_by_parser": 62,
-    "promoted_by_verified_override": 45,
-    "normalized_auto": 623,
-    "normalized_qc": 151,
+    "promoted_qc_to_auto": 111,
+    "promoted_by_parser": 67,
+    "promoted_by_verified_override": 44,
+    "normalized_auto": 627,
+    "normalized_qc": 147,
     "normalized_fail": 0,
-    "normalized_price_records": 2139,
+    "normalized_price_records": 2025,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
       "source_status_retained": 634,
-      "structured_treatment_price_table": 35,
+      "structured_treatment_price_table": 15,
+      "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
       "verified_official_site_override": 45,
-      "still_ambiguous": 8,
-      "structured_product_price_table": 8,
+      "still_ambiguous": 4,
       "explicit_total_price_block": 2,
       "verified_official_override": 8,
       "multiple_fee_components_needs_review": 17
@@ -248,24 +248,6 @@
           "excerpt": "【施術料(税込)】 1部位 : 1,430,000 円 2部位 : 2,090,000 円 【細胞保管料(税込)】 年間保管料:110,000 円(1 年毎更新)",
           "page": 10,
           "line": "【施術料(税込)】 1部位 : 1,430,000 円 2部位 : 2,090,000 円 【細胞保管料(税込)】 年間保管料:110,000 円(1 年毎更新)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 1430000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "【診察料+血液検査(税込)】 診察料 : 3,300 円(診察のみの場合) 血液検査:14,300 円(注:3,300 円の初診料も込みの金額です) 【施術料(税込)】 1部位 : 1,430,000 円",
-          "page": 10,
-          "line": "診察料+血液検査(税込)】 診察料 : 3,300 円(診察のみの場合) 血液検査:14,300 円(注:3,300 円の初診料も込みの金額です) 【施術料(税込)】 1部位 : 1,430,000 円",
           "synthetic_postprocess": true,
           "product_pair_method": "context_token",
           "products_source": [],
@@ -1274,22 +1256,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 374000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1回 374,000 円 Angel 1回 704,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "page": 7,
-          "line": "1回 374,000 円 Angel 1回 704,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
           "amount": 187000,
           "tax": "不明",
           "unit": "",
@@ -1310,22 +1276,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 88000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1回(1部位) 88,000 円 ACP MAX 1回(1部位) 187,000 円 Angel 1回(1部位) 352,000 円",
-          "page": 7,
-          "line": "1回(1部位) 88,000 円 ACP MAX 1回(1部位) 187,000 円 Angel 1回(1部位) 352,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
           "amount": 352000,
           "tax": "不明",
           "unit": "",
@@ -1342,22 +1292,6 @@
           "makers": [
             "Arthrex"
           ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 187000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1回(1部位) 187,000 円 Angel 1回(1部位) 352,000 円 PRP 両側 ACP MAX",
-          "page": 7,
-          "line": "1回(1部位) 187,000 円 Angel 1回(1部位) 352,000 円 PRP 両側 ACP MAX",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
         },
@@ -1383,7 +1317,7 @@
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01E2403019",
@@ -4424,6 +4358,28 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
+          "amount": 45000,
+          "tax": "税込",
+          "unit": "",
+          "score": 0,
+          "products": [
+            "Condensia"
+          ],
+          "excerpt": "費用(税込み) ACP-PRP 50,000 円 Condensia 45,000 円",
+          "page": 8,
+          "line": "費用(税込み) ACP-PRP 50,000 円 Condensia 45,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "products_source": [],
+          "makers": [
+            "京セラ"
+          ],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
           "amount": 330000,
           "tax": "不明",
           "unit": "",
@@ -4439,28 +4395,6 @@
           ],
           "makers": [
             "Zimmer Biomet"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 45000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [
-            "Condensia"
-          ],
-          "excerpt": "50,000 円 Condensia 45,000 円 GPSIII 110,000 円",
-          "page": 8,
-          "line": "45,000 円",
-          "products_source": [
-            "GPS",
-            "Condensia"
-          ],
-          "makers": [
-            "京セラ"
           ],
           "product_pair_method": "nearest_preceding_product_in_excerpt",
           "postprocess_keep": true,
@@ -4511,156 +4445,10 @@
           "product_pair_method": "nearest_preceding_product_in_excerpt",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 45000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "Condensia"
-          ],
-          "excerpt": "費用(税込み) ACP-PRP 50,000 円 Condensia 45,000 円",
-          "page": 8,
-          "line": "費用(税込み) ACP-PRP 50,000 円 Condensia 45,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "京セラ"
-          ],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 149600,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "149,600 円 APS 330,000 円 • 採血開始後のキャンセルは、材料等が既に使用されているため、費用全額を申し受",
-          "page": 8,
-          "line": "149,600 円 APS 330,000 円 • 採血開始後のキャンセルは、材料等が既に使用されているため、費用全額を申し受",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "50,000 円 Condensia 45,000 円 GPSIII 110,000 円",
-          "page": 8,
-          "line": "50,000 円 Condensia 45,000 円 GPSIII 110,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "GPS"
-          ],
-          "excerpt": "50,000 円 Condensia 45,000 円 GPSIII 110,000 円",
-          "page": 8,
-          "line": "50,000 円 Condensia 45,000 円 GPSIII 110,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Zimmer Biomet"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 45000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "45,000 円 GPSIII 110,000 円 HD-PRP(ACP MAX 使用) 149,600 円",
-          "page": 8,
-          "line": "45,000 円 GPSIII 110,000 円 HD-PRP(ACP MAX 使用) 149,600 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 149600,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "45,000 円 GPSIII 110,000 円 HD-PRP(ACP MAX 使用) 149,600 円",
-          "page": 8,
-          "line": "45,000 円 GPSIII 110,000 円 HD-PRP(ACP MAX 使用) 149,600 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "110,000 円 HD-PRP(ACP MAX 使用) 149,600 円 APS 330,000 円",
-          "page": 8,
-          "line": "110,000 円 HD-PRP(ACP MAX 使用) 149,600 円 APS 330,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 330000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "APS"
-          ],
-          "excerpt": "110,000 円 HD-PRP(ACP MAX 使用) 149,600 円 APS 330,000 円",
-          "page": 8,
-          "line": "110,000 円 HD-PRP(ACP MAX 使用) 149,600 円 APS 330,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Zimmer Biomet"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01E2603010",
@@ -4887,6 +4675,28 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
+          "amount": 45000,
+          "tax": "税込",
+          "unit": "",
+          "score": 0,
+          "products": [
+            "Condensia"
+          ],
+          "excerpt": "費用(税込み) ACP-PRP 50,000 円 Condensia 45,000 円",
+          "page": 8,
+          "line": "費用(税込み) ACP-PRP 50,000 円 Condensia 45,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "products_source": [],
+          "makers": [
+            "京セラ"
+          ],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
           "amount": 330000,
           "tax": "不明",
           "unit": "",
@@ -4902,28 +4712,6 @@
           ],
           "makers": [
             "Zimmer Biomet"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 45000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [
-            "Condensia"
-          ],
-          "excerpt": "50,000 円 Condensia 45,000 円 GPSIII 110,000 円",
-          "page": 8,
-          "line": "45,000 円",
-          "products_source": [
-            "GPS",
-            "Condensia"
-          ],
-          "makers": [
-            "京セラ"
           ],
           "product_pair_method": "nearest_preceding_product_in_excerpt",
           "postprocess_keep": true,
@@ -4974,156 +4762,10 @@
           "product_pair_method": "nearest_preceding_product_in_excerpt",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 45000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "Condensia"
-          ],
-          "excerpt": "費用(税込み) ACP-PRP 50,000 円 Condensia 45,000 円",
-          "page": 8,
-          "line": "費用(税込み) ACP-PRP 50,000 円 Condensia 45,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "京セラ"
-          ],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 149600,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "149,600 円 APS 330,000 円 • 採血開始後のキャンセルは、材料等が既に使用されているため、費用全額を申し受",
-          "page": 8,
-          "line": "149,600 円 APS 330,000 円 • 採血開始後のキャンセルは、材料等が既に使用されているため、費用全額を申し受",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "50,000 円 Condensia 45,000 円 GPSIII 110,000 円",
-          "page": 8,
-          "line": "50,000 円 Condensia 45,000 円 GPSIII 110,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "GPS"
-          ],
-          "excerpt": "50,000 円 Condensia 45,000 円 GPSIII 110,000 円",
-          "page": 8,
-          "line": "50,000 円 Condensia 45,000 円 GPSIII 110,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Zimmer Biomet"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 45000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "45,000 円 GPSIII 110,000 円 HD-PRP(ACP MAX 使用) 149,600 円",
-          "page": 8,
-          "line": "45,000 円 GPSIII 110,000 円 HD-PRP(ACP MAX 使用) 149,600 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 149600,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "45,000 円 GPSIII 110,000 円 HD-PRP(ACP MAX 使用) 149,600 円",
-          "page": 8,
-          "line": "45,000 円 GPSIII 110,000 円 HD-PRP(ACP MAX 使用) 149,600 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "110,000 円 HD-PRP(ACP MAX 使用) 149,600 円 APS 330,000 円",
-          "page": 8,
-          "line": "110,000 円 HD-PRP(ACP MAX 使用) 149,600 円 APS 330,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 330000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "APS"
-          ],
-          "excerpt": "110,000 円 HD-PRP(ACP MAX 使用) 149,600 円 APS 330,000 円",
-          "page": 8,
-          "line": "110,000 円 HD-PRP(ACP MAX 使用) 149,600 円 APS 330,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Zimmer Biomet"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01E2402021",
@@ -6255,6 +5897,28 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
+          "amount": 198000,
+          "tax": "税込",
+          "unit": "",
+          "score": 0,
+          "products": [
+            "ACP MAX"
+          ],
+          "excerpt": "費用(税込み) ACP-PRP 55,000 円 ACP MAX 198,000 円",
+          "page": 8,
+          "line": "費用(税込み) ACP-PRP 55,000 円 ACP MAX 198,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "products_source": [],
+          "makers": [
+            "Arthrex"
+          ],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
           "amount": 154000,
           "tax": "不明",
           "unit": "",
@@ -6265,28 +5929,6 @@
           "excerpt": "198,000 円 ACP-PRP+Medicalfitness 「tobe~.」* 154,000 円 ACP MAX+ Medical fitness 「tobe~.」* 297,000 円",
           "page": 8,
           "line": "154,000 円",
-          "products_source": [
-            "ACP MAX",
-            "ACP"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 198000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "55,000 円 ACP MAX 198,000 円 ACP-PRP+Medicalfitness 「tobe~.」* 154,000 円",
-          "page": 8,
-          "line": "198,000 円",
           "products_source": [
             "ACP MAX",
             "ACP"
@@ -6319,120 +5961,10 @@
           "product_pair_method": "nearest_preceding_product_in_excerpt",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 198000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "費用(税込み) ACP-PRP 55,000 円 ACP MAX 198,000 円",
-          "page": 8,
-          "line": "費用(税込み) ACP-PRP 55,000 円 ACP MAX 198,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 198000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "198,000 円 ACP-PRP+Medicalfitness 「tobe~.」* 154,000 円 ACP MAX+ Medical fitness 「tobe~.」* 297,000 円",
-          "page": 8,
-          "line": "198,000 円 ACP-PRP+Medicalfitness 「tobe~.」* 154,000 円 ACP MAX+ Medical fitness 「tobe~.」* 297,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 297000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "198,000 円 ACP-PRP+Medicalfitness 「tobe~.」* 154,000 円 ACP MAX+ Medical fitness 「tobe~.」* 297,000 円",
-          "page": 8,
-          "line": "198,000 円 ACP-PRP+Medicalfitness 「tobe~.」* 154,000 円 ACP MAX+ Medical fitness 「tobe~.」* 297,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 55000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "55,000 円 ACP MAX 198,000 円 ACP-PRP+Medicalfitness 「tobe~.」* 154,000 円",
-          "page": 8,
-          "line": "55,000 円 ACP MAX 198,000 円 ACP-PRP+Medicalfitness 「tobe~.」* 154,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 154000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "55,000 円 ACP MAX 198,000 円 ACP-PRP+Medicalfitness 「tobe~.」* 154,000 円",
-          "page": 8,
-          "line": "55,000 円 ACP MAX 198,000 円 ACP-PRP+Medicalfitness 「tobe~.」* 154,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 154000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "154,000 円 ACP MAX+ Medical fitness 「tobe~.」* 297,000 円",
-          "page": 8,
-          "line": "154,000 円 ACP MAX+ Medical fitness 「tobe~.」* 297,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01E2303011",
@@ -8113,42 +7645,6 @@
           "product_pair_method": "context_token",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 66000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "≪治療費用≫ □治療費は、 スモールスピッツ1本(採血約10cc)あたり 33,000円(税込) ラージスピッツ 1本(採血約20cc)あたり 66,000円 (税込)です。",
-          "page": 5,
-          "line": "≪治療費用≫ □治療費は、 スモールスピッツ1本(採血約10cc)あたり 33,000円(税込) ラージスピッツ 1本(採血約20cc)あたり 66,000円 (税込)です。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 33000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "□治療費は、 スモールスピッツ1本(採血約10cc)あたり 33,000円(税込) ラージスピッツ 1本(採血約20cc)あたり 66,000円 (税込)です。",
-          "page": 5,
-          "line": "□治療費は、 スモールスピッツ1本(採血約10cc)あたり 33,000円(税込) ラージスピッツ 1本(採血約20cc)あたり 66,000円 (税込)です。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
         }
       ],
       "status_normalized": "AUTO",
@@ -8325,27 +7821,6 @@
         },
         {
           "amount": 110000,
-          "tax": "不明",
-          "unit": "",
-          "score": 5,
-          "products": [
-            "GPS"
-          ],
-          "excerpt": "55,000 円 GPSIII 110,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "page": 6,
-          "line": "110,000 円",
-          "products_source": [
-            "GPS"
-          ],
-          "makers": [
-            "Zimmer Biomet"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 110000,
           "tax": "税込",
           "unit": "",
           "score": 0,
@@ -8365,26 +7840,10 @@
           "tax_inferred": true,
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 55000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "55,000 円 GPSIII 110,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "page": 6,
-          "line": "55,000 円 GPSIII 110,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_02C2601085",
@@ -11564,27 +11023,6 @@
         },
         {
           "amount": 88000,
-          "tax": "不明",
-          "unit": "1 回",
-          "score": 3,
-          "products": [
-            "Condensia"
-          ],
-          "excerpt": "38,500~77,000 円 Condensia(1 回・1 部位) 33,000~88,000 円 ※ 投与する部位や患部の状態により金額が異なります。学生割引ありま す。詳細は医師にご確認ください。",
-          "page": 7,
-          "line": "33,000~88,000 円",
-          "products_source": [
-            "Condensia"
-          ],
-          "makers": [
-            "京セラ"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 88000,
           "tax": "税込",
           "unit": "",
           "score": 0,
@@ -11606,24 +11044,29 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 77000,
+          "amount": 88000,
           "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
+          "unit": "1 回",
+          "score": 3,
+          "products": [
+            "Condensia"
+          ],
           "excerpt": "38,500~77,000 円 Condensia(1 回・1 部位) 33,000~88,000 円 ※ 投与する部位や患部の状態により金額が異なります。学生割引ありま す。詳細は医師にご確認ください。",
           "page": 7,
-          "line": "38,500~77,000 円 Condensia(1 回・1 部位) 33,000~88,000 円 ※ 投与する部位や患部の状態により金額が異なります。学生割引ありま す。詳細は医師にご確認ください。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
+          "line": "33,000~88,000 円",
+          "products_source": [
+            "Condensia"
+          ],
+          "makers": [
+            "京セラ"
+          ],
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
           "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
+          "postprocess_reason": "treatment_label_nearest"
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_02C2109023",
@@ -12530,29 +11973,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 132000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [
-            "ACP MAX",
-            "ACP"
-          ],
-          "excerpt": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "page": 8,
-          "line": "132,000 円",
-          "products_source": [
-            "ACP MAX",
-            "ACP"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "context_tokens_unresolved",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 187000,
           "tax": "不明",
           "unit": "",
@@ -12596,61 +12016,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 253000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "99,000 円 187,000 円 253,000 円 • 治療終了後も定期的な受診が必要です。",
-          "page": 8,
-          "line": "253,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 198000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "HD-PRP(ACP MAX の場合) 198,000 円 352,000 円 ― また、ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。",
-          "page": 8,
-          "line": "HD-PRP(ACP MAX の場合) 198,000 円 352,000 円 ― また、ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 99000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "3本セット ACP-PRP 55,000 円 99,000 円 132,000 円",
-          "page": 8,
-          "line": "3本セット ACP-PRP 55,000 円 99,000 円 132,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
           "amount": 132000,
           "tax": "不明",
           "unit": "",
@@ -12661,118 +12026,6 @@
           "excerpt": "3本セット ACP-PRP 55,000 円 99,000 円 132,000 円",
           "page": 8,
           "line": "3本セット ACP-PRP 55,000 円 99,000 円 132,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 55000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "ACP-PRP 55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合)",
-          "page": 8,
-          "line": "ACP-PRP 55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 132000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "ACP-PRP 55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合)",
-          "page": 8,
-          "line": "ACP-PRP 55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 55000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "page": 8,
-          "line": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 99000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "page": 8,
-          "line": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 198000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "page": 8,
-          "line": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 99000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "ACP-PRP ダブルショット 99,000 円 187,000 円 253,000 円 •",
-          "page": 8,
-          "line": "ACP-PRP ダブルショット 99,000 円 187,000 円 253,000 円 •",
           "synthetic_postprocess": true,
           "product_pair_method": "nearest_preceding_product_in_excerpt",
           "products_source": [],
@@ -12801,78 +12054,10 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 132000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "132,000 円 HD-PRP(ACP MAX の場合) 198,000 円 352,000 円 ―",
-          "page": 8,
-          "line": "132,000 円 HD-PRP(ACP MAX の場合) 198,000 円 352,000 円 ―",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 352000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "132,000 円 HD-PRP(ACP MAX の場合) 198,000 円 352,000 円 ―",
-          "page": 8,
-          "line": "132,000 円 HD-PRP(ACP MAX の場合) 198,000 円 352,000 円 ―",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 99000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "99,000 円 187,000 円 253,000 円 • 治療終了後も定期的な受診が必要です。",
-          "page": 8,
-          "line": "99,000 円 187,000 円 253,000 円 • 治療終了後も定期的な受診が必要です。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 187000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "99,000 円 187,000 円 253,000 円 • 治療終了後も定期的な受診が必要です。",
-          "page": 8,
-          "line": "99,000 円 187,000 円 253,000 円 • 治療終了後も定期的な受診が必要です。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01E2509006",
@@ -13184,29 +12369,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 132000,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [
-            "ACP MAX",
-            "ACP"
-          ],
-          "excerpt": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "page": 8,
-          "line": "132,000 円",
-          "products_source": [
-            "ACP MAX",
-            "ACP"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "context_tokens_unresolved",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
           "amount": 187000,
           "tax": "不明",
           "unit": "",
@@ -13250,61 +12412,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 253000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "99,000 円 187,000 円 253,000 円 • 治療終了後も定期的な受診が必要です。",
-          "page": 8,
-          "line": "253,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 198000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "HD-PRP(ACP MAX の場合) 198,000 円 352,000 円 ― また、ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。",
-          "page": 8,
-          "line": "HD-PRP(ACP MAX の場合) 198,000 円 352,000 円 ― また、ACP-PRP は効果を高めるため、2 倍量1 度に投与することが可能です。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 99000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "3本セット ACP-PRP 55,000 円 99,000 円 132,000 円",
-          "page": 8,
-          "line": "3本セット ACP-PRP 55,000 円 99,000 円 132,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
           "amount": 132000,
           "tax": "不明",
           "unit": "",
@@ -13315,118 +12422,6 @@
           "excerpt": "3本セット ACP-PRP 55,000 円 99,000 円 132,000 円",
           "page": 8,
           "line": "3本セット ACP-PRP 55,000 円 99,000 円 132,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 55000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "ACP-PRP 55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合)",
-          "page": 8,
-          "line": "ACP-PRP 55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 132000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "ACP-PRP 55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合)",
-          "page": 8,
-          "line": "ACP-PRP 55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 55000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "page": 8,
-          "line": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 99000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "page": 8,
-          "line": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 198000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "page": 8,
-          "line": "55,000 円 99,000 円 132,000 円 HD-PRP(ACP MAX の場合) 198,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 99000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "ACP-PRP ダブルショット 99,000 円 187,000 円 253,000 円 •",
-          "page": 8,
-          "line": "ACP-PRP ダブルショット 99,000 円 187,000 円 253,000 円 •",
           "synthetic_postprocess": true,
           "product_pair_method": "nearest_preceding_product_in_excerpt",
           "products_source": [],
@@ -13455,78 +12450,10 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 132000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "132,000 円 HD-PRP(ACP MAX の場合) 198,000 円 352,000 円 ―",
-          "page": 8,
-          "line": "132,000 円 HD-PRP(ACP MAX の場合) 198,000 円 352,000 円 ―",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 352000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "132,000 円 HD-PRP(ACP MAX の場合) 198,000 円 352,000 円 ―",
-          "page": 8,
-          "line": "132,000 円 HD-PRP(ACP MAX の場合) 198,000 円 352,000 円 ―",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 99000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "99,000 円 187,000 円 253,000 円 • 治療終了後も定期的な受診が必要です。",
-          "page": 8,
-          "line": "99,000 円 187,000 円 253,000 円 • 治療終了後も定期的な受診が必要です。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        },
-        {
-          "amount": 187000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "99,000 円 187,000 円 253,000 円 • 治療終了後も定期的な受診が必要です。",
-          "page": 8,
-          "line": "99,000 円 187,000 円 253,000 円 • 治療終了後も定期的な受診が必要です。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01E2511014",
@@ -14483,6 +13410,28 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
+          "amount": 35000,
+          "tax": "税別",
+          "unit": "",
+          "score": 0,
+          "products": [
+            "ACP"
+          ],
+          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "page": 7,
+          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "products_source": [],
+          "makers": [
+            "Arthrex"
+          ],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
           "amount": 150000,
           "tax": "不明",
           "unit": "1 回(1 部位)",
@@ -14548,60 +13497,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 35000,
-          "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "page": 7,
-          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 95000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "page": 7,
-          "line": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
           "amount": 95000,
           "tax": "不明",
           "unit": "",
@@ -14620,22 +13515,6 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 35000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         },
         {
           "amount": 150000,
@@ -14659,7 +13538,7 @@
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01C2508068",
@@ -18651,26 +17530,10 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 49000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "49,000 円 Angel 250,000 円 PRP 両側 Angel",
-          "page": 6,
-          "line": "49,000 円 Angel 250,000 円 PRP 両側 Angel",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01E2511017",
@@ -20560,22 +19423,6 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 1650000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,650,000 円 関節内幹細胞投与+骨髄内幹細胞投与(1部位、1回) 2,200,000円 1x10^8細胞(1回分)を2分割し、関節内幹細胞投与+骨髄内幹細 胞投与した場合(1部位、1回)",
-          "page": 11,
-          "line": "1,650,000 円 関節内幹細胞投与+骨髄内幹細胞投与(1部位、1回) 2,200,000円 1x10^8細胞(1回分)を2分割し、関節内幹細胞投与+骨髄内幹細 胞投与した場合(1部位、1回)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
         }
       ],
       "status_normalized": "AUTO",
@@ -20978,22 +19825,6 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 1650000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,650,000 円 関節内幹細胞投与+骨髄内幹細胞投与(1部位、1回) 2,200,000円 1x10^8細胞(1回分)を2分割し、関節内幹細胞投与+骨髄内幹細 胞投与した場合(1部位、1回)",
-          "page": 11,
-          "line": "1,650,000 円 関節内幹細胞投与+骨髄内幹細胞投与(1部位、1回) 2,200,000円 1x10^8細胞(1回分)を2分割し、関節内幹細胞投与+骨髄内幹細 胞投与した場合(1部位、1回)",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
         }
       ],
       "status_normalized": "AUTO",
@@ -23682,6 +22513,24 @@
       "prices_normalized": [
         {
           "amount": 110000,
+          "tax": "税込",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "かかります(税込)。 初診料 8,800 円 治療費用 1 回 片膝注射 110,000 円",
+          "page": 4,
+          "line": "かかります(税込)。 初診料 8,800 円 治療費用 1 回 片膝注射 110,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
+          "amount": 110000,
           "tax": "不明",
           "unit": "1 回",
           "score": 3,
@@ -23722,56 +22571,6 @@
           "products_source": [],
           "makers": [],
           "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 110000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "かかります(税込)。 初診料 8,800 円 治療費用 1 回 片膝注射 110,000 円",
-          "page": 4,
-          "line": "かかります(税込)。 初診料 8,800 円 治療費用 1 回 片膝注射 110,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 165000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "8,800 円 治療費用 1 回 片膝注射 110,000 円 両膝ハーフ 165,000 円",
-          "page": 4,
-          "line": "8,800 円 治療費用 1 回 片膝注射 110,000 円 両膝ハーフ 165,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 220000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "110,000 円 両膝ハーフ 165,000 円 両膝注射 220,000 円",
-          "page": 4,
-          "line": "110,000 円 両膝ハーフ 165,000 円 両膝注射 220,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
         }
@@ -30744,6 +29543,28 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
+          "amount": 35000,
+          "tax": "税別",
+          "unit": "",
+          "score": 0,
+          "products": [
+            "ACP"
+          ],
+          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "page": 7,
+          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "products_source": [],
+          "makers": [
+            "Arthrex"
+          ],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
           "amount": 150000,
           "tax": "不明",
           "unit": "1 回(1 部位)",
@@ -30809,60 +29630,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 35000,
-          "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "page": 7,
-          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 95000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "page": 7,
-          "line": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
           "amount": 95000,
           "tax": "不明",
           "unit": "",
@@ -30881,22 +29648,6 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 35000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         },
         {
           "amount": 150000,
@@ -30920,7 +29671,7 @@
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_02C2512025",
@@ -33146,24 +31897,6 @@
           "tax_inferred": true,
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 1320000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "【診察料+血液検査料金(税込)】 診察料 :3,300 円(診察のみの場合) 血液検査:11,000 円(診察料込) 【施術料金(税込)】 初回 :1,320,000 円",
-          "page": 11,
-          "line": "【診察料+血液検査料金(税込)】 診察料 :3,300 円(診察のみの場合) 血液検査:11,000 円(診察料込) 【施術料金(税込)】 初回 :1,320,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
         }
       ],
       "status_normalized": "AUTO",
@@ -34938,6 +33671,28 @@
         },
         {
           "amount": 35000,
+          "tax": "税別",
+          "unit": "",
+          "score": 0,
+          "products": [
+            "ACP"
+          ],
+          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "page": 7,
+          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "products_source": [],
+          "makers": [
+            "Arthrex"
+          ],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
+          "amount": 35000,
           "tax": "不明",
           "unit": "1 回(1 部位)",
           "score": 2,
@@ -35002,44 +33757,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 35000,
-          "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "page": 7,
-          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
           "amount": 95000,
           "tax": "不明",
           "unit": "",
@@ -35058,22 +33775,6 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 35000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         },
         {
           "amount": 150000,
@@ -35094,26 +33795,10 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 95000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_02C2606015",
@@ -35399,38 +34084,6 @@
           "products_source": [],
           "makers": [],
           "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 1500000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "5,000 円 検査料 15,000 円 片膝投与 1,500,000 円",
-          "page": 4,
-          "line": "5,000 円 検査料 15,000 円 片膝投与 1,500,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 2000000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "15,000 円 片膝投与 1,500,000 円 両膝投与 2,000,000 円",
-          "page": 4,
-          "line": "15,000 円 片膝投与 1,500,000 円 両膝投与 2,000,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
         }
@@ -35947,22 +34600,6 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 1650000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,650,000 円 自家培養脂肪由来幹細胞投与(1億個/1 関節・1 回) 3,300,000 円 自家培養脂肪由来幹細胞投与(2 億個/2 関節・1 回) 6,600,000 円",
-          "page": 6,
-          "line": "1,650,000 円 自家培養脂肪由来幹細胞投与(1億個/1 関節・1 回) 3,300,000 円 自家培養脂肪由来幹細胞投与(2 億個/2 関節・1 回) 6,600,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
         },
         {
           "amount": 6600000,
@@ -37469,21 +36106,6 @@
       "prices_normalized": [
         {
           "amount": 132000,
-          "tax": "不明",
-          "unit": "1 回",
-          "score": 2,
-          "products": [],
-          "excerpt": "11,000 円 PRP(1 回・1 部位) 132,000 円 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と調製したPRP は、患者様ご自身の治療のみに使用しま",
-          "page": 6,
-          "line": "132,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 132000,
           "tax": "税込",
           "unit": "",
           "score": 0,
@@ -37497,6 +36119,21 @@
           "makers": [],
           "tax_source": "不明",
           "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
+          "amount": 132000,
+          "tax": "不明",
+          "unit": "1 回",
+          "score": 2,
+          "products": [],
+          "excerpt": "11,000 円 PRP(1 回・1 部位) 132,000 円 11. 試料等の保存及び廃棄の方法 患者様から採取した血液と調製したPRP は、患者様ご自身の治療のみに使用しま",
+          "page": 6,
+          "line": "132,000 円",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
         }
@@ -39081,21 +37718,6 @@
         },
         {
           "amount": 88000,
-          "tax": "不明",
-          "unit": "1 回",
-          "score": 2,
-          "products": [],
-          "excerpt": "55,000 円 PRP 1 回・1 部位(2 本分) 88,000 円 PRP 1 回・2 部位同時(2 本分) 88,000 円",
-          "page": 7,
-          "line": "88,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 88000,
           "tax": "税込",
           "unit": "",
           "score": 0,
@@ -39109,6 +37731,21 @@
           "makers": [],
           "tax_source": "不明",
           "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
+          "amount": 88000,
+          "tax": "不明",
+          "unit": "1 回",
+          "score": 2,
+          "products": [],
+          "excerpt": "55,000 円 PRP 1 回・1 部位(2 本分) 88,000 円 PRP 1 回・2 部位同時(2 本分) 88,000 円",
+          "page": 7,
+          "line": "88,000 円",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
         },
@@ -53046,50 +51683,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 181500,
-          "tax": "不明",
-          "unit": "",
-          "score": 5,
-          "products": [
-            "Angel"
-          ],
-          "excerpt": "148,500 円 Angel 181,500 円  上記料金表にはPRP 調製のための採血費用、PRP 調製費用が 含まれます。",
-          "page": 7,
-          "line": "181,500 円",
-          "products_source": [
-            "Angel"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 148500,
-          "tax": "不明",
-          "unit": "",
-          "score": 2,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "22,000 円 ACP MAX 148,500 円 Angel 181,500 円",
-          "page": 7,
-          "line": "148,500 円",
-          "products_source": [
-            "ACP MAX",
-            "ACP",
-            "Angel"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
           "amount": 148500,
           "tax": "税込",
           "unit": "",
@@ -53112,60 +51705,29 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 148500,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "148,500 円 Angel 181,500 円  上記料金表にはPRP 調製のための採血費用、PRP 調製費用が 含まれます。",
-          "page": 7,
-          "line": "148,500 円 Angel 181,500 円  上記料金表にはPRP 調製のための採血費用、PRP 調製費用が 含まれます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 22000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "22,000 円 ACP MAX 148,500 円 Angel 181,500 円",
-          "page": 7,
-          "line": "22,000 円 ACP MAX 148,500 円 Angel 181,500 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
           "amount": 181500,
           "tax": "不明",
           "unit": "",
-          "score": 0,
+          "score": 5,
           "products": [
             "Angel"
           ],
-          "excerpt": "22,000 円 ACP MAX 148,500 円 Angel 181,500 円",
+          "excerpt": "148,500 円 Angel 181,500 円  上記料金表にはPRP 調製のための採血費用、PRP 調製費用が 含まれます。",
           "page": 7,
-          "line": "22,000 円 ACP MAX 148,500 円 Angel 181,500 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
+          "line": "181,500 円",
+          "products_source": [
+            "Angel"
+          ],
           "makers": [
             "Arthrex"
           ],
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01C2307055",
@@ -53612,36 +52174,6 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 25000,
-          "tax": "不明",
-          "unit": "1 回",
-          "score": 2,
-          "products": [],
-          "excerpt": "11,000 円 (筋腱)PRP1 回・1 部位 25,000 円 (筋腱)PRP1 回・2部位 50,000 円",
-          "page": 7,
-          "line": "25,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "1 回",
-          "score": 2,
-          "products": [],
-          "excerpt": "25,000 円 (筋腱)PRP1 回・2部位 50,000 円 (筋腱)PRP1 回・3部位 75,000 円",
-          "page": 7,
-          "line": "50,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
           "amount": 75000,
           "tax": "不明",
           "unit": "1 回",
@@ -53705,6 +52237,36 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
+          "amount": 25000,
+          "tax": "不明",
+          "unit": "1 回",
+          "score": 2,
+          "products": [],
+          "excerpt": "11,000 円 (筋腱)PRP1 回・1 部位 25,000 円 (筋腱)PRP1 回・2部位 50,000 円",
+          "page": 7,
+          "line": "25,000 円",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
+          "amount": 50000,
+          "tax": "不明",
+          "unit": "1 回",
+          "score": 2,
+          "products": [],
+          "excerpt": "25,000 円 (筋腱)PRP1 回・2部位 50,000 円 (筋腱)PRP1 回・3部位 75,000 円",
+          "page": 7,
+          "line": "50,000 円",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
           "amount": 50000,
           "tax": "不明",
           "unit": "",
@@ -53719,90 +52281,6 @@
           "makers": [],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 25000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "25,000 円 (筋腱)PRP1 回・2部位 50,000 円 (筋腱)PRP1 回・3部位 75,000 円",
-          "page": 7,
-          "line": "25,000 円 (筋腱)PRP1 回・2部位 50,000 円 (筋腱)PRP1 回・3部位 75,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 75000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "25,000 円 (筋腱)PRP1 回・2部位 50,000 円 (筋腱)PRP1 回・3部位 75,000 円",
-          "page": 7,
-          "line": "25,000 円 (筋腱)PRP1 回・2部位 50,000 円 (筋腱)PRP1 回・3部位 75,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "50,000 円 (筋腱)PRP1 回・3部位 75,000 円 HD-PRP(ACP MAX の場合) 220,000 円",
-          "page": 7,
-          "line": "50,000 円 (筋腱)PRP1 回・3部位 75,000 円 HD-PRP(ACP MAX の場合) 220,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 220000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "50,000 円 (筋腱)PRP1 回・3部位 75,000 円 HD-PRP(ACP MAX の場合) 220,000 円",
-          "page": 7,
-          "line": "50,000 円 (筋腱)PRP1 回・3部位 75,000 円 HD-PRP(ACP MAX の場合) 220,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 75000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "75,000 円 HD-PRP(ACP MAX の場合) 220,000 円 • 治療終了後も定期的な受診が必要です。",
-          "page": 7,
-          "line": "75,000 円 HD-PRP(ACP MAX の場合) 220,000 円 • 治療終了後も定期的な受診が必要です。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         }
       ],
       "status_normalized": "AUTO",
@@ -55410,22 +53888,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 1540000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1,540,000 円 自己脂肪由来間葉系幹細胞投与(1 部位・2 回) 2,926,000 円 自己脂肪由来間葉系幹細胞投与(1 部位・3 回) 4,158,000 円",
-          "page": 6,
-          "line": "1,540,000 円 自己脂肪由来間葉系幹細胞投与(1 部位・2 回) 2,926,000 円 自己脂肪由来間葉系幹細胞投与(1 部位・3 回) 4,158,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "cell_dose_table"
-        },
-        {
           "amount": 4158000,
           "tax": "不明",
           "unit": "",
@@ -56390,26 +54852,10 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "50,000 円 Angel 300,000 円 PRP 両側 Angel",
-          "page": 7,
-          "line": "50,000 円 Angel 300,000 円 PRP 両側 Angel",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01C2309059",
@@ -56580,21 +55026,6 @@
       "prices_normalized": [
         {
           "amount": 990000,
-          "tax": "不明",
-          "unit": "1 回",
-          "score": 6,
-          "products": [],
-          "excerpt": "15,000 円 自家脂肪由来間葉系幹細胞投与(0.5-1.5 億cells) 990,000 円 ※投与回数にかかわらず、1 回投与あたりの費用です。 III.",
-          "page": 8,
-          "line": "990,000 円",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 990000,
           "tax": "税込",
           "unit": "",
           "score": 0,
@@ -56608,6 +55039,21 @@
           "makers": [],
           "tax_source": "不明",
           "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
+          "amount": 990000,
+          "tax": "不明",
+          "unit": "1 回",
+          "score": 6,
+          "products": [],
+          "excerpt": "15,000 円 自家脂肪由来間葉系幹細胞投与(0.5-1.5 億cells) 990,000 円 ※投与回数にかかわらず、1 回投与あたりの費用です。 III.",
+          "page": 8,
+          "line": "990,000 円",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
         }
@@ -66654,6 +65100,28 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
+          "amount": 35000,
+          "tax": "税別",
+          "unit": "",
+          "score": 0,
+          "products": [
+            "ACP"
+          ],
+          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "page": 7,
+          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "products_source": [],
+          "makers": [
+            "Arthrex"
+          ],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
           "amount": 150000,
           "tax": "不明",
           "unit": "1 回(1 部位)",
@@ -66719,60 +65187,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 35000,
-          "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "page": 7,
-          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 95000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "page": 7,
-          "line": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
           "amount": 95000,
           "tax": "不明",
           "unit": "",
@@ -66791,22 +65205,6 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 35000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         },
         {
           "amount": 150000,
@@ -66830,7 +65228,7 @@
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01C2503079",
@@ -67011,6 +65409,28 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
+          "amount": 35000,
+          "tax": "税別",
+          "unit": "",
+          "score": 0,
+          "products": [
+            "ACP"
+          ],
+          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "page": 7,
+          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "products_source": [],
+          "makers": [
+            "Arthrex"
+          ],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
           "amount": 150000,
           "tax": "不明",
           "unit": "1 回",
@@ -67076,60 +65496,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 35000,
-          "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "page": 7,
-          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 95000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "page": 7,
-          "line": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
           "amount": 95000,
           "tax": "不明",
           "unit": "",
@@ -67148,22 +65514,6 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 35000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         },
         {
           "amount": 150000,
@@ -67187,7 +65537,7 @@
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_02C2601034",
@@ -67446,27 +65796,6 @@
         },
         {
           "amount": 500000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [
-            "Angel"
-          ],
-          "excerpt": "30,000 円 Angel 500,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "page": 6,
-          "line": "500,000 円",
-          "products_source": [
-            "Angel"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 500000,
           "tax": "税込",
           "unit": "",
           "score": 0,
@@ -67486,26 +65815,10 @@
           "tax_inferred": true,
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 30000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "30,000 円 Angel 500,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "page": 6,
-          "line": "30,000 円 Angel 500,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_03C2604023",
@@ -70681,6 +68994,28 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
+          "amount": 35000,
+          "tax": "税別",
+          "unit": "",
+          "score": 0,
+          "products": [
+            "ACP"
+          ],
+          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "page": 7,
+          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "products_source": [],
+          "makers": [
+            "Arthrex"
+          ],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
           "amount": 150000,
           "tax": "不明",
           "unit": "1 回",
@@ -70746,60 +69081,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 35000,
-          "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "page": 7,
-          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 95000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "page": 7,
-          "line": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
           "amount": 95000,
           "tax": "不明",
           "unit": "",
@@ -70818,22 +69099,6 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 35000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         },
         {
           "amount": 150000,
@@ -70857,7 +69122,7 @@
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01C2503077",
@@ -71037,6 +69302,28 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
+          "amount": 35000,
+          "tax": "税別",
+          "unit": "",
+          "score": 0,
+          "products": [
+            "ACP"
+          ],
+          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "page": 7,
+          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "products_source": [],
+          "makers": [
+            "Arthrex"
+          ],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
           "amount": 150000,
           "tax": "不明",
           "unit": "1 回(1 部位)",
@@ -71102,60 +69389,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 35000,
-          "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "page": 7,
-          "line": "費用(税別) ACP 1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 95000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "page": 7,
-          "line": "1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円 (3) 採血を開始してからのキャンセルについては、キャンセル費用をいただ きます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 50,000 円 ACP(学割) 1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
           "amount": 95000,
           "tax": "不明",
           "unit": "",
@@ -71174,22 +69407,6 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 35000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "page": 7,
-          "line": "1 回(1 部位) 35,000 円 ACP ダブルショット 1 回(1 部位) 95,000 円 ACP MAX 1 回(1 部位) 150,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         },
         {
           "amount": 150000,
@@ -71213,7 +69430,7 @@
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01C2411046",
@@ -71920,28 +70137,6 @@
         },
         {
           "amount": 440000,
-          "tax": "不明",
-          "unit": "",
-          "score": 5,
-          "products": [
-            "ACP MAX"
-          ],
-          "excerpt": "51,000~77,000 円 ACP Max 165,000~440,000 円 (3) キット開封後にキャンセルされた場合は、費用の全額をご負担いただき ます。",
-          "page": 7,
-          "line": "165,000~440,000 円",
-          "products_source": [
-            "ACP MAX",
-            "ACP"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 440000,
           "tax": "税込",
           "unit": "",
           "score": 0,
@@ -71961,26 +70156,10 @@
           "tax_inferred": true,
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 77000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "51,000~77,000 円 ACP Max 165,000~440,000 円 (3) キット開封後にキャンセルされた場合は、費用の全額をご負担いただき ます。",
-          "page": 7,
-          "line": "51,000~77,000 円 ACP Max 165,000~440,000 円 (3) キット開封後にキャンセルされた場合は、費用の全額をご負担いただき ます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01C2302046",
@@ -75561,42 +73740,6 @@
           "product_pair_method": "context_token",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 66000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "る場合があります。 □ 治療費は、 スモールスピッツ1本あたり...33,000円(税込) ラージスピッツ1 本あたり...66,000円(税込)です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者",
-          "page": 1,
-          "line": "る場合があります。 □ 治療費は、 スモールスピッツ1本あたり...33,000円(税込) ラージスピッツ1 本あたり...66,000円(税込)です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 33000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "□ 治療費は、 スモールスピッツ1本あたり...33,000円(税込) ラージスピッツ1 本あたり...66,000円(税込)です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者 の選択は行いません。",
-          "page": 1,
-          "line": "□ 治療費は、 スモールスピッツ1本あたり...33,000円(税込) ラージスピッツ1 本あたり...66,000円(税込)です。 □ 細胞提供者と受領者(施術対象者)は同一人のため、細胞提供者 の選択は行いません。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
         }
       ],
       "status_normalized": "AUTO",
@@ -78313,27 +76456,6 @@
         },
         {
           "amount": 250000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [
-            "Angel"
-          ],
-          "excerpt": "50,000 円 Angel 250,000 円 (3) キットを開封した後にキャンセルされた場合は、費用の全額をご負担い ただきます。",
-          "page": 7,
-          "line": "250,000 円",
-          "products_source": [
-            "Angel"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 250000,
           "tax": "税別",
           "unit": "",
           "score": 0,
@@ -78353,26 +76475,10 @@
           "tax_inferred": true,
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "50,000 円 Angel 250,000 円 (3) キットを開封した後にキャンセルされた場合は、費用の全額をご負担い ただきます。",
-          "page": 7,
-          "line": "50,000 円 Angel 250,000 円 (3) キットを開封した後にキャンセルされた場合は、費用の全額をご負担い ただきます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01C2408063",
@@ -78491,27 +76597,6 @@
         },
         {
           "amount": 250000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [
-            "Angel"
-          ],
-          "excerpt": "50,000 円 Angel 250,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "page": 6,
-          "line": "250,000 円",
-          "products_source": [
-            "Angel"
-          ],
-          "makers": [
-            "Arthrex"
-          ],
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 250000,
           "tax": "税別",
           "unit": "",
           "score": 0,
@@ -78531,26 +76616,10 @@
           "tax_inferred": true,
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "50,000 円 Angel 250,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "page": 6,
-          "line": "50,000 円 Angel 250,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01C2411084",
@@ -80209,22 +78278,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 40000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "40,000 円 Angel 220,000 円 PRP 両側 Angel",
-          "page": 7,
-          "line": "40,000 円 Angel 220,000 円 PRP 両側 Angel",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
           "amount": 220000,
           "tax": "不明",
           "unit": "",
@@ -80246,7 +78299,7 @@
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01C2411083",
@@ -80522,22 +78575,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "50,000 円 Angel 230,000 円 PRP 両側 Angel",
-          "page": 7,
-          "line": "50,000 円 Angel 230,000 円 PRP 両側 Angel",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
           "amount": 230000,
           "tax": "不明",
           "unit": "",
@@ -80559,7 +78596,7 @@
         }
       ],
       "status_normalized": "AUTO",
-      "postprocess_resolution": "structured_treatment_price_table"
+      "postprocess_resolution": "structured_product_price_table"
     },
     {
       "plan_id": "V41_01C2605036",
@@ -90188,6 +88225,28 @@
       "qc_reason_source": "rescue price candidates remain ambiguous",
       "prices_normalized": [
         {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "",
+          "score": 0,
+          "products": [
+            "ACP"
+          ],
+          "excerpt": "費用(税込) 血液検査 10,000~15,000 円 ACP(1 回・1 部位) 55,000 円",
+          "page": 7,
+          "line": "費用(税込) 血液検査 10,000~15,000 円 ACP(1 回・1 部位) 55,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "nearest_preceding_product_in_excerpt",
+          "products_source": [],
+          "makers": [
+            "Arthrex"
+          ],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
           "amount": 44000,
           "tax": "不明",
           "unit": "1 回",
@@ -90231,60 +88290,6 @@
           "postprocess_reason": "treatment_label_nearest"
         },
         {
-          "amount": 55000,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [
-            "ACP"
-          ],
-          "excerpt": "費用(税込) 血液検査 10,000~15,000 円 ACP(1 回・1 部位) 55,000 円",
-          "page": 7,
-          "line": "費用(税込) 血液検査 10,000~15,000 円 ACP(1 回・1 部位) 55,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "nearest_preceding_product_in_excerpt",
-          "products_source": [],
-          "makers": [
-            "Arthrex"
-          ],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 55000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "55,000 円 Condensia(1 回・1 部位) 44,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "page": 7,
-          "line": "55,000 円 Condensia(1 回・1 部位) 44,000 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
-          "amount": 15000,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "10,000~15,000 円 ACP(1 回・1 部位) 55,000 円 Condensia(1 回・1 部位) 44,000 円",
-          "page": 7,
-          "line": "10,000~15,000 円 ACP(1 回・1 部位) 55,000 円 Condensia(1 回・1 部位) 44,000 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
-        },
-        {
           "amount": 44000,
           "tax": "不明",
           "unit": "",
@@ -90303,6 +88308,22 @@
           ],
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
+        },
+        {
+          "amount": 15000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "10,000~15,000 円 ACP(1 回・1 部位) 55,000 円 Condensia(1 回・1 部位) 44,000 円",
+          "page": 7,
+          "line": "10,000~15,000 円 ACP(1 回・1 部位) 55,000 円 Condensia(1 回・1 部位) 44,000 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": true,
+          "postprocess_reason": "explicit_prp_product_line"
         }
       ],
       "status_normalized": "AUTO",
@@ -91508,6 +89529,24 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
+          "amount": 38500,
+          "tax": "税込",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "費用(税込) 血液検査 16,500 円 PRP(1 回) 38,500 円",
+          "page": 6,
+          "line": "費用(税込) 血液検査 16,500 円 PRP(1 回) 38,500 円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
           "amount": 71500,
           "tax": "不明",
           "unit": "2 回",
@@ -91536,40 +89575,6 @@
           "product_pair_method": "context_token",
           "postprocess_keep": true,
           "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 38500,
-          "tax": "税込",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "費用(税込) 血液検査 16,500 円 PRP(1 回) 38,500 円",
-          "page": 6,
-          "line": "費用(税込) 血液検査 16,500 円 PRP(1 回) 38,500 円",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
-          "amount": 38500,
-          "tax": "不明",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "38,500 円 PRP(2 回・2 部位同時) 71,500 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "page": 6,
-          "line": "38,500 円 PRP(2 回・2 部位同時) 71,500 円 (3) 採血を開始してからキャンセルされた場合は、費用の全額をご負担いた だきます。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "postprocess_keep": true,
-          "postprocess_reason": "explicit_prp_product_line"
         },
         {
           "amount": 16500,
