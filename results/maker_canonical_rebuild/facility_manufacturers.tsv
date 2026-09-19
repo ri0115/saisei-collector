@@ -111,6 +111,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 大阪府|oneclinic梅田	大阪府	ONE CLINIC 梅田	ESTAR Technologies	1	MyCells	MANUAL_VERIFIED
 大阪府|たけうち整形外科リウマチ科	大阪府	たけうち整形外科リウマチ科	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
 大阪府|はせがわ整形外科運動器エコークリニック	大阪府	はせがわ整形外科運動器エコークリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+大阪府|ひらまつ整形外科難波膝スポーツクリニック	大阪府	ひらまつ整形外科 難波膝スポーツクリニック	京セラ	1	Condensia	MANUAL_VERIFIED
 大阪府|まつうら整形肩肘スポーツクリニック	大阪府	まつうら整形・肩肘スポーツクリニック	Arthrex	1	ACP|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 大阪府|アスレティックス整形外科肩膝スポーツクリニック	大阪府	アスレティックス整形外科肩膝スポーツクリニック	京セラ	1	Condensia	MANUAL_VERIFIED
 大阪府|きど整形外科クリニック	大阪府	医療法人 きど整形外科クリニック	Zimmer Biomet|京セラ	2	APS|APS|GPS|Condensia|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
