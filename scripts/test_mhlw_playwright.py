@@ -11,26 +11,28 @@ async def main():
     async with async_playwright() as p:
         browser=await p.chromium.launch(headless=True)
         context=await browser.new_context(
+            accept_downloads=True,
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
             locale="ja-JP",
         )
         page=await context.new_page()
         try:
-            await page.goto("https://saiseiiryo.mhlw.go.jp/published_plan/index/3", wait_until="domcontentloaded", timeout=30000)
+            r=await page.goto("https://saiseiryo.mhlw.go.jp/published_plan/index/3",wait_until="domcontentloaded",timeout=30000)
+            rows.append({"stage":"warmup","status":r.status if r else None})
         except Exception as e:
             rows.append({"stage":"warmup","error":str(e)})
+
         for code in CODES:
             for idx in [0,1]:
-                url=f"https://saiseiiryo.mhlw.go.jp/published_plan/download/{code}/5/{idx}"
-                rec={"code":code,"idx":idx,"url":url}
+                url=f"https://saiseiryo.mhlw.go.jp/published_plan/download/{code}/5/{idx}"
+                rec={"stage":"context.request","code":code,"idx":idx,"url":url}
                 try:
-                    resp=await page.goto(url, wait_until="commit", timeout=30000)
-                    rec["status"]=resp.status if resp else None
-                    rec["content_type"]=(resp.headers.get("content-type") if resp else None)
-                    if resp:
-                        body=await resp.body()
-                        rec["bytes"]=len(body)
-                        rec["pdf_magic"]=b"%PDF" in body[:1024]
+                    resp=await context.request.get(url,timeout=8000,fail_on_status_code=False)
+                    rec["status"]=resp.status
+                    rec["content_type"]=resp.headers.get("content-type")
+                    body=await resp.body()
+                    rec["bytes"]=len(body)
+                    rec["pdf_magic"]=body.startswith(b"%PDF")
                 except Exception as e:
                     rec["error"]=str(e)
                 rows.append(rec)
