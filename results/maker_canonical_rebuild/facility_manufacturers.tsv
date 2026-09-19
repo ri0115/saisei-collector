@@ -1,7 +1,7 @@
 facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sources
 三重県|岩崎病院	三重県	岩崎病院	Arthrex	1	ACP	MANUAL_VERIFIED
 三重県|恩賜財団済生会松阪市民病院	三重県	社会福祉法人恩賜財団済生会松阪市民病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
-京都府|cliniqueharukyoto	京都府	Clinique Haru Kyoto	Arthrex|ESTAR Technologies|REV-MED|Ycellbio Medical|Zimmer Biomet	5	ACP|APS|GPS|MyCells|TriCeLL|MyCells|TriCeLL|YCELL	MANUAL_VERIFIED|MHLW_FULL
+京都府|cliniqueharukyoto	京都府	Clinique Haru Kyoto	Arthrex|ESTAR Technologies|REV-MED|Ycellbio Medical|Zimmer Biomet	5	ACP|APS|GPS|MyCells|TriCeLL|ACP|GPS III|APS|MyCells|TriCeLL|YCELL	MANUAL_VERIFIED|MHLW_FULL
 京都府|エムスカイ松木整形外科クリニック	京都府	医療法人エムスカイ 松木整形外科クリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 京都府|京都翔医会西京都病院	京都府	医療法人京都翔医会 西京都病院	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP|ACP MAX|ACP|Angel|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 京都府|千春会千春会ハイパーサーミアクリニック	京都府	医療法人社団千春会  千春会ハイパーサーミアクリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP|ACP MAX|ACP|Angel|Angel	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
@@ -283,7 +283,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 東京都|幸神会下北沢doクリニック	東京都	医療法人社団幸神会 下北沢DOクリニック	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|GPS|APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|幹葉会南青山外苑前整形外科リハビリテーション科クリニック	東京都	医療法人社団幹葉会  南青山外苑前整形外科リハビリテーション科クリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|康静会赤羽ウェルネスクリニック	東京都	医療法人社団康静会 赤羽ウェルネスクリニック	ESTAR Technologies	1	MyCells	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
-東京都|彩康会十条整形外科リハビリクリニック	東京都	医療法人社団彩康会 十条整形外科リハビリクリニック	Zimmer Biomet	1	APS|TriCeLL	MHLW_FULL
+東京都|彩康会十条整形外科リハビリクリニック	東京都	医療法人社団彩康会 十条整形外科リハビリクリニック	REV-MED|Zimmer Biomet	2	APS|TriCeLL	MANUAL_VERIFIED|MHLW_FULL
 東京都|快晴会すがも北口整形外科クリニック	東京都	医療法人社団快晴会  すがも北口整形外科クリニック	ESTAR Technologies|Zimmer Biomet	2	GPS|GPS|MyCells|MyCells	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|慶優会増本整形外科クリニック	東京都	医療法人社団慶優会 増本整形外科クリニック	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|慶晃会世田谷玉川整形外科内科クリニック	東京都	医療法人社団慶晃会 世田谷玉川 整形外科内科クリニック	Arthrex|DSM Biomedical|Zimmer Biomet	3	ACP|ACP|APS|GPS|PEAK|APS|GPS|PEAK	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
