@@ -1,0 +1,53 @@
+name: Rescue v41 all MHLW documents
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/rescue_v41_mhlw_all_documents.py"
+      - ".github/workflows/rescue-v41-mhlw-multidoc.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "regen-v41-mhlw-multidoc"
+  cancel-in-progress: true
+
+jobs:
+  rescue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 pymupdf
+      - name: Scan all current MHLW attachments
+        run: |
+          python scripts/rescue_v41_mhlw_all_documents.py             --queue results/v41_official_site_fallback_queue.json             --output results/v41_mhlw_multidoc_rescue.json             --csv results/v41_mhlw_multidoc_rescue.csv             --workers 8
+      - name: Verify rescue
+        run: |
+          python - <<'PY'
+          import json
+          d=json.load(open("results/v41_mhlw_multidoc_rescue.json",encoding="utf-8"))
+          s=d["summary"]
+          assert s["processed"] + s["index_missing"] == s["input_total"]
+          print(s)
+          PY
+      - name: Commit rescue outputs
+        run: |
+          git config user.name "regen-med-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add results/v41_mhlw_multidoc_rescue.json results/v41_mhlw_multidoc_rescue.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Rescue v41 prices across all MHLW attachments [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
