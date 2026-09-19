@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T01:28:51.369484+00:00",
-  "total": 129,
-  "unique_facilities": 111,
+  "updated_at": "2026-09-19T01:31:07.988936+00:00",
+  "total": 127,
+  "unique_facilities": 110,
   "items": [
     {
       "plan_id": "V41_02C2601085",
@@ -1503,21 +1503,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_01C2503056",
-      "mhlw_plan_code": "01C2503056",
-      "facility_id": "V41FA0C1E25CE8",
-      "prefecture": "東京都",
-      "facility": "医療法人社団熊野前医院　たいら整形外科",
-      "address": "荒川区東尾久4-3-9",
-      "category": "第三種",
-      "treatment": "自家多血小板血漿（PRP）を用いた筋腱付着部およびスポーツ障害（筋・腱・靭帯）の治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503056/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_02C2608020",
       "mhlw_plan_code": "02C2608020",
       "facility_id": "V41FD574F41EE5",
@@ -1573,21 +1558,6 @@
       "treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療（骨芽前駆細胞誘導Ver.）",
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509048/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01C1907070",
-      "mhlw_plan_code": "01C1907070",
-      "facility_id": "V41F2B45736B34",
-      "prefecture": "東京都",
-      "facility": "医療法人社団顕伊会　さい整形外科クリニック",
-      "address": "葛飾区堀切3丁目35-10 ｙビル101",
-      "category": "第三種",
-      "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた筋、腱、靭帯損傷、肩腱板損傷に対する治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1907070/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []

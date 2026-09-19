@@ -1,27 +1,27 @@
 {
   "version": "v41-postprocess-1.5",
-  "updated_at": "2026-09-19T01:28:51.286757+00:00",
+  "updated_at": "2026-09-19T01:31:07.901850+00:00",
   "summary": {
     "version": "v41-postprocess-1.5",
-    "updated_at": "2026-09-19T01:28:51.286465+00:00",
+    "updated_at": "2026-09-19T01:31:07.901567+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 113,
+    "promoted_qc_to_auto": 115,
     "promoted_by_parser": 67,
-    "promoted_by_verified_override": 46,
-    "normalized_auto": 629,
-    "normalized_qc": 145,
+    "promoted_by_verified_override": 48,
+    "normalized_auto": 631,
+    "normalized_qc": 143,
     "normalized_fail": 0,
-    "normalized_price_records": 2028,
+    "normalized_price_records": 2032,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 632,
+      "source_status_retained": 630,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 47,
+      "verified_official_site_override": 49,
       "still_ambiguous": 4,
       "explicit_total_price_block": 2,
       "verified_official_override": 8,
@@ -59993,9 +59993,27 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "筋・腱・靭帯への注入・PRP 4mL",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://taira-seikei.clinic/private.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://taira-seikei.clinic/private.html",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C2407028",
@@ -62639,9 +62657,57 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 44000,
+          "tax": "税込",
+          "unit": "筋・腱・靭帯への注入・PRP 2mL",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://sai-seikei.com/private.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 66000,
+          "tax": "税込",
+          "unit": "筋・腱・靭帯への注入・PRP 3mL",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://sai-seikei.com/private.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "筋・腱・靭帯への注入・PRP 4mL",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://sai-seikei.com/private.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://sai-seikei.com/private.html",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_03C2310050",
