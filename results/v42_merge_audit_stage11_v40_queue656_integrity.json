@@ -1,0 +1,32 @@
+{
+  "version": "v42-merge-audit-stage11-v40-queue656-integrity",
+  "created_date_jst": "2026-09-19",
+  "summary": {
+    "source_plans": 656,
+    "staged_unique_plans": 656,
+    "staged_rows_including_placeholders": 1624,
+    "lane_unique_plans": {
+      "A": 216,
+      "B": 335,
+      "C": 105
+    },
+    "source_status_counts": {
+      "QC": 210,
+      "AUTO": 446
+    },
+    "stage_row_status_counts": {
+      "REVIEW_QC_NO_PRICE": 110,
+      "READY_AUTO": 1135,
+      "REVIEW_QC_CANDIDATE": 379
+    },
+    "missing_plans": 0,
+    "extra_plans": 0,
+    "auto_plans_without_price_rows": 0,
+    "exact_plan_coverage": true
+  },
+  "missing_plans": [],
+  "extra_plans": [],
+  "auto_plans_without_price_rows": [],
+  "conclusion": "PASS: all 656 v40 queued plans are preserved with no AUTO plan losing its price rows.",
+  "next_step": "Build bounded staging for the 247 v40 nonqueue plans from the latest workbook master, preserving exact plan-level price links and ambiguity flags."
+}
