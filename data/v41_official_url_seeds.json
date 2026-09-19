@@ -457,6 +457,54 @@
       "facility": "医療法人吉祥会 吉井整形外科内科中央病院",
       "url": "https://kisshokai.com/",
       "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F739E9E2C77",
+      "facility": "森山整形クリニック",
+      "url": "https://clinic-moriyama.ecnet.jp/",
+      "source": "mhlw_medical_info_official_url"
+    },
+    {
+      "facility_id": "V41F4F46038078",
+      "facility": "医療法人社団済真会 永山整形外科",
+      "url": "http://www.nagayama-seikei.com/",
+      "source": "mhlw_medical_info_official_url"
+    },
+    {
+      "facility_id": "V41FFF3D4B89DD",
+      "facility": "医療法人社団慶永会 徳永整形外科",
+      "url": "https://www.tokunaga-seikei.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F7BB70789FF",
+      "facility": "医療法人社団優洸会 相模大野整形・形成外科",
+      "url": "https://www.dr-kenta.com/",
+      "source": "mhlw_medical_info_official_url"
+    },
+    {
+      "facility_id": "V41FA87CDC6E15",
+      "facility": "医療法人誠仁会 誠友クリニック",
+      "url": "https://seiyu-clinic.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FCE7B54111A",
+      "facility": "医療法人桜康会 三宮整形外科医院",
+      "url": "https://sannomiya-seikei.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FC0B9D558DC",
+      "facility": "医療法人前川整形外科医院",
+      "url": "https://maekawa1998.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F2AAA31D23B",
+      "facility": "医療法人弘仁会 三条整形外科スポーツクリニック",
+      "url": "http://www.sanjo-hp.net/",
+      "source": "verified_via_facility_directory"
     }
   ],
   "updated_at": "2026-09-19",
