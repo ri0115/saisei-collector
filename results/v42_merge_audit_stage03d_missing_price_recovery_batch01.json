@@ -1,0 +1,191 @@
+{
+  "version": "v42-merge-audit-stage03d-missing-price-recovery-batch01",
+  "created_date_jst": "2026-09-19",
+  "scope": "First 8 of 26 plans previously flagged as 価格確定 but without exported price rows.",
+  "reviewed_plans": 8,
+  "recovered_plans": 8,
+  "unresolved_plans": 0,
+  "recovered_price_rows": 18,
+  "classification": "PIPELINE_EXPORT_OMISSION_CONFIRMED_FOR_BATCH",
+  "rules": [
+    "Use only exact-plan evidence.",
+    "Exclude ancillary fees such as consultation and infection testing from treatment price rows.",
+    "Preserve all explicit treatment price options.",
+    "Do not infer tax status."
+  ],
+  "records": [
+    {
+      "code": "01E2605017",
+      "facility": "Clinique Haru Kyoto",
+      "rows": [
+        {
+          "amount": "2200000",
+          "tax": "税込",
+          "unit": "初回",
+          "label": "施術費用"
+        },
+        {
+          "amount": "1650000",
+          "tax": "税込",
+          "unit": "2回目以降",
+          "label": "施術費用"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605017/5/0",
+      "note": "Exact-plan MHLW document, fee section."
+    },
+    {
+      "code": "01E2602008",
+      "facility": "「夢」整形外科スポーツクリニック",
+      "rows": [
+        {
+          "amount": "789000",
+          "tax": "税込",
+          "unit": "1回・幹細胞1億個",
+          "label": "幹細胞治療"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2602008/5/0",
+      "note": "Includes sampling/local anesthesia/culture/storage/intra-articular administration etc."
+    },
+    {
+      "code": "01E2511014",
+      "facility": "社会医療法人黎明会 和歌山 健診クリニック・キタデ",
+      "rows": [
+        {
+          "amount": "1300000",
+          "tax": "税抜",
+          "unit": "今回の治療",
+          "label": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2511014/5/0",
+      "note": "Exact-plan MHLW document screenshot shows 130万円（税抜）."
+    },
+    {
+      "code": "01E2511020",
+      "facility": "社会医療法人黎明会 和歌山 健診クリニック・キタデ",
+      "rows": [
+        {
+          "amount": "1300000",
+          "tax": "税抜",
+          "unit": "今回の治療",
+          "label": "自己脂肪由来間葉系幹細胞を用いた靭帯・腱損傷治療"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2511020/5/0",
+      "note": "Exact-plan MHLW document screenshot shows 130万円（税抜）."
+    },
+    {
+      "code": "02C2408121",
+      "facility": "医療法人社団nagomi会 健康スポーツクリニック",
+      "rows": [
+        {
+          "amount": "1075000",
+          "tax": "税込",
+          "unit": "初回・1関節",
+          "label": "自家ASC"
+        },
+        {
+          "amount": "1300000",
+          "tax": "税込",
+          "unit": "初回・2関節",
+          "label": "自家ASC"
+        },
+        {
+          "amount": "321000",
+          "tax": "税込",
+          "unit": "2回目・1関節",
+          "label": "自家ASC"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2408121/5/0",
+      "note": "Exact-plan MHLW fee table."
+    },
+    {
+      "code": "01E2509011",
+      "facility": "AC PLUS CLINIC",
+      "rows": [
+        {
+          "amount": "3300000",
+          "tax": "税込",
+          "unit": "1回",
+          "label": "自家ASC治療（関節内投与）"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2509011/5/0",
+      "note": "Initial consultation and infection testing are ancillary and excluded."
+    },
+    {
+      "code": "01E2510027",
+      "facility": "AC PLUS CLINIC",
+      "rows": [
+        {
+          "amount": "3300000",
+          "tax": "税込",
+          "unit": "1回",
+          "label": "自家ASC治療（慢性筋骨格系疼痛・静脈内投与）"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2510027/5/0",
+      "note": "Initial consultation and infection testing are ancillary and excluded."
+    },
+    {
+      "code": "02E2407022",
+      "facility": "医療法人桜希会 東朋八尾健診クリニック",
+      "rows": [
+        {
+          "amount": "1100000",
+          "tax": "税込",
+          "unit": "片側・約5000万個",
+          "label": "幹細胞治療"
+        },
+        {
+          "amount": "1540000",
+          "tax": "税込",
+          "unit": "片側・約1億個",
+          "label": "幹細胞治療"
+        },
+        {
+          "amount": "2090000",
+          "tax": "税込",
+          "unit": "片側・約1億5000万個",
+          "label": "幹細胞治療"
+        },
+        {
+          "amount": "2640000",
+          "tax": "税込",
+          "unit": "片側・約2億個",
+          "label": "幹細胞治療"
+        },
+        {
+          "amount": "1760000",
+          "tax": "税込",
+          "unit": "両側・約5000万個×2",
+          "label": "幹細胞治療"
+        },
+        {
+          "amount": "2860000",
+          "tax": "税込",
+          "unit": "両側・約1億個×2",
+          "label": "幹細胞治療"
+        },
+        {
+          "amount": "3410000",
+          "tax": "税込",
+          "unit": "両側・約1億5000万個×2",
+          "label": "幹細胞治療"
+        },
+        {
+          "amount": "3960000",
+          "tax": "税込",
+          "unit": "両側・約2億個×2",
+          "label": "幹細胞治療"
+        }
+      ],
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2407022/5/0",
+      "note": "Exact-plan MHLW fee table; storage fee is included/free and not emitted as treatment price."
+    }
+  ],
+  "next_step": "Stage recovered price rows and audit the next 8 flagged plans."
+}
