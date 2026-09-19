@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T02:46:07.418765+00:00",
-  "total": 69,
-  "unique_facilities": 67,
+  "updated_at": "2026-09-19T02:46:31.519393+00:00",
+  "total": 66,
+  "unique_facilities": 64,
   "items": [
     {
       "plan_id": "V41_02C2402051",
@@ -664,36 +664,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_01C2410005",
-      "mhlw_plan_code": "01C2410005",
-      "facility_id": "V41F6838454D45",
-      "prefecture": "神奈川県",
-      "facility": "井土ヶ谷整形外科リハビリクリニック",
-      "address": "横浜市南区井土ケ谷中町158　アクロスキューブ3F",
-      "category": "第二種",
-      "treatment": "多血小板血漿（PRP）による変形性関節症および半月板損傷治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410005/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01C2305022",
-      "mhlw_plan_code": "01C2305022",
-      "facility_id": "V41FAC6B0C1204",
-      "prefecture": "神奈川県",
-      "facility": "医療法人　健進会　井上整形外科",
-      "address": "座間市入谷西四丁目2番6号",
-      "category": "第二種",
-      "treatment": "変形性関節症および関節腔の傷害を対象とした自家多血小板血漿（PRP）注入療法",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2305022/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_02C2608038",
       "mhlw_plan_code": "02C2608038",
       "facility_id": "V41FA4C65591BA",
@@ -807,21 +777,6 @@
       "treatment": "自家培養脂肪由来幹細胞を用いた変形性膝関節症治療",
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303043/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_03C2305019",
-      "mhlw_plan_code": "03C2305019",
-      "facility_id": "V41FEDB9A6E5CE",
-      "prefecture": "神奈川県",
-      "facility": "医療法人社団慈誠会　神人整形外科クリニック",
-      "address": "横浜市中区伊勢佐木町６－１４６\r\nストーク伊勢佐木六番館１Ｆ",
-      "category": "第二種",
-      "treatment": "多血小板血漿（PRP）による変形性膝関節症治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305019/5/0",
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []

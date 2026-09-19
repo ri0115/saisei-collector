@@ -1,31 +1,31 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T02:46:07.299848+00:00",
+  "updated_at": "2026-09-19T02:46:31.398795+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T02:46:07.299548+00:00",
+    "updated_at": "2026-09-19T02:46:31.398480+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 160,
+    "promoted_qc_to_auto": 163,
     "promoted_by_parser": 67,
-    "promoted_by_verified_override": 93,
-    "normalized_auto": 698,
-    "normalized_qc": 69,
+    "promoted_by_verified_override": 96,
+    "normalized_auto": 701,
+    "normalized_qc": 66,
     "normalized_fail": 0,
     "normalized_out_of_scope": 1,
     "normalized_no_public_price": 6,
     "in_scope_total": 773,
-    "resolved_in_scope": 704,
-    "normalized_price_records": 1567,
+    "resolved_in_scope": 707,
+    "normalized_price_records": 1570,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 575,
+      "source_status_retained": 572,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 94,
+      "verified_official_site_override": 97,
       "verified_official_override": 30,
       "explicit_total_price_block": 2,
       "verified_no_public_price": 6,
@@ -109362,12 +109362,54 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "price_type": "point",
+          "amount": 165000,
+          "amount_min": null,
+          "amount_max": null,
+          "tax": "税別",
+          "unit": "1クール・採血＋2回注射",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "診察料金を含む",
+          "ranking_eligible": true,
+          "source_url": "https://idogaya-seikei.com/prp",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "price_type": "point",
+          "amount": 165000,
+          "amount_min": null,
+          "amount_max": null,
+          "tax": "税別",
+          "unit": "1クール・採血＋2回注射",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "診察料金を含む",
+          "ranking_eligible": true,
+          "source_url": "https://idogaya-seikei.com/prp",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://idogaya-seikei.com/prp",
+      "verified_source_type": "official_clinic_site",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -109828,12 +109870,54 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "price_type": "point",
+          "amount": 88000,
+          "amount_min": null,
+          "amount_max": null,
+          "tax": "税込",
+          "unit": "1関節",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "診察料・採血・注射施術料・PRP精製技術料・キット等を含む",
+          "ranking_eligible": true,
+          "source_url": "https://inoue-seikei.net/prp.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "price_type": "point",
+          "amount": 88000,
+          "amount_min": null,
+          "amount_max": null,
+          "tax": "税込",
+          "unit": "1関節",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "診察料・採血・注射施術料・PRP精製技術料・キット等を含む",
+          "ranking_eligible": true,
+          "source_url": "https://inoue-seikei.net/prp.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://inoue-seikei.net/prp.html",
+      "verified_source_type": "official_clinic_site",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -112651,12 +112735,54 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "price_type": "point",
+          "amount": 150000,
+          "amount_min": null,
+          "amount_max": null,
+          "tax": "不明",
+          "unit": "変形性膝関節症PRP・標準治療費",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "ranking_eligible": true,
+          "source_url": "https://www.jinnin-seikei.jp/prp-guide",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "price_type": "point",
+          "amount": 150000,
+          "amount_min": null,
+          "amount_max": null,
+          "tax": "不明",
+          "unit": "変形性膝関節症PRP・標準治療費",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "ranking_eligible": true,
+          "source_url": "https://www.jinnin-seikei.jp/prp-guide",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://www.jinnin-seikei.jp/prp-guide",
+      "verified_source_type": "official_clinic_site",
       "scope_status": "IN_SCOPE"
     },
     {
