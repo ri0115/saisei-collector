@@ -1,0 +1,20 @@
+{
+  "version": "v41-no-public-price-1.0",
+  "updated_at": "2026-09-19",
+  "plans": {
+    "V41_01C2501048": {
+      "facility": "GINZA中央クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://gc-clinic.jp/menu.html",
+      "public_price_status": "CONTACT_REQUIRED",
+      "note": "MSC間葉系幹細胞治療の料金は公式サイトで「お問い合わせください」"
+    },
+    "V41_01C2506062": {
+      "facility": "GINZA中央クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://gc-clinic.jp/menu.html",
+      "public_price_status": "CONTACT_REQUIRED",
+      "note": "MSC間葉系幹細胞治療の料金は公式サイトで「お問い合わせください」"
+    }
+  }
+}
