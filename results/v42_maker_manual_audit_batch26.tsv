@@ -1,0 +1,11 @@
+facility_id	prefecture	facility	status	product	manufacturer	evidence_type	evidence_url	note
+B26-01	愛知県	ふくだ整形外科骨粗しょう症スポーツクリニック	HOLD_PRP_GENERIC_ONLY			FACILITY_OFFICIAL_PRP_ONLY	https://www.fukuda-seikeigeka.com/medical/	Current official PRP page confirms therapy but no branded kit/manufacturer.
+B26-02	香川県	医療法人弘仁会 三条整形外科スポーツクリニック	HOLD_NO_BRANDED_PRP			CURRENT_OFFICIAL_SITE_REVIEW	https://www.sanjo-hp.net/	Current official site reviewed; no branded PRP kit/manufacturer confirmed.
+B26-03	埼玉県	埼玉整形外科スポーツクリニック	HOLD_NO_BRANDED_PRP			CURRENT_OFFICIAL_SITE_REVIEW	https://s-osc.jp/	Current official site reviewed; no branded PRP kit/manufacturer confirmed.
+B26-04	大阪府	医療法人社団彦星会 健都よねだスポーツ整形外科	HOLD_EXTERNAL_PROCESSOR_NOT_PRODUCT_MAKER	PRP		FACILITY_OFFICIAL_PROCESSOR_EXPLICIT	https://yoneda-sportsclinic.com/information/20260406_01.html	Current official page states PRP is manufactured at Rohto Cell Factory Tokyo, but no branded kit/legal product manufacturer is identified; do not count processor as manufacturer share.
+B26-05	長崎県	チカラ整形外科スポーツリウマチクリニック	HOLD_NO_BRANDED_PRP			CURRENT_OFFICIAL_SITE_REVIEW	https://chikara-orthopaedics.com/menu/c930003	Current official site reviewed; no branded PRP kit/manufacturer confirmed.
+B26-06	東京都	一般社団法人MAY 武蔵野アトラスターズ整形外科スポーツクリニック	PROCESSING_OUTSOURCING_PLUS_GENERIC_PRP	PFC-FD		FACILITY_OFFICIAL_PRP_AND_PFCFD	https://musashinoasc.com/PFC-FD	Official page confirms generic PRP and PFC-FD. PRP kit maker is not identified; PFC-FD is watchlist-only.
+B26-07	福岡県	医療法人 前川整形外科医院 前川整形外科スポーツクリニック	HOLD_NO_BRANDED_PRP			CURRENT_OFFICIAL_SITE_REVIEW	https://maekawa1998.com/	Current official site/search reviewed; no branded PRP kit/manufacturer confirmed.
+B26-08	愛知県	医療法人蜂友会 はちや整形外科病院	HOLD_PRP_GENERIC_ONLY			FACILITY_OFFICIAL_PRP_ONLY	https://hachiya.or.jp/column/prp/	Current official hospital page confirms PRP therapy and fee but no branded kit/manufacturer.
+B26-09	熊本県	保田窪整形外科病院	HOLD_NO_BRANDED_PRP			CURRENT_OFFICIAL_SITE_REVIEW	https://www.hotakubo-seikei.com/	Current official site/search reviewed; no branded PRP kit/manufacturer confirmed.
+B26-10	熊本県	熊本整形外科病院	HOLD_NO_BRANDED_PRP			CURRENT_OFFICIAL_SITE_REVIEW	https://kumasei.jp/	Current official site/search reviewed; no branded PRP kit/manufacturer confirmed.
