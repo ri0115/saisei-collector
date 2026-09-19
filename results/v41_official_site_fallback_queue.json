@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T01:43:18.348796+00:00",
-  "total": 120,
-  "unique_facilities": 104,
+  "updated_at": "2026-09-19T01:44:52.712357+00:00",
+  "total": 119,
+  "unique_facilities": 103,
   "items": [
     {
       "plan_id": "V41_02C2601085",
@@ -1064,21 +1064,6 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1905014/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_02C1909204",
-      "mhlw_plan_code": "02C1909204",
-      "facility_id": "V41FA963D19FE0",
-      "prefecture": "東京都",
-      "facility": "医療法人社団 秀慈会 リバーシティすずき整形外科",
-      "address": "中央区佃1-11-8 \r\nピアウエストスクエア2階264号",
-      "category": "第二種",
-      "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する組織修復",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909204/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
     },

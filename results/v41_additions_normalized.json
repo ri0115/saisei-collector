@@ -1,27 +1,27 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T01:43:18.229762+00:00",
+  "updated_at": "2026-09-19T01:44:52.595671+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T01:43:18.229424+00:00",
+    "updated_at": "2026-09-19T01:44:52.595328+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 119,
+    "promoted_qc_to_auto": 120,
     "promoted_by_parser": 67,
-    "promoted_by_verified_override": 52,
-    "normalized_auto": 653,
-    "normalized_qc": 121,
+    "promoted_by_verified_override": 53,
+    "normalized_auto": 654,
+    "normalized_qc": 120,
     "normalized_fail": 0,
-    "normalized_price_records": 1512,
+    "normalized_price_records": 1513,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 623,
+      "source_status_retained": 622,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 53,
+      "verified_official_site_override": 54,
       "verified_official_override": 26,
       "explicit_total_price_block": 2,
       "still_ambiguous": 2,
@@ -66862,12 +66862,46 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "PRP注射1関節・採血30-32mL / PRP 4mL",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://suzuki-seikei.tokyo/medical/medical01.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_official_current": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "PRP注射1関節・採血30-32mL / PRP 4mL",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://suzuki-seikei.tokyo/medical/medical01.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://suzuki-seikei.tokyo/medical/medical01.html",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_02C2001038",
