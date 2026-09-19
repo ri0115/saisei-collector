@@ -349,6 +349,9 @@ def main():
             else:
                 normed.append(normalize_candidate(p,item.get("treatment_class","")))
         item["prices_normalized"]=normed
+        item["prices_mhlw_document"]=normed
+        item["prices_official_current"]=[]
+        item["price_source_preferred"]="mhlw_document"
         item["status_normalized"]=item["status_source"]
         item["postprocess_resolution"]="source_status_retained"
 
@@ -378,6 +381,8 @@ def main():
             if verified:
                 if item.get("status_normalized")!="AUTO":
                     override_promoted+=1
+                item["prices_official_current"]=verified
+                item["price_source_preferred"]="official_current"
                 item["prices_normalized"]=verified
                 item["status_normalized"]="AUTO"
                 item["postprocess_resolution"]="verified_official_site_override"
@@ -399,6 +404,9 @@ def main():
                 q["postprocess_keep"]=True
                 q["postprocess_reason"]="verified_official_override"
                 op.append(q)
+            item["prices_override_verified"]=op
+            if not item.get("prices_official_current"):
+                item["price_source_preferred"]="verified_override"
             item["prices_normalized"]=op
             item["status_normalized"]="AUTO"
             item["postprocess_resolution"]="verified_official_override"
@@ -414,7 +422,7 @@ def main():
         reason_counts[item["postprocess_resolution"]]=reason_counts.get(item["postprocess_resolution"],0)+1
 
     summary={
-        "version":"v41-postprocess-1.5",
+        "version":"v41-postprocess-1.6",
         "updated_at":now(),
         "total":len(items),
         "source_auto":sum(1 for x in items if x.get("status_source")=="AUTO"),
@@ -430,7 +438,7 @@ def main():
         "resolution_counts":reason_counts,
     }
 
-    OUT_JSON.write_text(json.dumps({"version":"v41-postprocess-1.5","updated_at":now(),"summary":summary,"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
+    OUT_JSON.write_text(json.dumps({"version":"v41-postprocess-1.6","updated_at":now(),"summary":summary,"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
     OUT_SUM.write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding="utf-8")
 
     web_fallback=[]
