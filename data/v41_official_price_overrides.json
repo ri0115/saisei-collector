@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-overrides-1.2",
+  "version": "v41-official-overrides-1.3",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -500,6 +500,260 @@
         }
       ],
       "note": "関節外軟部組織（第三種）用の料金表。診察・検査費は治療費と別途。"
+    },
+    {
+      "plan_id": "V41_02C2607062",
+      "facility": "医療法人社団 珠光会 HASUMI免疫クリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2607062/5/0",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price table visually verified",
+      "prices": [
+        {
+          "amount": 3520000,
+          "tax": "税込",
+          "unit": "初代培養・初回・1億個×1回・局所投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 4620000,
+          "tax": "税込",
+          "unit": "初代培養・初回・2億個（1億×2回）・局所投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 5500000,
+          "tax": "税込",
+          "unit": "初代培養・初回・4億個（1億×4回）・局所投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 2970000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・1億個×1回・局所投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 4070000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・2億個（1億×2回）・局所投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 4950000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・4億個（1億×4回）・局所投与",
+          "product": "骨髄由来幹細胞"
+        }
+      ],
+      "note": "骨髄採取、培養、基本投与料を含む。初診、事前検査、CT/エコー等装置下投与、再診、CD34保管は別料金。"
+    },
+    {
+      "plan_id": "V41_02C2607063",
+      "facility": "医療法人社団 珠光会 HASUMI免疫クリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2607063/5/0",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price table visually verified",
+      "prices": [
+        {
+          "amount": 3520000,
+          "tax": "税込",
+          "unit": "初代培養・初回・1億個×1回・動脈投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 4620000,
+          "tax": "税込",
+          "unit": "初代培養・初回・2億個（1億×2回）・動脈投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 5500000,
+          "tax": "税込",
+          "unit": "初代培養・初回・4億個（1億×4回）・動脈投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 2970000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・1億個×1回・動脈投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 4070000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・2億個（1億×2回）・動脈投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 4950000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・4億個（1億×4回）・動脈投与",
+          "product": "骨髄由来幹細胞"
+        }
+      ],
+      "note": "骨髄採取、培養、基本投与料を含む。初診、事前検査、CT/エコー等装置下投与、再診、CD34保管は別料金。"
+    },
+    {
+      "plan_id": "V41_02C2506086",
+      "facility": "医療法人社団ICVS 東京クリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2506086/5/0",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price table visually verified",
+      "prices": [
+        {
+          "amount": 3520000,
+          "tax": "税込",
+          "unit": "初代培養・初回・1億個×1回・動脈投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 4620000,
+          "tax": "税込",
+          "unit": "初代培養・初回・2億個（1億×2回）・動脈投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 5720000,
+          "tax": "税込",
+          "unit": "初代培養・初回・3億個（1億×3回）・動脈投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 2970000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・1億個×1回・動脈投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 4070000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・2億個（1億×2回）・動脈投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 5170000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・3億個（1億×3回）・動脈投与",
+          "product": "骨髄由来幹細胞"
+        }
+      ],
+      "note": "骨髄採取、培養、基本投与料を含む。初診、事前検査、CT/エコー/血管造影等装置下投与、再診は別料金。"
+    },
+    {
+      "plan_id": "V41_02C2508047",
+      "facility": "医療法人社団ICVS 東京クリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508047/5/0",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price table visually verified",
+      "prices": [
+        {
+          "amount": 3520000,
+          "tax": "税込",
+          "unit": "初代培養・初回・1億個×1回・局所投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 4620000,
+          "tax": "税込",
+          "unit": "初代培養・初回・2億個（1億×2回）・局所投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 5720000,
+          "tax": "税込",
+          "unit": "初代培養・初回・3億個（1億×3回）・局所投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 2970000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・1億個×1回・局所投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 4070000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・2億個（1億×2回）・局所投与",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 5170000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・3億個（1億×3回）・局所投与",
+          "product": "骨髄由来幹細胞"
+        }
+      ],
+      "note": "骨髄採取、培養、基本投与料を含む。初診、事前検査、CT/エコー/血管造影等装置下投与、再診は別料金。"
+    },
+    {
+      "plan_id": "V41_02C2605064",
+      "facility": "医療法人社団ICVS 東京クリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605064/5/0",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price table visually verified",
+      "prices": [
+        {
+          "amount": 2970000,
+          "tax": "税込",
+          "unit": "初代培養・初回・1億個×1回・動脈投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 3960000,
+          "tax": "税込",
+          "unit": "初代培養・初回・2億個（1億×2回）・動脈投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 4950000,
+          "tax": "税込",
+          "unit": "初代培養・初回・4億個（1億×4回）・動脈投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 6050000,
+          "tax": "税込",
+          "unit": "初代培養・初回・6億個（1億×6回）・動脈投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 7150000,
+          "tax": "税込",
+          "unit": "初代培養・初回・8億個（1億×8回）・動脈投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2255000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・1億個×1回・動脈投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 3355000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・2億個（1億×2回）・動脈投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 4400000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・4億個（1億×4回）・動脈投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 4840000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・6億個（1億×6回）・動脈投与",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 5720000,
+          "tax": "税込",
+          "unit": "解凍培養・2回目・8億個（1億×8回）・動脈投与",
+          "product": "脂肪由来幹細胞"
+        }
+      ],
+      "note": "脂肪採取、培養、基本投与料を含む。初診、事前検査、CT/エコー/血管造影等装置下投与、再診は別料金。"
     }
   ]
 }
