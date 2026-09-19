@@ -1,0 +1,225 @@
+{
+  "version": "v41-official-site-batch-03",
+  "baseline_version": "v41-postprocess-1.6",
+  "scope": {
+    "queue_file": "results/v41_official_site_fallback_queue.json",
+    "batch_index": 3,
+    "facilities": 10,
+    "items": 10,
+    "queue_item_range": "21-30"
+  },
+  "decision_rule": {
+    "confirmed_price": "Current official facility site or the exact current MHLW published-plan document for the identical queued plan explicitly shows a numeric treatment price. Prices for materially different treatments are not substituted.",
+    "official_no_public_price": "Current official facility site confirms the identical queued treatment/therapy is offered, but the current public fee information does not publish that treatment fee.",
+    "unconfirmed": "The current official facility site cannot be adequately inspected or does not establish a sufficiently close match to the queued treatment, and the exact public plan materials do not yield a reliable numeric fee. Related-treatment prices are not reused."
+  },
+  "evidence_policy_note": "Exact MHLW published-plan documents are accepted as primary-source evidence only for the identical queued plan. Cross-plan, same-facility, and related-modality prices are explicitly excluded.",
+  "classification_counts": {
+    "価格確定": 3,
+    "公式サイトはあるが価格非公開": 3,
+    "未確認": 4
+  },
+  "records": [
+    {
+      "queue_no": 21,
+      "plan_id": "V41_01C2409061",
+      "mhlw_plan_code": "01C2409061",
+      "facility_id": "V41FFD2B139326",
+      "facility": "医療法人社団円徳 慶友整形外科脊椎関節病院",
+      "prefecture": "東京都",
+      "target_treatment": "自己脂肪由来間葉系幹細胞を用いた慢性疼痛に対する治療",
+      "classification": "未確認",
+      "official_url": "https://hospital.adachikeiyu.com/visitation",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409061/5/0",
+      "matched_prices": [],
+      "evidence": "The exact MHLW plan document confirms the chronic-pain adipose-derived MSC treatment, but its fee section contains placeholder amounts rather than numeric public fees. The current hospital site does not independently expose this exact stem-cell service/fee.",
+      "related_prices_not_adopted": [
+        "同施設の別計画PRP 1回50,000円（税込）— batch02で確定した別治療のため不採用"
+      ]
+    },
+    {
+      "queue_no": 22,
+      "plan_id": "V41_03C2309040",
+      "mhlw_plan_code": "03C2309040",
+      "facility_id": "V41F865E2F2615",
+      "facility": "医療法人社団医進会 銀座小田クリニック",
+      "prefecture": "東京都",
+      "target_treatment": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療",
+      "classification": "公式サイトはあるが価格非公開",
+      "official_url": "https://ishinkai-goc.net/our-medical-care/stem-cell-therapy/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2309040/5/0",
+      "matched_prices": [],
+      "evidence": "The current official stem-cell page explicitly describes treatment of osteoarthritis using the patient's adipose-derived MSCs injected intra-articularly. The exact MHLW plan states that prescribed costs apply and refers to a separate '治療費用について' sheet, but no numeric public fee is shown in the public document/site."
+    },
+    {
+      "queue_no": 23,
+      "plan_id": "V41_01C2503053",
+      "mhlw_plan_code": "01C2503053",
+      "facility_id": "V41F444EEF2E57",
+      "facility": "医療法人社団同仁会診療所 Clinic Le GINZA",
+      "prefecture": "東京都",
+      "target_treatment": "整形外科疾患に伴う炎症の緩和を目的とした自己脂肪組織由来間葉系幹細胞の静脈点滴治療",
+      "classification": "価格確定",
+      "official_url": "https://clinic-le-ginza.jp/stem-cell/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503053/5/0",
+      "matched_prices": [
+        {
+          "treatment": "整形外科疾患に伴う炎症の緩和を目的とした自己脂肪組織由来間葉系幹細胞の静脈点滴治療",
+          "amount_yen": 1500000,
+          "tax": "税抜",
+          "unit": "今回の治療"
+        }
+      ],
+      "evidence": "The exact MHLW published-plan document states that the required fee for this treatment is 1,500,000 yen before tax. The current official clinic page also describes stem-cell treatment for orthopedic/joint disorders.",
+      "ancillary_fees_not_adopted": [
+        "初回カウンセリング 3,500円 — 診察/見積提示費であり治療価格ではない"
+      ]
+    },
+    {
+      "queue_no": 24,
+      "plan_id": "V41_01C2507025",
+      "mhlw_plan_code": "01C2507025",
+      "facility_id": "V41F568ED5AA3F",
+      "facility": "医療法人社団心愛会 麻布台ビューティセルクリニック",
+      "prefecture": "東京都",
+      "target_treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節外の軟部組織）",
+      "classification": "公式サイトはあるが価格非公開",
+      "official_url": "https://beautycell-cl.com/menu/regenerative_medicine/",
+      "fee_url": "https://beautycell-cl.com/price/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507025/5/0",
+      "matched_prices": [],
+      "evidence": "The current official site explicitly lists PRP for muscle/tendon/ligament injury and chronic inflammation. Its public price page states that regenerative-medicine fees are explained during counseling, and the exact MHLW plan likewise states that the detailed treatment fee is individually explained and provided separately.",
+      "related_prices_not_adopted": [
+        "美容目的シワ改善PRP等の価格 — 対象部位・目的が異なるため不採用"
+      ]
+    },
+    {
+      "queue_no": 25,
+      "plan_id": "V41_01C2206031",
+      "mhlw_plan_code": "01C2206031",
+      "facility_id": "V41FFF3D4B89DD",
+      "facility": "医療法人社団慶永会 徳永整形外科",
+      "prefecture": "東京都",
+      "target_treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法",
+      "classification": "価格確定",
+      "official_url": "https://www.tokunaga-seikei.com/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206031/5/0",
+      "matched_prices": [
+        {
+          "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害を対象とした自家PRP注入療法",
+          "detail": "血液分離専用容器キットによる施術料",
+          "amount_yen": 38500,
+          "tax": "税込",
+          "unit": "1回"
+        }
+      ],
+      "evidence": "The exact MHLW plan PDF explicitly states '血液分離専用容器キットによる施術料 1回 38,500円（税込）'. No manufacturer is inferred from the generic kit wording."
+    },
+    {
+      "queue_no": 26,
+      "plan_id": "V41_02C2410055",
+      "mhlw_plan_code": "02C2410055",
+      "facility_id": "V41F70C769660D",
+      "facility": "医療法人社団敬和慶友会 自由が丘くびと腰の整形外科関節のクリニック",
+      "prefecture": "東京都",
+      "target_treatment": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療",
+      "classification": "価格確定",
+      "official_url": "https://seikeigeka.clinic/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2410055/5/0",
+      "matched_prices": [
+        {
+          "treatment": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療",
+          "amount_yen": 1200000,
+          "tax": "税込",
+          "unit": "今回の治療"
+        }
+      ],
+      "evidence": "The exact MHLW published-plan document for this clinic and treatment states 1,200,000 yen tax included.",
+      "related_prices_not_adopted": [
+        "公式サイトの『切らない関節治療』PRP 45,000円（税込）/回 — 幹細胞治療とは別モダリティのため不採用"
+      ]
+    },
+    {
+      "queue_no": 27,
+      "plan_id": "V41_02C2507026",
+      "mhlw_plan_code": "02C2507026",
+      "facility_id": "V41FA414C99BAB",
+      "facility": "医療法人美健会ルネスクリニック日本橋",
+      "prefecture": "東京都",
+      "target_treatment": "慢性筋骨格系疼痛の緩和を目的とした自己脂肪由来間葉系幹細胞治療（局所投与）",
+      "classification": "未確認",
+      "official_url": "https://renais-clinic-ag.com/",
+      "fee_url": "https://renais-clinic-ag.com/fee/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2507026/5/0",
+      "matched_prices": [],
+      "evidence": "The exact MHLW plan exists and states that course/fee details are provided on a separate price sheet, but the current public official site reviewed here primarily exposes stem-cell secretome/exosome treatments rather than clearly establishing this identical autologous live-MSC local-injection service. Retained as unconfirmed.",
+      "related_prices_not_adopted": [
+        "脂肪由来幹細胞セクレトーム 22,000円/ml — cell-free product, not autologous MSC treatment",
+        "iPSエクソソーム 点滴220,000円/皮下注射198,000円（税込）— different modality"
+      ]
+    },
+    {
+      "queue_no": 28,
+      "plan_id": "V41_03C2601008",
+      "mhlw_plan_code": "03C2601008",
+      "facility_id": "V41F9D55F516BD",
+      "facility": "医療法人輝鳳会 池袋クリニック",
+      "prefecture": "東京都",
+      "target_treatment": "多血小板血漿（PRP）を用いた変形性関節症治療",
+      "classification": "未確認",
+      "official_url": "https://ganno-clinic.jp/",
+      "fee_url": "https://ganno-clinic.jp/chiryou/price.html",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2601008/5/0",
+      "matched_prices": [],
+      "evidence": "The current MHLW listing/document confirms the exact PRP osteoarthritis plan, but the current official facility site and its public fee page focus on oncology/immune therapies and do not establish a current public PRP osteoarthritis service/fee. The PDF could not be reliably parsed for its fee section during this pass, so no numeric amount is inferred.",
+      "related_prices_not_adopted": [
+        "NK/iNKT/αβT等の免疫細胞療法価格 — 対象外",
+        "幹細胞治療の第三者掲載価格 — PRP価格ではなく一次情報でもないため不採用"
+      ]
+    },
+    {
+      "queue_no": 29,
+      "plan_id": "V41_01C1904038",
+      "mhlw_plan_code": "01C1904038",
+      "facility_id": "V41F18AF7F0D02",
+      "facility": "医療法人鉄蕉会 亀田京橋クリニック",
+      "prefecture": "東京都",
+      "target_treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた関節内組織損傷に対する治療",
+      "classification": "公式サイトはあるが価格非公開",
+      "official_url": "https://medical.kameda.com/kyobashi/patient/lp/sport/",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1904038/5/0",
+      "matched_prices": [],
+      "evidence": "The current official Kameda Kyobashi sports-medicine page explicitly states that intra-articular PRP injections are available. The exact MHLW plan states that the fee includes examination, blood draw, PRP preparation and injection, but instructs patients to confirm the fee with the physician; no public numeric treatment price is given.",
+      "unrelated_prices_not_adopted": [
+        "セカンドオピニオン等の一般自費料金 — PRP治療費ではない"
+      ]
+    },
+    {
+      "queue_no": 30,
+      "plan_id": "V41_02C2306054",
+      "mhlw_plan_code": "02C2306054",
+      "facility_id": "V41FF421A2F9B8",
+      "facility": "小石川整形外科",
+      "prefecture": "東京都",
+      "target_treatment": "自家脂肪組織由来の培養間葉系幹細胞を用いた変形性膝関節症の治療",
+      "classification": "未確認",
+      "official_url": "https://koishikawa-seikei.com/",
+      "historical_official_treatment_url": "https://koishikawa-seikei.com/asc.html",
+      "mhlw_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2306054/5/0",
+      "matched_prices": [],
+      "evidence": "The exact MHLW plan confirms the target treatment, but the publicly downloadable fee table has its numeric cell-count/fee rows blacked out. A previously indexed official ASC page now returned 404 during the current check, and the current homepage does not independently expose the ASC treatment/price. Retained as unconfirmed rather than no-public-price."
+    }
+  ],
+  "batch_audit": {
+    "item_count": 10,
+    "unique_facility_count": 10,
+    "classification_total": 10,
+    "confirmed_price_facilities": 3,
+    "confirmed_price_rows": 3,
+    "official_no_public_price_facilities": 3,
+    "unconfirmed_facilities": 4,
+    "fail": 0,
+    "baseline_mutated": false,
+    "next_queue_no": 31
+  }
+}
