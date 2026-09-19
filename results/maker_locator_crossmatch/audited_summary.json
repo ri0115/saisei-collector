@@ -1,13 +1,13 @@
 {
   "high_candidate_rows_before_normalized_audit": 37,
   "audited_unique_facility_maker_pairs": 37,
-  "new_manufacturer_facilities": 36,
-  "new_manufacturer_placements_on_new_facilities": 37,
+  "new_manufacturer_facilities": 35,
+  "new_manufacturer_placements_on_new_facilities": 36,
   "new_maker_placements_on_already_known_facilities": 0,
-  "duplicate_known_maker_pairs": 0,
+  "duplicate_known_maker_pairs": 1,
   "new_facility_by_manufacturer": {
     "Zimmer Biomet": 6,
-    "Arthrex": 31
+    "Arthrex": 30
   },
   "new_existing_facility_placements_by_manufacturer": {},
   "new_facilities": [
@@ -182,13 +182,6 @@
     {
       "prefecture": "東京都",
       "facility": "医療法人社団 山手クリニック",
-      "maker": "Arthrex",
-      "source": "Arthrex",
-      "products": "ACP-PRP"
-    },
-    {
-      "prefecture": "東京都",
-      "facility": "池尻大橋せらクリニック",
       "maker": "Arthrex",
       "source": "Arthrex",
       "products": "ACP-PRP"
