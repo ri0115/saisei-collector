@@ -1,0 +1,18 @@
+{
+  "version": "v42-maker-manual-audit-batch-45",
+  "date_jst": "2026-09-20",
+  "audited_facilities": 10,
+  "confirmed_new_facilities": 1,
+  "confirmed_new_manufacturer_placements": 1,
+  "holds": 9,
+  "confirmed_by_manufacturer": {
+    "Zimmer Biomet": 1
+  },
+  "cycle_43_45": {
+    "audited_facilities": 30,
+    "provisional_new_facilities_before_rebuild": 5,
+    "provisional_new_manufacturer_placements_before_rebuild": 5
+  },
+  "canonical_merge_due": true,
+  "note": "Batch 45 completes the 30-facility cycle. Merge Batch 43 Misato Chuo, Batch 44 Takahiro/Egawa/Osaka Nakanoshima, and Batch 45 TMG Asaka, then rebuild canonical."
+}
