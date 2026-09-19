@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-overrides-1.4",
+  "version": "v41-official-overrides-1.5",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -823,6 +823,60 @@
         }
       ],
       "note": "PDFでは税込/税別の明示なし。"
+    },
+    {
+      "plan_id": "V41_01E2303002",
+      "facility": "医療法人ポイントワン ならやまと整形外科スポーツクリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/1",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price page visually verified",
+      "prices": [
+        {
+          "amount": 110000,
+          "tax": "税込",
+          "unit": "血液分離専用容器キット・施術1回",
+          "product": "PRP"
+        }
+      ],
+      "note": "治療内容・回数により1回あたり減額される場合あり。"
+    },
+    {
+      "plan_id": "V41_02C2606015",
+      "facility": "アヴェニューセルクリニック",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606015/5/1",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "two patient-group price documents visually verified",
+      "prices": [
+        {
+          "amount": 800000,
+          "tax": "税別",
+          "unit": "日本の健康保険証をお持ちの方",
+          "product": "脂肪由来幹細胞",
+          "note": "資料1（/5/1）"
+        },
+        {
+          "amount": 1300000,
+          "tax": "税別",
+          "unit": "日本の健康保険証をお持ちでない方",
+          "product": "脂肪由来幹細胞",
+          "note": "資料2（/5/2）。通訳・コーディネーター経由のフォローアップ費用を含む。"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_02C2606022",
+      "facility": "アヴェニューセルクリニック",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2606022/5/1",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price page visually verified",
+      "prices": [
+        {
+          "amount": 800000,
+          "tax": "税別",
+          "unit": "治療1回",
+          "product": "脂肪由来幹細胞"
+        }
+      ]
     }
   ]
 }
