@@ -1364,6 +1364,127 @@
         }
       ],
       "note": "公式サイトの現行料金。税抜80,000円、税込88,000円。診察料・採血・注射施術料・PRP精製技術料・材料費を含む。"
+    },
+    "V41_02E2507042": {
+      "facility": "社会医療法人黎明会　北出病院",
+      "source_type": "mhlw_current_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507042/5/0",
+      "prices": [
+        {
+          "amount": 120000,
+          "tax": "税別",
+          "unit": "関節内PRP",
+          "product": "GPS",
+          "note": "GPSⅢ 120,000円（税抜）"
+        },
+        {
+          "amount": 280000,
+          "tax": "税別",
+          "unit": "関節内PRP",
+          "product": "APS",
+          "note": "APS 280,000円（税抜）"
+        }
+      ]
+    },
+    "V41_02E2507043": {
+      "facility": "社会医療法人黎明会　北出病院",
+      "source_type": "mhlw_current_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507043/5/0",
+      "prices": [
+        {
+          "amount": null,
+          "amount_min": 90000,
+          "amount_max": 120000,
+          "price_type": "range",
+          "tax": "税別",
+          "unit": "軟部組織PRP",
+          "product": "GPS",
+          "note": "GPSⅢ 90,000〜120,000円（税抜）"
+        }
+      ]
+    },
+    "V41_02E2509003": {
+      "facility": "社会医療法人黎明会　北出病院",
+      "source_type": "mhlw_current_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+      "prices": [
+        {
+          "amount": 880000,
+          "tax": "不明",
+          "unit": "片膝2回・5000万個×2回培養・1回目",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 660000,
+          "tax": "不明",
+          "unit": "片膝2回・5000万個×2回培養・2回目",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1210000,
+          "tax": "不明",
+          "unit": "両膝2回・1億個×2回培養・1回目",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 880000,
+          "tax": "不明",
+          "unit": "両膝2回・1億個×2回培養・2回目",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1320000,
+          "tax": "不明",
+          "unit": "片膝2回投与・1億個×1回培養・1回目",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 0,
+          "tax": "不明",
+          "unit": "片膝2回投与・1億個×1回培養・2回目",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1760000,
+          "tax": "不明",
+          "unit": "両膝2回投与・2億個×1回培養・1回目",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 0,
+          "tax": "不明",
+          "unit": "両膝2回投与・2億個×1回培養・2回目",
+          "product": "脂肪由来幹細胞"
+        }
+      ]
+    },
+    "V41_03F2511004": {
+      "facility": "社会医療法人里仁会　興生総合病院",
+      "source_type": "mhlw_current_document",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2511004/5/0",
+      "prices": [
+        {
+          "amount": 100000,
+          "tax": "税別",
+          "unit": "軟部組織治療・費用例",
+          "product": "PRP",
+          "note": "100,000円（税抜）、価格は一例"
+        }
+      ]
+    },
+    "V41_02C2602025": {
+      "facility": "医療法人　輝鳳会　池袋クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://www.stemcell-therapy.jp/",
+      "prices": [
+        {
+          "amount": 3300000,
+          "tax": "税込",
+          "unit": "1回",
+          "product": "脂肪由来幹細胞",
+          "note": "公式サイト治療費用：1回 3,300,000円（税込）"
+        }
+      ]
     }
   },
   "updated_at": "2026-09-19"
