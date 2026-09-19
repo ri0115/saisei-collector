@@ -20,15 +20,15 @@ PRODUCT_PATTERNS = [
     ("ACP MAX", re.compile(r"(?i)ACP[\\s・_-]*MAX|HD[- ]?PRP\\s*[（(]ACP\\s*MAX")),
     ("ACP", re.compile(r"(?i)(?<!MAX[\\s・_-])\\bACP\\b|ACPダブルシリンジ|ACP[- ]?PRP")),
     ("Angel", re.compile(r"(?i)\\bAngel\\b(?:\\s*c?PRP)?")),
-    ("GPS", re.compile(r"(?i)GPS\\s*(?:III|Ⅲ|3)?(?:\\s*(?:system|システム|PRPキット))?")),
-    ("APS", re.compile(r"(?i)\\bAPS\\b|Autologous\\s+Protein\\s+Solution")),
+    ("GPS", re.compile(r"(?i)G\\s*P\\s*S\\s*(?:III|Ⅲ|3)?(?:\\s*(?:system|システム|PRPキット))?")),
+    ("APS", re.compile(r"(?i)(?<![A-Za-z])A\\s*P\\s*S(?![A-Za-z])|Autologous\\s+Protein\\s+Solution")),
     ("Condensia", re.compile(r"(?i)Condensia|コンデンシア")),
     ("MyCells", re.compile(r"(?i)My\\s*cells?|Mycells")),
     ("TriCeLL", re.compile(r"(?i)Tri\\s*Cell|TriCeLL|トライセル")),
     ("MAGELLAN", re.compile(r"(?i)MAGELLAN|Magellan|マゼラン")),
     ("PRGF-Endoret", re.compile(r"(?i)PRGF[- ]?Endoret|Endoret|PRGF")),
     ("PEAK", re.compile(r"(?i)PEAK\\s*(?:PRP)?\\s*(?:System|システム)?")),
-    ("YCELL", re.compile(r"(?i)YCELL|Ycellbio|ワイセル")),
+    ("YCELL", re.compile(r"(?i)(?<![A-Za-z])Y\\s*CELL(?:BIO)?(?:\\s*Medical)?|ワイセル")),
 ]
 
 MAKER_PATTERNS = [
