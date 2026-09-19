@@ -1,0 +1,34 @@
+{
+  "version": "v42-merge-audit-stage03c-price-batch-002",
+  "created_date_jst": "2026-09-19",
+  "purpose": "Bounded pre-merge validation for auto-confirmed price rows 151-300.",
+  "batch": {
+    "source": "results/v42_auto_prices_compact.tsv",
+    "data_row_start": 151,
+    "data_row_end": 300,
+    "price_rows": 150,
+    "unique_plan_codes": 76,
+    "first_plan_code": "02C2603018",
+    "last_plan_code": "02E2508014"
+  },
+  "validation": {
+    "missing_plan_codes_in_additions": 0,
+    "all_plan_codes_resolve_uniquely": true,
+    "price_status_by_unique_plan": {
+      "価格確定": 76
+    },
+    "audit_only_rows_present": 0,
+    "manual_price_overlap_codes_in_batch": 0,
+    "safe_for_merge": true
+  },
+  "merge_rules_locked": [
+    "Join by exact mhlw_plan_code at plan level.",
+    "Do not substitute a related-treatment price for another plan.",
+    "Do not treat ancillary fees as treatment prices.",
+    "Preserve multiple valid price options for the same plan as separate price rows.",
+    "Preserve tax and unit labels as captured; do not infer missing tax treatment.",
+    "Keep audit-only plans outside the v42 core and retain them only in the audit trail."
+  ],
+  "mutation_status": "STAGED_ONLY",
+  "next_step": "Continue with auto price rows 301-450 after saving the staged batch."
+}
