@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T02:45:25.156829+00:00",
-  "total": 71,
-  "unique_facilities": 69,
+  "updated_at": "2026-09-19T02:45:40.277310+00:00",
+  "total": 69,
+  "unique_facilities": 67,
   "items": [
     {
       "plan_id": "V41_02C2402051",
@@ -500,21 +500,6 @@
       ]
     },
     {
-      "plan_id": "V41_03C2603037",
-      "mhlw_plan_code": "03C2603037",
-      "facility_id": "V41F4533DED309",
-      "prefecture": "東京都",
-      "facility": "学校法人藤田学園　藤田医科大学　羽田クリニック",
-      "address": "大田区羽田空港1-1-4",
-      "category": "第二種",
-      "treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2603037/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_02C2306054",
       "mhlw_plan_code": "02C2306054",
       "facility_id": "V41FF421A2F9B8",
@@ -587,21 +572,6 @@
           "postprocess_reason": "treatment_label_nearest"
         }
       ]
-    },
-    {
-      "plan_id": "V41_02C1909198",
-      "mhlw_plan_code": "02C1909198",
-      "facility_id": "V41F3DE4512B69",
-      "prefecture": "東京都",
-      "facility": "社会福祉法人　みどり福祉会\r\nB&Jクリニック　お茶の水",
-      "address": "千代田区神田駿河台2-1-47\r\n廣瀬お茶の水ビル5F",
-      "category": "第三種",
-      "treatment": "自家多血小板血漿（PRP）を用いた筋腱付着部炎、筋腱炎、靭帯損傷（関節外に限る）治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909198/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2504035",

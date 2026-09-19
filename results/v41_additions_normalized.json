@@ -1,31 +1,31 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T02:45:25.037051+00:00",
+  "updated_at": "2026-09-19T02:45:40.156498+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T02:45:25.036556+00:00",
+    "updated_at": "2026-09-19T02:45:40.156135+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 158,
+    "promoted_qc_to_auto": 160,
     "promoted_by_parser": 67,
-    "promoted_by_verified_override": 91,
-    "normalized_auto": 696,
-    "normalized_qc": 71,
+    "promoted_by_verified_override": 93,
+    "normalized_auto": 698,
+    "normalized_qc": 69,
     "normalized_fail": 0,
     "normalized_out_of_scope": 1,
     "normalized_no_public_price": 6,
     "in_scope_total": 773,
-    "resolved_in_scope": 702,
-    "normalized_price_records": 1565,
+    "resolved_in_scope": 704,
+    "normalized_price_records": 1567,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 577,
+      "source_status_retained": 575,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 92,
+      "verified_official_site_override": 94,
       "verified_official_override": 30,
       "explicit_total_price_block": 2,
       "verified_no_public_price": 6,
@@ -93386,12 +93386,54 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "price_type": "range",
+          "amount": null,
+          "amount_min": 1650000,
+          "amount_max": 3300000,
+          "tax": "税込",
+          "unit": "自家脂肪由来間葉系幹細胞培養＋注射",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "変形性膝関節症の公式料金レンジ",
+          "ranking_eligible": false,
+          "source_url": "https://haneda.fujita-hu.ac.jp/department/Musculoskeletal_Surgery_Center.html",
+          "source_type": "official_hospital_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "price_type": "range",
+          "amount": null,
+          "amount_min": 1650000,
+          "amount_max": 3300000,
+          "tax": "税込",
+          "unit": "自家脂肪由来間葉系幹細胞培養＋注射",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "変形性膝関節症の公式料金レンジ",
+          "ranking_eligible": false,
+          "source_url": "https://haneda.fujita-hu.ac.jp/department/Musculoskeletal_Surgery_Center.html",
+          "source_type": "official_hospital_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://haneda.fujita-hu.ac.jp/department/Musculoskeletal_Surgery_Center.html",
+      "verified_source_type": "official_hospital_site",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -98772,12 +98814,54 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "price_type": "range",
+          "amount": null,
+          "amount_min": 20000,
+          "amount_max": 150000,
+          "tax": "税別",
+          "unit": "PRP・1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "投与疾患・投与部位により異なる公式価格レンジ",
+          "ranking_eligible": false,
+          "source_url": "https://bj-clinic.com/prp%EF%BC%88%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%89%E7%99%82%E6%B3%95",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "price_type": "range",
+          "amount": null,
+          "amount_min": 20000,
+          "amount_max": 150000,
+          "tax": "税別",
+          "unit": "PRP・1回",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "投与疾患・投与部位により異なる公式価格レンジ",
+          "ranking_eligible": false,
+          "source_url": "https://bj-clinic.com/prp%EF%BC%88%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%89%E7%99%82%E6%B3%95",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://bj-clinic.com/prp%EF%BC%88%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%89%E7%99%82%E6%B3%95",
+      "verified_source_type": "official_clinic_site",
       "scope_status": "IN_SCOPE"
     },
     {
