@@ -30,7 +30,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: maker-web-shard-${{ matrix.batch }}
-          path: results/maker_full_web_sharded/batch${{ format('{0:00}', matrix.batch) }}
+          path: results/maker_full_web_sharded/**
           retention-days: 7
 
   consolidate:
