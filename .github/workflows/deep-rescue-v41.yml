@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: "regen-v41-deep-rescue"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   rescue:
