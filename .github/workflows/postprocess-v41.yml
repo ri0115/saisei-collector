@@ -2,6 +2,9 @@ name: Postprocess v41 price QC
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Import v41 deep rescue prices"]
+    types: [completed]
   push:
     branches: [main]
     paths:
