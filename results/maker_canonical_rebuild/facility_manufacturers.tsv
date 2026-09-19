@@ -31,7 +31,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 兵庫県|慶愛会森口整形外科	兵庫県	医療法人社団慶愛会 森口整形外科	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 兵庫県|成道会ひろクリニック	兵庫県	医療法人社団成道会 ひろクリニック	Zimmer Biomet	1	GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 兵庫県|成道会神戸関節症クリニック	兵庫県	医療法人社団成道会 神戸関節症クリニック	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
-兵庫県|高遼会整形外科たかひろクリニック	兵庫県	医療法人社団高遼会 整形外科たかひろクリニック	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+兵庫県|高遼会整形外科たかひろクリニック	兵庫県	医療法人社団高遼会 整形外科たかひろクリニック	Zimmer Biomet	1	APS|APS|GPS|GPS III|APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR|MHLW_FULL
 兵庫県|神戸海星病院	兵庫県	医療法人財団 神戸海星病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
 兵庫県|増本整形外科クリニック	兵庫県	増本整形外科クリニック	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 兵庫県|木本整形外科クリニック	兵庫県	木本整形外科クリニック	ESTAR Technologies	1	MyCells	MANUAL_VERIFIED
@@ -94,10 +94,10 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 埼玉県|nagomi会健康スポーツクリニック	埼玉県	医療法人社団nagomi会  健康スポーツクリニック	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 埼玉県|南越谷病院	埼玉県	医療法人社団南越谷病院	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
 埼玉県|幸祥会東整形外科	埼玉県	医療法人社団幸祥会 東整形外科	Zimmer Biomet|京セラ	2	APS|APS|Condensia|GPS|GPS III|APS|Condensia	MANUAL_VERIFIED|MANUFACTURER_LOCATOR|MHLW_FULL
-埼玉県|愛友会三郷中央総合病院	埼玉県	医療法人社団愛友会 三郷中央総合病院	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
-埼玉県|慶辰会新越谷駅前えがわ整形外科クリニック	埼玉県	医療法人社団慶辰会 新越谷駅前えがわ整形外科クリニック	Zimmer Biomet	1	APS|GPS	MHLW_FULL
+埼玉県|愛友会三郷中央総合病院	埼玉県	医療法人社団愛友会 三郷中央総合病院	Zimmer Biomet	1	APS|APS|GPS|GPS III|APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR|MHLW_FULL
+埼玉県|慶辰会新越谷駅前えがわ整形外科クリニック	埼玉県	医療法人社団慶辰会 新越谷駅前えがわ整形外科クリニック	Zimmer Biomet	1	APS|GPS|GPS III|APS	MANUAL_VERIFIED|MHLW_FULL
 埼玉県|春陽会大宮リビータ整形外科	埼玉県	医療法人社団春陽会 大宮リビータ整形外科	Zimmer Biomet|京セラ	2	APS|Condensia|GPS	MANUAL_VERIFIED|PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
-埼玉県|武蔵野会tmgあさか医療センター	埼玉県	医療法人社団武蔵野会 TMGあさか医療センター	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+埼玉県|武蔵野会tmgあさか医療センター	埼玉県	医療法人社団武蔵野会 TMGあさか医療センター	Zimmer Biomet	1	APS|APS|GPS|GPS III|APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR|MHLW_FULL
 埼玉県|活寿会大宮ひざ関節症クリニック	埼玉県	医療法人社団活寿会  大宮ひざ関節症クリニック	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 埼玉県|順生会はにゅう整形外科	埼玉県	医療法人社団順生会 はにゅう整形外科	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 埼玉県|鴻愛会こうのす共生病院	埼玉県	医療法人社団鴻愛会 こうのす共生病院	京セラ	1	Condensia	MANUAL_VERIFIED
@@ -136,7 +136,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 大阪府|朝雲会あさぐも整形外科クリニック	大阪府	医療法人朝雲会 あさぐも整形外科クリニック	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 大阪府|桂礼会小阪医院	大阪府	医療法人桂礼会 小阪医院	Arthrex	1	ACP	MANUAL_VERIFIED
 大阪府|槻陽会高槻整形外科再生医療クリニック	大阪府	医療法人槻陽会 高槻整形外科・再生医療クリニック	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
-大阪府|彦星会大阪中之島整形外科	大阪府	医療法人社団彦星会 大阪中之島整形外科	Zimmer Biomet	1	APS	MHLW_FULL
+大阪府|彦星会大阪中之島整形外科	大阪府	医療法人社団彦星会 大阪中之島整形外科	Zimmer Biomet	1	APS	MANUAL_VERIFIED|MHLW_FULL
 大阪府|彦星会岩橋クリニック	大阪府	医療法人社団彦星会 岩橋クリニック	Zimmer Biomet	1	GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 大阪府|美咲会えびえ記念病院	大阪府	医療法人社団美咲会 えびえ記念病院	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 大阪府|神明会印どうメディカルクリニック	大阪府	医療法人神明会 印どうメディカルクリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
