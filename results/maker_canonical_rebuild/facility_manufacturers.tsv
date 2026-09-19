@@ -303,7 +303,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 東京都|荻窪病院	東京都	医療法人財団荻窪病院	Zimmer Biomet	1	APS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 東京都|千歳船橋整形外科スポーツリハビリクリニック	東京都	千歳船橋整形外科スポーツ・リハビリクリニック	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|東京都立病院機構東京都立大久保病院	東京都	地方独立行政法人東京都立病院機構  東京都立大久保病院	Arthrex|Zimmer Biomet	2	ACP MAX|APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
-東京都|慶應義塾大学病院	東京都	慶應義塾大学病院	Zimmer Biomet	1	GPS	MHLW_FULL
+東京都|慶應義塾大学病院	東京都	慶應義塾大学病院	Zimmer Biomet	1	GPS|GPS III	MANUAL_VERIFIED|MHLW_FULL
 東京都|新柴又駅前広場クリニック	東京都	新柴又駅前広場クリニック	京セラ	1	Condensia	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|日本医科大学付属病院	東京都	日本医科大学付属病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|日本大学病院	東京都	日本大学病院	Arthrex	1	ACP	MANUAL_VERIFIED
@@ -348,7 +348,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 熊本県|にしくまもと病院	熊本県	にしくまもと病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 熊本県|リハビリテーションセンター熊本回生会病院	熊本県	リハビリテーションセンター熊本回生会病院	ESTAR Technologies|Zimmer Biomet	2	APS|MyCells	MANUAL_VERIFIED
 熊本県|天草地域医療センター	熊本県	天草地域医療センター	Zimmer Biomet	1	APS	MANUAL_VERIFIED
-石川県|まえだクリニックまえだ整形外科骨関節クリニック	石川県	医療法人社団まえだクリニック まえだ整形外科 骨・関節クリニック	Arthrex	1	ACP|ACP MAX	MHLW_FULL
+石川県|まえだクリニックまえだ整形外科骨関節クリニック	石川県	医療法人社団まえだクリニック まえだ整形外科 骨・関節クリニック	Arthrex	1	ACP|ACP MAX	MANUAL_VERIFIED|MHLW_FULL
 石川県|みやた整形外科みやた整形外科	石川県	医療法人社団みやた整形外科 みやた整形外科	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 石川県|浅ノ川浅ノ川総合病院	石川県	医療法人社団浅ノ川 浅ノ川総合病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 石川県|金沢医科大学病院	石川県	金沢医科大学病院	Arteriocyte Medical Systems|ESTAR Technologies|Zimmer Biomet	3	APS|APS|MyCells|MAGELLAN|MyCells	MANUAL_VERIFIED|PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
@@ -443,7 +443,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 静岡県|伊豆高原メディカルたかやなぎ整形外科	静岡県	伊豆高原メディカル たかやなぎ整形外科	Arthrex|京セラ	2	ACP|Condensia	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 静岡県|オステオケアないとう整形外科クリニック	静岡県	医療法人社団オステオケア ないとう整形外科クリニック	Arthrex	1	ACP	MANUAL_VERIFIED
 静岡県|ディーエイチアール鈴木整形外科スポーツクリニック	静岡県	医療法人社団ディー・エイチ・アール 鈴木整形外科スポーツクリニック	Zimmer Biomet	1	APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
-静岡県|平成会藤枝平成記念病院	静岡県	医療法人社団平成会 藤枝平成記念病院	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR|MHLW_FULL
+静岡県|平成会藤枝平成記念病院	静岡県	医療法人社団平成会 藤枝平成記念病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR|MHLW_FULL
 静岡県|志隆ふくだ整形外科リウマチ科	静岡県	医療法人社団志隆 ふくだ整形外科リウマチ科	Arthrex|Zimmer Biomet	2	ACP|APS|Angel	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 静岡県|明徳会十全記念病院	静岡県	医療法人社団明徳会 十全記念病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 静岡県|浜本整形外科医院	静岡県	医療法人社団浜本整形外科医院	Arthrex|Zimmer Biomet	2	ACP|ACP|APS|GPS|APS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
