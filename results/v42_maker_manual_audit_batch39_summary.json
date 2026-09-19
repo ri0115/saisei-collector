@@ -1,0 +1,15 @@
+{
+  "version": "v42-maker-manual-audit-batch-39",
+  "date_jst": "2026-09-20",
+  "audited_facilities": 10,
+  "confirmed_new_facilities": 0,
+  "confirmed_new_manufacturer_placements": 0,
+  "holds": 10,
+  "cycle_37_39": {
+    "audited_facilities": 30,
+    "provisional_new_facilities_before_rebuild": 2,
+    "provisional_new_manufacturer_placements_before_rebuild": 2
+  },
+  "canonical_merge_due": true,
+  "note": "Batch 39 found no new manufacturer-resolvable evidence. This completes the 30-facility cycle; Batch 37 APS and Batch 38 MyCells evidence are now due for canonical merge/rebuild."
+}
