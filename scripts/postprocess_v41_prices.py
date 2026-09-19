@@ -11,6 +11,7 @@ OUT_WEB=Path("results/v41_official_site_fallback_queue.json")
 OUT_REVIEW=Path("results/v41_complex_price_review_queue.json")
 OVERRIDES=Path("data/v41_official_price_overrides.json")
 OVERRIDE_PATH=Path("data/v41_verified_price_overrides.json")
+SCOPE_EXCLUSIONS=Path("data/v41_scope_exclusions.json")
 
 PRODUCT_CANON={
     "GPS III":"GPS","GPSⅢ":"GPS","GPS":"GPS","APS":"APS",
@@ -325,11 +326,15 @@ def main():
     overrides={}
     if OVERRIDE_PATH.exists():
         overrides=(json.loads(OVERRIDE_PATH.read_text(encoding="utf-8")).get("plans") or {})
+    scope_exclusions={}
+    if SCOPE_EXCLUSIONS.exists():
+        scope_exclusions=(json.loads(SCOPE_EXCLUSIONS.read_text(encoding="utf-8")).get("plans") or {})
     promoted=0
     override_promoted=0
     normalized_auto=0
     normalized_qc=0
     normalized_fail=0
+    normalized_out_of_scope=0
     price_records=0
     reason_counts={}
 
@@ -414,9 +419,19 @@ def main():
             item["official_override_source_type"]=ov.get("source_type","")
             item["official_override_verification"]=ov.get("verification","")
 
+        sx=scope_exclusions.get(item.get("plan_id"))
+        if sx:
+            item["scope_status"]="OUT_OF_SCOPE"
+            item["scope_reason"]=sx.get("reason","")
+            item["status_normalized"]="OUT_OF_SCOPE"
+            item["postprocess_resolution"]="out_of_scope_non_orthopedic"
+        else:
+            item["scope_status"]="IN_SCOPE"
+
         status=item["status_normalized"]
         if status=="AUTO": normalized_auto+=1
         elif status=="QC": normalized_qc+=1
+        elif status=="OUT_OF_SCOPE": normalized_out_of_scope+=1
         else: normalized_fail+=1
         price_records+=len(item.get("prices_normalized") or [])
         reason_counts[item["postprocess_resolution"]]=reason_counts.get(item["postprocess_resolution"],0)+1
@@ -434,6 +449,8 @@ def main():
         "normalized_auto":normalized_auto,
         "normalized_qc":normalized_qc,
         "normalized_fail":normalized_fail,
+        "normalized_out_of_scope":normalized_out_of_scope,
+        "in_scope_total":len(items)-normalized_out_of_scope,
         "normalized_price_records":price_records,
         "resolution_counts":reason_counts,
     }
