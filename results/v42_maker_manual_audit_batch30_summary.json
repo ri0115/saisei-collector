@@ -1,0 +1,20 @@
+{
+  "version": "v42-maker-manual-audit-batch-30",
+  "date_jst": "2026-09-20",
+  "baseline_manufacturer_known_facilities": 471,
+  "audited_facilities": 5,
+  "confirmed_new_facilities": 2,
+  "confirmed_new_manufacturer_placements": 2,
+  "already_canonical": 2,
+  "holds": 1,
+  "confirmed_by_manufacturer": {
+    "Zimmer Biomet": 2
+  },
+  "expected_canonical_after_rebuild": {
+    "manufacturer_known_facilities": 472,
+    "manufacturer_known_rate_pct": 49.74,
+    "manufacturer_placements": 571,
+    "Zimmer Biomet": 250
+  },
+  "note": "Murayama was already merged immediately before this checkpoint; Asanogawa is the remaining new canonical input. Historical Keiyu Zimmer evidence remains HOLD because current continuity is unverified."
+}
