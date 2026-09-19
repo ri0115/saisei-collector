@@ -1,9 +1,9 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T02:57:54.228304+00:00",
+  "updated_at": "2026-09-19T02:58:23.508072+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T02:57:54.227901+00:00",
+    "updated_at": "2026-09-19T02:58:23.507693+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
@@ -12,23 +12,23 @@
     "promoted_by_parser": 67,
     "promoted_by_verified_override": 96,
     "normalized_auto": 707,
-    "normalized_qc": 60,
+    "normalized_qc": 59,
     "normalized_fail": 0,
     "normalized_out_of_scope": 1,
-    "normalized_no_public_price": 6,
+    "normalized_no_public_price": 7,
     "in_scope_total": 773,
-    "resolved_in_scope": 713,
+    "resolved_in_scope": 714,
     "normalized_price_records": 1579,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 568,
+      "source_status_retained": 567,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
       "verified_official_site_override": 97,
       "verified_official_override": 36,
       "explicit_total_price_block": 2,
-      "verified_no_public_price": 6,
+      "verified_no_public_price": 7,
       "out_of_scope_non_orthopedic": 1
     }
   },
@@ -125150,9 +125150,13 @@
       "prices_mhlw_document": [],
       "prices_official_current": [],
       "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
-      "scope_status": "IN_SCOPE"
+      "status_normalized": "NO_PUBLIC_PRICE",
+      "postprocess_resolution": "verified_no_public_price",
+      "scope_status": "IN_SCOPE",
+      "public_price_status": "TREATMENT_SUSPENDED",
+      "verified_source_url": "https://www.wakamatsu-sportsmed.com/blank-4",
+      "verified_source_type": "hospital_official",
+      "no_public_price_note": "公式サイトで再生医療・PRP療法は現在更新中のため一時中断と明記。旧価格を現行価格として採用しない。"
     },
     {
       "plan_id": "V41_01C2104018",

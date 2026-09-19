@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T02:57:54.352747+00:00",
-  "total": 60,
-  "unique_facilities": 58,
+  "updated_at": "2026-09-19T02:58:23.630594+00:00",
+  "total": 59,
+  "unique_facilities": 57,
   "items": [
     {
       "plan_id": "V41_02C2402051",
@@ -867,21 +867,6 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2002004/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_03G2403004",
-      "mhlw_plan_code": "03G2403004",
-      "facility_id": "V41FC7A655E44B",
-      "prefecture": "福岡県",
-      "facility": "産業医科大学若松病院",
-      "address": "北九州市若松区浜町1-17-1",
-      "category": "第三種",
-      "treatment": "整形外科領域における多血小板血漿(PRP)療法",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2403004/5/0",
-      "qc_reason": "terminal rescue fetch/parse failure",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
     },
