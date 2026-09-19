@@ -1,0 +1,19 @@
+{
+  "version": "v42-maker-manual-audit-batch-32",
+  "date_jst": "2026-09-20",
+  "audited_facilities": 3,
+  "confirmed_new_facilities": 0,
+  "confirmed_new_manufacturer_placements": 0,
+  "processing_outsourcing_only": 1,
+  "holds": 3,
+  "canonical_rebuild_performed": false,
+  "current_canonical_manufacturer_known_facilities": 474,
+  "current_canonical_facility_universe": 949,
+  "current_canonical_known_rate_pct": 49.95,
+  "policy": [
+    "Audit exactly 3 facilities per batch and save immediately.",
+    "If no explicit product brand/manufacturer is established, mark HOLD without inference.",
+    "PRP-FD/PFC-FD/PDF-FD/VFD processing-outsourcing services are watchlist-only and excluded from manufacturer share.",
+    "Canonical rebuild is deferred until 3 batches / 9 facilities have been completed."
+  ]
+}
