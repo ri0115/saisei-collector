@@ -1,0 +1,51 @@
+{
+  "version": "v42-merge-audit-stage13-v40-full-reconciliation",
+  "created_date_jst": "2026-09-19",
+  "v40": {
+    "source_rows": 903,
+    "queued_rows": 656,
+    "nonqueue_rows": 247,
+    "unique_mhlw_plan_codes": 899,
+    "duplicate_code_pairs": 4
+  },
+  "queued_656": {
+    "exact_plan_coverage": true,
+    "missing_plans": 0,
+    "extra_plans": 0,
+    "auto_plans_without_price_rows": 0
+  },
+  "nonqueue_247": {
+    "safe_price_linked_plans": 243,
+    "no_safe_plan_specific_price_plans": 4,
+    "no_safe_plan_ids": ["P00098","P00500","P00562","P00563"],
+    "unexpected_unmapped_plans": 0
+  },
+  "duplicate_code_pairs": [
+    {
+      "code": "02E2509002",
+      "legacy_plan_ids": ["P00411","P00857"],
+      "merge_to": "P00857",
+      "price_rows_identical": true
+    },
+    {
+      "code": "01E2407016",
+      "legacy_plan_ids": ["P00455","P00870"],
+      "merge_to": "P00455",
+      "price_rows_identical": true
+    },
+    {
+      "code": "01F2501002",
+      "legacy_plan_ids": ["P00532","P00877"],
+      "merge_to": "P00532",
+      "price_rows_identical": true
+    },
+    {
+      "code": "01D2407009",
+      "legacy_plan_ids": ["P00627","P00739"],
+      "merge_to": "P00627",
+      "price_rows_identical": true
+    }
+  ],
+  "interpretation": "All 903 v40 rows are accounted for. The four duplicate MHLW-code pairs can be collapsed to the nominated representative plan IDs without losing price information. Facility-level prices are not duplicated across unrelated or unresolved plans.",
+  "next_step": "Build the 899-plan v40 canonical core, append v41 additions, remove the two audit-only broad chronic-pain plans, and verify the expected v42 unique core count of 1671."
+}
