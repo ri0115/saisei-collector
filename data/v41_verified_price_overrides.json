@@ -1066,10 +1066,9 @@
         {
           "amount": 30000,
           "tax": "税別",
-          "unit": "関節外PRP・Condensia・1キット",
+          "unit": "関節外PRP・1キット",
           "product": "Condensia",
-          "maker": "京セラ",
-          "note": "筋・腱・靭帯等の関節外治療"
+          "maker": "京セラ"
         },
         {
           "amount": 25000,
@@ -1077,7 +1076,7 @@
           "unit": "関節外PRP・学生・1キット",
           "product": "Condensia",
           "maker": "京セラ",
-          "note": "学生料金"
+          "note": "学生価格"
         }
       ]
     }
