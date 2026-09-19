@@ -1,27 +1,27 @@
 {
   "version": "v41-postprocess-1.4",
-  "updated_at": "2026-09-19T01:20:23.078318+00:00",
+  "updated_at": "2026-09-19T01:22:19.665784+00:00",
   "total": 774,
   "source_auto": 508,
   "source_qc": 266,
   "source_fail": 0,
-  "promoted_qc_to_auto": 103,
+  "promoted_qc_to_auto": 107,
   "promoted_by_parser": 62,
-  "promoted_by_verified_override": 41,
-  "normalized_auto": 619,
-  "normalized_qc": 155,
+  "promoted_by_verified_override": 45,
+  "normalized_auto": 623,
+  "normalized_qc": 151,
   "normalized_fail": 0,
-  "normalized_price_records": 2129,
+  "normalized_price_records": 2139,
   "resolution_counts": {
     "treatment_prices_separated_from_ancillary_fees": 13,
-    "source_status_retained": 636,
+    "source_status_retained": 634,
     "structured_treatment_price_table": 35,
     "single_clear_treatment_price": 4,
-    "verified_official_site_override": 41,
-    "still_ambiguous": 9,
+    "verified_official_site_override": 45,
+    "still_ambiguous": 8,
     "structured_product_price_table": 8,
     "explicit_total_price_block": 2,
     "verified_official_override": 8,
-    "multiple_fee_components_needs_review": 18
+    "multiple_fee_components_needs_review": 17
   }
 }

@@ -1,31 +1,31 @@
 {
   "version": "v41-postprocess-1.4",
-  "updated_at": "2026-09-19T01:20:23.078610+00:00",
+  "updated_at": "2026-09-19T01:22:19.666034+00:00",
   "summary": {
     "version": "v41-postprocess-1.4",
-    "updated_at": "2026-09-19T01:20:23.078318+00:00",
+    "updated_at": "2026-09-19T01:22:19.665784+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 103,
+    "promoted_qc_to_auto": 107,
     "promoted_by_parser": 62,
-    "promoted_by_verified_override": 41,
-    "normalized_auto": 619,
-    "normalized_qc": 155,
+    "promoted_by_verified_override": 45,
+    "normalized_auto": 623,
+    "normalized_qc": 151,
     "normalized_fail": 0,
-    "normalized_price_records": 2129,
+    "normalized_price_records": 2139,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 636,
+      "source_status_retained": 634,
       "structured_treatment_price_table": 35,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 41,
-      "still_ambiguous": 9,
+      "verified_official_site_override": 45,
+      "still_ambiguous": 8,
       "structured_product_price_table": 8,
       "explicit_total_price_block": 2,
       "verified_official_override": 8,
-      "multiple_fee_components_needs_review": 18
+      "multiple_fee_components_needs_review": 17
     }
   },
   "items": [
@@ -24265,23 +24265,55 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 7,
-          "products": [],
-          "excerpt": "2 部位 [ 1,200,000 ]円 *細胞保管費用:2年目より50,000円/年。",
-          "page": 5,
-          "line": "*細胞保管費用:2年目より50,000円/年。",
-          "products_source": [],
+          "amount": 880000,
+          "tax": "税込",
+          "unit": "ASC・1関節",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
+          "note": "",
+          "source_url": "https://team-onoc.com/contents/saiseiiryo/asc.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1210000,
+          "tax": "税込",
+          "unit": "ASC・2関節",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://team-onoc.com/contents/saiseiiryo/asc.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1485000,
+          "tax": "税込",
+          "unit": "ASC・3関節",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://team-onoc.com/contents/saiseiiryo/asc.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "multiple_fee_components_needs_review"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://team-onoc.com/contents/saiseiiryo/asc.html",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01E2408024",
@@ -29672,23 +29704,85 @@
       "qc_reason_source": "price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 100000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": "脂肪採取予定日の2 日前 ~脂肪採取当日の脂肪組織採取前 一律 10 万円をお支払いいただきます 3 脂肪組織採取後~細胞投与前",
-          "page": 11,
-          "line": "一律 10 万円をお支払いいただきます",
-          "products_source": [],
+          "amount": 1320000,
+          "tax": "税込",
+          "unit": "自己脂肪由来幹細胞・5000万個・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "note": "",
+          "source_url": "https://www.itojoint.jp/saisei/price.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1760000,
+          "tax": "税込",
+          "unit": "自己脂肪由来幹細胞・1億個・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.itojoint.jp/saisei/price.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2970000,
+          "tax": "税込",
+          "unit": "自己脂肪由来幹細胞・1億個×2回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.itojoint.jp/saisei/price.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 4070000,
+          "tax": "税込",
+          "unit": "自己脂肪由来幹細胞・1億個×3回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.itojoint.jp/saisei/price.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2750000,
+          "tax": "税込",
+          "unit": "自己脂肪由来幹細胞・2億個・1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://www.itojoint.jp/saisei/price.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://www.itojoint.jp/saisei/price.html",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01D1907003",
@@ -39318,9 +39412,27 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 80000,
+          "tax": "税別",
+          "unit": "PRP注射・1関節",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "採血30〜33cc / PRP 4ml",
+          "source_url": "https://ikeda-cl.org/contents/%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%88prp%EF%BC%89%E7%99%82%E6%B3%95.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://ikeda-cl.org/contents/%E5%A4%9A%E8%A1%80%E5%B0%8F%E6%9D%BF%E8%A1%80%E6%BC%BF%EF%BC%88prp%EF%BC%89%E7%99%82%E6%B3%95.html",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C2301064",
@@ -40297,9 +40409,57 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 20000,
+          "tax": "税別",
+          "unit": "筋・腱・靭帯・PRP注射1単位",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "採血10ml / PRP 1〜1.5ml",
+          "source_url": "https://kamitanicl.com/prp/index.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 40000,
+          "tax": "税別",
+          "unit": "筋・腱・靭帯・PRP注射2単位",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "採血20ml / PRP 2〜3ml",
+          "source_url": "https://kamitanicl.com/prp/index.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 80000,
+          "tax": "税別",
+          "unit": "関節腔内・PRP注射1単位",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "採血30〜33ml / PRP 3〜5ml",
+          "source_url": "https://kamitanicl.com/prp/index.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://kamitanicl.com/prp/index.html",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_02C2602025",

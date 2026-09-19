@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T01:20:23.151472+00:00",
-  "total": 135,
-  "unique_facilities": 117,
+  "updated_at": "2026-09-19T01:22:19.713550+00:00",
+  "total": 131,
+  "unique_facilities": 113,
   "items": [
     {
       "plan_id": "V41_03A2505002",
@@ -318,37 +318,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_01E2312020",
-      "mhlw_plan_code": "01E2312020",
-      "facility_id": "V41F0117C8AD61",
-      "prefecture": "大阪府",
-      "facility": "医療法人社団　彦星会　大阪中之島整形外科",
-      "address": "大阪市北区中之島四丁目3番51号　NakanoshimaQross４階",
-      "category": "第二種",
-      "treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2312020/5/0",
-      "qc_reason": "price candidates remain ambiguous",
-      "postprocess_resolution": "multiple_fee_components_needs_review",
-      "price_candidates": [
-        {
-          "amount": 50000,
-          "tax": "不明",
-          "unit": "",
-          "score": 7,
-          "products": [],
-          "excerpt": "2 部位 [ 1,200,000 ]円 *細胞保管費用:2年目より50,000円/年。",
-          "page": 5,
-          "line": "*細胞保管費用:2年目より50,000円/年。",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        }
-      ]
-    },
-    {
       "plan_id": "V41_01E2111002",
       "mhlw_plan_code": "01E2111002",
       "facility_id": "V41FC1E6387844",
@@ -497,37 +466,6 @@
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01D2512001",
-      "mhlw_plan_code": "01D2512001",
-      "facility_id": "V41F463EE109E7",
-      "prefecture": "愛知県",
-      "facility": "伊藤整形・内科　あいちスポーツ人工関節クリニック",
-      "address": "丹羽郡扶桑町大字高雄字郷東41",
-      "category": "第二種",
-      "treatment": "培養自家脂肪組織由来の間葉系間質細胞を用いた慢性疼痛の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2512001/5/0",
-      "qc_reason": "price candidates remain ambiguous",
-      "postprocess_resolution": "still_ambiguous",
-      "price_candidates": [
-        {
-          "amount": 100000,
-          "tax": "不明",
-          "unit": "",
-          "score": 3,
-          "products": [],
-          "excerpt": "脂肪採取予定日の2 日前 ~脂肪採取当日の脂肪組織採取前 一律 10 万円をお支払いいただきます 3 脂肪組織採取後~細胞投与前",
-          "page": 11,
-          "line": "一律 10 万円をお支払いいただきます",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
-        }
-      ]
     },
     {
       "plan_id": "V41_03D2506004",
@@ -1064,36 +1002,6 @@
       "treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療",
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2310060/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01C1905038",
-      "mhlw_plan_code": "01C1905038",
-      "facility_id": "V41F98B318365D",
-      "prefecture": "東京都",
-      "facility": "元浅草いけだクリニック",
-      "address": "台東区元浅草４丁目７−２２",
-      "category": "第二種",
-      "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた関節内疾患に対する治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1905038/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_02C1907031",
-      "mhlw_plan_code": "02C1907031",
-      "facility_id": "V41F2FE614CEBB",
-      "prefecture": "東京都",
-      "facility": "医療法人　保仁会　神谷整形外科・眼科",
-      "address": "世田谷区弦巻1-35-20",
-      "category": "第二種",
-      "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する組織修復",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1907031/5/0",
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
