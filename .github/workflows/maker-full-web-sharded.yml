@@ -1,11 +1,6 @@
-name: Full official web maker recovery
+name: DEPRECATED official web maker recovery
 
 on:
-  push:
-    paths:
-      - "scripts/recover_maker_full_web.py"
-      - "scripts/consolidate_maker_full_web.py"
-      - ".github/workflows/maker-full-web-sharded.yml"
   workflow_dispatch:
 
 permissions:
