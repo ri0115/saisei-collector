@@ -1,0 +1,15 @@
+{
+  "version": "v42-maker-manual-audit-batch-48",
+  "date_jst": "2026-09-20",
+  "audited_facilities": 15,
+  "confirmed_new_facilities": 0,
+  "confirmed_new_manufacturer_placements": 0,
+  "holds": 15,
+  "cycle_46_48": {
+    "audited_facilities": 40,
+    "provisional_new_facilities_before_rebuild": 3,
+    "provisional_new_manufacturer_placements_before_rebuild": 4
+  },
+  "canonical_merge_due": true,
+  "note": "Batch 48 processed 15 facilities and found no manufacturer-resolvable product evidence. This closes the current cycle. Merge Batch 46 Iida/Tokyo Medical Center plus Batch 47 Tokuhara manufacturer evidence and rebuild canonical."
+}
