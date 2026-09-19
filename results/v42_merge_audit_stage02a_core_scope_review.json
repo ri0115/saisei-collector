@@ -1,0 +1,58 @@
+{
+  "version": "v42-merge-audit-stage02a-core-scope-review",
+  "scope": "union_not_in_current_core first 6 of 12",
+  "reviewed_count": 6,
+  "keep_core": 5,
+  "move_to_audit_only": 1,
+  "records": [
+    {
+      "code": "01E2407024",
+      "facility": "医療法人須佐病院",
+      "decision": "KEEP_CORE",
+      "reason": "Official orthopedic hospital page explicitly lists this BMC treatment alongside PRP/ASC as regenerative options for orthopedic disease.",
+      "evidence": "https://susa-hospital.com/service12.html",
+      "note": "BMC plan is clearly musculoskeletal/orthopedic."
+    },
+    {
+      "code": "01E2502020",
+      "facility": "一般社団法人日生会 CELL CLINIC KYOTO",
+      "decision": "AUDIT_ONLY",
+      "reason": "Exact plan title is generic chronic pain; current official site does not establish an orthopedic/MSK service linkage for this plan and is centered on regenerative/oncology/immune care.",
+      "evidence": "https://cell-clinic.jp/",
+      "note": "Retain in audit history; do not delete source record."
+    },
+    {
+      "code": "01E2504010",
+      "facility": "医療法人社団恵心会 京都武田病院",
+      "decision": "KEEP_CORE",
+      "reason": "Official regenerative-medicine page explicitly defines chronic-pain candidates as low-back pain, shoulder-joint pain and rheumatoid arthritis, establishing MSK relevance.",
+      "evidence": "https://seven-dreams.org/kyototakeda/saisei/",
+      "note": "Keep despite broad chronic-pain title."
+    },
+    {
+      "code": "01E2607015",
+      "facility": "野間総合診療クリニック",
+      "decision": "KEEP_CORE",
+      "reason": "The same address/phone is currently presented as 第2西原クリニック; current official clinic site includes orthopedics and regenerative medicine, and current committee records show chronic-pain/osteoarthritis stem-cell plans.",
+      "evidence": "https://www.nishihara-clinic.com/",
+      "note": "Facility rename/alias normalization candidate: 野間総合診療クリニック → 第2西原クリニック. Preserve original source name as alias."
+    },
+    {
+      "code": "01F2411004",
+      "facility": "医療法人社団季朋会 王司病院",
+      "decision": "KEEP_CORE",
+      "reason": "Current official hospital regenerative program is explicitly focused on knee/orthopedic regenerative treatment with PRP/ASC and rehabilitation. The chronic-pain plan is retained but should carry a broad-review tag.",
+      "evidence": "https://www.kihoukai.biz/kneeosteoarthritis",
+      "note": "Keep with scope tag 'broad chronic pain at orthopedic regenerative provider'; do not borrow knee-plan pricing into this plan."
+    },
+    {
+      "code": "01G2602004",
+      "facility": "ZERO100クリニック",
+      "decision": "KEEP_CORE",
+      "reason": "Current official site identifies orthopedics and rehabilitation as core services and the queued plan itself is PRP for osteoarthritis.",
+      "evidence": "https://zero100-clinic.com/medical",
+      "note": "Strong orthopedic match."
+    }
+  ],
+  "next_step": "Review remaining 6 union-not-in-current-core records in stage02b before price merge."
+}
