@@ -1,0 +1,25 @@
+{
+  "version": "v42-maker-manual-audit-batch-08",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 382,
+  "facilities_audited": 12,
+  "confirmed_new": 0,
+  "unresolved": 10,
+  "unresolved_product_label": 2,
+  "canonical_after_batch": 382,
+  "product_labels_not_mapped": [
+    {
+      "facility": "医療法人元志会 川越TACA川越下肢静脈瘤膝関節クリニック",
+      "product": "WSC-PRP"
+    },
+    {
+      "facility": "シン・整形外科 綱島",
+      "product": "PRP-PRO"
+    }
+  ],
+  "policy": [
+    "Do not map proprietary treatment labels to a device manufacturer without validated primary/regulatory evidence.",
+    "Generic PRP or generic kit wording does not establish manufacturer.",
+    "Current exact-facility official evidence or exact current MHLW plan evidence is retained even when manufacturer remains unresolved."
+  ]
+}
