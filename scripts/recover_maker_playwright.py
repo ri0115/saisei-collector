@@ -111,7 +111,7 @@ async def main():
         )
         page=await context.new_page()
         try:
-            await page.goto("https://saiseiryo.mhlw.go.jp/published_plan/index/3",wait_until="domcontentloaded",timeout=30000)
+            await page.goto("https://saiseiiryo.mhlw.go.jp/published_plan/index/3",wait_until="domcontentloaded",timeout=30000)
         except Exception:
             pass
         for row in rows:
@@ -121,7 +121,7 @@ async def main():
                 consecutive_miss=0
                 for idx in range(args.max_index+1):
                     attempts+=1
-                    url=f"https://saiseiryo.mhlw.go.jp/published_plan/download/{code}/5/{idx}"
+                    url=f"https://saiseiiryo.mhlw.go.jp/published_plan/download/{code}/5/{idx}"
                     data=await download_pdf(page,url)
                     if not data or b"%PDF" not in data[:1024]:
                         consecutive_miss+=1
