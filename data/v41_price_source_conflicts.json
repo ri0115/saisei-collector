@@ -1,0 +1,54 @@
+{
+  "version": "v41-price-source-conflicts-1.0",
+  "generated_at": "2026-09-19",
+  "items": [
+    {
+      "plan_id": "V41_02E2602002",
+      "facility": "大阪梅田セルクリニック",
+      "treatment": "自家脂肪組織由来幹細胞（ASC）の投与による関節治療",
+      "status": "needs_review_source_conflict",
+      "mhlw_document": {
+        "url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2602002/5/0",
+        "prices": [
+          {
+            "amount": 1320000,
+            "tax": "税込",
+            "unit": "1部位",
+            "note": "幹細胞5,000万〜1億個移植"
+          },
+          {
+            "amount": 1540000,
+            "tax": "税込",
+            "unit": "2部位",
+            "note": "幹細胞5,000万〜1億個移植"
+          }
+        ]
+      },
+      "official_current_site": {
+        "url": "https://www.osaka-knee.com/regenerative-medicine/sct",
+        "observed_at": "2026-09-19",
+        "prices": [
+          {
+            "amount": 660000,
+            "tax": "税込",
+            "unit": "片膝",
+            "note": "細胞数1億〜2億個"
+          },
+          {
+            "amount": 770000,
+            "tax": "税込",
+            "unit": "両膝",
+            "note": "細胞数1億〜2億個"
+          },
+          {
+            "amount": 880000,
+            "tax": "税込",
+            "unit": "点滴",
+            "note": "細胞数1億〜2億個"
+          }
+        ]
+      },
+      "note": "Current clinic website and current MHLW explanation document show materially different price structures. Do not overwrite either source; adjudication required."
+    }
+  ]
+}
