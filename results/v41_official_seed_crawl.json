@@ -1,6 +1,6 @@
 {
   "version": "v41-seed-crawl-1.0",
-  "total_facilities": 12,
+  "total_facilities": 18,
   "results": [
     {
       "facility_id": "V41F36AC21EE08",
@@ -399,6 +399,383 @@
       "pages": [],
       "plans": [],
       "error": "SSLError: HTTPSConnectionPool(host='narayamato.net', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'narayamato.net'. (_ssl.c:1010)\")))"
+    },
+    {
+      "facility_id": "V41F2D8FF4122C",
+      "facility": "GINZA NOA CLINIC",
+      "seed_url": "https://www.ginza-noa-cl.jp/stemcell",
+      "pages": [
+        {
+          "url": "https://www.ginza-noa-cl.jp/stemcell",
+          "chars": 4336
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/stemtap",
+          "chars": 4379
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/prp",
+          "chars": 3244
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2505023",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F9252C99E29",
+      "facility": "一般社団法人創生会 GINZA NOA CLINIC",
+      "seed_url": "https://www.ginza-noa-cl.jp/stemcell",
+      "pages": [
+        {
+          "url": "https://www.ginza-noa-cl.jp/stemcell",
+          "chars": 4336
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/stemtap",
+          "chars": 4379
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/prp",
+          "chars": 3244
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_02C2605056",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FA2867A003D",
+      "facility": "THE HUNDRED",
+      "seed_url": "https://www.thehundred.jp/clinic/",
+      "pages": [
+        {
+          "url": "https://www.thehundred.jp/clinic/",
+          "chars": 10898
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2509020",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "ヒト⾃⼰脂肪組織由来間葉系幹細胞を⽤いた関節疾患の治療",
+          "candidates": [
+            {
+              "amount": 121000,
+              "tax": "不明",
+              "score": 4,
+              "line": "121,000円",
+              "excerpt": "点滴メニュー THE HUNDRED オリジナルカクテル 121,000円 体の内側から若々しさと活力をサポートする、THE HUNDREDオリジナルのプレミアムカクテルです。細胞レベルでのエイジングケアを目的とし、疲労回復・美肌・免疫サポートを同時に叶えるトータルリカバリーを目指します。 年齢による疲労感・倦怠感を感じやすい方",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 4
+            },
+            {
+              "amount": 132000,
+              "tax": "不明",
+              "score": 4,
+              "line": "132,000円",
+              "excerpt": "88,000円 プレミアム 132,000円 体の若々しさやエネルギーを保つために必要な成分「NMN」を高濃度で補給する点滴です。 NMNは体内でNAD+(エネルギーを作るために必要な物質)に変換され、細胞の修復や老化のスピードを遅らせる働きがあるとされています。日中の活動のパフォーマンスを上げたり、睡眠の質の改善が期待できます。",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 4
+            },
+            {
+              "amount": 275000,
+              "tax": "不明",
+              "score": 4,
+              "line": "275,000円",
+              "excerpt": "(幹細胞上清による治療) 脂肪由来幹細胞上清(1回) 275,000円 歯髄由来幹細胞上清(1回) 275,000円",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 4
+            },
+            {
+              "amount": 275000,
+              "tax": "不明",
+              "score": 4,
+              "line": "275,000円",
+              "excerpt": "275,000円 歯髄由来幹細胞上清(1回) 275,000円 臍帯由来幹細胞上清(1回) 550,000円",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 4
+            },
+            {
+              "amount": 550000,
+              "tax": "不明",
+              "score": 4,
+              "line": "550,000円",
+              "excerpt": "275,000円 臍帯由来幹細胞上清(1回) 550,000円 骨髄由来幹細胞上清(1回) 660,000円",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 4
+            },
+            {
+              "amount": 660000,
+              "tax": "不明",
+              "score": 4,
+              "line": "660,000円",
+              "excerpt": "550,000円 骨髄由来幹細胞上清(1回) 660,000円 治療期間は、1か月~12か月(通院頻度によって変動) 主なリスクは、副作用内出血、注射部位の痛み、アレルギー反応など。",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 4
+            },
+            {
+              "amount": 2200000,
+              "tax": "不明",
+              "score": 4,
+              "line": "2,200,000円",
+              "excerpt": "自己皮膚線維芽細胞注入療法(肌細胞注入療法) 初回投与(注入2回分含む) 2,200,000円 3回目以降(1回につき) 1,320,000円",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 4
+            },
+            {
+              "amount": 2640000,
+              "tax": "不明",
+              "score": 4,
+              "line": "2,640,000円",
+              "excerpt": "NK細胞療法 1コース(4回) 2,640,000円 主なリスクは、副作用内出血、注射部位の痛み、アレルギー反応など。 幹細胞培養上清点滴",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 4
+            },
+            {
+              "amount": 3850000,
+              "tax": "不明",
+              "score": 4,
+              "line": "3,850,000円",
+              "excerpt": "ヒト自己脂肪組織由来間葉系幹細胞投与による慢性疼痛の治療 初回投与 3,850,000円 2回目以降(1回につき) 3,300,000円",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 4
+            },
+            {
+              "amount": 110000,
+              "tax": "不明",
+              "score": 0,
+              "line": "110,000円",
+              "excerpt": "3,300,000円 細胞保管料(1年) 110,000円 主なリスクは、副作用内出血、注射部位の痛み、アレルギー反応など。 自己培養皮膚線維芽細胞注入",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 0
+            },
+            {
+              "amount": 110000,
+              "tax": "不明",
+              "score": 0,
+              "line": "110,000円",
+              "excerpt": "1,320,000円 細胞保管料(1年) 110,000円 主なリスクは、副作用内出血、注射部位の痛み、アレルギー反応など。 NK細胞療法",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 0
+            },
+            {
+              "amount": 1320000,
+              "tax": "不明",
+              "score": 0,
+              "line": "1,320,000円",
+              "excerpt": "2,200,000円 3回目以降(1回につき) 1,320,000円 細胞保管料(1年) 110,000円",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 0
+            },
+            {
+              "amount": 3300000,
+              "tax": "不明",
+              "score": 0,
+              "line": "3,300,000円",
+              "excerpt": "3,850,000円 2回目以降(1回につき) 3,300,000円 細胞保管料(1年) 110,000円",
+              "source_url": "https://www.thehundred.jp/clinic/",
+              "combined_score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facility_id": "V41FA1B35167B4",
+      "facility": "一般社団法人エンパシア IIT CLINIC",
+      "seed_url": "https://iit-clinic.com/",
+      "pages": [
+        {
+          "url": "https://iit-clinic.com/",
+          "chars": 2171
+        },
+        {
+          "url": "https://iit-clinic.com/stem-cell-therapy/",
+          "chars": 3887
+        },
+        {
+          "url": "https://iit-clinic.com/prp-therapy/",
+          "chars": 3002
+        },
+        {
+          "url": "https://iit-clinic.com/mesenchymal-stem-cell-supernatant/",
+          "chars": 1093
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2504026",
+          "treatment_class": "脂肪由来幹細胞",
+          "treatment": "自家培養脂肪由来幹細胞を用いた変形性関節症の治療",
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F72BC51763F",
+      "facility": "一般社団法人再健会 シン・整形外科 代々木上原",
+      "seed_url": "https://shin-yoyogiuehara.com/self-pay/",
+      "pages": [
+        {
+          "url": "https://shin-yoyogiuehara.com/self-pay/",
+          "chars": 2512
+        },
+        {
+          "url": "https://shin-yoyogiuehara.com/treatment/regenerative/",
+          "chars": 2998
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2603035",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿（PRP）による変形性関節症・関節炎・滑膜炎および半月板損傷治療",
+          "candidates": [
+            {
+              "amount": 150000,
+              "tax": "税込",
+              "score": 6,
+              "line": "片膝:150,000円(税抜) →",
+              "excerpt": "税込 328,900円 PRP-FD 片膝:150,000円(税抜) → 税込 165,000円 両膝:270,000円(税抜) →",
+              "source_url": "https://shin-yoyogiuehara.com/self-pay/",
+              "combined_score": 6
+            },
+            {
+              "amount": 165000,
+              "tax": "税込",
+              "score": 6,
+              "line": "税込 165,000円",
+              "excerpt": "PRP-FD 片膝:150,000円(税抜) → 税込 165,000円 両膝:270,000円(税抜) → 税込 297,000円",
+              "source_url": "https://shin-yoyogiuehara.com/self-pay/",
+              "combined_score": 6
+            },
+            {
+              "amount": 180000,
+              "tax": "税込",
+              "score": 6,
+              "line": "片膝:180,000円(税抜) →",
+              "excerpt": "再生医療 PRP-PRO 片膝:180,000円(税抜) → 税込 198,000円 両膝:299,000円(税抜) →",
+              "source_url": "https://shin-yoyogiuehara.com/self-pay/",
+              "combined_score": 6
+            },
+            {
+              "amount": 198000,
+              "tax": "税込",
+              "score": 6,
+              "line": "税込 198,000円",
+              "excerpt": "PRP-PRO 片膝:180,000円(税抜) → 税込 198,000円 両膝:299,000円(税抜) → 税込 328,900円",
+              "source_url": "https://shin-yoyogiuehara.com/self-pay/",
+              "combined_score": 6
+            },
+            {
+              "amount": 299000,
+              "tax": "税込",
+              "score": 6,
+              "line": "両膝:299,000円(税抜) →",
+              "excerpt": "片膝:180,000円(税抜) → 税込 198,000円 両膝:299,000円(税抜) → 税込 328,900円 PRP-FD",
+              "source_url": "https://shin-yoyogiuehara.com/self-pay/",
+              "combined_score": 6
+            },
+            {
+              "amount": 328900,
+              "tax": "税込",
+              "score": 6,
+              "line": "税込 328,900円",
+              "excerpt": "税込 198,000円 両膝:299,000円(税抜) → 税込 328,900円 PRP-FD 片膝:150,000円(税抜) →",
+              "source_url": "https://shin-yoyogiuehara.com/self-pay/",
+              "combined_score": 6
+            },
+            {
+              "amount": 328900,
+              "tax": "税込",
+              "score": 6,
+              "line": "(税込 328,900円)",
+              "excerpt": "両膝(2関節)1クール 299,000円 (税込 328,900円) PRP-FD治療 片膝(1関節)1クール",
+              "source_url": "https://shin-yoyogiuehara.com/treatment/regenerative/",
+              "combined_score": 6
+            },
+            {
+              "amount": 150000,
+              "tax": "税込",
+              "score": 5,
+              "line": "150,000円",
+              "excerpt": "PRP-FD治療 片膝(1関節)1クール 150,000円 (税込 165,000円) 両膝(2関節)1クール",
+              "source_url": "https://shin-yoyogiuehara.com/treatment/regenerative/",
+              "combined_score": 5
+            },
+            {
+              "amount": 180000,
+              "tax": "税込",
+              "score": 5,
+              "line": "180,000円",
+              "excerpt": "PRP-PRO治療 片膝(1関節)1クール 180,000円 (税込 198,000円) 両膝(2関節)1クール",
+              "source_url": "https://shin-yoyogiuehara.com/treatment/regenerative/",
+              "combined_score": 5
+            },
+            {
+              "amount": 299000,
+              "tax": "税込",
+              "score": 5,
+              "line": "299,000円",
+              "excerpt": "(税込 198,000円) 両膝(2関節)1クール 299,000円 (税込 328,900円) PRP-FD治療",
+              "source_url": "https://shin-yoyogiuehara.com/treatment/regenerative/",
+              "combined_score": 5
+            },
+            {
+              "amount": 297000,
+              "tax": "税込",
+              "score": 2,
+              "line": "(税込 297,000円)",
+              "excerpt": "両膝(2関節)1クール 270,000円 (税込 297,000円) ※PRP-FD治療に関しましては、血液検査代として 別途11,000円(税込)を頂戴いたします。",
+              "source_url": "https://shin-yoyogiuehara.com/treatment/regenerative/",
+              "combined_score": 2
+            },
+            {
+              "amount": 270000,
+              "tax": "税込",
+              "score": 1,
+              "line": "270,000円",
+              "excerpt": "(税込 165,000円) 両膝(2関節)1クール 270,000円 (税込 297,000円) ※PRP-FD治療に関しましては、血液検査代として",
+              "source_url": "https://shin-yoyogiuehara.com/treatment/regenerative/",
+              "combined_score": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facility_id": "V41F1D3991E09E",
+      "facility": "一般社団法人天美会 Tenvi Clinic Ginza",
+      "seed_url": "https://tenviclinic.com/",
+      "pages": [
+        {
+          "url": "https://tenviclinic.com/",
+          "chars": 2273
+        },
+        {
+          "url": "https://tenviclinic.com/about-stem-cell_supernatant/",
+          "chars": 2433
+        }
+      ],
+      "plans": [
+        {
+          "plan_id": "V41_01C2602051",
+          "treatment_class": "PRP",
+          "treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
+          "candidates": []
+        }
+      ]
     }
   ]
 }
