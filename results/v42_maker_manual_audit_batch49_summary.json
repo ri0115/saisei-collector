@@ -1,0 +1,14 @@
+{
+  "version": "v42-maker-manual-audit-batch-49",
+  "date_jst": "2026-09-20",
+  "audited_facilities": 15,
+  "confirmed_new_facilities": 1,
+  "confirmed_new_manufacturer_placements": 1,
+  "holds": 14,
+  "confirmed_by_manufacturer": {
+    "京セラ": 1
+  },
+  "canonical_merge_deferred": true,
+  "canonical_rebuild_performed": false,
+  "note": "Batch 49 processed 15 facilities. TOBU Orthopedic Sports & Rehabilitation Clinic has exact MHLW manufacturer-explicit evidence for Condensia -> Kyocera. Canonical merge remains deferred until Batch 50 completes the next 30-facility cycle."
+}
