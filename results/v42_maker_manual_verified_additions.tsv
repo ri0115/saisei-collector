@@ -20,3 +20,7 @@ prefecture	facility	product	facility_label_maker	legal_manufacturer	japan_mah_or
 愛知県	あいせい紀年病院	ACP		Arthrex	Arthrex Japan	FACILITY_OFFICIAL_PRODUCT_MAP	https://www.aisei-hp.or.jp/examination/prp.php	Official page documents ACP-PRP; manufacturer from validated ACP registry.
 東京都	つくる整形外科 祐天寺駅前スポーツクリニック		Arthrex	Arthrex	Arthrex Japan	FACILITY_OFFICIAL_EXPLICIT	https://tsukuruseikei.jp/menu/prp療法/	Official page explicitly states use of Arthrex PRP kit.
 東京都	葛西駅前あおぞら整形外科クリニック	APS		Zimmer Biomet	Zimmer Biomet	FACILITY_OFFICIAL_PRODUCT_MAP	https://aozora-seikei.com/regenerative-medicine/	Official page documents APS therapy; manufacturer from validated APS registry.
+兵庫県	兵庫県立リハビリテーション中央病院	APS		Zimmer Biomet	Zimmer Biomet	FACILITY_OFFICIAL_PRODUCT_MAP	https://hwc-sports.jp/treatments/	Official sports medicine page states APS treatment; manufacturer from validated APS registry.
+愛媛県	医療法人 鎌野病院	ACP		Arthrex	Arthrex Japan	FACILITY_OFFICIAL_PRODUCT_MAP	https://www.kamano-hospital.com/prp/index.html	Official hospital page states ACP PRP treatment; manufacturer from validated ACP registry.
+鹿児島県	鹿児島中央整形外科スポーツクリニック	ACP		Arthrex	Arthrex Japan	FACILITY_OFFICIAL_PRODUCT_MAP	https://kco-sports.jp/prp療法	Official clinic page states ACP therapy; manufacturer from validated ACP registry.
+群馬県	ぐんまスポーツ整形外科	ACP	Arthrex	Arthrex	Arthrex Japan	FACILITY_OFFICIAL_EXPLICIT_HISTORICAL	https://gun-spo.com/prp/	Official page explicitly states Arthrex ACP Double Syringe; already counted in earlier canonical checkpoint, added here for audit traceability only.
