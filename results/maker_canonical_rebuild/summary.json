@@ -1,10 +1,10 @@
 {
   "facility_universe": 949,
-  "manufacturer_known_facilities": 470,
-  "manufacturer_known_rate_pct": 49.53,
-  "manufacturer_placements": 569,
+  "manufacturer_known_facilities": 471,
+  "manufacturer_known_rate_pct": 49.63,
+  "manufacturer_placements": 570,
   "manufacturer_counts": {
-    "Zimmer Biomet": 248,
+    "Zimmer Biomet": 249,
     "Arthrex": 210,
     "京セラ": 56,
     "ESTAR Technologies": 30,
@@ -15,10 +15,10 @@
     "Ycellbio Medical": 1
   },
   "manufacturer_share_pct": {
-    "Zimmer Biomet": 43.59,
-    "Arthrex": 36.91,
-    "京セラ": 9.84,
-    "ESTAR Technologies": 5.27,
+    "Zimmer Biomet": 43.68,
+    "Arthrex": 36.84,
+    "京セラ": 9.82,
+    "ESTAR Technologies": 5.26,
     "REV-MED": 1.58,
     "DSM Biomedical": 1.23,
     "BTI Biotechnology Institute": 0.88,
@@ -27,12 +27,12 @@
   },
   "multi_manufacturer_facilities": 84,
   "source_presence_facilities": {
-    "MANUAL_VERIFIED": 125,
+    "MANUAL_VERIFIED": 126,
     "MHLW_FULL": 40,
-    "PRICE_STAGE_V40_PRODUCT": 157,
     "PRICE_STAGE_V40": 157,
-    "PRICE_STAGE_V41": 185,
+    "PRICE_STAGE_V40_PRODUCT": 157,
     "PRICE_STAGE_V41_PRODUCT": 185,
+    "PRICE_STAGE_V41": 185,
     "MANUFACTURER_LOCATOR": 62
   },
   "manufacturer_locator_high_rows": 63,

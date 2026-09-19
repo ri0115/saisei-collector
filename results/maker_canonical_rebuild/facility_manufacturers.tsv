@@ -317,6 +317,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 東京都|横浜町田関節脊椎病院	東京都	横浜町田関節脊椎病院	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|池尻大橋せらクリニック	東京都	池尻大橋せらクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
 東京都|労働者健康安全機構東京労災病院	東京都	独立行政法人労働者健康安全機構 東京労災病院	DSM Biomedical|Zimmer Biomet	2	APS|GPS|PEAK	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
+東京都|村山医療センター	東京都	独立行政法人国立病院機構村山医療センター	Zimmer Biomet	1	APS	MANUAL_VERIFIED
 東京都|東京医療センター	東京都	独立行政法人国立病院機構東京医療センター	Zimmer Biomet	1	APS	MANUFACTURER_LOCATOR|MHLW_FULL
 東京都|白山リハビリ整形外科	東京都	白山リハビリ整形外科	REV-MED	1	TriCeLL	MANUAL_VERIFIED
 東京都|白金高輪やまと整形外科	東京都	白金高輪やまと整形外科	Arthrex	1	ACP|ACP MAX	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
