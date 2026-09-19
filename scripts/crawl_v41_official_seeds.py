@@ -129,6 +129,48 @@ def extract(text,tclass,treatment=""):
     out.sort(key=lambda x:(-x["score"],x["amount"]))
     return out[:20]
 
+def crawl_seed(s,byfac):
+    fid=s["facility_id"]; plans=byfac.get(fid,[])
+    rec={"facility_id":fid,"facility":s["facility"],"seed_url":s["url"],"pages":[],"plans":[]}
+    try:
+        root_text,links,final_url=text_and_links(s["url"])
+        pages=[(final_url,root_text)]
+        child_urls=links[:6]
+        if child_urls:
+            with ThreadPoolExecutor(max_workers=3) as ex:
+                futs={ex.submit(text_and_links,u):u for u in child_urls}
+                for fut in as_completed(futs):
+                    u=futs[fut]
+                    try:
+                        txt,_,fu=fut.result()
+                        pages.append((fu,txt))
+                    except Exception as e:
+                        rec["pages"].append({"url":u,"error":f"{type(e).__name__}: {e}"})
+        uniq=[];seen=set()
+        for u,txt in pages:
+            if u in seen: continue
+            seen.add(u);uniq.append((u,txt))
+            rec["pages"].append({"url":u,"chars":len(txt)})
+        for p in plans:
+            cand=[]
+            for u,txt in uniq:
+                for cc in extract(txt,p.get("treatment_class"),p.get("treatment","")):
+                    z={**cc,"source_url":u}
+                    z["combined_score"]=cc["score"]
+                    cand.append(z)
+            ded=[];ks=set()
+            for cc in sorted(cand,key=lambda z:(-z["combined_score"],z["amount"])):
+                k=(cc["amount"],cc["source_url"],cc["line"])
+                if k in ks: continue
+                ks.add(k);ded.append(cc)
+            rec["plans"].append({
+                "plan_id":p["plan_id"],"treatment_class":p.get("treatment_class"),
+                "treatment":p.get("treatment"),"candidates":ded[:15]
+            })
+    except Exception as e:
+        rec["error"]=f"{type(e).__name__}: {e}"
+    return rec
+
 def main():
     seeds=json.loads(Path("data/v41_official_url_seeds.json").read_text(encoding="utf-8"))
     queue=json.loads(Path("results/v41_official_site_fallback_queue.json").read_text(encoding="utf-8"))
@@ -136,51 +178,19 @@ def main():
     for x in queue["items"]: byfac.setdefault(x["facility_id"],[]).append(x)
 
     results=[]
-    for i,s in enumerate(seeds["items"],1):
-        fid=s["facility_id"]; plans=byfac.get(fid,[])
-        rec={"facility_id":fid,"facility":s["facility"],"seed_url":s["url"],"pages":[],"plans":[]}
-        try:
-            root_text,links,final_url=text_and_links(s["url"])
-            pages=[(final_url,root_text)]
-            child_urls=links[:6]
-            if child_urls:
-                with ThreadPoolExecutor(max_workers=4) as ex:
-                    futs={ex.submit(text_and_links,u):u for u in child_urls}
-                    for fut in as_completed(futs):
-                        u=futs[fut]
-                        try:
-                            txt,_,fu=fut.result()
-                            pages.append((fu,txt))
-                        except Exception as e:
-                            rec["pages"].append({"url":u,"error":f"{type(e).__name__}: {e}"})
-            uniq=[];seen=set()
-            for u,txt in pages:
-                if u in seen: continue
-                seen.add(u);uniq.append((u,txt))
-                rec["pages"].append({"url":u,"chars":len(txt)})
-            for p in plans:
-                cand=[]
-                for u,txt in uniq:
-                    for c in extract(txt,p.get("treatment_class"),p.get("treatment","")):
-                        z={**c,"source_url":u}
-                        z["combined_score"]=c["score"]
-                        cand.append(z)
-                # dedupe by amount/url/context
-                ded=[];ks=set()
-                for c in sorted(cand,key=lambda z:(-z["combined_score"],z["amount"])):
-                    k=(c["amount"],c["source_url"],c["excerpt"][:120])
-                    if k in ks: continue
-                    ks.add(k);ded.append(c)
-                rec["plans"].append({
-                    "plan_id":p["plan_id"],"treatment_class":p.get("treatment_class"),
-                    "treatment":p.get("treatment"),"candidates":ded[:15]
-                })
-        except Exception as e:
-            rec["error"]=f"{type(e).__name__}: {e}"
-        results.append(rec)
-        print(i,s["facility"],sum(len(x.get("candidates",[])) for x in rec.get("plans",[])),flush=True)
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        futs={ex.submit(crawl_seed,s,byfac):s for s in seeds["items"]}
+        done=0
+        for fut in as_completed(futs):
+            s=futs[fut]
+            rec=fut.result()
+            results.append(rec)
+            done+=1
+            print(done,s["facility"],sum(len(x.get("candidates",[])) for x in rec.get("plans",[])),flush=True)
 
-    out={"version":"v41-seed-crawl-1.0","total_facilities":len(results),"results":results}
+    order={s["facility_id"]:i for i,s in enumerate(seeds["items"])}
+    results.sort(key=lambda r:order.get(r.get("facility_id"),999999))
+    out={"version":"v41-seed-crawl-1.1","total_facilities":len(results),"results":results}
     Path("results/v41_official_seed_crawl.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
     print(json.dumps({
       "facilities":len(results),
