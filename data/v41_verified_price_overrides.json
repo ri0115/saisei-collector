@@ -2062,6 +2062,60 @@
           "product": "ACP MAX"
         }
       ]
+    },
+    "V41_01C2302066": {
+      "facility": "女性のための整形外科 かおるこHappyクリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://kaoruko-happyclinic.com/price/",
+      "prices": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "関節内・1回",
+          "product": "PRP"
+        }
+      ]
+    },
+    "V41_01C2406033": {
+      "facility": "豪徳寺整形外科クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://gotokuji-seikeigeka.com/about_prp/",
+      "prices": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "1回",
+          "product": "ACP"
+        }
+      ]
+    },
+    "V41_02C2502053": {
+      "facility": "医療法人恭友会 はせがわ整形外科クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://hasegawaseikeigeka.com/prp_therapy/",
+      "prices": [
+        {
+          "amount": 55000,
+          "tax": "税込",
+          "unit": "PRP療法・1回",
+          "product": "PRP",
+          "note": "1日完結の場合は診察・検査料5,500円税込が別途"
+        }
+      ]
+    },
+    "V41_02C2512068": {
+      "facility": "日本橋人形町整形外科",
+      "source_type": "mhlw_published_plan_attachment",
+      "source_url": "https://saiseiryo.mhlw.go.jp/published_plan/download/02C2512068/5/2",
+      "prices": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "1回・1部位",
+          "product": "PRP",
+          "note": "検査費用は別途"
+        }
+      ]
     }
   },
   "updated_at": "2026-09-19",
