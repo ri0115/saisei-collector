@@ -1,0 +1,30 @@
+{
+  "version": "v42-merge-audit-stage08f-v40-A-integrity",
+  "created_date_jst": "2026-09-19",
+  "summary": {
+    "source_plans": 216,
+    "staged_unique_plans": 216,
+    "staged_rows_including_placeholders": 539,
+    "source_status_counts": {
+      "QC": 74,
+      "AUTO": 142
+    },
+    "stage_row_status_counts": {
+      "REVIEW_QC_NO_PRICE": 35,
+      "READY_AUTO": 359,
+      "REVIEW_QC_CANDIDATE": 145
+    },
+    "missing_plans": 0,
+    "extra_plans": 0,
+    "missing_queue_indices": 0,
+    "extra_queue_indices": 0,
+    "multi_index_plans": 0,
+    "exact_plan_coverage": true
+  },
+  "missing_plans": [],
+  "extra_plans": [],
+  "missing_queue_indices": [],
+  "extra_queue_indices": [],
+  "multi_index_plans": [],
+  "conclusion": "PASS: A lane 216/216 plans preserved across 5 bounded batches."
+}
