@@ -40,6 +40,11 @@ def read_tsv(path):
 def get(url):
     r=requests.get(url,timeout=30,headers={"User-Agent":"Mozilla/5.0 manufacturer-locator-crossmatch/1.0"})
     r.raise_for_status()
+    # Arthrex locator is UTF-8 but its HTTP charset can be misdetected by requests.
+    if "seikei-saisei.jp" in url:
+        r.encoding="utf-8"
+    elif not r.encoding:
+        r.encoding=r.apparent_encoding or "utf-8"
     return BeautifulSoup(r.text,"html.parser")
 
 def parse_arthrex():
