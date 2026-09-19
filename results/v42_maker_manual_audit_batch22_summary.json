@@ -1,0 +1,21 @@
+{
+  "version": "v42-maker-manual-audit-batch-22",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 467,
+  "audited_facilities": 2,
+  "confirmed_new_facilities": 1,
+  "existing_facility_new_placements": 1,
+  "confirmed_new_manufacturer_placements": 3,
+  "confirmed_by_manufacturer": {
+    "Arthrex": 1,
+    "京セラ": 2
+  },
+  "expected_canonical_after_rebuild": {
+    "manufacturer_known_facilities": 468,
+    "manufacturer_known_rate_pct": 49.31,
+    "manufacturer_placements": 563,
+    "Arthrex": 210,
+    "京セラ": 51
+  },
+  "note": "Uses exact MHLW plan price-table text to recover branded kits missed by the staged product parser. No group-level locator inference is used."
+}
