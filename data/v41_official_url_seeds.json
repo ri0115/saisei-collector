@@ -277,6 +277,30 @@
       "facility": "独立行政法人国立病院機構村山医療センター",
       "url": "https://murayama.hosp.go.jp/info/20240213.html",
       "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F7CE93E5920",
+      "facility": "医療法人慶春会 脳梗塞・脊髄損傷クリニック銀座院",
+      "url": "https://neurotech.jp/about-clinic",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F70C769660D",
+      "facility": "医療法人社団敬和慶友会 自由が丘くびと腰の整形外科関節のクリニック",
+      "url": "https://seikeigeka.clinic/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FD361E6CD7C",
+      "facility": "銀座ALIVIO clinic",
+      "url": "https://ginza-alivio.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F52C8BCC0C9",
+      "facility": "順天堂大学医学部附属順天堂医院",
+      "url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
+      "source": "web_verified"
     }
   ],
   "updated_at": "2026-09-19",
