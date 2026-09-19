@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-18T23:16:28.858886+00:00",
-  "total": 137,
-  "unique_facilities": 120,
+  "updated_at": "2026-09-19T01:05:42.271464+00:00",
+  "total": 129,
+  "unique_facilities": 112,
   "items": [
     {
       "plan_id": "V41_03A2505002",
@@ -61,20 +61,6 @@
       "postprocess_resolution": "source_status_retained"
     },
     {
-      "plan_id": "V41_01C2310044",
-      "mhlw_plan_code": "01C2310044",
-      "facility_id": "V41F9372FF520F",
-      "prefecture": "千葉県",
-      "facility": "日本医科大学千葉北総病院",
-      "address": "印西市鎌苅１７１５",
-      "category": "第二種",
-      "treatment": "変形性関節症に対する多血小板血漿抽出液（ＡＰＳ）関節内投与療法",
-      "treatment_class": "APS/PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2310044/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
       "plan_id": "V41_02C2402051",
       "mhlw_plan_code": "02C2402051",
       "facility_id": "V41F6BA7FEB040",
@@ -113,34 +99,6 @@
       "treatment": "自家培養脂肪由来幹細胞を用いた変形性膝関節症治療",
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_01C2501014",
-      "mhlw_plan_code": "01C2501014",
-      "facility_id": "V41F792727709A",
-      "prefecture": "埼玉県",
-      "facility": "UT整形外科　武蔵浦和",
-      "address": "さいたま市南区白幡５丁目１８－１９　MID KUDOS TERRACE　3F",
-      "category": "第二種",
-      "treatment": "変形性関節症に対する自家培養脂肪由来幹細胞を用いた治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2501014/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_01C2506018",
-      "mhlw_plan_code": "01C2506018",
-      "facility_id": "V41F5A02ABC301",
-      "prefecture": "埼玉県",
-      "facility": "医療法人社団 鴻愛会 with Life クリニック 大宮駅前",
-      "address": "さいたま市大宮区桜木町1丁目133番地2　メインKビル 2階3階4階",
-      "category": "第二種",
-      "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた慢性関節炎の治療（関節内組織）",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506018/5/0",
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained"
     },
@@ -215,20 +173,6 @@
       "postprocess_resolution": "source_status_retained"
     },
     {
-      "plan_id": "V41_01E2603003",
-      "mhlw_plan_code": "01E2603003",
-      "facility_id": "V41FBBD6F8D2E6",
-      "prefecture": "大阪府",
-      "facility": "医療法人槻陽会\r\n高槻整形外科・再生医療クリニック",
-      "address": "⾼槻市城北町2丁⽬2-3 リュドール⾼槻4階",
-      "category": "第二種",
-      "treatment": "自己脂肪由来幹細胞を用いた関節疾患の治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603003/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
       "plan_id": "V41_01E2111002",
       "mhlw_plan_code": "01E2111002",
       "facility_id": "V41FC1E6387844",
@@ -254,20 +198,6 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2111019/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_01E2403006",
-      "mhlw_plan_code": "01E2403006",
-      "facility_id": "V41FE1A06DCDA7",
-      "prefecture": "大阪府",
-      "facility": "医療法人酒井会　さかいペインクリニック",
-      "address": "柏原市上市1-2-2　アゼリア柏原416",
-      "category": "第三種",
-      "treatment": "自家多血小板血漿(Platelet-rich plasma:PRP)を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療（関節腔外に限る）",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2403006/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained"
     },
     {
@@ -537,20 +467,6 @@
       "postprocess_resolution": "source_status_retained"
     },
     {
-      "plan_id": "V41_01C2603035",
-      "mhlw_plan_code": "01C2603035",
-      "facility_id": "V41F72BC51763F",
-      "prefecture": "東京都",
-      "facility": "一般社団法人再健会 シン・整形外科 代々木上原",
-      "address": "渋谷区西原３丁目７−８",
-      "category": "第二種",
-      "treatment": "多血小板血漿（PRP）による変形性関節症・関節炎・滑膜炎および半月板損傷治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603035/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
       "plan_id": "V41_02C2605056",
       "mhlw_plan_code": "02C2605056",
       "facility_id": "V41F9252C99E29",
@@ -733,20 +649,6 @@
       "postprocess_resolution": "source_status_retained"
     },
     {
-      "plan_id": "V41_01C2507016",
-      "mhlw_plan_code": "01C2507016",
-      "facility_id": "V41F8EA8952CF4",
-      "prefecture": "東京都",
-      "facility": "医療法人元気会わかさクリニック\r\nWA CLINIC GINZA",
-      "address": "中央区銀座五丁目6-12",
-      "category": "第二種",
-      "treatment": "自家脂肪由来間葉系幹細胞を用いた変形性関節症治療",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507016/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
       "plan_id": "V41_02C2506078",
       "mhlw_plan_code": "02C2506078",
       "facility_id": "V41F7CE93E5920",
@@ -813,20 +715,6 @@
       "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2510078/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
-    },
-    {
-      "plan_id": "V41_02C2604055",
-      "mhlw_plan_code": "02C2604055",
-      "facility_id": "V41F1418F41A29",
-      "prefecture": "東京都",
-      "facility": "医療法人社団HELENE ヘレネAOビルクリニック",
-      "address": "港区北青山3-11-7 AOビル8F",
-      "category": "第二種",
-      "treatment": "変形性関節症の治療を対象とした自己脂肪由来間葉系幹細胞の関節内投与",
-      "treatment_class": "脂肪由来幹細胞",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604055/5/0",
       "qc_reason": "no price found after text/OCR pass",
       "postprocess_resolution": "source_status_retained"
     },

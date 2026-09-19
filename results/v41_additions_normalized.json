@@ -1,9 +1,9 @@
 {
   "version": "v41-postprocess-1.3",
-  "updated_at": "2026-09-18T23:16:28.770270+00:00",
+  "updated_at": "2026-09-19T01:05:42.202394+00:00",
   "summary": {
     "version": "v41-postprocess-1.3",
-    "updated_at": "2026-09-18T23:16:28.769885+00:00",
+    "updated_at": "2026-09-19T01:05:42.202157+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
@@ -11,19 +11,20 @@
     "promoted_qc_to_auto": 86,
     "promoted_by_parser": 62,
     "promoted_by_verified_override": 24,
-    "normalized_auto": 594,
-    "normalized_qc": 180,
+    "normalized_auto": 602,
+    "normalized_qc": 172,
     "normalized_fail": 0,
-    "normalized_price_records": 2139,
+    "normalized_price_records": 2153,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 645,
+      "source_status_retained": 637,
       "structured_treatment_price_table": 35,
       "single_clear_treatment_price": 4,
       "verified_official_site_override": 24,
       "still_ambiguous": 20,
       "structured_product_price_table": 8,
       "explicit_total_price_block": 2,
+      "verified_official_override": 8,
       "multiple_fee_components_needs_review": 23
     }
   },
@@ -11070,19 +11071,28 @@
         {
           "amount": 400000,
           "tax": "税込",
-          "unit": "",
-          "score": 6,
-          "products": [],
-          "excerpt": "療を行う医師、管理者(院長)へと報告して対応させていただきます。 窓口部署:庶務課 連絡先:0476-99-1111(内線:5022) 14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として400,000 円(税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生している 場合は、発生した費用については患者様にご負担いただきますのでご了承ください。 15.他の治療法の有無、本治療法との比較につ",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
+          "unit": "1施術",
+          "price_type": "point",
+          "note": "公式ページでAPS療法・施術料40万円を確認",
+          "products": [
+            "APS"
+          ],
+          "makers": [
+            "Zimmer Biomet"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.nms.ac.jp/hokuso-h/section/orthopedics/guide_copy_copy.html",
+          "source_url": "https://www.nms.ac.jp/hokuso-h/section/orthopedics/guide_copy_copy.html",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "official_override_source_url": "https://www.nms.ac.jp/hokuso-h/section/orthopedics/guide_copy_copy.html",
+      "official_override_source_type": "facility_official",
+      "official_override_verification": "treatment-name matched"
     },
     {
       "plan_id": "V41_03C2410007",
@@ -13909,9 +13919,69 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 660000,
+          "tax": "税込",
+          "unit": "片側・5000万cells",
+          "price_type": "point",
+          "products": [],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.ut-seikei.com/regenerative-medicine/",
+          "source_url": "https://www.ut-seikei.com/regenerative-medicine/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 880000,
+          "tax": "税込",
+          "unit": "片側・1億cells",
+          "price_type": "point",
+          "products": [],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.ut-seikei.com/regenerative-medicine/",
+          "source_url": "https://www.ut-seikei.com/regenerative-medicine/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1120000,
+          "tax": "税込",
+          "unit": "両側・計1億cells",
+          "price_type": "point",
+          "products": [],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.ut-seikei.com/regenerative-medicine/",
+          "source_url": "https://www.ut-seikei.com/regenerative-medicine/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1450000,
+          "tax": "税込",
+          "unit": "両側・計2億cells",
+          "price_type": "point",
+          "products": [],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.ut-seikei.com/regenerative-medicine/",
+          "source_url": "https://www.ut-seikei.com/regenerative-medicine/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "official_override_source_url": "https://www.ut-seikei.com/regenerative-medicine/",
+      "official_override_source_type": "facility_official",
+      "official_override_verification": "treatment-name matched"
     },
     {
       "plan_id": "V41_02C2510040",
@@ -15261,9 +15331,103 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 45000,
+          "tax": "税込",
+          "unit": "ライトPRP",
+          "price_type": "point",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+          "source_url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 168000,
+          "tax": "税込",
+          "unit": "スタンダードPRP",
+          "price_type": "point",
+          "products": [
+            "ACP MAX"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+          "source_url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 248000,
+          "tax": "税込",
+          "unit": "プレミアムPRP",
+          "price_type": "point",
+          "products": [
+            "Angel"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+          "source_url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "ライトPRPダブルショット",
+          "price_type": "point",
+          "products": [
+            "ACP"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+          "source_url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 298000,
+          "tax": "税込",
+          "unit": "プレミアムPRP・2部位",
+          "price_type": "point",
+          "products": [
+            "Angel"
+          ],
+          "makers": [
+            "Arthrex"
+          ],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+          "source_url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "official_override_source_url": "https://withlifeomiya.kouaikai.jp/selfpay/regen/prp/",
+      "official_override_source_type": "facility_official",
+      "official_override_verification": "PRP joint treatment matched"
     },
     {
       "plan_id": "V41_02C2408121",
@@ -23713,9 +23877,28 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 1000000,
+          "tax": "税込",
+          "unit": "ASC治療",
+          "price_type": "from",
+          "note": "100万円〜",
+          "products": [],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
+          "source_url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "official_override_source_url": "https://kiyoukai-osaka.jp/regenerative_medicine/procedures/",
+      "official_override_source_type": "facility_official",
+      "official_override_verification": "ASC treatment matched"
     },
     {
       "plan_id": "V41_01E2604023",
@@ -26081,9 +26264,28 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 30000,
+          "tax": "税込",
+          "unit": "注射1回",
+          "price_type": "point",
+          "note": "スポーツ関連疾患",
+          "products": [],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://sakai-pain.com/medical/regenerativemedicine/",
+          "source_url": "https://sakai-pain.com/medical/regenerativemedicine/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "official_override_source_url": "https://sakai-pain.com/medical/regenerativemedicine/",
+      "official_override_source_type": "facility_official",
+      "official_override_verification": "extra-articular PRP matched"
     },
     {
       "plan_id": "V41_01E2505012",
@@ -37081,9 +37283,41 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 198000,
+          "tax": "税込",
+          "unit": "PRP-PRO・片膝1関節1クール",
+          "price_type": "point",
+          "products": [],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://shin-yoyogiuehara.com/treatment/regenerative/",
+          "source_url": "https://shin-yoyogiuehara.com/treatment/regenerative/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 328900,
+          "tax": "税込",
+          "unit": "PRP-PRO・両膝2関節1クール",
+          "price_type": "point",
+          "products": [],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://shin-yoyogiuehara.com/treatment/regenerative/",
+          "source_url": "https://shin-yoyogiuehara.com/treatment/regenerative/",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "official_override_source_url": "https://shin-yoyogiuehara.com/treatment/regenerative/",
+      "official_override_source_type": "facility_official",
+      "official_override_verification": "PRP-PRO treatment matched; PRP-FD excluded"
     },
     {
       "plan_id": "V41_01C2601051",
@@ -41067,73 +41301,67 @@
       "qc_reason_source": "no price found after text/OCR pass",
       "prices_normalized": [
         {
-          "amount": 11000,
-          "tax": "税込",
-          "unit": "",
-          "score": 5,
-          "products": [],
-          "excerpt": "| 費用 項目 費用(税込) 初診料 11,000円 血液検査料 11,000円 【片側】自家脂肪由来間葉系幹細胞・5,000万cells 990,000円 【片側】自家脂肪由来間葉系幹細胞・1億cells 1,320,000円 【両側】自家脂肪由来間葉系幹細胞・1億cells(片側 5,000万cells) 1,320,000円 【両側】自家脂肪由来間葉系幹細胞・2億cells(片側1億",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 990000,
           "tax": "税込",
-          "unit": "",
-          "score": 5,
+          "unit": "片膝・5000万cell",
+          "price_type": "point",
           "products": [],
-          "excerpt": "| 費用 項目 費用(税込) 初診料 11,000円 血液検査料 11,000円 【片側】自家脂肪由来間葉系幹細胞・5,000万cells 990,000円 【片側】自家脂肪由来間葉系幹細胞・1億cells 1,320,000円 【両側】自家脂肪由来間葉系幹細胞・1億cells(片側 5,000万cells) 1,320,000円 【両側】自家脂肪由来間葉系幹細胞・2億cells(片側1億cells) 2,200,000円 細胞保管費用(1ヶ月あたり) 11,000円 ※投与回数にかかわらず",
-          "products_source": [],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
-        },
-        {
-          "amount": 11000,
-          "tax": "税込",
-          "unit": "1回",
-          "score": 1,
-          "products": [],
-          "excerpt": "【片側】自家脂肪由来間葉系幹細胞・1億cells 1,320,000円 【両側】自家脂肪由来間葉系幹細胞・1億cells(片側 5,000万cells) 1,320,000円 【両側】自家脂肪由来間葉系幹細胞・2億cells(片側1億cells) 2,200,000円 細胞保管費用(1ヶ月あたり) 11,000円 ※投与回数にかかわらず、1回投与あたりの費用です。 | キャンセル費用 項目 費用(税込) 脂肪採取前まで なし 脂肪採取後、投与予定日の14日前まで 投与費用の50% 投与予定日の13日前~7日前まで 投与費用の80% 投与予定日の6日前~投与当日 投与費用の100% ※投与回数にかかわらず、投与をキャンセルされた場合の費用です。 料",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
-          "amount": 2200000,
-          "tax": "税込",
-          "unit": "1回",
-          "score": 1,
-          "products": [],
-          "excerpt": "系幹細胞・5,000万cells 990,000円 【片側】自家脂肪由来間葉系幹細胞・1億cells 1,320,000円 【両側】自家脂肪由来間葉系幹細胞・1億cells(片側 5,000万cells) 1,320,000円 【両側】自家脂肪由来間葉系幹細胞・2億cells(片側1億cells) 2,200,000円 細胞保管費用(1ヶ月あたり) 11,000円 ※投与回数にかかわらず、1回投与あたりの費用です。 | キャンセル費用 項目 費用(税込) 脂肪採取前まで なし 脂肪採取後、投与予定日の14日前まで 投与費用の50% 投与予定日の13日前~7日前まで 投与費用の80% 投与予定日の6日前~投与当日 投与費用の100% ※投与回数にかかわら",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.waclinic-ginza.com/menu/stemcelltherapy",
+          "source_url": "https://www.waclinic-ginza.com/menu/stemcelltherapy",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 1320000,
           "tax": "税込",
-          "unit": "1回",
-          "score": -2,
+          "unit": "片膝・1億cell",
+          "price_type": "point",
           "products": [],
-          "excerpt": "| 費用 項目 費用(税込) 初診料 11,000円 血液検査料 11,000円 【片側】自家脂肪由来間葉系幹細胞・5,000万cells 990,000円 【片側】自家脂肪由来間葉系幹細胞・1億cells 1,320,000円 【両側】自家脂肪由来間葉系幹細胞・1億cells(片側 5,000万cells) 1,320,000円 【両側】自家脂肪由来間葉系幹細胞・2億cells(片側1億cells) 2,200,000円 細胞保管費用(1ヶ月あたり) 11,000円 ※投与回数にかかわらず、1回投与あたりの費用です。 | キャンセル費用 項目 費用(税込) 脂",
-          "products_source": [],
           "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "ancillary_label_nearest"
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.waclinic-ginza.com/menu/stemcelltherapy",
+          "source_url": "https://www.waclinic-ginza.com/menu/stemcelltherapy",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1320000,
+          "tax": "税込",
+          "unit": "両膝・計1億cell",
+          "price_type": "point",
+          "products": [],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.waclinic-ginza.com/menu/stemcelltherapy",
+          "source_url": "https://www.waclinic-ginza.com/menu/stemcelltherapy",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 2200000,
+          "tax": "税込",
+          "unit": "両膝・計2億cell",
+          "price_type": "point",
+          "products": [],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://www.waclinic-ginza.com/menu/stemcelltherapy",
+          "source_url": "https://www.waclinic-ginza.com/menu/stemcelltherapy",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "official_override_source_url": "https://www.waclinic-ginza.com/menu/stemcelltherapy",
+      "official_override_source_type": "facility_official",
+      "official_override_verification": "joint stem-cell treatment matched"
     },
     {
       "plan_id": "V41_02C2506078",
@@ -49450,9 +49678,41 @@
       "v41_lane": "B",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_normalized": [
+        {
+          "amount": 1185800,
+          "tax": "税込",
+          "unit": "片膝・1億個・1回",
+          "price_type": "point",
+          "products": [],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604055/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604055/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1633500,
+          "tax": "税込",
+          "unit": "両膝・2億個・1回",
+          "price_type": "point",
+          "products": [],
+          "makers": [],
+          "score": 99,
+          "page": "",
+          "excerpt": "official override: https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604055/5/0",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604055/5/0",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_override",
+      "official_override_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2604055/5/0",
+      "official_override_source_type": "MHLW_current_document",
+      "official_override_verification": "exact MHLW plan code matched"
     },
     {
       "plan_id": "V41_02C2601051",
