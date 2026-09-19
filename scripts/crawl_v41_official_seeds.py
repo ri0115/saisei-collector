@@ -70,9 +70,18 @@ def other_therapy_regex(target_kind):
     }
     return re.compile(pats.get(target_kind,r"$^"),re.I)
 
+def indication_regex(treatment):
+    t=treatment or ""
+    if re.search(r"筋肉|腱|靭帯|靱帯|筋膜|関節外|スポーツ",t):
+        return re.compile(r"筋|腱|靭帯|靱帯|筋膜|関節外|スポーツ|アキレス|腱板|肉離れ",re.I), "extra_articular"
+    if re.search(r"関節|関節炎|変形性|軟骨|半月板",t):
+        return re.compile(r"関節|膝|股関節|変形性|軟骨|半月板|OA",re.I), "intra_articular"
+    return None, "unspecified"
+
 def extract(text,tclass,treatment=""):
     t=norm(text)
     target,target_kind=target_regex(tclass,treatment)
+    indication,indication_kind=indication_regex(treatment)
     other=other_therapy_regex(target_kind)
     stem=target_kind in ("SVF","adipose_stem","synovial_stem","stem")
     lo,hi=(100000,20000000) if stem else (15000,2000000)
@@ -102,7 +111,13 @@ def extract(text,tclass,treatment=""):
             if not (same_target or prev_target or next_target):
                 continue
 
-            near=" ".join(lines[max(0,i-1):min(len(lines),i+2)])
+            near=" ".join(lines[max(0,i-2):min(len(lines),i+3)])
+            # For orthopedic PRP, match the actual indication as well as PRP.
+            # This separates joint/intra-articular pricing from muscle/tendon/
+            # ligament (extra-articular) pricing on the same official page.
+            indication_match=True if indication is None else bool(indication.search(near))
+            if indication is not None and not indication_match:
+                continue
             score=0
             if same_target: score+=10
             elif prev_target: score+=7
@@ -115,7 +130,10 @@ def extract(text,tclass,treatment=""):
             elif re.search(r"税込|税別|税抜",near): score+=1
 
             tax="不明"
-            if re.search(r"税込|消費税込",near): tax="税込"
+            # Prefer the exact price line over surrounding rows.
+            if re.search(r"税込|消費税込",line): tax="税込"
+            elif re.search(r"税別|税抜",line): tax="税別"
+            elif re.search(r"税込|消費税込",near): tax="税込"
             elif re.search(r"税別|税抜",near): tax="税別"
 
             key=(a,line,target_kind)
