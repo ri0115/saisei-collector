@@ -1,0 +1,30 @@
+{
+  "version": "v42-merge-audit-stage14-core-count-lock",
+  "created_date_jst": "2026-09-19",
+  "inputs": {
+    "v40_source_rows": 903,
+    "v40_unique_mhlw_codes_after_duplicate_merge": 899,
+    "v41_addition_unique_codes": 774,
+    "cross_overlap_v40_vs_v41": 0,
+    "union_unique_codes_before_scope_review": 1673,
+    "mhlw_current_core_unique": 1661,
+    "scope_review_keep_core": 10,
+    "scope_review_audit_only": 2
+  },
+  "calculation": {
+    "v42_core_unique_codes": 1671,
+    "formula": "1661 current core + 10 scope-reviewed KEEP_CORE = 1671",
+    "crosscheck": "1673 union unique - 2 audit-only = 1671"
+  },
+  "audit_only_codes": [
+    "01E2502020",
+    "03E2406027"
+  ],
+  "duplicate_merge_effect": {
+    "legacy_v40_rows": 903,
+    "canonical_v40_plans": 899,
+    "rows_collapsed": 4
+  },
+  "conclusion": "Lock v42 core universe at 1,671 unique plan codes. Keep the two excluded broad chronic-pain plans in a separate audit-only sheet rather than deleting them.",
+  "next_step": "Materialize the canonical v42 workbook using the locked 1,671-plan core and the staged price sources."
+}
