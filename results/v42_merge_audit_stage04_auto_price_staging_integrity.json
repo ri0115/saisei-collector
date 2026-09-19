@@ -1,0 +1,30 @@
+{
+  "version": "v42-merge-audit-stage04-auto-price-staging-integrity",
+  "created_date_jst": "2026-09-19",
+  "summary": {
+    "source_price_rows": 1345,
+    "staged_price_rows": 1345,
+    "source_unique_plan_codes": 682,
+    "staged_unique_plan_codes": 682,
+    "missing_multiset_rows": 0,
+    "extra_multiset_rows": 0,
+    "merge_status_not_ready": 0,
+    "price_source_not_auto": 0,
+    "exact_multiset_match": true,
+    "batches": [
+      "results/v42_price_merge_stage_batch001.tsv",
+      "results/v42_price_merge_stage_batch002.tsv",
+      "results/v42_price_merge_stage_batch003.tsv",
+      "results/v42_price_merge_stage_batch004.tsv",
+      "results/v42_price_merge_stage_batch005.tsv",
+      "results/v42_price_merge_stage_batch006.tsv",
+      "results/v42_price_merge_stage_batch007.tsv",
+      "results/v42_price_merge_stage_batch008.tsv",
+      "results/v42_price_merge_stage_batch009.tsv"
+    ]
+  },
+  "missing": [],
+  "extra": [],
+  "conclusion": "PASS: all 1,345 auto price rows are preserved exactly across the 9 bounded staging batches.",
+  "next_step": "Validate and stage manual-confirmed prices, then consolidate recovered missing-price records."
+}
