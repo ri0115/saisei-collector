@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-overrides-1.1",
+  "version": "v41-official-overrides-1.2",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -316,6 +316,190 @@
           "product": "脂肪由来幹細胞"
         }
       ]
+    },
+    {
+      "plan_id": "V41_03E2506014",
+      "facility": "リセリングクリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2506014/5/0",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price table visually verified",
+      "prices": [
+        {
+          "amount": 1200000,
+          "tax": "不明",
+          "unit": "片膝・1億個・1回",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 1400000,
+          "tax": "不明",
+          "unit": "両膝・5千万個×2・1回",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 1700000,
+          "tax": "不明",
+          "unit": "片膝・1.5億個・1回",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 1900000,
+          "tax": "不明",
+          "unit": "両膝・7.5千万個×2・1回",
+          "product": "骨髄由来幹細胞"
+        },
+        {
+          "amount": 2400000,
+          "tax": "不明",
+          "unit": "両膝・1億個×2・1回",
+          "product": "骨髄由来幹細胞"
+        }
+      ],
+      "note": "施術費・幹細胞培養費を含む。初診3,000円、再診2,000円、初期検査40,000円、組織採取300,000円は別。"
+    },
+    {
+      "plan_id": "V41_01F2108003",
+      "facility": "医療法人かたひざこしのクリニック 福山かた・ひざ・こしのクリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2108003/5/0",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price table visually verified",
+      "prices": [
+        {
+          "amount": 38280,
+          "tax": "税込",
+          "unit": "ACP・1部位（1キット）",
+          "product": "ACP"
+        },
+        {
+          "amount": 54780,
+          "tax": "税込",
+          "unit": "ACP・2部位（2キット）",
+          "product": "ACP"
+        },
+        {
+          "amount": 27280,
+          "tax": "税込",
+          "unit": "ACP・学生・1部位（1キット）",
+          "product": "ACP",
+          "note": "学生価格"
+        },
+        {
+          "amount": 32780,
+          "tax": "税込",
+          "unit": "Condensia・1部位（1キット）",
+          "product": "Condensia"
+        },
+        {
+          "amount": 43780,
+          "tax": "税込",
+          "unit": "Condensia・2部位（2キット）",
+          "product": "Condensia"
+        },
+        {
+          "amount": 21780,
+          "tax": "税込",
+          "unit": "Condensia・学生・1部位（1キット）",
+          "product": "Condensia",
+          "note": "学生価格"
+        }
+      ],
+      "note": "治療費には診察、採血、PRP調製、注入費用を含む。初回投与時5,000円は初診料として別記。"
+    },
+    {
+      "plan_id": "V41_01C2605036",
+      "facility": "医療法人社団豊葉会 ザ・ヨコハマフロント・ベイサイドクリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605036/5/0",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price table visually verified",
+      "prices": [
+        {
+          "amount": 44600,
+          "tax": "税込",
+          "unit": "ACP・一般",
+          "product": "ACP"
+        },
+        {
+          "amount": 35000,
+          "tax": "税込",
+          "unit": "ACP・学生",
+          "product": "ACP",
+          "note": "学生価格"
+        },
+        {
+          "amount": 190000,
+          "tax": "税込",
+          "unit": "ACP MAX・一般",
+          "product": "ACP MAX"
+        },
+        {
+          "amount": 165000,
+          "tax": "税込",
+          "unit": "ACP MAX・学生",
+          "product": "ACP MAX",
+          "note": "学生価格"
+        },
+        {
+          "amount": 295000,
+          "tax": "税込",
+          "unit": "Angel PRP・1部位",
+          "product": "Angel"
+        },
+        {
+          "amount": 415000,
+          "tax": "税込",
+          "unit": "Angel PRP・2部位",
+          "product": "Angel"
+        },
+        {
+          "amount": 600000,
+          "tax": "税込",
+          "unit": "Angel PRP・3部位",
+          "product": "Angel"
+        }
+      ],
+      "note": "関節内組織（第二種）用の料金表。診察・検査費は治療費と別途。"
+    },
+    {
+      "plan_id": "V41_01C2605037",
+      "facility": "医療法人社団豊葉会 ザ・ヨコハマフロント・ベイサイドクリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605037/5/0",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price table visually verified",
+      "prices": [
+        {
+          "amount": 34700,
+          "tax": "税込",
+          "unit": "ACP・一般",
+          "product": "ACP"
+        },
+        {
+          "amount": 29000,
+          "tax": "税込",
+          "unit": "ACP・学生",
+          "product": "ACP",
+          "note": "学生価格"
+        },
+        {
+          "amount": 160000,
+          "tax": "税込",
+          "unit": "ACP MAX・一般",
+          "product": "ACP MAX"
+        },
+        {
+          "amount": 135000,
+          "tax": "税込",
+          "unit": "ACP MAX・学生",
+          "product": "ACP MAX",
+          "note": "学生価格"
+        },
+        {
+          "amount": 215000,
+          "tax": "税込",
+          "unit": "Angel PRP・一般/学生",
+          "product": "Angel"
+        }
+      ],
+      "note": "関節外軟部組織（第三種）用の料金表。診察・検査費は治療費と別途。"
     }
   ]
 }
