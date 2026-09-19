@@ -1,31 +1,31 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T01:46:03.352305+00:00",
+  "updated_at": "2026-09-19T02:16:03.793516+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T01:46:03.351910+00:00",
+    "updated_at": "2026-09-19T02:16:03.793199+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 120,
+    "promoted_qc_to_auto": 125,
     "promoted_by_parser": 67,
-    "promoted_by_verified_override": 53,
-    "normalized_auto": 658,
-    "normalized_qc": 116,
+    "promoted_by_verified_override": 58,
+    "normalized_auto": 663,
+    "normalized_qc": 111,
     "normalized_fail": 0,
-    "normalized_price_records": 1521,
+    "normalized_price_records": 1526,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 618,
+      "source_status_retained": 614,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 54,
+      "verified_official_site_override": 59,
       "verified_official_override": 30,
       "explicit_total_price_block": 2,
-      "still_ambiguous": 2,
-      "multiple_fee_components_needs_review": 4
+      "multiple_fee_components_needs_review": 4,
+      "still_ambiguous": 1
     }
   },
   "items": [
@@ -16108,55 +16108,38 @@
       "qc_reason_source": "rescue price candidates remain ambiguous",
       "prices_normalized": [
         {
-          "amount": 2000,
-          "tax": "税別",
-          "unit": "",
-          "score": 1,
-          "products": [],
-          "excerpt": "可能性 自家移植のため、極めて低い。 反応などの可能性を完全 には大定できない。 保険適用 : 2000 円前後回 oa 120, 000 円 (Bit) 180, 000 円 (税抜 ARE O Ee) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。",
-          "page": 4,
-          "line": "保険適用 : 2000 円前後回",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": false,
-          "postprocess_reason": "below_minimum_treatment_price"
-        },
-        {
           "amount": 120000,
           "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "可能性 自家移植のため、極めて低い。 反応などの可能性を完全 には大定できない。 保険適用 : 2000 円前後回 oa 120, 000 円 (Bit) 180, 000 円 (税抜 ARE O Ee) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。",
-          "page": 4,
-          "line": "可能性 自家移植のため、極めて低い。 反応などの可能性を完全 には大定できない。 保険適用 : 2000 円前後回 oa 120, 000 円 (Bit) 180, 000 円 (税抜 ARE O Ee) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "unit": "関節内PRP",
+          "products": [
+            "GPS"
+          ],
+          "makers": [
+            "Zimmer Biomet"
+          ],
+          "note": "GPSⅢ 120,000円（税抜）",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507042/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
-          "amount": 180000,
+          "amount": 280000,
           "tax": "税別",
-          "unit": "",
-          "score": 0,
-          "products": [],
-          "excerpt": "可能性 自家移植のため、極めて低い。 反応などの可能性を完全 には大定できない。 保険適用 : 2000 円前後回 oa 120, 000 円 (Bit) 180, 000 円 (税抜 ARE O Ee) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。",
-          "page": 4,
-          "line": "可能性 自家移植のため、極めて低い。 反応などの可能性を完全 には大定できない。 保険適用 : 2000 円前後回 oa 120, 000 円 (Bit) 180, 000 円 (税抜 ARE O Ee) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。",
-          "synthetic_postprocess": true,
-          "product_pair_method": "context_token",
-          "products_source": [],
-          "makers": [],
-          "tax_source": "不明",
-          "tax_inferred": true,
-          "postprocess_keep": false,
-          "postprocess_reason": "unclear"
+          "unit": "関節内PRP",
+          "products": [
+            "APS"
+          ],
+          "makers": [
+            "Zimmer Biomet"
+          ],
+          "note": "APS 280,000円（税抜）",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507042/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
       "prices_mhlw_document": [
@@ -16212,10 +16195,47 @@
           "postprocess_reason": "unclear"
         }
       ],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "still_ambiguous"
+      "prices_official_current": [
+        {
+          "amount": 120000,
+          "tax": "税別",
+          "unit": "関節内PRP",
+          "products": [
+            "GPS"
+          ],
+          "makers": [
+            "Zimmer Biomet"
+          ],
+          "note": "GPSⅢ 120,000円（税抜）",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507042/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 280000,
+          "tax": "税別",
+          "unit": "関節内PRP",
+          "products": [
+            "APS"
+          ],
+          "makers": [
+            "Zimmer Biomet"
+          ],
+          "note": "APS 280,000円（税抜）",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507042/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507042/5/0",
+      "verified_source_type": "mhlw_current_document"
     },
     {
       "plan_id": "V41_02E2507043",
@@ -16245,12 +16265,50 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": null,
+          "tax": "税別",
+          "unit": "軟部組織PRP",
+          "products": [
+            "GPS"
+          ],
+          "makers": [
+            "Zimmer Biomet"
+          ],
+          "note": "GPSⅢ 90,000〜120,000円（税抜）",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507043/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_official_current": [
+        {
+          "amount": null,
+          "tax": "税別",
+          "unit": "軟部組織PRP",
+          "products": [
+            "GPS"
+          ],
+          "makers": [
+            "Zimmer Biomet"
+          ],
+          "note": "GPSⅢ 90,000〜120,000円（税抜）",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507043/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507043/5/0",
+      "verified_source_type": "mhlw_current_document"
     },
     {
       "plan_id": "V41_02E2509003",
@@ -16332,69 +16390,124 @@
       "qc_reason_source": "no price found after text/OCR pass",
       "prices_normalized": [
         {
-          "amount": 660000,
-          "tax": "不明",
-          "unit": "1回",
-          "score": 1,
-          "products": [],
-          "excerpt": "1回目金額 880,000円 2回目金額 660,000円 1回目金額 1,210,000円 2回目金額 880,000円 1回目金額 1,320,000円 2回目金額 0円 1回目金額 1,760,000円 2回目金額 0円 初回から両 膝2回投与 を決めてい る 2億個×1回培養 1回ごと 片膝2回 5000万個×2回 培養 1回ごと 両膝2回 1億個×2回培養 初回から片 膝2回投与 を決",
-          "products_source": [],
-          "makers": [],
-          "product_pair_method": "context_token",
-          "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
-        },
-        {
           "amount": 880000,
           "tax": "不明",
-          "unit": "1回",
-          "score": 1,
-          "products": [],
-          "excerpt": "1回目金額 880,000円 2回目金額 660,000円 1回目金額 1,210,000円 2回目金額 880,000円 1回目金額 1,320,000円 2回目金額 0円 1回目金額 1,760,000円 2回目金額 0円 初回から両 膝2回投与 を決めてい る 2億個×1回培養 1回ごと 片膝2回 5000万個×2回 培養 1回ごと 両膝2回 1億個×2回培養",
-          "products_source": [],
+          "unit": "片膝2回・5000万個×2回培養・1回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 660000,
+          "tax": "不明",
+          "unit": "片膝2回・5000万個×2回培養・2回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 1210000,
           "tax": "不明",
-          "unit": "1回",
-          "score": 1,
-          "products": [],
-          "excerpt": "1回目金額 880,000円 2回目金額 660,000円 1回目金額 1,210,000円 2回目金額 880,000円 1回目金額 1,320,000円 2回目金額 0円 1回目金額 1,760,000円 2回目金額 0円 初回から両 膝2回投与 を決めてい る 2億個×1回培養 1回ごと 片膝2回 5000万個×2回 培養 1回ごと 両膝2回 1億個×2回培養 初回から片 膝2回投与 を決めてい る 1億個×1回培養",
-          "products_source": [],
+          "unit": "両膝2回・1億個×2回培養・1回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 880000,
+          "tax": "不明",
+          "unit": "両膝2回・1億個×2回培養・2回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 1320000,
           "tax": "不明",
-          "unit": "1回",
-          "score": 1,
-          "products": [],
-          "excerpt": "1回目金額 880,000円 2回目金額 660,000円 1回目金額 1,210,000円 2回目金額 880,000円 1回目金額 1,320,000円 2回目金額 0円 1回目金額 1,760,000円 2回目金額 0円 初回から両 膝2回投与 を決めてい る 2億個×1回培養 1回ごと 片膝2回 5000万個×2回 培養 1回ごと 両膝2回 1億個×2回培養 初回から片 膝2回投与 を決めてい る 1億個×1回培養",
-          "products_source": [],
+          "unit": "片膝2回投与・1億個×1回培養・1回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 0,
+          "tax": "不明",
+          "unit": "片膝2回投与・1億個×1回培養・2回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         },
         {
           "amount": 1760000,
           "tax": "不明",
-          "unit": "1回",
-          "score": 1,
-          "products": [],
-          "excerpt": "1回目金額 880,000円 2回目金額 660,000円 1回目金額 1,210,000円 2回目金額 880,000円 1回目金額 1,320,000円 2回目金額 0円 1回目金額 1,760,000円 2回目金額 0円 初回から両 膝2回投与 を決めてい る 2億個×1回培養 1回ごと 片膝2回 5000万個×2回 培養 1回ごと 両膝2回 1億個×2回培養 初回から片 膝2回投与 を決めてい る 1億個×1回培養",
-          "products_source": [],
+          "unit": "両膝2回投与・2億個×1回培養・1回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
           "makers": [],
-          "product_pair_method": "context_token",
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
           "postprocess_keep": true,
-          "postprocess_reason": "treatment_label_nearest"
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 0,
+          "tax": "不明",
+          "unit": "両膝2回投与・2億個×1回培養・2回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
         }
       ],
       "prices_mhlw_document": [
@@ -16464,10 +16577,133 @@
           "postprocess_reason": "treatment_label_nearest"
         }
       ],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_official_current": [
+        {
+          "amount": 880000,
+          "tax": "不明",
+          "unit": "片膝2回・5000万個×2回培養・1回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 660000,
+          "tax": "不明",
+          "unit": "片膝2回・5000万個×2回培養・2回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1210000,
+          "tax": "不明",
+          "unit": "両膝2回・1億個×2回培養・1回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 880000,
+          "tax": "不明",
+          "unit": "両膝2回・1億個×2回培養・2回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1320000,
+          "tax": "不明",
+          "unit": "片膝2回投与・1億個×1回培養・1回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 0,
+          "tax": "不明",
+          "unit": "片膝2回投与・1億個×1回培養・2回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1760000,
+          "tax": "不明",
+          "unit": "両膝2回投与・2億個×1回培養・1回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 0,
+          "tax": "不明",
+          "unit": "両膝2回投与・2億個×1回培養・2回目",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
+      "verified_source_type": "mhlw_current_document"
     },
     {
       "plan_id": "V41_01E2509005",
@@ -41340,12 +41576,46 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 100000,
+          "tax": "税別",
+          "unit": "軟部組織治療・費用例",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "100,000円（税抜）、価格は一例",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2511004/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_official_current": [
+        {
+          "amount": 100000,
+          "tax": "税別",
+          "unit": "軟部組織治療・費用例",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "100,000円（税抜）、価格は一例",
+          "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2511004/5/0",
+          "source_type": "mhlw_current_document",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2511004/5/0",
+      "verified_source_type": "mhlw_current_document"
     },
     {
       "plan_id": "V41_01D2603004",
@@ -56966,12 +57236,46 @@
       "v41_lane": "D",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 3300000,
+          "tax": "税込",
+          "unit": "1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "公式サイト治療費用：1回 3,300,000円（税込）",
+          "source_url": "https://www.stemcell-therapy.jp/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained"
+      "prices_official_current": [
+        {
+          "amount": 3300000,
+          "tax": "税込",
+          "unit": "1回",
+          "products": [
+            "脂肪由来幹細胞"
+          ],
+          "makers": [],
+          "note": "公式サイト治療費用：1回 3,300,000円（税込）",
+          "source_url": "https://www.stemcell-therapy.jp/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://www.stemcell-therapy.jp/",
+      "verified_source_type": "official_clinic_site"
     },
     {
       "plan_id": "V41_01C2303024",
