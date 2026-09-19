@@ -1,0 +1,192 @@
+{
+  "version": "v41-official-site-batch-01",
+  "baseline_version": "v41-postprocess-1.6",
+  "scope": {
+    "queue_file": "results/v41_official_site_fallback_queue.json",
+    "batch_index": 1,
+    "facilities": 10,
+    "items": 10,
+    "queue_item_range": "1-10"
+  },
+  "decision_rule": {
+    "confirmed_price": "Current official site shows a public price applicable to the queued treatment. A related but materially different treatment is not substituted.",
+    "official_no_public_price": "Current official site confirms the queued treatment/therapy is offered, but no public treatment fee is shown after checking the relevant official page(s).",
+    "unconfirmed": "Official site cannot be adequately inspected, or the current official site does not establish a sufficiently close match to the queued treatment. Related-treatment prices are not reused."
+  },
+  "classification_counts": {
+    "価格確定": 1,
+    "公式サイトはあるが価格非公開": 3,
+    "未確認": 6
+  },
+  "records": [
+    {
+      "queue_no": 1,
+      "plan_id": "V41_02C2402051",
+      "mhlw_plan_code": "02C2402051",
+      "facility_id": "V41F6BA7FEB040",
+      "facility": "社会医療法人社団蛍水会 名戸ヶ谷病院",
+      "prefecture": "千葉県",
+      "target_treatment": "自家多血小板血漿(Platelet-rich plasma:PRP)を用いた関節機能治療(関節腔外に限る)",
+      "classification": "未確認",
+      "official_url": "https://www.nadogaya.com/department/orthopedic_surgery/aps/",
+      "matched_prices": [],
+      "evidence": "Official site publicly lists ACP/APS PRP prices, but the displayed fee is explicitly per joint (片膝/両膝・1部位(関節)). The queued plan is limited to extra-articular treatment, so the joint price was not transferred.",
+      "related_price_not_adopted": "ACP 30,000円 tax-excl per single knee + reservation fee; 56,000円 tax-excl both knees + reservation; APS 300,000円 tax-excl per joint + reservation."
+    },
+    {
+      "queue_no": 2,
+      "plan_id": "V41_01E2605009",
+      "mhlw_plan_code": "01E2605009",
+      "facility_id": "V41F2272A75A03",
+      "facility": "ひらまつ整形外科 難波膝スポーツクリニック",
+      "prefecture": "大阪府",
+      "target_treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
+      "classification": "価格確定",
+      "official_url": "https://www.h-nksc.jp/private_medical/p_03.html",
+      "matched_prices": [
+        {
+          "product": "京セラ社コンデンシア",
+          "maker": "京セラ",
+          "treatment": "PRP療法",
+          "amount_yen": 44000,
+          "tax": "税込",
+          "unit": "1回",
+          "note": "血液20mlより製造"
+        },
+        {
+          "product": "京セラ社コンデンシア",
+          "maker": "京セラ",
+          "treatment": "PRP療法",
+          "amount_yen": 110000,
+          "tax": "税込",
+          "unit": "3回"
+        },
+        {
+          "product": "京セラ社コンデンシア",
+          "maker": "京セラ",
+          "treatment": "PRP療法",
+          "amount_yen": 198000,
+          "tax": "税込",
+          "unit": "6回"
+        }
+      ],
+      "evidence": "Official biotherapy page lists PRP therapy using Kyocera Condensia and a current public fee table. The site does not split the price by intra-/extra-articular plan, so this is retained with a scope note rather than silently inferring a separate fee.",
+      "scope_note": "PRP public menu common price; official page describes joint injection but also states LR/LP-PRP is selected by site/symptoms."
+    },
+    {
+      "queue_no": 3,
+      "plan_id": "V41_01F2305003",
+      "mhlw_plan_code": "01F2305003",
+      "facility_id": "V41F739E9E2C77",
+      "facility": "森山整形クリニック",
+      "prefecture": "山口県",
+      "target_treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法",
+      "classification": "未確認",
+      "official_url": "https://clinic-moriyama.ecnet.jp/",
+      "matched_prices": [],
+      "evidence": "The official URL is registered in the Ministry of Health medical-information service, but the site could not be meaningfully inspected for a current PRP page or fee. Absence of a discoverable fee was therefore not treated as confirmed non-public pricing."
+    },
+    {
+      "queue_no": 4,
+      "plan_id": "V41_03F2304004",
+      "mhlw_plan_code": "03F2304004",
+      "facility_id": "V41FEAC08EC422",
+      "facility": "医療法人エム・エム会 マッターホルンリハビリテーション病院",
+      "prefecture": "広島県",
+      "target_treatment": "多血小板血漿を用いた靭帯・腱及び腱付着部の機能障害・疾患の治療",
+      "classification": "未確認",
+      "official_url": "http://www.matterhorn-hospital.jp/",
+      "matched_prices": [],
+      "evidence": "The official hospital URL is registered in the Ministry of Health medical-information service, but the current official site could not be reliably inspected for the target PRP treatment/price. A historical third-party APS price was not adopted."
+    },
+    {
+      "queue_no": 5,
+      "plan_id": "V41_01C2210035",
+      "mhlw_plan_code": "01C2210035",
+      "facility_id": "V41F44A291BB5A",
+      "facility": "MediLotus clinic",
+      "prefecture": "東京都",
+      "target_treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療",
+      "classification": "未確認",
+      "official_url": "https://medilotus-clinic.com/",
+      "matched_prices": [],
+      "evidence": "The clinic domain and exact address are corroborated by the clinic's official LINE account, but the website could not be adequately inspected to verify the current osteoarthritis stem-cell service or a public fee. The MHLW plan alone was not used to label the website price as non-public."
+    },
+    {
+      "queue_no": 6,
+      "plan_id": "V41_02C2009011",
+      "mhlw_plan_code": "02C2009011",
+      "facility_id": "V41FB27CDCB6B4",
+      "facility": "アットホーム表参道クリニック",
+      "prefecture": "東京都",
+      "target_treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する組織修復",
+      "classification": "未確認",
+      "official_url": "https://www.o-athome.jp/orthopedics/knee-osteoarthritis/",
+      "matched_prices": [],
+      "evidence": "Current official site shows APS (next-generation PRP) for knee/hip OA at 400,000円 tax-excl, specifically intra-articular treatment. This is not the same as the queued general PRP tissue-repair plan, so the APS fee was not substituted.",
+      "related_price_not_adopted": "ZIMMER BIOMET APS kit 400,000円 tax-excl"
+    },
+    {
+      "queue_no": 7,
+      "plan_id": "V41_01C2504026",
+      "mhlw_plan_code": "01C2504026",
+      "facility_id": "V41FA1B35167B4",
+      "facility": "一般社団法人エンパシア IIT CLINIC",
+      "prefecture": "東京都",
+      "target_treatment": "自家培養脂肪由来幹細胞を用いた変形性関節症の治療",
+      "classification": "公式サイトはあるが価格非公開",
+      "official_url": "https://iit-clinic.com/stem-cell-therapy/",
+      "matched_prices": [],
+      "evidence": "Official site explicitly lists the MHLW plan number PB3250074 and describes adipose-derived mesenchymal stem-cell treatment for osteoarthritis, including knee OA. No fee/price is published on the treatment page."
+    },
+    {
+      "queue_no": 8,
+      "plan_id": "V41_02C2505033",
+      "mhlw_plan_code": "02C2505033",
+      "facility_id": "V41F317F4EF430",
+      "facility": "一般社団法人厚生会 元麻布ヒルズメディカルクリニック",
+      "prefecture": "東京都",
+      "target_treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
+      "classification": "公式サイトはあるが価格非公開",
+      "official_url": "https://motoazabuhills-clinic.jp/",
+      "matched_prices": [],
+      "evidence": "Official site explicitly lists '自己脂肪間葉系幹細胞を用いた変形性関節症に対する治療' among its filed regenerative-medicine treatments. No corresponding treatment fee was found on the current official pages."
+    },
+    {
+      "queue_no": 9,
+      "plan_id": "V41_01C2602051",
+      "mhlw_plan_code": "01C2602051",
+      "facility_id": "V41F1D3991E09E",
+      "facility": "一般社団法人天美会 Tenvi Clinic Ginza",
+      "prefecture": "東京都",
+      "target_treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
+      "classification": "公式サイトはあるが価格非公開",
+      "official_url": "https://tenviclinic.com/reservation/",
+      "matched_prices": [],
+      "evidence": "Official site explicitly includes PRP treatment under regenerative-medicine treatments and publishes only a regenerative-medicine initial consultation fee (50,000円), not the PRP treatment charge. The previously surfaced 600,000円 candidate was not adopted.",
+      "ancillary_fee_not_treatment_price": "再生医療治療 初診料 50,000円"
+    },
+    {
+      "queue_no": 10,
+      "plan_id": "V41_02C2310060",
+      "mhlw_plan_code": "02C2310060",
+      "facility_id": "V41F308BE151FB",
+      "facility": "一般社団法人日本オーラルヘルス協会 ミライズクリニック南青山",
+      "prefecture": "東京都",
+      "target_treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療",
+      "classification": "未確認",
+      "official_url": "https://miriselongevity.com/",
+      "matched_prices": [],
+      "evidence": "Current group history states that regenerative medicine moved to Mirise iPS Clinic in 2025 and Mirise Clinic was renamed for jaw-deformity care. MHLW records still show joint ASC regenerative plans under the former facility name, but a current official page tying the queued osteoarthritis plan to a public fee was not established."
+    }
+  ],
+  "batch_audit": {
+    "item_count": 10,
+    "unique_facility_count": 10,
+    "classification_total": 10,
+    "price_confirmed_records": 3,
+    "fail": 0,
+    "baseline_mutated": false,
+    "next_queue_no": 11
+  }
+}
