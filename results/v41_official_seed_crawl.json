@@ -1,5 +1,5 @@
 {
-  "version": "v41-seed-crawl-1.1",
+  "version": "v41-seed-crawl-1.2",
   "total_facilities": 32,
   "results": [
     {
@@ -49,7 +49,8 @@
           "plan_id": "V41_02C2402051",
           "treatment_class": "PRP",
           "treatment": "自家多血小板血漿(Platelet-rich plasma:PRP)を用いた関節機能治療(関節腔外に限る)",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -80,7 +81,8 @@
           "plan_id": "V41_01E2605009",
           "treatment_class": "PRP",
           "treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -139,7 +141,8 @@
           "plan_id": "V41_01C2505023",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -153,12 +156,12 @@
           "chars": 4336
         },
         {
-          "url": "https://www.ginza-noa-cl.jp/stemtap",
-          "chars": 4379
-        },
-        {
           "url": "https://www.ginza-noa-cl.jp/prp",
           "chars": 3244
+        },
+        {
+          "url": "https://www.ginza-noa-cl.jp/stemtap",
+          "chars": 4379
         }
       ],
       "plans": [
@@ -166,7 +169,8 @@
           "plan_id": "V41_02C2605056",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -185,7 +189,8 @@
           "plan_id": "V41_01C2509020",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "ヒト⾃⼰脂肪組織由来間葉系幹細胞を⽤いた関節疾患の治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -216,7 +221,8 @@
           "plan_id": "V41_01C2504026",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "自家培養脂肪由来幹細胞を用いた変形性関節症の治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -239,7 +245,8 @@
           "plan_id": "V41_01C2602051",
           "treatment_class": "PRP",
           "treatment": "多血小板血漿を用いた整形外科領域（関節腔内への投与を除く）の治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -253,16 +260,16 @@
           "chars": 5269
         },
         {
-          "url": "https://heleneclinic.com/stemcell/msc/",
-          "chars": 3480
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/",
           "chars": 2839
         },
         {
           "url": "https://heleneclinic.com/stemcell/disease-treatment/",
           "chars": 8679
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/msc/",
+          "chars": 3480
         },
         {
           "url": "https://heleneclinic.com/stemcell/risk/",
@@ -282,7 +289,8 @@
           "plan_id": "V41_02C2601051",
           "treatment_class": "PRP",
           "treatment": "変形性関節症に対する自己血PRPの関節内投与療法",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -296,12 +304,12 @@
           "chars": 5269
         },
         {
-          "url": "https://heleneclinic.com/stemcell/msc/",
-          "chars": 3480
-        },
-        {
           "url": "https://heleneclinic.com/stemcell/",
           "chars": 2839
+        },
+        {
+          "url": "https://heleneclinic.com/stemcell/msc/",
+          "chars": 3480
         },
         {
           "url": "https://heleneclinic.com/stemcell/disease-treatment/",
@@ -325,7 +333,8 @@
           "plan_id": "V41_02C2608014",
           "treatment_class": "その他MSK",
           "treatment": "変形性関節症に対する自家間葉系幹細胞移植による治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -344,7 +353,8 @@
           "plan_id": "V41_02C1912017",
           "treatment_class": "PRP",
           "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する組織修復",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -375,7 +385,8 @@
           "plan_id": "V41_01F2310002",
           "treatment_class": "PRP",
           "treatment": "自己多血小板血漿（Platelet-rich plasma：PRP）を用いた\r\n整形外科領域における軟部組織治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -389,12 +400,12 @@
           "chars": 3465
         },
         {
-          "url": "https://hime.clinic/archives/treatment_category/reg",
-          "chars": 939
+          "url": "https://hime.clinic/archives/118236",
+          "chars": 7796
         },
         {
-          "url": "https://hime.clinic/archives/118236",
-          "chars": 7911
+          "url": "https://hime.clinic/archives/treatment_category/reg",
+          "chars": 939
         },
         {
           "url": "https://hime.clinic/archives/treatment_category/fre",
@@ -426,19 +437,22 @@
           "plan_id": "V41_02C2601085",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "自己脂肪組織由来幹細胞（ASCs）を用いた変形性関節症の治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         },
         {
           "plan_id": "V41_02C2601086",
           "treatment_class": "PRP",
           "treatment": "自己多血小板血漿(PRP)療法（治療対象：関節炎・変形性関節症）",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         },
         {
           "plan_id": "V41_02C2601087",
           "treatment_class": "PRP",
           "treatment": "自己多血小板血漿(PRP)療法（治療対象：筋・腱・靭帯損傷）",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -457,7 +471,8 @@
           "plan_id": "V41_01E2307007",
           "treatment_class": "PRP",
           "treatment": "自己多血小板血漿（PRP)を用いた、筋・腱・靱帯の軟部組織再生療法",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -492,7 +507,8 @@
           "plan_id": "V41_02C2009011",
           "treatment_class": "PRP",
           "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する組織修復",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -530,24 +546,24 @@
           "chars": 1968
         },
         {
-          "url": "https://motoazabuhills-clinic.jp/relieve-pain/",
-          "chars": 5840
-        },
-        {
           "url": "https://motoazabuhills-clinic.jp/obesity/",
           "chars": 7796
         },
         {
-          "url": "https://motoazabuhills-clinic.jp/skin-aging/",
-          "chars": 5249
+          "url": "https://motoazabuhills-clinic.jp/relieve-pain/",
+          "chars": 5840
+        },
+        {
+          "url": "https://motoazabuhills-clinic.jp/aga/",
+          "chars": 4637
         },
         {
           "url": "https://motoazabuhills-clinic.jp/forgetfulness/",
           "chars": 6241
         },
         {
-          "url": "https://motoazabuhills-clinic.jp/aga/",
-          "chars": 4637
+          "url": "https://motoazabuhills-clinic.jp/skin-aging/",
+          "chars": 5249
         }
       ],
       "plans": [
@@ -555,7 +571,8 @@
           "plan_id": "V41_02C2505033",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -578,7 +595,8 @@
           "plan_id": "V41_02C2310060",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -609,7 +627,8 @@
           "plan_id": "V41_03D2506004",
           "treatment_class": "PRP",
           "treatment": "自己多血小板血漿(PRP)を用いた筋・腱・靭帯等の軟部組織治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -631,14 +650,7 @@
           "chars": 1868
         }
       ],
-      "plans": [
-        {
-          "plan_id": "V41_01C2511006",
-          "treatment_class": "その他MSK",
-          "treatment": "自家多血小板フィブリンを用いた軟骨移植外鼻形成術",
-          "candidates": []
-        }
-      ]
+      "plans": []
     },
     {
       "facility_id": "V41FBD5BD4E549",
@@ -659,13 +671,15 @@
           "plan_id": "V41_02C2505009",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "自家脂肪由来間葉系幹細胞を用いた腰痛の治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         },
         {
           "plan_id": "V41_02C2505010",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "自家脂肪由来間葉系幹細胞を用いた肩(回旋筋)腱板損傷の治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -679,16 +693,16 @@
           "chars": 6673
         },
         {
-          "url": "https://kumagaiseikei.jp/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82/",
-          "chars": 1166
-        },
-        {
           "url": "https://kumagaiseikei.jp/%E8%87%AA%E5%B7%B1%E8%84%82%E8%82%AA%E7%94%B1%E6%9D%A5%E5%B9%B9%E7%B4%B0%E8%83%9E%E5%86%8D%E7%94%9F%E6%B2%BB%E7%99%82/",
           "chars": 1047
         },
         {
           "url": "https://kumagaiseikei.jp/%E5%B9%B9%E7%B4%B0%E8%83%9E%E5%9F%B9%E9%A4%8A%E4%B8%8A%E6%B8%85%E6%B6%B2%E7%99%82%E6%B3%95/",
           "chars": 1063
+        },
+        {
+          "url": "https://kumagaiseikei.jp/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82/",
+          "chars": 1166
         }
       ],
       "plans": [
@@ -696,7 +710,8 @@
           "plan_id": "V41_02C2608034",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "ヒト自己脂肪組織由来間葉系幹細胞の関節内投与による関節傷害の症状改善の治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     },
@@ -723,7 +738,8 @@
           "plan_id": "V41_01C2510078",
           "treatment_class": "脂肪由来幹細胞",
           "treatment": "変形性関節症に対する自己脂肪由来幹細胞を用いた治療",
-          "candidates": []
+          "candidates": [],
+          "no_public_price_evidence": []
         }
       ]
     }
