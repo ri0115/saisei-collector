@@ -1,0 +1,22 @@
+{
+  "version": "v42-merge-audit-stage08a-v40-A-batch001",
+  "created_date_jst": "2026-09-19",
+  "source": "results/latest.json",
+  "plan_range": "A queue 1-50",
+  "plan_rows": 50,
+  "status_counts": {
+    "AUTO": 36,
+    "QC": 14
+  },
+  "exported_price_rows": 127,
+  "no_price_counts": {
+    "AUTO": 0,
+    "QC": 8
+  },
+  "policy": {
+    "AUTO": "retain refined prices when present, otherwise source prices; ranking eligible",
+    "QC": "retain candidate rows for audit but ranking_eligible=false",
+    "QC_no_price": "retain plan placeholder; no inferred price"
+  },
+  "next_step": "Process A queue 51-100 as a separate bounded batch."
+}
