@@ -1,0 +1,366 @@
+{
+  "high_candidate_rows_before_normalized_audit": 63,
+  "audited_unique_facility_maker_pairs": 63,
+  "new_manufacturer_facilities": 49,
+  "new_manufacturer_placements_on_new_facilities": 50,
+  "new_maker_placements_on_already_known_facilities": 0,
+  "duplicate_known_maker_pairs": 13,
+  "new_facility_by_manufacturer": {
+    "Zimmer Biomet": 19,
+    "Arthrex": 31
+  },
+  "new_existing_facility_placements_by_manufacturer": {},
+  "new_facilities": [
+    {
+      "prefecture": "京都府",
+      "facility": "医療法人藍整会 なか整形外科 京都西院リハビリテーションクリニック",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "京都府",
+      "facility": "医療法人財団康生会 たけだ膠原病リウマチクリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "兵庫県",
+      "facility": "医療法人社団高遼会 整形外科たかひろクリニック",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "兵庫県",
+      "facility": "藤田整形外科 スポーツクリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "千葉県",
+      "facility": "医療法人社団オルソプラス  むらた整形外科",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "千葉県",
+      "facility": "医療法人社団奏の杜整形外科",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "千葉県",
+      "facility": "医療法人社団奏の杜整形外科",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "千葉県",
+      "facility": "医療法人社団慈宏会 まさき整形外科",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "千葉県",
+      "facility": "医療法人社団明敬会 重城病院",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "千葉県",
+      "facility": "柏の葉キャンパス整形外科",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "千葉県",
+      "facility": "順天堂大学医学部附属浦安病院",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "埼玉県",
+      "facility": "医療法人社団南越谷病院",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "埼玉県",
+      "facility": "医療法人社団幸祥会 東整形外科",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "埼玉県",
+      "facility": "医療法人社団愛友会 三郷中央総合病院",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "埼玉県",
+      "facility": "医療法人社団武蔵野会 TMGあさか医療センター",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "大分県",
+      "facility": "仙波整形外科",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "大阪府",
+      "facility": "たけうち整形外科リウマチ科",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "大阪府",
+      "facility": "医療法人讃高会 枚方東整形外科病院",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "山口県",
+      "facility": "医療法人社団 宇部興産中央病院",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "山梨県",
+      "facility": "東甲府医院",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "山梨県",
+      "facility": "独立行政法人地域医療機能推進機構 山梨病院",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "岐阜県",
+      "facility": "公立学校共済組合 東海中央病院",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "岐阜県",
+      "facility": "森整形外科リハビリクリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "岩手県",
+      "facility": "いわてスポーツ・整形外科クリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "愛媛県",
+      "facility": "社会医療法人石川記念会 HITO病院",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "愛知県",
+      "facility": "ふくの森リハビリ整形外科",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "愛知県",
+      "facility": "リジェネレーションクリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "愛知県",
+      "facility": "瀬戸にしな整形外科クリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "愛知県",
+      "facility": "米田病院",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "新潟県",
+      "facility": "医療法人社団ibis こばり坂クリニック",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "東京都",
+      "facility": "おかのクリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "東京都",
+      "facility": "すみだ運動器リハビリテーションクリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "東京都",
+      "facility": "医療法人社団 山手クリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "東京都",
+      "facility": "池尻大橋せらクリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "東京都",
+      "facility": "独立行政法人国立病院機構東京医療センター",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "東京都",
+      "facility": "社会福祉法人白十字会 東京白十字病院",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "東京都",
+      "facility": "順天堂大学医学部附属練馬病院",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "滋賀県",
+      "facility": "公立甲賀病院",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "神奈川県",
+      "facility": "ほんだ整形外科クリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "神奈川県",
+      "facility": "医療法人横浜未来ヘルスケアシステム 戸塚共立第2病院",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "福岡県",
+      "facility": "とも整形外科スポーツクリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "福岡県",
+      "facility": "櫛田学整形外科クリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "群馬県",
+      "facility": "慶友整形外科クリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "長野県",
+      "facility": "佐久市立国保浅間総合病院",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "長野県",
+      "facility": "医療法人弘仁会 かもいクリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "長野県",
+      "facility": "社会医療法人栗山会飯田病院",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "静岡県",
+      "facility": "医療法人社団平成会 藤枝平成記念病院",
+      "maker": "Zimmer Biomet",
+      "source": "Zimmer Biomet",
+      "products": "APS"
+    },
+    {
+      "prefecture": "静岡県",
+      "facility": "富士整形外科病院",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP|HD-PRP"
+    },
+    {
+      "prefecture": "香川県",
+      "facility": "高松南整形外科スポーツクリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    },
+    {
+      "prefecture": "鹿児島県",
+      "facility": "天陽会中央クリニック",
+      "maker": "Arthrex",
+      "source": "Arthrex",
+      "products": "ACP-PRP"
+    }
+  ],
+  "new_placements_existing_facilities": []
+}
