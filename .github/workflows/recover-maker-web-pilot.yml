@@ -1,0 +1,30 @@
+name: Recover maker web pilot
+
+on:
+  push:
+    paths:
+      - "scripts/recover_maker_web_pilot.py"
+      - "data/maker_pilot50_unresolved.tsv"
+      - ".github/workflows/recover-maker-web-pilot.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests beautifulsoup4 ddgs
+      - run: python scripts/recover_maker_web_pilot.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maker-web-pilot
+          path: results/maker_web_pilot/
+          if-no-files-found: error
+          retention-days: 7
