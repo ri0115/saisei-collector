@@ -1,0 +1,37 @@
+{
+  "version": "v42-maker-canonical-2026-09-19-02",
+  "date_jst": "2026-09-19",
+  "canonical": true,
+  "safe_to_use": true,
+  "supersedes": "results/v42_maker_share_checkpoint_post_mhlw.json and quarantined official-web outputs",
+  "facility_total": 949,
+  "manufacturer_known_facilities": 363,
+  "manufacturer_known_rate": 0.3825,
+  "manufacturer_placements": 446,
+  "manufacturer_counts": {
+    "Zimmer Biomet": 225,
+    "Arthrex": 123,
+    "京セラ": 52,
+    "ESTAR Technologies": 26,
+    "REV-MED": 8,
+    "DSM Biomedical": 7,
+    "BTI Biotechnology Institute": 4,
+    "Arteriocyte Medical Systems": 1
+  },
+  "rules": [
+    "Counts use legal manufacturer / canonical manufacturer group where available.",
+    "Facility document labels such as Kaylight are preserved separately from PMDA legal manufacturer.",
+    "One facility can contribute to multiple manufacturer placements.",
+    "Quarantined old official-web scan is not included.",
+    "Only exact MHLW plan evidence or manually verified facility-official evidence is included."
+  ],
+  "additions_since_post_mhlw_checkpoint": {
+    "manufacturer_facilities_added": 14,
+    "sources": {
+      "MHLW_product_only_upgraded_with_validated_registry": 2,
+      "previous_official_lead_upgraded": 1,
+      "manually_verified_facility_official_pages": 11
+    }
+  },
+  "pending": "Strict official maker recovery v2 is separate candidate-generation only and must be audited before merge."
+}
