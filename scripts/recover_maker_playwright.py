@@ -2,7 +2,7 @@
 import argparse, asyncio, csv, io, json, re
 from pathlib import Path
 from pypdf import PdfReader
-from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
+from playwright.async_api import async_playwright
 
 IN=Path("data/maker_pilot50_unresolved.tsv")
 
@@ -73,22 +73,17 @@ def scan_pages(pages):
     inferred={PRODUCT_DEFAULT_MAKER[p] for p in products if p in PRODUCT_DEFAULT_MAKER}
     return sorted(products),sorted(explicit),sorted(inferred),evidence[:16]
 
-async def download_pdf(page,url):
+async def fetch_pdf(context,url):
     try:
-        async with page.expect_download(timeout=15000) as di:
-            try:
-                await page.goto(url,wait_until="commit",timeout=20000)
-            except Exception:
-                pass
-        dl=await di.value
-        p=await dl.path()
-        if not p: return None
-        data=Path(p).read_bytes()
-        return data
-    except PlaywrightTimeoutError:
-        return None
+        resp=await context.request.get(url,timeout=8000,fail_on_status_code=False)
+        status=resp.status
+        ctype=(resp.headers.get("content-type") or "").lower()
+        body=await resp.body()
+        if status==200 and (body.startswith(b"%PDF") or "pdf" in ctype):
+            return body,status,ctype
+        return None,status,ctype
     except Exception:
-        return None
+        return None,None,None
 
 async def main():
     ap=argparse.ArgumentParser()
@@ -105,7 +100,6 @@ async def main():
     async with async_playwright() as p:
         browser=await p.chromium.launch(headless=True)
         context=await browser.new_context(
-            accept_downloads=True,
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
             locale="ja-JP",
         )
@@ -114,20 +108,25 @@ async def main():
             await page.goto("https://saiseiiryo.mhlw.go.jp/published_plan/index/3",wait_until="domcontentloaded",timeout=30000)
         except Exception:
             pass
+
         for row in rows:
             products=set(); explicit=set(); inferred=set(); evidence=[]
-            downloads=0; attempts=0; download_urls=[]
+            downloads=0; attempts=0; download_urls=[]; statuses=[]
             for code in [c for c in row["mhlw_plan_codes"].split("|") if c]:
-                consecutive_miss=0
+                consecutive_missing=0
                 for idx in range(args.max_index+1):
                     attempts+=1
                     url=f"https://saiseiiryo.mhlw.go.jp/published_plan/download/{code}/5/{idx}"
-                    data=await download_pdf(page,url)
-                    if not data or b"%PDF" not in data[:1024]:
-                        consecutive_miss+=1
-                        if idx>=2 and consecutive_miss>=2: break
+                    data,status,ctype=await fetch_pdf(context,url)
+                    statuses.append(f"{code}:{idx}:{status}")
+                    if not data:
+                        if status==404:
+                            consecutive_missing+=1
+                            if idx>=2 and consecutive_missing>=2:
+                                break
                         continue
-                    consecutive_miss=0; downloads+=1; download_urls.append(url)
+                    consecutive_missing=0
+                    downloads+=1; download_urls.append(url)
                     ps,ms,ims,ev=scan_pages(pdf_pages(data))
                     products.update(ps); explicit.update(ms); inferred.update(ims)
                     for e in ev: evidence.append({"code":code,"idx":idx,"url":url,**e})
@@ -142,9 +141,11 @@ async def main():
                 "downloads":downloads,"attempts":attempts,
                 "resolved":"YES" if final else "NO",
                 "download_urls":"|".join(download_urls),
+                "http_statuses":"|".join(statuses),
                 "evidence_json":json.dumps(evidence[:20],ensure_ascii=False),
             })
         await browser.close()
+
     fields=list(results[0].keys()) if results else []
     if results:
         with (outdir/"results.tsv").open("w",encoding="utf-8",newline="") as f:
