@@ -439,6 +439,24 @@
       "facility": "産業医科大学若松病院",
       "url": "https://www.wakamatsu-sportsmed.com/blank-4",
       "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FBEAA3D4434",
+      "facility": "慶友整形外科クリニック",
+      "url": "https://www.ku-kai.or.jp/html/ko.php",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F897007AA88",
+      "facility": "アントラーズスポーツクリニック",
+      "url": "https://www.antlerssc.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F04E31ABAD7",
+      "facility": "医療法人吉祥会 吉井整形外科内科中央病院",
+      "url": "https://kisshokai.com/",
+      "source": "web_verified"
     }
   ],
   "updated_at": "2026-09-19",
