@@ -1,0 +1,30 @@
+{
+  "version": "v42-merge-audit-stage10d-v40-C-integrity",
+  "created_date_jst": "2026-09-19",
+  "summary": {
+    "source_plans": 105,
+    "staged_unique_plans": 105,
+    "staged_rows_including_placeholders": 292,
+    "source_status_counts": {
+      "QC": 33,
+      "AUTO": 72
+    },
+    "stage_row_status_counts": {
+      "REVIEW_QC_CANDIDATE": 86,
+      "READY_AUTO": 189,
+      "REVIEW_QC_NO_PRICE": 17
+    },
+    "missing_plans": 0,
+    "extra_plans": 0,
+    "missing_queue_indices": 0,
+    "extra_queue_indices": 0,
+    "multi_index_plans": 0,
+    "exact_plan_coverage": true
+  },
+  "missing_plans": [],
+  "extra_plans": [],
+  "missing_queue_indices": [],
+  "extra_queue_indices": [],
+  "multi_index_plans": [],
+  "conclusion": "PASS: C lane 105/105 plans preserved across 3 bounded batches."
+}
