@@ -1,31 +1,31 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T02:36:45.437045+00:00",
+  "updated_at": "2026-09-19T02:38:59.605624+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T02:36:45.436660+00:00",
+    "updated_at": "2026-09-19T02:38:59.605351+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
     "source_fail": 0,
-    "promoted_qc_to_auto": 137,
+    "promoted_qc_to_auto": 139,
     "promoted_by_parser": 67,
-    "promoted_by_verified_override": 70,
-    "normalized_auto": 675,
-    "normalized_qc": 94,
+    "promoted_by_verified_override": 72,
+    "normalized_auto": 677,
+    "normalized_qc": 92,
     "normalized_fail": 0,
     "normalized_out_of_scope": 1,
     "normalized_no_public_price": 4,
     "in_scope_total": 773,
-    "resolved_in_scope": 679,
-    "normalized_price_records": 1522,
+    "resolved_in_scope": 681,
+    "normalized_price_records": 1525,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
-      "source_status_retained": 600,
+      "source_status_retained": 598,
       "structured_treatment_price_table": 15,
       "structured_product_price_table": 32,
       "single_clear_treatment_price": 4,
-      "verified_official_site_override": 71,
+      "verified_official_site_override": 73,
       "verified_official_override": 30,
       "explicit_total_price_block": 2,
       "verified_no_public_price": 4,
@@ -68972,12 +68972,76 @@
       "v41_lane": "C",
       "status_source": "QC",
       "qc_reason_source": "no price found after text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 1078000,
+          "tax": "税別",
+          "unit": "片膝・幹細胞1億セル",
+          "products": [
+            "自家間葉系幹細胞"
+          ],
+          "makers": [],
+          "note": "診察料・血液検査料・細胞採取料・投与料・培養料・保管料込み",
+          "source_url": "https://www.hiza.click/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1485000,
+          "tax": "税別",
+          "unit": "両膝・各1億セル",
+          "products": [
+            "自家間葉系幹細胞"
+          ],
+          "makers": [],
+          "note": "診察料・血液検査料・細胞採取料・投与料・培養料・保管料込み",
+          "source_url": "https://www.hiza.click/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 1078000,
+          "tax": "税別",
+          "unit": "片膝・幹細胞1億セル",
+          "products": [
+            "自家間葉系幹細胞"
+          ],
+          "makers": [],
+          "note": "診察料・血液検査料・細胞採取料・投与料・培養料・保管料込み",
+          "source_url": "https://www.hiza.click/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        },
+        {
+          "amount": 1485000,
+          "tax": "税別",
+          "unit": "両膝・各1億セル",
+          "products": [
+            "自家間葉系幹細胞"
+          ],
+          "makers": [],
+          "note": "診察料・血液検査料・細胞採取料・投与料・培養料・保管料込み",
+          "source_url": "https://www.hiza.click/",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://www.hiza.click/",
+      "verified_source_type": "official_clinic_site",
       "scope_status": "IN_SCOPE"
     },
     {
@@ -74886,12 +74950,46 @@
       "v41_lane": "A",
       "status_source": "QC",
       "qc_reason_source": "no price found after rescue text/OCR pass",
-      "prices_normalized": [],
+      "prices_normalized": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "関節腔内・1関節・PRP 4mL",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "第二種再生医療等技術。診察料・採血・注射施術料・PRP精製技術料・精製キット等を含む",
+          "source_url": "https://sai-seikei.com/private.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
       "prices_mhlw_document": [],
-      "prices_official_current": [],
-      "price_source_preferred": "mhlw_document",
-      "status_normalized": "QC",
-      "postprocess_resolution": "source_status_retained",
+      "prices_official_current": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "関節腔内・1関節・PRP 4mL",
+          "products": [
+            "PRP"
+          ],
+          "makers": [],
+          "note": "第二種再生医療等技術。診察料・採血・注射施術料・PRP精製技術料・精製キット等を含む",
+          "source_url": "https://sai-seikei.com/private.html",
+          "source_type": "official_clinic_site",
+          "verification": "web_verified_official_source",
+          "postprocess_keep": true,
+          "postprocess_reason": "verified_official_override"
+        }
+      ],
+      "price_source_preferred": "official_current",
+      "status_normalized": "AUTO",
+      "postprocess_resolution": "verified_official_site_override",
+      "verified_source_url": "https://sai-seikei.com/private.html",
+      "verified_source_type": "official_clinic_site",
       "scope_status": "IN_SCOPE"
     },
     {

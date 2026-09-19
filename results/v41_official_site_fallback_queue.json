@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T02:36:45.554470+00:00",
-  "total": 94,
-  "unique_facilities": 86,
+  "updated_at": "2026-09-19T02:38:59.704279+00:00",
+  "total": 92,
+  "unique_facilities": 84,
   "items": [
     {
       "plan_id": "V41_02C2601085",
@@ -349,21 +349,6 @@
       "price_candidates": []
     },
     {
-      "plan_id": "V41_02C2608014",
-      "mhlw_plan_code": "02C2608014",
-      "facility_id": "V41FF30312617D",
-      "prefecture": "東京都",
-      "facility": "医療法人社団HELENE 表参道ヘレネクリニック",
-      "address": "港区南青山5-9-15 青山OHMOTOビル3F",
-      "category": "第二種",
-      "treatment": "変形性関節症に対する自家間葉系幹細胞移植による治療",
-      "treatment_class": "その他MSK",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608014/5/0",
-      "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
       "plan_id": "V41_01C2307055",
       "mhlw_plan_code": "01C2307055",
       "facility_id": "V41FB1A4F951CC",
@@ -419,21 +404,6 @@
       "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する組織修復",
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1912017/5/0",
-      "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained",
-      "price_candidates": []
-    },
-    {
-      "plan_id": "V41_01C1907048",
-      "mhlw_plan_code": "01C1907048",
-      "facility_id": "V41F2B45736B34",
-      "prefecture": "東京都",
-      "facility": "医療法人社団　顕伊会　さい整形外科クリニック",
-      "address": "葛飾区堀切3丁目35-10　ｙビル101",
-      "category": "第二種",
-      "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた整形外科疾患に対する治療",
-      "treatment_class": "PRP",
-      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1907048/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
       "postprocess_resolution": "source_status_retained",
       "price_candidates": []
