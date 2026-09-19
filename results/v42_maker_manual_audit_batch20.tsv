@@ -1,0 +1,7 @@
+rank	prefecture	facility	status	product	manufacturer	canonical_facility	note
+1	大分県	明野中央病院	ALREADY_CANONICAL_ALIAS	APS	Zimmer Biomet	医療法人社団唱和会 明野中央病院	Same v40 facility; canonical already contains Zimmer Biomet/GPS.
+2	沖縄県	同仁病院	ALREADY_CANONICAL_ALIAS	APS	Zimmer Biomet	医療法人八重瀬会 同仁病院	Exact address match; canonical already contains Zimmer Biomet/GPS.
+3	福岡県	福岡志恩病院	ALREADY_CANONICAL_ALIAS	APS	Zimmer Biomet	医療法人オアシス 福岡志恩病院	Canonical already contains Zimmer Biomet.
+4	鹿児島県	今林整形外科病院	ALREADY_CANONICAL_ALIAS	ACP-PRP	Arthrex	医療法人明正会 今林整形外科病院	Canonical already contains Arthrex.
+5	鹿児島県	霧島整形外科クリニック	ALREADY_CANONICAL_ALIAS	ACP-PRP	Arthrex	医療法人術徳会 霧島整形外科クリニック	Canonical already contains Arthrex.
+6	鹿児島県	霧島整形外科クリニック	ALREADY_CANONICAL_ALIAS	APS	Zimmer Biomet	医療法人術徳会 霧島整形外科クリニック	Canonical already contains Zimmer Biomet.
