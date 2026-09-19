@@ -394,7 +394,7 @@ def main():
         reason_counts[item["postprocess_resolution"]]=reason_counts.get(item["postprocess_resolution"],0)+1
 
     summary={
-        "version":"v41-postprocess-1.3",
+        "version":"v41-postprocess-1.4",
         "updated_at":now(),
         "total":len(items),
         "source_auto":sum(1 for x in items if x.get("status_source")=="AUTO"),
@@ -410,7 +410,7 @@ def main():
         "resolution_counts":reason_counts,
     }
 
-    OUT_JSON.write_text(json.dumps({"version":"v41-postprocess-1.3","updated_at":now(),"summary":summary,"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
+    OUT_JSON.write_text(json.dumps({"version":"v41-postprocess-1.4","updated_at":now(),"summary":summary,"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
     OUT_SUM.write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding="utf-8")
 
     web_fallback=[]
@@ -428,10 +428,19 @@ def main():
             "treatment_class":it.get("treatment_class"),"document_url":it.get("document_url"),
             "qc_reason":qreason,"postprocess_resolution":reason,
         }
-        if reason in ("multiple_fee_components_needs_review","still_ambiguous","price_range_needs_review","stem_cell_component_needs_review"):
-            rec["price_candidates"]=it.get("prices_normalized") or []
+        candidates=it.get("prices_normalized") or []
+        meaningful=[
+            p for p in candidates
+            if p.get("postprocess_keep")
+            and p.get("postprocess_reason") not in ("ancillary_label_nearest","below_minimum_treatment_price")
+        ]
+        if reason in ("multiple_fee_components_needs_review","still_ambiguous","price_range_needs_review","stem_cell_component_needs_review") and meaningful:
+            rec["price_candidates"]=candidates
             complex_review.append(rec)
         else:
+            # No usable treatment-price candidate (e.g. only cancellation/storage fees)
+            # should be handled by official-site fallback rather than table review.
+            rec["price_candidates"]=candidates
             web_fallback.append(rec)
 
     OUT_WEB.write_text(json.dumps({
