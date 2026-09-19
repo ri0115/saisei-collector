@@ -17,14 +17,14 @@ async def main():
         )
         page=await context.new_page()
         try:
-            r=await page.goto("https://saiseiryo.mhlw.go.jp/published_plan/index/3",wait_until="domcontentloaded",timeout=30000)
+            r=await page.goto("https://saiseiiryo.mhlw.go.jp/published_plan/index/3",wait_until="domcontentloaded",timeout=30000)
             rows.append({"stage":"warmup","status":r.status if r else None})
         except Exception as e:
             rows.append({"stage":"warmup","error":str(e)})
 
         for code in CODES:
             for idx in [0,1]:
-                url=f"https://saiseiryo.mhlw.go.jp/published_plan/download/{code}/5/{idx}"
+                url=f"https://saiseiiryo.mhlw.go.jp/published_plan/download/{code}/5/{idx}"
                 rec={"stage":"context.request","code":code,"idx":idx,"url":url}
                 try:
                     resp=await context.request.get(url,timeout=8000,fail_on_status_code=False)
