@@ -236,6 +236,26 @@ def resolve_qc_item(item,normed):
             seen.add(key);uniq.append(p)
     kept=uniq
 
+    # Collapse OCR/context duplicates before judging table complexity.
+    # Prefer a product-labelled row over a product-less duplicate of the same amount,
+    # and retain one best row per amount/product/unit combination.
+    def _quality(p):
+        return (
+            1 if (p.get("products") or []) else 0,
+            1 if p.get("tax") not in ("",None,"不明") else 0,
+            1 if p.get("unit") else 0,
+            int(p.get("score") or 0),
+        )
+    labelled_amounts={p.get("amount") for p in kept if p.get("amount") is not None and (p.get("products") or [])}
+    best={}
+    for p in sorted(kept,key=_quality,reverse=True):
+        if p.get("amount") in labelled_amounts and not (p.get("products") or []):
+            continue
+        key=(p.get("amount"),tuple(p.get("products") or []),p.get("unit") or "")
+        if key not in best:
+            best[key]=p
+    kept=list(best.values())
+
     # If explicit product ranges were recovered, they are safer than a parser-created max value.
     if ranges:
         rseen=set();runique=[]
@@ -394,7 +414,7 @@ def main():
         reason_counts[item["postprocess_resolution"]]=reason_counts.get(item["postprocess_resolution"],0)+1
 
     summary={
-        "version":"v41-postprocess-1.4",
+        "version":"v41-postprocess-1.5",
         "updated_at":now(),
         "total":len(items),
         "source_auto":sum(1 for x in items if x.get("status_source")=="AUTO"),
@@ -410,7 +430,7 @@ def main():
         "resolution_counts":reason_counts,
     }
 
-    OUT_JSON.write_text(json.dumps({"version":"v41-postprocess-1.4","updated_at":now(),"summary":summary,"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
+    OUT_JSON.write_text(json.dumps({"version":"v41-postprocess-1.5","updated_at":now(),"summary":summary,"items":items},ensure_ascii=False,indent=2),encoding="utf-8")
     OUT_SUM.write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding="utf-8")
 
     web_fallback=[]
