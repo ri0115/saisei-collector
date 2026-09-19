@@ -1,0 +1,27 @@
+{
+  "version": "v42-merge-audit-stage03l-price-batch-008",
+  "created_date_jst": "2026-09-19",
+  "purpose": "Bounded pre-merge validation for auto-confirmed price rows 1051-1200.",
+  "batch": {
+    "source": "results/v42_auto_prices_compact.tsv",
+    "data_row_start": 1051,
+    "data_row_end": 1200,
+    "price_rows": 150,
+    "unique_plan_codes": 85,
+    "first_plan_code": "01C2602054",
+    "last_plan_code": "01C2605037"
+  },
+  "validation": {
+    "missing_plan_codes_in_additions": 0,
+    "all_plan_codes_resolve_uniquely": true,
+    "price_status_by_unique_plan": {
+      "価格確定": 85
+    },
+    "audit_only_rows_present": 0,
+    "manual_price_overlap_codes_in_batch": 0,
+    "safe_for_merge": true
+  },
+  "note": "Chunks are defined by price-row count, so a multi-price plan may span adjacent batch boundaries. This is intentional; final dedup/integrity audit is by full price-row key and plan code.",
+  "mutation_status": "STAGED_ONLY",
+  "next_step": "Continue with the next bounded auto-price batch."
+}
