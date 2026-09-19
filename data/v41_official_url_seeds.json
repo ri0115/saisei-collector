@@ -301,6 +301,30 @@
       "facility": "順天堂大学医学部附属順天堂医院",
       "url": "https://hosp.juntendo.ac.jp/about/attempt/regenerative_medicine/prp.html",
       "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F075DAACD91",
+      "facility": "医療法人親仁会 佐藤病院",
+      "url": "https://www.sato-hosp.jp/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FD7677D490C",
+      "facility": "医療法人湘美会 SBC横浜駅前整形外科クリニック",
+      "url": "https://www.sbc-seikeigeka.com/clinic/branch/yokohama/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F6CD422CED3",
+      "facility": "医療法人社団葵会 AOI国際病院",
+      "url": "https://www.aoikai.jp/aoiuniversalhospital/regenerative/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F0AA5AE12F1",
+      "facility": "弘明寺整形外科リハビリテーションクリニック",
+      "url": "https://www.gumyoji-seikei.com/prp/",
+      "source": "web_verified"
     }
   ],
   "updated_at": "2026-09-19",
