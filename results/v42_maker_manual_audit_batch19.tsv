@@ -1,0 +1,7 @@
+rank	prefecture	facility	status	product	manufacturer	evidence_type	evidence_url	note
+1	神奈川県	医療法人社団三穂会 三宅整形外科小児科クリニック	CONFIRMED_NEW	APS	Zimmer Biomet	V41_CORE_PLUS_MANUFACTURER_LOCATOR_ADDRESS_MATCH	https://m.kansetsu-life.com/saisei/index.php	V41 facility and Zimmer locator are normalized-exact and address-exact at 横須賀市浦賀5-2-3.
+2	福岡県	医療法人 同信会 福岡整形外科病院	CONFIRMED_NEW_SECOND_PLACEMENT	APS	Zimmer Biomet	V41_CORE_PLUS_MANUFACTURER_LOCATOR_ADDRESS_MATCH	https://m.kansetsu-life.com/saisei/index.php	Facility is already canonical for Arthrex HD-PRP; Zimmer locator independently lists APS at the same 柳河内2-10-50 address.
+3	鹿児島県	南風病院	ALREADY_CANONICAL_ALIAS	ACP-PRP	Arthrex	CANONICAL_ALIAS_MATCH	https://seikei-saisei.jp/institution.html	Already canonical as 公益社団法人鹿児島共済会 南風病院 with Arthrex and Zimmer Biomet.
+4	東京都	医療法人アレックス AR-Ex尾山台整形外科	ALREADY_CANONICAL_ALIAS	ACP-PRP|HD-PRP	Arthrex	CANONICAL_ALIAS_MATCH	https://seikei-saisei.jp/institution.html	Already canonical as AR-Ex尾山台整形外科 with Arthrex; legal-prefix variation only.
+5	群馬県	社会医療法人慶友会 慶友整形外科クリニック	ALREADY_CANONICAL_ALIAS	ACP-PRP	Arthrex	CANONICAL_ALIAS_MATCH	https://seikei-saisei.jp/institution.html	Already canonical as 慶友整形外科クリニック with Arthrex.
+6	静岡県	医療法人社団髙伸会 伊豆高原メディカル たかやなぎ整形外科	ALREADY_CANONICAL_ALIAS	ACP-PRP	Arthrex	CANONICAL_ALIAS_MATCH	https://seikei-saisei.jp/institution.html	Already canonical as 伊豆高原メディカル たかやなぎ整形外科 with Arthrex and 京セラ.
