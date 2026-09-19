@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-seeds-1.2",
+  "version": "v41-official-seeds-1.3",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -138,6 +138,24 @@
       "facility_id": "V41FFE15421C47",
       "facility": "医療法人社団 育楽会 あやせ駅前整形外科・内科",
       "url": "https://www.ayase-ekimae.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FD3CEE3B1CD",
+      "facility": "医療法人誠幸会 わだ整形外科クリニック",
+      "url": "https://wadaseikei.net/prp/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F358BC973A9",
+      "facility": "医療法人龍樹会 池田整形外科リハビリテーションクリニック",
+      "url": "https://ikeda-orthopedic-clinic.jimdofree.com/%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82-aps-prp/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FA35962BFED",
+      "facility": "HIME CLINIC",
+      "url": "https://hime.clinic/",
       "source": "web_verified"
     }
   ],
