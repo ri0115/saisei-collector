@@ -1,0 +1,18 @@
+{
+  "version": "v42-maker-manual-audit-batch-09",
+  "date_jst": "2026-09-19",
+  "baseline_manufacturer_known_facilities": 382,
+  "facilities_audited": 12,
+  "confirmed_new": 11,
+  "hold_ambiguous": 1,
+  "expected_canonical_after_rebuild": 393,
+  "confirmed_by_manufacturer": {
+    "Arthrex": 9,
+    "Zimmer Biomet": 2
+  },
+  "policy": [
+    "Manufacturer-operated locator evidence is accepted when the target facility match is unique within prefecture after legal-prefix/punctuation normalization.",
+    "Zimmer locator APS matches with exact street-address agreement are accepted.",
+    "Broad institution-level labels that do not uniquely identify a hospital are held for stronger evidence."
+  ]
+}
