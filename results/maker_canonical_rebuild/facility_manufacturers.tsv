@@ -93,7 +93,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 埼玉県|鴻愛会withlifeクリニック大宮駅前	埼玉県	医療法人社団 鴻愛会 with Life クリニック 大宮駅前	Arthrex	1	ACP|ACP MAX|Angel	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 埼玉県|nagomi会健康スポーツクリニック	埼玉県	医療法人社団nagomi会  健康スポーツクリニック	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 埼玉県|南越谷病院	埼玉県	医療法人社団南越谷病院	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
-埼玉県|幸祥会東整形外科	埼玉県	医療法人社団幸祥会 東整形外科	Zimmer Biomet|京セラ	2	APS|APS|Condensia|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+埼玉県|幸祥会東整形外科	埼玉県	医療法人社団幸祥会 東整形外科	Zimmer Biomet|京セラ	2	APS|APS|Condensia|GPS|GPS III|APS|Condensia	MANUAL_VERIFIED|MANUFACTURER_LOCATOR|MHLW_FULL
 埼玉県|愛友会三郷中央総合病院	埼玉県	医療法人社団愛友会 三郷中央総合病院	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
 埼玉県|慶辰会新越谷駅前えがわ整形外科クリニック	埼玉県	医療法人社団慶辰会 新越谷駅前えがわ整形外科クリニック	Zimmer Biomet	1	APS|GPS	MHLW_FULL
 埼玉県|春陽会大宮リビータ整形外科	埼玉県	医療法人社団春陽会 大宮リビータ整形外科	Zimmer Biomet|京セラ	2	APS|Condensia|GPS	MANUAL_VERIFIED|PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
@@ -218,7 +218,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 愛媛県|鎌野病院	愛媛県	医療法人 鎌野病院	Arthrex	1	ACP|ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
 愛媛県|大野醫院おおの整形外科内科医院	愛媛県	医療法人大野醫院 おおの整形外科内科医院	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 愛媛県|愛媛大学医学部附属病院	愛媛県	愛媛大学医学部附属病院	Zimmer Biomet	1	APS	MANUAL_VERIFIED
-愛媛県|石川記念会hito病院	愛媛県	社会医療法人石川記念会 HITO病院	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+愛媛県|石川記念会hito病院	愛媛県	社会医療法人石川記念会 HITO病院	Zimmer Biomet	1	APS|APS|GPS|GPS III|APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR|MHLW_FULL
 愛知県|あいせい紀年病院	愛知県	あいせい紀年病院	Arthrex	1	ACP|ACP-PRP	MANUAL_VERIFIED|MANUFACTURER_LOCATOR
 愛知県|ふくの森リハビリ整形外科	愛知県	ふくの森リハビリ整形外科	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
 愛知県|リジェネレーションクリニック	愛知県	リジェネレーションクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
@@ -250,7 +250,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 東京都|モティーフ銀座クリニック	東京都	モティーフ銀座クリニック	京セラ	1	Condensia	MHLW_FULL
 東京都|solsol整形外科世田谷スポーツクリニック	東京都	一般社団法人SOL SOL整形外科世田谷スポーツクリニック	Arthrex|DSM Biomedical	2	ACP|PEAK	MANUAL_VERIFIED|PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|循整会世田谷人工関節脊椎クリニック	東京都	一般社団法人循整会 世田谷人工関節・脊椎クリニック	Zimmer Biomet	1	APS|GPS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
-東京都|東京lab高輪ゲートウェイ駅前整形外科クリニック	東京都	一般社団法人東京LAB 高輪ゲートウェイ駅前整形外科クリニック	京セラ	1	Condensia	MHLW_FULL
+東京都|東京lab高輪ゲートウェイ駅前整形外科クリニック	東京都	一般社団法人東京LAB 高輪ゲートウェイ駅前整形外科クリニック	京セラ	1	Condensia	MANUAL_VERIFIED|MHLW_FULL
 東京都|三軒茶屋整形外科スポーツクリニック	東京都	三軒茶屋整形外科・スポーツクリニック	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 東京都|世田谷かくた整形外科成城学園前院	東京都	世田谷かくた整形外科 成城学園前院	Arthrex|Zimmer Biomet	2	ACP|APS|APS|GPS|GPS	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 東京都|予防からはじめる整形外科tclinicichigaya	東京都	予防からはじめる整形外科 T CLINIC Ichigaya	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT|PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
@@ -426,7 +426,7 @@ facility_key	prefecture	facility	manufacturers	manufacturer_count	products	sourc
 長崎県|山口整形外科医院	長崎県	医療法人山口整形外科医院	Arthrex	1	ACP	MANUAL_VERIFIED
 長崎県|財団白十字会佐世保中央病院	長崎県	社会医療法人財団白十字会 佐世保中央病院	Zimmer Biomet	1	APS	PRICE_STAGE_V41|PRICE_STAGE_V41_PRODUCT
 長野県|mosc百瀬整形外科スポーツクリニック	長野県	一般社団法人MOSC 百瀬整形外科スポーツクリニック	Arthrex	1	ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
-長野県|佐久市立国保浅間総合病院	長野県	佐久市立国保浅間総合病院	Zimmer Biomet	1	APS|APS|GPS	MANUFACTURER_LOCATOR|MHLW_FULL
+長野県|佐久市立国保浅間総合病院	長野県	佐久市立国保浅間総合病院	Zimmer Biomet	1	APS|APS|GPS|GPS III|APS	MANUAL_VERIFIED|MANUFACTURER_LOCATOR|MHLW_FULL
 長野県|佐久平整形外科クリニック	長野県	佐久平整形外科クリニック	Arthrex	1	ACP|ACP MAX|ACP MAX|ACP	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
 長野県|弘仁会かもいクリニック	長野県	医療法人弘仁会 かもいクリニック	Arthrex	1	ACP-PRP	MANUFACTURER_LOCATOR
 長野県|直佳会森ロコモクリニック	長野県	医療法人直佳会 森 ロコモクリニック	Zimmer Biomet	1	APS|APS|GPS|Zimmer|GPS|GPS|Zimmer	PRICE_STAGE_V40|PRICE_STAGE_V40_PRODUCT
