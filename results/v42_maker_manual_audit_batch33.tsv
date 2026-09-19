@@ -1,0 +1,4 @@
+facility_id	prefecture	facility	status	product	manufacturer	evidence_type	evidence_url	note
+B33-01	東京都	江戸川区まつもと整形外科	HOLD_NO_MANUFACTURER	PRP-55		FACILITY_OFFICIAL_PRODUCT_NAME_ONLY	https://www.emseikei.com/regenerative-medicine/prp-55/	Official page confirms in-house PRP-55 production, but no validated brand/manufacturer mapping is established. Hold without inference.
+B33-02	神奈川県	医療法人健進会 井上整形外科	HOLD_NO_BRAND	PRP		MHLW_AND_PUBLIC_RECORD_NO_EXPLICIT_BRAND	https://saiseiiryo.mhlw.go.jp/disclosed_committee/history/NB3150020	Facility and PRP treatment are confirmed, but current explicit kit/brand/manufacturer evidence was not established. Hold.
+B33-03	福岡県	医療法人一寿会 西尾病院	CONFIRMED_NEW	ACP	Arthrex	FACILITY_OFFICIAL_PRODUCT_MAP	https://ichiju-kai.jp/pickup/prp/	Official hospital page explicitly describes ACP PRP therapy; validated product registry maps ACP to Arthrex.
