@@ -1,6 +1,6 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T03:03:14.009996+00:00",
+  "updated_at": "2026-09-19T11:57:16.066253+00:00",
   "total": 774,
   "source_auto": 508,
   "source_qc": 266,
@@ -15,7 +15,7 @@
   "normalized_no_public_price": 7,
   "in_scope_total": 773,
   "resolved_in_scope": 715,
-  "normalized_price_records": 1580,
+  "normalized_price_records": 1578,
   "resolution_counts": {
     "treatment_prices_separated_from_ancillary_fees": 13,
     "source_status_retained": 566,

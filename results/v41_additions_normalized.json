@@ -1,9 +1,9 @@
 {
   "version": "v41-postprocess-1.6",
-  "updated_at": "2026-09-19T03:03:14.010355+00:00",
+  "updated_at": "2026-09-19T11:57:16.066665+00:00",
   "summary": {
     "version": "v41-postprocess-1.6",
-    "updated_at": "2026-09-19T03:03:14.009996+00:00",
+    "updated_at": "2026-09-19T11:57:16.066253+00:00",
     "total": 774,
     "source_auto": 508,
     "source_qc": 266,
@@ -18,7 +18,7 @@
     "normalized_no_public_price": 7,
     "in_scope_total": 773,
     "resolved_in_scope": 715,
-    "normalized_price_records": 1580,
+    "normalized_price_records": 1578,
     "resolution_counts": {
       "treatment_prices_separated_from_ancillary_fees": 13,
       "source_status_retained": 566,
@@ -113524,38 +113524,6 @@
           "source_url": "https://umezawa-clinic.com/",
           "postprocess_keep": true,
           "postprocess_reason": "verified_official_override"
-        },
-        {
-          "amount": 154000,
-          "tax": "不明",
-          "unit": "PRP-FD",
-          "price_type": "point",
-          "products": [
-            "PRP-FD"
-          ],
-          "makers": [],
-          "score": 99,
-          "page": "",
-          "excerpt": "official override: https://umezawa-clinic.com/",
-          "source_url": "https://umezawa-clinic.com/",
-          "postprocess_keep": true,
-          "postprocess_reason": "verified_official_override"
-        },
-        {
-          "amount": 176000,
-          "tax": "不明",
-          "unit": "PRP-FD2.0",
-          "price_type": "point",
-          "products": [
-            "PRP-FD2.0"
-          ],
-          "makers": [],
-          "score": 99,
-          "page": "",
-          "excerpt": "official override: https://umezawa-clinic.com/",
-          "source_url": "https://umezawa-clinic.com/",
-          "postprocess_keep": true,
-          "postprocess_reason": "verified_official_override"
         }
       ],
       "prices_mhlw_document": [],
@@ -113605,38 +113573,6 @@
           "price_type": "point",
           "products": [
             "Waqoo"
-          ],
-          "makers": [],
-          "score": 99,
-          "page": "",
-          "excerpt": "official override: https://umezawa-clinic.com/",
-          "source_url": "https://umezawa-clinic.com/",
-          "postprocess_keep": true,
-          "postprocess_reason": "verified_official_override"
-        },
-        {
-          "amount": 154000,
-          "tax": "不明",
-          "unit": "PRP-FD",
-          "price_type": "point",
-          "products": [
-            "PRP-FD"
-          ],
-          "makers": [],
-          "score": 99,
-          "page": "",
-          "excerpt": "official override: https://umezawa-clinic.com/",
-          "source_url": "https://umezawa-clinic.com/",
-          "postprocess_keep": true,
-          "postprocess_reason": "verified_official_override"
-        },
-        {
-          "amount": 176000,
-          "tax": "不明",
-          "unit": "PRP-FD2.0",
-          "price_type": "point",
-          "products": [
-            "PRP-FD2.0"
           ],
           "makers": [],
           "score": 99,
