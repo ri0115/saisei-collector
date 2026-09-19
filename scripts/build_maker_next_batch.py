@@ -95,6 +95,13 @@ def build_core_pool():
             add_core(pool,r.get("prefecture"),r.get("facility"),"",
                      "V40_STAGE",r.get("facility_id"),r.get("mhlw_plan_code"))
 
+    # v40 facilities that were outside the price-recovery queue.
+    p=ROOT/"data"/"v40_nonqueue_facility_master.tsv"
+    if p.exists():
+        for r in read_tsv(p):
+            add_core(pool,r.get("prefecture"),r.get("facility"),r.get("address"),
+                     "V40_NONQUEUE",r.get("facility_id"),"")
+
     # v41 additions contain current facility address and scope status.
     p=RESULTS/"v42_additions_final_compact.tsv"
     if p.exists():
