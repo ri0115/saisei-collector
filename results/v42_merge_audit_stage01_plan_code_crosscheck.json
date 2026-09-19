@@ -1,0 +1,146 @@
+{
+  "version": "v42-merge-audit-stage01-plan-code-crosscheck",
+  "source_files": {
+    "v40": "整形外科再生医療DB_v40_中部A山梨高速回収完了.xlsx",
+    "v41": "整形外科再生医療DB_v41_厚労省現行突合監査.xlsx",
+    "v41_qc_rollup": "results/v41_official_site_qc_all58_final.json"
+  },
+  "counts": {
+    "v40_current_rows": 903,
+    "v40_current_unique_mhlw_codes": 899,
+    "v40_duplicate_current_code_pairs": 4,
+    "v41_addition_rows": 774,
+    "v41_addition_unique_mhlw_codes": 774,
+    "v41_addition_internal_duplicates": 0,
+    "cross_overlap_v40_vs_v41_additions": 0,
+    "mhlw_current_core_unique": 1661,
+    "current_core_missing_from_union": 0,
+    "union_unique_codes": 1673,
+    "union_not_in_current_core": 12
+  },
+  "v40_duplicate_current_codes": [
+    {
+      "code": "02E2509002",
+      "facility": "社会医療法人愛仁会 高槻病院",
+      "legacy_plan_ids": [
+        "P00411",
+        "P00857"
+      ],
+      "merge_to": "P00857"
+    },
+    {
+      "code": "01E2407016",
+      "facility": "医療法人興生会 吉本整形外科・外科病院",
+      "legacy_plan_ids": [
+        "P00455",
+        "P00870"
+      ],
+      "merge_to": "P00455"
+    },
+    {
+      "code": "01F2501002",
+      "facility": "医療法人大野醫院 おおの整形外科内科医院",
+      "legacy_plan_ids": [
+        "P00532",
+        "P00877"
+      ],
+      "merge_to": "P00532"
+    },
+    {
+      "code": "01D2407009",
+      "facility": "医療法人EKOC 東金沢整形外科クリニック",
+      "legacy_plan_ids": [
+        "P00627",
+        "P00739"
+      ],
+      "merge_to": "P00627"
+    }
+  ],
+  "union_not_in_current_core": [
+    {
+      "code": "01E2407024",
+      "prefecture": "和歌山県",
+      "facility": "医療法人須佐病院",
+      "treatment": "自家濃縮骨髄液を用いた難治性の骨髄異常陰影の治療",
+      "current_extract_class": "other"
+    },
+    {
+      "code": "01E2502020",
+      "prefecture": "京都府",
+      "facility": "一般社団法人日生会 CELL CLINIC KYOTO",
+      "treatment": "慢性疼痛に対する自己脂肪由来幹細胞による治療",
+      "current_extract_class": "broad_review"
+    },
+    {
+      "code": "01E2504010",
+      "prefecture": "京都府",
+      "facility": "医療法人社団恵心会 京都武田病院",
+      "treatment": "慢性疼痛に対する自家脂肪由来間葉系幹細胞（自家MSC）治療",
+      "current_extract_class": "broad_review"
+    },
+    {
+      "code": "01E2607015",
+      "prefecture": "兵庫県",
+      "facility": "野間総合診療クリニック",
+      "treatment": "自家脂肪由来間葉系幹細胞を用いた慢性疼痛の治療",
+      "current_extract_class": "broad_review"
+    },
+    {
+      "code": "01F2411004",
+      "prefecture": "山口県",
+      "facility": "医療法人社団季朋会 王司病院",
+      "treatment": "自己脂肪由来幹細胞を用いた慢性疼痛の治療",
+      "current_extract_class": "broad_review"
+    },
+    {
+      "code": "01G2602004",
+      "prefecture": "福岡県",
+      "facility": "ZERO100クリニック",
+      "treatment": "自家多血小板血漿（PRP）を用いた変形性関節症の治療",
+      "current_extract_class": "broad_review"
+    },
+    {
+      "code": "02E2312001",
+      "prefecture": "京都府",
+      "facility": "医療法人社団貴順会 吉川病院",
+      "treatment": "自己脂肪由来間葉系幹細胞を用いた骨壊死治療",
+      "current_extract_class": "broad_review"
+    },
+    {
+      "code": "02E2605005",
+      "prefecture": "大阪府",
+      "facility": "医療法人香華会 Re:Born Clinic 大阪院",
+      "treatment": "自己脂肪由来幹細胞を用いた慢性疼痛の治療",
+      "current_extract_class": "broad_review"
+    },
+    {
+      "code": "02G2602002",
+      "prefecture": "沖縄県",
+      "facility": "友愛医療センター",
+      "treatment": "自家多血小板血漿（PRP）を用いた靭帯・筋・腱・腱付着部治療",
+      "current_extract_class": "other"
+    },
+    {
+      "code": "03E2406027",
+      "prefecture": "大阪府",
+      "facility": "慈恵医院",
+      "treatment": "自己脂肪由来幹細胞を用いた慢性疼痛の治療",
+      "current_extract_class": "broad_review"
+    },
+    {
+      "code": "03E2409017",
+      "prefecture": "兵庫県",
+      "facility": "医療法人社団弘道会 第2西原クリニック",
+      "treatment": "自己脂肪由来幹細胞を用いた慢性疼痛の治療",
+      "current_extract_class": "broad_review"
+    },
+    {
+      "code": "03G2506010",
+      "prefecture": "熊本県",
+      "facility": "熊本リハビリテーション病院",
+      "treatment": "脂肪組織由来再生幹細胞（ADRCs）を用いた変形性膝関節症治療",
+      "current_extract_class": "other"
+    }
+  ],
+  "next_step": "Review the 12 union-not-in-current-core records as a dedicated small batch before any v42 workbook mutation. Then merge prices in bounded chunks."
+}
