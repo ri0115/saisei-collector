@@ -1,5 +1,5 @@
 {
-  "version": "v41-official-overrides-1.0",
+  "version": "v41-official-overrides-1.1",
   "generated_at": "2026-09-19",
   "items": [
     {
@@ -200,6 +200,120 @@
           "tax": "税込",
           "unit": "PRP-PRO・両膝2関節1クール",
           "price_type": "point"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_01E2603008",
+      "facility": "ささき整形外科リハビリクリニック",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2603008/5/0",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price table visually verified",
+      "prices": [
+        {
+          "amount": 1000000,
+          "tax": "税別",
+          "unit": "約3,000万個×1回分",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1100000,
+          "tax": "税別",
+          "unit": "約5,000万個×1回分",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1500000,
+          "tax": "税別",
+          "unit": "約1億個×1回分",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2000000,
+          "tax": "税別",
+          "unit": "約3,000万個×3回分",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2300000,
+          "tax": "税別",
+          "unit": "約2億個×1回分（1関節）",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2300000,
+          "tax": "税別",
+          "unit": "約1億個×2回分（2関節）",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2500000,
+          "tax": "税別",
+          "unit": "約1億個×2回分",
+          "product": "脂肪由来幹細胞"
+        }
+      ]
+    },
+    {
+      "plan_id": "V41_02C2512027",
+      "facility": "AR-Ex尾山台整形外科",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512027/5/0",
+      "source_type": "mhlw_current_plan_pdf",
+      "verification": "price table visually verified",
+      "prices": [
+        {
+          "amount": 1000000,
+          "tax": "税別",
+          "unit": "約3,000万個×1回分",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1100000,
+          "tax": "税別",
+          "unit": "約5,000万個×1回分",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1500000,
+          "tax": "税別",
+          "unit": "約1億個×1回分",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2000000,
+          "tax": "税別",
+          "unit": "約3,000万個×3回分",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2300000,
+          "tax": "税別",
+          "unit": "約2億個×1回分（1関節）",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2300000,
+          "tax": "税別",
+          "unit": "約1億個×2回分（2関節）",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 2500000,
+          "tax": "税別",
+          "unit": "約1億個×2回分",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1800000,
+          "tax": "税別",
+          "unit": "約1億個×1回分（骨髄内幹細胞投与）",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1900000,
+          "tax": "税別",
+          "unit": "約1億個×1回分（関節内＋骨髄内幹細胞投与）",
+          "product": "脂肪由来幹細胞"
         }
       ]
     }
