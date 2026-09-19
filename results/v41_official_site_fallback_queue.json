@@ -1,8 +1,8 @@
 {
   "version": "v41-official-fallback-1.0",
-  "updated_at": "2026-09-19T01:15:13.278430+00:00",
-  "total": 129,
-  "unique_facilities": 112,
+  "updated_at": "2026-09-19T01:15:39.929808+00:00",
+  "total": 136,
+  "unique_facilities": 118,
   "items": [
     {
       "plan_id": "V41_03A2505002",
@@ -16,7 +16,8 @@
       "treatment_class": "その他MSK",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03A2505002/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2601085",
@@ -30,7 +31,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601085/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2601086",
@@ -44,7 +46,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601086/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2601087",
@@ -58,7 +61,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601087/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2402051",
@@ -72,7 +76,75 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2402051/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
+    },
+    {
+      "plan_id": "V41_02E2507042",
+      "mhlw_plan_code": "02E2507042",
+      "facility_id": "V41F7F26367FC7",
+      "prefecture": "和歌山県",
+      "facility": "社会医療法人黎明会　北出病院",
+      "address": "御坊市湯川町財部728‐4",
+      "category": "第二種",
+      "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療",
+      "treatment_class": "PRP",
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507042/5/0",
+      "qc_reason": "rescue price candidates remain ambiguous",
+      "postprocess_resolution": "still_ambiguous",
+      "price_candidates": [
+        {
+          "amount": 2000,
+          "tax": "税別",
+          "unit": "",
+          "score": 1,
+          "products": [],
+          "excerpt": "可能性 自家移植のため、極めて低い。 反応などの可能性を完全 には大定できない。 保険適用 : 2000 円前後回 oa 120, 000 円 (Bit) 180, 000 円 (税抜 ARE O Ee) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。",
+          "page": 4,
+          "line": "保険適用 : 2000 円前後回",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "below_minimum_treatment_price"
+        },
+        {
+          "amount": 120000,
+          "tax": "税別",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "可能性 自家移植のため、極めて低い。 反応などの可能性を完全 には大定できない。 保険適用 : 2000 円前後回 oa 120, 000 円 (Bit) 180, 000 円 (税抜 ARE O Ee) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。",
+          "page": 4,
+          "line": "可能性 自家移植のため、極めて低い。 反応などの可能性を完全 には大定できない。 保険適用 : 2000 円前後回 oa 120, 000 円 (Bit) 180, 000 円 (税抜 ARE O Ee) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": false,
+          "postprocess_reason": "unclear"
+        },
+        {
+          "amount": 180000,
+          "tax": "税別",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "可能性 自家移植のため、極めて低い。 反応などの可能性を完全 には大定できない。 保険適用 : 2000 円前後回 oa 120, 000 円 (Bit) 180, 000 円 (税抜 ARE O Ee) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。",
+          "page": 4,
+          "line": "可能性 自家移植のため、極めて低い。 反応などの可能性を完全 には大定できない。 保険適用 : 2000 円前後回 oa 120, 000 円 (Bit) 180, 000 円 (税抜 ARE O Ee) 詳細やご不明な点は医師・スタッフまでお気軽にお尋ねください。",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "tax_source": "不明",
+          "tax_inferred": true,
+          "postprocess_keep": false,
+          "postprocess_reason": "unclear"
+        }
+      ]
     },
     {
       "plan_id": "V41_02E2507043",
@@ -86,7 +158,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2507043/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02E2509003",
@@ -100,7 +173,74 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2509003/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": [
+        {
+          "amount": 660000,
+          "tax": "不明",
+          "unit": "1回",
+          "score": 1,
+          "products": [],
+          "excerpt": "1回目金額 880,000円 2回目金額 660,000円 1回目金額 1,210,000円 2回目金額 880,000円 1回目金額 1,320,000円 2回目金額 0円 1回目金額 1,760,000円 2回目金額 0円 初回から両 膝2回投与 を決めてい る 2億個×1回培養 1回ごと 片膝2回 5000万個×2回 培養 1回ごと 両膝2回 1億個×2回培養 初回から片 膝2回投与 を決",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
+          "amount": 880000,
+          "tax": "不明",
+          "unit": "1回",
+          "score": 1,
+          "products": [],
+          "excerpt": "1回目金額 880,000円 2回目金額 660,000円 1回目金額 1,210,000円 2回目金額 880,000円 1回目金額 1,320,000円 2回目金額 0円 1回目金額 1,760,000円 2回目金額 0円 初回から両 膝2回投与 を決めてい る 2億個×1回培養 1回ごと 片膝2回 5000万個×2回 培養 1回ごと 両膝2回 1億個×2回培養",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
+          "amount": 1210000,
+          "tax": "不明",
+          "unit": "1回",
+          "score": 1,
+          "products": [],
+          "excerpt": "1回目金額 880,000円 2回目金額 660,000円 1回目金額 1,210,000円 2回目金額 880,000円 1回目金額 1,320,000円 2回目金額 0円 1回目金額 1,760,000円 2回目金額 0円 初回から両 膝2回投与 を決めてい る 2億個×1回培養 1回ごと 片膝2回 5000万個×2回 培養 1回ごと 両膝2回 1億個×2回培養 初回から片 膝2回投与 を決めてい る 1億個×1回培養",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
+          "amount": 1320000,
+          "tax": "不明",
+          "unit": "1回",
+          "score": 1,
+          "products": [],
+          "excerpt": "1回目金額 880,000円 2回目金額 660,000円 1回目金額 1,210,000円 2回目金額 880,000円 1回目金額 1,320,000円 2回目金額 0円 1回目金額 1,760,000円 2回目金額 0円 初回から両 膝2回投与 を決めてい る 2億個×1回培養 1回ごと 片膝2回 5000万個×2回 培養 1回ごと 両膝2回 1億個×2回培養 初回から片 膝2回投与 を決めてい る 1億個×1回培養",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        },
+        {
+          "amount": 1760000,
+          "tax": "不明",
+          "unit": "1回",
+          "score": 1,
+          "products": [],
+          "excerpt": "1回目金額 880,000円 2回目金額 660,000円 1回目金額 1,210,000円 2回目金額 880,000円 1回目金額 1,320,000円 2回目金額 0円 1回目金額 1,760,000円 2回目金額 0円 初回から両 膝2回投与 を決めてい る 2億個×1回培養 1回ごと 片膝2回 5000万個×2回 培養 1回ごと 両膝2回 1億個×2回培養 初回から片 膝2回投与 を決めてい る 1億個×1回培養",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        }
+      ]
     },
     {
       "plan_id": "V41_03C2305016",
@@ -114,7 +254,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305016/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01E2605009",
@@ -128,7 +269,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605009/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01E2606017",
@@ -142,7 +284,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2606017/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01E2307007",
@@ -156,7 +299,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2307007/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01E2302002",
@@ -170,7 +314,39 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2302002/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
+    },
+    {
+      "plan_id": "V41_01E2312020",
+      "mhlw_plan_code": "01E2312020",
+      "facility_id": "V41F0117C8AD61",
+      "prefecture": "大阪府",
+      "facility": "医療法人社団　彦星会　大阪中之島整形外科",
+      "address": "大阪市北区中之島四丁目3番51号　NakanoshimaQross４階",
+      "category": "第二種",
+      "treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2312020/5/0",
+      "qc_reason": "price candidates remain ambiguous",
+      "postprocess_resolution": "multiple_fee_components_needs_review",
+      "price_candidates": [
+        {
+          "amount": 50000,
+          "tax": "不明",
+          "unit": "",
+          "score": 7,
+          "products": [],
+          "excerpt": "2 部位 [ 1,200,000 ]円 *細胞保管費用:2年目より50,000円/年。",
+          "page": 5,
+          "line": "*細胞保管費用:2年目より50,000円/年。",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "below_minimum_treatment_price"
+        }
+      ]
     },
     {
       "plan_id": "V41_01E2111002",
@@ -184,7 +360,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2111002/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01E2111019",
@@ -198,7 +375,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2111019/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01E2505012",
@@ -212,7 +390,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505012/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01E2505013",
@@ -226,7 +405,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2505013/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01E2508012",
@@ -240,7 +420,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2508012/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01E2303002",
@@ -254,7 +435,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2303002/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01F2305003",
@@ -268,7 +450,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2305003/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03F2304004",
@@ -282,7 +465,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2304004/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01F2310002",
@@ -296,7 +480,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01F2310002/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03F2511004",
@@ -310,7 +495,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2511004/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01D2603004",
@@ -324,7 +510,39 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2603004/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
+    },
+    {
+      "plan_id": "V41_01D2512001",
+      "mhlw_plan_code": "01D2512001",
+      "facility_id": "V41F463EE109E7",
+      "prefecture": "愛知県",
+      "facility": "伊藤整形・内科　あいちスポーツ人工関節クリニック",
+      "address": "丹羽郡扶桑町大字高雄字郷東41",
+      "category": "第二種",
+      "treatment": "培養自家脂肪組織由来の間葉系間質細胞を用いた慢性疼痛の治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01D2512001/5/0",
+      "qc_reason": "price candidates remain ambiguous",
+      "postprocess_resolution": "still_ambiguous",
+      "price_candidates": [
+        {
+          "amount": 100000,
+          "tax": "不明",
+          "unit": "",
+          "score": 3,
+          "products": [],
+          "excerpt": "脂肪採取予定日の2 日前 ~脂肪採取当日の脂肪組織採取前 一律 10 万円をお支払いいただきます 3 脂肪組織採取後~細胞投与前",
+          "page": 11,
+          "line": "一律 10 万円をお支払いいただきます",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "unclear"
+        }
+      ]
     },
     {
       "plan_id": "V41_03D2506004",
@@ -338,7 +556,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03D2506004/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2505023",
@@ -352,7 +571,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2505023/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2501048",
@@ -366,7 +586,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2501048/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2506062",
@@ -380,7 +601,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506062/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2210035",
@@ -394,7 +616,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2210035/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2509020",
@@ -408,7 +631,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2509020/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2009011",
@@ -422,7 +646,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2009011/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2606015",
@@ -436,7 +661,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606015/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2606022",
@@ -450,7 +676,323 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606022/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
+    },
+    {
+      "plan_id": "V41_01C2511006",
+      "mhlw_plan_code": "01C2511006",
+      "facility_id": "V41F2AB00D8A4A",
+      "prefecture": "東京都",
+      "facility": "一般社団法人Garden　KAI CLINIC T OKYO",
+      "address": "中央区八重洲1丁目3-18 VORT東京八重洲maxim3階",
+      "category": "第三種",
+      "treatment": "自家多血小板フィブリンを用いた軟骨移植外鼻形成術",
+      "treatment_class": "その他MSK",
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511006/5/0",
+      "qc_reason": "price candidates remain ambiguous",
+      "postprocess_resolution": "multiple_fee_components_needs_review",
+      "price_candidates": [
+        {
+          "amount": 55000,
+          "tax": "不明",
+          "unit": "",
+          "score": 5,
+          "products": [],
+          "excerpt": "(2)「自家多血小板フィブリンを用いた軟骨移植外鼻形成術」にかか る費用は下記の通りとなります。 ・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円",
+          "page": 7,
+          "line": "・PRF 55,000円",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "unclear"
+        },
+        {
+          "amount": 220000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円 (3)採血後に同意が撤回された場合については返金はありません。 (当院のキャンセル基準準ずる)",
+          "page": 7,
+          "line": "・麻酔料(全身麻酔) 220,000円",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "ancillary_label_nearest"
+        },
+        {
+          "amount": 330000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円 (3)採血後に同意が撤回された場合については返金はありません。",
+          "page": 7,
+          "line": "・手術料 330,000円",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "ancillary_label_nearest"
+        },
+        {
+          "amount": 22000,
+          "tax": "不明",
+          "unit": "",
+          "score": -7,
+          "products": [],
+          "excerpt": "る費用は下記の通りとなります。 ・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円",
+          "page": 7,
+          "line": "・診察料 22,000円",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "ancillary_label_nearest"
+        },
+        {
+          "amount": 11000,
+          "tax": "不明",
+          "unit": "",
+          "score": -10,
+          "products": [],
+          "excerpt": "・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円",
+          "page": 7,
+          "line": "・採血量+血液検査料 11,000円",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "below_minimum_treatment_price"
+        },
+        {
+          "amount": 22000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "(2)「自家多血小板フィブリンを用いた軟骨移植外鼻形成術」にかか る費用は下記の通りとなります。 ・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円",
+          "page": 7,
+          "line": "(2)「自家多血小板フィブリンを用いた軟骨移植外鼻形成術」にかか る費用は下記の通りとなります。 ・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "ancillary_label_nearest"
+        },
+        {
+          "amount": 11000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "(2)「自家多血小板フィブリンを用いた軟骨移植外鼻形成術」にかか る費用は下記の通りとなります。 ・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円",
+          "page": 7,
+          "line": "(2)「自家多血小板フィブリンを用いた軟骨移植外鼻形成術」にかか る費用は下記の通りとなります。 ・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "below_minimum_treatment_price"
+        },
+        {
+          "amount": 11000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円 (3)採血後に同意が撤回された場合については返金はありません。 (当院のキャンセル基準準ずる)",
+          "page": 7,
+          "line": "・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円 (3)採血後に同意が撤回された場合については返金はありません。 (当院のキャンセル基準準ずる)",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "below_minimum_treatment_price"
+        },
+        {
+          "amount": 330000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円 (3)採血後に同意が撤回された場合については返金はありません。 (当院のキャンセル基準準ずる)",
+          "page": 7,
+          "line": "・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円 (3)採血後に同意が撤回された場合については返金はありません。 (当院のキャンセル基準準ずる)",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "ancillary_label_nearest"
+        },
+        {
+          "amount": 22000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円 (3)採血後に同意が撤回された場合については返金はありません。",
+          "page": 7,
+          "line": "・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円 (3)採血後に同意が撤回された場合については返金はありません。",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "ancillary_label_nearest"
+        },
+        {
+          "amount": 11000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円 (3)採血後に同意が撤回された場合については返金はありません。",
+          "page": 7,
+          "line": "・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円 (3)採血後に同意が撤回された場合については返金はありません。",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "below_minimum_treatment_price"
+        },
+        {
+          "amount": 220000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円 (3)採血後に同意が撤回された場合については返金はありません。",
+          "page": 7,
+          "line": "・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円 (3)採血後に同意が撤回された場合については返金はありません。",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "ancillary_label_nearest"
+        },
+        {
+          "amount": 55000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "る費用は下記の通りとなります。 ・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円",
+          "page": 7,
+          "line": "る費用は下記の通りとなります。 ・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "unclear"
+        },
+        {
+          "amount": 11000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "る費用は下記の通りとなります。 ・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円",
+          "page": 7,
+          "line": "る費用は下記の通りとなります。 ・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "below_minimum_treatment_price"
+        },
+        {
+          "amount": 330000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "る費用は下記の通りとなります。 ・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円",
+          "page": 7,
+          "line": "る費用は下記の通りとなります。 ・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "ancillary_label_nearest"
+        },
+        {
+          "amount": 55000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円",
+          "page": 7,
+          "line": "・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "unclear"
+        },
+        {
+          "amount": 22000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円",
+          "page": 7,
+          "line": "・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "ancillary_label_nearest"
+        },
+        {
+          "amount": 330000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円",
+          "page": 7,
+          "line": "・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "ancillary_label_nearest"
+        },
+        {
+          "amount": 220000,
+          "tax": "不明",
+          "unit": "",
+          "score": 0,
+          "products": [],
+          "excerpt": "・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円",
+          "page": 7,
+          "line": "・PRF 55,000円 ・診察料 22,000円 ・採血量+血液検査料 11,000円 ・手術料 330,000円 ・麻酔料(全身麻酔) 220,000円",
+          "synthetic_postprocess": true,
+          "product_pair_method": "context_token",
+          "products_source": [],
+          "makers": [],
+          "postprocess_keep": false,
+          "postprocess_reason": "ancillary_label_nearest"
+        }
+      ]
     },
     {
       "plan_id": "V41_01C2504026",
@@ -464,7 +1006,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504026/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2605056",
@@ -478,7 +1021,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2605056/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2505033",
@@ -492,7 +1036,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505033/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2602051",
@@ -506,7 +1051,22 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602051/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": [
+        {
+          "amount": 600000,
+          "tax": "税込",
+          "unit": "",
+          "score": 6,
+          "products": [],
+          "excerpt": "15-4300 担当:白木 営業時間:10 時-19 時(土日祝を除く) 営業時間外の連絡先:info@tenviclinic.com 14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として600,000 円(税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生し ている場合は、発生した費用については患者様にご負担いただきますのでご了承ください。 15.他の治療法の有無、本治療法との比較について",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        }
+      ]
     },
     {
       "plan_id": "V41_02C2310060",
@@ -520,7 +1080,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2310060/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C1905038",
@@ -534,7 +1095,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1905038/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C1907031",
@@ -548,7 +1110,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1907031/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2602025",
@@ -562,7 +1125,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2602025/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2404039",
@@ -576,7 +1140,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2404039/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2404043",
@@ -590,7 +1155,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2404043/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2311013",
@@ -604,7 +1170,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2311013/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2505006",
@@ -618,7 +1185,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505006/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2505009",
@@ -632,7 +1200,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505009/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2505010",
@@ -646,7 +1215,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2505010/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2506078",
@@ -660,7 +1230,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2506078/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C1909168",
@@ -674,7 +1245,54 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909168/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
+    },
+    {
+      "plan_id": "V41_02C2608034",
+      "mhlw_plan_code": "02C2608034",
+      "facility_id": "V41FA31807090A",
+      "prefecture": "東京都",
+      "facility": "医療法人社団 熊谷整形外科",
+      "address": "墨田区業平2-14-9",
+      "category": "第二種",
+      "treatment": "ヒト自己脂肪組織由来間葉系幹細胞の関節内投与による関節傷害の症状改善の治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608034/5/0",
+      "qc_reason": "price candidates remain ambiguous",
+      "postprocess_resolution": "multiple_fee_components_needs_review",
+      "price_candidates": [
+        {
+          "amount": 3300,
+          "tax": "税別",
+          "unit": "2 回",
+          "score": -6,
+          "products": [],
+          "excerpt": "(税抜価格 2.400.OOO 円十消費税) © 初診料、再診料、検査料は別途 (初診料 5,500 円、再診料 3,300 円、検査料 1 1.OOO 円) * 支払期限 : 初回は組織採了時まで、2 回目以降は投写日決定時まで © 中止時の費用負担 : 支払期限の時点から了日目までは半放、8日目以降は全額負担",
+          "page": 1,
+          "line": "(初診料 5,500 円、再診料 3,300 円、検査料 1 1.OOO 円)",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "below_minimum_treatment_price"
+        },
+        {
+          "amount": 5500,
+          "tax": "税別",
+          "unit": "2 回",
+          "score": -6,
+          "products": [],
+          "excerpt": "(税抜価格 2.400.OOO 円十消費税) © 初診料、再診料、検査料は別途 (初診料 5,500 円、再診料 3,300 円、検査料 1 1.OOO 円) * 支払期限 : 初回は組織採了時まで、2 回目以降は投写日決定時まで © 中止時の費用負担 : 支払期限の時点から了日目までは半放、8日目以降は全額負担",
+          "page": 1,
+          "line": "(初診料 5,500 円、再診料 3,300 円、検査料 1 1.OOO 円)",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "below_minimum_treatment_price"
+        }
+      ]
     },
     {
       "plan_id": "V41_02C1905014",
@@ -688,7 +1306,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1905014/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C1909204",
@@ -702,7 +1321,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909204/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2510078",
@@ -716,7 +1336,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2510078/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2601051",
@@ -730,7 +1351,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2601051/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2608014",
@@ -744,7 +1366,8 @@
       "treatment_class": "その他MSK",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608014/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2307055",
@@ -758,7 +1381,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2307055/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2606078",
@@ -772,7 +1396,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2606078/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2212040",
@@ -786,7 +1411,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2212040/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C1912017",
@@ -800,7 +1426,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1912017/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C1907048",
@@ -814,7 +1441,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1907048/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2309059",
@@ -828,7 +1456,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2309059/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2312021",
@@ -842,7 +1471,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2312021/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2409061",
@@ -856,7 +1486,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409061/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03C2309040",
@@ -870,7 +1501,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2309040/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2503053",
@@ -884,7 +1516,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503053/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2508073",
@@ -898,7 +1531,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508073/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2508074",
@@ -912,7 +1546,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508074/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2603057",
@@ -926,7 +1561,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2603057/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2510015",
@@ -940,7 +1576,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2510015/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2504031",
@@ -954,7 +1591,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504031/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2507025",
@@ -968,7 +1606,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2507025/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2206031",
@@ -982,7 +1621,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206031/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2410055",
@@ -996,7 +1636,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2410055/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2503056",
@@ -1010,7 +1651,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503056/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2608020",
@@ -1024,7 +1666,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608020/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2509032",
@@ -1038,7 +1681,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509032/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2509040",
@@ -1052,7 +1696,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509040/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2509048",
@@ -1066,7 +1711,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2509048/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C1907070",
@@ -1080,7 +1726,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1907070/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2507026",
@@ -1094,7 +1741,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2507026/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03C2601008",
@@ -1108,7 +1756,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2601008/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C1904038",
@@ -1122,7 +1771,39 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C1904038/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
+    },
+    {
+      "plan_id": "V41_01C2209017",
+      "mhlw_plan_code": "01C2209017",
+      "facility_id": "V41FD076D781A0",
+      "prefecture": "東京都",
+      "facility": "十条整形外科リハビリクリニック",
+      "address": "北区十条仲原1－28－13ラファエーラ十条2階",
+      "category": "第三種",
+      "treatment": "四肢の靭帯、筋腱付着部およびスポーツ傷害（筋・腱・靭帯）を対象とした自家多血小板血漿（PRP）注入療法",
+      "treatment_class": "PRP",
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2209017/5/0",
+      "qc_reason": "price candidates remain ambiguous",
+      "postprocess_resolution": "multiple_fee_components_needs_review",
+      "price_candidates": [
+        {
+          "amount": 30000,
+          "tax": "不明",
+          "unit": "",
+          "score": -10,
+          "products": [],
+          "excerpt": "つでも取りやめることができます。この場合でも、一切不利益を受けません。 (採血等にかかる実費等はご負担いただきます。 : 採血後のキャンセル料 5.OOO円 加工後のキャンセル料 30,000 円) もしこの治療を受けることに同意しない場合も、最適と考えられる治療を実施できる KDICBSROGRICRBER<K LES.",
+          "page": 6,
+          "line": ": 採血後のキャンセル料 5.OOO円 加工後のキャンセル料 30,000 円)",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "ancillary_label_nearest"
+        }
+      ]
     },
     {
       "plan_id": "V41_01C2302066",
@@ -1136,7 +1817,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302066/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03C2603037",
@@ -1150,7 +1832,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2603037/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2306054",
@@ -1164,7 +1847,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2306054/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2601013",
@@ -1178,7 +1862,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601013/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2506017",
@@ -1192,7 +1877,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506017/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2512068",
@@ -1206,7 +1892,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2512068/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03C2208002",
@@ -1220,7 +1907,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2208002/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2403007",
@@ -1234,7 +1922,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2403007/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03C2604028",
@@ -1248,7 +1937,22 @@
       "treatment_class": "APS/PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2604028/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": [
+        {
+          "amount": 330000,
+          "tax": "税込",
+          "unit": "",
+          "score": 6,
+          "products": [],
+          "excerpt": "行う医師、管理者(院長)へと報告して対応させていただきます。 窓口部署:企画課(医事) 連絡先:042-561-1221(内線432) 14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として330,000 円(税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生している 場合は、発生した費用については患者様にご負担いただきますのでご了承ください。 15.他の治療法の有無、本治療法との比較につ",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        }
+      ]
     },
     {
       "plan_id": "V41_01C2508064",
@@ -1262,7 +1966,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508064/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C1909198",
@@ -1276,7 +1981,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1909198/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2504035",
@@ -1290,7 +1996,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504035/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2506021",
@@ -1304,7 +2011,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2506021/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2406033",
@@ -1318,7 +2026,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2406033/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2411046",
@@ -1332,7 +2041,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411046/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2508039",
@@ -1346,7 +2056,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2508039/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03C2308020",
@@ -1360,7 +2071,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2308020/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03C2609016",
@@ -1374,7 +2086,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2609016/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2502053",
@@ -1388,7 +2101,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502053/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2307023",
@@ -1402,7 +2116,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2307023/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2410005",
@@ -1416,7 +2131,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2410005/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2305022",
@@ -1430,7 +2146,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2305022/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2608038",
@@ -1444,7 +2161,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608038/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2508038",
@@ -1458,7 +2176,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2508038/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2104005",
@@ -1472,7 +2191,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2104005/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2411084",
@@ -1486,7 +2206,22 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411084/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": [
+        {
+          "amount": 330000,
+          "tax": "税込",
+          "unit": "",
+          "score": 6,
+          "products": [],
+          "excerpt": "業時間:9:00~12:00 15:00~18:30 土曜午後、日祝祭日休診 営業時間外の連絡先:046-842-1301(折り返し連絡) 14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として330,000 円(税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生している 場合は、発生した費用については患者様にご負担いただきますのでご了承ください。 15.他の治療法の有無、本治療法との比較につ",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        }
+      ]
     },
     {
       "plan_id": "V41_01C2411085",
@@ -1500,7 +2235,22 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2411085/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": [
+        {
+          "amount": 132000,
+          "tax": "税込",
+          "unit": "",
+          "score": 6,
+          "products": [],
+          "excerpt": "業時間:9:00~12:00 15:00~18:30 土曜午後、日祝祭日休診 営業時間外の連絡先:046-842-1301(折り返し連絡) 14.費用について 細胞の提供に際して費用は発生しません。 治療の提供に際しては、本治療は公的保険の対象ではありませんので、当院所定の施術料として132,000 円(税込)をお支払いいただきます。 ※患者様の症状、その他の事情等により治療費が変動する場合があります。 なお、細胞の採取後や加工後に同意を撤回された場合など、同意を撤回される時点までに費用が発生している 場合は、発生した費用については患者様にご負担いただきますのでご了承ください。 15.他の治療法の有無、本治療法との比較につ",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": true,
+          "postprocess_reason": "treatment_label_nearest"
+        }
+      ]
     },
     {
       "plan_id": "V41_01C2303043",
@@ -1514,7 +2264,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2303043/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03C2305019",
@@ -1528,7 +2279,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305019/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2103001",
@@ -1542,7 +2294,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2103001/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C1906040",
@@ -1556,7 +2309,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C1906040/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2405046",
@@ -1570,7 +2324,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2405046/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2412055",
@@ -1584,7 +2339,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2412055/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2605035",
@@ -1598,7 +2354,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2605035/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2411039",
@@ -1612,7 +2369,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2411039/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2502024",
@@ -1626,7 +2384,54 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2502024/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
+    },
+    {
+      "plan_id": "V41_01C2502023",
+      "mhlw_plan_code": "01C2502023",
+      "facility_id": "V41F0AA5AE12F1",
+      "prefecture": "神奈川県",
+      "facility": "弘明寺整形外科リハビリテーションクリニック",
+      "address": "横浜市南区六ツ川1-81 FHCビル3階",
+      "category": "第二種",
+      "treatment": "自家多血小板血漿（Platelet-Rich Plasma：PRP）を用いた\r\n慢性関節炎の治療（関節内組織）",
+      "treatment_class": "PRP",
+      "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2502023/5/0",
+      "qc_reason": "price candidates remain ambiguous",
+      "postprocess_resolution": "still_ambiguous",
+      "price_candidates": [
+        {
+          "amount": 5000,
+          "tax": "税込",
+          "unit": "1回(採血が15ml の場合)",
+          "score": 8,
+          "products": [],
+          "excerpt": "かかる費用であり、以下が費用の総額となります。 PRP 療法の費用(消費税込み) 1回(採血が15ml の場合) 3 万5000 円 1 回(採血が15ml 超の場合) 18 万5000 円 治療終了後も定期的な受診が必要です。",
+          "page": 7,
+          "line": "1回(採血が15ml の場合) 3 万5000 円",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "below_minimum_treatment_price"
+        },
+        {
+          "amount": 5000,
+          "tax": "税込",
+          "unit": "1回(採血が15ml の場合)",
+          "score": 7,
+          "products": [],
+          "excerpt": "PRP 療法の費用(消費税込み) 1回(採血が15ml の場合) 3 万5000 円 1 回(採血が15ml 超の場合) 18 万5000 円 治療終了後も定期的な受診が必要です。 尚、この治療は治療効果の保証制度(返金保証)の対象外となります。",
+          "page": 7,
+          "line": "1 回(採血が15ml 超の場合) 18 万5000 円",
+          "products_source": [],
+          "makers": [],
+          "product_pair_method": "context_token",
+          "postprocess_keep": false,
+          "postprocess_reason": "below_minimum_treatment_price"
+        }
+      ]
     },
     {
       "plan_id": "V41_01C2503019",
@@ -1640,7 +2445,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503019/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2504013",
@@ -1654,7 +2460,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2504013/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03C2305022",
@@ -1668,7 +2475,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305022/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01G2302004",
@@ -1682,7 +2490,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2302004/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03G2101004",
@@ -1696,7 +2505,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2101004/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02G1904001",
@@ -1710,7 +2520,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02G1904001/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01G2002004",
@@ -1724,7 +2535,8 @@
       "treatment_class": "脂肪由来幹細胞",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2002004/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03G2403004",
@@ -1738,7 +2550,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2403004/5/0",
       "qc_reason": "terminal rescue fetch/parse failure",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01C2206015",
@@ -1752,7 +2565,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2206015/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_02C2304008",
@@ -1766,7 +2580,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2304008/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03C2311002",
@@ -1780,7 +2595,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2311002/5/0",
       "qc_reason": "no price found after text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_03F2505004",
@@ -1794,7 +2610,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03F2505004/5/0",
       "qc_reason": "terminal rescue fetch/parse failure",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     },
     {
       "plan_id": "V41_01G2404012",
@@ -1808,7 +2625,8 @@
       "treatment_class": "PRP",
       "document_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01G2404012/5/0",
       "qc_reason": "no price found after rescue text/OCR pass",
-      "postprocess_resolution": "source_status_retained"
+      "postprocess_resolution": "source_status_retained",
+      "price_candidates": []
     }
   ]
 }
