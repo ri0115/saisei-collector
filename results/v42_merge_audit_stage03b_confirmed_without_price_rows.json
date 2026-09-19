@@ -1,0 +1,249 @@
+{
+  "version": "v42-merge-audit-stage03b-confirmed-without-price-rows",
+  "created_date_jst": "2026-09-19",
+  "summary": {
+    "additions_total": 774,
+    "price_confirmed_plans": 730,
+    "auto_price_unique_plans": 682,
+    "manual_confirmed_unique_plans": 22,
+    "confirmed_without_price_rows": 26
+  },
+  "interpretation": "These plans are labeled 価格確定 in the additions compact file but have no row in either auto or manual confirmed price tables. Do not synthesize or borrow prices. Re-audit exact-plan evidence before final v42 workbook mutation.",
+  "records": [
+    {
+      "mhlw_plan_code": "01E2605017",
+      "facility": "Clinique Haru Kyoto",
+      "prefecture": "京都府",
+      "treatment": "整形外科領域における外傷性疾患又は変性疾患による慢性疼痛緩和を目的とした自己脂肪組織由来間葉系間質細胞の静脈点滴治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2605017/5/0",
+      "v41_lane": "C"
+    },
+    {
+      "mhlw_plan_code": "01E2602008",
+      "facility": "「夢」整形外科スポーツクリニック",
+      "prefecture": "兵庫県",
+      "treatment": "変形性関節症に対する自己滑膜由来培養間葉系幹細胞の関節内投与療法",
+      "treatment_class": "滑膜幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2602008/5/0",
+      "v41_lane": "B"
+    },
+    {
+      "mhlw_plan_code": "01E2511014",
+      "facility": "社会医療法人黎明会　和歌山 健診クリニック・キタデ",
+      "prefecture": "和歌山県",
+      "treatment": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2511014/5/0",
+      "v41_lane": "B"
+    },
+    {
+      "mhlw_plan_code": "01E2511020",
+      "facility": "社会医療法人黎明会　和歌山 健診クリニック・キタデ",
+      "prefecture": "和歌山県",
+      "treatment": "自己脂肪由来間葉系幹細胞を用いた靭帯・腱損傷治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2511020/5/0",
+      "v41_lane": "C"
+    },
+    {
+      "mhlw_plan_code": "02C2408121",
+      "facility": "医療法人社団nagomi会  健康スポーツクリニック",
+      "prefecture": "埼玉県",
+      "treatment": "自家脂肪組織由来幹細胞（ASC）の投与による関節治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2408121/5/0",
+      "v41_lane": "B"
+    },
+    {
+      "mhlw_plan_code": "01E2509011",
+      "facility": "AC PLUS CLINIC",
+      "prefecture": "大阪府",
+      "treatment": "自家脂肪組織由来幹細胞（ASC）の局所投与による関節治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2509011/5/0",
+      "v41_lane": "B"
+    },
+    {
+      "mhlw_plan_code": "01E2510027",
+      "facility": "AC PLUS CLINIC",
+      "prefecture": "大阪府",
+      "treatment": "自家脂肪組織由来幹細胞（ASC）の静脈内投与による慢性筋骨格系疼痛治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01E2510027/5/0",
+      "v41_lane": "D"
+    },
+    {
+      "mhlw_plan_code": "02E2407022",
+      "facility": "医療法人桜希会 東朋八尾健診クリニック",
+      "prefecture": "大阪府",
+      "treatment": "自己脂肪由来幹細胞を用いた変形性関節症の治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2407022/5/0",
+      "v41_lane": "B"
+    },
+    {
+      "mhlw_plan_code": "01C2511020",
+      "facility": "THE HUNDRED",
+      "prefecture": "東京都",
+      "treatment": "自己脂肪由来間葉系幹細胞を用いた腰痛治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2511020/5/0",
+      "v41_lane": "D"
+    },
+    {
+      "mhlw_plan_code": "02C2503061",
+      "facility": "一般社団法人日本オーラルヘルス協会  ミライズクリニック南青山",
+      "prefecture": "東京都",
+      "treatment": "自家脂肪組織由来幹細胞（ASC）の投与による関節治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2503061/5/0",
+      "v41_lane": "A"
+    },
+    {
+      "mhlw_plan_code": "01C2601047",
+      "facility": "一般社団法人ＲＫミライ　Rejoint Clinic Dr.K",
+      "prefecture": "東京都",
+      "treatment": "自己脂肪由来間葉系幹細胞を用いた変形性関節症治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2601047/5/0",
+      "v41_lane": "D"
+    },
+    {
+      "mhlw_plan_code": "03C2606023",
+      "facility": "医療法人優美会 クリニック 渋谷",
+      "prefecture": "東京都",
+      "treatment": "自己脂肪由来間葉系幹細胞を用いた靭帯・腱損傷治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2606023/5/0",
+      "v41_lane": "B"
+    },
+    {
+      "mhlw_plan_code": "02C2608035",
+      "facility": "医療法人社団 熊谷整形外科",
+      "prefecture": "東京都",
+      "treatment": "ヒト自己脂肪組織由来間葉系幹細胞を用いた慢性疼痛緩和治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2608035/5/0",
+      "v41_lane": "A"
+    },
+    {
+      "mhlw_plan_code": "03C2305005",
+      "facility": "医療法人社団小﨑会　常盤台らいおん整形外科",
+      "prefecture": "東京都",
+      "treatment": "多血小板血漿（PRP）を用いた筋、腱、靭帯への治療",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2305005/5/0",
+      "v41_lane": "A"
+    },
+    {
+      "mhlw_plan_code": "02C2406003",
+      "facility": "医療法人社団松和会  池上総合病院",
+      "prefecture": "東京都",
+      "treatment": "膝関節軟骨損傷に対する自己軟骨細胞シート移植",
+      "treatment_class": "その他MSK",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2406003/5/0",
+      "v41_lane": "D"
+    },
+    {
+      "mhlw_plan_code": "01C2503047",
+      "facility": "医療法人社団紘朗会  麻布皮フ科クリニック",
+      "prefecture": "東京都",
+      "treatment": "自家培養脂肪由来幹細胞を用いた筋肉、腱、靭帯、筋膜の損傷及び慢性炎症の治療  （関節外の軟部組織）",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2503047/5/0",
+      "v41_lane": "D"
+    },
+    {
+      "mhlw_plan_code": "01C2402046",
+      "facility": "医療法人社団紘朗会　麻布皮フ科クリニック",
+      "prefecture": "東京都",
+      "treatment": "自家培養脂肪由来幹細胞を用いた変形性関節症治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2402046/5/0",
+      "v41_lane": "B"
+    },
+    {
+      "mhlw_plan_code": "01C2602040",
+      "facility": "新橋DAYクリニック",
+      "prefecture": "東京都",
+      "treatment": "変形性関節症に対する自己脂肪由来間葉系幹細胞を用いた治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602040/5/0",
+      "v41_lane": "D"
+    },
+    {
+      "mhlw_plan_code": "01C2203013",
+      "facility": "日本大学医学部附属板橋病院",
+      "prefecture": "東京都",
+      "treatment": "自己多血小板血漿（Platelet rich plasma：PRP）を用いた変形性膝・肩関節、腰椎症に対する治療",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2203013/5/0",
+      "v41_lane": "B"
+    },
+    {
+      "mhlw_plan_code": "01C2409023",
+      "facility": "日本大学病院",
+      "prefecture": "東京都",
+      "treatment": "自己多血小板血漿（PRP）による整形外科疾患に対する関節内治療",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409023/5/0",
+      "v41_lane": "C"
+    },
+    {
+      "mhlw_plan_code": "01C2409024",
+      "facility": "日本大学病院",
+      "prefecture": "東京都",
+      "treatment": "自己多血小板血漿（PRP）による靭帯、腱、筋肉、筋膜の損傷及び炎症の治療",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409024/5/0",
+      "v41_lane": "D"
+    },
+    {
+      "mhlw_plan_code": "03C2601047",
+      "facility": "銀座よしえクリニック都立大院",
+      "prefecture": "東京都",
+      "treatment": "自己脂肪組織由来間葉系幹細胞（ADSC）を用いた関節治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2601047/5/0",
+      "v41_lane": "D"
+    },
+    {
+      "mhlw_plan_code": "01C2302046",
+      "facility": "陽だまりクリニック 六本木院",
+      "prefecture": "東京都",
+      "treatment": "PRP(多血小板血漿Platelet Rich Plasma)を用いて筋、腱、靭帯および筋-腱付着部損傷による疾患の治療を目的とした再生医療",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302046/5/0",
+      "v41_lane": "C"
+    },
+    {
+      "mhlw_plan_code": "03E2607012",
+      "facility": "長浜赤十字病院",
+      "prefecture": "滋賀県",
+      "treatment": "多血小板血漿（Platelet-rich plasma：PRP）を用いた変形性関節症治療",
+      "treatment_class": "PRP",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2607012/5/0",
+      "v41_lane": "D"
+    },
+    {
+      "mhlw_plan_code": "03G2506011",
+      "facility": "社会医療法人 令和会  熊本リハビリテーション病院",
+      "prefecture": "熊本県",
+      "treatment": "変形性膝関節症に対する脂肪組織由来再生幹細胞(ADRCs)を用いた細胞治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506011/5/0",
+      "v41_lane": "B"
+    },
+    {
+      "mhlw_plan_code": "02C2504042",
+      "facility": "医療法人社団快晴会　田奈整形外科・外科",
+      "prefecture": "神奈川県",
+      "treatment": "自家脂肪組織由来幹細胞（ASC）の投与による関節治療",
+      "treatment_class": "脂肪由来幹細胞",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2504042/5/0",
+      "v41_lane": "C"
+    }
+  ],
+  "next_step": "Audit these 26 plans in small batches while continuing bounded staging for price rows that already pass exact-code validation."
+}
