@@ -1,0 +1,4 @@
+prefecture	facility	previous_classification	corrected_classification	v40_facility_id	plan_note	note
+宮城県	宮城整形外科 スポーツ・ウェルネスクリニック	FACILITY_CORE_GAP	CORE_FACILITY_EXISTS_PLAN_RECONCILIATION	F0145	v40 plan master already contains the facility (including an exact 01B2411005 plan URL); current-plan reconciliation remains for other current plan code(s).	Do not add this facility to the 949 denominator. Manufacturer assignment can be counted within existing core.
+千葉県	キッコーマン総合病院	FACILITY_CORE_GAP	FACILITY_CORE_GAP_CONFIRMED		Current PRGF plan/current provider evidence exists; facility absent from v40 facility master and v41 additions.	Keep as facility-gap candidate pending core rebuild.
+東京都	医療法人社団誠歯会 東京 BT クリニック歯科・医科	FACILITY_CORE_GAP	FACILITY_CORE_GAP_CONFIRMED		Current PRGF plans 01C2506009/01C2506010; facility absent from v40 facility master and v41 additions.	Keep as facility-gap candidate pending core rebuild.
