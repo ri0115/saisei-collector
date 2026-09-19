@@ -1,0 +1,17 @@
+{
+  "version": "v42-core-gap-audit-correction-2026-09-19-03",
+  "supersedes_interpretation": "results/v42_core_gap_audit_20260919_02_consolidated.json",
+  "facility_denominator_correction": {
+    "宮城整形外科 スポーツ・ウェルネスクリニック": {
+      "previous": "treated as facility gap",
+      "corrected": "existing v40 facility F0145; only current-plan reconciliation issue",
+      "denominator_effect": 0
+    }
+  },
+  "confirmed_facility_gap_candidates": [
+    "キッコーマン総合病院",
+    "医療法人社団誠歯会 東京 BT クリニック歯科・医科"
+  ],
+  "confirmed_facility_gap_candidate_count": 2,
+  "rule": "Facility-core gaps must be checked against the actual v40 施設マスター_v1 plus v41 additions, not queue-only repository artifacts."
+}
