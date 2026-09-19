@@ -1,5 +1,5 @@
 {
-  "version": "v41-verified-overrides-1.6",
+  "version": "v41-verified-overrides-1.7",
   "generated_at": "2026-09-19",
   "notes": "Verified from clinic/hospital official webpages via web search. Amounts are treatment prices only; ancillary fees excluded.",
   "plans": {
@@ -1218,6 +1218,46 @@
           "note": "諸費用、検査費用、脂肪採取費用、培養費用を含む。2回目以降は金額が異なる。"
         }
       ]
+    },
+    "V41_01C1907070": {
+      "facility": "医療法人社団顕伊会 さい整形外科クリニック",
+      "source_type": "official_clinic_site",
+      "source_url": "https://sai-seikei.com/private.html",
+      "prices": [
+        {
+          "amount": 44000,
+          "tax": "税込",
+          "unit": "筋・腱・靭帯への注入・PRP 2mL",
+          "product": "PRP"
+        },
+        {
+          "amount": 66000,
+          "tax": "税込",
+          "unit": "筋・腱・靭帯への注入・PRP 3mL",
+          "product": "PRP"
+        },
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "筋・腱・靭帯への注入・PRP 4mL",
+          "product": "PRP"
+        }
+      ],
+      "note": "第三種再生医療等技術。診察料、採血・注射施術料、PRP精製技術料、精製キット等を含む。"
+    },
+    "V41_01C2503056": {
+      "facility": "医療法人社団熊野前医院 たいら整形外科",
+      "source_type": "official_clinic_site",
+      "source_url": "https://taira-seikei.clinic/private.html",
+      "prices": [
+        {
+          "amount": 88000,
+          "tax": "税込",
+          "unit": "筋・腱・靭帯への注入・PRP 4mL",
+          "product": "PRP"
+        }
+      ],
+      "note": "第三種再生医療等技術。荒川区東尾久4-3-9の施設住所まで一致。"
     }
   },
   "updated_at": "2026-09-19"
