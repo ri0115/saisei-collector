@@ -1,0 +1,281 @@
+{
+  "version": "v42-merge-audit-stage03h-missing-price-recovery-batch03",
+  "created_date_jst": "2026-09-19",
+  "scope": "Final 10 of 26 plans previously flagged as 価格確定 but without exported price rows.",
+  "reviewed_plans": 10,
+  "ready_primary_plans": 8,
+  "complex_component_plans": 1,
+  "secondary_source_review_plans": 1,
+  "all_26_anomalies_reviewed": true,
+  "interpretation": "The original 26-plan discrepancy is predominantly an export/normalization omission. One plan has a component-only fee table requiring non-ranking structured retention, and one plan remains provisional because primary PDF price parsing failed despite an exact-treatment secondary listing.",
+  "rules": [
+    "Use exact-plan primary evidence whenever accessible.",
+    "Do not synthesize a total from component fee tables.",
+    "Do not rank component, ancillary, storage, cancellation or provisional secondary-source prices.",
+    "Preserve explicit treatment options and tax labels."
+  ],
+  "records": [
+    {
+      "code": "01C2402046",
+      "facility": "医療法人社団紘朗会 麻布皮フ科クリニック",
+      "status": "READY",
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2402046/5/0",
+      "evidence_level": "MHLW_EXACT_PLAN",
+      "rows": [
+        {
+          "amount": "1350000",
+          "tax": "税込",
+          "unit": "片側・0.5億個",
+          "label": "細胞移植費用",
+          "price_type": "treatment",
+          "ranking_eligible": true
+        },
+        {
+          "amount": "2700000",
+          "tax": "税込",
+          "unit": "両側・0.5億個ずつ",
+          "label": "細胞移植費用",
+          "price_type": "treatment",
+          "ranking_eligible": true
+        }
+      ],
+      "note": "脂肪採取費150,000/300,000円と保管費は構成・付随費用としてランキング対象外。"
+    },
+    {
+      "code": "01C2602040",
+      "facility": "新橋DAYクリニック",
+      "status": "REVIEW_COMPLEX_COMPONENTS",
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2602040/5/0",
+      "evidence_level": "MHLW_EXACT_PLAN",
+      "rows": [
+        {
+          "amount": "15000",
+          "tax": "税別",
+          "unit": "",
+          "label": "相談・初診料",
+          "price_type": "component",
+          "ranking_eligible": false
+        },
+        {
+          "amount": "35000",
+          "tax": "税別",
+          "unit": "",
+          "label": "検査費用等",
+          "price_type": "component",
+          "ranking_eligible": false
+        },
+        {
+          "amount": "150000",
+          "tax": "税別",
+          "unit": "",
+          "label": "脂肪採取費用",
+          "price_type": "component",
+          "ranking_eligible": false
+        },
+        {
+          "amount": "1700000",
+          "tax": "税別",
+          "unit": "1億個",
+          "label": "培養費用",
+          "price_type": "component",
+          "ranking_eligible": false
+        },
+        {
+          "amount": "2200000",
+          "tax": "税別",
+          "unit": "2億個",
+          "label": "培養費用",
+          "price_type": "component",
+          "ranking_eligible": false
+        },
+        {
+          "amount": "250000",
+          "tax": "税別",
+          "unit": "1か所",
+          "label": "関節局所投与手技料・治療管理料",
+          "price_type": "component",
+          "ranking_eligible": false
+        },
+        {
+          "amount": "500000",
+          "tax": "税別",
+          "unit": "複数",
+          "label": "関節局所投与手技料・治療管理料",
+          "price_type": "component",
+          "ranking_eligible": false
+        }
+      ],
+      "note": "別紙治療費は構成費の組合せ。総額を推算せず、そのまま構造化してランキング除外。"
+    },
+    {
+      "code": "01C2203013",
+      "facility": "日本大学医学部附属板橋病院",
+      "status": "READY",
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2203013/5/0",
+      "evidence_level": "MHLW_EXACT_PLAN_INDEXED",
+      "rows": [
+        {
+          "amount": "40000",
+          "tax": "税別",
+          "unit": "1回",
+          "label": "PRP治療費用",
+          "price_type": "treatment",
+          "ranking_eligible": true
+        }
+      ],
+      "note": "厚労省公開PDFの検索インデックスで40,000円および税別表記を確認。学生価格35,000円は通常価格ランキングから除外。"
+    },
+    {
+      "code": "01C2409023",
+      "facility": "日本大学病院",
+      "status": "READY",
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409023/5/0",
+      "evidence_level": "MHLW_EXACT_PLAN",
+      "rows": [
+        {
+          "amount": "40000",
+          "tax": "税別",
+          "unit": "採血15ml・PRP4ml",
+          "label": "関節内PRP治療費",
+          "price_type": "treatment",
+          "ranking_eligible": true
+        }
+      ],
+      "note": "学生価格35,000円は通常価格ランキングから除外。"
+    },
+    {
+      "code": "01C2409024",
+      "facility": "日本大学病院",
+      "status": "READY",
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2409024/5/0",
+      "evidence_level": "MHLW_EXACT_PLAN",
+      "rows": [
+        {
+          "amount": "40000",
+          "tax": "税別",
+          "unit": "採血15ml・PRP4ml",
+          "label": "関節外PRP治療費",
+          "price_type": "treatment",
+          "ranking_eligible": true
+        }
+      ],
+      "note": "初診料・再診料は別途で付随費用。学生価格35,000円は通常価格ランキングから除外。"
+    },
+    {
+      "code": "03C2601047",
+      "facility": "銀座よしえクリニック都立大院",
+      "status": "READY",
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03C2601047/5/0",
+      "evidence_level": "MHLW_EXACT_PLAN",
+      "rows": [
+        {
+          "amount": "2200000",
+          "tax": "税込",
+          "unit": "初回",
+          "label": "ADSC関節治療",
+          "price_type": "treatment",
+          "ranking_eligible": true
+        },
+        {
+          "amount": "1650000",
+          "tax": "税込",
+          "unit": "2回目以降",
+          "label": "ADSC関節治療",
+          "price_type": "treatment",
+          "ranking_eligible": true
+        }
+      ],
+      "note": "診察・検査・再診・患部処置・細胞保管費は治療価格行から除外。"
+    },
+    {
+      "code": "01C2302046",
+      "facility": "陽だまりクリニック 六本木院",
+      "status": "REVIEW_SECONDARY_SOURCE",
+      "evidence": "https://regene-m.jp/25976/",
+      "primary_evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2302046/5/0",
+      "evidence_level": "SECONDARY_EXACT_TREATMENT_MATCH_PRIMARY_PDF_PARSE_FAILED",
+      "rows": [
+        {
+          "amount": "200000",
+          "tax": "税込",
+          "unit": "15mL",
+          "label": "PRP筋・腱・靭帯等治療",
+          "price_type": "provisional",
+          "ranking_eligible": false
+        }
+      ],
+      "note": "同一施設・同一治療名の参考費用として20万円税込を確認。厚労省PDF本文の価格箇所を直接再取得できるまでランキング対象外。"
+    },
+    {
+      "code": "03E2607012",
+      "facility": "長浜赤十字病院",
+      "status": "READY",
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03E2607012/5/0",
+      "evidence_level": "MHLW_EXACT_PLAN",
+      "rows": [
+        {
+          "amount": "330000",
+          "tax": "税込",
+          "unit": "一連につき",
+          "label": "治療費",
+          "price_type": "treatment",
+          "ranking_eligible": true
+        }
+      ],
+      "note": "当日撤回時の診察料1,100円は付随費用として除外。"
+    },
+    {
+      "code": "03G2506011",
+      "facility": "社会医療法人 令和会 熊本リハビリテーション病院",
+      "status": "READY",
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/03G2506011/5/0",
+      "evidence_level": "MHLW_EXACT_PLAN",
+      "rows": [
+        {
+          "amount": "1600000",
+          "tax": "税別",
+          "unit": "片側",
+          "label": "ADRCs膝関節治療",
+          "price_type": "treatment",
+          "ranking_eligible": true
+        },
+        {
+          "amount": "1800000",
+          "tax": "税別",
+          "unit": "両側",
+          "label": "ADRCs膝関節治療",
+          "price_type": "treatment",
+          "ranking_eligible": true
+        }
+      ],
+      "note": "文書は『片側160万円・両側180万円（別途消費税）』と記載。"
+    },
+    {
+      "code": "02C2504042",
+      "facility": "医療法人社団快晴会 田奈整形外科・外科",
+      "status": "READY",
+      "evidence": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02C2504042/5/0",
+      "evidence_level": "MHLW_EXACT_PLAN",
+      "rows": [
+        {
+          "amount": "1080000",
+          "tax": "税別",
+          "unit": "治療1回目・1部位",
+          "label": "ASC関節治療",
+          "price_type": "treatment",
+          "ranking_eligible": true
+        },
+        {
+          "amount": "270000",
+          "tax": "税別",
+          "unit": "治療2回目・1部位",
+          "label": "ASC関節治療",
+          "price_type": "treatment",
+          "ranking_eligible": true
+        }
+      ],
+      "note": "2部位以上は各回とも1部位追加ごと180,000円税別。1年経過後の継続費54,000円税別およびキャンセル費はランキング対象外。"
+    }
+  ],
+  "next_step": "Continue bounded auto-price staging. Before final v42 publication, re-confirm 01C2302046 from a primary source and decide presentation rules for 01C2602040 complex component pricing."
+}
