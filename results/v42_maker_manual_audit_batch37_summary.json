@@ -1,0 +1,21 @@
+{
+  "version": "v42-maker-manual-audit-batch-37",
+  "date_jst": "2026-09-20",
+  "audited_facilities": 10,
+  "confirmed_new_facilities": 1,
+  "confirmed_new_manufacturer_placements": 1,
+  "holds": 9,
+  "confirmed_by_manufacturer": {
+    "Zimmer Biomet": 1
+  },
+  "canonical_merge_deferred": true,
+  "canonical_rebuild_performed": false,
+  "provisional_after_future_merge": {
+    "manufacturer_known_facilities": 475,
+    "facility_universe": 949,
+    "manufacturer_known_rate_pct": 50.05,
+    "manufacturer_placements": 576,
+    "Zimmer Biomet": 252
+  },
+  "note": "Batch 37 processed 10 facilities. Only Kasai Ekimae Aozora Orthopedic Clinic yielded a current explicit manufacturer-resolvable product (APS -> Zimmer Biomet). Canonical merge remains deferred until 3 ten-facility batches / 30 facilities."
+}
