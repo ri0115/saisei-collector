@@ -1,0 +1,29 @@
+{
+  "version": "v42-maker-manual-audit-batch-14",
+  "date_jst": "2026-09-19",
+  "baseline_before_batch13": 403,
+  "batch13_confirmed_new_facilities": 15,
+  "facilities_audited": 15,
+  "v40_core_confirmed": 15,
+  "confirmed_new_facilities": 15,
+  "confirmed_new_manufacturer_placements": 16,
+  "confirmed_by_manufacturer": {
+    "Arthrex": 8,
+    "Zimmer Biomet": 8
+  },
+  "dual_manufacturer_facilities": [
+    "整形外科センター西能クリニック"
+  ],
+  "expected_canonical_after_batch13_and_14": {
+    "manufacturer_known_facilities": 433,
+    "manufacturer_known_rate_pct": 45.63,
+    "manufacturer_placements": 515,
+    "Zimmer Biomet": 232,
+    "Arthrex": 188
+  },
+  "policy": [
+    "Core membership verified against the actual v40 workbook facility master.",
+    "Current manufacturer-operated locator and address agreement required for these additions.",
+    "Dual manufacturer placement retained when both current manufacturer locators independently match the same core facility."
+  ]
+}
