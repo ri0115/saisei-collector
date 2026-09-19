@@ -1,0 +1,64 @@
+{
+  "version": "v42-merge-audit-stage02b-core-scope-review",
+  "scope": "union_not_in_current_core latter 6 of 12",
+  "reviewed_count": 6,
+  "keep_core": 5,
+  "move_to_audit_only": 1,
+  "records": [
+    {
+      "code": "02E2312001",
+      "facility": "医療法人社団貴順会 吉川病院",
+      "decision": "KEEP_CORE",
+      "reason": "Exact treatment is stem-cell therapy for osteonecrosis, a musculoskeletal/orthopedic disease; current committee record confirms ongoing plan review.",
+      "evidence": "https://saiseiiryo.mhlw.go.jp/disclosed_committee/history/NA8160006"
+    },
+    {
+      "code": "02E2605005",
+      "facility": "医療法人香華会 Re:Born Clinic 大阪院",
+      "decision": "KEEP_CORE",
+      "reason": "Current official site explicitly places chronic pain under the Orthopedics section and lists musculoskeletal pain locations including low back, knee, neck and shoulder.",
+      "evidence": "https://rebornclinic-osaka.com/chronicpain/",
+      "note": "Keep despite broad chronic-pain plan title."
+    },
+    {
+      "code": "02G2602002",
+      "facility": "社会医療法人友愛会 友愛医療センター",
+      "decision": "KEEP_CORE",
+      "reason": "Current official advanced-medicine center explicitly labels the PRP therapy for muscle/tendon/ligament injuries as orthopedic self-pay treatment.",
+      "evidence": "https://ymc.yuuai.or.jp/department/healthcare-professionals/regenerative-medicine/"
+    },
+    {
+      "code": "03E2406027",
+      "facility": "慈恵医院",
+      "decision": "AUDIT_ONLY",
+      "reason": "The exact chronic-pain plan is generic and no current official evidence was found tying this specific plan to orthopedic/MSK indications. The institution's separate osteoarthritis plan is not sufficient for plan-level inclusion.",
+      "evidence": "https://saiseiiryo.mhlw.go.jp/disclosed_committee/history/NA8200001",
+      "note": "Preserve record in audit-only sheet; do not delete."
+    },
+    {
+      "code": "03E2409017",
+      "facility": "医療法人社団弘道会 第2西原クリニック",
+      "decision": "KEEP_CORE",
+      "reason": "Current official clinic site includes orthopedics and regenerative medicine, and committee records confirm chronic-pain and osteoarthritis stem-cell plans at the same current facility.",
+      "evidence": "https://www.nishihara-clinic.com/",
+      "note": "Same physical facility/address lineage as the former 野間総合診療クリニック record; retain alias history."
+    },
+    {
+      "code": "03G2506010",
+      "facility": "社会医療法人令和会 熊本リハビリテーション病院",
+      "decision": "KEEP_CORE",
+      "reason": "Current official regenerative-medicine center explicitly lists knee osteoarthritis among its regenerative-medicine target diseases; plan is ADRCs treatment for knee OA.",
+      "evidence": "https://kumareha.net/saiseiiryou_about/"
+    }
+  ],
+  "combined_stage02_summary": {
+    "reviewed_total": 12,
+    "keep_core_total": 10,
+    "audit_only_total": 2,
+    "audit_only_codes": [
+      "01E2502020",
+      "03E2406027"
+    ]
+  },
+  "next_step": "Recalculate the v42 core plan universe after removing the two audit-only broad chronic-pain plans, then begin price merge in bounded chunks."
+}
