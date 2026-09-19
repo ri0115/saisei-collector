@@ -1485,6 +1485,25 @@
           "note": "公式サイト治療費用：1回 3,300,000円（税込）"
         }
       ]
+    },
+    "V41_02E2602002": {
+      "facility": "大阪梅田セルクリニック",
+      "source_type": "mhlw_current_document_extracted",
+      "source_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2602002/5/0",
+      "prices": [
+        {
+          "amount": 1320000,
+          "tax": "税込",
+          "unit": "1部位・幹細胞5,000万〜1億個移植",
+          "product": "脂肪由来幹細胞"
+        },
+        {
+          "amount": 1540000,
+          "tax": "税込",
+          "unit": "2部位・幹細胞5,000万〜1億個移植",
+          "product": "脂肪由来幹細胞"
+        }
+      ]
     }
   },
   "updated_at": "2026-09-19"
