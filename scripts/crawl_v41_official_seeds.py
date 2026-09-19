@@ -162,6 +162,19 @@ def extract(text,tclass,treatment=""):
     out.sort(key=lambda x:(-x["score"],x["amount"]))
     return out[:20]
 
+def detect_no_public_price(text,tclass,treatment=""):
+    t=norm(text)
+    target,target_kind=target_regex(tclass,treatment)
+    lines=[re.sub(r"\s+"," ",x).strip() for x in t.splitlines() if x.strip()]
+    hits=[]
+    for i,line in enumerate(lines):
+        near=" ".join(lines[max(0,i-2):min(len(lines),i+3)])
+        if not target.search(near):
+            continue
+        if re.search(r"料金|費用|価格",near,re.I) and re.search(r"お問い合わせ|問合せ|要相談|診察時.*説明|個別.*案内",near,re.I):
+            hits.append(near[:500])
+    return list(dict.fromkeys(hits))[:5]
+
 def crawl_seed(s,byfac):
     fid=s["facility_id"]; plans=byfac.get(fid,[])
     rec={"facility_id":fid,"facility":s["facility"],"seed_url":s["url"],"pages":[],"plans":[]}
@@ -186,11 +199,14 @@ def crawl_seed(s,byfac):
             rec["pages"].append({"url":u,"chars":len(txt)})
         for p in plans:
             cand=[]
+            no_public=[]
             for u,txt in uniq:
                 for cc in extract(txt,p.get("treatment_class"),p.get("treatment","")):
                     z={**cc,"source_url":u}
                     z["combined_score"]=cc["score"]
                     cand.append(z)
+                for hit in detect_no_public_price(txt,p.get("treatment_class"),p.get("treatment","")):
+                    no_public.append({"source_url":u,"evidence":hit})
             ded=[];ks=set()
             for cc in sorted(cand,key=lambda z:(-z["combined_score"],z["amount"])):
                 k=(cc["amount"],cc["source_url"],cc["line"])
@@ -198,7 +214,8 @@ def crawl_seed(s,byfac):
                 ks.add(k);ded.append(cc)
             rec["plans"].append({
                 "plan_id":p["plan_id"],"treatment_class":p.get("treatment_class"),
-                "treatment":p.get("treatment"),"candidates":ded[:15]
+                "treatment":p.get("treatment"),"candidates":ded[:15],
+                "no_public_price_evidence":no_public[:5]
             })
     except Exception as e:
         rec["error"]=f"{type(e).__name__}: {e}"
@@ -223,7 +240,7 @@ def main():
 
     order={s["facility_id"]:i for i,s in enumerate(seeds["items"])}
     results.sort(key=lambda r:order.get(r.get("facility_id"),999999))
-    out={"version":"v41-seed-crawl-1.1","total_facilities":len(results),"results":results}
+    out={"version":"v41-seed-crawl-1.2","total_facilities":len(results),"results":results}
     Path("results/v41_official_seed_crawl.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
     print(json.dumps({
       "facilities":len(results),
