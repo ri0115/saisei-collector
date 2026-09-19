@@ -69,26 +69,34 @@
     "MyCells": {
       "canonical_product": "Mycells PRP Kit",
       "manufacturer_share_group": "ESTAR Technologies",
-      "legal_manufacturer": "ESTAR Technologies Ltd.",
-      "japan_mah_or_supplier": "ディーマー・メディカル・ジャパン",
-      "evidence_level": "PMDA",
-      "evidence_url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/150176_30400BZX00169000_A_01_03"
+      "legal_manufacturer": "ESTAR TECHNOLOGIES LTD.",
+      "japan_mah_or_supplier": "ディーマー・メディカル・ジャパン株式会社",
+      "evidence_level": "PMDA_CURRENT",
+      "evidence_url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/150176_30400BZX00169000_A_01_03",
+      "distributor": "株式会社ベリタス",
+      "facility_document_labels": [
+        "Kaylight",
+        "Kay-Light Ltd.",
+        "Kaylight社"
+      ],
+      "note": "Some facility/MHLW documents label MyCells as Kaylight製; current PMDA labeling lists ESTAR TECHNOLOGIES LTD. as manufacturer and ディーマー・メディカル・ジャパン株式会社 as MAH."
     },
     "TriCeLL": {
       "canonical_product": "TriCeLL PRP分離・濃縮キット",
-      "manufacturer_share_group": "メッド・アライアンス",
-      "legal_manufacturer": "",
-      "japan_mah_or_supplier": "メッド・アライアンス",
-      "evidence_level": "MHLW_JRCT",
-      "evidence_url": "https://jrct.mhlw.go.jp/latest-detail/jRCTc030230395"
+      "manufacturer_share_group": "REV-MED",
+      "legal_manufacturer": "REV-MED Inc.",
+      "japan_mah_or_supplier": "メッド・アライアンス株式会社",
+      "evidence_level": "JRCT_PMDA_REV-MED",
+      "evidence_url": "https://jrct.mhlw.go.jp/latest-detail/jRCTc030230395",
+      "secondary_evidence_url": "https://en.rev-med.co.kr/certifications"
     },
     "MAGELLAN": {
       "canonical_product": "MAGELLAN System",
-      "manufacturer_share_group": "HI-LEX medical",
-      "legal_manufacturer": "",
-      "japan_mah_or_supplier": "HI-LEX medical",
-      "evidence_level": "MAH_OFFICIAL",
-      "evidence_url": "https://www.hi-lexmed.com/magellan/"
+      "manufacturer_share_group": "Arteriocyte Medical Systems",
+      "legal_manufacturer": "Arteriocyte Medical Systems, Inc.",
+      "japan_mah_or_supplier": "株式会社ハイレックスメディカル",
+      "evidence_level": "MAH_OFFICIAL_CATALOG",
+      "evidence_url": "https://www.hi-lexmed.com/_files/ugd/4c8a52_86cbb95aa9ce4bf7ac0faea9c9996f61.pdf"
     },
     "PEAK": {
       "canonical_product": "PEAK Platelet Rich Plasma System / PRP System",
