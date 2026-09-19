@@ -355,6 +355,30 @@
       "facility": "医療法人輝鳳会 池袋クリニック",
       "url": "https://ganno-clinic.jp/",
       "source": "web_verified_group_site"
+    },
+    {
+      "facility_id": "V41F04A1DFA892",
+      "facility": "医療法人かつの整形外科・リハビリテーション科",
+      "url": "https://katsunoseikei.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41FD15C5E30AC",
+      "facility": "医療法人野球医学ベースボール＆スポーツクリニック",
+      "url": "https://baseball-sports.clinic/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F1F85F83ADF",
+      "facility": "藤沢整形外科クリニック",
+      "url": "https://eishinkai-fujisawa.com/",
+      "source": "web_verified"
+    },
+    {
+      "facility_id": "V41F62C99AB377",
+      "facility": "医療法人颯成会 さいとう整形クリニック",
+      "url": "https://saitouseikei.com/",
+      "source": "web_verified"
     }
   ],
   "updated_at": "2026-09-19",
