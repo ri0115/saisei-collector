@@ -1,0 +1,110 @@
+{
+  "version": "2026-09-19",
+  "policy": {
+    "purpose": "Canonical product/company mapping for manufacturer and market-supplier analysis.",
+    "manufacturer_share_field": "manufacturer_share_group",
+    "rules": [
+      "Prefer current regulatory or manufacturer primary sources.",
+      "Keep legal/foreign manufacturer separate from Japan MAH/distributor when they differ.",
+      "Facility assignment still requires exact-plan or exact-facility evidence that the product is actually used."
+    ]
+  },
+  "products": {
+    "GPS": {
+      "canonical_product": "GPS III",
+      "manufacturer_share_group": "Zimmer Biomet",
+      "legal_manufacturer": "Zimmer Biomet",
+      "japan_mah_or_supplier": "Zimmer Biomet",
+      "evidence_level": "MHLW_EXPLICIT",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2207005/5/0"
+    },
+    "APS": {
+      "canonical_product": "APS Kit",
+      "manufacturer_share_group": "Zimmer Biomet",
+      "legal_manufacturer": "Zimmer Biomet",
+      "japan_mah_or_supplier": "Zimmer Biomet",
+      "evidence_level": "MHLW_EXPLICIT",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/02E2207005/5/0"
+    },
+    "ACP": {
+      "canonical_product": "Arthrex ACP Double Syringe System",
+      "manufacturer_share_group": "Arthrex",
+      "legal_manufacturer": "Arthrex",
+      "japan_mah_or_supplier": "Arthrex Japan",
+      "evidence_level": "MANUFACTURER_OFFICIAL",
+      "evidence_url": "https://www.arthrex.co.jp/resources/webpage/acp_prp/"
+    },
+    "ACP MAX": {
+      "canonical_product": "ACP MAX PRP System",
+      "manufacturer_share_group": "Arthrex",
+      "legal_manufacturer": "Arthrex",
+      "japan_mah_or_supplier": "Arthrex Japan",
+      "evidence_level": "MANUFACTURER_OFFICIAL",
+      "evidence_url": "https://www.arthrex.co.jp/resources/webpage/acp_prp/"
+    },
+    "Angel": {
+      "canonical_product": "Angel cPRP System",
+      "manufacturer_share_group": "Arthrex",
+      "legal_manufacturer": "Arthrex",
+      "japan_mah_or_supplier": "Arthrex Japan",
+      "evidence_level": "MANUFACTURER_OFFICIAL",
+      "evidence_url": "https://www.arthrex.co.jp/resources/webpage/acp_prp/"
+    },
+    "Condensia": {
+      "canonical_product": "Condensia System",
+      "manufacturer_share_group": "京セラ",
+      "legal_manufacturer": "京セラ",
+      "japan_mah_or_supplier": "京セラ",
+      "evidence_level": "MHLW_EXPLICIT",
+      "evidence_url": "https://saiseiiryo.mhlw.go.jp/published_plan/download/01C2510050/5/0"
+    },
+    "PRGF-Endoret": {
+      "canonical_product": "PRGF-Endoret",
+      "manufacturer_share_group": "BTI",
+      "legal_manufacturer": "BTI Biotechnology Institute",
+      "japan_mah_or_supplier": "BTIジャパン",
+      "evidence_level": "MANUFACTURER_OFFICIAL",
+      "evidence_url": "https://www.bti-japan.com/prgf/"
+    },
+    "MyCells": {
+      "canonical_product": "Mycells PRP Kit",
+      "manufacturer_share_group": "ESTAR Technologies",
+      "legal_manufacturer": "ESTAR Technologies Ltd.",
+      "japan_mah_or_supplier": "ディーマー・メディカル・ジャパン",
+      "evidence_level": "PMDA",
+      "evidence_url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/150176_30400BZX00169000_A_01_03"
+    },
+    "TriCeLL": {
+      "canonical_product": "TriCeLL PRP分離・濃縮キット",
+      "manufacturer_share_group": "メッド・アライアンス",
+      "legal_manufacturer": "",
+      "japan_mah_or_supplier": "メッド・アライアンス",
+      "evidence_level": "MHLW_JRCT",
+      "evidence_url": "https://jrct.mhlw.go.jp/latest-detail/jRCTc030230395"
+    },
+    "MAGELLAN": {
+      "canonical_product": "MAGELLAN System",
+      "manufacturer_share_group": "HI-LEX medical",
+      "legal_manufacturer": "",
+      "japan_mah_or_supplier": "HI-LEX medical",
+      "evidence_level": "MAH_OFFICIAL",
+      "evidence_url": "https://www.hi-lexmed.com/magellan/"
+    },
+    "PEAK": {
+      "canonical_product": "PEAK Platelet Rich Plasma System / PRP System",
+      "manufacturer_share_group": "DSM Biomedical",
+      "legal_manufacturer": "DSM Biomedical",
+      "japan_mah_or_supplier": "Johnson & Johnson / DePuy Synthes",
+      "evidence_level": "PMDA",
+      "evidence_url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/290035_23100BZI00005000_A_01_07"
+    },
+    "YCELL": {
+      "canonical_product": "YCELLBIO PRP Kit",
+      "manufacturer_share_group": "Ycellbio Medical",
+      "legal_manufacturer": "Ycellbio Medical Co., Ltd",
+      "japan_mah_or_supplier": "",
+      "evidence_level": "MANUFACTURER_OFFICIAL",
+      "evidence_url": "https://www.ycellbio.com/prp"
+    }
+  }
+}
